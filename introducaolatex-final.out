@@ -1,0 +1,67 @@
+\BOOKMARK [0][-]{chapter.1}{Introdução}{}% 1
+\BOOKMARK [1][-]{section.1.1}{O que é TeX?}{chapter.1}% 2
+\BOOKMARK [1][-]{section.1.2}{Por\040que\040usar\040o\040LaTeX?}{chapter.1}% 3
+\BOOKMARK [1][-]{section.1.3}{Como\040o\040LaTeX\040funciona}{chapter.1}% 4
+\BOOKMARK [1][-]{section.1.4}{Instalando o programa \(uma ``distribuição"\)}{chapter.1}% 5
+\BOOKMARK [1][-]{section.1.5}{Instalando\040um\040editor\040de\040textos}{chapter.1}% 6
+\BOOKMARK [0][-]{chapter.2}{Criando um texto básico}{}% 7
+\BOOKMARK [1][-]{section.2.1}{Comandos}{chapter.2}% 8
+\BOOKMARK [1][-]{section.2.2}{Ambientes\040LaTeX}{chapter.2}% 9
+\BOOKMARK [1][-]{section.2.3}{Caracteres\040especiais}{chapter.2}% 10
+\BOOKMARK [1][-]{section.2.4}{Comentários}{chapter.2}% 11
+\BOOKMARK [1][-]{section.2.5}{Espaços, acentos e pontuação}{chapter.2}% 12
+\BOOKMARK [1][-]{section.2.6}{Classes\040de\040documentos}{chapter.2}% 13
+\BOOKMARK [1][-]{section.2.7}{Pacotes}{chapter.2}% 14
+\BOOKMARK [0][-]{chapter.3}{A\040estrutura\040do\040documento}{}% 15
+\BOOKMARK [1][-]{section.3.1}{O\040ambiente\040document}{chapter.3}% 16
+\BOOKMARK [1][-]{section.3.2}{Preâmbulo}{chapter.3}% 17
+\BOOKMARK [1][-]{section.3.3}{O cabeçalho}{chapter.3}% 18
+\BOOKMARK [1][-]{section.3.4}{Abstract/Resumo}{chapter.3}% 19
+\BOOKMARK [1][-]{section.3.5}{Comandos de seção}{chapter.3}% 20
+\BOOKMARK [2][-]{subsection.3.5.1}{Numeração de seções}{section.3.5}% 21
+\BOOKMARK [1][-]{section.3.6}{Apêndices}{chapter.3}% 22
+\BOOKMARK [1][-]{section.3.7}{Sumário}{chapter.3}% 23
+\BOOKMARK [1][-]{section.3.8}{Bibliografia}{chapter.3}% 24
+\BOOKMARK [0][-]{chapter.4}{Tabelas}{}% 25
+\BOOKMARK [1][-]{section.4.1}{Tabelas\040longas}{chapter.4}% 26
+\BOOKMARK [0][-]{chapter.5}{Formatação}{}% 27
+\BOOKMARK [1][-]{section.5.1}{Listas}{chapter.5}% 28
+\BOOKMARK [2][-]{subsection.5.1.1}{Itemizar}{section.5.1}% 29
+\BOOKMARK [2][-]{subsection.5.1.2}{Enumeração}{section.5.1}% 30
+\BOOKMARK [2][-]{subsection.5.1.3}{Descrição}{section.5.1}% 31
+\BOOKMARK [2][-]{subsection.5.1.4}{Listas\040aninhadas\040\(listas\040dentro\040de\040listas\)}{section.5.1}% 32
+\BOOKMARK [2][-]{subsection.5.1.5}{Listas em múltiplas colunas}{section.5.1}% 33
+\BOOKMARK [1][-]{section.5.2}{Hifenização}{chapter.5}% 34
+\BOOKMARK [1][-]{section.5.3}{Aspas}{chapter.5}% 35
+\BOOKMARK [1][-]{section.5.4}{Travessão, hífen, meia-risca}{chapter.5}% 36
+\BOOKMARK [1][-]{section.5.5}{Espaço entre palavras e frases}{chapter.5}% 37
+\BOOKMARK [1][-]{section.5.6}{Enfatizando\040texto}{chapter.5}% 38
+\BOOKMARK [1][-]{section.5.7}{Estilos\040de\040fonte}{chapter.5}% 39
+\BOOKMARK [1][-]{section.5.8}{Tamanho\040de\040fonte}{chapter.5}% 40
+\BOOKMARK [1][-]{section.5.9}{Sobrescrito\040e\040subscrito}{chapter.5}% 41
+\BOOKMARK [1][-]{section.5.10}{Símbolos}{chapter.5}% 42
+\BOOKMARK [1][-]{section.5.11}{Formatação de parágrafos}{chapter.5}% 43
+\BOOKMARK [1][-]{section.5.12}{Inserção de hiperlinks}{chapter.5}% 44
+\BOOKMARK [1][-]{section.5.13}{Citando\040textos}{chapter.5}% 45
+\BOOKMARK [1][-]{section.5.14}{Notas de rodapé}{chapter.5}% 46
+\BOOKMARK [1][-]{section.5.15}{Cabeçalhos}{chapter.5}% 47
+\BOOKMARK [1][-]{section.5.16}{Modo matemático}{chapter.5}% 48
+\BOOKMARK [0][-]{chapter.6}{Figuras}{}% 49
+\BOOKMARK [1][-]{section.6.1}{Incluindo\040imagens}{chapter.6}% 50
+\BOOKMARK [1][-]{section.6.2}{Onde\040guardar\040as\040imagens\040do\040seu\040texto}{chapter.6}% 51
+\BOOKMARK [1][-]{section.6.3}{Exemplos}{chapter.6}% 52
+\BOOKMARK [1][-]{section.6.4}{Imagens\040como\040figuras}{chapter.6}% 53
+\BOOKMARK [1][-]{section.6.5}{Rótulos ao lado da figura \(side captions\)}{chapter.6}% 54
+\BOOKMARK [1][-]{section.6.6}{Figuras\040dentro\040de\040figuras\040\(subfloats\)}{chapter.6}% 55
+\BOOKMARK [1][-]{section.6.7}{Figuras\040lado-a-lado}{chapter.6}% 56
+\BOOKMARK [1][-]{section.6.8}{Figuras com o tamanho da página em textos de duas colunas}{chapter.6}% 57
+\BOOKMARK [0][-]{chapter.7}{Referências}{}% 58
+\BOOKMARK [1][-]{section.7.1}{Referências cruzadas}{chapter.7}% 59
+\BOOKMARK [1][-]{section.7.2}{Hyperlinks}{chapter.7}% 60
+\BOOKMARK [0][-]{chapter.8}{Cores}{}% 61
+\BOOKMARK [0][-]{chapter.9}{Fontes}{}% 62
+\BOOKMARK [1][-]{section.9.1}{O\040pacote\040fontspec}{chapter.9}% 63
+\BOOKMARK [0][-]{chapter.10}{Idiomas}{}% 64
+\BOOKMARK [1][-]{section.10.1}{Alfabetos não latinos e escritas não ocidentais}{chapter.10}% 65
+\BOOKMARK [0][-]{chapter.11}{Outros\040recursos}{}% 66
+\BOOKMARK [-1][-]{section*.4}{Apêndices}{}% 67

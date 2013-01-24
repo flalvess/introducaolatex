@@ -1,0 +1,74 @@
+\select@language {brazil}
+\contentsline {chapter}{Introdução}{11}{chapter*.5}
+\contentsline {section}{O que é TeX?}{11}{section*.6}
+\contentsline {section}{Por que usar o \LaTeX ?}{11}{section*.7}
+\contentsline {section}{Como o \LaTeX {} funciona}{12}{section*.8}
+\contentsline {section}{Instalando o programa (uma ``distribuição")}{13}{section*.9}
+\contentsline {section}{Instalando um editor de textos}{13}{section*.10}
+\contentsline {chapter}{Criando um texto básico}{15}{chapter*.11}
+\contentsline {section}{Comandos}{16}{section*.12}
+\contentsline {section}{Ambientes \LaTeX }{16}{section*.13}
+\contentsline {section}{Caracteres especiais}{17}{section*.14}
+\contentsline {section}{Comentários}{17}{section*.15}
+\contentsline {section}{Espaços, acentos e pontuação}{17}{section*.16}
+\contentsline {section}{Classes de documentos}{17}{section*.17}
+\contentsline {section}{Pacotes}{18}{section*.18}
+\contentsline {chapter}{A estrutura do documento}{21}{chapter*.19}
+\contentsline {section}{O ambiente \texttt {document}}{21}{section*.20}
+\contentsline {section}{Preâmbulo}{21}{section*.21}
+\contentsline {section}{O cabeçalho}{22}{section*.22}
+\contentsline {section}{Abstract/Resumo}{23}{section*.23}
+\contentsline {section}{Comandos de seção}{24}{section*.24}
+\contentsline {subsection}{Numeração de seções}{25}{subsection*.25}
+\contentsline {section}{Apêndices}{25}{section*.26}
+\contentsline {section}{Sumário}{25}{section*.27}
+\contentsline {section}{Bibliografia}{25}{section*.28}
+\contentsline {chapter}{Tabelas}{27}{chapter*.29}
+\contentsline {section}{Tabelas longas}{27}{section*.30}
+\contentsline {chapter}{Formatação}{29}{chapter*.31}
+\contentsline {section}{Listas}{29}{section*.32}
+\contentsline {subsection}{Itemizar}{29}{subsection*.33}
+\contentsline {subsection}{Enumeração}{29}{subsection*.34}
+\contentsline {subsection}{Descrição}{30}{subsection*.35}
+\contentsline {subsection}{Listas aninhadas (listas dentro de listas)}{30}{subsection*.36}
+\contentsline {subsection}{Listas em múltiplas colunas}{31}{subsection*.37}
+\contentsline {section}{Hifenização}{31}{section*.38}
+\contentsline {section}{Aspas}{32}{section*.39}
+\contentsline {section}{Travessão, hífen, meia-risca}{32}{section*.40}
+\contentsline {section}{Espaço entre palavras e frases}{32}{section*.41}
+\contentsline {section}{Enfatizando texto}{33}{section*.42}
+\contentsline {section}{Estilos de fonte}{33}{section*.43}
+\contentsline {section}{Tamanho de fonte}{33}{section*.44}
+\contentsline {section}{Sobrescrito e subscrito}{34}{section*.45}
+\contentsline {section}{Símbolos}{34}{section*.46}
+\contentsline {section}{Formatação de parágrafos}{34}{section*.47}
+\contentsline {section}{Inserção de hiperlinks}{36}{section*.48}
+\contentsline {section}{Citando textos}{37}{section*.49}
+\contentsline {section}{Notas de rodapé}{37}{section*.50}
+\contentsline {section}{Cabeçalhos}{37}{section*.51}
+\contentsline {section}{Modo matemático}{37}{section*.52}
+\contentsline {chapter}{Figuras}{39}{chapter*.53}
+\contentsline {section}{Incluindo imagens}{39}{section*.54}
+\contentsline {section}{Onde guardar as imagens do seu texto}{39}{section*.55}
+\contentsline {section}{Exemplos}{39}{section*.56}
+\contentsline {section}{Imagens como figuras}{41}{section*.57}
+\contentsline {section}{Rótulos ao lado da figura (side captions)}{42}{section*.58}
+\contentsline {section}{Figuras dentro de figuras (subfloats)}{43}{section*.59}
+\contentsline {section}{Figuras lado-a-lado}{44}{section*.60}
+\select@language {english}
+\select@language {brazil}
+\contentsline {section}{Figuras com o tamanho da página em textos de duas colunas}{44}{section*.61}
+\contentsline {chapter}{Referências}{45}{chapter*.62}
+\contentsline {section}{Referências cruzadas}{45}{section*.63}
+\contentsline {section}{Hyperlinks}{45}{section*.64}
+\contentsline {chapter}{Cores}{47}{chapter*.65}
+\contentsline {chapter}{Fontes}{49}{chapter*.66}
+\contentsline {section}{O pacote \texttt {fontspec}}{49}{section*.67}
+\contentsline {chapter}{Idiomas}{51}{chapter*.68}
+\contentsline {section}{Alfabetos não latinos e escritas não ocidentais}{52}{section*.69}
+\select@language {russian}
+\select@language {brazil}
+\select@language {greek}
+\select@language {brazil}
+\contentsline {chapter}{Outros recursos}{55}{chapter*.70}
+\contentsfinish 
