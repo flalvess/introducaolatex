@@ -420,6 +420,7 @@ Por exemplo, se quiser escrever um relatório com fonte 12 pontos em A4, em modo
 \end{verbatim}
 
 \section{Pacotes}
+\label{pacotes}
 Ao escrever um documento, você vai perceber que provavelmente há algumas áreas em que o básico não vai resolver seu problema. Se quiser colocar figuras, texto colorido, fontes, personalizar margens, você vai precisar de ``melhorias". Essas melhorias são chamadas de ``pacotes". Eles são ativados com o comando
 
 \begin{verbatim}
@@ -1839,6 +1840,7 @@ Depois temos a definição da fonte serifada, sem serifa (geralmente usada para 
 Claro que você pode (ou deve) substituir o nome das fontes pelas que mais preferir. Com o Adobe Acrobat Reader, vêm as fontes de graça: Minion Pro e Myriad Pro.\footnote{Para Linux, faça o download de: \url{http://www.adobe.com/support/downloads/detail.jsp?ftpID=4426}, extraia e instale. Para Windows, vá até a pasta onde instalou o Reader (Arquivos de Programas), procure as fontes e instale.} Outra fonte interessante é \href{http://scripts.sil.org/cms/scripts/page.php?site\_id=nrsi\&id=Gentium\_download}{Gentium}. 
 
 \chapter{Idiomas}
+\label{idiomas}
 
 Para definir a língua em Latex, usa-se o pacote \texttt{babel} para compilar em \texttt{pdflatex} e o pacote \texttt{polyglossia} para compilar em xelatex. São esses dois pacotes, em cada caso, que definem as línguas.\footnote{Pode-se usar também o pacote \texttt{babel} com \texttt{xelatex}, mas somente para línguas ocidentais.} A mudança de uma língua para a outra afeta coisas que são automáticas no Latex: abstract, títulos de capítulos, sumário, datas, hifenização, etc. Há uma diferença de preâmbulo, de acordo com o caso. 
 
@@ -2038,6 +2040,10 @@ Se você for escrever textos em somente uma dessas línguas, é bem mais simples
 
 
 Mais informações podem ser obtidas com a documentação dos pacotes \texttt{fontspec} e \texttt{po\-ly\-glos\-sia}. 
+
+
+\include{abntex2-latexintro}
+
 
 \chapter{Outros recursos}
 

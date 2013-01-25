@@ -1,74 +1,76 @@
 \select@language {brazil}
-\contentsline {chapter}{\numberline {1}Introdução}{11}{chapter.1}
-\contentsline {section}{\numberline {\relax 1.1}O que é TeX?}{11}{section.1.1}
-\contentsline {section}{\numberline {\relax 1.2}Por que usar o \LaTeX ?}{11}{section.1.2}
-\contentsline {section}{\numberline {\relax 1.3}Como o \LaTeX {} funciona}{12}{section.1.3}
-\contentsline {section}{\numberline {\relax 1.4}Instalando o programa (uma ``distribuição")}{13}{section.1.4}
-\contentsline {section}{\numberline {\relax 1.5}Instalando um editor de textos}{13}{section.1.5}
-\contentsline {chapter}{\numberline {2}Criando um texto básico}{15}{chapter.2}
-\contentsline {section}{\numberline {\relax 2.1}Comandos}{16}{section.2.1}
-\contentsline {section}{\numberline {\relax 2.2}Ambientes \LaTeX }{16}{section.2.2}
-\contentsline {section}{\numberline {\relax 2.3}Caracteres especiais}{17}{section.2.3}
-\contentsline {section}{\numberline {\relax 2.4}Comentários}{17}{section.2.4}
-\contentsline {section}{\numberline {\relax 2.5}Espaços, acentos e pontuação}{17}{section.2.5}
-\contentsline {section}{\numberline {\relax 2.6}Classes de documentos}{18}{section.2.6}
-\contentsline {section}{\numberline {\relax 2.7}Pacotes}{18}{section.2.7}
-\contentsline {chapter}{\numberline {3}A estrutura do documento}{21}{chapter.3}
-\contentsline {section}{\numberline {\relax 3.1}O ambiente \texttt {document}}{21}{section.3.1}
-\contentsline {section}{\numberline {\relax 3.2}Preâmbulo}{21}{section.3.2}
-\contentsline {section}{\numberline {\relax 3.3}O cabeçalho}{22}{section.3.3}
-\contentsline {section}{\numberline {\relax 3.4}Abstract/Resumo}{23}{section.3.4}
-\contentsline {section}{\numberline {\relax 3.5}Comandos de seção}{24}{section.3.5}
-\contentsline {subsection}{\numberline {\relax 3.5.1}Numeração de seções}{25}{subsection.3.5.1}
-\contentsline {section}{\numberline {\relax 3.6}Apêndices}{25}{section.3.6}
-\contentsline {section}{\numberline {\relax 3.7}Sumário}{26}{section.3.7}
-\contentsline {section}{\numberline {\relax 3.8}Bibliografia}{26}{section.3.8}
-\contentsline {chapter}{\numberline {4}Tabelas}{27}{chapter.4}
-\contentsline {section}{\numberline {\relax 4.1}Tabelas longas}{27}{section.4.1}
-\contentsline {chapter}{\numberline {5}Formatação}{31}{chapter.5}
-\contentsline {section}{\numberline {\relax 5.1}Listas}{31}{section.5.1}
-\contentsline {subsection}{\numberline {\relax 5.1.1}Itemizar}{31}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {\relax 5.1.2}Enumeração}{31}{subsection.5.1.2}
-\contentsline {subsection}{\numberline {\relax 5.1.3}Descrição}{31}{subsection.5.1.3}
-\contentsline {subsection}{\numberline {\relax 5.1.4}Listas aninhadas (listas dentro de listas)}{32}{subsection.5.1.4}
-\contentsline {subsection}{\numberline {\relax 5.1.5}Listas em múltiplas colunas}{33}{subsection.5.1.5}
-\contentsline {section}{\numberline {\relax 5.2}Hifenização}{33}{section.5.2}
-\contentsline {section}{\numberline {\relax 5.3}Aspas}{34}{section.5.3}
-\contentsline {section}{\numberline {\relax 5.4}Travessão, hífen, meia-risca}{34}{section.5.4}
-\contentsline {section}{\numberline {\relax 5.5}Espaço entre palavras e frases}{35}{section.5.5}
-\contentsline {section}{\numberline {\relax 5.6}Enfatizando texto}{35}{section.5.6}
-\contentsline {section}{\numberline {\relax 5.7}Estilos de fonte}{35}{section.5.7}
-\contentsline {section}{\numberline {\relax 5.8}Tamanho de fonte}{36}{section.5.8}
-\contentsline {section}{\numberline {\relax 5.9}Sobrescrito e subscrito}{36}{section.5.9}
-\contentsline {section}{\numberline {\relax 5.10}Símbolos}{37}{section.5.10}
-\contentsline {section}{\numberline {\relax 5.11}Formatação de parágrafos}{37}{section.5.11}
-\contentsline {section}{\numberline {\relax 5.12}Inserção de hiperlinks}{39}{section.5.12}
-\contentsline {section}{\numberline {\relax 5.13}Citando textos}{40}{section.5.13}
-\contentsline {section}{\numberline {\relax 5.14}Notas de rodapé}{40}{section.5.14}
-\contentsline {section}{\numberline {\relax 5.15}Cabeçalhos}{40}{section.5.15}
-\contentsline {section}{\numberline {\relax 5.16}Modo matemático}{40}{section.5.16}
-\contentsline {chapter}{\numberline {6}Figuras}{43}{chapter.6}
-\contentsline {section}{\numberline {\relax 6.1}Incluindo imagens}{43}{section.6.1}
-\contentsline {section}{\numberline {\relax 6.2}Onde guardar as imagens do seu texto}{43}{section.6.2}
-\contentsline {section}{\numberline {\relax 6.3}Exemplos}{45}{section.6.3}
-\contentsline {section}{\numberline {\relax 6.4}Imagens como figuras}{47}{section.6.4}
-\contentsline {section}{\numberline {\relax 6.5}Rótulos ao lado da figura (side captions)}{47}{section.6.5}
-\contentsline {section}{\numberline {\relax 6.6}Figuras dentro de figuras (subfloats)}{48}{section.6.6}
-\contentsline {section}{\numberline {\relax 6.7}Figuras lado-a-lado}{49}{section.6.7}
+\contentsline {chapter}{\numberline {1}Introdução}{13}{chapter.1}
+\contentsline {section}{\numberline {\relax 1.1}O que é TeX?}{13}{section.1.1}
+\contentsline {section}{\numberline {\relax 1.2}Por que usar o \LaTeX ?}{13}{section.1.2}
+\contentsline {section}{\numberline {\relax 1.3}Como o \LaTeX {} funciona}{14}{section.1.3}
+\contentsline {section}{\numberline {\relax 1.4}Instalando o programa (uma ``distribuição")}{15}{section.1.4}
+\contentsline {section}{\numberline {\relax 1.5}Instalando um editor de textos}{15}{section.1.5}
+\contentsline {chapter}{\numberline {2}Criando um texto básico}{17}{chapter.2}
+\contentsline {section}{\numberline {\relax 2.1}Comandos}{18}{section.2.1}
+\contentsline {section}{\numberline {\relax 2.2}Ambientes \LaTeX }{18}{section.2.2}
+\contentsline {section}{\numberline {\relax 2.3}Caracteres especiais}{19}{section.2.3}
+\contentsline {section}{\numberline {\relax 2.4}Comentários}{19}{section.2.4}
+\contentsline {section}{\numberline {\relax 2.5}Espaços, acentos e pontuação}{19}{section.2.5}
+\contentsline {section}{\numberline {\relax 2.6}Classes de documentos}{20}{section.2.6}
+\contentsline {section}{\numberline {\relax 2.7}Pacotes}{20}{section.2.7}
+\contentsline {chapter}{\numberline {3}A estrutura do documento}{23}{chapter.3}
+\contentsline {section}{\numberline {\relax 3.1}O ambiente \texttt {document}}{23}{section.3.1}
+\contentsline {section}{\numberline {\relax 3.2}Preâmbulo}{23}{section.3.2}
+\contentsline {section}{\numberline {\relax 3.3}O cabeçalho}{24}{section.3.3}
+\contentsline {section}{\numberline {\relax 3.4}Abstract/Resumo}{25}{section.3.4}
+\contentsline {section}{\numberline {\relax 3.5}Comandos de seção}{26}{section.3.5}
+\contentsline {subsection}{\numberline {\relax 3.5.1}Numeração de seções}{27}{subsection.3.5.1}
+\contentsline {section}{\numberline {\relax 3.6}Apêndices}{27}{section.3.6}
+\contentsline {section}{\numberline {\relax 3.7}Sumário}{28}{section.3.7}
+\contentsline {section}{\numberline {\relax 3.8}Bibliografia}{28}{section.3.8}
+\contentsline {chapter}{\numberline {4}Tabelas}{29}{chapter.4}
+\contentsline {section}{\numberline {\relax 4.1}Tabelas longas}{29}{section.4.1}
+\contentsline {chapter}{\numberline {5}Formatação}{33}{chapter.5}
+\contentsline {section}{\numberline {\relax 5.1}Listas}{33}{section.5.1}
+\contentsline {subsection}{\numberline {\relax 5.1.1}Itemizar}{33}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {\relax 5.1.2}Enumeração}{33}{subsection.5.1.2}
+\contentsline {subsection}{\numberline {\relax 5.1.3}Descrição}{33}{subsection.5.1.3}
+\contentsline {subsection}{\numberline {\relax 5.1.4}Listas aninhadas (listas dentro de listas)}{34}{subsection.5.1.4}
+\contentsline {subsection}{\numberline {\relax 5.1.5}Listas em múltiplas colunas}{35}{subsection.5.1.5}
+\contentsline {section}{\numberline {\relax 5.2}Hifenização}{35}{section.5.2}
+\contentsline {section}{\numberline {\relax 5.3}Aspas}{36}{section.5.3}
+\contentsline {section}{\numberline {\relax 5.4}Travessão, hífen, meia-risca}{36}{section.5.4}
+\contentsline {section}{\numberline {\relax 5.5}Espaço entre palavras e frases}{37}{section.5.5}
+\contentsline {section}{\numberline {\relax 5.6}Enfatizando texto}{37}{section.5.6}
+\contentsline {section}{\numberline {\relax 5.7}Estilos de fonte}{37}{section.5.7}
+\contentsline {section}{\numberline {\relax 5.8}Tamanho de fonte}{38}{section.5.8}
+\contentsline {section}{\numberline {\relax 5.9}Sobrescrito e subscrito}{38}{section.5.9}
+\contentsline {section}{\numberline {\relax 5.10}Símbolos}{39}{section.5.10}
+\contentsline {section}{\numberline {\relax 5.11}Formatação de parágrafos}{39}{section.5.11}
+\contentsline {section}{\numberline {\relax 5.12}Inserção de hiperlinks}{41}{section.5.12}
+\contentsline {section}{\numberline {\relax 5.13}Citando textos}{42}{section.5.13}
+\contentsline {section}{\numberline {\relax 5.14}Notas de rodapé}{42}{section.5.14}
+\contentsline {section}{\numberline {\relax 5.15}Cabeçalhos}{42}{section.5.15}
+\contentsline {section}{\numberline {\relax 5.16}Modo matemático}{42}{section.5.16}
+\contentsline {chapter}{\numberline {6}Figuras}{45}{chapter.6}
+\contentsline {section}{\numberline {\relax 6.1}Incluindo imagens}{45}{section.6.1}
+\contentsline {section}{\numberline {\relax 6.2}Onde guardar as imagens do seu texto}{45}{section.6.2}
+\contentsline {section}{\numberline {\relax 6.3}Exemplos}{47}{section.6.3}
+\contentsline {section}{\numberline {\relax 6.4}Imagens como figuras}{49}{section.6.4}
+\contentsline {section}{\numberline {\relax 6.5}Rótulos ao lado da figura (side captions)}{49}{section.6.5}
+\contentsline {section}{\numberline {\relax 6.6}Figuras dentro de figuras (subfloats)}{50}{section.6.6}
+\contentsline {section}{\numberline {\relax 6.7}Figuras lado-a-lado}{51}{section.6.7}
 \select@language {english}
 \select@language {brazil}
-\contentsline {section}{\numberline {\relax 6.8}Figuras com o tamanho da página em textos de duas colunas}{50}{section.6.8}
-\contentsline {chapter}{\numberline {7}Referências}{51}{chapter.7}
-\contentsline {section}{\numberline {\relax 7.1}Referências cruzadas}{51}{section.7.1}
-\contentsline {section}{\numberline {\relax 7.2}Hyperlinks}{51}{section.7.2}
-\contentsline {chapter}{\numberline {8}Cores}{53}{chapter.8}
-\contentsline {chapter}{\numberline {9}Fontes}{55}{chapter.9}
-\contentsline {section}{\numberline {\relax 9.1}O pacote \texttt {fontspec}}{55}{section.9.1}
-\contentsline {chapter}{\numberline {10}Idiomas}{57}{chapter.10}
-\contentsline {section}{\numberline {\relax 10.1}Alfabetos não latinos e escritas não ocidentais}{58}{section.10.1}
+\contentsline {section}{\numberline {\relax 6.8}Figuras com o tamanho da página em textos de duas colunas}{52}{section.6.8}
+\contentsline {chapter}{\numberline {7}Referências}{53}{chapter.7}
+\contentsline {section}{\numberline {\relax 7.1}Referências cruzadas}{53}{section.7.1}
+\contentsline {section}{\numberline {\relax 7.2}Hyperlinks}{53}{section.7.2}
+\contentsline {chapter}{\numberline {8}Cores}{55}{chapter.8}
+\contentsline {chapter}{\numberline {9}Fontes}{57}{chapter.9}
+\contentsline {section}{\numberline {\relax 9.1}O pacote \texttt {fontspec}}{57}{section.9.1}
+\contentsline {chapter}{\numberline {10}Idiomas}{59}{chapter.10}
+\contentsline {section}{\numberline {\relax 10.1}Alfabetos não latinos e escritas não ocidentais}{60}{section.10.1}
 \select@language {russian}
 \select@language {brazil}
 \select@language {greek}
 \select@language {brazil}
-\contentsline {chapter}{\numberline {11}Outros recursos}{61}{chapter.11}
-\contentsline {part}{Apêndices}{63}{section*.4}
+\contentsline {chapter}{\numberline {11}Documentos técnicos e científicos brasileiros com abnTeX2}{63}{chapter.11}
+\contentsline {section}{\numberline {\relax 11.1}Macros de dados do trabalho}{65}{section.11.1}
+\contentsline {chapter}{\numberline {12}Outros recursos}{67}{chapter.12}
+\contentsline {part}{Apêndices}{69}{section*.4}

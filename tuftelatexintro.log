@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.4-0.9998 (TeX Live 2012/W32TeX) (format=xelatex 2013.1.11)  24 JAN 2013 14:24
+This is XeTeX, Version 3.1415926-2.4-0.9998 (TeX Live 2012/W32TeX) (format=xelatex 2013.1.11)  24 JAN 2013 23:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1569,7 +1569,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-(./tuftelatexintro.aux)
+(./tuftelatexintro.aux (./abntex2-latexintro.aux))
 \openout1 = `tuftelatexintro.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 70.
@@ -1592,7 +1592,8 @@ LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 70.
 LaTeX Font Info:    ... okay on input line 70.
 LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 70.
 LaTeX Font Info:    Try loading font information for T3+cmr on input line 70.
- (c:/texlive/2012/texmf-dist/tex/latex/tipa/t3cmr.fd
+
+(c:/texlive/2012/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
 LaTeX Font Info:    ... okay on input line 70.
@@ -2104,15 +2105,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 394--394
 
 ]
 LaTeX Font Info:    Font shape `EU1/Consolas(0)/m/it' will be
-(Font)              scaled to size 9.60004pt on input line 424.
+(Font)              scaled to size 9.60004pt on input line 425.
 
-Overfull \hbox (12.24422pt too wide) in paragraph at lines 450--450
+Overfull \hbox (12.24422pt too wide) in paragraph at lines 451--451
 []\EU1/Consolas(0)/m/n/10 % simple.tex - Um artigo simples para ilustrar a estr
 utura do documento.[] 
  []
 
 [21]
-Overfull \hbox (7.47072pt too wide) in paragraph at lines 455--456
+Overfull \hbox (7.47072pt too wide) in paragraph at lines 456--457
 \EU1/Consolas(0)/m/n/10 enumitem \EU1/BulmerMTStd(0)/m/n/10 (ver página [][]30
 [][]), devemos inserir no preâmbulo: []\EU1/Consolas(0)/m/n/10 \usepackage{enu
 mitem}\EU1/BulmerMTStd(0)/m/n/10 .  
@@ -2168,43 +2169,43 @@ mitem}\EU1/BulmerMTStd(0)/m/n/10 .
 . This font family consists of the following shapes:
 .................................................
  [26]
-Underfull \hbox (badness 10000) in paragraph at lines 737--738
+Underfull \hbox (badness 10000) in paragraph at lines 738--739
 []|\EU1/BulmerMTStd(0)/m/n/10 coluna com texto alinhado no topo, com largura es
 pecificada
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 738--739
+Underfull \hbox (badness 10000) in paragraph at lines 739--740
 []|\EU1/BulmerMTStd(0)/m/n/10 o mesmo acima, mas alinhado no meio da célula (r
 equer
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 739--740
+Underfull \hbox (badness 10000) in paragraph at lines 740--741
 []|\EU1/BulmerMTStd(0)/m/n/10 o mesmo acima, mas alinhado no fim da célula (re
 quer
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 744--745
+Underfull \hbox (badness 10000) in paragraph at lines 745--746
 []|\EU1/BulmerMTStd(0)/m/n/10 começa nova linha (espaço adicional pode ser es
 pecificado
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 744--745
+Underfull \hbox (badness 10000) in paragraph at lines 745--746
 \EU1/BulmerMTStd(0)/m/n/10 usando colchetes: por exemplo, []\EU1/Consolas(0)/m/
 n/10 [6pt] \EU1/BulmerMTStd(0)/m/n/10 especifica um espaço
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 746--747
+Underfull \hbox (badness 10000) in paragraph at lines 747--748
 []|\EU1/BulmerMTStd(0)/m/n/10 linha parcial horizontal começando na coluna \EU
 1/BulmerMTStd(0)/m/it/10 i \EU1/BulmerMTStd(0)/m/n/10 e terminando
  []
 
 LaTeX Font Info:    Font shape `EU1/Consolas(0)/m/n' will be
-(Font)              scaled to size 6.40002pt on input line 753.
+(Font)              scaled to size 6.40002pt on input line 754.
 
 LaTeX Warning: Marginpar on page 27 moved.
 
@@ -2221,17 +2222,17 @@ LaTeX Warning: Marginpar on page 27 moved.
 . This font family consists of the following shapes:
 .................................................
  [28]
-Overfull \hbox (24.00002pt too wide) in paragraph at lines 792--810
+Overfull \hbox (24.00002pt too wide) in paragraph at lines 793--811
 []  
  []
 
 
-Overfull \hbox (24.00002pt too wide) in paragraph at lines 814--832
+Overfull \hbox (24.00002pt too wide) in paragraph at lines 815--833
 []  
  []
 
 
-Overfull \hbox (24.00002pt too wide) in paragraph at lines 835--853
+Overfull \hbox (24.00002pt too wide) in paragraph at lines 836--854
 []  
  []
 
@@ -2241,12 +2242,12 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [29
 
 ]
-Overfull \hbox (24.00002pt too wide) in paragraph at lines 857--884
+Overfull \hbox (24.00002pt too wide) in paragraph at lines 858--885
 []  
  []
 
 
-Overfull \hbox (157.77596pt too wide) in paragraph at lines 891--922
+Overfull \hbox (157.77596pt too wide) in paragraph at lines 892--923
 [][]  
  []
 
@@ -2257,13 +2258,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.949 \begin{enumerate}[label=\Roman*]
+l.950 \begin{enumerate}[label=\Roman*]
                                       
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (36.00002pt too wide) in paragraph at lines 936--957
+Overfull \hbox (36.00002pt too wide) in paragraph at lines 937--958
 [][]  
  []
 
@@ -2287,20 +2288,20 @@ Overfull \hbox (36.00002pt too wide) in paragraph at lines 936--957
 . This font family consists of the following shapes:
 .................................................
  [31]
-Overfull \hbox (15.89703pt too wide) in paragraph at lines 1041--1042
+Overfull \hbox (15.89703pt too wide) in paragraph at lines 1042--1043
 []\EU1/BulmerMTStd(0)/m/n/10 Se você quiser que uma palavra não seja hifeniza
 da, use o comando []\EU1/Consolas(0)/m/n/10 \mbox{texto}\EU1/BulmerMTStd(0)/m/n
 /10 , 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1067--1068
+Underfull \hbox (badness 10000) in paragraph at lines 1068--1069
 []|\EU1/BulmerMTStd(0)/m/n/10 « Guillemets » [](aspas angulares, utilizadas n
 o portu-
  []
 
 
-Overfull \hbox (50.67844pt too wide) in paragraph at lines 1053--1071
+Overfull \hbox (50.67844pt too wide) in paragraph at lines 1054--1072
 [][] 
  []
 
@@ -2340,11 +2341,11 @@ LaTeX Warning: Marginpar on page 33 moved.
 . This font family consists of the following shapes:
 .................................................
 [33]
-LaTeX Info: Redefining \bond on input line 1213.
-LaTeX Info: Redefining \dbond on input line 1213.
-LaTeX Info: Redefining \tbond on input line 1213.
+LaTeX Info: Redefining \bond on input line 1214.
+LaTeX Info: Redefining \dbond on input line 1214.
+LaTeX Info: Redefining \tbond on input line 1214.
 
-Overfull \hbox (9.57144pt too wide) in paragraph at lines 1212--1215
+Overfull \hbox (9.57144pt too wide) in paragraph at lines 1213--1216
 [][]  
  []
 
@@ -2368,7 +2369,7 @@ Overfull \hbox (9.57144pt too wide) in paragraph at lines 1212--1215
 . This font family consists of the following shapes:
 .................................................
  [35]
-Overfull \hbox (0.11307pt too wide) in paragraph at lines 1330--1331
+Overfull \hbox (0.11307pt too wide) in paragraph at lines 1331--1332
 []\EU1/BulmerMTStd(0)/m/n/10 Para mudar o espaçamento entrelinhas, use o pacot
 e []\EU1/Consolas(0)/m/n/10 \usepackage{setspace}\EU1/BulmerMTStd(0)/m/n/10 . 
  []
@@ -2400,7 +2401,7 @@ LaTeX Warning: Marginpar on page 37 moved.
 ]
 File: femmevaguecourbet.jpg Graphic file (type QTm)
  <use  "femmevaguecourbet.jpg" >
-Overfull \hbox (51.83028pt too wide) in paragraph at lines 1460--1460
+Overfull \hbox (51.83028pt too wide) in paragraph at lines 1461--1461
 []\EU1/Consolas(0)/m/n/10 \graphicspath{~/Pictures} %(geralmente é o diretóri
 o de imagens para Linux e Mac)[] 
  []
@@ -2408,13 +2409,13 @@ o de imagens para Linux e Mac)[]
 [39]
 File: corotavray.jpg Graphic file (type QTm)
  <use  "corotavray.jpg" >
-Overfull \hbox (83.96085pt too wide) in paragraph at lines 1478--1479
+Overfull \hbox (83.96085pt too wide) in paragraph at lines 1479--1480
 [][]  
  []
 
 File: corotavray.jpg Graphic file (type QTm)
 <use  "corotavray.jpg" >
-Overfull \hbox (92.74838pt too wide) in paragraph at lines 1487--1488
+Overfull \hbox (92.74838pt too wide) in paragraph at lines 1488--1489
 [][]  
  []
 
@@ -2440,13 +2441,13 @@ File: corotavray.jpg Graphic file (type QTm)
 . This font family consists of the following shapes:
 .................................................
  [41]
-Overfull \hbox (21.04112pt too wide) in paragraph at lines 1529--1529
+Overfull \hbox (21.04112pt too wide) in paragraph at lines 1530--1530
 []\EU1/Consolas(0)/m/n/10 \caption[\textit{Ville d’Avray} de Corot (ca. 1867)
 .]{Jean-Baptiste Corot.[] 
  []
 
 
-Overfull \hbox (21.04128pt too wide) in paragraph at lines 1529--1529
+Overfull \hbox (21.04128pt too wide) in paragraph at lines 1530--1530
 []\EU1/Consolas(0)/m/n/10 (\url{http://fr.wikipedia.org/wiki/Fichier:Corot.vill
 edavray.750pix.jpg})}[] 
  []
@@ -2468,7 +2469,7 @@ File: moreau-apparition.jpg Graphic file (type QTm)
 ! Illegal parameter number in definition of \Hy@tempa.
 <to be read again> 
                    S
-l.1584 ...ats,\_Figures\_and\_Captions#Subfloats}}
+l.1585 ...ats,\_Figures\_and\_Captions#Subfloats}}
                                                   
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
@@ -2477,7 +2478,7 @@ are all screwed up? I'm going to assume that you meant ##.
 ! Illegal parameter number in definition of \Hy@tempa.
 <to be read again> 
                    S
-l.1584 ...ats,\_Figures\_and\_Captions#Subfloats}}
+l.1585 ...ats,\_Figures\_and\_Captions#Subfloats}}
                                                   
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
@@ -2486,7 +2487,7 @@ are all screwed up? I'm going to assume that you meant ##.
 ! Illegal parameter number in definition of \Hy@gtemp.
 <to be read again> 
                    S
-l.1584 ...ats,\_Figures\_and\_Captions#Subfloats}}
+l.1585 ...ats,\_Figures\_and\_Captions#Subfloats}}
                                                   
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
@@ -2496,19 +2497,19 @@ are all screwed up? I'm going to assume that you meant ##.
 LaTeX Warning: Marginpar on page 43 moved.
 
 
-Overfull \hbox (47.43188pt too wide) in paragraph at lines 1597--1597
+Overfull \hbox (47.43188pt too wide) in paragraph at lines 1598--1598
 []  \EU1/Consolas(0)/m/n/10 \subfloat[A gull]{\label{fig:gull}\includegraphics[
 width=0.3\textwidth]{gull}}[] 
  []
 
 
-Overfull \hbox (60.62729pt too wide) in paragraph at lines 1597--1597
+Overfull \hbox (60.62729pt too wide) in paragraph at lines 1598--1598
 []  \EU1/Consolas(0)/m/n/10 \subfloat[A tiger]{\label{fig:tiger}\includegraphic
 s[width=0.3\textwidth]{tiger}}[] 
  []
 
 
-Overfull \hbox (60.62729pt too wide) in paragraph at lines 1597--1597
+Overfull \hbox (60.62729pt too wide) in paragraph at lines 1598--1598
 []  \EU1/Consolas(0)/m/n/10 \subfloat[A mouse]{\label{fig:mouse}\includegraphic
 s[width=0.3\textwidth]{mouse}}[] 
  []
@@ -2535,7 +2536,7 @@ File: subfig.png Graphic file (type QTm)
 . This font family consists of the following shapes:
 .................................................
  [44]
-Overfull \hbox (12.89856pt too wide) in paragraph at lines 1665--1666
+Overfull \hbox (12.89856pt too wide) in paragraph at lines 1666--1667
 []\EU1/BulmerMTStd(0)/m/n/10 O primeiro refere-se à seção, o outro, à pági
 na. Assim, inserindo um []\EU1/Consolas(0)/m/n/10 \label{...} 
  []
@@ -2557,58 +2558,58 @@ LaTeX Warning: Marginpar on page 49 moved.
 LaTeX Warning: Marginpar on page 51 moved.
 
 
-Overfull \hbox (36.00002pt too wide) in paragraph at lines 1880--1895
+Overfull \hbox (36.00002pt too wide) in paragraph at lines 1882--1897
 [][]  
  []
 
 [51]
-Package mdframed Info: mdframed works in twoside mode on input line 1909.
+Package mdframed Info: mdframed works in twoside mode on input line 1911.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1915--1917
+Underfull \hbox (badness 10000) in paragraph at lines 1917--1919
 []\EU1/MinionPro(0)/m/n/10 Лев Николаевич Толстой (28 ав�
 �уста (9 сентября) 1828, Ясная
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1915--1917
+Underfull \hbox (badness 10000) in paragraph at lines 1917--1919
 \EU1/MinionPro(0)/m/n/10 Поляна, Тульская губерния, Ро�
 �сийская империя — 7 (20) нояб-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1915--1917
+Underfull \hbox (badness 10000) in paragraph at lines 1917--1919
 \EU1/MinionPro(0)/m/n/10 ря 1910, станция Астапово, Тамбо
 вская губерния, Российская
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1915--1917
+Underfull \hbox (badness 10000) in paragraph at lines 1917--1919
 \EU1/MinionPro(0)/m/n/10 империя), граф — один из наибо
 лее широко известных русских
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1915--1917
+Underfull \hbox (badness 10000) in paragraph at lines 1917--1919
 \EU1/MinionPro(0)/m/n/10 писателей и мыслителей. ([][]$[][]
 [][] [] [] [] [][] [] [][][][][][][][][] [] [][][] [] [][][][] [] [][][][][][][
 ] [][]$[]
  []
 
-Package mdframed Info: mdframed works in twoside mode on input line 1922.
+Package mdframed Info: mdframed works in twoside mode on input line 1924.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1927--1930
+Underfull \hbox (badness 10000) in paragraph at lines 1929--1932
 []\EU1/MinionPro(0)/m/n/10 Ο Οδυσσέας Ελύτης (2 Νοεμβρίο
 υ 1911 - 18 Μαρτίου 1996), φι-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1927--1930
+Underfull \hbox (badness 10000) in paragraph at lines 1929--1932
 \EU1/MinionPro(0)/m/n/10 λολογικό ψευδώνυμο του Οδυσσ�
 �α Αλεπουδέλλη του Παναγιώτη,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1927--1930
+Underfull \hbox (badness 10000) in paragraph at lines 1929--1932
 \EU1/MinionPro(0)/m/n/10 ήταν ένας από τους σημαντικότ
 ερους Έλληνες ποιητές, μέλος της
  []
@@ -2642,7 +2643,7 @@ lif-novoc;"
 alif-novoc;"
 .................................................
 
-Overfull \hbox (37.27539pt too wide) in paragraph at lines 1976--1976
+Overfull \hbox (37.27539pt too wide) in paragraph at lines 1978--1978
 [][]\EU1/BulmerMTStd(0)/m/n/8 http://tex.stackexchange.com/questions/45331/comb
 ining-[] 
  []
@@ -2660,25 +2661,25 @@ LaTeX Warning: Marginpar on page 52 moved.
 . This font family consists of the following shapes:
 .................................................
 [52]
-Overfull \hbox (25.43974pt too wide) in paragraph at lines 1992--1992
+Overfull \hbox (25.43974pt too wide) in paragraph at lines 1994--1994
 []\EU1/Consolas(0)/m/n/10 \newcommand\Chinese{\renewcommand\CJKrmdefault{zhrm}\
 CJKnospace\normalfont}[] 
  []
 
 
-Overfull \hbox (29.83821pt too wide) in paragraph at lines 1992--1992
+Overfull \hbox (29.83821pt too wide) in paragraph at lines 1994--1994
 []\EU1/Consolas(0)/m/n/10 \newcommand\Japanese{\renewcommand\CJKrmdefault{jarm}
 \CJKnospace\normalfont}[] 
  []
 
 
-Overfull \hbox (12.24434pt too wide) in paragraph at lines 1992--1992
+Overfull \hbox (12.24434pt too wide) in paragraph at lines 1994--1994
 []\EU1/Consolas(0)/m/n/10 \newcommand\Korean{\renewcommand\CJKrmdefault{korm}\C
 JKspace\normalfont}[] 
  []
 
 
-Overfull \hbox (0.40558pt too wide) in paragraph at lines 2007--2016
+Overfull \hbox (0.40558pt too wide) in paragraph at lines 2009--2018
  [] 
  []
 
@@ -2691,145 +2692,644 @@ Overfull \hbox (0.40558pt too wide) in paragraph at lines 2007--2016
 . 
 . This font family consists of the following shapes:
 .................................................
-[53] [54
+[53]
+\openout2 = `abntex2-latexintro.aux'.
 
-] [55] [56
+ (./abntex2-latexintro.tex [54
 
-] [57] [58
 
 ]
-Overfull \hbox (72.98857pt too wide) in paragraph at lines 2079--2090
+
+LaTeX Warning: Marginpar on page 55 moved.
+
+! Undefined control sequence.
+l.24 O \abnTeX
+              2 foi desenvolvido com base nos requisitos das seguintes norma...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> ...orém, até este momento, o \abnTeX 
+                                                  2 traz os estilos compatí...
+l.33 ...mentação do pacote \texttt{abntex2cite}}
+                                                   \texttt{abntex2cite-alf}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Extra }, or forgotten \endgroup.
+l.34   para mais informações.}
+                                
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+LaTeX Warning: Marginpar on page 55 moved.
+
+[55]
+! Undefined control sequence.
+<argument> ...paces A versão anterior do \abnTeX 
+                                                  ~era baseada na classe \te...
+l.54 classe \textsf{report}.}
+                             . Desse modo, todas as opções do \textsf{memo...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Marginpar on page 56 moved.
+
+! Undefined control sequence.
+l.88 ... intuitivo, seguindo a filosofia do \Latex
+                                                  {} de não deixar o autor ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'BulmerMTStd(2)' created for font 'Bulmer MT Std' with options
+. [Ligatures={TeX},Numbers=OldStyle,BoldFont={Bulmer MT Std
+. Bold},BoldItalicFont={Bulmer MT Std Bold Italic},LetterSpace=5.0].
+. 
+. This font family consists of the following shapes:
+.................................................
+[56]
+Overfull \hbox (47.43184pt too wide) in paragraph at lines 166--166
+[]\EU1/Consolas(0)/m/n/10 \preambulo{Modelo canônico de trabalho monográfico 
+acadêmico em conformidade com[] 
+ []
+
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'BulmerMTStd(2)' created for font 'Bulmer MT Std' with options
+. [Ligatures={TeX},Numbers=OldStyle,BoldFont={Bulmer MT Std
+. Bold},BoldItalicFont={Bulmer MT Std Bold Italic},LetterSpace=5.0].
+. 
+. This font family consists of the following shapes:
+.................................................
+[57]
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.176 }
+       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.176 }
+       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.176 }
+       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.176 }
+       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.176 }
+       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.176 }
+       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.176 }
+       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.176 }
+       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.176 }
+       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.176 }
+       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.176 }
+       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.176 }
+       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.176 }
+       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.176 }
+       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.176 }
+       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.176 }
+       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.176 }
+       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.176 }
+       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.176 }
+       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.176 }
+       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.176 }
+       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.176 }
+       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.176 }
+       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.176 }
+       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.176 }
+       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.176 }
+       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.176 }
+       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.176 }
+       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.176 }
+       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.176 }
+       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.177 \end{itemize}
+                   
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (13.76414pt too wide) in paragraph at lines 176--177
+[]\EU1/Consolas(0)/m/n/10 folhadeaprovacao 
+ []
+
+
+Overfull \hbox (4.96724pt too wide) in paragraph at lines 176--177
+[]\EU1/Consolas(0)/m/n/10 agradecimentos 
+ []
+
+
+Overfull \hbox (13.76414pt too wide) in paragraph at lines 176--177
+[]\EU1/Consolas(0)/m/n/10 resumo[Abstract] 
+ []
+
+
+Overfull \hbox (0.56879pt too wide) in paragraph at lines 176--177
+[]\EU1/Consolas(0)/m/n/10 listoffigures 
+ []
+
+
+Overfull \hbox (9.36569pt too wide) in paragraph at lines 176--177
+[]\EU1/Consolas(0)/m/n/10 tableofcontents  
+ []
+
+)
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'BulmerMTStd(2)' created for font 'Bulmer MT Std' with options
+. [Ligatures={TeX},Numbers=OldStyle,BoldFont={Bulmer MT Std
+. Bold},BoldItalicFont={Bulmer MT Std Bold Italic},LetterSpace=5.0].
+. 
+. This font family consists of the following shapes:
+.................................................
+ [58] [59
+
+
+] [60
+
+] [61] [62
+
+]
+Overfull \hbox (72.98857pt too wide) in paragraph at lines 2084--2095
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2079--2090
+Underfull \hbox (badness 10000) in paragraph at lines 2084--2095
  
  []
 
-Package mdframed Info: mdframed works in twoside mode on input line 2112.
+Package mdframed Info: mdframed works in twoside mode on input line 2117.
 
-Underfull \hbox (badness 10000) in paragraph at lines 2112--2112
+Underfull \hbox (badness 10000) in paragraph at lines 2117--2117
 \EU1/BulmerMTStd(0)/m/n/8 I. Quo usque tandem abutere, Catilina,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2112--2112
+Underfull \hbox (badness 10000) in paragraph at lines 2117--2117
 \EU1/BulmerMTStd(0)/m/n/8 patientia nostra? quam diu etiam furor
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2112--2112
+Underfull \hbox (badness 10000) in paragraph at lines 2117--2117
 \EU1/BulmerMTStd(0)/m/n/8 iste tuus nos eludet? quem ad finem
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2112--2112
+Underfull \hbox (badness 10000) in paragraph at lines 2117--2117
 \EU1/BulmerMTStd(0)/m/n/8 sese effrenata iactabit audacia? Nihilne
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2112--2112
+Underfull \hbox (badness 10000) in paragraph at lines 2117--2117
 \EU1/BulmerMTStd(0)/m/n/8 te nocturnum praesidium Palati, nihil
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2112--2112
+Underfull \hbox (badness 10000) in paragraph at lines 2117--2117
 \EU1/BulmerMTStd(0)/m/n/8 urbis vigiliae, nihil timor populi, nihil
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2112--2112
+Underfull \hbox (badness 10000) in paragraph at lines 2117--2117
 \EU1/BulmerMTStd(0)/m/n/8 concursus bonorum omnium, nihil hic
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2112--2112
+Underfull \hbox (badness 10000) in paragraph at lines 2117--2117
 \EU1/BulmerMTStd(0)/m/n/8 munitissimus habendi senatus locus,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2112--2112
+Underfull \hbox (badness 10000) in paragraph at lines 2117--2117
 \EU1/BulmerMTStd(0)/m/n/8 nihil horum ora voltusque moverunt?
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2112--2112
+Underfull \hbox (badness 10000) in paragraph at lines 2117--2117
 \EU1/BulmerMTStd(0)/m/n/8 Patere tua consilia non sentis, constric-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2112--2112
+Underfull \hbox (badness 10000) in paragraph at lines 2117--2117
 \EU1/BulmerMTStd(0)/m/n/8 tam iam horum omnium scientia teneri
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2112--2112
+Underfull \hbox (badness 10000) in paragraph at lines 2117--2117
 \EU1/BulmerMTStd(0)/m/n/8 coniurationem tuam non vides? Quid
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2112--2112
+Underfull \hbox (badness 10000) in paragraph at lines 2117--2117
 \EU1/BulmerMTStd(0)/m/n/8 proxima, quid superiore nocte egeris,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2112--2112
+Underfull \hbox (badness 10000) in paragraph at lines 2117--2117
 \EU1/BulmerMTStd(0)/m/n/8 ubi fueris, quos convocaveris, quid
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2112--2112
+Underfull \hbox (badness 10000) in paragraph at lines 2117--2117
 \EU1/BulmerMTStd(0)/m/n/8 consilii ceperis, quem nostrum ignorare
  []
 
 Package mdframed Info: mdframed inside minipage 
- mdframed uses option nobreak mdframed on input line 2112.
+ mdframed uses option nobreak mdframed on input line 2117.
 Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 2112.
+ mdframed uses option nobreak mdframed on input line 2117.
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 2112--2112
+Overfull \hbox (6.0pt too wide) in paragraph at lines 2117--2117
 []$[]$  
  []
 
 
-LaTeX Warning: Marginpar on page 59 moved.
+LaTeX Warning: Marginpar on page 63 moved.
 
-[59] [60
+[63] [64
 
-] [61] [62
+] [65] [66
 
-] [63] [64
+] [67] [68
 
 ]
 LaTeX Font Info:    Font shape `U/ccicons/m/n' will be
-(Font)              scaled to size 8.0pt on input line 2267.
+(Font)              scaled to size 8.0pt on input line 2272.
 
 
 Package bibentry Warning: You have used \nobibliography* 
 (bibentry)                without a following \bibliography.
 (bibentry)                You may not be able to run BibTeX.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2272.
-[65]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 2272.
- (./tuftelatexintro.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 2272.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 2272.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2277.
+[69]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 2277.
+ (./tuftelatexintro.aux (./abntex2-latexintro.aux))
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 2277.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 2277.
 
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 45.12pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2272.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2277.
  ) 
 Here is how much of TeX's memory you used:
- 26519 strings out of 494004
- 494951 string characters out of 3153866
- 612537 words of memory out of 3000000
- 29226 multiletter control sequences out of 15000+200000
- 21039 words of font info for 148 fonts, out of 3000000 for 9000
+ 26534 strings out of 494004
+ 495267 string characters out of 3153866
+ 611537 words of memory out of 3000000
+ 29233 multiletter control sequences out of 15000+200000
+ 21047 words of font info for 149 fonts, out of 3000000 for 9000
  1144 hyphenation exceptions out of 8191
  43i,19n,56p,1219b,512s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on tuftelatexintro.pdf (65 pages).
+Output written on tuftelatexintro.pdf (69 pages).

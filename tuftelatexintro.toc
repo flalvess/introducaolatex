@@ -70,5 +70,7 @@
 \select@language {brazil}
 \select@language {greek}
 \select@language {brazil}
-\contentsline {chapter}{Outros recursos}{55}{chapter*.70}
+\contentsline {chapter}{Documentos técnicos e científicos brasileiros com abnTeX2}{55}{chapter*.70}
+\contentsline {section}{Macros de dados do trabalho}{56}{section*.71}
+\contentsline {chapter}{Outros recursos}{59}{chapter*.72}
 \contentsfinish 
