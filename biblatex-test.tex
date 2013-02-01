@@ -1,0 +1,44 @@
+\documentclass[a4paper,12pt,listof=entryprefix]{scrartcl} %enddot=ponto depois da numeração das secoes
+\usepackage{scrpage2}
+\usepackage{graphicx}
+\usepackage[bookmarks=true]{hyperref} %colorlinks=true
+\usepackage[dvipsnames]{xcolor}
+%\addtokomafont{title}{\color{red}} 
+%\addtokomafont{title}{\color{RawSienna}}
+%\usepackage{sidecap}
+\widowpenalty=10000
+\clubpenalty=10000
+\deffootnote{0em}{1em}{\thefootnotemark\hspace*{.5em}}
+%\usepackage{xunicode}
+\usepackage{polyglossia}
+\setmainlanguage{brazil}
+\setotherlanguages{german,french,english}
+\usepackage{fontspec}
+\defaultfontfeatures{Ligatures=TeX}
+\setmainfont{New Caledonia LT Std}
+\setsansfont{New Caledonia LT Std}
+%\setsansfont{Myriad Pro}
+\setmonofont[Scale=MatchLowercase]{Consolas}
+\setlength{\parskip}{0pt}
+%\setheadsepline{.4pt}
+%\addtokomafont{caption}{\footnotesize \bfseries}
+\usepackage{pdflscape}
+\usepackage{pdfpages}
+\usepackage[tocgraduated]{tocstyle} 
+\usetocstyle{nopagecolumn}
+\usepackage{lipsum}
+\usepackage[style=historian,citestyle=authoryear,natbib=true,doi=false,backend=bibtex]{biblatex}
+\usepackage{csquotes}
+\DefineBibliographyStrings{brazil}{namedash={---------}}
+\addbibresource{latex}
+
+\begin{document}
+\cite{lshort}.
+\citet{dongen_latex_2012} é um livro novo.
+
+\nocite{*}
+
+\printbibliography
+
+\end{document}
+

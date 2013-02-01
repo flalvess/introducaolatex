@@ -1,0 +1,120 @@
+% $ biblatex auxiliary file $
+% $ biblatex version 1.7 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\entry{dongen_latex_2012}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Dongen}{D.}%
+     {Marc R. C.~Van}{M.~R. C.~V.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Springer-Verlag}%
+  }
+  \strng{namehash}{DMRCV1}
+  \strng{fullhash}{DMRCV1}
+  \field{labelyear}{2012}
+  \field{sortinit}{D}
+  \field{title}{Latex and Friends}
+  \list{location}{2}{%
+    {Berlin}%
+    {Heidelberg}%
+  }
+  \field{year}{2012}
+\endentry
+
+\entry{latexompanion}{book}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Mittelbach}{M.}%
+     {Frank}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Goossens}{G.}%
+     {Michel}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Braams}{B.}%
+     {Johannes}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Carlisle}{C.}%
+     {David}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Rowley}{R.}%
+     {Chris}{C.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Addison-Wesley Professional}%
+  }
+  \strng{namehash}{MF+1}
+  \strng{fullhash}{MFGMBJCDRC1}
+  \field{labelyear}{2004}
+  \field{sortinit}{M}
+  \field{edition}{2}
+  \field{series}{Tools and Techniques for Computer Typesetting}
+  \field{title}{The \LaTeX{} Companion}
+  \field{year}{2004}
+\endentry
+
+\entry{lshort}{manual}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Oetiket}{O.}%
+     {Tobias.}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Partl}{P.}%
+     {Hubert.}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hyna}{H.}%
+     {Irene.}{I.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Schlegl}{S.}%
+     {Elisabeth.}{E.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{OT+1}
+  \strng{fullhash}{OTPHHISE1}
+  \field{labelyear}{2011}
+  \field{sortinit}{O}
+  \field{title}{The not-so-short introduction to Latex}
+  \verb{url}
+  \verb http://www.ctan.org/tex-archive/info/lshort/english/lshort.pdf
+  \endverb
+  \field{year}{2011}
+\endentry
+
+\lossort
+\endlossort
+
+\endinput

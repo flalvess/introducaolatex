@@ -4,11 +4,15 @@
 \contentsline {figure}{\numberline {\relax 2.1}{\ignorespaces Um texto simples.}}{18}{figure.2.1}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {\relax 4.1}{\ignorespaces Exemplo de bibliografia gerada com abntex.}}{33}{figure.4.1}
+\contentsline {figure}{\numberline {\relax 4.2}{\ignorespaces \texttt {natbib} e estilo \texttt {plainnat}.}}{34}{figure.4.2}
+\contentsline {figure}{\numberline {\relax 4.3}{\ignorespaces Exemplo de bibliografia gerada com \texttt {biblatex}.}}{35}{figure.4.3}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {\relax 6.1}{\ignorespaces Gustave Courbet, \textit {Femme à la Vague} (1868). }}{46}{figure.6.1}
-\contentsline {figure}{\numberline {\relax 6.2}{\ignorespaces Jean-Baptiste Corot. \textit {Ville d'Avray} (ca. 1867).}}{50}{figure.6.2}
-\contentsline {figure}{\numberline {\relax 6.3}{\ignorespaces \textit {L'apparition}, de Gustave Moreau (1875).}}{51}{figure.6.3}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {\relax 7.1}{\ignorespaces Gustave Courbet, \textit {Femme à la Vague} (1868). }}{54}{figure.7.1}
+\contentsline {figure}{\numberline {\relax 7.2}{\ignorespaces Jean-Baptiste Corot. \textit {Ville d'Avray} (ca. 1867).}}{58}{figure.7.2}
+\contentsline {figure}{\numberline {\relax 7.3}{\ignorespaces \textit {L'apparition}, de Gustave Moreau (1875).}}{59}{figure.7.3}
 \select@language {english}
 \select@language {brazil}
 \addvspace {10\p@ }

@@ -1,4 +1,4 @@
-\documentclass[a4paper,nols,bidi]{tufte-book}
+\documentclass[a4paper,nols,bidi,nohyper]{tufte-book}
 \usepackage{amssymb}
 \usepackage{fontspec}
 \defaultfontfeatures{Ligatures={TeX}}
@@ -50,13 +50,14 @@
 \usepackage{geometry}
 \usepackage{ccicons}
 \usepackage{lettrine}
+\usepackage[bookmarks,breaklinks]{hyperref}
 \hypersetup{hyperfootnotes=false}
+%\usepackage[hyphens]{url}
 
 \renewcommand{\allcapsspacing}[1]{{\addfontfeature{LetterSpace=20.0}#1}}
 \renewcommand{\smallcapsspacing}[1]{{\addfontfeature{LetterSpace=5.0}#1}}
 \renewcommand{\textsc}[1]{\smallcapsspacing{\textsmallcaps{#1}}}
 \renewcommand{\smallcaps}[1]{\smallcapsspacing{\scshape\MakeTextLowercase{#1}}}}
-
 
 
 % %Para fonte Kepler parênteses:
@@ -67,6 +68,8 @@
 
 \title{LaTeX: uma introdução}
 \author{Imhotep}
+
+\setcounter{secnumdepth}{2}
 \begin{document}
 
 %\maketitle
@@ -132,6 +135,7 @@ Devemos ser muito claros: você usa o processador de texto que quiser. Se quiser
 %Por outro lado, eu não vou ser radical e dizer que você deve ou precisa de usar esta ferramenta. Provavelmente você não precisa; você não é físico, nem matemático, nem engenheiro; você não está escrevendo uma tese, você não é nerd, não vai perder tempo com firulas, e por aí vai. No Brasil quase nenhuma publicação acadêmica aceita esse formato. 
 
 Contudo, você não precisa, necessariamente, usar esta ferramenta. Devo deixar claro que, no Brasil, praticamente nenhuma publicação aceita esse formato. Mas temos que salientar que o resultado é profissional, para impressão: compare um livro bem produzido e um artigo acadêmico pobremente formatado no Word: o \LaTeX{} é a maneira mais fácil e barata de produzir textos que mais se aproximam de revistas e livros compostos com um profissional (muito bem) pago para cuidar da aparência do seu material. 
+
 
 Porém, o \LaTeX{} tem alguns inconvenientes:
  
@@ -653,38 +657,12 @@ O comando \verb+\appendix+ indica que os capítulos ou seções devem ser numera
 \end{verbatim}
 
 \section{Sumário}
+\label{sumario}
 Todos os cabeçalhos numerados automaticamente vão para o sumário. Você não precisa de ter um, mas se quiser, é só adicionar o comando \verb+\tableofcontents+ onde quiser que apareça o sumário (geralmente depois do abstract). 
 
 Os comandos \verb+\listoffigures+ e \verb+\listoftables+ geram, respectivamente, uma lista das figuras e uma lista das tabelas.
 
-\section{Bibliografia}
-A bibliografia, é claro, é uma das partes mais importantes (e mais chatas, e mais pedantes) de um texto científico. Existem centenas de estilos de citação e bibliografia. O \LaTeX{} pode compor/gerar a bibliografia para você, com alguns comandos específicos (bibtex) e depois que você tiver um arquivo separado (.bib) para gerar essa bibliografia. Gerar um arquivo desses à mão, ou mesmo pegar da Internet já no formato bibtex, e depois compilar várias vezes para ver o resultado, muitas vezes (na maioria das vezes) não vale a pena. Mas se você quiser se aventurar, é só acessar: \url{http://en.wikibooks.org/wiki/LaTeX/Bibliography_Management} ou a documentação do ABNTex2. 
-
-Mas como então formatar a bibliografia? Primeiro, siga a regra da sua instituição ou da revista para a qual você está escrevendo. Uma interpretação mais ou menos correta da ABNT ou da publicação serve, eu aconselho aprender intuitivamente. Depois, crie um capítulo (ou seção, se for artigo). Na classe \texttt{book} ou \texttt{report}:
-
-\begin{verbatim}
-\chapter*{Bibliografia}
-\addcontentsline{toc}{chapter}{Bibliografia}
-\setlength{\parskip}{11pt}
-\setlength{\parindent}{0pt}
-\end{verbatim}
-
-Na classe \texttt{article}:
-
-\begin{verbatim}
-\section*{Bibliografia}
-\addcontentsline{toc}{section}{Bibliografia}
-\setlength{\parskip}{11pt}
-\setlength{\parindent}{0pt}
-\end{verbatim}
-
-Ou nas classes KOMA-Script (\texttt{scrreprt}, \texttt{scrbook}) é mais fácil:
-
-\begin{verbatim}
-\addchap{Bibliografia}
-\setlength{\parskip}{11pt}
-\setlength{\parindent}{0pt}
-\end{verbatim}
+\include{texto-bibliografia}
 
 \chapter{Tabelas}
 É fácil criar tabelas simples em \LaTeX, mas tabelas mais complicadas podem ser difíceis. Mas você pode converter as tabelas do Excel ou OpenOffice com plugins:
@@ -1152,9 +1130,8 @@ Os estilos de fonte e seus comandos são explicados na tabela \ref{estilosdefont
 
 \medskip
 
-O sublinhado pode ser feito com \verb+\underline{...}+, mas as palavras com sublinhado não se separam corretamente. Para resolver esse problema, insira \newline\verb+\usepackage[normalem]{ulem}+ no preâmbulo. Com o pacote \texttt{ulem}, você pode usar estes comandos: \verb+\uline{}+ (\uline{sublinhado}) para ênfase; \verb+\uwave{}+ para \uwave{ondulado} e \verb+\sout{...}+ para \sout{cortado}.\footnote{Você pode estar se perguntando: por que essa complicação para sublinhado? A resposta é simples: o sublinhado (assim como o negrito) não é uma prática tipográfica comum. Abra um livro e veja se há algum sublinhado ou negrito. O sublinhado (assim como outras coisas) era usado para ênfase em máquinas de datilografar, e passou para algumas regras de redação acadêmica por isso.
-}
-1
+O sublinhado pode ser feito com \verb+\underline{...}+, mas as palavras com sublinhado não se separam corretamente. Para resolver esse problema, insira \newline\verb+\usepackage[normalem]{ulem}+ no preâmbulo. Com o pacote \texttt{ulem}, você pode usar estes comandos: \verb+\uline{}+ (\uline{sublinhado}) para ênfase; \verb+\uwave{}+ para \uwave{ondulado} e \verb+\sout{...}+ para \sout{cortado}.\footnote{Você pode estar se perguntando: por que essa complicação para sublinhado? A resposta é simples: o sublinhado (assim como o negrito) não é uma prática tipográfica comum. Abra um livro e veja se há algum sublinhado ou negrito. O sublinhado (assim como outras coisas) era usado para ênfase em máquinas de datilografar, e passou para algumas regras de redação acadêmica por isso.}
+
 Um ambiente útil para gerar o texto exatamente como foi digitado (como códigos), é o ambiente \texttt{verbatim}:
 
 \begin{center}
@@ -2031,7 +2008,6 @@ Mais informações podem ser obtidas com a documentação dos pacotes \texttt{fo
 \include{abntex2-latexintro}
 
 \chapter{Outros recursos}
-\phantomsection{}
 
 \begin{itemize}
 \item Para informações sobre tipografia, ver o livro: 

@@ -22,55 +22,60 @@
 \contentsline {subsection}{\numberline {\relax 3.5.1}Numeração de seções}{27}{subsection.3.5.1}
 \contentsline {section}{\numberline {\relax 3.6}Apêndices}{27}{section.3.6}
 \contentsline {section}{\numberline {\relax 3.7}Sumário}{28}{section.3.7}
-\contentsline {section}{\numberline {\relax 3.8}Bibliografia}{28}{section.3.8}
-\contentsline {chapter}{\numberline {4}Tabelas}{29}{chapter.4}
-\contentsline {section}{\numberline {\relax 4.1}Tabelas longas}{29}{section.4.1}
-\contentsline {chapter}{\numberline {5}Formatação}{33}{chapter.5}
-\contentsline {section}{\numberline {\relax 5.1}Listas}{33}{section.5.1}
-\contentsline {subsection}{\numberline {\relax 5.1.1}Itemizar}{33}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {\relax 5.1.2}Enumeração}{33}{subsection.5.1.2}
-\contentsline {subsection}{\numberline {\relax 5.1.3}Descrição}{33}{subsection.5.1.3}
-\contentsline {subsection}{\numberline {\relax 5.1.4}Listas aninhadas (listas dentro de listas)}{34}{subsection.5.1.4}
-\contentsline {subsection}{\numberline {\relax 5.1.5}Listas em múltiplas colunas}{35}{subsection.5.1.5}
-\contentsline {section}{\numberline {\relax 5.2}Hifenização}{35}{section.5.2}
-\contentsline {section}{\numberline {\relax 5.3}Aspas}{36}{section.5.3}
-\contentsline {section}{\numberline {\relax 5.4}Travessão, hífen, meia-risca}{36}{section.5.4}
-\contentsline {section}{\numberline {\relax 5.5}Espaço entre palavras e frases}{37}{section.5.5}
-\contentsline {section}{\numberline {\relax 5.6}Enfatizando texto}{37}{section.5.6}
-\contentsline {section}{\numberline {\relax 5.7}Estilos de fonte}{37}{section.5.7}
-\contentsline {section}{\numberline {\relax 5.8}Tamanho de fonte}{38}{section.5.8}
-\contentsline {section}{\numberline {\relax 5.9}Sobrescrito e subscrito}{38}{section.5.9}
-\contentsline {section}{\numberline {\relax 5.10}Símbolos}{39}{section.5.10}
-\contentsline {section}{\numberline {\relax 5.11}Formatação de parágrafos}{39}{section.5.11}
-\contentsline {section}{\numberline {\relax 5.12}Inserção de hiperlinks}{41}{section.5.12}
-\contentsline {section}{\numberline {\relax 5.13}Citando textos}{42}{section.5.13}
-\contentsline {section}{\numberline {\relax 5.14}Notas de rodapé}{42}{section.5.14}
-\contentsline {section}{\numberline {\relax 5.15}Cabeçalhos}{42}{section.5.15}
-\contentsline {section}{\numberline {\relax 5.16}Modo matemático}{42}{section.5.16}
-\contentsline {chapter}{\numberline {6}Figuras}{45}{chapter.6}
-\contentsline {section}{\numberline {\relax 6.1}Incluindo imagens}{45}{section.6.1}
-\contentsline {section}{\numberline {\relax 6.2}Onde guardar as imagens do seu texto}{45}{section.6.2}
-\contentsline {section}{\numberline {\relax 6.3}Exemplos}{47}{section.6.3}
-\contentsline {section}{\numberline {\relax 6.4}Imagens como figuras}{49}{section.6.4}
-\contentsline {section}{\numberline {\relax 6.5}Rótulos ao lado da figura (side captions)}{49}{section.6.5}
-\contentsline {section}{\numberline {\relax 6.6}Figuras dentro de figuras (subfloats)}{50}{section.6.6}
-\contentsline {section}{\numberline {\relax 6.7}Figuras lado-a-lado}{51}{section.6.7}
+\contentsline {chapter}{\numberline {4}Bibliografia}{29}{chapter.4}
+\contentsline {section}{\numberline {\relax 4.1}Formatação de bibliografia sem ferramentas bibliográficas}{29}{section.4.1}
+\contentsline {section}{\numberline {\relax 4.2}O sistema embutido no LaTeX}{29}{section.4.2}
+\contentsline {section}{\numberline {\relax 4.3}O pacote \texttt {natbib} para citações}{30}{section.4.3}
+\contentsline {section}{\numberline {\relax 4.4}Usando uma base bibliográfica com \texttt {bibtex}}{31}{section.4.4}
+\contentsline {section}{\numberline {\relax 4.5}Como utilizar um arquivo \texttt {.bib} em seu documento \LaTeX }{33}{section.4.5}
+\contentsline {chapter}{\numberline {5}Tabelas}{37}{chapter.5}
+\contentsline {section}{\numberline {\relax 5.1}Tabelas longas}{37}{section.5.1}
+\contentsline {chapter}{\numberline {6}Formatação}{41}{chapter.6}
+\contentsline {section}{\numberline {\relax 6.1}Listas}{41}{section.6.1}
+\contentsline {subsection}{\numberline {\relax 6.1.1}Itemizar}{41}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {\relax 6.1.2}Enumeração}{41}{subsection.6.1.2}
+\contentsline {subsection}{\numberline {\relax 6.1.3}Descrição}{41}{subsection.6.1.3}
+\contentsline {subsection}{\numberline {\relax 6.1.4}Listas aninhadas (listas dentro de listas)}{42}{subsection.6.1.4}
+\contentsline {subsection}{\numberline {\relax 6.1.5}Listas em múltiplas colunas}{43}{subsection.6.1.5}
+\contentsline {section}{\numberline {\relax 6.2}Hifenização}{43}{section.6.2}
+\contentsline {section}{\numberline {\relax 6.3}Aspas}{44}{section.6.3}
+\contentsline {section}{\numberline {\relax 6.4}Travessão, hífen, meia-risca}{44}{section.6.4}
+\contentsline {section}{\numberline {\relax 6.5}Espaço entre palavras e frases}{45}{section.6.5}
+\contentsline {section}{\numberline {\relax 6.6}Enfatizando texto}{45}{section.6.6}
+\contentsline {section}{\numberline {\relax 6.7}Estilos de fonte}{45}{section.6.7}
+\contentsline {section}{\numberline {\relax 6.8}Tamanho de fonte}{46}{section.6.8}
+\contentsline {section}{\numberline {\relax 6.9}Sobrescrito e subscrito}{46}{section.6.9}
+\contentsline {section}{\numberline {\relax 6.10}Símbolos}{47}{section.6.10}
+\contentsline {section}{\numberline {\relax 6.11}Formatação de parágrafos}{47}{section.6.11}
+\contentsline {section}{\numberline {\relax 6.12}Inserção de hiperlinks}{49}{section.6.12}
+\contentsline {section}{\numberline {\relax 6.13}Citando textos}{50}{section.6.13}
+\contentsline {section}{\numberline {\relax 6.14}Notas de rodapé}{50}{section.6.14}
+\contentsline {section}{\numberline {\relax 6.15}Cabeçalhos}{50}{section.6.15}
+\contentsline {section}{\numberline {\relax 6.16}Modo matemático}{50}{section.6.16}
+\contentsline {chapter}{\numberline {7}Figuras}{53}{chapter.7}
+\contentsline {section}{\numberline {\relax 7.1}Incluindo imagens}{53}{section.7.1}
+\contentsline {section}{\numberline {\relax 7.2}Onde guardar as imagens do seu texto}{53}{section.7.2}
+\contentsline {section}{\numberline {\relax 7.3}Exemplos}{55}{section.7.3}
+\contentsline {section}{\numberline {\relax 7.4}Imagens como figuras}{57}{section.7.4}
+\contentsline {section}{\numberline {\relax 7.5}Rótulos ao lado da figura (side captions)}{57}{section.7.5}
+\contentsline {section}{\numberline {\relax 7.6}Figuras dentro de figuras (subfloats)}{58}{section.7.6}
+\contentsline {section}{\numberline {\relax 7.7}Figuras lado-a-lado}{59}{section.7.7}
 \select@language {english}
 \select@language {brazil}
-\contentsline {section}{\numberline {\relax 6.8}Figuras com o tamanho da página em textos de duas colunas}{52}{section.6.8}
-\contentsline {chapter}{\numberline {7}Referências}{53}{chapter.7}
-\contentsline {section}{\numberline {\relax 7.1}Referências cruzadas}{53}{section.7.1}
-\contentsline {section}{\numberline {\relax 7.2}Hyperlinks}{53}{section.7.2}
-\contentsline {chapter}{\numberline {8}Cores}{55}{chapter.8}
-\contentsline {chapter}{\numberline {9}Fontes}{57}{chapter.9}
-\contentsline {section}{\numberline {\relax 9.1}O pacote \texttt {fontspec}}{57}{section.9.1}
-\contentsline {chapter}{\numberline {10}Idiomas}{59}{chapter.10}
-\contentsline {section}{\numberline {\relax 10.1}Alfabetos não latinos e escritas não ocidentais}{60}{section.10.1}
+\contentsline {section}{\numberline {\relax 7.8}Figuras com o tamanho da página em textos de duas colunas}{60}{section.7.8}
+\contentsline {chapter}{\numberline {8}Referências}{61}{chapter.8}
+\contentsline {section}{\numberline {\relax 8.1}Referências cruzadas}{61}{section.8.1}
+\contentsline {section}{\numberline {\relax 8.2}Hyperlinks}{61}{section.8.2}
+\contentsline {chapter}{\numberline {9}Cores}{63}{chapter.9}
+\contentsline {chapter}{\numberline {10}Fontes}{65}{chapter.10}
+\contentsline {section}{\numberline {\relax 10.1}O pacote \texttt {fontspec}}{65}{section.10.1}
+\contentsline {chapter}{\numberline {11}Idiomas}{67}{chapter.11}
+\contentsline {section}{\numberline {\relax 11.1}Alfabetos não latinos e escritas não ocidentais}{68}{section.11.1}
 \select@language {russian}
 \select@language {brazil}
 \select@language {greek}
 \select@language {brazil}
-\contentsline {chapter}{\numberline {11}Documentos técnicos e científicos brasileiros com abnTeX2}{63}{chapter.11}
-\contentsline {section}{\numberline {\relax 11.1}Macros de dados do trabalho}{65}{section.11.1}
-\contentsline {chapter}{\numberline {12}Outros recursos}{67}{chapter.12}
-\contentsline {part}{Apêndices}{69}{section*.4}
+\contentsline {chapter}{\numberline {12}Documentos técnicos e científicos brasileiros com abnTeX2}{71}{chapter.12}
+\contentsline {section}{\numberline {\relax 12.1}Macros de dados do trabalho}{73}{section.12.1}
+\contentsline {chapter}{\numberline {13}Outros recursos}{75}{chapter.13}
+\contentsline {part}{Apêndices}{77}{section*.4}

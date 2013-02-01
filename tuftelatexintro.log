@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.4-0.9998 (TeX Live 2012/W32TeX) (format=xelatex 2013.1.11)  24 JAN 2013 23:29
+This is XeTeX, Version 3.1415926-2.4-0.9998 (TeX Live 2012/W32TeX) (format=xelatex 2013.1.11)  1 FEB 2013 10:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -101,185 +101,62 @@ Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
 Package: titletoc 2011/12/15 v1.6 TOC entries
 \ttl@leftsep=\dimen110
 )
-(c:/texlive/2012/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2012/05/13 v6.82q Hypertext links for LaTeX
-
-(c:/texlive/2012/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
-Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
-
-
-(c:/texlive/2012/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
-Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
-Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
-Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
-Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
-Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
-Package ifvtex Info: VTeX not detected.
-Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
-Package hobsub Info: Skipping package `ifpdf' (already loaded).
-Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
-Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
-Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
-)
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: pdfTeX >= 1.30 not detected.
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode not found.
-Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
-Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
-)
-Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
-Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
-)
-Package hobsub Info: Skipping package `hobsub' (already loaded).
-Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
-Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
-Package: xcolor-patch 2011/01/30 xcolor patch
-Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
-Package atveryend Info: \enddocument detected (standard20110627).
-Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
-Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
-Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
-)
-(c:/texlive/2012/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
-)
-\@linkdim=\dimen111
-\Hy@linkcounter=\count94
-\Hy@pagecounter=\count95
-
-(c:/texlive/2012/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2012/05/13 v6.82q Hyperref: PDFDocEncoding definition (HO)
-)
-\Hy@SavedSpaceFactor=\count96
-
-(c:/texlive/2012/texmf-dist/tex/xelatex/xetexconfig/hyperref.cfg
-File: hyperref.cfg 2008/07/11 v1.2 hyperref configuration for XeLaTeX
-)
-Package hyperref Info: Option `unicode' set `true' on input line 3941.
-
-(c:/texlive/2012/texmf-dist/tex/latex/hyperref/puenc.def
-File: puenc.def 2012/05/13 v6.82q Hyperref: PDF Unicode definition (HO)
-)
-Package hyperref Info: Option `hyperfootnotes' set `false' on input line 3941.
-Package hyperref Info: Hyper figures OFF on input line 4062.
-Package hyperref Info: Link nesting OFF on input line 4067.
-Package hyperref Info: Hyper index ON on input line 4070.
-Package hyperref Info: Plain pages OFF on input line 4077.
-Package hyperref Info: Backreferencing OFF on input line 4082.
-Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4300.
-\c@Hy@tempcnt=\count97
-
-(c:/texlive/2012/texmf-dist/tex/latex/url/url.sty
-\Urlmuskip=\muskip10
-Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
-)
-LaTeX Info: Redefining \url on input line 4653.
-\Fld@menulength=\count98
-\Field@Width=\dimen112
-\Fld@charsize=\dimen113
-Package hyperref Info: Hyper figures OFF on input line 5773.
-Package hyperref Info: Link nesting OFF on input line 5778.
-Package hyperref Info: Hyper index ON on input line 5781.
-Package hyperref Info: backreferencing OFF on input line 5788.
-Package hyperref Info: Link coloring OFF on input line 5793.
-Package hyperref Info: Link coloring with OCG OFF on input line 5798.
-Package hyperref Info: PDF/A mode OFF on input line 5803.
-LaTeX Info: Redefining \ref on input line 5843.
-LaTeX Info: Redefining \pageref on input line 5847.
-\Hy@abspage=\count99
-\c@Item=\count100
-)
-
-Package hyperref Message: Driver: hxetex.
-
-(c:/texlive/2012/texmf-dist/tex/latex/hyperref/hxetex.def
-File: hxetex.def 2012/05/13 v6.82q Hyperref driver for XeTeX
-
-(c:/texlive/2012/texmf-dist/tex/generic/oberdiek/stringenc.sty
-Package: stringenc 2011/12/02 v1.10 Convert strings between diff. encodings (HO
-)
-)
-\pdfm@box=\box27
-\c@Hy@AnnotLevel=\count101
-\HyField@AnnotCount=\count102
-\Fld@listcount=\count103
-\c@bookmark@seq@number=\count104
-
-(c:/texlive/2012/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
-Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
-Package rerunfilecheck Info: Feature \pdfmdfivesum is not available
-(rerunfilecheck)             (e.g. pdfTeX or LuaTeX with package `pdftexcmds').
-
-(rerunfilecheck)             Therefore file contents cannot be checked efficien
-tly
-(rerunfilecheck)             and the loading of the package is aborted.
-)
-\Hy@SectionHShift=\skip48
-)
-
-Package hyperref Warning: Option `pagecolor' is not available anymore.
-
 (c:/texlive/2012/texmf-dist/tex/latex/ms/ragged2e.sty
 Package: ragged2e 2009/05/21 v2.1 ragged2e Package (MS)
 
 (c:/texlive/2012/texmf-dist/tex/latex/ms/everysel.sty
 Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 )
-\CenteringLeftskip=\skip49
-\RaggedLeftLeftskip=\skip50
-\RaggedRightLeftskip=\skip51
-\CenteringRightskip=\skip52
-\RaggedLeftRightskip=\skip53
-\RaggedRightRightskip=\skip54
-\CenteringParfillskip=\skip55
-\RaggedLeftParfillskip=\skip56
-\RaggedRightParfillskip=\skip57
-\JustifyingParfillskip=\skip58
-\CenteringParindent=\skip59
-\RaggedLeftParindent=\skip60
-\RaggedRightParindent=\skip61
-\JustifyingParindent=\skip62
+\CenteringLeftskip=\skip48
+\RaggedLeftLeftskip=\skip49
+\RaggedRightLeftskip=\skip50
+\CenteringRightskip=\skip51
+\RaggedLeftRightskip=\skip52
+\RaggedRightRightskip=\skip53
+\CenteringParfillskip=\skip54
+\RaggedLeftParfillskip=\skip55
+\RaggedRightParfillskip=\skip56
+\JustifyingParfillskip=\skip57
+\CenteringParindent=\skip58
+\RaggedLeftParindent=\skip59
+\RaggedRightParindent=\skip60
+\JustifyingParindent=\skip61
 )
 (c:/texlive/2012/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
-\Gm@cnth=\count105
-\Gm@cntv=\count106
-\c@Gm@tempcnt=\count107
-\Gm@bindingoffset=\dimen114
-\Gm@wd@mp=\dimen115
-\Gm@odd@mp=\dimen116
-\Gm@even@mp=\dimen117
-\Gm@layoutwidth=\dimen118
-\Gm@layoutheight=\dimen119
-\Gm@layouthoffset=\dimen120
-\Gm@layoutvoffset=\dimen121
+
+(c:/texlive/2012/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+\Gm@cnth=\count94
+\Gm@cntv=\count95
+\c@Gm@tempcnt=\count96
+\Gm@bindingoffset=\dimen111
+\Gm@wd@mp=\dimen112
+\Gm@odd@mp=\dimen113
+\Gm@even@mp=\dimen114
+\Gm@layoutwidth=\dimen115
+\Gm@layoutheight=\dimen116
+\Gm@layouthoffset=\dimen117
+\Gm@layoutvoffset=\dimen118
 \Gm@dimlist=\toks17
 )
 (c:/texlive/2012/texmf-dist/tex/latex/changepage/changepage.sty
 Package: changepage 2009/10/20 v1.0c check page and change page layout
-\c@cp@cntr=\count108
-\cp@tempcnt=\count109
+\c@cp@cntr=\count97
+\cp@tempcnt=\count98
 )
-\@tufte@overhang=\skip63
-\@tufte@fullwidth=\skip64
-\@tufte@caption@fill=\skip65
+\@tufte@overhang=\skip62
+\@tufte@fullwidth=\skip63
+\@tufte@caption@fill=\skip64
 
 (c:/texlive/2012/texmf-dist/tex/latex/paralist/paralist.sty
 Package: paralist 2002/03/18 v2.3b Extended list environments (BS)
-\pltopsep=\skip66
-\plpartopsep=\skip67
-\plitemsep=\skip68
-\plparsep=\skip69
+\pltopsep=\skip65
+\plpartopsep=\skip66
+\plitemsep=\skip67
+\plparsep=\skip68
 \pl@lab=\toks18
 )
 (c:/texlive/2012/texmf-dist/tex/latex/textcase/textcase.sty
@@ -319,10 +196,6 @@ gine
 File: book-xetex-bidi.def 2011/08/26 v0.8 bidi adaptations for standard book cl
 ass for XeTeX engine
 )
-(c:/texlive/2012/texmf-dist/tex/latex/bidi/hyperref-xetex-bidi.def
-File: hyperref-xetex-bidi.def 2012/01/01 v0.5 bidi adaptations for hyperref pac
-kage for XeTeX engine
-)
 (c:/texlive/2012/texmf-dist/tex/latex/bidi/titlesec-xetex-bidi.def
 File: titlesec-xetex-bidi.def 2010/07/25 v0.1 bidi adaptations for titlesec pac
 kage for XeTeX engine
@@ -341,40 +214,40 @@ package loaded
 ))
 (c:/texlive/2012/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip70
-\bibsep=\skip71
+\bibhang=\skip69
+\bibsep=\skip70
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count110
+\c@NAT@ctr=\count99
 )
 (c:/texlive/2012/texmf-dist/tex/latex/natbib/bibentry.sty
 Package: bibentry 2007/10/30 1.5 (PWD)
 )
 No file tuftelatexintro.bbl.
-\c@@tufte@num@bibkeys=\count111
+\c@@tufte@num@bibkeys=\count100
 (c:/texlive/2012/texmf-dist/tex/latex/sauerj/optparams.sty
 Package: optparams 2004/08/14 v0.9 multiple optional parameters in macros
 )
-\@tufte@sidenote@vertical@offset=\skip72
+\@tufte@sidenote@vertical@offset=\skip71
 
 (c:/texlive/2012/texmf-dist/tex/latex/placeins/placeins.sty
 Package: placeins 2005/04/18  v 2.2
 )
-\@tufte@margin@floatbox=\box28
-\@tufte@figure@box=\box29
-\@tufte@caption@box=\box30
-\@tufte@caption@vertical@offset=\skip73
-\@tufte@float@contents@width=\skip74
+\@tufte@margin@floatbox=\box27
+\@tufte@figure@box=\box28
+\@tufte@caption@box=\box29
+\@tufte@caption@vertical@offset=\skip72
+\@tufte@float@contents@width=\skip73
 
 (c:/texlive/2012/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-\fancy@headwidth=\skip75
-\f@ncyO@elh=\skip76
-\f@ncyO@erh=\skip77
-\f@ncyO@olh=\skip78
-\f@ncyO@orh=\skip79
-\f@ncyO@elf=\skip80
-\f@ncyO@erf=\skip81
-\f@ncyO@olf=\skip82
-\f@ncyO@orf=\skip83
+\fancy@headwidth=\skip74
+\f@ncyO@elh=\skip75
+\f@ncyO@erh=\skip76
+\f@ncyO@olh=\skip77
+\f@ncyO@orh=\skip78
+\f@ncyO@elf=\skip79
+\f@ncyO@erf=\skip80
+\f@ncyO@olf=\skip81
+\f@ncyO@orf=\skip82
 )
 (c:/texlive/2012/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
@@ -408,26 +281,27 @@ File: svgnam.def 2007/01/21 v2.11 Predefined colors according to SVG 1.1 (UK)
 
 (c:/texlive/2012/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
-\c@tracingmulticols=\count112
-\mult@box=\box31
-\multicol@leftmargin=\dimen122
-\c@unbalance=\count113
-\c@collectmore=\count114
-\doublecol@number=\count115
-\multicoltolerance=\count116
-\multicolpretolerance=\count117
-\full@width=\dimen123
-\page@free=\dimen124
-\premulticols=\dimen125
-\postmulticols=\dimen126
-\multicolsep=\skip84
-\multicolbaselineskip=\skip85
-\partial@page=\box32
-\last@line=\box33
-\mult@rightbox=\box34
-\mult@grightbox=\box35
-\mult@gfirstbox=\box36
-\mult@firstbox=\box37
+\c@tracingmulticols=\count101
+\mult@box=\box30
+\multicol@leftmargin=\dimen119
+\c@unbalance=\count102
+\c@collectmore=\count103
+\doublecol@number=\count104
+\multicoltolerance=\count105
+\multicolpretolerance=\count106
+\full@width=\dimen120
+\page@free=\dimen121
+\premulticols=\dimen122
+\postmulticols=\dimen123
+\multicolsep=\skip83
+\multicolbaselineskip=\skip84
+\partial@page=\box31
+\last@line=\box32
+\mult@rightbox=\box33
+\mult@grightbox=\box34
+\mult@gfirstbox=\box35
+\mult@firstbox=\box36
+\@tempa=\box37
 \@tempa=\box38
 \@tempa=\box39
 \@tempa=\box40
@@ -444,15 +318,14 @@ Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
 \@tempa=\box51
 \@tempa=\box52
 \@tempa=\box53
-\@tempa=\box54
-\c@columnbadness=\count118
-\c@finalcolumnbadness=\count119
-\last@try=\dimen127
-\multicolovershoot=\dimen128
-\multicolundershoot=\dimen129
-\mult@nat@firstbox=\box55
-\colbreak@box=\box56
-\multicol@sort@counter=\count120
+\c@columnbadness=\count107
+\c@finalcolumnbadness=\count108
+\last@try=\dimen124
+\multicolovershoot=\dimen125
+\multicolundershoot=\dimen126
+\mult@nat@firstbox=\box54
+\colbreak@box=\box55
+\multicol@sort@counter=\count109
 )))
 (c:/texlive/2012/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2009/06/22 v3.00
@@ -503,19 +376,19 @@ Package: l3seq 2012/03/04 v3490 L3 Experimental sequences and stacks
 )
 (c:/texlive/2012/texmf-dist/tex/latex/l3kernel/l3int.sty
 Package: l3int 2012/03/04 v3490 L3 Experimental integers
-\c_max_int=\count121
-\l_tmpa_int=\count122
-\l_tmpb_int=\count123
-\l_tmpc_int=\count124
-\g_tmpa_int=\count125
-\g_tmpb_int=\count126
+\c_max_int=\count110
+\l_tmpa_int=\count111
+\l_tmpb_int=\count112
+\l_tmpc_int=\count113
+\g_tmpa_int=\count114
+\g_tmpb_int=\count115
 )
 (c:/texlive/2012/texmf-dist/tex/latex/l3kernel/l3quark.sty
 Package: l3quark 2012/02/12 v3384 L3 Experimental quarks
 )
 (c:/texlive/2012/texmf-dist/tex/latex/l3kernel/l3prg.sty
 Package: l3prg 2012/03/04 v3490 L3 Experimental control structures
-\g_prg_map_int=\count127
+\g_prg_map_int=\count116
 )
 (c:/texlive/2012/texmf-dist/tex/latex/l3kernel/l3clist.sty
 Package: l3clist 2012/03/04 v3490 L3 Experimental comma separated lists
@@ -531,153 +404,153 @@ Package: l3msg 2012/04/23 v3568 L3 Experimental messages
 )
 (c:/texlive/2012/texmf-dist/tex/latex/l3kernel/l3file.sty
 Package: l3file 2012/03/09 v3520 L3 Experimental file and I/O operations
-\l_iow_stream_int=\count128
-\l_iow_line_length_int=\count129
-\l_iow_target_length_int=\count130
-\l_iow_current_line_int=\count131
-\l_iow_current_word_int=\count132
-\l_iow_current_indentation_int=\count133
+\l_iow_stream_int=\count117
+\l_iow_line_length_int=\count118
+\l_iow_target_length_int=\count119
+\l_iow_current_line_int=\count120
+\l_iow_current_word_int=\count121
+\l_iow_current_indentation_int=\count122
 )
 (c:/texlive/2012/texmf-dist/tex/latex/l3kernel/l3skip.sty
 Package: l3skip 2012/03/05 v3499 L3 Experimental dimensions and skips
-\l_tmpa_dim=\dimen130
-\l_tmpb_dim=\dimen131
-\l_tmpc_dim=\dimen132
-\g_tmpa_dim=\dimen133
-\g_tmpb_dim=\dimen134
-\l_tmpa_skip=\skip86
-\l_tmpb_skip=\skip87
-\l_tmpc_skip=\skip88
-\g_tmpa_skip=\skip89
-\g_tmpb_skip=\skip90
+\l_tmpa_dim=\dimen127
+\l_tmpb_dim=\dimen128
+\l_tmpc_dim=\dimen129
+\g_tmpa_dim=\dimen130
+\g_tmpb_dim=\dimen131
+\l_tmpa_skip=\skip85
+\l_tmpb_skip=\skip86
+\l_tmpc_skip=\skip87
+\g_tmpa_skip=\skip88
+\g_tmpb_skip=\skip89
 )
 (c:/texlive/2012/texmf-dist/tex/latex/l3kernel/l3keys.sty
 Package: l3keys 2012/03/03 v3487 L3 Experimental key-value interfaces
-\g_keyval_level_int=\count134
-\l_keys_choice_int=\count135
+\g_keyval_level_int=\count123
+\l_keys_choice_int=\count124
 )
 (c:/texlive/2012/texmf-dist/tex/latex/l3kernel/l3fp.sty
 Package: l3fp 2012/03/04 v3490 L3 Experimental floating-point operations
-\c_one_hundred_million=\count136
-\c_five_hundred_million=\count137
-\c_one_thousand_million=\count138
-\c_fp_pi_by_four_decimal_int=\count139
-\c_fp_pi_by_four_extended_int=\count140
-\c_fp_pi_decimal_int=\count141
-\c_fp_pi_extended_int=\count142
-\c_fp_two_pi_decimal_int=\count143
-\c_fp_two_pi_extended_int=\count144
-\l_fp_count_int=\count145
-\l_fp_div_offset_int=\count146
-\l_fp_exp_integer_int=\count147
-\l_fp_exp_decimal_int=\count148
-\l_fp_exp_extended_int=\count149
-\l_fp_exp_exponent_int=\count150
-\l_fp_input_a_sign_int=\count151
-\l_fp_input_a_integer_int=\count152
-\l_fp_input_a_decimal_int=\count153
-\l_fp_input_a_exponent_int=\count154
-\l_fp_input_b_sign_int=\count155
-\l_fp_input_b_integer_int=\count156
-\l_fp_input_b_decimal_int=\count157
-\l_fp_input_b_exponent_int=\count158
-\l_fp_input_a_extended_int=\count159
-\l_fp_input_b_extended_int=\count160
-\l_fp_mul_a_i_int=\count161
-\l_fp_mul_a_ii_int=\count162
-\l_fp_mul_a_iii_int=\count163
-\l_fp_mul_a_iv_int=\count164
-\l_fp_mul_a_v_int=\count165
-\l_fp_mul_a_vi_int=\count166
-\l_fp_mul_b_i_int=\count167
-\l_fp_mul_b_ii_int=\count168
-\l_fp_mul_b_iii_int=\count169
-\l_fp_mul_b_iv_int=\count170
-\l_fp_mul_b_v_int=\count171
-\l_fp_mul_b_vi_int=\count172
-\l_fp_mul_output_int=\count173
-\l_fp_output_sign_int=\count174
-\l_fp_output_integer_int=\count175
-\l_fp_output_decimal_int=\count176
-\l_fp_output_exponent_int=\count177
-\l_fp_output_extended_int=\count178
-\l_fp_round_position_int=\count179
-\l_fp_round_target_int=\count180
-\l_fp_split_sign_int=\count181
-\l_fp_internal_int=\count182
-\l_fp_trig_octant_int=\count183
-\l_fp_trig_sign_int=\count184
-\l_fp_trig_decimal_int=\count185
-\l_fp_trig_extended_int=\count186
-\l_fp_internal_dim=\dimen135
-\l_fp_internal_skip=\skip91
+\c_one_hundred_million=\count125
+\c_five_hundred_million=\count126
+\c_one_thousand_million=\count127
+\c_fp_pi_by_four_decimal_int=\count128
+\c_fp_pi_by_four_extended_int=\count129
+\c_fp_pi_decimal_int=\count130
+\c_fp_pi_extended_int=\count131
+\c_fp_two_pi_decimal_int=\count132
+\c_fp_two_pi_extended_int=\count133
+\l_fp_count_int=\count134
+\l_fp_div_offset_int=\count135
+\l_fp_exp_integer_int=\count136
+\l_fp_exp_decimal_int=\count137
+\l_fp_exp_extended_int=\count138
+\l_fp_exp_exponent_int=\count139
+\l_fp_input_a_sign_int=\count140
+\l_fp_input_a_integer_int=\count141
+\l_fp_input_a_decimal_int=\count142
+\l_fp_input_a_exponent_int=\count143
+\l_fp_input_b_sign_int=\count144
+\l_fp_input_b_integer_int=\count145
+\l_fp_input_b_decimal_int=\count146
+\l_fp_input_b_exponent_int=\count147
+\l_fp_input_a_extended_int=\count148
+\l_fp_input_b_extended_int=\count149
+\l_fp_mul_a_i_int=\count150
+\l_fp_mul_a_ii_int=\count151
+\l_fp_mul_a_iii_int=\count152
+\l_fp_mul_a_iv_int=\count153
+\l_fp_mul_a_v_int=\count154
+\l_fp_mul_a_vi_int=\count155
+\l_fp_mul_b_i_int=\count156
+\l_fp_mul_b_ii_int=\count157
+\l_fp_mul_b_iii_int=\count158
+\l_fp_mul_b_iv_int=\count159
+\l_fp_mul_b_v_int=\count160
+\l_fp_mul_b_vi_int=\count161
+\l_fp_mul_output_int=\count162
+\l_fp_output_sign_int=\count163
+\l_fp_output_integer_int=\count164
+\l_fp_output_decimal_int=\count165
+\l_fp_output_exponent_int=\count166
+\l_fp_output_extended_int=\count167
+\l_fp_round_position_int=\count168
+\l_fp_round_target_int=\count169
+\l_fp_split_sign_int=\count170
+\l_fp_internal_int=\count171
+\l_fp_trig_octant_int=\count172
+\l_fp_trig_sign_int=\count173
+\l_fp_trig_decimal_int=\count174
+\l_fp_trig_extended_int=\count175
+\l_fp_internal_dim=\dimen132
+\l_fp_internal_skip=\skip90
 )
 (c:/texlive/2012/texmf-dist/tex/latex/l3kernel/l3box.sty
 Package: l3box 2012/03/04 v3490 L3 Experimental boxes
-\l_tmpb_box=\box57
-\l_box_top_dim=\dimen136
-\l_box_bottom_dim=\dimen137
-\l_box_left_dim=\dimen138
-\l_box_right_dim=\dimen139
-\l_box_top_new_dim=\dimen140
-\l_box_bottom_new_dim=\dimen141
-\l_box_left_new_dim=\dimen142
-\l_box_right_new_dim=\dimen143
-\l_box_internal_box=\box58
+\l_tmpb_box=\box56
+\l_box_top_dim=\dimen133
+\l_box_bottom_dim=\dimen134
+\l_box_left_dim=\dimen135
+\l_box_right_dim=\dimen136
+\l_box_top_new_dim=\dimen137
+\l_box_bottom_new_dim=\dimen138
+\l_box_left_new_dim=\dimen139
+\l_box_right_new_dim=\dimen140
+\l_box_internal_box=\box57
 )
 (c:/texlive/2012/texmf-dist/tex/latex/l3kernel/l3coffins.sty
 Package: l3coffins 2012/03/03 v3482 L3 Experimental coffin code layer
-\l_coffin_internal_box=\box59
-\l_coffin_internal_dim=\dimen144
-\l_coffin_offset_x_dim=\dimen145
-\l_coffin_offset_y_dim=\dimen146
-\l_coffin_x_dim=\dimen147
-\l_coffin_y_dim=\dimen148
-\l_coffin_x_prime_dim=\dimen149
-\l_coffin_y_prime_dim=\dimen150
-\l_coffin_Depth_dim=\dimen151
-\l_coffin_Height_dim=\dimen152
-\l_coffin_TotalHeight_dim=\dimen153
-\l_coffin_Width_dim=\dimen154
-\c_empty_coffin=\box60
-\l_coffin_aligned_coffin=\box61
-\l_coffin_aligned_internal_coffin=\box62
-\l_coffin_bounding_shift_dim=\dimen155
-\l_coffin_left_corner_dim=\dimen156
-\l_coffin_right_corner_dim=\dimen157
-\l_coffin_bottom_corner_dim=\dimen158
-\l_coffin_top_corner_dim=\dimen159
-\l_coffin_scaled_total_height_dim=\dimen160
-\l_coffin_scaled_width_dim=\dimen161
-\l_coffin_display_coffin=\box63
-\l_coffin_display_coord_coffin=\box64
-\l_coffin_display_pole_coffin=\box65
-\l_coffin_display_offset_dim=\dimen162
-\l_coffin_display_x_dim=\dimen163
-\l_coffin_display_y_dim=\dimen164
+\l_coffin_internal_box=\box58
+\l_coffin_internal_dim=\dimen141
+\l_coffin_offset_x_dim=\dimen142
+\l_coffin_offset_y_dim=\dimen143
+\l_coffin_x_dim=\dimen144
+\l_coffin_y_dim=\dimen145
+\l_coffin_x_prime_dim=\dimen146
+\l_coffin_y_prime_dim=\dimen147
+\l_coffin_Depth_dim=\dimen148
+\l_coffin_Height_dim=\dimen149
+\l_coffin_TotalHeight_dim=\dimen150
+\l_coffin_Width_dim=\dimen151
+\c_empty_coffin=\box59
+\l_coffin_aligned_coffin=\box60
+\l_coffin_aligned_internal_coffin=\box61
+\l_coffin_bounding_shift_dim=\dimen152
+\l_coffin_left_corner_dim=\dimen153
+\l_coffin_right_corner_dim=\dimen154
+\l_coffin_bottom_corner_dim=\dimen155
+\l_coffin_top_corner_dim=\dimen156
+\l_coffin_scaled_total_height_dim=\dimen157
+\l_coffin_scaled_width_dim=\dimen158
+\l_coffin_display_coffin=\box62
+\l_coffin_display_coord_coffin=\box63
+\l_coffin_display_pole_coffin=\box64
+\l_coffin_display_offset_dim=\dimen159
+\l_coffin_display_x_dim=\dimen160
+\l_coffin_display_y_dim=\dimen161
 )
 (c:/texlive/2012/texmf-dist/tex/latex/l3kernel/l3color.sty
 Package: l3color 2011/09/07 v2776 L3 Experimental colour support
 )
 (c:/texlive/2012/texmf-dist/tex/latex/l3kernel/l3luatex.sty
 Package: l3luatex 2012/02/09 v3355 L3 Experimental LuaTeX-specific functions
-\g_cctab_allocate_int=\count187
-\g_cctab_stack_int=\count188
+\g_cctab_allocate_int=\count176
+\g_cctab_stack_int=\count177
 ))
 (c:/texlive/2012/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 Package: xparse 2012/04/23 v3570 L3 Experimental document command parser
-\l_xparse_current_arg_int=\count189
-\l_xparse_m_args_int=\count190
-\l_xparse_mandatory_args_int=\count191
-\l_xparse_processor_int=\count192
-\l_xparse_v_nesting_int=\count193
+\l_xparse_current_arg_int=\count178
+\l_xparse_m_args_int=\count179
+\l_xparse_mandatory_args_int=\count180
+\l_xparse_processor_int=\count181
+\l_xparse_v_nesting_int=\count182
 )
-\l_fontspec_script_int=\count194
-\l_fontspec_language_int=\count195
-\l_fontspec_strnum_int=\count196
-\l_fontspec_tmpa_dim=\dimen165
-\l_fontspec_tmpb_dim=\dimen166
-\l_fontspec_tmpc_dim=\dimen167
+\l_fontspec_script_int=\count183
+\l_fontspec_language_int=\count184
+\l_fontspec_strnum_int=\count185
+\l_fontspec_tmpa_dim=\dimen162
+\l_fontspec_tmpb_dim=\dimen163
+\l_fontspec_tmpc_dim=\dimen164
 Variant \tl_gset:cV already defined; not changing it on line 66
 
 (c:/texlive/2012/texmf-dist/tex/latex/fontspec/fontspec-patches.sty
@@ -730,14 +603,14 @@ LaTeX Font Info:    Try loading font information for EU1+lmss on input line 357
 (c:/texlive/2012/texmf-dist/tex/latex/euenc/eu1lmss.fd
 File: eu1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ))
-\tipaTiiicode=\count197
+\tipaTiiicode=\count186
 \tipasavetokens=\toks21
 \tipachecktokens=\toks22
 
 (c:/texlive/2012/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
-\Gin@req@height=\dimen168
-\Gin@req@width=\dimen169
+\Gin@req@height=\dimen165
+\Gin@req@width=\dimen166
 ))
 .................................................
 . LaTeX info: "xparse/define-command"
@@ -845,14 +718,14 @@ Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 .................................................
 Variant \prop_gput:cnV already defined; not changing it on line 485
 Variant \prop_gput:cnx already defined; not changing it on line 486
-\l_fontspec_tmp_int=\count198
+\l_fontspec_tmp_int=\count187
 LaTeX Info: Redefining \itshape on input line 1893.
 LaTeX Info: Redefining \slshape on input line 1897.
 LaTeX Info: Redefining \scshape on input line 1901.
 LaTeX Info: Redefining \upshape on input line 1905.
 
 (c:/texlive/2012/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
-\g_fontspec_family_Bulmer MT Std_int=\count199
+\g_fontspec_family_Bulmer MT Std_int=\count188
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -905,7 +778,7 @@ LaTeX Info: Redefining \upshape on input line 1905.
 . <->"Bulmer MT Std Bold
 . Italic/ICU:script=latn;language=DFLT;mapping=tex-text;"
 .................................................
-\g_fontspec_family_Consolas_int=\count200
+\g_fontspec_family_Consolas_int=\count189
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -932,7 +805,7 @@ Package: polyglossia 2012/04/29 v1.2.1 Babel replacement for XeLaTeX
 
 (c:/texlive/2012/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2011/01/03 v2.1 e-TeX tools for LaTeX
-\etb@tempcnta=\count201
+\etb@tempcnta=\count190
 )
 (c:/texlive/2012/texmf-dist/tex/latex/makecmds/makecmds.sty
 Package: makecmds 2009/09/03 v1.0a extra command making commands
@@ -970,15 +843,14 @@ File: gloss-russian.ldf polyglossia: module for russian
 File: gloss-greek.ldf polyglossia: module for greek
 
 (c:/texlive/2012/texmf-dist/tex/xelatex/polyglossia/xgreek-fixes.def)
-Normal \count register pool exhausted, switching to extended pool.
-\@attic@num=\count277
+\@attic@num=\count191
 )
 (c:/texlive/2012/texmf-dist/tex/xelatex/arabxetex/arabxetex.sty
 Package: arabxetex 2010/03/04 v1.1.4 ArabTeX-like interface for XeLaTeX
 
 (c:/texlive/2012/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2000/07/18 v2.13 AMS math features
-\@mathmargin=\skip92
+\@mathmargin=\skip91
 
 For additional information on amsmath, use the `?' option.
 (c:/texlive/2012/texmf-dist/tex/latex/amsmath/amstext.sty
@@ -987,49 +859,50 @@ Package: amstext 2000/06/29 v2.01
 (c:/texlive/2012/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks23
-\ex@=\dimen170
+\ex@=\dimen167
 ))
 (c:/texlive/2012/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
-\pmbraise@=\dimen171
+\pmbraise@=\dimen168
 )
 (c:/texlive/2012/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count278
+\inf@bad=\count192
 LaTeX Info: Redefining \frac on input line 211.
-\uproot@=\count279
-\leftroot@=\count280
+\uproot@=\count193
+\leftroot@=\count194
 LaTeX Info: Redefining \overline on input line 307.
-\classnum@=\count281
-\DOTSCASE@=\count282
+\classnum@=\count195
+\DOTSCASE@=\count196
 LaTeX Info: Redefining \ldots on input line 379.
 LaTeX Info: Redefining \dots on input line 382.
 LaTeX Info: Redefining \cdots on input line 467.
-\Mathstrutbox@=\box66
-\strutbox@=\box67
-\big@size=\dimen172
+\Mathstrutbox@=\box65
+\strutbox@=\box66
+\big@size=\dimen169
 LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
-\macc@depth=\count283
-\c@MaxMatrixCols=\count284
-\dotsspace@=\muskip11
-\c@parentequation=\count285
-\dspbrk@lvl=\count286
+\macc@depth=\count197
+\c@MaxMatrixCols=\count198
+\dotsspace@=\muskip10
+\c@parentequation=\count199
+\dspbrk@lvl=\count200
 \tag@help=\toks24
-\row@=\count287
-\column@=\count288
-\maxfields@=\count289
+\row@=\count201
+Normal \count register pool exhausted, switching to extended pool.
+\column@=\count277
+\maxfields@=\count278
 \andhelp@=\toks25
-\eqnshift@=\dimen173
-\alignsep@=\dimen174
-\tagshift@=\dimen175
-\tagwidth@=\dimen176
-\totwidth@=\dimen177
-\lineht@=\dimen178
+\eqnshift@=\dimen170
+\alignsep@=\dimen171
+\tagshift@=\dimen172
+\tagwidth@=\dimen173
+\totwidth@=\dimen174
+\lineht@=\dimen175
 \@envbody=\toks26
-\multlinegap=\skip93
-\multlinetaggap=\skip94
+\multlinegap=\skip92
+\multlinetaggap=\skip93
 
 
 ! LaTeX Error: Unable to properly define \@@leqno; primitive \leqno no longer p
@@ -1041,8 +914,10 @@ Type  H <return>  for immediate help.
                                                   
 l.2495 \@saveprimitive\leqno\@@leqno
                                     
-? s
-OK, entering \scrollmode...
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
 
 ! LaTeX Error: Unable to properly define \@@eqno; primitive \eqno no longer pri
 mitive.
@@ -1061,7 +936,7 @@ or  <return>  to continue without it.
 LaTeX Info: Redefining \[ on input line 2666.
 LaTeX Info: Redefining \] on input line 2667.
 ))
-\g_fontspec_family_Minion Pro_int=\count290
+\g_fontspec_family_Minion Pro_int=\count279
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -1102,7 +977,7 @@ LaTeX Info: Redefining \] on input line 2667.
 . 
 . This font family consists of the following shapes:
 .................................................
-\g_fontspec_family_Adobe Arabic_int=\count291
+\g_fontspec_family_Adobe Arabic_int=\count280
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -1144,51 +1019,51 @@ Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
 
 (c:/texlive/2012/texmf-dist/tex/latex/tools/array.sty
 Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
-\col@sep=\dimen179
-\extrarowheight=\dimen180
+\col@sep=\dimen176
+\extrarowheight=\dimen177
 \NC@list=\toks28
-\extratabsurround=\skip95
-\backup@length=\skip96
+\extratabsurround=\skip94
+\backup@length=\skip95
 )
-\TX@col@width=\dimen181
-\TX@old@table=\dimen182
-\TX@old@col=\dimen183
-\TX@target=\dimen184
-\TX@delta=\dimen185
-\TX@cols=\count292
+\TX@col@width=\dimen178
+\TX@old@table=\dimen179
+\TX@old@col=\dimen180
+\TX@target=\dimen181
+\TX@delta=\dimen182
+\TX@cols=\count281
 \TX@ftn=\toks29
 )
 (c:/texlive/2012/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
-\heavyrulewidth=\dimen186
-\lightrulewidth=\dimen187
-\cmidrulewidth=\dimen188
-\belowrulesep=\dimen189
-\belowbottomsep=\dimen190
-\aboverulesep=\dimen191
-\abovetopsep=\dimen192
-\cmidrulesep=\dimen193
-\cmidrulekern=\dimen194
-\defaultaddspace=\dimen195
-\@cmidla=\count293
-\@cmidlb=\count294
-\@aboverulesep=\dimen196
-\@belowrulesep=\dimen197
-\@thisruleclass=\count295
-\@lastruleclass=\count296
-\@thisrulewidth=\dimen198
+\heavyrulewidth=\dimen183
+\lightrulewidth=\dimen184
+\cmidrulewidth=\dimen185
+\belowrulesep=\dimen186
+\belowbottomsep=\dimen187
+\aboverulesep=\dimen188
+\abovetopsep=\dimen189
+\cmidrulesep=\dimen190
+\cmidrulekern=\dimen191
+\defaultaddspace=\dimen192
+\@cmidla=\count282
+\@cmidlb=\count283
+\@aboverulesep=\dimen193
+\@belowrulesep=\dimen194
+\@thisruleclass=\count284
+\@lastruleclass=\count285
+\@thisrulewidth=\dimen195
 )
 (c:/texlive/2012/texmf-dist/tex/generic/ulem/ulem.sty
-\UL@box=\box68
-\UL@hyphenbox=\box69
-\UL@skip=\skip97
+\UL@box=\box67
+\UL@hyphenbox=\box68
+\UL@skip=\skip96
 \UL@hook=\toks30
-\UL@height=\dimen199
-\UL@pe=\count297
-\UL@pixel=\dimen200
-\ULC@box=\box70
+\UL@height=\dimen196
+\UL@pe=\count286
+\UL@pixel=\dimen197
+\ULC@box=\box69
 Package: ulem 2012/05/18
-\ULdepth=\dimen201
+\ULdepth=\dimen198
 )
 (c:/texlive/2012/texmf-dist/tex/latex/mhchem/mhchem.sty
 Package: mhchem 2011/06/03 v3.11 for typesetting chemical formulae
@@ -1197,15 +1072,15 @@ Package: mhchem 2011/06/03 v3.11 for typesetting chemical formulae
 Package: twoopt 2008/08/11 v1.5 Definitions with two optional arguments (HO)
 )
 \tok@mhchem@ce@iii=\toks31
-\mhchem@arrowminlength=\skip98
-\mhchem@arrows@box=\box71
-\mhchem@arrowlength@pgf=\skip99
-\mhchem@arrowminlength@pgf=\skip100
-\mhchem@bondwidth=\skip101
-\mhchem@bondheight=\skip102
-\mhchem@smallbondwidth@tmpA=\skip103
-\mhchem@smallbondwidth@tmpB=\skip104
-\mhchem@smallbondwidth=\skip105
+\mhchem@arrowminlength=\skip97
+\mhchem@arrows@box=\box70
+\mhchem@arrowlength@pgf=\skip98
+\mhchem@arrowminlength@pgf=\skip99
+\mhchem@bondwidth=\skip100
+\mhchem@bondheight=\skip101
+\mhchem@smallbondwidth@tmpA=\skip102
+\mhchem@smallbondwidth@tmpB=\skip103
+\mhchem@smallbondwidth=\skip104
 \mhchem@cf@result=\toks32
 \mhchem@cf@element=\toks33
 \mhchem@cf@amount=\toks34
@@ -1214,13 +1089,13 @@ Package: twoopt 2008/08/11 v1.5 Definitions with two optional arguments (HO)
 \mhchem@cf@presup=\toks37
 \mhchem@cf@replaceMath@result=\toks38
 \mhchem@cf@replaceMathMinusDot@result=\toks39
-\mhchem@prepostscript@tmp@i=\skip106
-\mhchem@prepostscript@tmp@ii=\skip107
-\mhchem@mathbox@tmp@i=\skip108
-\mhchem@mathbox@tmp@ii=\skip109
-\mhchem@minispace@tmp=\skip110
-\mhchem@option@minussidebearingleft=\skip111
-\mhchem@option@minussidebearingright=\skip112
+\mhchem@prepostscript@tmp@i=\skip105
+\mhchem@prepostscript@tmp@ii=\skip106
+\mhchem@mathbox@tmp@i=\skip107
+\mhchem@mathbox@tmp@ii=\skip108
+\mhchem@minispace@tmp=\skip109
+\mhchem@option@minussidebearingleft=\skip110
+\mhchem@option@minussidebearingright=\skip111
 )
 (c:/texlive/2012/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
@@ -1305,7 +1180,7 @@ Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 340.
 )
 (c:/texlive/2012/texmf-dist/tex/latex/eurosym/eurosym.sty
 Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
-\@eurobox=\box72
+\@eurobox=\box71
 )
 (c:/texlive/2012/texmf-dist/tex/latex/wasysym/wasysym.sty
 Package: wasysym 2003/10/30 v2.0 Wasy-2 symbol support package
@@ -1315,24 +1190,24 @@ LaTeX Font Info:    Overwriting symbol font `wasy' in version `bold'
 )
 (c:/texlive/2012/texmf-dist/tex/latex/sidecap/sidecap.sty
 Package: sidecap 2003/06/06 v1.6f SideCap Package (RN/HjG)
+\SC@BOXWD=\dimen199
+\SC@CAPWD=\dimen200
+\SC@tempdima=\dimen201
 Normal \dimen register pool exhausted, switching to extended pool.
-\SC@BOXWD=\dimen256
-\SC@CAPWD=\dimen257
-\SC@tempdima=\dimen258
-\SC@tempdimb=\dimen259
-\c@SC@C=\count298
-\SC@BOX=\box73
+\SC@tempdimb=\dimen256
+\c@SC@C=\count287
+\SC@BOX=\box72
 )
 (c:/texlive/2012/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \enitkv@toks@=\toks40
-\labelindent=\skip113
-\enit@outerparindent=\dimen260
+\labelindent=\skip112
+\enit@outerparindent=\dimen257
 \enit@toks=\toks41
-\enit@inbox=\box74
-\enitdp@description=\count299
+\enit@inbox=\box73
+\enitdp@description=\count288
 )
-\g_fontspec_family_MS Mincho_int=\count300
+\g_fontspec_family_MS Mincho_int=\count289
 .................................................
 . fontspec info: "no-font-shape"
 . 
@@ -1359,7 +1234,7 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 . * 'normal' with NFSS spec.:
 . <->"MS Mincho/ICU:script=latn;language=DFLT;mapping=tex-text;"
 .................................................
-\g_fontspec_family_SimSun_int=\count301
+\g_fontspec_family_SimSun_int=\count290
 .................................................
 . fontspec info: "no-font-shape"
 . 
@@ -1391,7 +1266,7 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 . 
 . Font Batang does not contain any OpenType `Script' information.
 .................................................
-\g_fontspec_family_Batang_int=\count302
+\g_fontspec_family_Batang_int=\count291
 .................................................
 . fontspec info: "no-font-shape"
 . 
@@ -1421,21 +1296,57 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 
 (c:/texlive/2012/texmf-dist/tex/latex/framed/framed.sty
 Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
-\OuterFrameSep=\skip114
-\fb@frw=\dimen261
-\fb@frh=\dimen262
-\FrameRule=\dimen263
-\FrameSep=\dimen264
+\OuterFrameSep=\skip113
+\fb@frw=\dimen258
+\fb@frh=\dimen259
+\FrameRule=\dimen260
+\FrameSep=\dimen261
 )
 (c:/texlive/2012/texmf-dist/tex/latex/mdframed/mdframed.sty
 Package: mdframed 2012/04/08 v1.5: mdframed
 
+(c:/texlive/2012/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(c:/texlive/2012/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+(c:/texlive/2012/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(c:/texlive/2012/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(c:/texlive/2012/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+
+(c:/texlive/2012/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
 (c:/texlive/2012/texmf-dist/tex/latex/oberdiek/zref-abspage.sty
 Package: zref-abspage 2012/04/04 v2.24 Module abspage for zref (HO)
 
 (c:/texlive/2012/texmf-dist/tex/latex/oberdiek/zref-base.sty
 Package: zref-base 2012/04/04 v2.24 Module base for zref (HO)
 
+(c:/texlive/2012/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+)
+(c:/texlive/2012/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: pdfTeX >= 1.30 not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode not found.
+)
 (c:/texlive/2012/texmf-dist/tex/latex/oberdiek/auxhook.sty
 Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 )
@@ -1443,64 +1354,67 @@ Package zref Info: New property list: main on input line 759.
 Package zref Info: New property: default on input line 760.
 Package zref Info: New property: page on input line 761.
 )
-\c@abspage=\count303
+(c:/texlive/2012/texmf-dist/tex/generic/oberdiek/atbegshi.sty
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+)
+\c@abspage=\count292
 Package zref Info: New property: abspage on input line 62.
 )
-\mdf@templength=\skip115
-\c@mdf@globalstyle@cnt=\count304
-\mdf@skipabove@length=\skip116
-\mdf@skipbelow@length=\skip117
-\mdf@leftmargin@length=\skip118
-\mdf@rightmargin@length=\skip119
-\mdf@innerleftmargin@length=\skip120
-\mdf@innerrightmargin@length=\skip121
-\mdf@innertopmargin@length=\skip122
-\mdf@innerbottommargin@length=\skip123
-\mdf@splittopskip@length=\skip124
-\mdf@splitbottomskip@length=\skip125
-\mdf@outermargin@length=\skip126
-\mdf@innermargin@length=\skip127
-\mdf@linewidth@length=\skip128
-\mdf@innerlinewidth@length=\skip129
-\mdf@middlelinewidth@length=\skip130
-\mdf@outerlinewidth@length=\skip131
-\mdf@roundcorner@length=\skip132
-\mdf@footenotedistance@length=\skip133
-\mdf@userdefinedwidth@length=\skip134
-\mdf@frametitleaboveskip@length=\skip135
-\mdf@frametitlebelowskip@length=\skip136
-\mdf@frametitlerulewidth@length=\skip137
-\mdf@frametitleleftmargin@length=\skip138
-\mdf@frametitlerightmargin@length=\skip139
-\mdf@shadowsize@length=\skip140
-\mdf@frametitlebox=\box75
-\mdf@footnotebox=\box76
-\mdf@splitbox@one=\box77
-\mdf@splitbox@two=\box78
-\mdfsplitboxwidth=\skip141
-\mdfsplitboxtotalwidth=\skip142
-\mdfsplitboxheight=\skip143
-\mdfsplitboxdepth=\skip144
-\mdfsplitboxtotalheight=\skip145
-\mdfframetitleboxwidth=\skip146
-\mdfframetitleboxtotalwidth=\skip147
-\mdfframetitleboxheight=\skip148
-\mdfframetitleboxdepth=\skip149
-\mdfframetitleboxtotalheight=\skip150
-\mdffootnoteboxwidth=\skip151
-\mdffootnoteboxtotalwidth=\skip152
-\mdffootnoteboxheight=\skip153
-\mdffootnoteboxdepth=\skip154
-\mdffootnoteboxtotalheight=\skip155
-\mdftotallinewidth=\skip156
-\mdfboundingboxwidth=\skip157
-\mdfboundingboxtotalwidth=\skip158
-\mdfboundingboxheight=\skip159
-\mdfboundingboxdepth=\skip160
-\mdfboundingboxtotalheight=\skip161
-\mdf@freevspace@length=\skip162
-\mdf@horizontalwidthofbox@length=\skip163
-\mdf@verticalmarginwhole@length=\skip164
+\mdf@templength=\skip114
+\c@mdf@globalstyle@cnt=\count293
+\mdf@skipabove@length=\skip115
+\mdf@skipbelow@length=\skip116
+\mdf@leftmargin@length=\skip117
+\mdf@rightmargin@length=\skip118
+\mdf@innerleftmargin@length=\skip119
+\mdf@innerrightmargin@length=\skip120
+\mdf@innertopmargin@length=\skip121
+\mdf@innerbottommargin@length=\skip122
+\mdf@splittopskip@length=\skip123
+\mdf@splitbottomskip@length=\skip124
+\mdf@outermargin@length=\skip125
+\mdf@innermargin@length=\skip126
+\mdf@linewidth@length=\skip127
+\mdf@innerlinewidth@length=\skip128
+\mdf@middlelinewidth@length=\skip129
+\mdf@outerlinewidth@length=\skip130
+\mdf@roundcorner@length=\skip131
+\mdf@footenotedistance@length=\skip132
+\mdf@userdefinedwidth@length=\skip133
+\mdf@frametitleaboveskip@length=\skip134
+\mdf@frametitlebelowskip@length=\skip135
+\mdf@frametitlerulewidth@length=\skip136
+\mdf@frametitleleftmargin@length=\skip137
+\mdf@frametitlerightmargin@length=\skip138
+\mdf@shadowsize@length=\skip139
+\mdf@frametitlebox=\box74
+\mdf@footnotebox=\box75
+\mdf@splitbox@one=\box76
+\mdf@splitbox@two=\box77
+\mdfsplitboxwidth=\skip140
+\mdfsplitboxtotalwidth=\skip141
+\mdfsplitboxheight=\skip142
+\mdfsplitboxdepth=\skip143
+\mdfsplitboxtotalheight=\skip144
+\mdfframetitleboxwidth=\skip145
+\mdfframetitleboxtotalwidth=\skip146
+\mdfframetitleboxheight=\skip147
+\mdfframetitleboxdepth=\skip148
+\mdfframetitleboxtotalheight=\skip149
+\mdffootnoteboxwidth=\skip150
+\mdffootnoteboxtotalwidth=\skip151
+\mdffootnoteboxheight=\skip152
+\mdffootnoteboxdepth=\skip153
+\mdffootnoteboxtotalheight=\skip154
+\mdftotallinewidth=\skip155
+\mdfboundingboxwidth=\skip156
+\mdfboundingboxtotalwidth=\skip157
+\mdfboundingboxheight=\skip158
+\mdfboundingboxdepth=\skip159
+\mdfboundingboxtotalheight=\skip160
+\mdf@freevspace@length=\skip161
+\mdf@horizontalwidthofbox@length=\skip162
+\mdf@verticalmarginwhole@length=\skip163
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -1517,44 +1431,157 @@ Package zref Info: New property: abspage on input line 62.
 (c:/texlive/2012/texmf-dist/tex/latex/mdframed/md-frame-0.mdf
 File: md-frame-0.mdf 2012/04/08 v1.5: md-frame-0
 )
-\c@mdf@zref@counter=\count305
+\c@mdf@zref@counter=\count294
 Package zref Info: New property: mdf@pagevalue on input line 782.
-\mdf@horizontalspaceofbox=\skip165
+\mdf@horizontalspaceofbox=\skip164
 )
 (c:/texlive/2012/texmf-dist/tex/latex/ccicons/ccicons.sty
 Package: ccicons 2012/05/22 v1.4 LaTeX support for Creative Commons icons
 )
 (c:/texlive/2012/texmf-dist/tex/latex/lettrine/lettrine.sty
 File: lettrine.sty 2007/08/08 v1.62 (Daniel Flipo)
-\c@DefaultLines=\count306
-\DefaultFindent=\dimen265
-\DefaultNindent=\dimen266
-\DefaultSlope=\dimen267
-\L@lbox=\box79
-\L@tbox=\box80
-\c@L@lines=\count307
-\L@Pindent=\dimen268
-\L@Findent=\dimen269
-\L@Nindent=\dimen270
-\L@lraise=\dimen271
-\L@first=\dimen272
-\L@next=\dimen273
-\L@slope=\dimen274
-\L@height=\dimen275
-\LettrineWidth=\dimen276
+\c@DefaultLines=\count295
+\DefaultFindent=\dimen262
+\DefaultNindent=\dimen263
+\DefaultSlope=\dimen264
+\L@lbox=\box78
+\L@tbox=\box79
+\c@L@lines=\count296
+\L@Pindent=\dimen265
+\L@Findent=\dimen266
+\L@Nindent=\dimen267
+\L@lraise=\dimen268
+\L@first=\dimen269
+\L@next=\dimen270
+\L@slope=\dimen271
+\L@height=\dimen272
+\LettrineWidth=\dimen273
 
 Loading lettrine.cfg
 (c:/texlive/2012/texmf-dist/tex/latex/lettrine/lettrine.cfg))
+(c:/texlive/2012/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2012/05/13 v6.82q Hypertext links for LaTeX
+
+(c:/texlive/2012/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
+
+
+(c:/texlive/2012/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package hobsub Info: Skipping package `ifluatex' (already loaded).
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package hobsub Info: Skipping package `etexcmds' (already loaded).
+Package hobsub Info: Skipping package `kvsetkeys' (already loaded).
+Package hobsub Info: Skipping package `kvdefinekeys' (already loaded).
+Package hobsub Info: Skipping package `pdftexcmds' (already loaded).
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
+)
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package hobsub Info: Skipping package `atbegshi' (already loaded).
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+)
+\@linkdim=\dimen274
+\Hy@linkcounter=\count297
+\Hy@pagecounter=\count298
+
+(c:/texlive/2012/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2012/05/13 v6.82q Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count299
+
+(c:/texlive/2012/texmf-dist/tex/xelatex/xetexconfig/hyperref.cfg
+File: hyperref.cfg 2008/07/11 v1.2 hyperref configuration for XeLaTeX
+)
+Package hyperref Info: Option `hyperfootnotes' set `false' on input line 3941.
+Package hyperref Info: Option `bookmarks' set `true' on input line 3941.
+Package hyperref Info: Option `breaklinks' set `true' on input line 3941.
+Package hyperref Info: Hyper figures OFF on input line 4062.
+Package hyperref Info: Link nesting OFF on input line 4067.
+Package hyperref Info: Hyper index ON on input line 4070.
+Package hyperref Info: Plain pages OFF on input line 4077.
+Package hyperref Info: Backreferencing OFF on input line 4082.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4300.
+\c@Hy@tempcnt=\count300
+
+(c:/texlive/2012/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4653.
+\Fld@menulength=\count301
+\Field@Width=\dimen275
+\Fld@charsize=\dimen276
+Package hyperref Info: Hyper figures OFF on input line 5773.
+Package hyperref Info: Link nesting OFF on input line 5778.
+Package hyperref Info: Hyper index ON on input line 5781.
+Package hyperref Info: backreferencing OFF on input line 5788.
+Package hyperref Info: Link coloring OFF on input line 5793.
+Package hyperref Info: Link coloring with OCG OFF on input line 5798.
+Package hyperref Info: PDF/A mode OFF on input line 5803.
+LaTeX Info: Redefining \ref on input line 5843.
+LaTeX Info: Redefining \pageref on input line 5847.
+\Hy@abspage=\count302
+\c@Item=\count303
+)
+
+Package hyperref Message: Driver (autodetected): hxetex.
+
+(c:/texlive/2012/texmf-dist/tex/latex/hyperref/hxetex.def
+File: hxetex.def 2012/05/13 v6.82q Hyperref driver for XeTeX
+
+(c:/texlive/2012/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2012/05/13 v6.82q Hyperref: PDF Unicode definition (HO)
+)
+(c:/texlive/2012/texmf-dist/tex/generic/oberdiek/stringenc.sty
+Package: stringenc 2011/12/02 v1.10 Convert strings between diff. encodings (HO
+)
+)
+\pdfm@box=\box80
+\c@Hy@AnnotLevel=\count304
+\HyField@AnnotCount=\count305
+\Fld@listcount=\count306
+\c@bookmark@seq@number=\count307
+
+(c:/texlive/2012/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package rerunfilecheck Info: Feature \pdfmdfivesum is not available
+(rerunfilecheck)             (e.g. pdfTeX or LuaTeX with package `pdftexcmds').
+
+(rerunfilecheck)             Therefore file contents cannot be checked efficien
+tly
+(rerunfilecheck)             and the loading of the package is aborted.
+)
+\Hy@SectionHShift=\skip165
+)
 
 Package hyperref Warning: Option `hyperfootnotes' has already been used,
-(hyperref)                setting the option has no effect on input line 53.
+(hyperref)                setting the option has no effect on input line 54.
 
 ! Too many }'s.
-l.58 ...sspacing{\scshape\MakeTextLowercase{#1}}}}
+l.60 ...sspacing{\scshape\MakeTextLowercase{#1}}}}
                                                   
 You've closed more groups than you opened.
 Such booboos are generally harmless, so keep going.
 
+(c:/texlive/2012/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
+File: se-ascii-print.def 2011/12/02 v1.10 stringenc: Printable ASCII characters
+
+)
 
 ! LaTeX Error: Command \aemph already defined.
                Or name \end... illegal, see p.192 of the manual.
@@ -1563,69 +1590,50 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70 \begin{document}
+l.73 \begin{document}
                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-(./tuftelatexintro.aux (./abntex2-latexintro.aux))
+(./tuftelatexintro.aux (./texto-bibliografia.aux) (./abntex2-latexintro.aux))
 \openout1 = `tuftelatexintro.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 70.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 70.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 73.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 73.
 
 (c:/texlive/2012/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 70.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 70.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 73.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 73.
 
 (c:/texlive/2012/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 70.
-\AtBeginShipoutBox=\box81
-Package hyperref Info: Link coloring OFF on input line 70.
-
-(c:/texlive/2012/texmf-dist/tex/latex/hyperref/nameref.sty
-Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
-
-(c:/texlive/2012/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
-Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
-)
-\c@section@level=\count308
-)
-LaTeX Info: Redefining \ref on input line 70.
-LaTeX Info: Redefining \pageref on input line 70.
-LaTeX Info: Redefining \nameref on input line 70.
-
-(./tuftelatexintro.out) (./tuftelatexintro.out)
-\@outlinefile=\write3
-\openout3 = `tuftelatexintro.out'.
-
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
 
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 70.
+LaTeX Info: Redefining \selectfont on input line 73.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1670,7 +1678,7 @@ See the bidi package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70 \begin{document}
+l.73 \begin{document}
                      
 This error message was generated by an \errmessage
 command, so I can't give any explicit help.
@@ -1686,7 +1694,7 @@ See the bidi package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70 \begin{document}
+l.73 \begin{document}
                      
 (That was another \errmessage.)
 
@@ -1699,7 +1707,7 @@ See the bidi package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70 \begin{document}
+l.73 \begin{document}
                      
 (That was another \errmessage.)
 
@@ -1712,7 +1720,7 @@ See the bidi package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70 \begin{document}
+l.73 \begin{document}
                      
 (That was another \errmessage.)
 
@@ -1725,7 +1733,20 @@ See the bidi package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70 \begin{document}
+l.73 \begin{document}
+                     
+(That was another \errmessage.)
+
+
+! Package bidi Error: Oops! you have loaded package hyperref after bidi package
+. Please load package hyperref before bidi package, and then try to run xelatex
+ on your document again.
+
+See the bidi package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.73 \begin{document}
                      
 (That was another \errmessage.)
 
@@ -1738,7 +1759,7 @@ See the bidi package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70 \begin{document}
+l.73 \begin{document}
                      
 (That was another \errmessage.)
 
@@ -1751,7 +1772,7 @@ See the bidi package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70 \begin{document}
+l.73 \begin{document}
                      
 (That was another \errmessage.)
 
@@ -1764,7 +1785,7 @@ See the bidi package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70 \begin{document}
+l.73 \begin{document}
                      
 (That was another \errmessage.)
 
@@ -1777,7 +1798,7 @@ See the bidi package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70 \begin{document}
+l.73 \begin{document}
                      
 (That was another \errmessage.)
 
@@ -1790,7 +1811,7 @@ See the bidi package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70 \begin{document}
+l.73 \begin{document}
                      
 (That was another \errmessage.)
 
@@ -1803,7 +1824,7 @@ See the bidi package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70 \begin{document}
+l.73 \begin{document}
                      
 (That was another \errmessage.)
 
@@ -1816,7 +1837,7 @@ See the bidi package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70 \begin{document}
+l.73 \begin{document}
                      
 (That was another \errmessage.)
 
@@ -1829,9 +1850,27 @@ See the bidi package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70 \begin{document}
+l.73 \begin{document}
                      
 (That was another \errmessage.)
+
+\AtBeginShipoutBox=\box81
+Package hyperref Info: Link coloring OFF on input line 73.
+(c:/texlive/2012/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
+
+(c:/texlive/2012/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count308
+)
+LaTeX Info: Redefining \ref on input line 73.
+LaTeX Info: Redefining \pageref on input line 73.
+LaTeX Info: Redefining \nameref on input line 73.
+
+(./tuftelatexintro.out) (./tuftelatexintro.out)
+\@outlinefile=\write3
+\openout3 = `tuftelatexintro.out'.
 
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: xetex
@@ -1865,37 +1904,38 @@ l.70 \begin{document}
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Calculating math sizes for size <70> on input line 82.
-LaTeX Font Info:    Try loading font information for U+zeur on input line 82.
+LaTeX Font Info:    Calculating math sizes for size <70> on input line 85.
+LaTeX Font Info:    Try loading font information for U+zeur on input line 85.
+
 (c:/texlive/2012/texmf-dist/tex/latex/eulervm/uzeur.fd
 File: uzeur.fd 2005/01/11 v4.0 (WaS)
 )
-LaTeX Font Info:    Try loading font information for U+zeus on input line 82.
+LaTeX Font Info:    Try loading font information for U+zeus on input line 85.
 
 (c:/texlive/2012/texmf-dist/tex/latex/eulervm/uzeus.fd
 File: uzeus.fd 2005/01/11 v4.0 (WaS)
 )
-LaTeX Font Info:    Try loading font information for U+zeuex on input line 82.
+LaTeX Font Info:    Try loading font information for U+zeuex on input line 85.
 
 (c:/texlive/2012/texmf-dist/tex/latex/eulervm/uzeuex.fd
 File: uzeuex.fd 2005/01/11 v4.0 (WaS)
 )
-LaTeX Font Info:    Try loading font information for U+wasy on input line 82.
+LaTeX Font Info:    Try loading font information for U+wasy on input line 85.
 
 (c:/texlive/2012/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
 )
 
 LaTeX Font Warning: Font shape `U/wasy/m/n' in size <70> not available
-(Font)              size <24.88> substituted on input line 82.
+(Font)              size <24.88> substituted on input line 85.
 
 
 LaTeX Font Warning: Font shape `U/wasy/m/n' in size <48.99979> not available
-(Font)              size <24.88> substituted on input line 82.
+(Font)              size <24.88> substituted on input line 85.
 
 
 LaTeX Font Warning: Font shape `U/wasy/m/n' in size <35> not available
-(Font)              size <24.88> substituted on input line 82.
+(Font)              size <24.88> substituted on input line 85.
 
 [1
 
@@ -1914,23 +1954,25 @@ LaTeX Font Warning: Font shape `U/wasy/m/n' in size <35> not available
 
 ] [6
 
-] (./tuftelatexintro.lof)
+] (./tuftelatexintro.lof
+LaTeX Font Info:    Font shape `EU1/Consolas(0)/m/n' will be
+(Font)              scaled to size 8.00003pt on input line 8.
+)
 \tf@lof=\write5
 \openout5 = `tuftelatexintro.lof'.
 
 
 [7] [8
 
-] (./tuftelatexintro.lot
-LaTeX Font Info:    Font shape `EU1/Consolas(0)/m/n' will be
-(Font)              scaled to size 8.00003pt on input line 22.
-)
+] (./tuftelatexintro.lot)
 \tf@lot=\write6
 \openout6 = `tuftelatexintro.lot'.
 
  [9] [10
 
-] [11]
+]
+Capítulo 1.
+[11]
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -1974,11 +2016,12 @@ p;"
 .................................................
  [13] [14
 
-] [15]
+]
+Capítulo 2.
+[15]
 File: latexbasico.png Graphic file (type QTm)
-
-<use  "latexbasico.png" >
-Overfull \hbox (42.77847pt too wide) in paragraph at lines 267--268
+ <use  "latexbasico.png" >
+Overfull \hbox (42.77847pt too wide) in paragraph at lines 271--272
 []\EU1/BulmerMTStd(0)/m/n/10 No caso, tudo o que eu precisei de fazer foi rodar
  o comando []\EU1/Consolas(0)/m/n/10 pdflatex latexbasico.tex 
  []
@@ -2003,83 +2046,88 @@ Overfull \hbox (42.77847pt too wide) in paragraph at lines 267--268
 . This font family consists of the following shapes:
 .................................................
  [17]
-Underfull \hbox (badness 10000) in paragraph at lines 394--394
+Underfull \hbox (badness 10000) in paragraph at lines 398--398
 []|\EU1/BulmerMTStd(0)/m/n/10 Tamanho da fonte principal do do-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 394--394
+Underfull \hbox (badness 10000) in paragraph at lines 398--398
 \EU1/BulmerMTStd(0)/m/n/10 cumento. Geralmente o tamanho
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 394--394
+Underfull \hbox (badness 10000) in paragraph at lines 398--398
 []|\EU1/BulmerMTStd(0)/m/n/10 a4paper, letterpaper, a5paper, legal-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 394--394
+Underfull \hbox (badness 10000) in paragraph at lines 398--398
 []|\EU1/BulmerMTStd(0)/m/n/10 Tamanho do papel. Geralmente vem
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 394--394
+Underfull \hbox (badness 10000) in paragraph at lines 398--398
 []|\EU1/BulmerMTStd(0)/m/n/10 Especifica se vai ter ou não página
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 394--394
+Underfull \hbox (badness 10000) in paragraph at lines 398--398
 \EU1/BulmerMTStd(0)/m/n/10 separada para o título. A classe ar-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 394--394
+Underfull \hbox (badness 10000) in paragraph at lines 398--398
 \EU1/BulmerMTStd(0)/m/n/10 ticle não tem, por padrão; report
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 394--394
+Underfull \hbox (badness 10000) in paragraph at lines 398--398
 \EU1/BulmerMTStd(0)/m/n/10 e book, têm. Se quiser mudar esse
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 394--394
+Underfull \hbox (badness 10000) in paragraph at lines 398--398
 []|\EU1/BulmerMTStd(0)/m/n/10 twoside=frente e verso, padrão em
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 394--394
+Underfull \hbox (badness 10000) in paragraph at lines 398--398
 \EU1/BulmerMTStd(0)/m/n/10 livros; oneside=só frente, padrão em
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 394--394
+Underfull \hbox (badness 10000) in paragraph at lines 398--398
 []|\EU1/BulmerMTStd(0)/m/n/10 Começa novos capítulos com páginas
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 394--394
+Underfull \hbox (badness 10000) in paragraph at lines 398--398
 \EU1/BulmerMTStd(0)/m/n/10 da direita (openright) ou qualquer
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 394--394
+Underfull \hbox (badness 10000) in paragraph at lines 398--398
 \EU1/BulmerMTStd(0)/m/n/10 página (openany). Padrão para
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 394--394
+Underfull \hbox (badness 10000) in paragraph at lines 398--398
 []|\EU1/BulmerMTStd(0)/m/n/10 Esboço. Indica problemas de hi-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 394--394
+Underfull \hbox (badness 10000) in paragraph at lines 398--398
 \EU1/BulmerMTStd(0)/m/n/10 fenização e justificação com um
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 394--394
+Underfull \hbox (badness 10000) in paragraph at lines 398--398
 \EU1/BulmerMTStd(0)/m/n/10 pequeno quadrado na margem para
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 399--399
+[]\EU1/BulmerMTStd(0)/m/n/10 Tabela 2.1: []Principais opções das
  []
 
 .................................................
@@ -2104,19 +2152,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 394--394
  [19] [20
 
 ]
+Capítulo 3.
 LaTeX Font Info:    Font shape `EU1/Consolas(0)/m/it' will be
-(Font)              scaled to size 9.60004pt on input line 425.
+(Font)              scaled to size 9.60004pt on input line 429.
 
-Overfull \hbox (12.24422pt too wide) in paragraph at lines 451--451
+Overfull \hbox (12.24422pt too wide) in paragraph at lines 455--455
 []\EU1/Consolas(0)/m/n/10 % simple.tex - Um artigo simples para ilustrar a estr
 utura do documento.[] 
  []
 
 [21]
-Overfull \hbox (7.47072pt too wide) in paragraph at lines 456--457
-\EU1/Consolas(0)/m/n/10 enumitem \EU1/BulmerMTStd(0)/m/n/10 (ver página [][]30
-[][]), devemos inserir no preâmbulo: []\EU1/Consolas(0)/m/n/10 \usepackage{enu
-mitem}\EU1/BulmerMTStd(0)/m/n/10 .  
+Overfull \hbox (7.47072pt too wide) in paragraph at lines 460--461
+\EU1/Consolas(0)/m/n/10 enumitem \EU1/BulmerMTStd(0)/m/n/10 (ver página []36[]
+), devemos inserir no preâmbulo: []\EU1/Consolas(0)/m/n/10 \usepackage{enumite
+m}\EU1/BulmerMTStd(0)/m/n/10 .  
  []
 
 .................................................
@@ -2139,6 +2188,9 @@ mitem}\EU1/BulmerMTStd(0)/m/n/10 .
 . This font family consists of the following shapes:
 .................................................
  [23]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -2148,7 +2200,7 @@ mitem}\EU1/BulmerMTStd(0)/m/n/10 .
 . 
 . This font family consists of the following shapes:
 .................................................
- [24]
+[24]
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -2159,6 +2211,25 @@ mitem}\EU1/BulmerMTStd(0)/m/n/10 .
 . This font family consists of the following shapes:
 .................................................
  [25]
+\openout2 = `texto-bibliografia.aux'.
+
+ (./texto-bibliografia.tex [26
+
+
+]
+Capítulo 4.
+[27]
+
+Package natbib Warning: Citation `lamport94' undefined on input line 57.
+
+
+LaTeX Warning: Marginpar on page 28 moved.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--85
+[]\EU1/BulmerMTStd(0)/m/n/10 Tabela 4.1: [] Tipos de citação usando
+ []
+
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -2168,50 +2239,24 @@ mitem}\EU1/BulmerMTStd(0)/m/n/10 .
 . 
 . This font family consists of the following shapes:
 .................................................
- [26]
-Underfull \hbox (badness 10000) in paragraph at lines 738--739
-[]|\EU1/BulmerMTStd(0)/m/n/10 coluna com texto alinhado no topo, com largura es
-pecificada
+[28]
+Overfull \hbox (100.2133pt too wide) in paragraph at lines 120--120
+[]    \EU1/Consolas(0)/m/n/10 author = {Oetiket, Tobias. and Partl, Hubert. and
+ Hyna, Irene. and Schlegl, Elisabeth.},[] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 739--740
-[]|\EU1/BulmerMTStd(0)/m/n/10 o mesmo acima, mas alinhado no meio da célula (r
-equer
+Overfull \hbox (25.43951pt too wide) in paragraph at lines 120--120
+[]    \EU1/Consolas(0)/m/n/10 url = {http://www.ctan.org/tex-archive/info/lshor
+t/english/lshort.pdf},[] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 740--741
-[]|\EU1/BulmerMTStd(0)/m/n/10 o mesmo acima, mas alinhado no fim da célula (re
-quer
+Overfull \hbox (192.58086pt too wide) in paragraph at lines 120--120
+[]    \EU1/Consolas(0)/m/n/10 author = {Mittelbach, Frank and Goossens, Michel 
+and Braams, Johannes and Carlisle, David and Rowley, Chris},[] 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 745--746
-[]|\EU1/BulmerMTStd(0)/m/n/10 começa nova linha (espaço adicional pode ser es
-pecificado
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 745--746
-\EU1/BulmerMTStd(0)/m/n/10 usando colchetes: por exemplo, []\EU1/Consolas(0)/m/
-n/10 [6pt] \EU1/BulmerMTStd(0)/m/n/10 especifica um espaço
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 747--748
-[]|\EU1/BulmerMTStd(0)/m/n/10 linha parcial horizontal começando na coluna \EU
-1/BulmerMTStd(0)/m/it/10 i \EU1/BulmerMTStd(0)/m/n/10 e terminando
- []
-
-LaTeX Font Info:    Font shape `EU1/Consolas(0)/m/n' will be
-(Font)              scaled to size 6.40002pt on input line 754.
-
-LaTeX Warning: Marginpar on page 27 moved.
-
-[27
-
-]
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -2221,51 +2266,60 @@ LaTeX Warning: Marginpar on page 27 moved.
 . 
 . This font family consists of the following shapes:
 .................................................
- [28]
-Overfull \hbox (24.00002pt too wide) in paragraph at lines 793--811
-[]  
+[29]
+Overfull \hbox (214.5731pt too wide) in paragraph at lines 156--156
+[]  \EU1/Consolas(0)/m/n/10 title = ”Experimental examination of bacteriophag
+e latent-period evolution as a response to bacterial availability”,[] 
  []
 
 
-Overfull \hbox (24.00002pt too wide) in paragraph at lines 815--833
-[]  
+Overfull \hbox (34.2365pt too wide) in paragraph at lines 156--156
+[]  \EU1/Consolas(0)/m/n/10 title = ”Lysis and the interaction between free p
+hages and infected cells”,[] 
  []
 
 
-Overfull \hbox (24.00002pt too wide) in paragraph at lines 836--854
-[]  
+Overfull \hbox (100.2133pt too wide) in paragraph at lines 156--156
+[]  \EU1/Consolas(0)/m/n/10 editor = ”Karam, Jim D. Karam and Drake, John W. 
+and Kreuzer, Kenneth N. and Mosig, Gisela[] 
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [29
-
-]
-Overfull \hbox (24.00002pt too wide) in paragraph at lines 858--885
-[]  
+Overfull \hbox (135.40091pt too wide) in paragraph at lines 156--156
+[]            \EU1/Consolas(0)/m/n/10 and Hall, Dwight and Eiserling, Frederick
+ A. and Black, Lindsay W. and Kutter, Elizabeth[] 
  []
 
 
-Overfull \hbox (157.77596pt too wide) in paragraph at lines 892--923
-[][]  
+Overfull \hbox (12.2442pt too wide) in paragraph at lines 156--156
+[]            \EU1/Consolas(0)/m/n/10 and Carlson, Karin and Miller, Eric S. an
+d Spicer, Eleanor”,[] 
  []
 
 
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.950 \begin{enumerate}[label=\Roman*]
-                                      
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+Overfull \hbox (21.04109pt too wide) in paragraph at lines 168--168
+[]      \EU1/Consolas(0)/m/n/10 url = ”http://www.fermentas.com/techinfo/nucl
+eicacids/maplambda.htm”[] 
+ []
 
 
-Overfull \hbox (36.00002pt too wide) in paragraph at lines 937--958
-[][]  
+Overfull \hbox (30.7245pt too wide) in paragraph at lines 195--198
+$[][][][]$[]\EU1/BulmerMTStd(0)/m/n/10 . Para utilizar o estilo ABNT, insira no
+ preâmbulo: []\EU1/Consolas(0)/m/n/10 \usepackage[num]{abntex2cite} 
+ []
+
+
+Overfull \hbox (38.45998pt too wide) in paragraph at lines 195--198
+\EU1/BulmerMTStd(0)/m/n/10 autor-data). Com o uso desses pacotes não é precis
+o especificar []\EU1/Consolas(0)/m/n/10 \bibliographystyle{...}\EU1/BulmerMTStd
+(0)/m/n/10 . 
+ []
+
+
+Overfull \hbox (0.52974pt too wide) in paragraph at lines 195--198
+\EU1/Consolas(0)/m/n/10 custom-bib\EU1/BulmerMTStd(0)/m/n/10 , também chamada 
+de \EU1/Consolas(0)/m/n/10 makebst \EU1/BulmerMTStd(0)/m/n/10 ([]$[][][][] [] [
+] [] [][][] [] [][][][] [] [][][] [] [][][][][][][][][][][][] []$ 
  []
 
 .................................................
@@ -2278,6 +2332,14 @@ Overfull \hbox (36.00002pt too wide) in paragraph at lines 937--958
 . This font family consists of the following shapes:
 .................................................
 [30]
+File: ./abntex-bibliografia-figura.png Graphic file (type QTm)
+ <use  "./abntex-bibliografia-figura.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 209--209
+[]\EU1/BulmerMTStd(0)/m/n/10 Figura 4.1: []Exemplo de bibliografia
+ []
+
+File: ./natbib-test-plainnat.png Graphic file (type QTm)
+<use  "./natbib-test-plainnat.png" >
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -2288,26 +2350,24 @@ Overfull \hbox (36.00002pt too wide) in paragraph at lines 937--958
 . This font family consists of the following shapes:
 .................................................
  [31]
-Overfull \hbox (15.89703pt too wide) in paragraph at lines 1042--1043
-[]\EU1/BulmerMTStd(0)/m/n/10 Se você quiser que uma palavra não seja hifeniza
-da, use o comando []\EU1/Consolas(0)/m/n/10 \mbox{texto}\EU1/BulmerMTStd(0)/m/n
-/10 , 
+Overfull \hbox (16.64267pt too wide) in paragraph at lines 268--268
+[]\EU1/Consolas(0)/m/n/10 LaTeX Warning: Citation ‘lamport94’ on page 1 und
+efined on input line 21.[] 
+ []
+
+File: ./biblatex-figura.png Graphic file (type QTm)
+<use  "./biblatex-figura.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 280--280
+[]\EU1/BulmerMTStd(0)/m/n/10 Figura 4.3: []Exemplo de bibliografia
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1068--1069
-[]|\EU1/BulmerMTStd(0)/m/n/10 « Guillemets » [](aspas angulares, utilizadas n
-o portu-
+Overfull \hbox (117.80707pt too wide) in paragraph at lines 300--300
+[]\EU1/Consolas(0)/m/n/10 \usepackage[style=historian,citestyle=authoryear,natb
+ib=true,doi=false,backend=bibtex]{biblatex}[] 
  []
 
-
-Overfull \hbox (50.67844pt too wide) in paragraph at lines 1054--1072
-[][] 
- []
-
-
-LaTeX Warning: Marginpar on page 32 moved.
-
+)
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -2317,20 +2377,58 @@ LaTeX Warning: Marginpar on page 32 moved.
 . 
 . This font family consists of the following shapes:
 .................................................
-[32]
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'BulmerMTStd(2)' created for font 'Bulmer MT Std' with options
-. [Ligatures={TeX},Numbers=OldStyle,BoldFont={Bulmer MT Std
-. Bold},BoldItalicFont={Bulmer MT Std Bold Italic},LetterSpace=5.0].
-. 
-. This font family consists of the following shapes:
-.................................................
+ [32]
+Capítulo 5.
 
+Underfull \hbox (badness 10000) in paragraph at lines 716--717
+[]|\EU1/BulmerMTStd(0)/m/n/10 coluna com texto alinhado no topo, com largura es
+pecificada
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 717--718
+[]|\EU1/BulmerMTStd(0)/m/n/10 o mesmo acima, mas alinhado no meio da célula (r
+equer
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 718--719
+[]|\EU1/BulmerMTStd(0)/m/n/10 o mesmo acima, mas alinhado no fim da célula (re
+quer
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 723--724
+[]|\EU1/BulmerMTStd(0)/m/n/10 começa nova linha (espaço adicional pode ser es
+pecificado
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 723--724
+\EU1/BulmerMTStd(0)/m/n/10 usando colchetes: por exemplo, []\EU1/Consolas(0)/m/
+n/10 [6pt] \EU1/BulmerMTStd(0)/m/n/10 especifica um espaço
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 725--726
+[]|\EU1/BulmerMTStd(0)/m/n/10 linha parcial horizontal começando na coluna \EU
+1/BulmerMTStd(0)/m/it/10 i \EU1/BulmerMTStd(0)/m/n/10 e terminando
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 728--728
+[]\EU1/BulmerMTStd(0)/m/n/10 Tabela 5.2: []Comandos utilizados
+ []
+
+LaTeX Font Info:    Font shape `EU1/Consolas(0)/m/n' will be
+(Font)              scaled to size 6.40002pt on input line 732.
 
 LaTeX Warning: Marginpar on page 33 moved.
 
+[33
+
+
+]
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -2340,12 +2438,52 @@ LaTeX Warning: Marginpar on page 33 moved.
 . 
 . This font family consists of the following shapes:
 .................................................
-[33]
-LaTeX Info: Redefining \bond on input line 1214.
-LaTeX Info: Redefining \dbond on input line 1214.
-LaTeX Info: Redefining \tbond on input line 1214.
+ [34]
+Capítulo 6.
 
-Overfull \hbox (9.57144pt too wide) in paragraph at lines 1213--1216
+Overfull \hbox (24.00002pt too wide) in paragraph at lines 771--789
+[]  
+ []
+
+
+Overfull \hbox (24.00002pt too wide) in paragraph at lines 793--811
+[]  
+ []
+
+
+Overfull \hbox (24.00002pt too wide) in paragraph at lines 814--832
+[]  
+ []
+
+
+Underfull \vbox (badness 2521) has occurred while \output is active []
+
+ [35
+
+]
+Overfull \hbox (24.00002pt too wide) in paragraph at lines 836--863
+[]  
+ []
+
+
+Overfull \hbox (157.77596pt too wide) in paragraph at lines 870--901
+[][]  
+ []
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.928 \begin{enumerate}[label=\Roman*]
+                                      
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (36.00002pt too wide) in paragraph at lines 915--936
 [][]  
  []
 
@@ -2358,7 +2496,7 @@ Overfull \hbox (9.57144pt too wide) in paragraph at lines 1213--1216
 . 
 . This font family consists of the following shapes:
 .................................................
-[34]
+[36]
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -2368,8 +2506,99 @@ Overfull \hbox (9.57144pt too wide) in paragraph at lines 1213--1216
 . 
 . This font family consists of the following shapes:
 .................................................
- [35]
-Overfull \hbox (0.11307pt too wide) in paragraph at lines 1331--1332
+ [37]
+Overfull \hbox (15.89703pt too wide) in paragraph at lines 1020--1021
+[]\EU1/BulmerMTStd(0)/m/n/10 Se você quiser que uma palavra não seja hifeniza
+da, use o comando []\EU1/Consolas(0)/m/n/10 \mbox{texto}\EU1/BulmerMTStd(0)/m/n
+/10 , 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1046--1047
+[]|\EU1/BulmerMTStd(0)/m/n/10 « Guillemets » [](aspas angulares, utilizadas n
+o portu-
+ []
+
+
+Overfull \hbox (50.67844pt too wide) in paragraph at lines 1032--1050
+[][] 
+ []
+
+
+LaTeX Warning: Marginpar on page 38 moved.
+
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'BulmerMTStd(2)' created for font 'Bulmer MT Std' with options
+. [Ligatures={TeX},Numbers=OldStyle,BoldFont={Bulmer MT Std
+. Bold},BoldItalicFont={Bulmer MT Std Bold Italic},LetterSpace=5.0].
+. 
+. This font family consists of the following shapes:
+.................................................
+[38]
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'BulmerMTStd(2)' created for font 'Bulmer MT Std' with options
+. [Ligatures={TeX},Numbers=OldStyle,BoldFont={Bulmer MT Std
+. Bold},BoldItalicFont={Bulmer MT Std Bold Italic},LetterSpace=5.0].
+. 
+. This font family consists of the following shapes:
+.................................................
+
+
+LaTeX Warning: Marginpar on page 39 moved.
+
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'BulmerMTStd(2)' created for font 'Bulmer MT Std' with options
+. [Ligatures={TeX},Numbers=OldStyle,BoldFont={Bulmer MT Std
+. Bold},BoldItalicFont={Bulmer MT Std Bold Italic},LetterSpace=5.0].
+. 
+. This font family consists of the following shapes:
+.................................................
+[39]
+LaTeX Info: Redefining \bond on input line 1191.
+LaTeX Info: Redefining \dbond on input line 1191.
+LaTeX Info: Redefining \tbond on input line 1191.
+
+Overfull \hbox (9.57144pt too wide) in paragraph at lines 1190--1193
+[][]  
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1265--1265
+[]\EU1/BulmerMTStd(0)/m/n/10 Tabela 6.5: []Signos astrológicos e do
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1284--1284
+[]\EU1/BulmerMTStd(0)/m/n/10 Tabela 6.6: []Alinhamento de parágra-
+ []
+
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'BulmerMTStd(2)' created for font 'Bulmer MT Std' with options
+. [Ligatures={TeX},Numbers=OldStyle,BoldFont={Bulmer MT Std
+. Bold},BoldItalicFont={Bulmer MT Std Bold Italic},LetterSpace=5.0].
+. 
+. This font family consists of the following shapes:
+.................................................
+[40]
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'BulmerMTStd(2)' created for font 'Bulmer MT Std' with options
+. [Ligatures={TeX},Numbers=OldStyle,BoldFont={Bulmer MT Std
+. Bold},BoldItalicFont={Bulmer MT Std Bold Italic},LetterSpace=5.0].
+. 
+. This font family consists of the following shapes:
+.................................................
+ [41]
+Overfull \hbox (0.11307pt too wide) in paragraph at lines 1308--1309
 []\EU1/BulmerMTStd(0)/m/n/10 Para mudar o espaçamento entrelinhas, use o pacot
 e []\EU1/Consolas(0)/m/n/10 \usepackage{setspace}\EU1/BulmerMTStd(0)/m/n/10 . 
  []
@@ -2383,9 +2612,9 @@ e []\EU1/Consolas(0)/m/n/10 \usepackage{setspace}\EU1/BulmerMTStd(0)/m/n/10 .
 . 
 . This font family consists of the following shapes:
 .................................................
-[36]
+[42]
 
-LaTeX Warning: Marginpar on page 37 moved.
+LaTeX Warning: Marginpar on page 43 moved.
 
 .................................................
 . fontspec info: "defining-font"
@@ -2396,28 +2625,59 @@ LaTeX Warning: Marginpar on page 37 moved.
 . 
 . This font family consists of the following shapes:
 .................................................
-[37] [38
+[43] [44
 
 ]
+Capítulo 7.
 File: femmevaguecourbet.jpg Graphic file (type QTm)
- <use  "femmevaguecourbet.jpg" >
-Overfull \hbox (51.83028pt too wide) in paragraph at lines 1461--1461
+<use  "femmevaguecourbet.jpg" >
+Underfull \hbox (badness 10000) in paragraph at lines 1426--1426
+[]\EU1/BulmerMTStd(0)/m/n/10 Figura 7.1: []Gustave Courbet, \EU1/BulmerMTStd(0)
+/m/it/10 Femme
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1426--1426
+\EU1/BulmerMTStd(0)/m/it/10 à la Vague\EU1/BulmerMTStd(0)/m/n/10 , óleo sobre
+ tela, 1868.
+ []
+
+
+Overfull \hbox (51.83028pt too wide) in paragraph at lines 1438--1438
 []\EU1/Consolas(0)/m/n/10 \graphicspath{~/Pictures} %(geralmente é o diretóri
 o de imagens para Linux e Mac)[] 
  []
 
-[39]
+[45]
 File: corotavray.jpg Graphic file (type QTm)
  <use  "corotavray.jpg" >
-Overfull \hbox (83.96085pt too wide) in paragraph at lines 1479--1480
+Overfull \hbox (83.96085pt too wide) in paragraph at lines 1456--1457
+[][]  
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'BulmerMTStd(2)' created for font 'Bulmer MT Std' with options
+. [Ligatures={TeX},Numbers=OldStyle,BoldFont={Bulmer MT Std
+. Bold},BoldItalicFont={Bulmer MT Std Bold Italic},LetterSpace=5.0].
+. 
+. This font family consists of the following shapes:
+.................................................
+ [46]
+File: corotavray.jpg Graphic file (type QTm)
+
+<use  "corotavray.jpg" >
+Overfull \hbox (92.74838pt too wide) in paragraph at lines 1465--1466
 [][]  
  []
 
 File: corotavray.jpg Graphic file (type QTm)
 <use  "corotavray.jpg" >
-Overfull \hbox (92.74838pt too wide) in paragraph at lines 1488--1489
-[][]  
- []
+Underfull \vbox (badness 5954) has occurred while \output is active []
 
 .................................................
 . fontspec info: "defining-font"
@@ -2428,32 +2688,40 @@ Overfull \hbox (92.74838pt too wide) in paragraph at lines 1488--1489
 . 
 . This font family consists of the following shapes:
 .................................................
-[40]
-File: corotavray.jpg Graphic file (type QTm)
- <use  "corotavray.jpg" >
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'BulmerMTStd(2)' created for font 'Bulmer MT Std' with options
-. [Ligatures={TeX},Numbers=OldStyle,BoldFont={Bulmer MT Std
-. Bold},BoldItalicFont={Bulmer MT Std Bold Italic},LetterSpace=5.0].
-. 
-. This font family consists of the following shapes:
-.................................................
- [41]
-Overfull \hbox (21.04112pt too wide) in paragraph at lines 1530--1530
+ [47]
+Overfull \hbox (21.04112pt too wide) in paragraph at lines 1507--1507
 []\EU1/Consolas(0)/m/n/10 \caption[\textit{Ville d’Avray} de Corot (ca. 1867)
 .]{Jean-Baptiste Corot.[] 
  []
 
 
-Overfull \hbox (21.04128pt too wide) in paragraph at lines 1530--1530
+Overfull \hbox (21.04128pt too wide) in paragraph at lines 1507--1507
 []\EU1/Consolas(0)/m/n/10 (\url{http://fr.wikipedia.org/wiki/Fichier:Corot.vill
 edavray.750pix.jpg})}[] 
  []
 
 File: corotavray.jpg Graphic file (type QTm)
 <use  "corotavray.jpg" >
+Underfull \hbox (badness 10000) in paragraph at lines 1515--1515
+[]\EU1/BulmerMTStd(0)/m/n/10 Figura 7.2: []Jean-Baptiste Co-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1515--1515
+\EU1/BulmerMTStd(0)/m/n/10 rot. \EU1/BulmerMTStd(0)/m/it/10 Ville d’Avray \EU
+1/BulmerMTStd(0)/m/n/10 (ca. 1867).
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1515--1515
+\EU1/BulmerMTStd(0)/m/n/10 Fonte: Wikipedia ([]$[][][][] [] [] [] [][] []$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1515--1515
+$[][][][][][][][][] [] [][][] [] [][][][] [] [][][][][][][] []$
+ []
+
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -2463,13 +2731,28 @@ File: corotavray.jpg Graphic file (type QTm)
 . 
 . This font family consists of the following shapes:
 .................................................
- [42]
+[48]
 File: moreau-apparition.jpg Graphic file (type QTm)
  <use  "moreau-apparition.jpg" >
+Underfull \hbox (badness 10000) in paragraph at lines 1544--1544
+[][]\EU1/BulmerMTStd(0)/m/n/10 : []|\EU1/BulmerMTStd(0)/m/it/10 L’apparition\
+EU1/BulmerMTStd(0)/m/n/10 , de
+ []
+
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'BulmerMTStd(2)' created for font 'Bulmer MT Std' with options
+. [Ligatures={TeX},Numbers=OldStyle,BoldFont={Bulmer MT Std
+. Bold},BoldItalicFont={Bulmer MT Std Bold Italic},LetterSpace=5.0].
+. 
+. This font family consists of the following shapes:
+.................................................
+[49]
 ! Illegal parameter number in definition of \Hy@tempa.
 <to be read again> 
                    S
-l.1585 ...ats,\_Figures\_and\_Captions#Subfloats}}
+l.1562 ...ats,\_Figures\_and\_Captions#Subfloats}}
                                                   
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
@@ -2478,7 +2761,7 @@ are all screwed up? I'm going to assume that you meant ##.
 ! Illegal parameter number in definition of \Hy@tempa.
 <to be read again> 
                    S
-l.1585 ...ats,\_Figures\_and\_Captions#Subfloats}}
+l.1562 ...ats,\_Figures\_and\_Captions#Subfloats}}
                                                   
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
@@ -2487,29 +2770,29 @@ are all screwed up? I'm going to assume that you meant ##.
 ! Illegal parameter number in definition of \Hy@gtemp.
 <to be read again> 
                    S
-l.1585 ...ats,\_Figures\_and\_Captions#Subfloats}}
+l.1562 ...ats,\_Figures\_and\_Captions#Subfloats}}
                                                   
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
 are all screwed up? I'm going to assume that you meant ##.
 
 
-LaTeX Warning: Marginpar on page 43 moved.
+LaTeX Warning: Marginpar on page 50 moved.
 
 
-Overfull \hbox (47.43188pt too wide) in paragraph at lines 1598--1598
+Overfull \hbox (47.43188pt too wide) in paragraph at lines 1575--1575
 []  \EU1/Consolas(0)/m/n/10 \subfloat[A gull]{\label{fig:gull}\includegraphics[
 width=0.3\textwidth]{gull}}[] 
  []
 
 
-Overfull \hbox (60.62729pt too wide) in paragraph at lines 1598--1598
+Overfull \hbox (60.62729pt too wide) in paragraph at lines 1575--1575
 []  \EU1/Consolas(0)/m/n/10 \subfloat[A tiger]{\label{fig:tiger}\includegraphic
 s[width=0.3\textwidth]{tiger}}[] 
  []
 
 
-Overfull \hbox (60.62729pt too wide) in paragraph at lines 1598--1598
+Overfull \hbox (60.62729pt too wide) in paragraph at lines 1575--1575
 []  \EU1/Consolas(0)/m/n/10 \subfloat[A mouse]{\label{fig:mouse}\includegraphic
 s[width=0.3\textwidth]{mouse}}[] 
  []
@@ -2525,7 +2808,7 @@ File: subfig.png Graphic file (type QTm)
 . 
 . This font family consists of the following shapes:
 .................................................
- [43]
+ [50]
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -2535,81 +2818,102 @@ File: subfig.png Graphic file (type QTm)
 . 
 . This font family consists of the following shapes:
 .................................................
- [44]
-Overfull \hbox (12.89856pt too wide) in paragraph at lines 1666--1667
+ [51] [52
+
+]
+Capítulo 8.
+
+Overfull \hbox (12.89856pt too wide) in paragraph at lines 1643--1644
 []\EU1/BulmerMTStd(0)/m/n/10 O primeiro refere-se à seção, o outro, à pági
 na. Assim, inserindo um []\EU1/Consolas(0)/m/n/10 \label{...} 
  []
 
-[45
-
-] [46
-
-] [47] [48
+[53] [54
 
 ]
+Capítulo 9.
 
-LaTeX Warning: Marginpar on page 49 moved.
+Underfull \hbox (badness 10000) in paragraph at lines 1751--1751
+[]\EU1/BulmerMTStd(0)/m/n/10 Tabela 9.1: []As 68 cores da opção
+ []
 
-[49] [50
+[55] [56
 
 ]
+Capítulo 10.
+[57]
 
-LaTeX Warning: Marginpar on page 51 moved.
+LaTeX Warning: Marginpar on page 58 moved.
+
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'BulmerMTStd(2)' created for font 'Bulmer MT Std' with options
+. [Ligatures={TeX},Numbers=OldStyle,BoldFont={Bulmer MT Std
+. Bold},BoldItalicFont={Bulmer MT Std Bold Italic},LetterSpace=5.0].
+. 
+. This font family consists of the following shapes:
+.................................................
+[58]
+Capítulo 11.
+
+LaTeX Warning: Marginpar on page 59 moved.
 
 
-Overfull \hbox (36.00002pt too wide) in paragraph at lines 1882--1897
+Overfull \hbox (36.00002pt too wide) in paragraph at lines 1859--1874
 [][]  
  []
 
-[51]
-Package mdframed Info: mdframed works in twoside mode on input line 1911.
+[59
 
-Underfull \hbox (badness 10000) in paragraph at lines 1917--1919
+]
+Package mdframed Info: mdframed works in twoside mode on input line 1888.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1894--1896
 []\EU1/MinionPro(0)/m/n/10 Лев Николаевич Толстой (28 ав�
 �уста (9 сентября) 1828, Ясная
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1917--1919
+Underfull \hbox (badness 10000) in paragraph at lines 1894--1896
 \EU1/MinionPro(0)/m/n/10 Поляна, Тульская губерния, Ро�
 �сийская империя — 7 (20) нояб-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1917--1919
+Underfull \hbox (badness 10000) in paragraph at lines 1894--1896
 \EU1/MinionPro(0)/m/n/10 ря 1910, станция Астапово, Тамбо
 вская губерния, Российская
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1917--1919
+Underfull \hbox (badness 10000) in paragraph at lines 1894--1896
 \EU1/MinionPro(0)/m/n/10 империя), граф — один из наибо
 лее широко известных русских
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1917--1919
-\EU1/MinionPro(0)/m/n/10 писателей и мыслителей. ([][]$[][]
-[][] [] [] [] [][] [] [][][][][][][][][] [] [][][] [] [][][][] [] [][][][][][][
-] [][]$[]
+Underfull \hbox (badness 10000) in paragraph at lines 1894--1896
+\EU1/MinionPro(0)/m/n/10 писателей и мыслителей. ([]$[][][]
+[] [] [] [] [][] [] [][][][][][][][][] [] [][][] [] [][][][] [] [][][][][][][] 
+[][]$
  []
 
-Package mdframed Info: mdframed works in twoside mode on input line 1924.
+Package mdframed Info: mdframed works in twoside mode on input line 1901.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1929--1932
+Underfull \hbox (badness 10000) in paragraph at lines 1906--1909
 []\EU1/MinionPro(0)/m/n/10 Ο Οδυσσέας Ελύτης (2 Νοεμβρίο
 υ 1911 - 18 Μαρτίου 1996), φι-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1929--1932
+Underfull \hbox (badness 10000) in paragraph at lines 1906--1909
 \EU1/MinionPro(0)/m/n/10 λολογικό ψευδώνυμο του Οδυσσ�
 �α Αλεπουδέλλη του Παναγιώτη,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1929--1932
+Underfull \hbox (badness 10000) in paragraph at lines 1906--1909
 \EU1/MinionPro(0)/m/n/10 ήταν ένας από τους σημαντικότ
 ερους Έλληνες ποιητές, μέλος της
  []
@@ -2643,13 +2947,13 @@ lif-novoc;"
 alif-novoc;"
 .................................................
 
-Overfull \hbox (37.27539pt too wide) in paragraph at lines 1978--1978
-[][]\EU1/BulmerMTStd(0)/m/n/8 http://tex.stackexchange.com/questions/45331/comb
-ining-[] 
+Overfull \hbox (37.27539pt too wide) in paragraph at lines 1955--1955
+[]\EU1/BulmerMTStd(0)/m/n/8 http://tex.stackexchange.com/questions/45331/combin
+ing- 
  []
 
 
-LaTeX Warning: Marginpar on page 52 moved.
+LaTeX Warning: Marginpar on page 60 moved.
 
 .................................................
 . fontspec info: "defining-font"
@@ -2660,26 +2964,26 @@ LaTeX Warning: Marginpar on page 52 moved.
 . 
 . This font family consists of the following shapes:
 .................................................
-[52]
-Overfull \hbox (25.43974pt too wide) in paragraph at lines 1994--1994
+[60]
+Overfull \hbox (25.43974pt too wide) in paragraph at lines 1971--1971
 []\EU1/Consolas(0)/m/n/10 \newcommand\Chinese{\renewcommand\CJKrmdefault{zhrm}\
 CJKnospace\normalfont}[] 
  []
 
 
-Overfull \hbox (29.83821pt too wide) in paragraph at lines 1994--1994
+Overfull \hbox (29.83821pt too wide) in paragraph at lines 1971--1971
 []\EU1/Consolas(0)/m/n/10 \newcommand\Japanese{\renewcommand\CJKrmdefault{jarm}
 \CJKnospace\normalfont}[] 
  []
 
 
-Overfull \hbox (12.24434pt too wide) in paragraph at lines 1994--1994
+Overfull \hbox (12.24434pt too wide) in paragraph at lines 1971--1971
 []\EU1/Consolas(0)/m/n/10 \newcommand\Korean{\renewcommand\CJKrmdefault{korm}\C
 JKspace\normalfont}[] 
  []
 
 
-Overfull \hbox (0.40558pt too wide) in paragraph at lines 2009--2018
+Overfull \hbox (0.40558pt too wide) in paragraph at lines 1986--1995
  [] 
  []
 
@@ -2692,71 +2996,23 @@ Overfull \hbox (0.40558pt too wide) in paragraph at lines 2009--2018
 . 
 . This font family consists of the following shapes:
 .................................................
-[53]
+[61]
 \openout2 = `abntex2-latexintro.aux'.
 
- (./abntex2-latexintro.tex [54
+ (./abntex2-latexintro.tex [62
 
 
 ]
+Capítulo 12.
 
-LaTeX Warning: Marginpar on page 55 moved.
-
-! Undefined control sequence.
-l.24 O \abnTeX
-              2 foi desenvolvido com base nos requisitos das seguintes norma...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...orém, até este momento, o \abnTeX 
-                                                  2 traz os estilos compatí...
-l.33 ...mentação do pacote \texttt{abntex2cite}}
-                                                   \texttt{abntex2cite-alf}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Extra }, or forgotten \endgroup.
-l.34   para mais informações.}
-                                
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
+LaTeX Warning: Marginpar on page 63 moved.
 
 
-LaTeX Warning: Marginpar on page 55 moved.
+LaTeX Warning: Marginpar on page 63 moved.
 
-[55]
-! Undefined control sequence.
-<argument> ...paces A versão anterior do \abnTeX 
-                                                  ~era baseada na classe \te...
-l.54 classe \textsf{report}.}
-                             . Desse modo, todas as opções do \textsf{memo...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+[63]
 
-
-LaTeX Warning: Marginpar on page 56 moved.
-
-! Undefined control sequence.
-l.88 ... intuitivo, seguindo a filosofia do \Latex
-                                                  {} de não deixar o autor ...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+LaTeX Warning: Marginpar on page 64 moved.
 
 .................................................
 . fontspec info: "defining-font"
@@ -2767,7 +3023,7 @@ and I'll forget about whatever was undefined.
 . 
 . This font family consists of the following shapes:
 .................................................
-[56]
+[64]
 Overfull \hbox (47.43184pt too wide) in paragraph at lines 166--166
 []\EU1/Consolas(0)/m/n/10 \preambulo{Modelo canônico de trabalho monográfico 
 acadêmico em conformidade com[] 
@@ -2782,405 +3038,7 @@ acadêmico em conformidade com[]
 . 
 . This font family consists of the following shapes:
 .................................................
-[57]
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.176 }
-       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.176 }
-       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.176 }
-       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.176 }
-       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.176 }
-       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.176 }
-       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.176 }
-       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.176 }
-       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.176 }
-       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.176 }
-       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.176 }
-       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.176 }
-       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.176 }
-       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.176 }
-       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.176 }
-       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.176 }
-       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.176 }
-       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.176 }
-       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.176 }
-       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.176 }
-       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.176 }
-       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.176 }
-       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.176 }
-       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.176 }
-       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.176 }
-       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.176 }
-       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.176 }
-       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.176 }
-       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.176 }
-       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.176 }
-       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.177 \end{itemize}
-                   
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (13.76414pt too wide) in paragraph at lines 176--177
-[]\EU1/Consolas(0)/m/n/10 folhadeaprovacao 
- []
-
-
-Overfull \hbox (4.96724pt too wide) in paragraph at lines 176--177
-[]\EU1/Consolas(0)/m/n/10 agradecimentos 
- []
-
-
-Overfull \hbox (13.76414pt too wide) in paragraph at lines 176--177
-[]\EU1/Consolas(0)/m/n/10 resumo[Abstract] 
- []
-
-
-Overfull \hbox (0.56879pt too wide) in paragraph at lines 176--177
-[]\EU1/Consolas(0)/m/n/10 listoffigures 
- []
-
-
-Overfull \hbox (9.36569pt too wide) in paragraph at lines 176--177
-[]\EU1/Consolas(0)/m/n/10 tableofcontents  
- []
-
-)
+[65])
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -3190,146 +3048,151 @@ Overfull \hbox (9.36569pt too wide) in paragraph at lines 176--177
 . 
 . This font family consists of the following shapes:
 .................................................
- [58] [59
+ [66]
+Capítulo 13.
+[67
 
 
-] [60
+] [68
 
-] [61] [62
+] [69] [70
 
 ]
-Overfull \hbox (72.98857pt too wide) in paragraph at lines 2084--2095
+Overfull \hbox (72.98857pt too wide) in paragraph at lines 2060--2071
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2084--2095
+Underfull \hbox (badness 10000) in paragraph at lines 2060--2071
  
  []
 
-Package mdframed Info: mdframed works in twoside mode on input line 2117.
+Package mdframed Info: mdframed works in twoside mode on input line 2093.
 
-Underfull \hbox (badness 10000) in paragraph at lines 2117--2117
+Underfull \hbox (badness 10000) in paragraph at lines 2093--2093
 \EU1/BulmerMTStd(0)/m/n/8 I. Quo usque tandem abutere, Catilina,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2117--2117
+Underfull \hbox (badness 10000) in paragraph at lines 2093--2093
 \EU1/BulmerMTStd(0)/m/n/8 patientia nostra? quam diu etiam furor
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2117--2117
+Underfull \hbox (badness 10000) in paragraph at lines 2093--2093
 \EU1/BulmerMTStd(0)/m/n/8 iste tuus nos eludet? quem ad finem
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2117--2117
+Underfull \hbox (badness 10000) in paragraph at lines 2093--2093
 \EU1/BulmerMTStd(0)/m/n/8 sese effrenata iactabit audacia? Nihilne
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2117--2117
+Underfull \hbox (badness 10000) in paragraph at lines 2093--2093
 \EU1/BulmerMTStd(0)/m/n/8 te nocturnum praesidium Palati, nihil
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2117--2117
+Underfull \hbox (badness 10000) in paragraph at lines 2093--2093
 \EU1/BulmerMTStd(0)/m/n/8 urbis vigiliae, nihil timor populi, nihil
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2117--2117
+Underfull \hbox (badness 10000) in paragraph at lines 2093--2093
 \EU1/BulmerMTStd(0)/m/n/8 concursus bonorum omnium, nihil hic
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2117--2117
+Underfull \hbox (badness 10000) in paragraph at lines 2093--2093
 \EU1/BulmerMTStd(0)/m/n/8 munitissimus habendi senatus locus,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2117--2117
+Underfull \hbox (badness 10000) in paragraph at lines 2093--2093
 \EU1/BulmerMTStd(0)/m/n/8 nihil horum ora voltusque moverunt?
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2117--2117
+Underfull \hbox (badness 10000) in paragraph at lines 2093--2093
 \EU1/BulmerMTStd(0)/m/n/8 Patere tua consilia non sentis, constric-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2117--2117
+Underfull \hbox (badness 10000) in paragraph at lines 2093--2093
 \EU1/BulmerMTStd(0)/m/n/8 tam iam horum omnium scientia teneri
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2117--2117
+Underfull \hbox (badness 10000) in paragraph at lines 2093--2093
 \EU1/BulmerMTStd(0)/m/n/8 coniurationem tuam non vides? Quid
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2117--2117
+Underfull \hbox (badness 10000) in paragraph at lines 2093--2093
 \EU1/BulmerMTStd(0)/m/n/8 proxima, quid superiore nocte egeris,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2117--2117
+Underfull \hbox (badness 10000) in paragraph at lines 2093--2093
 \EU1/BulmerMTStd(0)/m/n/8 ubi fueris, quos convocaveris, quid
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2117--2117
+Underfull \hbox (badness 10000) in paragraph at lines 2093--2093
 \EU1/BulmerMTStd(0)/m/n/8 consilii ceperis, quem nostrum ignorare
  []
 
 Package mdframed Info: mdframed inside minipage 
- mdframed uses option nobreak mdframed on input line 2117.
+ mdframed uses option nobreak mdframed on input line 2093.
 Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 2117.
+ mdframed uses option nobreak mdframed on input line 2093.
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 2117--2117
+Overfull \hbox (6.0pt too wide) in paragraph at lines 2093--2093
 []$[]$  
  []
 
 
-LaTeX Warning: Marginpar on page 63 moved.
+LaTeX Warning: Marginpar on page 71 moved.
 
-[63] [64
+[71] [72
 
-] [65] [66
+] [73] [74
 
-] [67] [68
+] [75] [76
 
 ]
 LaTeX Font Info:    Font shape `U/ccicons/m/n' will be
-(Font)              scaled to size 8.0pt on input line 2272.
+(Font)              scaled to size 8.0pt on input line 2248.
+
+
+Package natbib Warning: There were undefined citations.
 
 
 Package bibentry Warning: You have used \nobibliography* 
 (bibentry)                without a following \bibliography.
 (bibentry)                You may not be able to run BibTeX.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2277.
-[69]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 2277.
- (./tuftelatexintro.aux (./abntex2-latexintro.aux))
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 2277.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 2277.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2253.
+[77]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 2253.
+ (./tuftelatexintro.aux (./texto-bibliografia.aux)
+(./abntex2-latexintro.aux))
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 2253.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 2253.
 
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 45.12pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2277.
  ) 
 Here is how much of TeX's memory you used:
- 26534 strings out of 494004
- 495267 string characters out of 3153866
- 611537 words of memory out of 3000000
- 29233 multiletter control sequences out of 15000+200000
+ 26687 strings out of 494004
+ 498335 string characters out of 3153866
+ 610577 words of memory out of 3000000
+ 29350 multiletter control sequences out of 15000+200000
  21047 words of font info for 149 fonts, out of 3000000 for 9000
  1144 hyphenation exceptions out of 8191
- 43i,19n,56p,1219b,512s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,19n,54p,1219b,617s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on tuftelatexintro.pdf (69 pages).
+Output written on tuftelatexintro.pdf (77 pages).

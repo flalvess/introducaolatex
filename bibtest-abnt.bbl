@@ -1,0 +1,19 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v<VERSION> }
+
+\bibitem[Dongen 2012]{dongen_latex_2012}
+\abntrefinfo{Dongen}{DONGEN}{2012}
+{DONGEN, M. R. C.~V. \emph{Latex and Friends}. Berlin and Heidelberg:
+  Springer-Verlag, 2012.}
+
+\bibitem[Oetiket et al. 2011]{lshort}
+\abntrefinfo{Oetiket et al.}{OETIKET et al.}{2011}
+{OETIKET, T. et al. \emph{The not-so-short introduction to Latex}.
+[S.l.], 2011. Dispon{\'\i}vel em:
+  \htmladdnormallink{$<$http:\-/\-/www\-.ctan\-.org\-/tex-archive\-/info\-/lshort\-/english\-/lshort\-.pdf$>$}{http://www.ctan.org/tex-archive/info/lshort/english/lshort.pdf}.}
+
+\end{thebibliography}

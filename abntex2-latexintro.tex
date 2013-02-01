@@ -21,16 +21,16 @@ conjunta.}
   \texttt{abntex2-num.bst} e \texttt{abntex2-alf.sty}.
 \end{itemize}
 
-O \abnTeX2 foi desenvolvido com base nos requisitos das seguintes normas ABNT:
+O abnTeX2 foi desenvolvido com base nos requisitos das seguintes normas ABNT:
 
 \begin{description}
   \item[ABNT NBR 6022:2003] Informação e documentação - Artigo em publicação
   periódica científica impressa - Apresentação
   \item[ABNT NBR 6023:2000] Informação e documentação - Referência -
   Elaboração\footnote{A versão corrente da ABNT NBR 6023 é a 6023:2002. Porém,
-  até este momento, o \abnTeX2 traz os estilos compatíveis com a versão
+  até este momento, o abnTeX2 traz os estilos compatíveis com a versão
   anterior da norma. A atualização dos estilos é uma das etapas posteriores do
-  projeto. Consulte a documentação do pacote \texttt{abntex2cite}} \texttt{abntex2cite-alf}
+  projeto. Consulte a documentação do pacote \texttt{abntex2cite} \texttt{abntex2cite-alf}
   para mais informações.}
   \item[ABNT NBR 6024:2012] Informação e documentação - Numeração
   progressiva das seções de um documento - Apresentação
@@ -50,7 +50,7 @@ O \abnTeX2 foi desenvolvido com base nos requisitos das seguintes normas ABNT:
 \end{description}
 
 A classe \textsf{abntex2} foi criada como um conjunto de configurações da classe
-\textsf{memoir}\footnote{A versão anterior do \abnTeX~era baseada na
+\textsf{memoir}\footnote{A versão anterior do abntex era baseada na
 classe \textsf{report}.}. Desse modo, todas as opções do \textsf{memoir} estão
 disponíveis, como por exemplo, |12pt,openright,twoside,a4paper,artile|. Consulte
 o manual do \textsf{memoir} para outras opções.
@@ -85,7 +85,7 @@ corretamente sequenciados:
 O abn\TeX{} está programado para utilizar seja o compilador \texttt{pdflatex}, fazendo uso dos pacotes \texttt{babel} e \texttt{inputenc} (utf8) e fontes nativas do \LaTeX, ou então o compilador \texttt{xelatex}, fazendo uso do pacote \texttt{polyglossia} e \texttt{fontspec}, para uso de fontes TrueType e OpenType (ver capítulos \ref{fontes} e \ref{idiomas}).
 
 \section{Macros de dados do trabalho}\label{sec-macrosdados}
-O uso das macros do abn\TeX é bastante intuitivo, seguindo a filosofia do \Latex{} de não deixar o autor se preocupar com a formatação. As macros são bastante autoexplicativas:
+O uso das macros do abntex é bastante intuitivo, seguindo a filosofia do Latex de não deixar o autor se preocupar com a formatação. As macros são bastante autoexplicativas:
 
 \begin{verbatim}
 \titulo{}
@@ -168,14 +168,12 @@ as normas ABNT apresentado à comunidade de usuários \LaTeX.}
 Ambientes abnTeX (a ser colocados entre \verb+\begin{*nome do ambiente*}+
 \verb+\end{*nome do ambiente*}+):
 
-\begin{multicols}{4}
+
+\begin{multicols}{3}
 \begin{itemize}
-\texttt{
 \item errata \item folhadeaprovacao \item dedicatoria \item agradecimentos \item epigrafe
 \item resumo \item resumo[Abstract] \item listoffigures \item listoftables \item tableofcontents
-}
 \end{itemize}
-
 \end{multicols}
 
 Para mais informações e detalhes, referir-se à documentação do projeto abn\TeX 2: \url{http://code.google.com/p/abntex2/downloads/list}.

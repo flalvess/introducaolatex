@@ -1,25 +1,27 @@
 \select@language {brazil}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {1}{\ignorespaces Principais opções das classes padrão do \LaTeX }}{18}{section*.17}
+\contentsline {table}{\numberline {2.1}{\ignorespaces Principais opções das classes padrão do \LaTeX }}{18}{table.2.1}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {2}{\ignorespaces Comandos de seção}}{24}{section*.24}
+\contentsline {table}{\numberline {3.1}{\ignorespaces Comandos de seção}}{25}{table.3.1}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {3}{\ignorespaces Exemplo de tabela}}{27}{chapter*.29}
-\contentsline {table}{\numberline {4}{\ignorespaces Comandos utilizados para tabelas}}{28}{chapter*.29}
+\contentsline {table}{\numberline {4.1}{\ignorespaces Tipos de citação usando \texttt {natbib}}}{28}{table.4.1}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {5}{\ignorespaces Aspas}}{32}{section*.39}
-\contentsline {table}{\numberline {6}{\ignorespaces Estilos de fonte}}{33}{section*.43}
-\contentsline {table}{\numberline {7}{\ignorespaces Tamanho do texto}}{34}{section*.44}
-\contentsline {table}{\numberline {8}{\ignorespaces Símbolos comuns}}{35}{section*.46}
-\contentsline {table}{\numberline {9}{\ignorespaces Signos astrológicos e do zodíaco}}{35}{section*.46}
-\contentsline {table}{\numberline {10}{\ignorespaces Alinhamento de parágrafos}}{35}{section*.47}
+\contentsline {table}{\numberline {5.1}{\ignorespaces Exemplo de tabela}}{33}{table.5.1}
+\contentsline {table}{\numberline {5.2}{\ignorespaces Comandos utilizados para tabelas}}{34}{table.5.2}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {6.1}{\ignorespaces Aspas}}{38}{table.6.1}
+\contentsline {table}{\numberline {6.2}{\ignorespaces Estilos de fonte}}{39}{table.6.2}
+\contentsline {table}{\numberline {6.3}{\ignorespaces Tamanho do texto}}{40}{table.6.3}
+\contentsline {table}{\numberline {6.4}{\ignorespaces Símbolos comuns}}{41}{table.6.4}
+\contentsline {table}{\numberline {6.5}{\ignorespaces Signos astrológicos e do zodíaco}}{41}{table.6.5}
+\contentsline {table}{\numberline {6.6}{\ignorespaces Alinhamento de parágrafos}}{41}{table.6.6}
 \addvspace {10\p@ }
 \select@language {english}
 \select@language {brazil}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {11}{\ignorespaces As 68 cores da opção \texttt {dvipsnames}}}{47}{chapter*.65}
+\contentsline {table}{\numberline {9.1}{\ignorespaces As 68 cores da opção \texttt {dvipsnames}}}{55}{table.9.1}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \select@language {russian}

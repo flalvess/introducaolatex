@@ -1,0 +1,301 @@
+\chapter{Bibliografia}
+\label{bibliografia}
+A bibliografia, é uma das partes essenciais (e mais trabalhosas e, talvez, mais pedantes) de um texto científico ou acadêmico. Existem centenas de estilos de citação e bibliografia. O \LaTeX{} pode compor/gerar a bibliografia para você, com alguns comandos específicos (bibtex) e depois que você tiver um arquivo separado (.bib) para gerar essa bibliografia. %Gerar um arquivo desses à mão, ou mesmo pegar da Internet já no formato bibtex, e depois compilar várias vezes para ver o resultado, muitas vezes (na maioria das vezes) não vale a pena. %Mas se você quiser se aventurar, é só acessar: \url{http://en.wikibooks.org/wiki/LaTeX/Bibliography_Management} ou a documentação do ABNTeX2. 
+
+Se você não precisa de usar ferramentas bibliográficas, leia a seção \ref{bibliografia-manual}. Se você quer saber como as ferramentas bibliográficas funcionam no \LaTeX, continue para \ref{bibliografia-latex-embutido}. Ressalte-se que o \LaTeX{} \textit{não} é um editor ou processador de textos, e nem um programa de gerenciamento bibliográfico. Vários programas de gerenciamento bibliográfico podem ser utilizados para facilitar a geração de bibliografias. Entre elas, podemos citar Zotero (\url{http://www.zotero.org/}), online e offline e com extensão para navegadores (Firefox, Chrome, Safari) e processadores de texto (Word, LibreOffice) e também exporta em formato \texttt{.bib}; Bibdesk (\url{http://bibdesk.sourceforge.net/}) para Mac; JabRef (\url{http://jabref.sourceforge.net/}); e online, \url{http://literatur-generator.de/}.
+
+
+\section{Formatação de bibliografia sem ferramentas bibliográficas}
+\label{bibliografia-manual}
+
+%Muitas vezes não vale a pena ter o trabalho de gerar uma bibliografia. 
+
+Na classe \texttt{book} ou \texttt{report}:
+
+\begin{verbatim}
+\chapter*{Bibliografia}
+\addcontentsline{toc}{chapter}{Bibliografia}
+\setlength{\parskip}{11pt}
+\setlength{\parindent}{0pt}
+\end{verbatim}
+
+Na classe \texttt{article}:
+
+\begin{verbatim}
+\section*{Bibliografia}
+\addcontentsline{toc}{section}{Bibliografia}
+\setlength{\parskip}{11pt}
+\setlength{\parindent}{0pt}
+\end{verbatim}
+
+Ou nas classes KOMA-Script (\texttt{scrreprt}, \texttt{scrbook}) é mais fácil:
+
+\begin{verbatim}
+\addchap{Bibliografia}
+\setlength{\parskip}{11pt}
+\setlength{\parindent}{0pt}
+\end{verbatim}
+
+\section{O sistema embutido no LaTeX}
+\label{bibliografia-latex-embutido}
+Se você está criando poucos documentos e não planeja utilizar a mesma bibliografia outras vezes, pode não valer a pena criar uma base de dados bibliográfica. Nesse caso, o autor pode usar a ferramenta de bibliografia embutida no LaTeX, usando o ambiente \texttt{thebibliography} no final do texto (antes de \verb+\end{docment}+):
+
+\begin{verbatim}
+\begin{thebibliography}{999}
+
+\bibitem{lamport94}
+  Leslie Lamport,
+  \emph{\LaTeX: A Document Preparation System}.
+  Addison Wesley, Massachusetts,
+  2nd Edition,
+  1994.
+
+\end{thebibliography}
+\end{verbatim}
+
+Nesse caso, “999” é o número máximo de entradas bibliográficas a serem utilizadas e “lamport94” é a entrada de citação a ser utilizada no texto. Para citar essa referência, é fácil: 
+Em vez de editores visuais (WYSIWYG), sistemas tipográficos como \TeX{} or \LaTeX{} \cite{lamport94} podem ser utilizados.
+Para citar páginas, coloque entre colchetes:
+\verb+\cite[p.~215]{citacao1}+
+O til (\verb+~+) representa um espaço entre palavras que não devem ser separadas no fim de linha. 
+Para citações múltiplas, insira as entradas:\newline
+\verb+\cite{citation01,citation02,citation03}+
+Para incluir um item na bibliografia sem citá-lo no texto, use o comando \texttt{nocite}: \verb+\nocite{lamport94}+. Para incluir todas as entradas na bibliografia sem citá-las no texto, use o asterisco: \verb+\nocite{*}+. 
+
+\section{O pacote \texttt{natbib} para citações}
+\label{natbib}
+O tipo de entrada nativo só é capaz de fazer citações e bibliografias no sistema numérico. Para utilizar o sistema autor-data, podemos utilizar o pacote \texttt{harvard}, \texttt{natbib}, ou \texttt{abntex2cite}, entre outros.
+O pacote \texttt{natbib} é o mais versátil de todos para citações, enquanto que os outros dois são sistemas completos de citação e estilos bibliográficos.
+
+As duas formas básicas de citação com \texttt{natbib} são: \verb+\citet{...}+, para citações dentro do texto (\textit{t}) e \verb+\citep{...}+, para citações dentro de parênteses (\textit{p}). Outros exemplos no quadro abaixo (retirados da documentação do pacote):
+
+
+\begin{table}
+\caption{\label{tab:natbib} Tipos de citação usando \texttt{natbib}}
+\begin{tabular}{cc}
+  \verb|\citet{jon90}| & Jones et al. (1990)\\
+  \verb|\citet[chap.~2]{jon90}| & Jones et al. (1990, chap.~2)\\
+  \verb|\citep{jon90}| & (Jones et al., 1990)\\
+  \verb|\citep[chap.~2]{jon90}| & (Jones et al., 1990, chap.~2)\\
+  \verb|\citep[see][]{jon90}| & (see Jones et al., 1990)\\
+  \verb|\citep[see][chap.~2]{jon90}| & (see Jones et al., 1990, chap.~2)\\
+  \verb|\citet*{jon90}| & Jones, Baker, and Williams (1990)\\
+  \verb|\citep*{jon90}| & (Jones, Baker, and Williams, 1990)
+\end{tabular}
+\end{table}
+
+
+\section{Usando uma base bibliográfica com \texttt{bibtex}}
+\label{bibtex}
+
+A estrutura de um arquivo \texttt{bibtex}, de extensão \texttt{.bib}, usado para bases de dados de bibliografia, é bastante simples. Para criar um arquivo \texttt{.bib}, podem ser utilizadas as ferramentas descritas no começo deste capítulo (Zotero, Jabref, Bibdesk), um editor de textos \LaTeX{} (como o TeXStudio), ou até mesmo manualmente.
+
+Abaixo um exemplo de um arquivo \texttt{.bib} (\texttt{latex.bib}) \label{latex-bib}
+
+\begin{verbatim}
+@manual{lshort,
+    author = {Oetiket, Tobias. and Partl, Hubert. and Hyna, Irene. and Schlegl, Elisabeth.},
+    title = {The not-so-short introduction to Latex},
+    url = {http://www.ctan.org/tex-archive/info/lshort/english/lshort.pdf},
+    year = {2011}
+},
+
+@book{dongen_latex_2012,
+	title = {Latex and Friends},
+	publisher = {Springer-Verlag},
+	author = {Dongen, Marc R. C. Van},
+	year = {2012},
+	address = {Berlin and Heidelberg}
+},
+
+@book{latexompanion,
+    author = {Mittelbach, Frank and Goossens, Michel and Braams, Johannes and Carlisle, David and Rowley, Chris},
+    edition = {2},
+    publisher = {Addison-Wesley Professional},
+    series = {Tools and Techniques for Computer Typesetting},
+    title = {The \LaTeX{} Companion},
+    year = {2004}
+}
+
+\end{verbatim}
+
+A primeira entrada -- \verb+@book+, \verb+@manual+ -- indica o tipo de referência. Os templates padrão são: \textit{article} (artigos); \textit{book} (livros); \textit{booklet} (livros, livretos etc., não publicados); \textit{conference} ou \textit{inproceedings} (publicações em conferências); \textit{proceedings} (anais completos de conferência); \textit{manual} (textos técnicos); \textit{masterthesis} (mestrado); \textit{phdthesis} (doutorado); \textit{misc} (tipo genérico de publicação); \textit{techreport} (relatório técnico); \textit{unpublished} (material não publicado).
+
+As entradas de autor, editor etc. podem ser inseridas entre chaves -- ${}$ -- ou entre aspas -- \verb+"..."+. 
+\textbf{Atenção}: arquivos \texttt{.bib} não aceitam caracteres acentuados (exceto se for usar \texttt{biblatex}, ver abaixo), que deverão ser inseridos com comandos apropriados do Latex (\verb+\`{a}+ para à; \verb+\c{c}+ para ç e assim por diante. Utilize o menu do seu editor Latex.)
+
+Podem ocorrer problemas com a bibliografia em relação a maiúsculas (devido ao estilo bibliográfico utilizado), nesse caso use as chaves para a letra ou palavra:
+
+\begin{verbatim}
+title = "The {LaTeX} Companion",
+\end{verbatim}
+
+A seguir alguns exemplos, retirados do excelente manual da Wikipedia: \url{http://en.wikibooks.org/wiki/LaTeX/Bibliography_Management}
+
+\begin{verbatim}
+@article{AbedonHymanThomas2003,
+  author = "Abedon, S. T. and Hyman, P. and Thomas, C.",
+  year = "2003",
+  title = "Experimental examination of bacteriophage latent-period evolution as a response to bacterial availability",
+  journal = "Applied and Environmental Microbiology",
+  volume = "69",
+  pages = "7499--7506"
+}
+
+@incollection{Abedon1994,
+  author = "Abedon, S. T.",
+  title = "Lysis and the interaction between free phages and infected cells",
+  pages = "397--405",
+  booktitle = "Molecular biology of bacteriophage T4",
+  editor = "Karam, Jim D. Karam and Drake, John W. and Kreuzer, Kenneth N. and Mosig, Gisela
+            and Hall, Dwight and Eiserling, Frederick A. and Black, Lindsay W. and Kutter, Elizabeth
+            and Carlson, Karin and Miller, Eric S. and Spicer, Eleanor",
+  publisher = "ASM Press, Washington DC",
+  year = "1994"
+}
+\end{verbatim}
+
+A entrada \verb+@misc+ pode ser utilizada para citar websites:
+
+\begin{verbatim}
+@misc{website:fermentas-lambda,
+      author = "Fermentas Inc.",
+      title = "Phage Lambda: description \& restriction map",
+      month = "November",
+      year = "2008",
+      url = "http://www.fermentas.com/techinfo/nucleicacids/maplambda.htm"
+}
+\end{verbatim}
+
+O campo \textit{note} é útil para adicionar informação não estruturada (nota, comentário etc.):
+
+\begin{verbatim}
+@article{blackholes,
+      author="Rabbert Klein",
+      title="Black Holes and Their Relation to Hiding Eggs",
+      journal="Theoretical Easter Physics",
+      publisher="Eggs Ltd.",
+      year="2010",
+      note="(to appear)"
+}
+\end{verbatim}
+%a ser continuado
+
+\section{Como utilizar um arquivo \texttt{.bib} em seu documento \LaTeX}
+
+No final do documento (isto é, antes de \verb+\end{document}+), indique o estilo de bibliografia e o arquivo onde será encontrada:
+
+\begin{verbatim}
+\bibliographystyle{plain}
+\bibliography{bibliografia1,bibliografia2...}
+\end{verbatim}
+
+Para inserir a sua citação no texto, é só utilizar \verb+\cite{}+ ou os comandos do pacote \texttt{natbib} (ver Tabela \ref{tab:natbib}).
+
+Os estilos bibliográficos são armazenados em arquivos \texttt{.bst}. Para uma lista de exemplos, ver: \url{http://www.cs.stir.ac.uk/~kjt/software/latex/showbst.html}. Para utilizar o estilo ABNT, insira no preâmbulo: 
+\verb+\usepackage[num]{abntex2cite}+ (para citações numéricas) ou \verb+\usepackage[alf]{abntex2cite}+ (para citações autor-data). Com o uso desses pacotes não é preciso especificar \verb+\bibliographystyle{...}+.
+O autor também pode personalizar seu estilo facilmente com a ferramenta \texttt{custom-bib}, também chamada de \texttt{makebst} (\url{http://www.ctan.org/tex-archive/macros/latex/contrib/custom-bib}).
+
+
+A seguir, alguns exemplos simples de diferentes estilos de bibliografia, gerados com o arquivo \texttt{latex.bib} (\pageref*{latex-bib}).
+
+
+
+\begin{figure}
+\centering
+\includegraphics[width=0.7\linewidth]{./abntex-bibliografia-figura}
+\caption{Exemplo de bibliografia gerada com abntex.}
+\label{fig:abntex-bibliografia-figura}
+\end{figure}
+
+Código da figura \ref{fig:abntex-bibliografia-figura}:
+
+\begin{verbatim}
+\usepackage[alf]{abntex2cite}
+
+\begin{document}
+\cite{lshort}.
+\citeonline{dongen_latex_2012} é um livro novo.
+
+%\nocite{*} % --> não use esse comando com abntex2cite
+\bibliography{latex}
+
+\end{document}
+\end{verbatim}
+
+
+\begin{figure}
+\centering
+\includegraphics[width=0.7\linewidth]{./natbib-test-plainnat}
+\caption{\texttt{natbib} e estilo \texttt{plainnat}.}
+\label{fig:natbib-test-plainnat}
+\end{figure}
+
+Código da figura \ref{fig:natbib-test-plainnat}:
+
+\begin{verbatim}
+\usepackage{natbib}
+
+\begin{document}
+\cite{lshort}.
+\citet{dongen_latex_2012} é um livro novo.
+
+\nocite{*}
+\bibliography{latex}
+\bibliographystyle{plainnat}
+
+\end{document}
+\end{verbatim}
+
+
+
+Para serem processadas as referências e a bibliografia, deve-se compilar o documento mais que uma vez:
+
+\begin{enumerate}
+\item xelatex ``arquivo" \item 
+bibtex ``arquivo" \item
+xelatex ``arquivo" \item 
+xelatex ``arquivo" 
+\end{enumerate}
+
+
+Na primeira compilação, aparecerão ``erros'' como:
+
+\begin{verbatim}
+LaTeX Warning: Citation `lamport94' on page 1 undefined on input line 21.
+...
+LaTeX Warning: There were undefined references.
+\end{verbatim}
+
+
+Na segunda, pode aparecer a mensagem: \texttt{``LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right."} As referências no arquivo final ainda estão indefinidas ou mal definidas, com [??] ao invés da referência. Ao compilar mais uma vez, esses erros desaparecerão.
+
+Além do \texttt{bibtex}, também é possível utilizar o \texttt{biblatex}, cuja vantagem é a inserção de caracteres acentuados ou utf8:
+
+\begin{figure}
+\centering
+\includegraphics[width=0.7\linewidth]{./biblatex-figura}
+\caption{Exemplo de bibliografia gerada com \texttt{biblatex}.}
+\label{fig:biblatex-figura}
+\end{figure}
+
+Código da figura \ref{fig:biblatex-figura}:
+
+\begin{verbatim}
+\usepackage[style=historian,citestyle=authoryear,natbib=true,doi=false,backend=bibtex]{biblatex}
+\usepackage{csquotes}
+\DefineBibliographyStrings{brazil}{namedash={---------}}
+\addbibresource{latex} %substitui o \bibliography{xxx} do bibtex
+
+\begin{document}
+\cite{lshort}.
+\citet{dongen_latex_2012} é um livro novo.
+
+\nocite{*}
+
+\printbibliography %para gerar bibliografia
+
+\end{document}
+
+\end{verbatim}
+

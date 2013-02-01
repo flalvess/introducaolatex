@@ -81,6 +81,8 @@
 \setkomafont{captionlabel}{\sffamily}
 %\setcapindent{0pt}
 
+
+%\usepackage[hyphens]{url}
 %\usepackage[titletoc]{appendix}
 
 
@@ -669,38 +671,13 @@ O comando \verb+\appendix+ indica que os capítulos ou seções devem ser numera
 \end{verbatim}
 
 \section{Sumário}
+\label{sumario}
 Todos os cabeçalhos numerados automaticamente vão para o sumário. Você não precisa de ter um, mas se quiser, é só adicionar o comando \verb+\tableofcontents+ onde quiser que apareça o sumário (geralmente depois do abstract). 
 
 Os comandos \verb+\listoffigures+ e \verb+\listoftables+ geram, respectivamente, uma lista das figuras e uma lista das tabelas.
 
-\section{Bibliografia}
-A bibliografia, é claro, é uma das partes mais importantes (e mais chatas, e mais pedantes) de um texto científico. Existem centenas de estilos de citação e bibliografia. O \LaTeX{} pode compor/gerar a bibliografia para você, com alguns comandos específicos (bibtex) e depois que você tiver um arquivo separado (.bib) para gerar essa bibliografia. Gerar um arquivo desses à mão, ou mesmo pegar da Internet já no formato bibtex, e depois compilar várias vezes para ver o resultado, muitas vezes (na maioria das vezes) não vale a pena. Mas se você quiser se aventurar, é só acessar: \url{http://en.wikibooks.org/wiki/LaTeX/Bibliography_Management} ou a documentação do ABNTex2. 
+\include{texto-bibliografia}
 
-Mas como então formatar a bibliografia? Primeiro, siga a regra da sua instituição ou da revista para a qual você está escrevendo. Uma interpretação mais ou menos correta da ABNT ou da publicação serve, eu aconselho aprender intuitivamente. Depois, crie um capítulo (ou seção, se for artigo). Na classe \texttt{book} ou \texttt{report}:
-
-\begin{verbatim}
-\chapter*{Bibliografia}
-\addcontentsline{toc}{chapter}{Bibliografia}
-\setlength{\parskip}{11pt}
-\setlength{\parindent}{0pt}
-\end{verbatim}
-
-Na classe \texttt{article}:
-
-\begin{verbatim}
-\section*{Bibliografia}
-\addcontentsline{toc}{section}{Bibliografia}
-\setlength{\parskip}{11pt}
-\setlength{\parindent}{0pt}
-\end{verbatim}
-
-Ou nas classes KOMA-Script (\texttt{scrreprt}, \texttt{scrbook}) é mais fácil:
-
-\begin{verbatim}
-\addchap{Bibliografia}
-\setlength{\parskip}{11pt}
-\setlength{\parindent}{0pt}
-\end{verbatim}
 
 \chapter{Tabelas}
 É fácil criar tabelas simples em \LaTeX, mas tabelas mais complicadas podem ser difíceis. Mas você pode converter as tabelas do Excel ou OpenOffice com plugins:
