@@ -1,8 +1,8 @@
-This is XeTeX, Version 3.1415926-2.4-0.9998 (TeX Live 2012/W32TeX) (format=xelatex 2013.1.11)  1 FEB 2013 10:06
+This is XeTeX, Version 3.1415926-2.4-0.9998 (TeX Live 2012/W32TeX) (format=xelatex 2013.1.11)  5 FEB 2013 22:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**introducaolatex-final
+**introducaolatex-final.tex
 (./introducaolatex-final.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, ge
@@ -1686,8 +1686,10 @@ Type  H <return>  for immediate help.
                                                   
 l.106 \begin{document}
                       
-? s
-OK, entering \scrollmode...
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
 
 LaTeX Warning: Unused global option(s):
     [abstract].
@@ -2030,83 +2032,83 @@ File: se-ascii-print.def 2011/12/02 v1.10 stringenc: Printable ASCII characters
 number indent by \l@... (toc, 0):  0.0pt
 text indent by \l@... (toc, 0):  16.42499pt
 number indent by parent (toc, 0):  0.0pt
-text indent calculated (toc, 0): 16.64398pt
+text indent calculated (toc, 0): 16.42499pt
 number indent calculated (toc, 0): 0.0pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  16.64398pt
-text indent calculated (toc, 1): 24.35278pt
-number indent calculated (toc, 1): 16.64398pt
+number indent by parent (toc, 1):  16.42499pt
+text indent calculated (toc, 1): 25.18501pt
+number indent calculated (toc, 1): 16.42499pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  16.64398pt
-text indent calculated (toc, 1): 24.35278pt
-number indent calculated (toc, 1): 16.64398pt
+number indent by parent (toc, 1):  16.42499pt
+text indent calculated (toc, 1): 25.18501pt
+number indent calculated (toc, 1): 16.42499pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  16.64398pt
-text indent calculated (toc, 1): 24.35278pt
-number indent calculated (toc, 1): 16.64398pt
+number indent by parent (toc, 1):  16.42499pt
+text indent calculated (toc, 1): 25.18501pt
+number indent calculated (toc, 1): 16.42499pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  16.64398pt
-text indent calculated (toc, 1): 24.35278pt
-number indent calculated (toc, 1): 16.64398pt
+number indent by parent (toc, 1):  16.42499pt
+text indent calculated (toc, 1): 25.18501pt
+number indent calculated (toc, 1): 16.42499pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  16.64398pt
-text indent calculated (toc, 1): 24.35278pt
-number indent calculated (toc, 1): 16.64398pt
+number indent by parent (toc, 1):  16.42499pt
+text indent calculated (toc, 1): 25.18501pt
+number indent calculated (toc, 1): 16.42499pt
 number indent by \l@... (toc, 0):  0.0pt
 text indent by \l@... (toc, 0):  16.42499pt
 number indent by parent (toc, 0):  0.0pt
-text indent calculated (toc, 0): 16.64398pt
+text indent calculated (toc, 0): 16.42499pt
 number indent calculated (toc, 0): 0.0pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  16.64398pt
-text indent calculated (toc, 1): 24.35278pt
-number indent calculated (toc, 1): 16.64398pt
+number indent by parent (toc, 1):  16.42499pt
+text indent calculated (toc, 1): 25.18501pt
+number indent calculated (toc, 1): 16.42499pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  16.64398pt
-text indent calculated (toc, 1): 24.35278pt
-number indent calculated (toc, 1): 16.64398pt
+number indent by parent (toc, 1):  16.42499pt
+text indent calculated (toc, 1): 25.18501pt
+number indent calculated (toc, 1): 16.42499pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  16.64398pt
-text indent calculated (toc, 1): 24.35278pt
-number indent calculated (toc, 1): 16.64398pt
+number indent by parent (toc, 1):  16.42499pt
+text indent calculated (toc, 1): 25.18501pt
+number indent calculated (toc, 1): 16.42499pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  16.64398pt
-text indent calculated (toc, 1): 24.35278pt
-number indent calculated (toc, 1): 16.64398pt
+number indent by parent (toc, 1):  16.42499pt
+text indent calculated (toc, 1): 25.18501pt
+number indent calculated (toc, 1): 16.42499pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  16.64398pt
-text indent calculated (toc, 1): 24.35278pt
-number indent calculated (toc, 1): 16.64398pt
+number indent by parent (toc, 1):  16.42499pt
+text indent calculated (toc, 1): 25.18501pt
+number indent calculated (toc, 1): 16.42499pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  16.64398pt
-text indent calculated (toc, 1): 24.35278pt
-number indent calculated (toc, 1): 16.64398pt
+number indent by parent (toc, 1):  16.42499pt
+text indent calculated (toc, 1): 25.18501pt
+number indent calculated (toc, 1): 16.42499pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  16.64398pt
-text indent calculated (toc, 1): 24.35278pt
-number indent calculated (toc, 1): 16.64398pt
+number indent by parent (toc, 1):  16.42499pt
+text indent calculated (toc, 1): 25.18501pt
+number indent calculated (toc, 1): 16.42499pt
 number indent by \l@... (toc, 0):  0.0pt
 text indent by \l@... (toc, 0):  16.42499pt
 number indent by parent (toc, 0):  0.0pt
-text indent calculated (toc, 0): 16.64398pt
+text indent calculated (toc, 0): 16.42499pt
 number indent calculated (toc, 0): 0.0pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  16.64398pt
-text indent calculated (toc, 1): 24.35278pt
-number indent calculated (toc, 1): 16.64398pt
+number indent by parent (toc, 1):  16.42499pt
+text indent calculated (toc, 1): 25.18501pt
+number indent calculated (toc, 1): 16.42499pt
 LaTeX Font Info:    Font shape `EU1/Consolas(0)/m/n' will be
 (Font)              scaled to size 8.76003pt on input line 17.
 *************************************************
@@ -2118,94 +2120,94 @@ LaTeX Font Info:    Font shape `EU1/Consolas(0)/m/n' will be
 *************************************************
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  16.64398pt
-text indent calculated (toc, 1): 24.35278pt
-number indent calculated (toc, 1): 16.64398pt
+number indent by parent (toc, 1):  16.42499pt
+text indent calculated (toc, 1): 25.18501pt
+number indent calculated (toc, 1): 16.42499pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  16.64398pt
-text indent calculated (toc, 1): 24.35278pt
-number indent calculated (toc, 1): 16.64398pt
+number indent by parent (toc, 1):  16.42499pt
+text indent calculated (toc, 1): 25.18501pt
+number indent calculated (toc, 1): 16.42499pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  16.64398pt
-text indent calculated (toc, 1): 24.35278pt
-number indent calculated (toc, 1): 16.64398pt
+number indent by parent (toc, 1):  16.42499pt
+text indent calculated (toc, 1): 25.18501pt
+number indent calculated (toc, 1): 16.42499pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  16.64398pt
-text indent calculated (toc, 1): 24.35278pt
-number indent calculated (toc, 1): 16.64398pt
+number indent by parent (toc, 1):  16.42499pt
+text indent calculated (toc, 1): 25.18501pt
+number indent calculated (toc, 1): 16.42499pt
 number indent by \l@... (toc, 2):  41.61002pt
 text indent by \l@... (toc, 2):  35.03995pt
-number indent by parent (toc, 2):  40.99677pt
-text indent calculated (toc, 2): 27.13408pt
-number indent calculated (toc, 2): 40.99677pt
+number indent by parent (toc, 2):  41.61002pt
+text indent calculated (toc, 2): 35.03995pt
+number indent calculated (toc, 2): 41.61002pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  16.64398pt
-text indent calculated (toc, 1): 24.35278pt
-number indent calculated (toc, 1): 16.64398pt
+number indent by parent (toc, 1):  16.42499pt
+text indent calculated (toc, 1): 25.18501pt
+number indent calculated (toc, 1): 16.42499pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  16.64398pt
-text indent calculated (toc, 1): 24.35278pt
-number indent calculated (toc, 1): 16.64398pt
+number indent by parent (toc, 1):  16.42499pt
+text indent calculated (toc, 1): 25.18501pt
+number indent calculated (toc, 1): 16.42499pt
 number indent by \l@... (toc, 0):  0.0pt
 text indent by \l@... (toc, 0):  16.42499pt
 number indent by parent (toc, 0):  0.0pt
-text indent calculated (toc, 0): 16.64398pt
+text indent calculated (toc, 0): 16.42499pt
 number indent calculated (toc, 0): 0.0pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  16.64398pt
-text indent calculated (toc, 1): 24.35278pt
-number indent calculated (toc, 1): 16.64398pt
+number indent by parent (toc, 1):  16.42499pt
+text indent calculated (toc, 1): 25.18501pt
+number indent calculated (toc, 1): 16.42499pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  16.64398pt
-text indent calculated (toc, 1): 24.35278pt
-number indent calculated (toc, 1): 16.64398pt
+number indent by parent (toc, 1):  16.42499pt
+text indent calculated (toc, 1): 25.18501pt
+number indent calculated (toc, 1): 16.42499pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  16.64398pt
-text indent calculated (toc, 1): 24.35278pt
-number indent calculated (toc, 1): 16.64398pt
+number indent by parent (toc, 1):  16.42499pt
+text indent calculated (toc, 1): 25.18501pt
+number indent calculated (toc, 1): 16.42499pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  16.64398pt
-text indent calculated (toc, 1): 24.35278pt
-number indent calculated (toc, 1): 16.64398pt
+number indent by parent (toc, 1):  16.42499pt
+text indent calculated (toc, 1): 25.18501pt
+number indent calculated (toc, 1): 16.42499pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  16.64398pt
-text indent calculated (toc, 1): 24.35278pt
-number indent calculated (toc, 1): 16.64398pt
+number indent by parent (toc, 1):  16.42499pt
+text indent calculated (toc, 1): 25.18501pt
+number indent calculated (toc, 1): 16.42499pt
 number indent by \l@... (toc, 0):  0.0pt
 text indent by \l@... (toc, 0):  16.42499pt
 number indent by parent (toc, 0):  0.0pt
-text indent calculated (toc, 0): 16.64398pt
+text indent calculated (toc, 0): 16.42499pt
 number indent calculated (toc, 0): 0.0pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  16.64398pt
-text indent calculated (toc, 1): 24.35278pt
-number indent calculated (toc, 1): 16.64398pt
+number indent by parent (toc, 1):  16.42499pt
+text indent calculated (toc, 1): 25.18501pt
+number indent calculated (toc, 1): 16.42499pt
 number indent by \l@... (toc, 0):  0.0pt
 text indent by \l@... (toc, 0):  16.42499pt
 number indent by parent (toc, 0):  0.0pt
-text indent calculated (toc, 0): 16.64398pt
+text indent calculated (toc, 0): 16.42499pt
 number indent calculated (toc, 0): 0.0pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  16.64398pt
-text indent calculated (toc, 1): 24.35278pt
-number indent calculated (toc, 1): 16.64398pt
+number indent by parent (toc, 1):  16.42499pt
+text indent calculated (toc, 1): 25.18501pt
+number indent calculated (toc, 1): 16.42499pt
 number indent by \l@... (toc, 2):  41.61002pt
 text indent by \l@... (toc, 2):  35.03995pt
-number indent by parent (toc, 2):  40.99677pt
-text indent calculated (toc, 2): 27.13408pt
-number indent calculated (toc, 2): 40.99677pt
+number indent by parent (toc, 2):  41.61002pt
+text indent calculated (toc, 2): 35.03995pt
+number indent calculated (toc, 2): 41.61002pt
 [5
 
 
@@ -2213,194 +2215,194 @@ number indent calculated (toc, 2): 40.99677pt
 ]
 number indent by \l@... (toc, 2):  41.61002pt
 text indent by \l@... (toc, 2):  35.03995pt
-number indent by parent (toc, 2):  40.99677pt
-text indent calculated (toc, 2): 27.13408pt
-number indent calculated (toc, 2): 40.99677pt
+number indent by parent (toc, 2):  41.61002pt
+text indent calculated (toc, 2): 35.03995pt
+number indent calculated (toc, 2): 41.61002pt
 number indent by \l@... (toc, 2):  41.61002pt
 text indent by \l@... (toc, 2):  35.03995pt
-number indent by parent (toc, 2):  40.99677pt
-text indent calculated (toc, 2): 27.13408pt
-number indent calculated (toc, 2): 40.99677pt
+number indent by parent (toc, 2):  41.61002pt
+text indent calculated (toc, 2): 35.03995pt
+number indent calculated (toc, 2): 41.61002pt
 number indent by \l@... (toc, 2):  41.61002pt
 text indent by \l@... (toc, 2):  35.03995pt
-number indent by parent (toc, 2):  40.99677pt
-text indent calculated (toc, 2): 27.13408pt
-number indent calculated (toc, 2): 40.99677pt
+number indent by parent (toc, 2):  41.61002pt
+text indent calculated (toc, 2): 35.03995pt
+number indent calculated (toc, 2): 41.61002pt
 number indent by \l@... (toc, 2):  41.61002pt
 text indent by \l@... (toc, 2):  35.03995pt
-number indent by parent (toc, 2):  40.99677pt
-text indent calculated (toc, 2): 27.13408pt
-number indent calculated (toc, 2): 40.99677pt
+number indent by parent (toc, 2):  41.61002pt
+text indent calculated (toc, 2): 35.03995pt
+number indent calculated (toc, 2): 41.61002pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  16.64398pt
-text indent calculated (toc, 1): 24.35278pt
-number indent calculated (toc, 1): 16.64398pt
+number indent by parent (toc, 1):  16.42499pt
+text indent calculated (toc, 1): 25.18501pt
+number indent calculated (toc, 1): 16.42499pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  16.64398pt
-text indent calculated (toc, 1): 24.35278pt
-number indent calculated (toc, 1): 16.64398pt
+number indent by parent (toc, 1):  16.42499pt
+text indent calculated (toc, 1): 25.18501pt
+number indent calculated (toc, 1): 16.42499pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  16.64398pt
-text indent calculated (toc, 1): 24.35278pt
-number indent calculated (toc, 1): 16.64398pt
+number indent by parent (toc, 1):  16.42499pt
+text indent calculated (toc, 1): 25.18501pt
+number indent calculated (toc, 1): 16.42499pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  16.64398pt
-text indent calculated (toc, 1): 24.35278pt
-number indent calculated (toc, 1): 16.64398pt
+number indent by parent (toc, 1):  16.42499pt
+text indent calculated (toc, 1): 25.18501pt
+number indent calculated (toc, 1): 16.42499pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  16.64398pt
-text indent calculated (toc, 1): 24.35278pt
-number indent calculated (toc, 1): 16.64398pt
+number indent by parent (toc, 1):  16.42499pt
+text indent calculated (toc, 1): 25.18501pt
+number indent calculated (toc, 1): 16.42499pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  16.64398pt
-text indent calculated (toc, 1): 24.35278pt
-number indent calculated (toc, 1): 16.64398pt
+number indent by parent (toc, 1):  16.42499pt
+text indent calculated (toc, 1): 25.18501pt
+number indent calculated (toc, 1): 16.42499pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  16.64398pt
-text indent calculated (toc, 1): 24.35278pt
-number indent calculated (toc, 1): 16.64398pt
+number indent by parent (toc, 1):  16.42499pt
+text indent calculated (toc, 1): 25.18501pt
+number indent calculated (toc, 1): 16.42499pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  16.64398pt
-text indent calculated (toc, 1): 24.35278pt
-number indent calculated (toc, 1): 16.64398pt
+number indent by parent (toc, 1):  16.42499pt
+text indent calculated (toc, 1): 25.18501pt
+number indent calculated (toc, 1): 16.42499pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  16.64398pt
-text indent calculated (toc, 1): 24.35278pt
-number indent calculated (toc, 1): 16.64398pt
+number indent by parent (toc, 1):  16.42499pt
+text indent calculated (toc, 1): 25.18501pt
+number indent calculated (toc, 1): 16.42499pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  16.64398pt
-text indent calculated (toc, 1): 24.35278pt
-number indent calculated (toc, 1): 16.64398pt
+number indent by parent (toc, 1):  16.42499pt
+text indent calculated (toc, 1): 25.18501pt
+number indent calculated (toc, 1): 16.42499pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  16.64398pt
-text indent calculated (toc, 1): 24.35278pt
-number indent calculated (toc, 1): 16.64398pt
+number indent by parent (toc, 1):  16.42499pt
+text indent calculated (toc, 1): 25.18501pt
+number indent calculated (toc, 1): 16.42499pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  16.64398pt
-text indent calculated (toc, 1): 24.35278pt
-number indent calculated (toc, 1): 16.64398pt
+number indent by parent (toc, 1):  16.42499pt
+text indent calculated (toc, 1): 25.18501pt
+number indent calculated (toc, 1): 16.42499pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  16.64398pt
-text indent calculated (toc, 1): 24.35278pt
-number indent calculated (toc, 1): 16.64398pt
+number indent by parent (toc, 1):  16.42499pt
+text indent calculated (toc, 1): 25.18501pt
+number indent calculated (toc, 1): 16.42499pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  16.64398pt
-text indent calculated (toc, 1): 24.35278pt
-number indent calculated (toc, 1): 16.64398pt
+number indent by parent (toc, 1):  16.42499pt
+text indent calculated (toc, 1): 25.18501pt
+number indent calculated (toc, 1): 16.42499pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  16.64398pt
-text indent calculated (toc, 1): 24.35278pt
-number indent calculated (toc, 1): 16.64398pt
+number indent by parent (toc, 1):  16.42499pt
+text indent calculated (toc, 1): 25.18501pt
+number indent calculated (toc, 1): 16.42499pt
 number indent by \l@... (toc, 0):  0.0pt
 text indent by \l@... (toc, 0):  16.42499pt
 number indent by parent (toc, 0):  0.0pt
-text indent calculated (toc, 0): 16.64398pt
+text indent calculated (toc, 0): 16.42499pt
 number indent calculated (toc, 0): 0.0pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  16.64398pt
-text indent calculated (toc, 1): 24.35278pt
-number indent calculated (toc, 1): 16.64398pt
+number indent by parent (toc, 1):  16.42499pt
+text indent calculated (toc, 1): 25.18501pt
+number indent calculated (toc, 1): 16.42499pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  16.64398pt
-text indent calculated (toc, 1): 24.35278pt
-number indent calculated (toc, 1): 16.64398pt
+number indent by parent (toc, 1):  16.42499pt
+text indent calculated (toc, 1): 25.18501pt
+number indent calculated (toc, 1): 16.42499pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  16.64398pt
-text indent calculated (toc, 1): 24.35278pt
-number indent calculated (toc, 1): 16.64398pt
+number indent by parent (toc, 1):  16.42499pt
+text indent calculated (toc, 1): 25.18501pt
+number indent calculated (toc, 1): 16.42499pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  16.64398pt
-text indent calculated (toc, 1): 24.35278pt
-number indent calculated (toc, 1): 16.64398pt
+number indent by parent (toc, 1):  16.42499pt
+text indent calculated (toc, 1): 25.18501pt
+number indent calculated (toc, 1): 16.42499pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  16.64398pt
-text indent calculated (toc, 1): 24.35278pt
-number indent calculated (toc, 1): 16.64398pt
+number indent by parent (toc, 1):  16.42499pt
+text indent calculated (toc, 1): 25.18501pt
+number indent calculated (toc, 1): 16.42499pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  16.64398pt
-text indent calculated (toc, 1): 24.35278pt
-number indent calculated (toc, 1): 16.64398pt
+number indent by parent (toc, 1):  16.42499pt
+text indent calculated (toc, 1): 25.18501pt
+number indent calculated (toc, 1): 16.42499pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  16.64398pt
-text indent calculated (toc, 1): 24.35278pt
-number indent calculated (toc, 1): 16.64398pt
+number indent by parent (toc, 1):  16.42499pt
+text indent calculated (toc, 1): 25.18501pt
+number indent calculated (toc, 1): 16.42499pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  16.64398pt
-text indent calculated (toc, 1): 24.35278pt
-number indent calculated (toc, 1): 16.64398pt
+number indent by parent (toc, 1):  16.42499pt
+text indent calculated (toc, 1): 25.18501pt
+number indent calculated (toc, 1): 16.42499pt
 number indent by \l@... (toc, 0):  0.0pt
 text indent by \l@... (toc, 0):  16.42499pt
 number indent by parent (toc, 0):  0.0pt
-text indent calculated (toc, 0): 16.64398pt
+text indent calculated (toc, 0): 16.42499pt
 number indent calculated (toc, 0): 0.0pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  16.64398pt
-text indent calculated (toc, 1): 24.35278pt
-number indent calculated (toc, 1): 16.64398pt
+number indent by parent (toc, 1):  16.42499pt
+text indent calculated (toc, 1): 25.18501pt
+number indent calculated (toc, 1): 16.42499pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  16.64398pt
-text indent calculated (toc, 1): 24.35278pt
-number indent calculated (toc, 1): 16.64398pt
+number indent by parent (toc, 1):  16.42499pt
+text indent calculated (toc, 1): 25.18501pt
+number indent calculated (toc, 1): 16.42499pt
 number indent by \l@... (toc, 0):  0.0pt
 text indent by \l@... (toc, 0):  16.42499pt
 number indent by parent (toc, 0):  0.0pt
-text indent calculated (toc, 0): 16.64398pt
+text indent calculated (toc, 0): 16.42499pt
 number indent calculated (toc, 0): 0.0pt
 number indent by \l@... (toc, 0):  0.0pt
 text indent by \l@... (toc, 0):  16.42499pt
 number indent by parent (toc, 0):  0.0pt
-text indent calculated (toc, 0): 16.64398pt
+text indent calculated (toc, 0): 16.42499pt
 number indent calculated (toc, 0): 0.0pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  16.64398pt
-text indent calculated (toc, 1): 24.35278pt
-number indent calculated (toc, 1): 16.64398pt
+number indent by parent (toc, 1):  16.42499pt
+text indent calculated (toc, 1): 25.18501pt
+number indent calculated (toc, 1): 16.42499pt
 number indent by \l@... (toc, 0):  0.0pt
 text indent by \l@... (toc, 0):  16.42499pt
 number indent by parent (toc, 0):  0.0pt
-text indent calculated (toc, 0): 16.64398pt
+text indent calculated (toc, 0): 16.42499pt
 number indent calculated (toc, 0): 0.0pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  16.64398pt
-text indent calculated (toc, 1): 24.35278pt
-number indent calculated (toc, 1): 16.64398pt
+number indent by parent (toc, 1):  16.42499pt
+text indent calculated (toc, 1): 25.18501pt
+number indent calculated (toc, 1): 16.42499pt
 number indent by \l@... (toc, 0):  0.0pt
 text indent by \l@... (toc, 0):  16.42499pt
 number indent by parent (toc, 0):  0.0pt
-text indent calculated (toc, 0): 16.64398pt
+text indent calculated (toc, 0): 16.42499pt
 number indent calculated (toc, 0): 0.0pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  16.64398pt
-text indent calculated (toc, 1): 24.35278pt
-number indent calculated (toc, 1): 16.64398pt
+number indent by parent (toc, 1):  16.42499pt
+text indent calculated (toc, 1): 25.18501pt
+number indent calculated (toc, 1): 16.42499pt
 LaTeX Font Info:    Font shape `EU1/BulmerMTStd(0)/m/sl' in size <10.95> not av
 ailable
 (Font)              Font shape `EU1/BulmerMTStd(0)/m/it' tried instead on input
@@ -2409,7 +2411,7 @@ ailable
 number indent by \l@... (toc, 0):  0.0pt
 text indent by \l@... (toc, 0):  16.42499pt
 number indent by parent (toc, 0):  0.0pt
-text indent calculated (toc, 0): 16.64398pt
+text indent calculated (toc, 0): 16.42499pt
 number indent calculated (toc, 0): 0.0pt
 number indent by \l@... (toc, -1):  0.0pt
 text indent by \l@... (toc, -1):  21.9pt
@@ -2427,37 +2429,37 @@ number indent calculated (toc, -1): 0.0pt
 number indent by \l@... (lof, 1):  16.42499pt
 text indent by \l@... (lof, 1):  25.18501pt
 number indent by parent (lof, 1):  16.42499pt
-text indent calculated (lof, 1): 18.98729pt
+text indent calculated (lof, 1): 25.18501pt
 number indent calculated (lof, 1): 16.42499pt
 number indent by \l@... (lof, 1):  16.42499pt
 text indent by \l@... (lof, 1):  25.18501pt
 number indent by parent (lof, 1):  16.42499pt
-text indent calculated (lof, 1): 18.98729pt
+text indent calculated (lof, 1): 25.18501pt
 number indent calculated (lof, 1): 16.42499pt
 number indent by \l@... (lof, 1):  16.42499pt
 text indent by \l@... (lof, 1):  25.18501pt
 number indent by parent (lof, 1):  16.42499pt
-text indent calculated (lof, 1): 18.98729pt
+text indent calculated (lof, 1): 25.18501pt
 number indent calculated (lof, 1): 16.42499pt
 number indent by \l@... (lof, 1):  16.42499pt
 text indent by \l@... (lof, 1):  25.18501pt
 number indent by parent (lof, 1):  16.42499pt
-text indent calculated (lof, 1): 18.98729pt
+text indent calculated (lof, 1): 25.18501pt
 number indent calculated (lof, 1): 16.42499pt
 number indent by \l@... (lof, 1):  16.42499pt
 text indent by \l@... (lof, 1):  25.18501pt
 number indent by parent (lof, 1):  16.42499pt
-text indent calculated (lof, 1): 18.98729pt
+text indent calculated (lof, 1): 25.18501pt
 number indent calculated (lof, 1): 16.42499pt
 number indent by \l@... (lof, 1):  16.42499pt
 text indent by \l@... (lof, 1):  25.18501pt
 number indent by parent (lof, 1):  16.42499pt
-text indent calculated (lof, 1): 18.98729pt
+text indent calculated (lof, 1): 25.18501pt
 number indent calculated (lof, 1): 16.42499pt
 number indent by \l@... (lof, 1):  16.42499pt
 text indent by \l@... (lof, 1):  25.18501pt
 number indent by parent (lof, 1):  16.42499pt
-text indent calculated (lof, 1): 18.98729pt
+text indent calculated (lof, 1): 25.18501pt
 number indent calculated (lof, 1): 16.42499pt
 )
 \tf@lof=\write5
@@ -3077,14 +3079,17 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
  28227 strings out of 494004
- 544458 string characters out of 3153866
- 653259 words of memory out of 3000000
+ 544474 string characters out of 3153866
+ 653322 words of memory out of 3000000
  30919 multiletter control sequences out of 15000+200000
  24583 words of font info for 182 fonts, out of 3000000 for 9000
  1144 hyphenation exceptions out of 8191
- 48i,19n,47p,1257b,618s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 48i,19n,47p,1261b,618s stack positions out of 5000i,500n,10000p,200000b,50000s
 
 Output written on introducaolatex-final.pdf (87 pages).
