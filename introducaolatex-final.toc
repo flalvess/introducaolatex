@@ -142,9 +142,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {\relax 10.1}O pacote \texttt {fontspec}}{65}{section.10.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {11}Idiomas}{67}{chapter.11}
+\contentsline {section}{\numberline {\relax 10.2}Opções avançadas do pacote \texttt {fontspec}}{66}{section.10.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {\relax 11.1}Alfabetos não latinos e escritas não ocidentais}{68}{section.11.1}
+\contentsline {chapter}{\numberline {11}Idiomas}{69}{chapter.11}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {\relax 11.1}Alfabetos não latinos e escritas não ocidentais}{70}{section.11.1}
 \defcounter {refsection}{0}\relax 
 \select@language {russian}
 \defcounter {refsection}{0}\relax 
@@ -154,10 +156,10 @@
 \defcounter {refsection}{0}\relax 
 \select@language {brazil}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {12}Documentos técnicos e científicos brasileiros com abnTeX2}{71}{chapter.12}
+\contentsline {chapter}{\numberline {12}Documentos técnicos e científicos brasileiros com abnTeX2}{73}{chapter.12}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {\relax 12.1}Macros de dados do trabalho}{73}{section.12.1}
+\contentsline {section}{\numberline {\relax 12.1}Macros de dados do trabalho}{75}{section.12.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {13}Outros recursos}{75}{chapter.13}
+\contentsline {chapter}{\numberline {13}Outros recursos}{77}{chapter.13}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{Apêndices}{77}{section*.4}
+\contentsline {part}{Apêndices}{79}{section*.4}

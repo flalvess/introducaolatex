@@ -65,6 +65,8 @@
 %\setkomafont{title}{\rmfamily \bfseries}
 %\addtokomafont{subtitle}{\LARGE \sffamily}
 %\addtokomafont{title}{\color{gray}}
+%\newcommand{\altern}[1]{{\fontspec{Arno Pro:+salt}#1}}
+%\newcommand{\swash}[1]{{\fontspec{Arno Pro Italic:+swsh}#1}}
 %\newcommand{\altern}[1]{{\fontspec{EB Garamond:+salt}#1}} % for long-tailed \altern{Q} etc.
 %\newcommand{\alternitalic}[1]{{\fontspec{EB Garamond Italic:+salt}#1}}
 %\addtokomafont{chapter}{\itshape \bfseries}
@@ -93,7 +95,7 @@
 \title{\fontsize{50}{60}\selectfont \textcolor{YellowOrange}{\rmfamily\LaTeX}}
 \subtitle{\textcolor{Dandelion}{UM SISTEMA DE PREPARAÇÃO DE TEXTOS}}
 \author{Youssef Cherem\thanks{\href{mailto:cherem@unifesp.br}{cherem@unifesp.br}}}
-\date{MMXII}
+\date{MMXIII}
 
 
 \dedication{Dedicado a todos os amantes da tipografia.}
@@ -1577,7 +1579,6 @@ Para inserir espaços entre as figuras, use um dos comandos:
 \item Espaço genérico: \verb+\hspace{Xcm}+;
 \item Espaço expandido/contraído automaticamente: \verb+\hfill+
 \end{itemize}
-
 Exemplo:\footnote{\url{http://en.wikibooks.org/wiki/LaTeX/Floats,\_Figures\_and\_Captions#Subfloats}}
 
 \begin{verbatim}
@@ -1818,7 +1819,167 @@ Depois temos a definição da fonte serifada, sem serifa (geralmente usada para 
 \setmonofont[Scale=MatchLowercase]{Consolas}
 \end{verbatim} 
 
-Claro que você pode (ou deve) substituir o nome das fontes pelas que mais preferir. Com o Adobe Acrobat Reader, vêm as fontes de graça: Minion Pro e Myriad Pro.\footnote{Para Linux, faça o download de: \url{http://www.adobe.com/support/downloads/detail.jsp?ftpID=4426}, extraia e instale. Para Windows, vá até a pasta onde instalou o Reader (Arquivos de Programas), procure as fontes e instale.} Outra fonte interessante é \href{http://scripts.sil.org/cms/scripts/page.php?site\_id=nrsi\&id=Gentium\_download}{Gentium}. 
+
+Substitua o nome das fontes pelas mais adequadas para seu texto. Com o Adobe Acrobat Reader, vêm as fontes de graça: Minion Pro e Myriad Pro.\footnote{Para Linux, faça o download de: \url{http://www.adobe.com/support/downloads/detail.jsp?ftpID=4426}, extraia e instale. Para Windows, vá até a pasta onde instalou o Reader (Arquivos de Programas), procure as fontes e instale.} Outra fonte interessante é \href{http://scripts.sil.org/cms/scripts/page.php?site\_id=nrsi\&id=Gentium\_download}{Gentium}. Escolher uma fonte para um trabalho pode ser complicado. Para alguma ajuda, consultar \citet{bringhurst_elements_2013}, \citet{dodd_gutenberg_2006}, \citet{pohlen_letter_2011} e \citet{lupton_thinking_2010}.
+
+
+
+\section{Opções avançadas do pacote \texttt{fontspec}}
+
+A cor pode ser especificada utilizando o pacote \texttt{xcolor} ou números hexadecimais (RGB):
+
+\begin{tabular}{cc}
+\begin{minipage}{.5\textwidth}
+\begin{verbatim}
+\fbox{
+{
+\fontsize{48}{48}
+\fontspec{Calluna}{
+{\addfontfeature{Color=lime}W}\kern-1ex
+{\addfontfeature{Color=Peach}S}\kern-0.8ex
+{\addfontfeature{Color=Mulberry}P}\kern-0.8ex
+{\addfontfeature{Color=YellowGreen}R} %
+}
+}
+}
+\end{verbatim}
+\end{minipage} &
+
+\fbox{
+{
+\fontsize{48}{48}
+\fontspec{Calluna}{
+{\addfontfeature{Color=lime}W}\kern-1ex
+{\addfontfeature{Color=Peach}S}\kern-0.8ex
+{\addfontfeature{Color=Mulberry}P}\kern-0.8ex
+{\addfontfeature{Color=YellowGreen}R} %
+}
+}
+}
+\end{tabular}
+
+\bigskip
+\bigskip
+
+
+\begin{tabular}{cc}
+\centering
+\verb+\fontspec[Color=BurntOrange]{Arno Pro}+ & \fontspec[Color=BurntOrange]{Arno Pro}{Arno Pro, \textit{laranja}.}
+\end{tabular}
+
+%{\fontsize{12}{12}
+%\fontspec{ArnoPro-Italic}
+%{\addfontfeature{Color=00FF0044, Scale=4, Alternate=1}Q}\kern-4ex
+%{\addfontfeature{Color=FF000033, Scale=8, Alternate=1}Q}\kern-8ex
+%{\addfontfeature{Color=0000FF22, Scale=16, Alternate=1}Q}\kern-16ex
+%}
+
+%A opacidade também pode ser ajustada (útil para títulos):
+%
+%
+%\begin{verbatim}
+%\fontspec[Color=red,Opacity=1.0]{Arno Pro}{D}
+%\fontspec[Color=red,Opacity=0.9]{Arno Pro}{e}
+%\fontspec[Color=red,Opacity=0.8]{Arno Pro}{s}
+%\fontspec[Color=red,Opacity=0.7]{Arno Pro}{a}
+%\fontspec[Color=red,Opacity=0.6]{Arno Pro}{p}
+%\fontspec[Color=red,Opacity=0.5]{Arno Pro}{a}
+%\fontspec[Color=red,Opacity=0.4]{Arno Pro}{r}
+%\fontspec[Color=red,Opacity=0.3]{Arno Pro}{e}
+%\fontspec[Color=red,Opacity=0.2{Arno Pro}{c}
+%\fontspec[Color=red,Opacity=0.1]{Arno Pro}{e...}
+%\end{verbatim}
+%
+%\begin{center}
+%\LARGE
+%\itshape
+%\fontspec[Color=red,Opacity=1.0]{Arno Pro}{D}
+%\fontspec[Color=red,Opacity=0.9]{Arno Pro}{e}
+%\fontspec[Color=red,Opacity=0.8]{Arno Pro}{s}
+%\fontspec[Color=red,Opacity=0.7]{Arno Pro}{a}
+%\fontspec[Color=red,Opacity=0.6]{Arno Pro}{p}
+%\fontspec[Color=red,Opacity=0.5]{Arno Pro}{a}
+%\fontspec[Color=red,Opacity=0.4]{Arno Pro}{r}
+%\fontspec[Color=red,Opacity=0.3]{Arno Pro}{e}
+%\fontspec[Color=red,Opacity=0.2]{Arno Pro}{c}
+%\fontspec[Color=red,Opacity=0.1]{Arno Pro}{e...}
+%\end{center}
+
+
+Também pode ser especificada a escala da fonte:
+
+\begin{verbatim}
+Scale = X 
+Scale = MatchLowercase
+Scale = MatchUppercase
+\end{verbatim}
+
+As ligaduras também podem ser definidas através das opções: \textenglish{\textit{Required, Common, Contextual, Rare/Dis\-cre\-tion\-ar\-y, Historic, TeX}}. As primeiras três são ativadas automaticamente (as usuais -- f + i = fi, f + f = ff etc.)
+
+\begin{center}
+\verb+\fontspec[Ligatures=Discretionary]{Calluna}+
+\medspace
+
+\begin{multicols}{4}
+\fontspec[Ligatures=Discretionary]{Calluna}{
+\item estudante 
+\item factual \item hipnotismo\item itinerário\item luck\item gim\item especial \item quando \item cb \item chamando \item cp \item esbarrar \item shampoo \item ski \item aspirar \item officio
+
+}
+
+\end{multicols}
+\end{center}
+
+\bigskip
+
+\begin{center}
+\verb+\fontspec[Style=Alternate]{Arno Pro}+
+
+\fontspec[Style=Alternate]{Arno Pro}{Q \qquad e
+\qquad t \qquad r \qquad m}
+\end{center}
+
+
+\begin{center}
+\verb+\fontspec[Style=Swash]{Arno Pro}+
+
+\fontspec[Style=Swash]{Arno Pro}{\itshape A \qquad M \qquad R \qquad T \qquad E}
+\end{center}
+
+Para números, as opções principais são \textit{Lining} e \textit{Oldstyle} (uma ou outra será ativada automaticamente, dependendo da fonte):
+
+\medskip
+
+
+\begin{tabular}{cc}
+\verb+\fontspec[Numbers=OldStyle]{Sabon LT Std}{0123456789}+ & \fontspec[Numbers=OldStyle]{Sabon LT Std}{0123456789}\\
+\verb+\fontspec[Numbers=Lining]{Sabon LT Std}{0123456789}+ & \fontspec[Numbers=Lining]{Sabon LT Std}{0123456789}
+\end{tabular}
+
+\bigskip
+
+A opção \textit{Contextuals} ativará formas especiais disponíveis em algumas fontes. 
+
+\bigskip
+\begin{tabular}{cc}
+
+\begin{minipage}{0.5\textwidth}
+\begin{verbatim}
+\fontspec{Warnock Pro} \itshape
+Without Contextual Swashes \\
+\fontspec[Contextuals=Swash]{Warnock Pro}
+With Contextual Swashes; cf. W C S
+\end{verbatim}
+\end{minipage}
+&
+\begin{minipage}{0.5\textwidth}
+\fontspec{Warnock Pro} \itshape
+Without Contextual Swashes \\
+\fontspec[Contextuals=Swash]{Warnock Pro}
+With Contextual Swashes; cf. W C S
+\end{minipage}
+\end{tabular}
+\bigskip
 
 \chapter{Idiomas}
 \label{idiomas}
