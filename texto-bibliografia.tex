@@ -43,7 +43,7 @@ Se você está criando poucos documentos e não planeja utilizar a mesma bibliog
 \begin{verbatim}
 \begin{thebibliography}{999}
 
-\bibitem{lamport94}
+\bibitem[Lamport, 1994]{lamport94}
   Leslie Lamport,
   \emph{\LaTeX: A Document Preparation System}.
   Addison Wesley, Massachusetts,
@@ -53,8 +53,19 @@ Se você está criando poucos documentos e não planeja utilizar a mesma bibliog
 \end{thebibliography}
 \end{verbatim}
 
-Nesse caso, “999” é o número máximo de entradas bibliográficas a serem utilizadas e “lamport94” é a entrada de citação a ser utilizada no texto. Para citar essa referência, é fácil: 
-Em vez de editores visuais (WYSIWYG), sistemas tipográficos como \TeX{} or \LaTeX{} \cite{lamport94} podem ser utilizados.
+Nesse caso, “999” é o número máximo de entradas bibliográficas a serem utilizadas e “lamport94” é a entrada de citação a ser utilizada no texto. O texto entre colchetes (``Lamport, 1994") é como aparecerá a chamada no texto. Se não foi inserido, será utilizada numeração em algarismos arábicos segundo a ordem de citação no texto. Para citar essa referência, é fácil: 
+
+
+\begin{verbatim}
+Em vez de editores visuais (WYSIWYG), 
+sistemas tipográficos como \TeX{} or \LaTeX{} \cite{lamport94} podem ser utilizados.
+\end{verbatim}
+
+\begin{quote}
+Em vez de editores visuais (WYSIWYG), sistemas tipográficos como \TeX{} or \LaTeX{} \citep{lamport94} podem ser utilizados.
+\end{quote}
+%para versão tufte, utilizar somente \cite{}; para koma-script, \citep{}
+
 Para citar páginas, coloque entre colchetes:
 \verb+\cite[p.~215]{citacao1}+
 O til (\verb+~+) representa um espaço entre palavras que não devem ser separadas no fim de linha. 
@@ -64,7 +75,7 @@ Para incluir um item na bibliografia sem citá-lo no texto, use o comando \textt
 
 \section{O pacote \texttt{natbib} para citações}
 \label{natbib}
-O tipo de entrada nativo só é capaz de fazer citações e bibliografias no sistema numérico. Para utilizar o sistema autor-data, podemos utilizar o pacote \texttt{harvard}, \texttt{natbib}, ou \texttt{abntex2cite}, entre outros.
+Para utilizar o sistema autor-data, podemos utilizar o pacote \texttt{harvard}, \texttt{natbib}, ou \texttt{abntex2cite}, entre outros.
 O pacote \texttt{natbib} é o mais versátil de todos para citações, enquanto que os outros dois são sistemas completos de citação e estilos bibliográficos.
 
 As duas formas básicas de citação com \texttt{natbib} são: \verb+\citet{...}+, para citações dentro do texto (\textit{t}) e \verb+\citep{...}+, para citações dentro de parênteses (\textit{p}). Outros exemplos no quadro abaixo (retirados da documentação do pacote):

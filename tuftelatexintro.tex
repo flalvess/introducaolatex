@@ -60,6 +60,12 @@
 \renewcommand{\smallcaps}[1]{\smallcapsspacing{\scshape\MakeTextLowercase{#1}}}}
 
 
+\usepackage[style=historian,citestyle=authoryear,natbib=true,doi=false,backend=bibtex]{biblatex}
+\usepackage{csquotes}
+\DefineBibliographyStrings{brazil}{namedash={---------}}
+\addbibresource{latex}
+
+
 % %Para fonte Kepler parênteses:
 %\XeTeXinterchartokenstate = 1
 %\XeTeXcharclass `( 100
@@ -2239,12 +2245,14 @@ Se você quiser usar um estilo parecido com o dos livros de E. Tufte, as classes
 %Os exemplos foram retirados de: \url{http://tex.stackexchange.com/questions/35825/pretty-table-of-contents} e modificados.
 
 
+\nocite{*}
 
+\printbibliography
 
 \chapter*{}
 \phantom{}
 \vfill
-Este texto foi composto e adaptado (uma tradução livre com acréscimos) de: \url{http://en.wikibooks.org/wiki/LaTeX/}. Tipologia: Bulmer. A classe utilizada foi \textit{Tufte-\LaTeX}.
+Este texto foi composto e adaptado (uma tradução livre com acréscimos) de: \url{http://en.wikibooks.org/wiki/LaTeX/}. O tipo usado foi \textbf{Bulmer}, criado em 1792 por William Martin (1757–1830).. A classe utilizada foi \textit{Tufte-\LaTeX}.
 
 \medskip
 

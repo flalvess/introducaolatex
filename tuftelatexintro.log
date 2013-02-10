@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.4-0.9998 (TeX Live 2012/W32TeX) (format=xelatex 2013.1.11)  5 FEB 2013 22:34
+This is XeTeX, Version 3.1415926-2.4-0.9998 (TeX Live 2012/W32TeX) (format=xelatex 2013.1.11)  10 FEB 2013 15:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -222,9 +222,21 @@ LaTeX Info: Redefining \cite on input line 694.
 (c:/texlive/2012/texmf-dist/tex/latex/natbib/bibentry.sty
 Package: bibentry 2007/10/30 1.5 (PWD)
 )
-No file tuftelatexintro.bbl.
+(./tuftelatexintro.bbl
+
+! LaTeX Error: Missing 'biblatex' package.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16   {}
+         
+The bibliography requires the 'biblatex' package.
+
+)
 \c@@tufte@num@bibkeys=\count100
-(c:/texlive/2012/texmf-dist/tex/latex/sauerj/optparams.sty
+ (c:/texlive/2012/texmf-dist/tex/latex/sauerj/optparams.sty
 Package: optparams 2004/08/14 v0.9 multiple optional parameters in macros
 )
 \@tufte@sidenote@vertical@offset=\skip71
@@ -1578,9 +1590,427 @@ l.60 ...sspacing{\scshape\MakeTextLowercase{#1}}}}
 You've closed more groups than you opened.
 Such booboos are generally harmless, so keep going.
 
+(c:/texlive/2012/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2011/11/13 v1.7 programmable bibliographies
+
+(c:/texlive/2012/texmf-dist/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count308
+
+(c:/texlive/2012/texmf-dist/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+\c@listtotal=\count309
+\c@listcount=\count310
+\c@liststart=\count311
+\c@liststop=\count312
+\c@citecount=\count313
+\c@citetotal=\count314
+\c@multicitecount=\count315
+\c@multicitetotal=\count316
+\c@instcount=\count317
+\c@maxnames=\count318
+\c@minnames=\count319
+\c@maxitems=\count320
+\c@minitems=\count321
+\c@citecounter=\count322
+\c@savedcitecounter=\count323
+\c@uniquelist=\count324
+\c@uniquename=\count325
+\c@refsection=\count326
+\c@refsegment=\count327
+\c@maxextrayear=\count328
+\c@maxextraalpha=\count329
+\c@abbrvpenalty=\count330
+\c@highnamepenalty=\count331
+\c@lownamepenalty=\count332
+\c@maxparens=\count333
+\c@parenlevel=\count334
+\blx@tempcnta=\count335
+\blx@tempcntb=\count336
+\blx@tempcntc=\count337
+\blx@maxsection=\count338
+\blx@maxsegment=\count339
+\blx@notetype=\count340
+\blx@parenlevel@text=\count341
+\blx@parenlevel@foot=\count342
+\labelnumberwidth=\skip166
+\labelalphawidth=\skip167
+\shorthandwidth=\skip168
+\biblabelsep=\skip169
+\bibitemsep=\skip170
+\bibnamesep=\skip171
+\bibinitsep=\skip172
+\bibparsep=\skip173
+
+
+! LaTeX Error: Command \bibhang already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.390 \newlength{\bibhang}
+                          
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+\blx@auxin=\read1
+\blx@auxout=\write3
+\c@mincomprange=\count343
+\c@maxcomprange=\count344
+\c@mincompwidth=\count345
+\c@labelname=\count346
+\c@savedlabelname=\count347
+\c@author=\count348
+\c@savedauthor=\count349
+\c@shortauthor=\count350
+\c@savedshortauthor=\count351
+\c@editor=\count352
+\c@savededitor=\count353
+\c@editora=\count354
+\c@savededitora=\count355
+\c@editorb=\count356
+\c@savededitorb=\count357
+\c@editorc=\count358
+\c@savededitorc=\count359
+\c@shorteditor=\count360
+\c@savedshorteditor=\count361
+\c@bookauthor=\count362
+\c@savedbookauthor=\count363
+\c@translator=\count364
+\c@savedtranslator=\count365
+\c@annotator=\count366
+\c@savedannotator=\count367
+\c@commentator=\count368
+\c@savedcommentator=\count369
+\c@introduction=\count370
+\c@savedintroduction=\count371
+\c@foreword=\count372
+\c@savedforeword=\count373
+\c@afterword=\count374
+\c@savedafterword=\count375
+\c@holder=\count376
+\c@savedholder=\count377
+\c@namea=\count378
+\c@savednamea=\count379
+\c@nameb=\count380
+\c@savednameb=\count381
+\c@namec=\count382
+\c@savednamec=\count383
+\c@institution=\count384
+\c@savedinstitution=\count385
+\c@language=\count386
+\c@savedlanguage=\count387
+\c@location=\count388
+\c@savedlocation=\count389
+\c@organization=\count390
+\c@savedorganization=\count391
+\c@origlocation=\count392
+\c@savedoriglocation=\count393
+\c@origpublisher=\count394
+\c@savedorigpublisher=\count395
+\c@pageref=\count396
+\c@savedpageref=\count397
+\c@publisher=\count398
+\c@savedpublisher=\count399
+\c@lista=\count400
+\c@savedlista=\count401
+\c@listb=\count402
+\c@savedlistb=\count403
+\c@listc=\count404
+\c@savedlistc=\count405
+\c@listd=\count406
+\c@savedlistd=\count407
+\c@liste=\count408
+\c@savedliste=\count409
+\c@listf=\count410
+\c@savedlistf=\count411
+
+! LaTeX Error: Command \citename already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8275 ...d*{\citename}{\blx@citexpunct{citename}}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+(c:/texlive/2012/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2011/11/13 v1.7 biblatex generic compatibility
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+
+(c:/texlive/2012/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2011/11/13 v1.7 biblatex generic definitions
+\c@biburlnumpenalty=\count412
+\c@biburlucpenalty=\count413
+\c@biburllcpenalty=\count414
+
+
+! LaTeX Error: Command \bibfont already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.164 ...ommand*{\bibfont}{\normalfont\normalsize}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+\c@smartand=\count415
+
+Package biblatex Warning: Redefining '\citeauthor'.
+
+
+Package biblatex Warning: Redefining '\citeyear'.
+
+
+! LaTeX Error: Command \Citeauthor already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1683 ...d*{\Citeauthor}{\bibsentence\citeauthor}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+)
+Package biblatex Info: Trying to load natbib compatibility...
+Package biblatex Info: ... file 'blx-natbib.def' found.
+ (c:/texlive/2012/texmf-dist/tex/latex/biblatex/blx-natbib.def
+File: blx-natbib.def 2011/11/13 v1.7 biblatex natbib compatibility
+
+
+! LaTeX Error: Command \citet already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13     {\textcite}}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \citep already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19     {\parencite}}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \citealt already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.28      \cite}}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \citealp already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34     {\cite}}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Package biblatex Warning: Redefining '\citeyearpar'.
+
+
+! LaTeX Error: Command \Citet already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.54 \newrobustcmd*{\Citet}{\bibsentence\citet}
+                                               
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \Citep already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.55 \newrobustcmd*{\Citep}{\bibsentence\citep}
+                                               
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \Citealt already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.56 ...robustcmd*{\Citealt}{\bibsentence\citealt}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \Citealp already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.57 ...robustcmd*{\Citealp}{\bibsentence\citealp}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \citefullauthor already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.58 \newrobustcmd*{\citefullauthor}{\citeauthor*}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \citetext already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 \newrobustcmd*{\citetext}{\parentext}
+                                          
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \defcitealias already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.67   \csgdef{abx@alias@\detokenize{#1}}{#2}}
+                                              
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Package biblatex Warning: Redefining '\citetalias'.
+
+
+Package biblatex Warning: Redefining '\citepalias'.
+
+)
+Package biblatex Info: Trying to load bibliography style 'historian'...
+Package biblatex Info: ... file 'historian.bbx' found.
+ (c:/texlive/2012/texmf-dist/tex/latex/biblatex-historian/historian.bbx
+File: historian.bbx 2010/08/22 v0.4 historian bibliography style
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(c:/texlive/2012/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2011/11/13 v1.7 biblatex bibliography style
+))
+Package biblatex Info: Trying to load citation style 'authoryear'...
+Package biblatex Info: ... file 'authoryear.cbx' found.
+
+(c:/texlive/2012/texmf-dist/tex/latex/biblatex/cbx/authoryear.cbx
+File: authoryear.cbx 2011/11/13 v1.7 biblatex citation style
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\textcite'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+(c:/texlive/2012/texmf-dist/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+))
+(c:/texlive/2012/texmf-dist/tex/latex/csquotes/csquotes.sty
+Package: csquotes 2011/10/22 v5.1d context-sensitive quotations
+\csq@reset=\count416
+\csq@gtype=\count417
+\csq@glevel=\count418
+\csq@qlevel=\count419
+\csq@maxlvl=\count420
+\csq@tshold=\count421
+\csq@ltx@everypar=\toks42
+
+(c:/texlive/2012/texmf-dist/tex/latex/csquotes/csquotes.def
+File: csquotes.def 2011/10/22 v5.1d csquotes generic definitions
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+
+(c:/texlive/2012/texmf-dist/tex/latex/csquotes/csquotes.cfg
+File: csquotes.cfg 
+))
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 69.
+(hyperref)                removing `\\' on input line 75.
 
 (c:/texlive/2012/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
 File: se-ascii-print.def 2011/12/02 v1.10 stringenc: Printable ASCII characters
@@ -1594,50 +2024,101 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.74 \begin{document}
+l.80 \begin{document}
                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-(./tuftelatexintro.aux (./texto-bibliografia.aux) (./abntex2-latexintro.aux))
+
+! Package biblatex Error: Incompatible package 'natbib'.
+
+See the biblatex package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.80 \begin{document}
+                     
+The 'natbib' package and biblatex are incompatible.
+
+Package biblatex Info: Trying to load language 'brazil'...
+Package biblatex Info: ... file 'brazil.lbx' found.
+(c:/texlive/2012/texmf-dist/tex/latex/biblatex/lbx/brazil.lbx
+File: brazil.lbx 2011/11/13 v1.7 biblatex localization
+Package biblatex Info: Trying to load language 'brazilian'...
+Package biblatex Info: ... file 'brazilian.lbx' found.
+
+(c:/texlive/2012/texmf-dist/tex/latex/biblatex/lbx/brazilian.lbx
+File: brazilian.lbx 2011/11/13 v1.7 biblatex localization
+))
+
+Package biblatex Warning: Patching footnotes failed.
+(biblatex)                Footnote detection will not work.
+
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... found 'polyglossia' package.
+
+Package csquotes Warning: Using preliminary 'polyglossia' interface.
+(csquotes)                Some of the multilingual features may not
+(csquotes)                work as expected.
+
+Package csquotes Info: Adjusting default style.
+Package csquotes Info: Redefining alias 'default' -> 'brazil'.
+(./tuftelatexintro.aux (./texto-bibliografia.aux)
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+(c:/texlive/2012/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2011/11/13 v1.7 biblatex localization
+)
+Package biblatex Info: Trying to load language 'russian'...
+Package biblatex Info: ... file 'russian.lbx' found.
+
+(c:/texlive/2012/texmf-dist/tex/latex/biblatex/lbx/russian.lbx
+File: russian.lbx 2011/11/13 v1.7 biblatex localization
+)
+Package biblatex Info: Trying to load language 'greek'...
+Package biblatex Info: ... file 'greek.lbx' found.
+
+(c:/texlive/2012/texmf-dist/tex/latex/biblatex/lbx/greek.lbx
+File: greek.lbx 2011/11/13 v1.7 biblatex localization
+)
+(./abntex2-latexintro.aux))
 \openout1 = `tuftelatexintro.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 74.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 74.
-
-(c:/texlive/2012/texmf-dist/tex/latex/tipa/t3cmr.fd
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 80.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 80.
+ (c:/texlive/2012/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 74.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 74.
-
-(c:/texlive/2012/texmf-dist/tex/latex/base/ts1cmr.fd
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 80.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 80.
+ (c:/texlive/2012/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
 
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 74.
+LaTeX Info: Redefining \selectfont on input line 80.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1682,7 +2163,7 @@ See the bidi package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.74 \begin{document}
+l.80 \begin{document}
                      
 This error message was generated by an \errmessage
 command, so I can't give any explicit help.
@@ -1698,7 +2179,7 @@ See the bidi package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.74 \begin{document}
+l.80 \begin{document}
                      
 (That was another \errmessage.)
 
@@ -1711,7 +2192,7 @@ See the bidi package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.74 \begin{document}
+l.80 \begin{document}
                      
 (That was another \errmessage.)
 
@@ -1724,7 +2205,7 @@ See the bidi package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.74 \begin{document}
+l.80 \begin{document}
                      
 (That was another \errmessage.)
 
@@ -1737,7 +2218,7 @@ See the bidi package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.74 \begin{document}
+l.80 \begin{document}
                      
 (That was another \errmessage.)
 
@@ -1750,7 +2231,7 @@ See the bidi package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.74 \begin{document}
+l.80 \begin{document}
                      
 (That was another \errmessage.)
 
@@ -1763,7 +2244,7 @@ See the bidi package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.74 \begin{document}
+l.80 \begin{document}
                      
 (That was another \errmessage.)
 
@@ -1776,7 +2257,7 @@ See the bidi package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.74 \begin{document}
+l.80 \begin{document}
                      
 (That was another \errmessage.)
 
@@ -1789,7 +2270,7 @@ See the bidi package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.74 \begin{document}
+l.80 \begin{document}
                      
 (That was another \errmessage.)
 
@@ -1802,7 +2283,7 @@ See the bidi package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.74 \begin{document}
+l.80 \begin{document}
                      
 (That was another \errmessage.)
 
@@ -1815,7 +2296,7 @@ See the bidi package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.74 \begin{document}
+l.80 \begin{document}
                      
 (That was another \errmessage.)
 
@@ -1828,7 +2309,7 @@ See the bidi package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.74 \begin{document}
+l.80 \begin{document}
                      
 (That was another \errmessage.)
 
@@ -1841,7 +2322,7 @@ See the bidi package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.74 \begin{document}
+l.80 \begin{document}
                      
 (That was another \errmessage.)
 
@@ -1854,28 +2335,44 @@ See the bidi package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.74 \begin{document}
+l.80 \begin{document}
                      
 (That was another \errmessage.)
 
 \AtBeginShipoutBox=\box81
-Package hyperref Info: Link coloring OFF on input line 74.
+Package hyperref Info: Link coloring OFF on input line 80.
 (c:/texlive/2012/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
 
 (c:/texlive/2012/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count308
+\c@section@level=\count422
 )
-LaTeX Info: Redefining \ref on input line 74.
-LaTeX Info: Redefining \pageref on input line 74.
-LaTeX Info: Redefining \nameref on input line 74.
+LaTeX Info: Redefining \ref on input line 80.
+LaTeX Info: Redefining \pageref on input line 80.
+LaTeX Info: Redefining \nameref on input line 80.
 
 (./tuftelatexintro.out) (./tuftelatexintro.out)
-\@outlinefile=\write3
-\openout3 = `tuftelatexintro.out'.
+\@outlinefile=\write4
+\openout4 = `tuftelatexintro.out'.
 
+Package biblatex Info: XeTeX detected.
+(biblatex)             Assuming input encoding 'utf8'.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+
+
+Package biblatex Warning: Data encoding is 'utf8'.
+(biblatex)                Use backend=biber.
+
+\openout3 = `tuftelatexintro-blx.bib'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'tuftelatexintro.bbl' found.
+(./tuftelatexintro.bbl)
+Package biblatex Info: Reference section=0 on input line 80.
+Package biblatex Info: Reference segment=0 on input line 80.
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: xetex
 * paper: a4paper
@@ -1908,38 +2405,36 @@ LaTeX Info: Redefining \nameref on input line 74.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Calculating math sizes for size <70> on input line 89.
-LaTeX Font Info:    Try loading font information for U+zeur on input line 89.
-
-(c:/texlive/2012/texmf-dist/tex/latex/eulervm/uzeur.fd
+LaTeX Font Info:    Calculating math sizes for size <70> on input line 95.
+LaTeX Font Info:    Try loading font information for U+zeur on input line 95.
+ (c:/texlive/2012/texmf-dist/tex/latex/eulervm/uzeur.fd
 File: uzeur.fd 2005/01/11 v4.0 (WaS)
 )
-LaTeX Font Info:    Try loading font information for U+zeus on input line 89.
-
+LaTeX Font Info:    Try loading font information for U+zeus on input line 95.
 (c:/texlive/2012/texmf-dist/tex/latex/eulervm/uzeus.fd
 File: uzeus.fd 2005/01/11 v4.0 (WaS)
 )
-LaTeX Font Info:    Try loading font information for U+zeuex on input line 89.
+LaTeX Font Info:    Try loading font information for U+zeuex on input line 95.
 
 (c:/texlive/2012/texmf-dist/tex/latex/eulervm/uzeuex.fd
 File: uzeuex.fd 2005/01/11 v4.0 (WaS)
 )
-LaTeX Font Info:    Try loading font information for U+wasy on input line 89.
+LaTeX Font Info:    Try loading font information for U+wasy on input line 95.
 
 (c:/texlive/2012/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
 )
 
 LaTeX Font Warning: Font shape `U/wasy/m/n' in size <70> not available
-(Font)              size <24.88> substituted on input line 89.
+(Font)              size <24.88> substituted on input line 95.
 
 
 LaTeX Font Warning: Font shape `U/wasy/m/n' in size <48.99979> not available
-(Font)              size <24.88> substituted on input line 89.
+(Font)              size <24.88> substituted on input line 95.
 
 
 LaTeX Font Warning: Font shape `U/wasy/m/n' in size <35> not available
-(Font)              size <24.88> substituted on input line 89.
+(Font)              size <24.88> substituted on input line 95.
 
 [1
 
@@ -2002,8 +2497,8 @@ LaTeX Font Warning: Font shape `U/wasy/m/n' in size <35> not available
 ] [5] [6
 
 ] (./tuftelatexintro.toc)
-\tf@toc=\write4
-\openout4 = `tuftelatexintro.toc'.
+\tf@toc=\write5
+\openout5 = `tuftelatexintro.toc'.
 
  [7
 
@@ -2011,16 +2506,16 @@ LaTeX Font Warning: Font shape `U/wasy/m/n' in size <35> not available
 
 ] (./tuftelatexintro.lof
 LaTeX Font Info:    Font shape `EU1/Consolas(0)/m/n' will be
-(Font)              scaled to size 8.00003pt on input line 8.
+(Font)              scaled to size 8.00003pt on input line 17.
 )
-\tf@lof=\write5
-\openout5 = `tuftelatexintro.lof'.
+\tf@lof=\write6
+\openout6 = `tuftelatexintro.lof'.
 
 [9] [10
 
 ] (./tuftelatexintro.lot)
-\tf@lot=\write6
-\openout6 = `tuftelatexintro.lot'.
+\tf@lot=\write7
+\openout7 = `tuftelatexintro.lot'.
 
  [11] [12
 
@@ -2075,7 +2570,7 @@ Capítulo 2.
 [17]
 File: latexbasico.png Graphic file (type QTm)
  <use  "latexbasico.png" >
-Overfull \hbox (42.77847pt too wide) in paragraph at lines 274--275
+Overfull \hbox (42.77847pt too wide) in paragraph at lines 280--281
 []\EU1/BulmerMTStd(0)/m/n/10 No caso, tudo o que eu precisei de fazer foi rodar
  o comando []\EU1/Consolas(0)/m/n/10 pdflatex latexbasico.tex 
  []
@@ -2100,87 +2595,87 @@ Overfull \hbox (42.77847pt too wide) in paragraph at lines 274--275
 . This font family consists of the following shapes:
 .................................................
  [19]
-Underfull \hbox (badness 10000) in paragraph at lines 401--401
+Underfull \hbox (badness 10000) in paragraph at lines 407--407
 []|\EU1/BulmerMTStd(0)/m/n/10 Tamanho da fonte principal do do-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 401--401
+Underfull \hbox (badness 10000) in paragraph at lines 407--407
 \EU1/BulmerMTStd(0)/m/n/10 cumento. Geralmente o tamanho
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 401--401
+Underfull \hbox (badness 10000) in paragraph at lines 407--407
 []|\EU1/BulmerMTStd(0)/m/n/10 a4paper, letterpaper, a5paper, legal-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 401--401
+Underfull \hbox (badness 10000) in paragraph at lines 407--407
 []|\EU1/BulmerMTStd(0)/m/n/10 Tamanho do papel. Geralmente vem
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 401--401
+Underfull \hbox (badness 10000) in paragraph at lines 407--407
 []|\EU1/BulmerMTStd(0)/m/n/10 Especifica se vai ter ou não página
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 401--401
+Underfull \hbox (badness 10000) in paragraph at lines 407--407
 \EU1/BulmerMTStd(0)/m/n/10 separada para o título. A classe ar-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 401--401
+Underfull \hbox (badness 10000) in paragraph at lines 407--407
 \EU1/BulmerMTStd(0)/m/n/10 ticle não tem, por padrão; report
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 401--401
+Underfull \hbox (badness 10000) in paragraph at lines 407--407
 \EU1/BulmerMTStd(0)/m/n/10 e book, têm. Se quiser mudar esse
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 401--401
+Underfull \hbox (badness 10000) in paragraph at lines 407--407
 []|\EU1/BulmerMTStd(0)/m/n/10 twoside=frente e verso, padrão em
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 401--401
+Underfull \hbox (badness 10000) in paragraph at lines 407--407
 \EU1/BulmerMTStd(0)/m/n/10 livros; oneside=só frente, padrão em
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 401--401
+Underfull \hbox (badness 10000) in paragraph at lines 407--407
 []|\EU1/BulmerMTStd(0)/m/n/10 Começa novos capítulos com páginas
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 401--401
+Underfull \hbox (badness 10000) in paragraph at lines 407--407
 \EU1/BulmerMTStd(0)/m/n/10 da direita (openright) ou qualquer
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 401--401
+Underfull \hbox (badness 10000) in paragraph at lines 407--407
 \EU1/BulmerMTStd(0)/m/n/10 página (openany). Padrão para
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 401--401
+Underfull \hbox (badness 10000) in paragraph at lines 407--407
 []|\EU1/BulmerMTStd(0)/m/n/10 Esboço. Indica problemas de hi-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 401--401
+Underfull \hbox (badness 10000) in paragraph at lines 407--407
 \EU1/BulmerMTStd(0)/m/n/10 fenização e justificação com um
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 401--401
+Underfull \hbox (badness 10000) in paragraph at lines 407--407
 \EU1/BulmerMTStd(0)/m/n/10 pequeno quadrado na margem para
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 402--402
+Underfull \hbox (badness 10000) in paragraph at lines 408--408
 []\EU1/BulmerMTStd(0)/m/n/10 Tabela 2.1: []Principais opções das
  []
 
@@ -2208,15 +2703,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 402--402
 ]
 Capítulo 3.
 LaTeX Font Info:    Font shape `EU1/Consolas(0)/m/it' will be
-(Font)              scaled to size 9.60004pt on input line 432.
+(Font)              scaled to size 9.60004pt on input line 438.
 
-Overfull \hbox (12.24422pt too wide) in paragraph at lines 458--458
+Overfull \hbox (12.24422pt too wide) in paragraph at lines 464--464
 []\EU1/Consolas(0)/m/n/10 % simple.tex - Um artigo simples para ilustrar a estr
 utura do documento.[] 
  []
 
 [23]
-Overfull \hbox (7.47072pt too wide) in paragraph at lines 463--464
+Overfull \hbox (7.47072pt too wide) in paragraph at lines 469--470
 \EU1/Consolas(0)/m/n/10 enumitem \EU1/BulmerMTStd(0)/m/n/10 (ver página []38[]
 ), devemos inserir no preâmbulo: []\EU1/Consolas(0)/m/n/10 \usepackage{enumite
 m}\EU1/BulmerMTStd(0)/m/n/10 .  
@@ -2273,14 +2768,13 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 ]
 Capítulo 4.
 [29]
+Overfull \hbox (65.02567pt too wide) in paragraph at lines 62--62
+[]\EU1/Consolas(0)/m/n/10 sistemas tipográficos como \TeX{} or \LaTeX{} \cite{
+lamport94} podem ser utilizados.[] 
+ []
 
-Package natbib Warning: Citation `lamport94' undefined on input line 57.
 
-
-LaTeX Warning: Marginpar on page 30 moved.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 85--85
+Underfull \hbox (badness 10000) in paragraph at lines 96--96
 []\EU1/BulmerMTStd(0)/m/n/10 Tabela 4.1: [] Tipos de citação usando
  []
 
@@ -2294,19 +2788,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 85--85
 . This font family consists of the following shapes:
 .................................................
 [30]
-Overfull \hbox (100.2133pt too wide) in paragraph at lines 120--120
+Overfull \hbox (100.2133pt too wide) in paragraph at lines 131--131
 []    \EU1/Consolas(0)/m/n/10 author = {Oetiket, Tobias. and Partl, Hubert. and
  Hyna, Irene. and Schlegl, Elisabeth.},[] 
  []
 
 
-Overfull \hbox (25.43951pt too wide) in paragraph at lines 120--120
+Overfull \hbox (25.43951pt too wide) in paragraph at lines 131--131
 []    \EU1/Consolas(0)/m/n/10 url = {http://www.ctan.org/tex-archive/info/lshor
 t/english/lshort.pdf},[] 
  []
 
 
-Overfull \hbox (192.58086pt too wide) in paragraph at lines 120--120
+Overfull \hbox (192.58086pt too wide) in paragraph at lines 131--131
 []    \EU1/Consolas(0)/m/n/10 author = {Mittelbach, Frank and Goossens, Michel 
 and Braams, Johannes and Carlisle, David and Rowley, Chris},[] 
  []
@@ -2321,59 +2815,39 @@ and Braams, Johannes and Carlisle, David and Rowley, Chris},[]
 . This font family consists of the following shapes:
 .................................................
 [31]
-Overfull \hbox (214.5731pt too wide) in paragraph at lines 156--156
+Overfull \hbox (214.5731pt too wide) in paragraph at lines 167--167
 []  \EU1/Consolas(0)/m/n/10 title = ”Experimental examination of bacteriophag
 e latent-period evolution as a response to bacterial availability”,[] 
  []
 
 
-Overfull \hbox (34.2365pt too wide) in paragraph at lines 156--156
+Overfull \hbox (34.2365pt too wide) in paragraph at lines 167--167
 []  \EU1/Consolas(0)/m/n/10 title = ”Lysis and the interaction between free p
 hages and infected cells”,[] 
  []
 
 
-Overfull \hbox (100.2133pt too wide) in paragraph at lines 156--156
+Overfull \hbox (100.2133pt too wide) in paragraph at lines 167--167
 []  \EU1/Consolas(0)/m/n/10 editor = ”Karam, Jim D. Karam and Drake, John W. 
 and Kreuzer, Kenneth N. and Mosig, Gisela[] 
  []
 
 
-Overfull \hbox (135.40091pt too wide) in paragraph at lines 156--156
+Overfull \hbox (135.40091pt too wide) in paragraph at lines 167--167
 []            \EU1/Consolas(0)/m/n/10 and Hall, Dwight and Eiserling, Frederick
  A. and Black, Lindsay W. and Kutter, Elizabeth[] 
  []
 
 
-Overfull \hbox (12.2442pt too wide) in paragraph at lines 156--156
+Overfull \hbox (12.2442pt too wide) in paragraph at lines 167--167
 []            \EU1/Consolas(0)/m/n/10 and Carlson, Karin and Miller, Eric S. an
 d Spicer, Eleanor”,[] 
  []
 
 
-Overfull \hbox (21.04109pt too wide) in paragraph at lines 168--168
+Overfull \hbox (21.04109pt too wide) in paragraph at lines 179--179
 []      \EU1/Consolas(0)/m/n/10 url = ”http://www.fermentas.com/techinfo/nucl
 eicacids/maplambda.htm”[] 
- []
-
-
-Overfull \hbox (30.7245pt too wide) in paragraph at lines 195--198
-$[][][][]$[]\EU1/BulmerMTStd(0)/m/n/10 . Para utilizar o estilo ABNT, insira no
- preâmbulo: []\EU1/Consolas(0)/m/n/10 \usepackage[num]{abntex2cite} 
- []
-
-
-Overfull \hbox (38.45998pt too wide) in paragraph at lines 195--198
-\EU1/BulmerMTStd(0)/m/n/10 autor-data). Com o uso desses pacotes não é precis
-o especificar []\EU1/Consolas(0)/m/n/10 \bibliographystyle{...}\EU1/BulmerMTStd
-(0)/m/n/10 . 
- []
-
-
-Overfull \hbox (0.52974pt too wide) in paragraph at lines 195--198
-\EU1/Consolas(0)/m/n/10 custom-bib\EU1/BulmerMTStd(0)/m/n/10 , também chamada 
-de \EU1/Consolas(0)/m/n/10 makebst \EU1/BulmerMTStd(0)/m/n/10 ([]$[][][][] [] [
-] [] [][][] [] [][][][] [] [][][] [] [][][][][][][][][][][][] []$ 
  []
 
 .................................................
@@ -2386,9 +2860,28 @@ de \EU1/Consolas(0)/m/n/10 makebst \EU1/BulmerMTStd(0)/m/n/10 ([]$[][][][] [] [
 . This font family consists of the following shapes:
 .................................................
 [32]
+Overfull \hbox (30.7245pt too wide) in paragraph at lines 206--209
+$[][][][]$[]\EU1/BulmerMTStd(0)/m/n/10 . Para utilizar o estilo ABNT, insira no
+ preâmbulo: []\EU1/Consolas(0)/m/n/10 \usepackage[num]{abntex2cite} 
+ []
+
+
+Overfull \hbox (38.45998pt too wide) in paragraph at lines 206--209
+\EU1/BulmerMTStd(0)/m/n/10 autor-data). Com o uso desses pacotes não é precis
+o especificar []\EU1/Consolas(0)/m/n/10 \bibliographystyle{...}\EU1/BulmerMTStd
+(0)/m/n/10 . 
+ []
+
+
+Overfull \hbox (0.52974pt too wide) in paragraph at lines 206--209
+\EU1/Consolas(0)/m/n/10 custom-bib\EU1/BulmerMTStd(0)/m/n/10 , também chamada 
+de \EU1/Consolas(0)/m/n/10 makebst \EU1/BulmerMTStd(0)/m/n/10 ([]$[][][][] [] [
+] [] [][][] [] [][][][] [] [][][] [] [][][][][][][][][][][][] []$ 
+ []
+
 File: ./abntex-bibliografia-figura.png Graphic file (type QTm)
- <use  "./abntex-bibliografia-figura.png" >
-Underfull \hbox (badness 10000) in paragraph at lines 209--209
+<use  "./abntex-bibliografia-figura.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 220--220
 []\EU1/BulmerMTStd(0)/m/n/10 Figura 4.1: []Exemplo de bibliografia
  []
 
@@ -2404,19 +2897,19 @@ File: ./natbib-test-plainnat.png Graphic file (type QTm)
 . This font family consists of the following shapes:
 .................................................
  [33]
-Overfull \hbox (16.64267pt too wide) in paragraph at lines 268--268
+Overfull \hbox (16.64267pt too wide) in paragraph at lines 279--279
 []\EU1/Consolas(0)/m/n/10 LaTeX Warning: Citation ‘lamport94’ on page 1 und
 efined on input line 21.[] 
  []
 
 File: ./biblatex-figura.png Graphic file (type QTm)
 <use  "./biblatex-figura.png" >
-Underfull \hbox (badness 10000) in paragraph at lines 280--280
+Underfull \hbox (badness 10000) in paragraph at lines 291--291
 []\EU1/BulmerMTStd(0)/m/n/10 Figura 4.3: []Exemplo de bibliografia
  []
 
 
-Overfull \hbox (117.80707pt too wide) in paragraph at lines 300--300
+Overfull \hbox (117.80707pt too wide) in paragraph at lines 311--311
 []\EU1/Consolas(0)/m/n/10 \usepackage[style=historian,citestyle=authoryear,natb
 ib=true,doi=false,backend=bibtex]{biblatex}[] 
  []
@@ -2434,48 +2927,48 @@ ib=true,doi=false,backend=bibtex]{biblatex}[]
  [34]
 Capítulo 5.
 
-Underfull \hbox (badness 10000) in paragraph at lines 719--720
+Underfull \hbox (badness 10000) in paragraph at lines 725--726
 []|\EU1/BulmerMTStd(0)/m/n/10 coluna com texto alinhado no topo, com largura es
 pecificada
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 720--721
+Underfull \hbox (badness 10000) in paragraph at lines 726--727
 []|\EU1/BulmerMTStd(0)/m/n/10 o mesmo acima, mas alinhado no meio da célula (r
 equer
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 721--722
+Underfull \hbox (badness 10000) in paragraph at lines 727--728
 []|\EU1/BulmerMTStd(0)/m/n/10 o mesmo acima, mas alinhado no fim da célula (re
 quer
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 726--727
+Underfull \hbox (badness 10000) in paragraph at lines 732--733
 []|\EU1/BulmerMTStd(0)/m/n/10 começa nova linha (espaço adicional pode ser es
 pecificado
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 726--727
+Underfull \hbox (badness 10000) in paragraph at lines 732--733
 \EU1/BulmerMTStd(0)/m/n/10 usando colchetes: por exemplo, []\EU1/Consolas(0)/m/
 n/10 [6pt] \EU1/BulmerMTStd(0)/m/n/10 especifica um espaço
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 728--729
+Underfull \hbox (badness 10000) in paragraph at lines 734--735
 []|\EU1/BulmerMTStd(0)/m/n/10 linha parcial horizontal começando na coluna \EU
 1/BulmerMTStd(0)/m/it/10 i \EU1/BulmerMTStd(0)/m/n/10 e terminando
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 731--731
+Underfull \hbox (badness 10000) in paragraph at lines 737--737
 []\EU1/BulmerMTStd(0)/m/n/10 Tabela 5.2: []Comandos utilizados
  []
 
 LaTeX Font Info:    Font shape `EU1/Consolas(0)/m/n' will be
-(Font)              scaled to size 6.40002pt on input line 735.
+(Font)              scaled to size 6.40002pt on input line 741.
 
 LaTeX Warning: Marginpar on page 35 moved.
 
@@ -2495,17 +2988,17 @@ LaTeX Warning: Marginpar on page 35 moved.
  [36]
 Capítulo 6.
 
-Overfull \hbox (24.00002pt too wide) in paragraph at lines 774--792
+Overfull \hbox (24.00002pt too wide) in paragraph at lines 780--798
 []  
  []
 
 
-Overfull \hbox (24.00002pt too wide) in paragraph at lines 796--814
+Overfull \hbox (24.00002pt too wide) in paragraph at lines 802--820
 []  
  []
 
 
-Overfull \hbox (24.00002pt too wide) in paragraph at lines 817--835
+Overfull \hbox (24.00002pt too wide) in paragraph at lines 823--841
 []  
  []
 
@@ -2515,12 +3008,12 @@ Underfull \vbox (badness 2521) has occurred while \output is active []
  [37
 
 ]
-Overfull \hbox (24.00002pt too wide) in paragraph at lines 839--866
+Overfull \hbox (24.00002pt too wide) in paragraph at lines 845--872
 []  
  []
 
 
-Overfull \hbox (157.77596pt too wide) in paragraph at lines 873--904
+Overfull \hbox (157.77596pt too wide) in paragraph at lines 879--910
 [][]  
  []
 
@@ -2531,13 +3024,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.931 \begin{enumerate}[label=\Roman*]
+l.937 \begin{enumerate}[label=\Roman*]
                                       
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (36.00002pt too wide) in paragraph at lines 918--939
+Overfull \hbox (36.00002pt too wide) in paragraph at lines 924--945
 [][]  
  []
 
@@ -2561,20 +3054,20 @@ Overfull \hbox (36.00002pt too wide) in paragraph at lines 918--939
 . This font family consists of the following shapes:
 .................................................
  [39]
-Overfull \hbox (15.89703pt too wide) in paragraph at lines 1023--1024
+Overfull \hbox (15.89703pt too wide) in paragraph at lines 1029--1030
 []\EU1/BulmerMTStd(0)/m/n/10 Se você quiser que uma palavra não seja hifeniza
 da, use o comando []\EU1/Consolas(0)/m/n/10 \mbox{texto}\EU1/BulmerMTStd(0)/m/n
 /10 , 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1049--1050
+Underfull \hbox (badness 10000) in paragraph at lines 1055--1056
 []|\EU1/BulmerMTStd(0)/m/n/10 « Guillemets » [](aspas angulares, utilizadas n
 o portu-
  []
 
 
-Overfull \hbox (50.67844pt too wide) in paragraph at lines 1035--1053
+Overfull \hbox (50.67844pt too wide) in paragraph at lines 1041--1059
 [][] 
  []
 
@@ -2614,21 +3107,21 @@ LaTeX Warning: Marginpar on page 41 moved.
 . This font family consists of the following shapes:
 .................................................
 [41]
-LaTeX Info: Redefining \bond on input line 1194.
-LaTeX Info: Redefining \dbond on input line 1194.
-LaTeX Info: Redefining \tbond on input line 1194.
+LaTeX Info: Redefining \bond on input line 1200.
+LaTeX Info: Redefining \dbond on input line 1200.
+LaTeX Info: Redefining \tbond on input line 1200.
 
-Overfull \hbox (9.57144pt too wide) in paragraph at lines 1193--1196
+Overfull \hbox (9.57144pt too wide) in paragraph at lines 1199--1202
 [][]  
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1268--1268
+Underfull \hbox (badness 10000) in paragraph at lines 1274--1274
 []\EU1/BulmerMTStd(0)/m/n/10 Tabela 6.5: []Signos astrológicos e do
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1287--1287
+Underfull \hbox (badness 10000) in paragraph at lines 1293--1293
 []\EU1/BulmerMTStd(0)/m/n/10 Tabela 6.6: []Alinhamento de parágra-
  []
 
@@ -2652,7 +3145,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1287--1287
 . This font family consists of the following shapes:
 .................................................
  [43]
-Overfull \hbox (0.11307pt too wide) in paragraph at lines 1311--1312
+Overfull \hbox (0.11307pt too wide) in paragraph at lines 1317--1318
 []\EU1/BulmerMTStd(0)/m/n/10 Para mudar o espaçamento entrelinhas, use o pacot
 e []\EU1/Consolas(0)/m/n/10 \usepackage{setspace}\EU1/BulmerMTStd(0)/m/n/10 . 
  []
@@ -2685,19 +3178,19 @@ LaTeX Warning: Marginpar on page 45 moved.
 Capítulo 7.
 File: femmevaguecourbet.jpg Graphic file (type QTm)
 <use  "femmevaguecourbet.jpg" >
-Underfull \hbox (badness 10000) in paragraph at lines 1429--1429
+Underfull \hbox (badness 10000) in paragraph at lines 1435--1435
 []\EU1/BulmerMTStd(0)/m/n/10 Figura 7.1: []Gustave Courbet, \EU1/BulmerMTStd(0)
 /m/it/10 Femme
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1429--1429
+Underfull \hbox (badness 10000) in paragraph at lines 1435--1435
 \EU1/BulmerMTStd(0)/m/it/10 à la Vague\EU1/BulmerMTStd(0)/m/n/10 , óleo sobre
  tela, 1868.
  []
 
 
-Overfull \hbox (51.83028pt too wide) in paragraph at lines 1441--1441
+Overfull \hbox (51.83028pt too wide) in paragraph at lines 1447--1447
 []\EU1/Consolas(0)/m/n/10 \graphicspath{~/Pictures} %(geralmente é o diretóri
 o de imagens para Linux e Mac)[] 
  []
@@ -2705,7 +3198,7 @@ o de imagens para Linux e Mac)[]
 [47]
 File: corotavray.jpg Graphic file (type QTm)
  <use  "corotavray.jpg" >
-Overfull \hbox (83.96085pt too wide) in paragraph at lines 1459--1460
+Overfull \hbox (83.96085pt too wide) in paragraph at lines 1465--1466
 [][]  
  []
 
@@ -2725,7 +3218,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 File: corotavray.jpg Graphic file (type QTm)
 
 <use  "corotavray.jpg" >
-Overfull \hbox (92.74838pt too wide) in paragraph at lines 1468--1469
+Overfull \hbox (92.74838pt too wide) in paragraph at lines 1474--1475
 [][]  
  []
 
@@ -2743,36 +3236,36 @@ Underfull \vbox (badness 5954) has occurred while \output is active []
 . This font family consists of the following shapes:
 .................................................
  [49]
-Overfull \hbox (21.04112pt too wide) in paragraph at lines 1510--1510
+Overfull \hbox (21.04112pt too wide) in paragraph at lines 1516--1516
 []\EU1/Consolas(0)/m/n/10 \caption[\textit{Ville d’Avray} de Corot (ca. 1867)
 .]{Jean-Baptiste Corot.[] 
  []
 
 
-Overfull \hbox (21.04128pt too wide) in paragraph at lines 1510--1510
+Overfull \hbox (21.04128pt too wide) in paragraph at lines 1516--1516
 []\EU1/Consolas(0)/m/n/10 (\url{http://fr.wikipedia.org/wiki/Fichier:Corot.vill
 edavray.750pix.jpg})}[] 
  []
 
 File: corotavray.jpg Graphic file (type QTm)
 <use  "corotavray.jpg" >
-Underfull \hbox (badness 10000) in paragraph at lines 1518--1518
+Underfull \hbox (badness 10000) in paragraph at lines 1524--1524
 []\EU1/BulmerMTStd(0)/m/n/10 Figura 7.2: []Jean-Baptiste Co-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1518--1518
+Underfull \hbox (badness 10000) in paragraph at lines 1524--1524
 \EU1/BulmerMTStd(0)/m/n/10 rot. \EU1/BulmerMTStd(0)/m/it/10 Ville d’Avray \EU
 1/BulmerMTStd(0)/m/n/10 (ca. 1867).
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1518--1518
+Underfull \hbox (badness 10000) in paragraph at lines 1524--1524
 \EU1/BulmerMTStd(0)/m/n/10 Fonte: Wikipedia ([]$[][][][] [] [] [] [][] []$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1518--1518
+Underfull \hbox (badness 10000) in paragraph at lines 1524--1524
 $[][][][][][][][][] [] [][][] [] [][][][] [] [][][][][][][] []$
  []
 
@@ -2788,7 +3281,7 @@ $[][][][][][][][][] [] [][][] [] [][][][] [] [][][][][][][] []$
 [50]
 File: moreau-apparition.jpg Graphic file (type QTm)
  <use  "moreau-apparition.jpg" >
-Underfull \hbox (badness 10000) in paragraph at lines 1547--1547
+Underfull \hbox (badness 10000) in paragraph at lines 1553--1553
 [][]\EU1/BulmerMTStd(0)/m/n/10 : []|\EU1/BulmerMTStd(0)/m/it/10 L’apparition\
 EU1/BulmerMTStd(0)/m/n/10 , de
  []
@@ -2806,7 +3299,7 @@ EU1/BulmerMTStd(0)/m/n/10 , de
 ! Illegal parameter number in definition of \Hy@tempa.
 <to be read again> 
                    S
-l.1565 ...ats,\_Figures\_and\_Captions#Subfloats}}
+l.1571 ...ats,\_Figures\_and\_Captions#Subfloats}}
                                                   
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
@@ -2815,7 +3308,7 @@ are all screwed up? I'm going to assume that you meant ##.
 ! Illegal parameter number in definition of \Hy@tempa.
 <to be read again> 
                    S
-l.1565 ...ats,\_Figures\_and\_Captions#Subfloats}}
+l.1571 ...ats,\_Figures\_and\_Captions#Subfloats}}
                                                   
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
@@ -2824,7 +3317,7 @@ are all screwed up? I'm going to assume that you meant ##.
 ! Illegal parameter number in definition of \Hy@gtemp.
 <to be read again> 
                    S
-l.1565 ...ats,\_Figures\_and\_Captions#Subfloats}}
+l.1571 ...ats,\_Figures\_and\_Captions#Subfloats}}
                                                   
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
@@ -2834,19 +3327,19 @@ are all screwed up? I'm going to assume that you meant ##.
 LaTeX Warning: Marginpar on page 52 moved.
 
 
-Overfull \hbox (47.43188pt too wide) in paragraph at lines 1578--1578
+Overfull \hbox (47.43188pt too wide) in paragraph at lines 1584--1584
 []  \EU1/Consolas(0)/m/n/10 \subfloat[A gull]{\label{fig:gull}\includegraphics[
 width=0.3\textwidth]{gull}}[] 
  []
 
 
-Overfull \hbox (60.62729pt too wide) in paragraph at lines 1578--1578
+Overfull \hbox (60.62729pt too wide) in paragraph at lines 1584--1584
 []  \EU1/Consolas(0)/m/n/10 \subfloat[A tiger]{\label{fig:tiger}\includegraphic
 s[width=0.3\textwidth]{tiger}}[] 
  []
 
 
-Overfull \hbox (60.62729pt too wide) in paragraph at lines 1578--1578
+Overfull \hbox (60.62729pt too wide) in paragraph at lines 1584--1584
 []  \EU1/Consolas(0)/m/n/10 \subfloat[A mouse]{\label{fig:mouse}\includegraphic
 s[width=0.3\textwidth]{mouse}}[] 
  []
@@ -2877,7 +3370,7 @@ File: subfig.png Graphic file (type QTm)
 ]
 Capítulo 8.
 
-Overfull \hbox (12.89856pt too wide) in paragraph at lines 1646--1647
+Overfull \hbox (12.89856pt too wide) in paragraph at lines 1652--1653
 []\EU1/BulmerMTStd(0)/m/n/10 O primeiro refere-se à seção, o outro, à pági
 na. Assim, inserindo um []\EU1/Consolas(0)/m/n/10 \label{...} 
  []
@@ -2887,7 +3380,7 @@ na. Assim, inserindo um []\EU1/Consolas(0)/m/n/10 \label{...}
 ]
 Capítulo 9.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1754--1754
+Underfull \hbox (badness 10000) in paragraph at lines 1760--1760
 []\EU1/BulmerMTStd(0)/m/n/10 Tabela 9.1: []As 68 cores da opção
  []
 
@@ -2914,60 +3407,60 @@ Capítulo 11.
 LaTeX Warning: Marginpar on page 61 moved.
 
 
-Overfull \hbox (36.00002pt too wide) in paragraph at lines 1862--1877
+Overfull \hbox (36.00002pt too wide) in paragraph at lines 1868--1883
 [][]  
  []
 
 [61
 
 ]
-Package mdframed Info: mdframed works in twoside mode on input line 1891.
+Package mdframed Info: mdframed works in twoside mode on input line 1897.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1897--1899
+Underfull \hbox (badness 10000) in paragraph at lines 1903--1905
 []\EU1/MinionPro(0)/m/n/10 Лев Николаевич Толстой (28 ав�
 �уста (9 сентября) 1828, Ясная
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1897--1899
+Underfull \hbox (badness 10000) in paragraph at lines 1903--1905
 \EU1/MinionPro(0)/m/n/10 Поляна, Тульская губерния, Ро�
 �сийская империя — 7 (20) нояб-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1897--1899
+Underfull \hbox (badness 10000) in paragraph at lines 1903--1905
 \EU1/MinionPro(0)/m/n/10 ря 1910, станция Астапово, Тамбо
 вская губерния, Российская
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1897--1899
+Underfull \hbox (badness 10000) in paragraph at lines 1903--1905
 \EU1/MinionPro(0)/m/n/10 империя), граф — один из наибо
 лее широко известных русских
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1897--1899
+Underfull \hbox (badness 10000) in paragraph at lines 1903--1905
 \EU1/MinionPro(0)/m/n/10 писателей и мыслителей. ([]$[][][]
 [] [] [] [] [][] [] [][][][][][][][][] [] [][][] [] [][][][] [] [][][][][][][] 
 [][]$
  []
 
-Package mdframed Info: mdframed works in twoside mode on input line 1904.
+Package mdframed Info: mdframed works in twoside mode on input line 1910.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1909--1912
+Underfull \hbox (badness 10000) in paragraph at lines 1915--1918
 []\EU1/MinionPro(0)/m/n/10 Ο Οδυσσέας Ελύτης (2 Νοεμβρίο
 υ 1911 - 18 Μαρτίου 1996), φι-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1909--1912
+Underfull \hbox (badness 10000) in paragraph at lines 1915--1918
 \EU1/MinionPro(0)/m/n/10 λολογικό ψευδώνυμο του Οδυσσ�
 �α Αλεπουδέλλη του Παναγιώτη,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1909--1912
+Underfull \hbox (badness 10000) in paragraph at lines 1915--1918
 \EU1/MinionPro(0)/m/n/10 ήταν ένας από τους σημαντικότ
 ερους Έλληνες ποιητές, μέλος της
  []
@@ -3001,7 +3494,7 @@ lif-novoc;"
 alif-novoc;"
 .................................................
 
-Overfull \hbox (37.27539pt too wide) in paragraph at lines 1958--1958
+Overfull \hbox (37.27539pt too wide) in paragraph at lines 1964--1964
 []\EU1/BulmerMTStd(0)/m/n/8 http://tex.stackexchange.com/questions/45331/combin
 ing- 
  []
@@ -3019,25 +3512,25 @@ LaTeX Warning: Marginpar on page 62 moved.
 . This font family consists of the following shapes:
 .................................................
 [62]
-Overfull \hbox (25.43974pt too wide) in paragraph at lines 1974--1974
+Overfull \hbox (25.43974pt too wide) in paragraph at lines 1980--1980
 []\EU1/Consolas(0)/m/n/10 \newcommand\Chinese{\renewcommand\CJKrmdefault{zhrm}\
 CJKnospace\normalfont}[] 
  []
 
 
-Overfull \hbox (29.83821pt too wide) in paragraph at lines 1974--1974
+Overfull \hbox (29.83821pt too wide) in paragraph at lines 1980--1980
 []\EU1/Consolas(0)/m/n/10 \newcommand\Japanese{\renewcommand\CJKrmdefault{jarm}
 \CJKnospace\normalfont}[] 
  []
 
 
-Overfull \hbox (12.24434pt too wide) in paragraph at lines 1974--1974
+Overfull \hbox (12.24434pt too wide) in paragraph at lines 1980--1980
 []\EU1/Consolas(0)/m/n/10 \newcommand\Korean{\renewcommand\CJKrmdefault{korm}\C
 JKspace\normalfont}[] 
  []
 
 
-Overfull \hbox (0.40558pt too wide) in paragraph at lines 1989--1998
+Overfull \hbox (0.40558pt too wide) in paragraph at lines 1995--2004
  [] 
  []
 
@@ -3112,97 +3605,97 @@ Capítulo 13.
 ] [71] [72
 
 ]
-Overfull \hbox (72.98857pt too wide) in paragraph at lines 2063--2074
+Overfull \hbox (72.98857pt too wide) in paragraph at lines 2069--2080
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2063--2074
+Underfull \hbox (badness 10000) in paragraph at lines 2069--2080
  
  []
 
-Package mdframed Info: mdframed works in twoside mode on input line 2096.
+Package mdframed Info: mdframed works in twoside mode on input line 2102.
 
-Underfull \hbox (badness 10000) in paragraph at lines 2096--2096
+Underfull \hbox (badness 10000) in paragraph at lines 2102--2102
 \EU1/BulmerMTStd(0)/m/n/8 I. Quo usque tandem abutere, Catilina,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2096--2096
+Underfull \hbox (badness 10000) in paragraph at lines 2102--2102
 \EU1/BulmerMTStd(0)/m/n/8 patientia nostra? quam diu etiam furor
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2096--2096
+Underfull \hbox (badness 10000) in paragraph at lines 2102--2102
 \EU1/BulmerMTStd(0)/m/n/8 iste tuus nos eludet? quem ad finem
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2096--2096
+Underfull \hbox (badness 10000) in paragraph at lines 2102--2102
 \EU1/BulmerMTStd(0)/m/n/8 sese effrenata iactabit audacia? Nihilne
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2096--2096
+Underfull \hbox (badness 10000) in paragraph at lines 2102--2102
 \EU1/BulmerMTStd(0)/m/n/8 te nocturnum praesidium Palati, nihil
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2096--2096
+Underfull \hbox (badness 10000) in paragraph at lines 2102--2102
 \EU1/BulmerMTStd(0)/m/n/8 urbis vigiliae, nihil timor populi, nihil
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2096--2096
+Underfull \hbox (badness 10000) in paragraph at lines 2102--2102
 \EU1/BulmerMTStd(0)/m/n/8 concursus bonorum omnium, nihil hic
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2096--2096
+Underfull \hbox (badness 10000) in paragraph at lines 2102--2102
 \EU1/BulmerMTStd(0)/m/n/8 munitissimus habendi senatus locus,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2096--2096
+Underfull \hbox (badness 10000) in paragraph at lines 2102--2102
 \EU1/BulmerMTStd(0)/m/n/8 nihil horum ora voltusque moverunt?
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2096--2096
+Underfull \hbox (badness 10000) in paragraph at lines 2102--2102
 \EU1/BulmerMTStd(0)/m/n/8 Patere tua consilia non sentis, constric-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2096--2096
+Underfull \hbox (badness 10000) in paragraph at lines 2102--2102
 \EU1/BulmerMTStd(0)/m/n/8 tam iam horum omnium scientia teneri
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2096--2096
+Underfull \hbox (badness 10000) in paragraph at lines 2102--2102
 \EU1/BulmerMTStd(0)/m/n/8 coniurationem tuam non vides? Quid
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2096--2096
+Underfull \hbox (badness 10000) in paragraph at lines 2102--2102
 \EU1/BulmerMTStd(0)/m/n/8 proxima, quid superiore nocte egeris,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2096--2096
+Underfull \hbox (badness 10000) in paragraph at lines 2102--2102
 \EU1/BulmerMTStd(0)/m/n/8 ubi fueris, quos convocaveris, quid
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2096--2096
+Underfull \hbox (badness 10000) in paragraph at lines 2102--2102
 \EU1/BulmerMTStd(0)/m/n/8 consilii ceperis, quem nostrum ignorare
  []
 
 Package mdframed Info: mdframed inside minipage 
- mdframed uses option nobreak mdframed on input line 2096.
+ mdframed uses option nobreak mdframed on input line 2102.
 Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 2096.
+ mdframed uses option nobreak mdframed on input line 2102.
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 2096--2096
+Overfull \hbox (6.0pt too wide) in paragraph at lines 2102--2102
 []$[]$  
  []
 
@@ -3216,37 +3709,49 @@ LaTeX Warning: Marginpar on page 73 moved.
 ] [77] [78
 
 ]
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'BulmerMTStd(3)' created for font 'Bulmer MT Std' with options
+. [Ligatures={TeX},Numbers=OldStyle,BoldFont={Bulmer MT Std
+. Bold},BoldItalicFont={Bulmer MT Std Bold Italic},LetterSpace=5.0].
+. 
+. This font family consists of the following shapes:
+.................................................
+ [79] [80
+
+]
 LaTeX Font Info:    Font shape `U/ccicons/m/n' will be
-(Font)              scaled to size 8.0pt on input line 2251.
-
-
-Package natbib Warning: There were undefined citations.
+(Font)              scaled to size 8.0pt on input line 2259.
 
 
 Package bibentry Warning: You have used \nobibliography* 
 (bibentry)                without a following \bibliography.
 (bibentry)                You may not be able to run BibTeX.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2256.
-[79]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 2256.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2264.
+[81]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 2264.
  (./tuftelatexintro.aux (./texto-bibliografia.aux)
 (./abntex2-latexintro.aux))
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 2256.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 2256.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 2264.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 2264.
 
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 45.12pt have occurred.
 
+Package logreq Info: Writing requests to 'tuftelatexintro.run.xml'.
+\openout1 = `tuftelatexintro.run.xml'.
+
  ) 
 Here is how much of TeX's memory you used:
- 26734 strings out of 494004
- 500221 string characters out of 3153866
- 610577 words of memory out of 3000000
- 29381 multiletter control sequences out of 15000+200000
- 21167 words of font info for 164 fonts, out of 3000000 for 9000
+ 31922 strings out of 494004
+ 592039 string characters out of 3153866
+ 983434 words of memory out of 3000000
+ 34500 multiletter control sequences out of 15000+200000
+ 22743 words of font info for 174 fonts, out of 3000000 for 9000
  1144 hyphenation exceptions out of 8191
- 41i,19n,54p,1219b,617s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 44i,19n,54p,1219b,1405s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on tuftelatexintro.pdf (79 pages).
+Output written on tuftelatexintro.pdf (81 pages).
