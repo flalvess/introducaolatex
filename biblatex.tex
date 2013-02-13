@@ -1,0 +1,148 @@
+\section{Utilizando o pacote \texttt{biblatex}}
+
+%Exemplos dos estilos podem ser encontrados em:
+%\url{http://www.ctan.org/tex-archive/macros/latex/contrib/biblatex//doc/examples}.
+
+O pacote \texttt{biblatex} fornece um substituto tanto para o \texttt{natbib} quanto para o \texttt{bibtex}. Sua vantagem é a maior facilidade e versatilidade nas citações, e a capacidade de aceitar entradas em codificação \texttt{utf8}. Um arquivo \texttt{biblatex} é basicamente arquivo \texttt{.bib}. Ele pode ser processado com o comando \texttt{bibtex} (utilizando a opção \texttt{backend=bibtex}, que é padrão) ou com o comando \texttt{biber} utilizando \texttt{backend=biber} como opção. O \texttt{biblatex} inclui muitas opções, a abaixo apresentaremos somente algumas. (Para mais detalhes, ver a documentação do pacote.) A desvantagem do \texttt{biblatex} é que não há tantos estilos disponíveis quanto para \texttt{bibtex}. Para estilos disponíveis por padrão, ver: \url{http://www.ctan.org/tex-archive/macros/latex/exptl/biblatex-contrib}.
+
+
+\begin{verbatim}
+\usepackage[style=historian,citestyle=authoryear,natbib=true,doi=false,backend=bibtex]{biblatex}
+\usepackage{csquotes}
+\DefineBibliographyStrings{brazil}{namedash={---------}}
+\addbibresource{latex}
+
+\begin{document}
+(documento)
+
+\printbibliography
+
+\end{document}
+
+\end{verbatim}
+
+\begin{description}
+\item[style=historian] O estilo de referência a aparecer na bibliografia.
+\item[citestyle=authoryear] O estilo de citação no texto. Os estilos básicos são \texttt{citestyle=authoryear} para autor-data e \texttt{citestyle=numeric} para numérico, mas várias outras opções menos usuais estão disponíveis.
+\item[natbib=true] Para compatibilidade com natbib.
+\item[doi=false] Para retirar entrada \textsc{DOI} (Digital Object Identifier -- \url{http://en.wikipedia.org/wiki/Digital_object_identifier}).
+\item[backend=bibtex] Utiliza o \texttt{bibtex} para compilar.
+\item[csquotes] Útil para citações utilizando aspas em várias línguas, altamente recomendável para bom funcionamento do \texttt{biblatex}.
+\item[DefineBibliographyStrings\ldots] Por padrão, o nome do autor, quando repetido, é substituído no sistema autor-data por um travessão (---). Aqui temos o nome do idioma e o tamanho dessa linha para autores repetidos.
+\item[addbibresource] Aqui colocamos o arquivo \texttt{.bib} (a base de dados bibliográfica) a ser utilizada. (Note a diferença com \texttt{bibtex}, onde essa informação era dada no fim do documento.)
+\item[printbibliography] Para gerar a bibliografia (antes do fim do documento).
+\item[damedash=false] Não substituir o nome do autor repetido por uma linha/travessão.
+\end{description}
+
+\subsection{Citações utilizando \texttt{biblatex}}
+
+\subsubsection*{\texttt{cite}}
+Utiliza citações diretas, sem parênteses. Exemplos:
+
+
+\begin{tabular}{cc}
+\centering
+\verb+\cite{lamport94}+ &  Lamport, 1994.\\
+
+\verb+\cite[59]{lamport94}+ & Lamport, 1994, p. 59.\\
+
+\verb+\cite[ver][]{lamport94}+] & ver Lamport, 1994.\\
+
+\verb+\cite[ver][59--63]{lamport94}+ & ver Lamport, 1994, p. 59--63.\\
+\end{tabular}
+
+\subsubsection*{\texttt{parencite}}
+Utiliza citações entre parênteses. Exemplos:
+
+
+\begin{tabular}{cc}
+\centering
+\verb+\parencite{lamport94}+ & \parencite{lamport94}.\\
+
+\verb+\parencite[59]{lamport94}+ & \parencite[59]{lamport94}.\\
+
+\verb+\parencite[ver][]{lamport94}+ &  \parencite[ver][]{lamport94}.\\
+
+\verb+\parencite[ver][59--63]{lamport94}+ &  \parencite[ver][59--63]{lamport94}.\\
+\end{tabular}
+
+\subsubsection*{\texttt{parencite*}}
+Coloca somente o ano da em parênteses. Pode ser utilizado em conjunção com \verb+\citeauthor{}+.
+
+\begin{center}
+\verb+\parencite*{lamport94}+\qquad
+
+ \parencite*{lamport94}.
+\end{center}
+
+\subsubsection*{\texttt{footcite}}
+Coloca as referências como notas de rodapé. Aceita as opções exemplificadas acima. Exemplo:
+
+
+\begin{center}
+\verb+\footcite{lamport94}+\qquad
+ Nota de rodapé.\footcite{lamport94}.
+\end{center}
+
+
+\subsubsection*{\texttt{textcite}}
+Para nome do autor no texto e o resto entre parênteses:
+
+\begin{tabular}{cc}
+\centering
+\verb+\textcite{pohlen_letter_2011}+ & \textcite{pohlen_letter_2011} mostram\ldots .\\
+
+\verb+\textcite[59]{pohlen_letter_2011}+ & \textcite[59]{pohlen_letter_2011} mostram\ldots .\\
+
+\end{tabular}
+
+\subsubsection*{Citações múltiplas}
+Para organizá-las, utilize a opção \texttt{sortcites} do \texttt{biblatex}. Caso contrário, aparecerão na ordem indicada.
+
+\subsubsection*{Abreviações}
+Abreviações de obras podem aparecer, por exemplo, antes da bibliografia propriamente dita. Útil para edições críticas e citações reiteradas a obras inteiras.
+
+Para lista de obras abreviadas, insira: \verb+\printshorthands+. As entradas no arquivo de bibliografia devem conter \verb+shorthand={}+, que indicará como a abreviação aparecerá no texto. Por exemplo:\footnote{Exemplos retirados do arquivo: \url{http://linorg.usp.br/CTAN/macros/latex/contrib/biblatex/doc/examples/50-style-authoryear.tex}.}
+
+\begin{verbatim}
+@inbook{kant:kpv,
+  shorthand = {KpV},
+  hyphenation = {german},
+  author = {Kant, Immanuel},
+  bookauthor = {Kant, Immanuel},
+  title = {Kritik der praktischen Vernunft},
+  shorttitle = {Kritik der praktischen Vernunft},
+  booktitle = {Kritik der praktischen Vernunft. Kritik der Urtheilskraft},
+  maintitle = {Kants Werke. Akademie Textausgabe},
+  volume = {5},
+  publisher = {Walter de Gruyter},
+  location = {Berlin},
+  date = {1968},
+  pages = {1--163},
+  }
+
+@inbook{kant:ku,
+  shorthand = {KU},
+  hyphenation = {german},
+  author = {Kant, Immanuel},
+  bookauthor = {Kant, Immanuel},
+  title = {Kritik der Urtheilskraft},
+  booktitle = {Kritik der praktischen Vernunft. Kritik der Urtheilskraft},
+  maintitle = {Kants Werke. Akademie Textausgabe},
+  volume = {5},
+  publisher = {Walter de Gruyter},
+  location = {Berlin},
+  date = {1968},
+  pages = {165--485},
+  }
+\end{verbatim}
+
+Citando:
+
+
+\begin{center}
+\verb+Obras de Kant: \cite{kant:kpv,kant:ku}.+
+\qquad
+Obras de Kant: \cite{kant:kpv,kant:ku}.
+\end{center}
+

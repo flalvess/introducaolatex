@@ -27,49 +27,51 @@
 \BOOKMARK [1][-]{section.4.3}{O pacote natbib para citações}{chapter.4}% 27
 \BOOKMARK [1][-]{section.4.4}{Usando uma base bibliográfica com bibtex}{chapter.4}% 28
 \BOOKMARK [1][-]{section.4.5}{Como\040utilizar\040um\040arquivo\040.bib\040em\040seu\040documento\040LaTeX}{chapter.4}% 29
-\BOOKMARK [0][-]{chapter.5}{Tabelas}{}% 30
-\BOOKMARK [1][-]{section.5.1}{Tabelas\040longas}{chapter.5}% 31
-\BOOKMARK [0][-]{chapter.6}{Formatação}{}% 32
-\BOOKMARK [1][-]{section.6.1}{Listas}{chapter.6}% 33
-\BOOKMARK [2][-]{subsection.6.1.1}{Itemizar}{section.6.1}% 34
-\BOOKMARK [2][-]{subsection.6.1.2}{Enumeração}{section.6.1}% 35
-\BOOKMARK [2][-]{subsection.6.1.3}{Descrição}{section.6.1}% 36
-\BOOKMARK [2][-]{subsection.6.1.4}{Listas\040aninhadas\040\(listas\040dentro\040de\040listas\)}{section.6.1}% 37
-\BOOKMARK [2][-]{subsection.6.1.5}{Listas em múltiplas colunas}{section.6.1}% 38
-\BOOKMARK [1][-]{section.6.2}{Hifenização}{chapter.6}% 39
-\BOOKMARK [1][-]{section.6.3}{Aspas}{chapter.6}% 40
-\BOOKMARK [1][-]{section.6.4}{Travessão, hífen, meia-risca}{chapter.6}% 41
-\BOOKMARK [1][-]{section.6.5}{Espaço entre palavras e frases}{chapter.6}% 42
-\BOOKMARK [1][-]{section.6.6}{Enfatizando\040texto}{chapter.6}% 43
-\BOOKMARK [1][-]{section.6.7}{Estilos\040de\040fonte}{chapter.6}% 44
-\BOOKMARK [1][-]{section.6.8}{Tamanho\040de\040fonte}{chapter.6}% 45
-\BOOKMARK [1][-]{section.6.9}{Sobrescrito\040e\040subscrito}{chapter.6}% 46
-\BOOKMARK [1][-]{section.6.10}{Símbolos}{chapter.6}% 47
-\BOOKMARK [1][-]{section.6.11}{Formatação de parágrafos}{chapter.6}% 48
-\BOOKMARK [1][-]{section.6.12}{Inserção de hiperlinks}{chapter.6}% 49
-\BOOKMARK [1][-]{section.6.13}{Citando\040textos}{chapter.6}% 50
-\BOOKMARK [1][-]{section.6.14}{Notas de rodapé}{chapter.6}% 51
-\BOOKMARK [1][-]{section.6.15}{Cabeçalhos}{chapter.6}% 52
-\BOOKMARK [1][-]{section.6.16}{Modo matemático}{chapter.6}% 53
-\BOOKMARK [0][-]{chapter.7}{Figuras}{}% 54
-\BOOKMARK [1][-]{section.7.1}{Incluindo\040imagens}{chapter.7}% 55
-\BOOKMARK [1][-]{section.7.2}{Onde\040guardar\040as\040imagens\040do\040seu\040texto}{chapter.7}% 56
-\BOOKMARK [1][-]{section.7.3}{Exemplos}{chapter.7}% 57
-\BOOKMARK [1][-]{section.7.4}{Imagens\040como\040figuras}{chapter.7}% 58
-\BOOKMARK [1][-]{section.7.5}{Rótulos ao lado da figura \(side captions\)}{chapter.7}% 59
-\BOOKMARK [1][-]{section.7.6}{Figuras\040dentro\040de\040figuras\040\(subfloats\)}{chapter.7}% 60
-\BOOKMARK [1][-]{section.7.7}{Figuras\040lado-a-lado}{chapter.7}% 61
-\BOOKMARK [1][-]{section.7.8}{Figuras com o tamanho da página em textos de duas colunas}{chapter.7}% 62
-\BOOKMARK [0][-]{chapter.8}{Referências}{}% 63
-\BOOKMARK [1][-]{section.8.1}{Referências cruzadas}{chapter.8}% 64
-\BOOKMARK [1][-]{section.8.2}{Hyperlinks}{chapter.8}% 65
-\BOOKMARK [0][-]{chapter.9}{Cores}{}% 66
-\BOOKMARK [0][-]{chapter.10}{Fontes}{}% 67
-\BOOKMARK [1][-]{section.10.1}{O\040pacote\040fontspec}{chapter.10}% 68
-\BOOKMARK [1][-]{section.10.2}{Opções avançadas do pacote fontspec}{chapter.10}% 69
-\BOOKMARK [0][-]{chapter.11}{Idiomas}{}% 70
-\BOOKMARK [1][-]{section.11.1}{Alfabetos não latinos e escritas não ocidentais}{chapter.11}% 71
-\BOOKMARK [0][-]{chapter.12}{Documentos técnicos e científicos brasileiros com abnTeX2}{}% 72
-\BOOKMARK [1][-]{section.12.1}{Macros\040de\040dados\040do\040trabalho}{chapter.12}% 73
-\BOOKMARK [0][-]{chapter.13}{Outros\040recursos}{}% 74
-\BOOKMARK [-1][-]{section*.4}{Apêndices}{}% 75
+\BOOKMARK [1][-]{section.4.6}{Utilizando\040o\040pacote\040biblatex}{chapter.4}% 30
+\BOOKMARK [2][-]{subsection.4.6.1}{Citações utilizando biblatex}{section.4.6}% 31
+\BOOKMARK [0][-]{chapter.5}{Tabelas}{}% 32
+\BOOKMARK [1][-]{section.5.1}{Tabelas\040longas}{chapter.5}% 33
+\BOOKMARK [0][-]{chapter.6}{Formatação}{}% 34
+\BOOKMARK [1][-]{section.6.1}{Listas}{chapter.6}% 35
+\BOOKMARK [2][-]{subsection.6.1.1}{Itemizar}{section.6.1}% 36
+\BOOKMARK [2][-]{subsection.6.1.2}{Enumeração}{section.6.1}% 37
+\BOOKMARK [2][-]{subsection.6.1.3}{Descrição}{section.6.1}% 38
+\BOOKMARK [2][-]{subsection.6.1.4}{Listas\040aninhadas\040\(listas\040dentro\040de\040listas\)}{section.6.1}% 39
+\BOOKMARK [2][-]{subsection.6.1.5}{Listas em múltiplas colunas}{section.6.1}% 40
+\BOOKMARK [1][-]{section.6.2}{Hifenização}{chapter.6}% 41
+\BOOKMARK [1][-]{section.6.3}{Aspas}{chapter.6}% 42
+\BOOKMARK [1][-]{section.6.4}{Travessão, hífen, meia-risca}{chapter.6}% 43
+\BOOKMARK [1][-]{section.6.5}{Espaço entre palavras e frases}{chapter.6}% 44
+\BOOKMARK [1][-]{section.6.6}{Enfatizando\040texto}{chapter.6}% 45
+\BOOKMARK [1][-]{section.6.7}{Estilos\040de\040fonte}{chapter.6}% 46
+\BOOKMARK [1][-]{section.6.8}{Tamanho\040de\040fonte}{chapter.6}% 47
+\BOOKMARK [1][-]{section.6.9}{Sobrescrito\040e\040subscrito}{chapter.6}% 48
+\BOOKMARK [1][-]{section.6.10}{Símbolos}{chapter.6}% 49
+\BOOKMARK [1][-]{section.6.11}{Formatação de parágrafos}{chapter.6}% 50
+\BOOKMARK [1][-]{section.6.12}{Inserção de hiperlinks}{chapter.6}% 51
+\BOOKMARK [1][-]{section.6.13}{Citando\040textos}{chapter.6}% 52
+\BOOKMARK [1][-]{section.6.14}{Notas de rodapé}{chapter.6}% 53
+\BOOKMARK [1][-]{section.6.15}{Cabeçalhos}{chapter.6}% 54
+\BOOKMARK [1][-]{section.6.16}{Modo matemático}{chapter.6}% 55
+\BOOKMARK [0][-]{chapter.7}{Figuras}{}% 56
+\BOOKMARK [1][-]{section.7.1}{Incluindo\040imagens}{chapter.7}% 57
+\BOOKMARK [1][-]{section.7.2}{Onde\040guardar\040as\040imagens\040do\040seu\040texto}{chapter.7}% 58
+\BOOKMARK [1][-]{section.7.3}{Exemplos}{chapter.7}% 59
+\BOOKMARK [1][-]{section.7.4}{Imagens\040como\040figuras}{chapter.7}% 60
+\BOOKMARK [1][-]{section.7.5}{Rótulos ao lado da figura \(side captions\)}{chapter.7}% 61
+\BOOKMARK [1][-]{section.7.6}{Figuras\040dentro\040de\040figuras\040\(subfloats\)}{chapter.7}% 62
+\BOOKMARK [1][-]{section.7.7}{Figuras\040lado-a-lado}{chapter.7}% 63
+\BOOKMARK [1][-]{section.7.8}{Figuras com o tamanho da página em textos de duas colunas}{chapter.7}% 64
+\BOOKMARK [0][-]{chapter.8}{Referências}{}% 65
+\BOOKMARK [1][-]{section.8.1}{Referências cruzadas}{chapter.8}% 66
+\BOOKMARK [1][-]{section.8.2}{Hyperlinks}{chapter.8}% 67
+\BOOKMARK [0][-]{chapter.9}{Cores}{}% 68
+\BOOKMARK [0][-]{chapter.10}{Fontes}{}% 69
+\BOOKMARK [1][-]{section.10.1}{O\040pacote\040fontspec}{chapter.10}% 70
+\BOOKMARK [1][-]{section.10.2}{Opções avançadas do pacote fontspec}{chapter.10}% 71
+\BOOKMARK [0][-]{chapter.11}{Idiomas}{}% 72
+\BOOKMARK [1][-]{section.11.1}{Alfabetos não latinos e escritas não ocidentais}{chapter.11}% 73
+\BOOKMARK [0][-]{chapter.12}{Documentos técnicos e científicos brasileiros com abnTeX2}{}% 74
+\BOOKMARK [1][-]{section.12.1}{Macros\040de\040dados\040do\040trabalho}{chapter.12}% 75
+\BOOKMARK [0][-]{chapter.13}{Outros\040recursos}{}% 76
+\BOOKMARK [-1][-]{section*.11}{Apêndices}{}% 77

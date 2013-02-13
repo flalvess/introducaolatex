@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.4-0.9998 (TeX Live 2012/W32TeX) (format=xelatex 2013.1.11)  10 FEB 2013 21:54
+This is XeTeX, Version 3.1415926-2.4-0.9998 (TeX Live 2012/W32TeX) (format=xelatex 2013.1.11)  13 FEB 2013 13:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1911,7 +1911,7 @@ Package csquotes Info: Redefining alias 'default' -> 'brazil'.
 LaTeX Warning: Unused global option(s):
     [abstract].
 
-(./introducaolatex-final.aux (./texto-bibliografia.aux)
+(./introducaolatex-final.aux (./texto-bibliografia.aux) (./biblatex.aux)
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 
@@ -2434,21 +2434,6 @@ text indent by \l@... (toc, 1):  25.18501pt
 number indent by parent (toc, 1):  16.64398pt
 text indent calculated (toc, 1): 24.35278pt
 number indent calculated (toc, 1): 16.64398pt
-number indent by \l@... (toc, 0):  0.0pt
-text indent by \l@... (toc, 0):  16.42499pt
-number indent by parent (toc, 0):  0.0pt
-text indent calculated (toc, 0): 16.64398pt
-number indent calculated (toc, 0): 0.0pt
-number indent by \l@... (toc, 1):  16.42499pt
-text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  16.64398pt
-text indent calculated (toc, 1): 24.35278pt
-number indent calculated (toc, 1): 16.64398pt
-number indent by \l@... (toc, 0):  0.0pt
-text indent by \l@... (toc, 0):  16.42499pt
-number indent by parent (toc, 0):  0.0pt
-text indent calculated (toc, 0): 16.64398pt
-number indent calculated (toc, 0): 0.0pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
 number indent by parent (toc, 1):  16.64398pt
@@ -2459,11 +2444,34 @@ text indent by \l@... (toc, 2):  35.03995pt
 number indent by parent (toc, 2):  40.99677pt
 text indent calculated (toc, 2): 27.13408pt
 number indent calculated (toc, 2): 40.99677pt
-[5
+number indent by \l@... (toc, 0):  0.0pt
+text indent by \l@... (toc, 0):  16.42499pt
+number indent by parent (toc, 0):  0.0pt
+text indent calculated (toc, 0): 16.64398pt
+number indent calculated (toc, 0): 0.0pt
+number indent by \l@... (toc, 1):  16.42499pt
+text indent by \l@... (toc, 1):  25.18501pt
+number indent by parent (toc, 1):  16.64398pt
+text indent calculated (toc, 1): 24.35278pt
+number indent calculated (toc, 1): 16.64398pt
+
+Underfull \vbox (badness 3354) has occurred while \output is active []
+
+ [5
 
 
 
 ]
+number indent by \l@... (toc, 0):  0.0pt
+text indent by \l@... (toc, 0):  16.42499pt
+number indent by parent (toc, 0):  0.0pt
+text indent calculated (toc, 0): 16.64398pt
+number indent calculated (toc, 0): 0.0pt
+number indent by \l@... (toc, 1):  16.42499pt
+text indent by \l@... (toc, 1):  25.18501pt
+number indent by parent (toc, 1):  16.64398pt
+text indent calculated (toc, 1): 24.35278pt
+number indent calculated (toc, 1): 16.64398pt
 number indent by \l@... (toc, 2):  41.61002pt
 text indent by \l@... (toc, 2):  35.03995pt
 number indent by parent (toc, 2):  40.99677pt
@@ -2484,6 +2492,11 @@ text indent by \l@... (toc, 2):  35.03995pt
 number indent by parent (toc, 2):  40.99677pt
 text indent calculated (toc, 2): 27.13408pt
 number indent calculated (toc, 2): 40.99677pt
+number indent by \l@... (toc, 2):  41.61002pt
+text indent by \l@... (toc, 2):  35.03995pt
+number indent by parent (toc, 2):  40.99677pt
+text indent calculated (toc, 2): 27.13408pt
+number indent calculated (toc, 2): 40.99677pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
 number indent by parent (toc, 1):  16.64398pt
@@ -2639,24 +2652,21 @@ text indent by \l@... (toc, 1):  25.18501pt
 number indent by parent (toc, 1):  16.64398pt
 text indent calculated (toc, 1): 24.35278pt
 number indent calculated (toc, 1): 16.64398pt
-number indent by \l@... (toc, 0):  0.0pt
-text indent by \l@... (toc, 0):  16.42499pt
-number indent by parent (toc, 0):  0.0pt
-text indent calculated (toc, 0): 16.64398pt
-number indent calculated (toc, 0): 0.0pt
-number indent by \l@... (toc, 1):  16.42499pt
-text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  16.64398pt
-text indent calculated (toc, 1): 24.35278pt
-number indent calculated (toc, 1): 16.64398pt
-
-Underfull \vbox (badness 3158) has occurred while \output is active []
-
 LaTeX Font Info:    Font shape `EU1/BulmerMTStd(0)/m/sl' in size <10.95> not av
 ailable
 (Font)              Font shape `EU1/BulmerMTStd(0)/m/it' tried instead on input
- line 159.
- [6]
+ line 151.
+[6]
+number indent by \l@... (toc, 0):  0.0pt
+text indent by \l@... (toc, 0):  16.42499pt
+number indent by parent (toc, 0):  0.0pt
+text indent calculated (toc, 0): 16.64398pt
+number indent calculated (toc, 0): 0.0pt
+number indent by \l@... (toc, 1):  16.42499pt
+text indent by \l@... (toc, 1):  25.18501pt
+number indent by parent (toc, 1):  16.64398pt
+text indent calculated (toc, 1): 24.35278pt
+number indent calculated (toc, 1): 16.64398pt
 number indent by \l@... (toc, 0):  0.0pt
 text indent by \l@... (toc, 0):  16.42499pt
 number indent by parent (toc, 0):  0.0pt
@@ -2893,15 +2903,48 @@ Overfull \hbox (44.11128pt too wide) in paragraph at lines 311--311
 atbib=true,doi=false,backend=bibtex]{biblatex}[] 
  []
 
-) [35] [36
+) [35]
+\openout2 = `biblatex.aux'.
 
+ (./biblatex.tex
+Overfull \hbox (44.11128pt too wide) in paragraph at lines 22--22
+[]\EU1/Consolas(0)/m/n/10.95 \usepackage[style=historian,citestyle=authoryear,n
+atbib=true,doi=false,backend=bibtex]{biblatex}[] 
+ []
+
+
+Overfull \hbox (13.01775pt too wide) in paragraph at lines 28--29
+[]\EU1/BulmerMTStd(0)/m/n/10.95 Para retirar entrada \EU1/BulmerMTStd(0)/m/sc/1
+0.95 DOI \EU1/BulmerMTStd(0)/m/n/10.95 (Digital Object Identifier – []$[][][]
+[] [] [] [] [][] [] [][][][][][][][][] [] [][][] [] [][][][] [] [][][][][][][] 
+[]$
+ []
+
+[36
 
 
 ]
-Capítulo 5.
+LaTeX Font Info:    Font shape `EU1/Consolas(0)/bx/n' will be
+(Font)              scaled to size 9.60004pt on input line 37.
+LaTeX Font Info:    Font shape `EU1/Consolas(0)/bx/n' will be
+(Font)              scaled to size 8.76003pt on input line 39.
+ [37]
 LaTeX Font Info:    Font shape `EU1/Consolas(0)/m/n' will be
-(Font)              scaled to size 7.20003pt on input line 753.
-[37] [38] [39] [40
+(Font)              scaled to size 7.20003pt on input line 105.
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--105
+[][][]\EU1/BulmerMTStd(0)/m/n/9 Exemplos retirados do arquivo: []$[][][][] [] [
+] [] [][][][][][] [] [][][] [] [][] [] [][][][] [] [][][][][][] [] [][][][][] [
+] [][][][][][][] [] [][][][][][][][] [] [][][] [] [][][][][][][][] []$
+ []
+
+) [38]
+Capítulo 5.
+[39
+
+
+
+] [40] [41] [42
 
 
 ]
@@ -2926,7 +2969,7 @@ Overfull \hbox (34.00002pt too wide) in paragraph at lines 857--884
 [][] 
  []
 
-[41]
+[43]
 Overfull \hbox (34.00002pt too wide) in paragraph at lines 891--922
 [][] 
  []
@@ -2948,7 +2991,7 @@ Overfull \hbox (34.00002pt too wide) in paragraph at lines 936--957
 [][] 
  []
 
-[42] [43] [44]
+[44] [45] [46]
 Overfull \hbox (6.0105pt too wide) in paragraph at lines 1127--1128
 []\EU1/BulmerMTStd(0)/m/n/10.95 Isso também pode ser feito com os comandos []\
 EU1/Consolas(0)/m/n/10.95 \textit{} \EU1/BulmerMTStd(0)/m/n/10.95 (“texto em 
@@ -2977,7 +3020,7 @@ MTStd(0)/m/n/10.95 .
 . * 'bold italic' with NFSS spec.:
 . <->"Myriad Pro/BI/ICU:script=latn;language=DFLT;mapping=tex-text;"
 .................................................
-[45]
+[47]
 Overfull \hbox (4.06575pt too wide) in paragraph at lines 1203--1204
 []\EU1/BulmerMTStd(0)/m/n/10.95 Para escrever fórmulas químicas, é útil o p
 acote \EU1/Consolas(0)/m/n/10.95 mhchem \EU1/BulmerMTStd(0)/m/n/10.95 ([]$[][][
@@ -2985,11 +3028,11 @@ acote \EU1/Consolas(0)/m/n/10.95 mhchem \EU1/BulmerMTStd(0)/m/n/10.95 ([]$[][][
 [][][] []$
  []
 
-[46]
+[48]
 LaTeX Info: Redefining \bond on input line 1212.
 LaTeX Info: Redefining \dbond on input line 1212.
 LaTeX Info: Redefining \tbond on input line 1212.
- [47] [48] [49]
+ [49] [50] [51]
 Overfull \hbox (19.99527pt too wide) in paragraph at lines 1412--1413
 \EU1/BulmerMTStd(0)/m/n/10.95 jeito mais fácil é pôr []\EU1/Consolas(0)/m/n/
 10.95 \pagestyle{myheadings} \EU1/BulmerMTStd(0)/m/n/10.95 depois de []\EU1/Con
@@ -2997,7 +3040,7 @@ solas(0)/m/n/10.95 \begin{document} \EU1/BulmerMTStd(0)/m/n/10.95 e []\EU1/Cons
 olas(0)/m/n/10.95 \thispagestyle{myheadings}
  []
 
-[50] [51] [52
+[52] [53] [54
 
 
 ]
@@ -3010,7 +3053,7 @@ pela metade, \EU1/Consolas(0)/m/n/10.95 scale=2
  []
 
 File: femmevaguecourbet.jpg Graphic file (type QTm)
-<use  "femmevaguecourbet.jpg" > [53] [54]
+<use  "femmevaguecourbet.jpg" > [55] [56]
 File: corotavray.jpg Graphic file (type QTm)
  <use  "corotavray.jpg" >
 File: corotavray.jpg Graphic file (type QTm)
@@ -3018,10 +3061,10 @@ File: corotavray.jpg Graphic file (type QTm)
 <use  "corotavray.jpg" >
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [55]
+ [57]
 File: corotavray.jpg Graphic file (type QTm)
 
-<use  "corotavray.jpg" > [56]
+<use  "corotavray.jpg" > [58]
 File: corotavray.jpg Graphic file (type QTm)
  <use  "corotavray.jpg" >
 File: moreau-apparition.jpg Graphic file (type QTm)
@@ -3032,7 +3075,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1565--1565
  , de Gustave
  []
 
-[57]
+[59]
 ! Illegal parameter number in definition of \Hy@tempa.
 <to be read again> 
                    S
@@ -3060,24 +3103,24 @@ You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
 are all screwed up? I'm going to assume that you meant ##.
 
-[58]
+[60]
 File: subfig.png Graphic file (type QTm)
- <use  "subfig.png" > [59] [60]
+ <use  "subfig.png" > [61] [62]
 Capítulo 8.
-[61
+[63
 
 
-] [62
+] [64
 
 
 ]
 Capítulo 9.
-[63] [64
+[65] [66
 
 
 ]
 Capítulo 10.
-[65]
+[67]
 Overfull \hbox (7.6067pt too wide) in paragraph at lines 1845--1845
 []\EU1/Consolas(0)/m/n/10.95 {\addfontfeature{Color=Mulberry}P}\kern-0.8ex[] 
  []
@@ -3531,7 +3574,7 @@ Overfull \hbox (10.50717pt too wide) in paragraph at lines 1917--1918
 . * 'bold italic' with NFSS spec.:
 . <->"Sabon LT Std/BI/ICU:script=latn;language=DFLT;mapping=tex-text;+lnum;"
 .................................................
-[66]
+[68]
 \g_fontspec_family_Warnock Pro_int=\count425
 .................................................
 . fontspec info: "defining-font"
@@ -3605,7 +3648,7 @@ Overfull \hbox (33.99998pt too wide) in paragraph at lines 1964--1983
 [][]
  []
 
-[67] [68
+[69] [70
 
 
 ]
@@ -3623,7 +3666,7 @@ Overfull \hbox (34.00002pt too wide) in paragraph at lines 2039--2054
 [][] 
  []
 
-[69]
+[71]
 Package mdframed Info: mdframed works in twoside mode on input line 2068.
 Package mdframed Info: mdframed works in twoside mode on input line 2081.
 .................................................
@@ -3654,7 +3697,7 @@ lif-novoc;"
 . Arabic/BI/ICU:script=arab;language=DFLT;mapping=tex-text;mapping=arabtex-fdf2
 alif-novoc;"
 .................................................
- [70]
+ [72]
 Missing character: There is no お in font Consolas/ICU:script=latn;language=DF
 LT;mapping=tex-text;!
 Missing character: There is no は in font Consolas/ICU:script=latn;language=DF
@@ -3766,10 +3809,10 @@ LT;mapping=tex-text;!
 . * 'sl/' with NFSS spec.:
 . <->"Batang/ICU:mapping=tex-text;"
 .................................................
- [71]
+ [73]
 \openout2 = `abntex2-latexintro.aux'.
 
- (./abntex2-latexintro.tex [72
+ (./abntex2-latexintro.tex [74
 
 
 
@@ -3783,21 +3826,21 @@ d(0)/m/n/10.95 e \EU1/Consolas(0)/m/n/10.95 abntex2-alf.sty\EU1/BulmerMTStd(0)/
 m/n/10.95 . 
  []
 
-[73]
+[75]
 Overfull \hbox (2.12549pt too wide) in paragraph at lines 52--57
 \EU1/BulmerMTStd(0)/m/n/10.95 das as opções do \EU1/BulmerMTStd(1)/m/n/10.95 
 memoir \EU1/BulmerMTStd(0)/m/n/10.95 estão disponíveis, como por exemplo, |12
 pt,openright,twoside,a4paper,artile|.
  []
 
-[74] [75]
+[76] [77]
 Overfull \hbox (2.44127pt too wide) in paragraph at lines 168--170
 []\EU1/BulmerMTStd(0)/m/n/10.95 Ambientes abnTeX (a ser colocados entre []\EU1/
 Consolas(0)/m/n/10.95 \begin{*nome do ambiente*} []\end{*nome do ambiente*}\EU1
 /BulmerMTStd(0)/m/n/10.95 ): 
  []
 
-) [76]
+) [78]
 Capítulo 13.
 
 Overfull \hbox (9.81902pt too wide) in paragraph at lines 2199--2200
@@ -3806,17 +3849,17 @@ um de usuários Latex em: []$[][][][] [] [] [] [][][] [] [][][][][][][][][][][]
 [][] []$
  []
 
-[77
+[79
 
 
 
-] [78
+] [80
 
 
-] [79] [80] [81
+] [81] [82] [83
 
 
-] [82
+] [84
 
 
 ]
@@ -3835,10 +3878,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2240--2251
  []
 
 Package mdframed Info: mdframed works in twoside mode on input line 2265.
-[83] [84
-
-
-] [85] [86
+[85] [86
 
 
 ] [87] [88
@@ -3848,15 +3888,46 @@ Package mdframed Info: mdframed works in twoside mode on input line 2265.
 
 
 ]
+
+Package biblatex Warning: Bibliography string 'volumeof' undefined
+(biblatex)                at entry 'kant:ku' on input line 2414.
+
+
+Overfull \hbox (8.8863pt too wide) in paragraph at lines 2415--2415
+[]\EU1/BulmerMTStd(0)/m/n/10.95 Immanuel Kant. “  Kritik der Urtheilskraft.�
+� Em \EU1/BulmerMTStd(0)/m/it/10.95 Kritik der praktischen Vernunft. Kritik der
+ Urtheils-
+ []
+
+
+Package biblatex Warning: Bibliography string 'volumeof' undefined
+(biblatex)                at entry 'kant:kpv' on input line 2414.
+
+[91] [92
+
+
+]
+
+Package biblatex Warning: Bibliography string 'volumeof' undefined
+(biblatex)                at entry 'kant:kpv' on input line 2418.
+
+
+Package biblatex Warning: Bibliography string 'volumeof' undefined
+(biblatex)                at entry 'kant:ku' on input line 2418.
+
+[93] [94
+
+
+]
 LaTeX Font Info:    Font shape `U/ccicons/m/n' will be
-(Font)              scaled to size 9.0pt on input line 2425.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2430.
- [91]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 2430.
- (./introducaolatex-final.aux
-(./texto-bibliografia.aux) (./abntex2-latexintro.aux))
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 2430.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 2430.
+(Font)              scaled to size 9.0pt on input line 2428.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2433.
+ [95]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 2433.
+ (./introducaolatex-final.aux (./texto-bibliografia.aux)
+(./biblatex.aux) (./abntex2-latexintro.aux))
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 2433.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 2433.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -3867,12 +3938,12 @@ Package logreq Info: Writing requests to 'introducaolatex-final.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 33971 strings out of 494004
- 655539 string characters out of 3153866
- 1025866 words of memory out of 3000000
- 36517 multiletter control sequences out of 15000+200000
- 24911 words of font info for 223 fonts, out of 3000000 for 9000
+ 33990 strings out of 494004
+ 655943 string characters out of 3153866
+ 1028074 words of memory out of 3000000
+ 36528 multiletter control sequences out of 15000+200000
+ 24927 words of font info for 225 fonts, out of 3000000 for 9000
  1144 hyphenation exceptions out of 8191
- 48i,19n,53p,1261b,1430s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 48i,19n,54p,1261b,1431s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on introducaolatex-final.pdf (91 pages).
+Output written on introducaolatex-final.pdf (95 pages).
