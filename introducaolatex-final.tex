@@ -5,7 +5,8 @@
 \usepackage{fontspec}
 \defaultfontfeatures{Ligatures={TeX}}
 \setmainfont[Numbers=OldStyle,BoldFont={Bulmer MT Std Bold},BoldItalicFont={Bulmer MT Std Bold Italic}]{Bulmer MT Std}
-\setsansfont[BoldFont={Bulmer MT Std Bold},BoldItalicFont={Bulmer MT Std Bold Italic}]{Bulmer MT Std}
+%\setsansfont[BoldFont={Bulmer MT Std Bold},BoldItalicFont={Bulmer MT Std Bold Italic}]{Bulmer MT Std}
+\setsansfont{Profile}
 %\setmainfont[Numbers=OldStyle]{Bulmer MT Std}
 %\setsansfont[Numbers=Lining]{Bulmer MT Std}
 %\addtokomafont{disposition}{\rmfamily \bfseries}
@@ -1404,7 +1405,85 @@ Os ambientes para citação são:
 \end{description}
 
 \section{Notas de rodapé}
-São inseridas com o comando: \verb+\footnote{...}+.
+São inseridas com o comando: \verb+\footnote{...}+. A formatação das notas de rodapé depende da classe utilizada. Podemos utilizar o pacote \texttt{footmisc} para várias opções de nota:
+
+
+\begin{verbatim}
+\usepackage[side,ragged]{footmisc} % para colocar notas na margem
+\usepackage{marginfix} % para problemas de notas no fim da página etc.
+\end{verbatim}
+
+\begin{verbatim}
+\usepackage[marginal]{footmisc} % opção "marginal" coloca os números da nota de rodapé para fora da margem, à la Bringhurst
+\end{verbatim}
+
+No caso de layouts e páginas não ``convencionais", o usuário pode querer modificar o tamanho do bloco de texto, da margem e do espaço entre notas de margem e texto:
+
+\begin{verbatim}
+\setlength{\marginparwidth}{4cm}% tamanho do parágrafo na margem
+%\setlength{\textwidth}{15cm} %implementado pelo pacote geometry abaixo, por isso não ativo
+\setlength{\marginparsep}{0.5cm} %tamanho da distância entre notas de margem e texto
+
+\usepackage[left=2cm,textwidth=14cm]{geometry} %tamanho do bloco de texto e da margem esquerda
+\end{verbatim}
+
+\section{Notas no final do texto}
+Podem ser implementadas com o pacote \texttt{pagenotes}:
+
+\begin{verbatim}
+\documentclass{scrbook}
+\usepackage{graphicx}
+\usepackage{polyglossia}
+\usepackage{fontspec}
+\defaultfontfeatures{Ligatures=TeX}
+\setmainlanguage{brazil}
+\setotherlanguages{english,french}
+\setmainfont[Numbers=OldStyle]{Bulmer MT Std}
+\setsansfont{Profile}
+\setmonofont[Scale=MatchLowercase]{Candara}
+\usepackage{hyperref}
+\usepackage[marginal]{footmisc}
+\usepackage[page]{pagenote} % opção "page" dá página onde aparece a nota
+\makepagenote
+\renewcommand*{\notesname}{Notas} % para mudar o nome de "Notes" para "Notas".
+
+
+\begin{document}
+\chapter{Título do capítulo.}
+Uma nota.\pagenote{An end note.}
+Outra nota\pagenote{Another note.}
+
+\chapter{Outro capítulo}
+Uma nota.\pagenote{Nota do do outro capítulo.}
+Outra nota\pagenote{Nota do outro capítulo.}
+
+%\chapter{Notes}
+\printnotes %gera as notas
+\end{document}
+
+\end{verbatim}
+
+\section{Notas no final do capítulo}
+Podem ser implementadas com o pacote \texttt{endnotes}:
+
+\begin{verbatim}
+\documentclass{report}
+\usepackage{endnotes}
+\begin{document}
+
+\chapter{First}
+Testing.\endnote{First test.}
+\theendnotes %gera as notas
+
+\setcounter{endnote}{0} & % para recomeçar a numeração das notas no próximo capítulo
+
+\chapter{Next}
+Again.\endnote{Second test.}
+\theendnotes % gera as notas
+
+\end{document}
+\end{verbatim}
+
 
 \section{Cabeçalhos}
 Há duas maneiras ``fáceis'' de inserir cabeçalhos, quando necessário: o pacote \texttt{fancyhdr} e o pacote \texttt{scrpage2} (do pacote KOMA-Script{}). De qualquer forma, as classes \texttt{book} e \texttt{scrbook} inserem automaticamente os cabeçalhos, com o número no rodapé.

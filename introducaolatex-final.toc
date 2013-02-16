@@ -108,9 +108,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {\relax 6.14}Notas de rodapé}{52}{section.6.14}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {\relax 6.15}Cabeçalhos}{52}{section.6.15}
+\contentsline {section}{\numberline {\relax 6.15}Notas no final do texto}{53}{section.6.15}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {\relax 6.16}Modo matemático}{52}{section.6.16}
+\contentsline {section}{\numberline {\relax 6.16}Notas no final do capítulo}{53}{section.6.16}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {\relax 6.17}Cabeçalhos}{54}{section.6.17}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {\relax 6.18}Modo matemático}{54}{section.6.18}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {7}Figuras}{55}{chapter.7}
 \defcounter {refsection}{0}\relax 
