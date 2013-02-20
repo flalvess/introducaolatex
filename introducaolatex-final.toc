@@ -150,7 +150,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {\relax 10.1}O pacote \texttt {fontspec}}{69}{section.10.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {\relax 10.2}Opções avançadas do pacote \texttt {fontspec}}{70}{section.10.2}
+\contentsline {section}{\numberline {\relax 10.2}Fontes gratuitas de qualidade}{70}{section.10.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {\relax 10.3}Opções avançadas do pacote \texttt {fontspec}}{70}{section.10.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {11}Idiomas}{73}{chapter.11}
 \defcounter {refsection}{0}\relax 

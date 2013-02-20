@@ -1959,8 +1959,8 @@ Para selecionar uma fonte que não é a padrão (Computer Modern), você precisa
  \begin{verbatim}
 \usepackage{fontspec}
 \defaultfontfeatures{Ligatures={TeX}}
-\setromanfont{Chaparral Pro}
-\setsansfont{Chaparral Pro}
+\setromanfont{Minion Pro}
+\setsansfont{Myriad Pro}
 \setmonofont[Scale=MatchLowercase]{Consolas}
  \end{verbatim}
  
@@ -1977,14 +1977,34 @@ faz com que conjuntos de caracteres LaTeX como \verb+---+ e \verb+``+ apareçam 
 Depois temos a definição da fonte serifada, sem serifa (geralmente usada para títulos) e  monoespaçada: 
 
 \begin{verbatim}
-\setromanfont{Chaparral Pro}
-\setsansfont{Chaparral Pro}
+\setromanfont{Minion Pro}
+\setsansfont{Myriad Pro}
 \setmonofont[Scale=MatchLowercase]{Consolas}
 \end{verbatim} 
 
 
-Substitua o nome das fontes pelas mais adequadas para seu texto. Com o Adobe Acrobat Reader, vêm as fontes de graça: Minion Pro e Myriad Pro.\footnote{Para Linux, faça o download de: \url{http://www.adobe.com/support/downloads/detail.jsp?ftpID=4426}, extraia e instale. Para Windows, vá até a pasta onde instalou o Reader (Arquivos de Programas), procure as fontes e instale.} Outra fonte interessante é \href{http://scripts.sil.org/cms/scripts/page.php?site\_id=nrsi\&id=Gentium\_download}{Gentium}. Escolher uma fonte para um trabalho pode ser complicado. Para alguma ajuda, consultar \citet{bringhurst_elements_2013}, \citet{dodd_gutenberg_2006}, \citet{pohlen_letter_2011} e \citet{lupton_thinking_2010}.
+\section{Fontes gratuitas de qualidade}
 
+Escolher uma fonte para um trabalho pode ser complicado. Para alguma ajuda, consultar \citet{bringhurst_elements_2013}, \citet{dodd_gutenberg_2006}, \citet{pohlen_letter_2011} e \citet{lupton_thinking_2010}.
+
+Com poucas exceções, a maioria das fontes de qualidade são comerciais. Abaixo, uma pequena lista de fontes gratuitas.
+
+\begin{itemize}
+
+\item 
+Com o Adobe Acrobat Reader, vêm as fontes de graça: Minion Pro, de Robert Slimbach, e Myriad Pro, de Robert Slimbach and Carol Twombly.\footnote{Para Linux, faça o download de: \url{http://www.adobe.com/support/downloads/detail.jsp?ftpID=4426}, extraia e instale. Para Windows, vá até a pasta onde instalou o Reader (Arquivos de Programas), procure as fontes e instale.}
+
+\item Adobe Arabic, de Tim Holloway, entre outras, pode ser instaladas através do \href{ http://www.adobe.com/support/downloads/detail.jsp?ftpID=4885}{Adobe Reader X Font Pack}.
+
+\item 
+A fonte \href{http://scripts.sil.org/cms/scripts/page.php?item_id=Gentium_download}{Gentium}, de Victor Gaultney, é bem elegante e possui um grande número de caracteres, alfabetos grego e cirílico, além de inúmeros diacríticos.
+
+\item 
+A fonte \href{http://www.brill.com/promotions/brill-fonts-end-user-license-agreement}{Brill}, produzida por John Hudson, cobre mais de 5.000 caracteres, alfabetos grego e cirílico e muitos símbolos, servindo para textos acadêmicos.
+
+\item \href{http://code.google.com/p/evristika/downloads/list}{Heuristica}, extensão, feita Andrej Panov, da fonte Adobe Utopia, de Robert Slimbach.
+
+\end{itemize}
 
 
 \section{Opções avançadas do pacote \texttt{fontspec}}

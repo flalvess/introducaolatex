@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.4-0.9998 (TeX Live 2012/W32TeX) (format=xelatex 2013.1.11)  19 FEB 2013 22:34
+This is XeTeX, Version 3.1415926-2.4-0.9998 (TeX Live 2012/W32TeX) (format=xelatex 2013.1.11)  20 FEB 2013 19:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -769,10 +769,8 @@ Type  H <return>  for immediate help.
                                                   
 l.2495 \@saveprimitive\leqno\@@leqno
                                     
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
+? s
+OK, entering \scrollmode...
 
 ! LaTeX Error: Unable to properly define \@@eqno; primitive \eqno no longer pri
 mitive.
@@ -2001,7 +1999,7 @@ Package biblatex Info: ... file 'syriac.lbx' not found.
 
 
 Package biblatex Warning: Language 'syriac' not supported.
-(biblatex)                Using fallback language 'brazil' on input line 218.
+(biblatex)                Using fallback language 'brazil' on input line 219.
 
 (./abntex2-latexintro.aux))
 \openout1 = `introducaolatex-final.aux'.
@@ -2766,6 +2764,11 @@ text indent by \l@... (toc, 1):  25.18501pt
 number indent by parent (toc, 1):  14.81534pt
 text indent calculated (toc, 1): 24.35278pt
 number indent calculated (toc, 1): 14.81534pt
+number indent by \l@... (toc, 1):  16.42499pt
+text indent by \l@... (toc, 1):  25.18501pt
+number indent by parent (toc, 1):  14.81534pt
+text indent calculated (toc, 1): 24.35278pt
+number indent calculated (toc, 1): 14.81534pt
 number indent by \l@... (toc, 0):  0.0pt
 text indent by \l@... (toc, 0):  16.42499pt
 number indent by parent (toc, 0):  0.0pt
@@ -3262,7 +3265,7 @@ Capítulo 9.
 ]
 Capítulo 10.
 [69]
-Overfull \hbox (7.6067pt too wide) in paragraph at lines 2008--2008
+Overfull \hbox (7.6067pt too wide) in paragraph at lines 2028--2028
 []\EU1/Consolas(0)/m/n/10.95 {\addfontfeature{Color=Mulberry}P}\kern-0.8ex[] 
  []
 
@@ -3534,12 +3537,13 @@ F42FF
 . ;"
 .................................................
 
-Overfull \hbox (10.50717pt too wide) in paragraph at lines 2080--2081
+Overfull \hbox (10.50717pt too wide) in paragraph at lines 2100--2101
 []\EU1/BulmerMTStd(0)/m/n/10.95 As ligaduras também podem ser definidas atrav�
 �s das opções: []\EU1/BulmerMTStd(0)/m/it/10.95 Required, Common, Contextual,
  Rare/Dis-
  []
 
+[70]
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -3604,6 +3608,7 @@ Overfull \hbox (10.50717pt too wide) in paragraph at lines 2080--2081
 . * 'bold italic small caps' with NFSS spec.:
 . <->"Arno Pro/BI/ICU:script=latn;language=DFLT;mapping=tex-text;+salt;+smcp;"
 .................................................
+
 *************************************************
 * fontspec warning: "icu-feature-not-exist-in-font"
 * 
@@ -3666,7 +3671,6 @@ Overfull \hbox (10.50717pt too wide) in paragraph at lines 2080--2081
 . * 'bold italic small caps' with NFSS spec.:
 . <->"Arno Pro/BI/ICU:script=latn;language=DFLT;mapping=tex-text;+swsh;+smcp;"
 .................................................
-[70]
 \g_fontspec_family_Sabon LT Std_int=\count426
 .................................................
 . fontspec info: "defining-font"
@@ -3785,7 +3789,7 @@ Overfull \hbox (10.50717pt too wide) in paragraph at lines 2080--2081
 . Pro/BI/ICU:script=latn;language=DFLT;mapping=tex-text;+cswh;+smcp;"
 .................................................
 
-Overfull \hbox (33.99998pt too wide) in paragraph at lines 2127--2146
+Overfull \hbox (33.99998pt too wide) in paragraph at lines 2147--2166
 [][]
  []
 
@@ -3795,7 +3799,7 @@ Overfull \hbox (33.99998pt too wide) in paragraph at lines 2127--2146
 ]
 Capítulo 11.
 
-Overfull \hbox (8.32462pt too wide) in paragraph at lines 2150--2151
+Overfull \hbox (8.32462pt too wide) in paragraph at lines 2170--2171
 []\EU1/BulmerMTStd(0)/m/n/10.95 Para definir a língua em Latex, usa-se o pacot
 e \EU1/Consolas(0)/m/n/10.95 babel \EU1/BulmerMTStd(0)/m/n/10.95 para compilar 
 em \EU1/Consolas(0)/m/n/10.95 pdflatex \EU1/BulmerMTStd(0)/m/n/10.95 e o pacote
@@ -3803,13 +3807,13 @@ em \EU1/Consolas(0)/m/n/10.95 pdflatex \EU1/BulmerMTStd(0)/m/n/10.95 e o pacote
  []
 
 
-Overfull \hbox (34.00002pt too wide) in paragraph at lines 2202--2217
+Overfull \hbox (34.00002pt too wide) in paragraph at lines 2222--2237
 [][] 
  []
 
 [73]
-Package mdframed Info: mdframed works in twoside mode on input line 2231.
-Package mdframed Info: mdframed works in twoside mode on input line 2244.
+Package mdframed Info: mdframed works in twoside mode on input line 2251.
+Package mdframed Info: mdframed works in twoside mode on input line 2264.
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -3984,7 +3988,7 @@ Consolas(0)/m/n/10.95 \begin{*nome do ambiente*} []\end{*nome do ambiente*}\EU1
 ) [80]
 Capítulo 13.
 
-Overfull \hbox (9.81902pt too wide) in paragraph at lines 2380--2381
+Overfull \hbox (9.81902pt too wide) in paragraph at lines 2400--2401
 []\EU1/BulmerMTStd(0)/m/n/10.95 Para sanar suas dúvidas, há um excelente fór
 um de usuários Latex em: []$[][][][] [] [] [] [][][] [] [][][][][][][][][][][]
 [][] []$
@@ -4004,21 +4008,21 @@ um de usuários Latex em: []$[][][][] [] [] [] [][][] [] [][][][][][][][][][][]
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 2425--2425
+Underfull \hbox (badness 10000) in paragraph at lines 2445--2445
 []|[]\EU1/Consolas(0)/m/n/9 \begin{snugshade} Uma histó-
  []
 
 
-Overfull \hbox (82.9904pt too wide) in paragraph at lines 2421--2432
+Overfull \hbox (82.9904pt too wide) in paragraph at lines 2441--2452
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2421--2432
+Underfull \hbox (badness 10000) in paragraph at lines 2441--2452
 
  []
 
-Package mdframed Info: mdframed works in twoside mode on input line 2446.
+Package mdframed Info: mdframed works in twoside mode on input line 2466.
 [87] [88
 
 
@@ -4031,10 +4035,10 @@ Package mdframed Info: mdframed works in twoside mode on input line 2446.
 ]
 
 Package biblatex Warning: Bibliography string 'volumeof' undefined
-(biblatex)                at entry 'kant:ku' on input line 2595.
+(biblatex)                at entry 'kant:ku' on input line 2615.
 
 
-Overfull \hbox (8.8863pt too wide) in paragraph at lines 2596--2596
+Overfull \hbox (8.8863pt too wide) in paragraph at lines 2616--2616
 []\EU1/BulmerMTStd(0)/m/n/10.95 Immanuel Kant. “  Kritik der Urtheilskraft.�
 � Em \EU1/BulmerMTStd(0)/m/it/10.95 Kritik der praktischen Vernunft. Kritik der
  Urtheils-
@@ -4042,7 +4046,7 @@ Overfull \hbox (8.8863pt too wide) in paragraph at lines 2596--2596
 
 
 Package biblatex Warning: Bibliography string 'volumeof' undefined
-(biblatex)                at entry 'kant:kpv' on input line 2595.
+(biblatex)                at entry 'kant:kpv' on input line 2615.
 
 [93] [94
 
@@ -4050,25 +4054,25 @@ Package biblatex Warning: Bibliography string 'volumeof' undefined
 ]
 
 Package biblatex Warning: Bibliography string 'volumeof' undefined
-(biblatex)                at entry 'kant:kpv' on input line 2599.
+(biblatex)                at entry 'kant:kpv' on input line 2619.
 
 
 Package biblatex Warning: Bibliography string 'volumeof' undefined
-(biblatex)                at entry 'kant:ku' on input line 2599.
+(biblatex)                at entry 'kant:ku' on input line 2619.
 
 [95] [96
 
 
 ]
 LaTeX Font Info:    Font shape `U/ccicons/m/n' will be
-(Font)              scaled to size 9.0pt on input line 2609.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2614.
+(Font)              scaled to size 9.0pt on input line 2629.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2634.
  [97]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 2614.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 2634.
  (./introducaolatex-final.aux (./texto-bibliografia.aux)
 (./biblatex.aux) (./abntex2-latexintro.aux))
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 2614.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 2614.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 2634.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 2634.
 
 
 LaTeX Font Warning: Size substitutions with differences
