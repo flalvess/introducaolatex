@@ -13,13 +13,14 @@
 \setmonofont[Scale=.8]{Consolas}
 \usepackage{polyglossia}
 \setmainlanguage{brazil}
-\setotherlanguages{french,english,german,russian,greek}
+\setotherlanguages{french,english,german,russian,greek,syriac}
 \usepackage{arabxetex}
 %\newfontfamily\russianfont[Script=Cyrillic]{Minion Pro}
 %\newfontfamily\greekfont[Script=Greek]{Minion Pro} 
 \newfontfamily\greekfont{Minion Pro} 
 \newfontfamily\russianfont{Minion Pro}
 \newfontfamily\arabicfont[Script=Arabic]{Adobe Arabic}
+\newfontfamily\syriacfont[Script=Syriac]{Serto Batnan}
 %\usepackage{amssymb}
 \usepackage[tocgraduated]{tocstyle}
 \usetocstyle{nopagecolumn}
@@ -88,6 +89,9 @@
 \usepackage{csquotes}
 \DefineBibliographyStrings{brazil}{namedash={---------}}
 \addbibresource{latex}
+
+
+\usepackage{bbding}
 
 %\usepackage[hyphens]{url}
 %\usepackage[titletoc]{appendix}
@@ -783,11 +787,15 @@ Muitas dessas formatações são exigidas para diferenciar certos elementos do r
 
 \section{Listas}
 
-A formatação conveniente e predizível de listas é uma das muitas vantagens de usar \LaTeX. Muitos usuários de processadores de texto ficam frequentemente frustrados pelas tentativas desajeitadas do software de perceber quando o usuário quer que as listas comecem e terminem. Por outro lado, \LaTeX{} lhe dá muito mais estabilidade na geração de listas.
+A formatação conveniente e previsível de listas é uma das muitas vantagens de usar \LaTeX. Muitos usuários de processadores de texto ficam frequentemente frustrados pelas tentativas desajeitadas do software de perceber quando o usuário quer que as listas comecem e terminem. Por outro lado, \LaTeX{} lhe dá muito mais estabilidade na geração de listas.
 
 Há basicamente três tipos de listas: itens, enumeração e descrição.
 
 \subsection{Itemizar}
+
+Cite vários itens não progressivos com o ambiente \texttt{itemize}:
+
+\medskip
 
 
 \begin{tabular}{ll}
@@ -808,6 +816,47 @@ Há basicamente três tipos de listas: itens, enumeração e descrição.
 \item O terceiro item.
 \end{itemize}\end{minipage}\\
 \end{tabular}
+
+\medskip
+
+Por padrão, os itens são marcados com uma bola no primeiro nível. Isso pode ser modificado no preâmbulo com:
+
+
+
+\begin{verbatim}
+\def\labelitemi{\checkmark}
+\end{verbatim}
+
+Lembrando que \verb+\labelitemi+ é o primeiro nível; \verb+\labelitemii+, o segundo; e \verb+\labelitemiii+ o terceiro. 
+
+O item \verb+\checkmark+ pode ser modificado por qualquer símbolo, por exemplo, \verb+\textemdash+ (---), \verb+\P+ (\P), \verb+\EightStarTaper+: \EightStarTaper; \verb+\FourStarOpen+: \FourStarOpen (pacote \texttt{bbding})\ldots
+
+
+%Também é possível modificar o símbolo em apenas um ambiente itemize:
+%
+%
+%\begin{tabular}{ll}
+%\begin{minipage}{.5\textwidth}
+%\begin{verbatim}
+%\begin{itemize} 
+%\newcommand{\labelitemi}{\checkmark}
+%   \item Ein
+%   \item Zwei
+%   \item Drei
+%\end{itemize}
+%\end{verbatim}
+%\end{minipage}
+%&
+%\begin{minipage}{.5\textwidth}
+%\begin{itemize} 
+%\newcommand{\labelitemi}{\checkmark}
+%   \item Ein
+%   \item Zwei
+%   \item Drei
+%\end{itemize}
+%\end{itemize}\end{minipage}\\
+%\end{tabular}
+
 
 
 \subsection{Enumeração}
@@ -1221,9 +1270,10 @@ O \LaTeX{} fornece uma imensa quantidade de símbolos, matemáticos ou não. Se 
 \usepackage[official]{eurosym}
 \usepackage{amssymb}
 \usepackage{wasysym}
+\usepackage{bbding}
 \end{verbatim}
 
-Vão suprir quase todas as suas necessidades (tabela \ref{simbolos}).
+Vão suprir muitas de suas necessidades (tabela \ref{simbolos}).
 
 \begin{table}
 \caption{Símbolos comuns}
@@ -1285,6 +1335,40 @@ Vão suprir quase todas as suas necessidades (tabela \ref{simbolos}).
 \bottomrule
 \end{tabular}
 \end{table}
+
+
+\begin{table}
+\caption{Cruzes do pacote \texttt{bbding} \label{tab:bbding-cruzes}}
+\begin{tabular}{lllll}
+\Cross{}\verb+\Cross+& \CrossOpenShadow{} \verb+\CrossOpenShadow+ & \PlusOutline{} \verb+\PlusOutline+ & \CrossBoldOutline{}  \verb+\CrossBoldOutline+ & \CrossOutline{} \verb+\CrossOutline+\\
+\PlusThinCenterOpen{} \verb+\PlusThinCenterOpen+ & \CrossClowerTips{} \verb+\CrossClowerTips+ & \Plus{} \verb+\Plus+ & \CrossMaltese{} \verb+\CrossMaltese+ & \PlusCenterOpen{} \verb+\PlusCenterOpen+\\
+\end{tabular}
+\end{table}
+
+\begin{table}
+\caption{Estrelas, flores e similares do pacote \texttt{bbding} \label{tab:bbding-estrelas-flores}}
+\begin{tabular}{lll}
+&&\\
+\Asterisk{} \verb+\Asterisk+& \FiveFlowerPetal{} \verb+\FiveFlowerPetal+& \JackStar{} \verb+\JackStar+\\
+ \AsteriskBold{} \verb+\AsteriskBold+& \FiveStar{} \verb+\FiveStar+ & \JackStarBold{} \verb+\JackStarBold+\\
+ \AsteriskCenterOpen{} \verb+\AsteriskCenterOpen+ & \FiveStarCenterOpen{} \verb+\FiveStarCenterOpen+ & \SixFlowerAlternate{} \verb+\SixFlowerAlternate+\\
+ \AsteriskRoundedEnds{} \verb+\AsteriskRoundedEnds+ & \FiveStarConvex{} \verb+\FiveStarConvex+& \SixFlowerAltPetal{} \verb+\SixFlowerAltPetal+\\
+ \AsteriskThin{} \verb+\AsteriskThin+& \FiveStarLines{} \verb+\FiveStarLines+& \SixFlowerOpenCenter{} \verb+\SixFlowerOpenCenter+\\
+\AsteriskThinCenterOpen{} \verb+\AsteriskThinCenterOpen+ & \FiveStarOpen{} \verb+\FiveStarOpen+ & \SixFlowerPetalDotted{} \verb+\SixFlowerPetalDotted+ \\
+ \DavidStar \verb+\DavidStar+ & \FiveStarOpenCircled{} \verb+\FiveStarOpenCircled+ & \SixFlowerPetalRemoved{} \verb+\SixFlowerPetalRemoved+\\
+ \DavidStarSolid{} \verb+\DavidStarSolid+& \FiveStarOpenDotted{} \verb+\FiveStarOpenDotted+ & \SixFlowerRemovedOpenPetal{} \verb+ \SixFlowerRemovedOpenPetal+\\
+ \EightAsterisk{} \verb+ \EightAsterisk+ & \FiveStarOutline{} \verb+\FiveStarOutline+& \SixStar{} \verb+\SixStar+\\
+ \EightFlowerPetal{} \verb+\EightFlowerPetal+& \FiveStarOutlineHeavy{} \verb+\FiveStarOutlineHeavy+ & \SixteenStarLight{} \verb+\SixteenStarLight+\\
+ \EightFlowerPetalRemoved{} \verb+\EightFlowerPetalRemoved+ & \FiveStarShadow{} \verb+\FiveStarShadow+ & \Snowflake{} \verb+\Snowflake+ \\
+ \EightStar{} \verb+\EightStar+ & \FourAsterisk{} \verb+\FourAsterisk+& \SnowflakeChevron{} \verb+\SnowflakeChevron+ \\
+ \EightStarBold{} \verb+ \EightStarBold+ & \FourClowerOpen{} \verb+\FourClowerOpen+ & \SnowflakeChevronBold{} \verb+\SnowflakeChevronBold+\\
+ \EightStarConvex{} \verb+\EightStarConvex+ & \FourClowerSolid{} \verb+\FourClowerSolid+ & \Sparkle \verb+\Sparkle+\\
+ \EightStarTaper \verb+\EightStarTaper+ & \FourStar{} \verb+\FourStar+ & \SparkleBold{} \verb+\SparkleBold+\\
+ \FiveFlowerOpen{} \verb+ \FiveFlowerOpen+ & \FourStarOpen{} \verb+\FourStarOpen+ & \TwelweStar{} \verb+\TwelweStar+ \\
+\end{tabular}
+
+\end{table}
+
 
 \section{Formatação de parágrafos}
 Os parágrafos em \LaTeX{} são geralmente justificados, mas se quiser em outro estilo, pode usar os ambientes/comandos:
@@ -2210,6 +2294,24 @@ Para escritas não ocidentais também utilizamos o pacote \texttt{fontspe}c e/ou
 \medspace
 
 O pacote \texttt{arabxetex} usa automaticamente a fonte gratuita Scheherazade, mas, como no exemplo, pode ser especificada qualquer fonte com suporte a árabe/persa/urdu.
+
+Para siríaco, podemos definir:
+
+\begin{verbatim}
+\newfontfamily\syriacfont[Script=Syriac]{Serto Batnan} % no preâmbulo
+...
+\begin{syriac}
+(texto em siríaco)
+\end{syriac}
+
+\end{verbatim}
+
+\begin{syriac}
+ܩܕܝܫܐ ܐܠܗܐ، ܩܕܝܫܐ ܚܝܠܬܢܐ، ܩܕܝܫܐ ܠܐ ܡܝܘܬܐ، ܐܬܪܚܡܥܠܝܢ
+\end{syriac}
+
+\bigskip
+\bigskip
 
 Para escrever em chinês, japonês ou coreano, utilizamos o pacote \texttt{xeCJK}:\footnote{A solução para um texto com os três sistemas (chinês, japonês e coreano) foi copiada de: \url{http://tex.stackexchange.com/questions/45331/combining-chinese-japanese-and-korean-text-with-xecjk}}
 \label{japones}

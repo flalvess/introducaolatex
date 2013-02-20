@@ -28,13 +28,17 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {\relax 6.2}{\ignorespaces Estilos de fonte}}{48}{table.6.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {\relax 6.3}{\ignorespaces Tamanho do texto}}{48}{table.6.3}
+\contentsline {table}{\numberline {\relax 6.3}{\ignorespaces Tamanho do texto}}{49}{table.6.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {\relax 6.4}{\ignorespaces Símbolos comuns}}{49}{table.6.4}
+\contentsline {table}{\numberline {\relax 6.4}{\ignorespaces Símbolos comuns}}{50}{table.6.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {\relax 6.5}{\ignorespaces Signos astrológicos e do zodíaco}}{50}{table.6.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {\relax 6.6}{\ignorespaces Alinhamento de parágrafos}}{50}{table.6.6}
+\contentsline {table}{\numberline {\relax 6.6}{\ignorespaces Cruzes do pacote \texttt {bbding} }}{50}{table.6.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {\relax 6.7}{\ignorespaces Estrelas, flores e similares do pacote \texttt {bbding} }}{51}{table.6.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {\relax 6.8}{\ignorespaces Alinhamento de parágrafos}}{51}{table.6.8}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
@@ -46,7 +50,7 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {\relax 9.1}{\ignorespaces As 68 cores da opção \texttt {dvipsnames}}}{65}{table.9.1}
+\contentsline {table}{\numberline {\relax 9.1}{\ignorespaces As 68 cores da opção \texttt {dvipsnames}}}{67}{table.9.1}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
@@ -57,6 +61,10 @@
 \select@language {brazil}
 \defcounter {refsection}{0}\relax 
 \select@language {greek}
+\defcounter {refsection}{0}\relax 
+\select@language {brazil}
+\defcounter {refsection}{0}\relax 
+\select@language {syriac}
 \defcounter {refsection}{0}\relax 
 \select@language {brazil}
 \defcounter {refsection}{0}\relax 
