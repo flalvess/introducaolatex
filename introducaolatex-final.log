@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.4-0.9998 (TeX Live 2012/W32TeX) (format=xelatex 2013.1.11)  20 FEB 2013 19:29
+This is XeTeX, Version 3.1415926-2.4-0.9998 (TeX Live 2012/W32TeX) (format=xelatex 2013.1.11)  21 FEB 2013 15:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -558,7 +558,8 @@ LaTeX Info: Redefining \upshape on input line 1905.
 . fontspec info: "defining-font"
 . 
 . Font family 'Profile(0)' created for font 'Profile' with options
-. [Ligatures={TeX},].
+. [Ligatures={TeX},BoldFont={Profile-Bold},BoldItalicFont={Profile-BoldItalic}]
+.
 . 
 . This font family consists of the following shapes:
 . 
@@ -566,13 +567,13 @@ LaTeX Info: Redefining \upshape on input line 1905.
 . <->"Profile/ICU:script=latn;language=DFLT;mapping=tex-text;"
 . 
 . * 'bold' with NFSS spec.:
-. <->"Profile/B/ICU:script=latn;language=DFLT;mapping=tex-text;"
+. <->"Profile-Bold/ICU:script=latn;language=DFLT;mapping=tex-text;"
 . 
 . * 'italic' with NFSS spec.:
 . <->"Profile/I/ICU:script=latn;language=DFLT;mapping=tex-text;"
 . 
 . * 'bold italic' with NFSS spec.:
-. <->"Profile/BI/ICU:script=latn;language=DFLT;mapping=tex-text;"
+. <->"Profile-BoldItalic/ICU:script=latn;language=DFLT;mapping=tex-text;"
 .................................................
 \g_fontspec_family_Consolas_int=\count171
 .................................................
@@ -769,8 +770,10 @@ Type  H <return>  for immediate help.
                                                   
 l.2495 \@saveprimitive\leqno\@@leqno
                                     
-? s
-OK, entering \scrollmode...
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
 
 ! LaTeX Error: Unable to properly define \@@eqno; primitive \eqno no longer pri
 mitive.
@@ -2930,7 +2933,7 @@ number indent calculated (lot, 1): 16.42499pt
 ]
 Capítulo 1.
 [13] [14]
-Overfull \hbox (8.17201pt too wide) in paragraph at lines 210--211
+Overfull \hbox (5.96013pt too wide) in paragraph at lines 210--211
 []\EU1/BulmerMTStd(0)/m/n/10.95 ([]$[][][][] [] [] [] [][][] [] [][][] [] [][][
 ] [] [][][][][][][][]$[]) para Linux, Mac ([]$[][][][] [] [] [] [][][] [] [][][
 ] [] [][][] [] [][][][][][]$[]) e Windows.
@@ -3031,7 +3034,7 @@ atbib=true,doi=false,backend=bibtex]{biblatex}[]
  []
 
 
-Overfull \hbox (14.04704pt too wide) in paragraph at lines 28--29
+Overfull \hbox (13.2039pt too wide) in paragraph at lines 28--29
 []\EU1/BulmerMTStd(0)/m/n/10.95 Para retirar entrada \EU1/BulmerMTStd(0)/m/sc/1
 0.95 DOI \EU1/BulmerMTStd(0)/m/n/10.95 (Digital Object Identifier – []$[][][]
 [] [] [] [] [][] [] [][][][][][][][][] [] [][][] [] [][][][] [] [][][][][][][] 
@@ -3196,7 +3199,7 @@ olas(0)/m/n/10.95 \thispagestyle{myheadings}
 ]
 Capítulo 7.
 
-Overfull \hbox (4.839pt too wide) in paragraph at lines 1598--1599
+Overfull \hbox (3.87541pt too wide) in paragraph at lines 1598--1599
 []\EU1/BulmerMTStd(0)/m/n/10.95 Escala no fator=xx; por exemplo: \EU1/Consolas(
 0)/m/n/10.95 scale=0.5 \EU1/BulmerMTStd(0)/m/n/10.95 reduz o tamanho da imagem 
 pela metade, \EU1/Consolas(0)/m/n/10.95 scale=2
@@ -3971,6 +3974,12 @@ d(0)/m/n/10.95 e \EU1/Consolas(0)/m/n/10.95 abntex2-alf.sty\EU1/BulmerMTStd(0)/
 m/n/10.95 . 
  []
 
+
+Overfull \hbox (1.40495pt too wide) in paragraph at lines 27--29
+[]\EU1/BulmerMTStd(0)/m/n/10.95 Informação e documentação - Artigo em publi
+cação periódica científica impressa
+ []
+
 [77]
 Overfull \hbox (3.73514pt too wide) in paragraph at lines 52--57
 \EU1/BulmerMTStd(0)/m/n/10.95 das as opções do \EU1/Profile(0)/m/n/10.95 memo
@@ -4083,9 +4092,9 @@ Package logreq Info: Writing requests to 'introducaolatex-final.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 34292 strings out of 494004
- 661261 string characters out of 3153866
- 1037372 words of memory out of 3000000
+ 34290 strings out of 494004
+ 661285 string characters out of 3153866
+ 1037490 words of memory out of 3000000
  36794 multiletter control sequences out of 15000+200000
  25152 words of font info for 236 fonts, out of 3000000 for 9000
  1144 hyphenation exceptions out of 8191
