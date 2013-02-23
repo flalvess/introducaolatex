@@ -322,6 +322,55 @@
   \field{year}{2011}
 \endentry
 
+\entry{tschichold2007forma}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Tschichold}{T.}%
+     {Jan}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Ateli{\^e} Editorial}%
+  }
+  \strng{namehash}{TJ1}
+  \strng{fullhash}{TJ1}
+  \field{labelyear}{2007}
+  \field{sortinit}{T}
+  \field{isbn}{9788574803616}
+  \field{series}{Artes do livro}
+  \field{title}{A forma do livro: ensaios sobre tipografia e est{\'e}tica do
+  livro}
+  \field{year}{2007}
+\endentry
+
+\entry{willberg2000}{book}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Willberg}{W.}%
+     {Hans~Peter}{H.~P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Forssman}{F.}%
+     {Friedrich}{F.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Verlag Hermann Schmidt}%
+  }
+  \strng{namehash}{WHPFF1}
+  \strng{fullhash}{WHPFF1}
+  \field{labelyear}{2000}
+  \field{sortinit}{W}
+  \field{title}{Erste Hilfe in Typografie}
+  \list{location}{1}{%
+    {Mainz}%
+  }
+  \field{year}{2000}
+\endentry
+
 \lossort
   \key{kant:ku}
   \key{kant:kpv}

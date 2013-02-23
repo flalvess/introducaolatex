@@ -4,13 +4,15 @@
 %\usepackage{xunicode}
 \usepackage{fontspec}
 \defaultfontfeatures{Ligatures={TeX}}
-\setmainfont[Numbers=OldStyle,BoldFont={Bulmer MT Std Bold},BoldItalicFont={Bulmer MT Std Bold Italic}]{Bulmer MT Std}
+\setmainfont{Jannon T Moderne Pro}
+%\setmainfont[Numbers=OldStyle]{SabonNext}
+%\setmainfont[Numbers=OldStyle,BoldFont={Bulmer MT Std Bold},BoldItalicFont={Bulmer MT Std Bold Italic}]{Bulmer MT Std}
 %\setsansfont[BoldFont={Bulmer MT Std Bold},BoldItalicFont={Bulmer MT Std Bold Italic}]{Bulmer MT Std}
 \setsansfont[BoldFont={Profile-Bold},BoldItalicFont={Profile-BoldItalic}]{Profile}
 %\setmainfont[Numbers=OldStyle]{Bulmer MT Std}
 %\setsansfont[Numbers=Lining]{Bulmer MT Std}
 %\addtokomafont{disposition}{\rmfamily \bfseries}
-\setmonofont[Scale=.8]{Consolas}
+\setmonofont[Scale=.9]{Consolas}
 \usepackage{polyglossia}
 \setmainlanguage{brazil}
 \setotherlanguages{french,english,german,russian,greek,syriac}
@@ -144,28 +146,30 @@
 
 \section{O que é TeX?}
 %\vspace{-2cm}
-\TeX (X ou chi pronunciado como o j espanhol ou k) é uma linguagem de mark-up e de programação de baixo nível criada por Donald Knuth para diagramar documentos com uma estética agradável e estruturalmente consistentes. O nome \TeX é a primeira sílaba das palavras gregas \textgreek{τεχνολογία} (``tecnologia''), e \textgreek{τέχνη} (\textit{techni}), ``arte''.
+\TeX{} (X ou chi pronunciado como o j espanhol ou k) é uma linguagem de mark-up e de programação de baixo nível criada por Donald Knuth para diagramar documentos com uma estética agradável e estruturalmente consistentes. O nome \TeX{} é a primeira sílaba das palavras gregas \textgreek{τεχνολογία} (``tecnologia''), e \textgreek{τέχνη} (\textit{techni}), ``arte''.
 	
 Quando Knuth começou a escrever o programa de diagramação (\textit{typesetting engine}) em 1977 para explorar o potencial dos equipamentos de impressão digital que estavam começando a se infiltrar na indústria da editoração gráfica na época, esperando especialmente reverter a tendência da deterioração da qualidade tipográfica afetava seus próprios livros e artigos.
 
-O TeX é uma linguagem de programação para diagramação de textos (typesetting). O controle fino que o TeX oferece o torna uma ferramenta muito poderosa, mas também muito difícil, consumindo muito tempo.  Mas TeX é extremamente estável, pode rodar em muitos tipos de computador, e é praticamente livre de bugs.
+O TeX é uma linguagem de programação para diagramação de textos (\textit{typesetting}). O controle fino que o \TeX oferece o torna uma ferramenta muito poderosa, mas também muito difícil, consumindo muito tempo.  Mas \TeX é extremamente estável, pode rodar em muitos tipos de computador, e é praticamente livre de bugs.
 
 Baseado em linguagem \TeX, na década de 1980 Leslie Lamport criou o conjunto de macros chamado \LaTeX, que poupa tempo, automatiza certas tarefas e reduz erros, especialmente para documentos que contenham fórmulas matemáticas.
 
 O \LaTeX{} é um software modular, composto de programas binários e conjuntos de macros chamados pacotes ou estilos, que podem ser utilizados, acrescentados e modificados. Alguns destes são empacotados com a maioria das distribuições do TeX/\LaTeX; outros podem ser encontrados no \textit{Comprehensive TeX Archive Network} (CTAN).
 
 Como o \LaTeX{} inclui um grupo de comandos TeX, o processamento de um documento \LaTeX{} é essencialmente programação. Você cria um arquivo de texto em marcação \LaTeX. O programa ``lê" este texto marcado para produzir o documento final.
-Essa abordagem tem algumas desvantagens em comparação com programas visuais como o OpenOffice/LibreOffice e o Microsoft Word©.
+Essa abordagem tem algumas desvantagens em comparação com programas visuais como o OpenOffice/Li\-bre\-Of-fice e o Microsoft Word.
 
 \section{Por que usar o \LaTeX?}
 
-Devemos ser muito claros: você usa o processador de texto que quiser. Se quiser escrever seus textos e entregá-los com o Word, ou OpenOffice, ou Pages da Apple, ou o InDesign, da Adobe, ou GoogleDocs, para o conteúdo do seu texto isso vai fazer pouca diferença. Mas se você quer uma aparência profissional, usa muitas figuras ou fórmulas matemáticas, está escrevendo uma tese um ou texto técnico ou acadêmico, o resultado final, com o mesmo nível de esforço, vai ser muito diferente. No começo o \LaTeX{} parece muito difícil, mas facilita e automatiza muito tarefas complexas, e a maioria dos comandos é bem intuitiva. Na verdade, ele não passa de um conjunto de macros para geração de texto. E, uma vez que você personaliza um modelo, você simplesmente ``joga" qualquer texto nele que ele sai com a aparência desejada. Com os outros programas, acontece o oposto: você tem mais liberdade, deve saber muito bem o que está fazendo. O \LaTeX{}, na verdade, faz o trabalho do diagramador ou designer gráfico para você.
+Devemos ser muito claros: você usa o processador de texto que quiser. Se quiser escrever seus textos e entregá-los com o Word, ou OpenOffice, ou Pages da Apple, ou o InDesign, da Adobe. para o conteúdo do seu texto isso vai fazer pouca diferença. Mas se você quer uma aparência profissional, usa muitas figuras ou fórmulas matemáticas, está escrevendo uma tese um ou texto técnico ou acadêmico, o resultado final, com o mesmo nível de esforço, vai ser muito diferente. No começo o \LaTeX{} parece muito difícil, mas facilita e automatiza muito tarefas complexas, e a maioria dos comandos é bem intuitiva. Na verdade, ele não passa de um conjunto de macros para geração de texto. E, uma vez que você personaliza um modelo, você simplesmente ``joga" qualquer texto nele que ele sai com a aparência desejada. Com os outros programas, acontece o oposto: você tem mais liberdade, deve saber muito bem o que está fazendo. O \LaTeX{}, na verdade, faz o trabalho do diagramador ou designer gráfico para você.
+
+Na verdade o processo de trabalho (\textit{workflow}) é diferente em processadores de texto (Word e similares), ferramentas de publicação (Desktop Publishing) como InDesign, e um programa de diagramação como \LaTeX. Enquanto que nos dois primeiros a abordagem é \textit{visual}, e os comandos são feitos através de \textit{menus}, no \LaTeX{} a abordagem é \textit{textual}. (Existem, na verdade, \textit{editores de texto} para \LaTeX{} com menus (ver seção \ref{editor-de-textos}), mas o que esses menus fazem é auxiliar na inserção de comandos: um arquivo \texttt{.tex} é, na verdade, um arquivo de texto simples, com \textit{marcações lógicas}. A formatação só aparece no arquivo final (texttt{pdf}), pronto para impressão.)
 
 %Você pega um modelo, geralmente mal feito, ou faz um do jeito que você acha que vai ficar bom baseado na aparência da tela, e aí você tenta criar uma tabela de conteúdo, que vai ficar mais ou menos, justificar o texto, colocar índices de figuras, de tabelas, legendas nas tabelas e figuras, numerar as tabelas e figuras, numerar as equações (isso só tem jeito de fazer à mão no Word)\ldots{} e, quando chega a hora, colocar os cabeçalhos e rodapés com números de página ou correntes (refletindo o capítulo ou seção), cortar seções e começar numeração romana (antes do primeiro capítulo) e arábica (a partir do primeiro capítulo), inserir referências --- aí sim você vai sentir a diferença.
 
 %Por outro lado, eu não vou ser radical e dizer que você deve ou precisa de usar esta ferramenta. Provavelmente você não precisa; você não é físico, nem matemático, nem engenheiro; você não está escrevendo uma tese, você não é nerd, não vai perder tempo com firulas, e por aí vai. No Brasil quase nenhuma publicação acadêmica aceita esse formato. 
 
-Contudo, você não precisa, necessariamente, usar esta ferramenta. Devo deixar claro que, no Brasil, praticamente nenhuma publicação aceita esse formato. Mas temos que salientar que o resultado é profissional, para impressão: compare um livro bem produzido e um artigo acadêmico pobremente formatado no Word: o \LaTeX{} é a maneira mais fácil e barata de produzir textos que mais se aproximam de revistas e livros compostos com um profissional (muito bem) pago para cuidar da aparência do seu material. 
+Contudo, você não precisa, necessariamente, usar esta ferramenta. Devo deixar claro que, \textit{no Brasil}, praticamente nenhuma publicação aceita esse formato. Mas temos que salientar que o resultado é profissional, para impressão: compare um livro bem produzido e um artigo acadêmico pobremente formatado no Word: o \LaTeX{} é a maneira mais fácil e barata de produzir textos que mais se aproximam de revistas e livros compostos com um profissional (muito bem) pago para cuidar da aparência do seu material. 
 
 Porém, o \LaTeX{} tem alguns inconvenientes:
  
@@ -188,6 +192,50 @@ Por outro lado, há certas vantagens na abordagem \LaTeX:
 \item você é forçado a estruturar seus documentos corretamente.
 \end{itemize}
 
+Devido a suas características e seu modo de uso, a figura \ref{fig:grafico-latex} resume bem uma relação tempo/esforço de aprendizado e resultado final.
+
+\begin{figure}
+\centering
+\includegraphics[width=0.5\linewidth]{grafico-latex}
+\caption{Uma comparação entre Microsoft Word e Latex.}
+\label{fig:grafico-latex}
+\end{figure}
+
+Talvez um dos maiores inconvenientes do \LaTeX é que, como é um conjunto de \textit{macros} (ou seja, tudo o que você faz é como se tivesse um \textit{template}), a personalização é mais difícil. Mas isso só é inconveniente de um ponto de vista: \textit{você, autor de textos}, provavelmente não tem a formação de tipógrafo ou designer gráfico para fazer julgamentos estéticos e soluções visuais ousadas. Do manual das classes \KOMAScript{}:
+
+\begin{quote}
+A prática de fazer as coisas por si próprio já se difundiu amplamente há bastante tempo, mas os resultados são frequentemente duvidosos porque os tipógrafos leigos não veem o que está errado e não conseguem perceber o que é importante. Assim, fica-se acostumado a uma tipografia pobre e incorreta. [\ldots ] Ora, pode-se objetar que a tipografia depende do gosto. Se isso dissesse respeito somente a decoração, talvez deixássemos o argumento passar; entretanto, uma vez que a tipografia concerne precipuamente a informação, erros podem não somente irritar, como também até causar danos \parencite{willberg2000}.
+\end{quote}
+
+E segundo Jan Tschichold:
+
+
+\begin{quote}
+Bom gosto e tipografia perfeita são suprapessoais. [\ldots] 
+Numa obra-prima tipográfica, a assinatura do artista e eliminada. O que alguns podem elogiar como estilos pessoais são, na realidade, pequenas e vazias peculiaridades, frequentemente danosas, que se disfarçam de inovações. [\ldots] Tipografia pessoal é tipografia deficiente. Só iniciantes e bobos insistirão em usá-la \parencite[p. 25--26]{tschichold2007forma}.
+\end{quote}
+
+Isso não quer dizer, obviamente, que qualquer coisa produzida em \LaTeX{} terá uma boa aparência. Quanto mais modificações forem feitas, maior será a probabilidade de erro -- e inversamente, se o autor utilizar as principais classes do \LaTeX{} e não mudar muita coisa, maior será a probabilidade de produzir um documento elegante. A tipografia, como descendente da caligrafia, valoriza a precisão, a proporção e a elegância. Ao produzir seus primeiros livros, Gutenberg procurou imitar os manuscritos medievais, tanto na composição dos tipos (\textit{textura quadrata}) quanto no layout da página (figs. \ref{fig:biblia-gutenberg}).  
+
+%\begin{figure}
+%\begin{minipage}{0.5\linewidth}
+%\centering
+%\includegraphics[width=0.4\linewidth]{biblia-gutenberg}
+%\caption[Uma Bíblia impressa por Gutenberg.]{Uma Bíblia impressa por Gutenberg. Notar o texto em duas colunas e as margens. Fonte: \url{http://www.designishistory.com/images/gutenberg/bible.jpg}.\label{fig:biblia-gutenberg}}
+%\end{minipage}%
+%\begin{minipage}{0.5\linewidth}
+%\centering
+%\includegraphics[width=0.4\linewidth]{biblia-textura-quadrata}
+%\caption[Prólogo de São Jerônimo ao Livro do Gênesis, da Bíblia Vulgata, século XIV.]{Prólogo de São Jerônimo ao Livro do Gênesis, da Bíblia Vulgata, século XIV. Manuscrito em \textit{textura quadrata}. Fonte: \url{http://library.randolphcollege.edu/special/images/verso_lg.jpg}\label{fig:biblia-textura-quadrata}}
+%\end{minipage}
+%\end{figure}
+
+
+\begin{figure}
+\centering
+\includegraphics[width=0.8\linewidth]{biblia-gutenberg}
+\caption[Uma Bíblia impressa por Gutenberg.]{Uma Bíblia impressa por Gutenberg. Notar o texto em duas colunas e as margens. Fonte: \url{http://www.designishistory.com/images/gutenberg/bible.jpg}.\label{fig:biblia-gutenberg}}
+\end{figure}
 
 
 \section{Como o \LaTeX{} funciona}
@@ -197,7 +245,7 @@ Por outro lado, há certas vantagens na abordagem \LaTeX:
  \end{enumerate}
 
 
-Para isso, você precisa de, no mínimo, uma distribuição (uma versão do programa) e um editor de textos específico,  (para facilitar a digitação e compilação do texto), além de um leitor de pdfs (Acrobat Reader ou similares).
+Para isso, você precisa de, no mínimo, uma distribuição (uma versão do programa) e um editor de textos específico  (para facilitar a digitação e compilação do texto), além de um leitor de pdfs (Acrobat Reader ou similares).
 
 %\section{Outras distribuições \TeX}
 %Ao procurar informações sobre \LaTeX, você pode se deparar com nomes como  XeTeX, ConTeXt, LuaTeX e outros com o sufixo \TeX. Alguns são programas, outros, distribuições. Na verdade você não precisa de se preocupar com isso: basta apenas saber que o Xe\LaTeX{} é um programa que permite usar caracteres Unicode e possibilita uso de fontes comuns que você tem em seu computador (formatos .ttf e .otf).
@@ -213,11 +261,12 @@ Há dois tipos básicos de distribuição:
 \end{description}
 
 \section{Instalando um editor de textos}
-Há muitos por aí. Na verdade, você pode editar seus textos no Notepad ou até mesmo no Word ou no OpenOffice/LibreOffice.  Eu vou citar apenas alguns.
+\label{editor-de-textos}
+Um editor de textos não é imprescindível,\footnote{Na verdade, você pode editar seus textos no Notepad ou até mesmo no Word ou no OpenOffice/LibreOffice} mas facilita muito a inserção de comandos e organização do conteúdo. Entre as opções mais populares:
 
 \begin{description}
 
-\item[Texworks] \url{http://www.tug.org/texworks/}.Vem com MiKTeX e com Texlive para Windows e Mac; no Linux tem que instalar separadamente. 
+\item[Texworks] \url{http://www.tug.org/texworks/}. Interface simples e básica. Vem com MiKTeX e com TexLive.
 
 \item [TexShop] (\url{http://pages.uoregon.edu/koch/texshop/}), para Mac, vem com MacTeX.
 
@@ -228,7 +277,7 @@ Há muitos por aí. Na verdade, você pode editar seus textos no Notepad ou até
 É um editor útil multiplataforma com seu próprio leitor de pdfs.
 
 \item  [TeXStudio] (\url{texstudio.sourceforge.net/})
-Muito semelhante ao TeXmaker, aceita também correção ortográfica (o mesmo dicionário do OpenOffice). Tem também uma grande quantidade de símbolos matemáticos e funções de autocompletar que agilizam a criação do texto.
+Muito semelhante ao TeXmaker, aceita também correção ortográfica (em sua última versão já vem com corretor de português instalado). Tem também uma grande quantidade de símbolos matemáticos e funções de autocompletar que agilizam a criação do texto.
 
 \end{description}
 
@@ -2622,7 +2671,7 @@ Se você quiser usar um estilo parecido com o dos livros de E. Tufte, as classes
 \chapter*{}
 \phantom{}
 \vfill
-Este texto foi composto e adaptado (uma tradução livre com acréscimos) de: \url{http://en.wikibooks.org/wiki/LaTeX/}. O tipo usado foi \textbf{Bulmer}, criado em 1792 por William Martin (1757–1830). A classe utilizada foi \KOMAScript{}.
+Este texto foi composto e adaptado (uma tradução livre com acréscimos) de: \url{http://en.wikibooks.org/wiki/LaTeX/}. O tipo usado foi \textit{Jannon Text Moderne}, uma recriação dos tipos de Jean Jannon do século \textsc{XVII}, para texto, e \textsf{Profile}, de Martin Wenzel (1999), para títulos. A classe utilizada foi \KOMAScript{}, de Frank Neukam, Markus Kohm \& Axel Kielhorn.
 
 \medskip
 
