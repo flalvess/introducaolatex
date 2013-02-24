@@ -5,7 +5,8 @@
 \usepackage{fontspec}
 \defaultfontfeatures{Ligatures={TeX}}
 \setmainfont{Jannon T Moderne Pro}
-%\setmainfont[Numbers=OldStyle]{SabonNext}
+%\setmainfont[Numbers=OldStyle]{SabonNext LT}
+%\setsansfont{Myriad Pro}
 %\setmainfont[Numbers=OldStyle,BoldFont={Bulmer MT Std Bold},BoldItalicFont={Bulmer MT Std Bold Italic}]{Bulmer MT Std}
 %\setsansfont[BoldFont={Bulmer MT Std Bold},BoldItalicFont={Bulmer MT Std Bold Italic}]{Bulmer MT Std}
 \setsansfont[BoldFont={Profile-Bold},BoldItalicFont={Profile-BoldItalic}]{Profile}
@@ -98,9 +99,10 @@
 %\usepackage[hyphens]{url}
 %\usepackage[titletoc]{appendix}
 
-\title{\fontsize{50}{60}\selectfont \textcolor{YellowOrange}{Uma introdução ao \rmfamily\LaTeX}}
-\subtitle{\textcolor{Dandelion}{\addfontfeatures{Style=TitlingCaps} \huge UM SISTEMA DE PREPARAÇÃO DE TEXTOS}}
-%\extratitle{\phantom{XXX}\vspace{12cm} \raggedleft \Huge \emph{Uma Introdução ao} \LaTeX}
+\title{%\fontsize{40}{50}\selectfont 
+\textcolor{YellowOrange}{Uma introdução ao LaTeX}}
+\subtitle{\textcolor{Dandelion}{\addfontfeatures{Style=TitlingCaps} \rmfamily UM SISTEMA DE PREPARAÇÃO DE TEXTOS}}
+%\extratitle{\Huge\emph{Uma Introdução ao} \LaTeX}
 \author{Youssef Cherem}
 \date{MMXIII}
 %\publishers{Editora Virtual Biblos, Ltda.}
@@ -127,14 +129,12 @@
 \frontmatter
 
 \newgeometry{top=3cm,left=3cm,right=3cm,bottom=3cm}
-\begin{titlepage}
-\includepdf{capa}
-\end{titlepage}
-
 
 \begin{titlepage}
-\phantom{XXX}
-\vspace{10cm} \raggedleft \Huge \emph{Uma Introdução ao} \LaTeX
+\phantom{X}
+\vfill
+\raggedleft \Huge \emph{Uma introdução ao \LaTeX}
+\vfill
 \end{titlepage}
 
 \maketitle
@@ -175,7 +175,7 @@ O \LaTeX{} é um software modular, composto de programas binários e conjuntos d
 Como o \LaTeX{} inclui um grupo de comandos TeX, o processamento de um documento \LaTeX{} é essencialmente programação. Você cria um arquivo de texto em marcação \LaTeX. O programa ``lê" este texto marcado para produzir o documento final.
 Essa abordagem tem algumas desvantagens em comparação com programas visuais como o OpenOffice/Li\-bre\-Of-fice e o Microsoft Word.
 
-\section{Por que usar o \LaTeX?}
+\section{Por que usar o LaTeX?}
 
 Devemos ser muito claros: você usa o processador de texto que quiser. Se quiser escrever seus textos e entregá-los com o Word, ou OpenOffice, ou Pages da Apple, ou o InDesign, da Adobe. para o conteúdo do seu texto isso vai fazer pouca diferença. Mas se você quer uma aparência profissional, usa muitas figuras ou fórmulas matemáticas, está escrevendo uma tese um ou texto técnico ou acadêmico, o resultado final, com o mesmo nível de esforço, vai ser muito diferente. No começo o \LaTeX{} parece muito difícil, mas facilita e automatiza muito tarefas complexas, e a maioria dos comandos é bem intuitiva. Na verdade, ele não passa de um conjunto de macros para geração de texto. E, uma vez que você personaliza um modelo, você simplesmente ``joga" qualquer texto nele que ele sai com a aparência desejada. Com os outros programas, acontece o oposto: você tem mais liberdade, deve saber muito bem o que está fazendo. O \LaTeX{}, na verdade, faz o trabalho do diagramador ou designer gráfico para você.
 
@@ -213,10 +213,10 @@ Devido a suas características e seu modo de uso, a figura \ref{fig:grafico-late
 \label{fig:grafico-latex}
 \end{figure}
 
-Talvez um dos maiores inconvenientes do \LaTeX é que, como é um conjunto de \textit{macros} (ou seja, tudo o que você faz é como se tivesse um \textit{template}), a personalização é mais difícil. Mas isso só é inconveniente de um ponto de vista: \textit{você, autor de textos}, provavelmente não tem a formação de tipógrafo ou designer gráfico para fazer julgamentos estéticos e soluções visuais ousadas. Do manual das classes \KOMAScript{}:
+Talvez um dos maiores inconvenientes do \LaTeX{} é que, como é um conjunto de \textit{macros} (ou seja, tudo o que você faz é como se tivesse um \textit{template}), a personalização é mais difícil. Mas isso só é inconveniente de um ponto de vista: \textit{você, autor de textos}, provavelmente não tem a formação de tipógrafo ou designer gráfico para fazer julgamentos estéticos e soluções visuais ousadas. Do manual das classes \KOMAScript{}:
 
 \begin{quote}
-A prática de fazer as coisas por si próprio já se difundiu amplamente há bastante tempo, mas os resultados são frequentemente duvidosos porque os tipógrafos leigos não veem o que está errado e não conseguem perceber o que é importante. Assim, fica-se acostumado a uma tipografia pobre e incorreta. [\ldots ] Ora, pode-se objetar que a tipografia depende do gosto. Se isso dissesse respeito somente a decoração, talvez deixássemos o argumento passar; entretanto, uma vez que a tipografia concerne precipuamente a informação, erros podem não somente irritar, como também até causar danos \parencite{willberg2000}.
+A prática de fazer as coisas por si próprio já se difundiu amplamente há bastante tempo, mas os resultados são frequentemente duvidosos porque os tipógrafos leigos não veem o que está errado e não conseguem perceber o que é importante. Assim, fica-se acostumado a uma tipografia pobre e incorreta. [\ldots ] Ora, pode-se objetar que a tipografia depende do gosto. Se isso dissesse respeito somente a decoração, talvez deixássemos o argumento passar; entretanto, uma vez que a tipografia diz respeito principalmente à informação, erros podem não somente irritar, como também até causar danos \parencite{willberg2000}.
 \end{quote}
 
 E segundo Jan Tschichold:
@@ -224,7 +224,7 @@ E segundo Jan Tschichold:
 
 \begin{quote}
 Bom gosto e tipografia perfeita são suprapessoais. [\ldots] 
-Numa obra-prima tipográfica, a assinatura do artista e eliminada. O que alguns podem elogiar como estilos pessoais são, na realidade, pequenas e vazias peculiaridades, frequentemente danosas, que se disfarçam de inovações. [\ldots] Tipografia pessoal é tipografia deficiente. Só iniciantes e bobos insistirão em usá-la \parencite[p. 25--26]{tschichold2007forma}.
+Numa obra-prima tipográfica, a assinatura do artista é eliminada. O que alguns podem elogiar como estilos pessoais são, na realidade, pequenas e vazias peculiaridades, frequentemente danosas, que se disfarçam de inovações. [\ldots] Tipografia pessoal é tipografia deficiente. Só iniciantes e bobos insistirão em usá-la \parencite[p. 25--26]{tschichold2007forma}.
 \end{quote}
 
 Isso não quer dizer, obviamente, que qualquer coisa produzida em \LaTeX{} terá uma boa aparência. Quanto mais modificações forem feitas, maior será a probabilidade de erro -- e inversamente, se o autor utilizar as principais classes do \LaTeX{} e não mudar muita coisa, maior será a probabilidade de produzir um documento elegante. A tipografia, como descendente da caligrafia, valoriza a precisão, a proporção e a elegância. Ao produzir seus primeiros livros, Gutenberg procurou imitar os manuscritos medievais, tanto na composição dos tipos (\textit{textura quadrata}) quanto no layout da página (figs. \ref{fig:biblia-gutenberg}). 
@@ -250,7 +250,7 @@ Isso não quer dizer, obviamente, que qualquer coisa produzida em \LaTeX{} terá
 \end{figure}
 
 
-\section{Como o \LaTeX{} funciona}
+\section{Como o LaTeX funciona}
  
  \begin{enumerate}
  \item  Você digita um texto \item faz as marcações necessárias (indicando título, capítulo, seções, ênfases etc.) \item  roda o programa para gerar o produto final (um texto diagramado em .pdf ou outros formatos menos usuais).
@@ -369,7 +369,7 @@ Os comandos em \LaTeX{} são sensíveis a maiúsculas e minúsculas, e têm um d
 \item Consistem de um \textbackslash{} e exatamente um caractere não alfabético.
 \end{itemize}
 
-\section{Ambientes \LaTeX}
+\section{Ambientes LaTeX}
 Os \textit{ambientes} têm um papel semelhante a comandos, mas geralmente afetam só uma parte específica do documento. Sua sintaxe é:
 
 \begin{verbatim}
@@ -2531,7 +2531,7 @@ Estilo de capítulo “Veelo”, da classe \texttt{memoir}.
 \end{verbatim}
 
 
-\chapter*{Usando Xe\LaTeX{} e as classes Tufte-\LaTeX{}}
+\chapter*{Usando XeLaTeX e as classes Tufte-LaTeX{}}
 
 Se você quiser usar um estilo parecido com o dos livros de E. Tufte, as classes \texttt{tufte-handout} (para artigos) e \texttt{tufte-book} (para livros) são uma opção interessante para sair da mesmice. Mas se quiser compilar com \texttt{xelatex} para usar as fontes do sistema, deve usar o código abaixo no preâmbulo para fazer os cabeçalhos das páginas funcionarem direito:
 
@@ -2672,14 +2672,14 @@ Se você quiser usar um estilo parecido com o dos livros de E. Tufte, as classes
 \chapter*{}
 \phantom{}
 \vfill
-O tipo usado foi \textit{Jannon Text Moderne}, uma recriação dos tipos de Jean Jannon do século \textsc{XVII}, para texto, e \textsf{Profile}, de Martin Wenzel (1999), para títulos. A classe utilizada foi \textsf{\KOMAScript{}}, de Frank Neukam, Markus Kohm \& Axel Kielhorn.
+O tipo usado foi \textit{Jannon Text Moderne}, uma recriação dos tipos de Jean Jannon do século \textsc{xviii}, para texto, e \textsf{Profile}, de Martin Wenzel (1999), para títulos. A classe utilizada foi \KOMAScript{}, de Frank Neukam, Markus Kohm \& Axel Kielhorn.
 
 \medskip
 
 \ccbyncsa
 
 \medskip
-Os direitos desta obra são regidos pela licença \textbf{Creative Commons}. Sua distribuição e cópia é livre, desde que citada a fonte, e pode ser modificada, mas não utilizada para fins comerciais.  Ver: \url{http://creativecommons.org/licenses/by-nc-sa/3.0/br/}.
+Os direitos desta obra são regidos pela licença \textbf{Creative Commons}. Sua distribuição, cópia e modificação é livre, desde observadas as seguintes condições: a fonte deve ser citada; é proibida utilização para fins comerciais; obras derivadas deverão ser compartilhadas com a mesma licença. Ver: \url{http://creativecommons.org/licenses/by-nc-sa/3.0/deed.pt_BR}.
 
 \end{document}
 
