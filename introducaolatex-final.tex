@@ -23,13 +23,13 @@
 \newfontfamily\russianfont{Minion Pro}
 \newfontfamily\arabicfont[Script=Arabic]{Adobe Arabic}
 \newfontfamily\syriacfont[Script=Syriac]{Serto Batnan}
-%\usepackage{amssymb}
 \usepackage[tocgraduated]{tocstyle}
 \usetocstyle{nopagecolumn}
 \usepackage{graphicx}
 %\usepackage{chngcntr} %isso aqui tira figura 0.1... etc
 %\counterwithout{figure}{chapter}%
-\deffootnote[1em]{0em}{1em}{\textsuperscript{\thefootnotemark} }
+%\deffootnote[1em]{0em}{1em}{\textsuperscript{\thefootnotemark} }
+\usepackage[marginal]{footmisc}
 %\setcounter{secnumdepth}{0}
 \usepackage{eulervm}
 %\setkomafont{disposition}{\sffamily}
@@ -98,14 +98,15 @@
 %\usepackage[hyphens]{url}
 %\usepackage[titletoc]{appendix}
 
-
-\title{\fontsize{50}{60}\selectfont \textcolor{YellowOrange}{\rmfamily\LaTeX}}
-\subtitle{\textcolor{Dandelion}{UM SISTEMA DE PREPARAÇÃO DE TEXTOS}}
-\author{Youssef Cherem\thanks{\href{mailto:cherem@unifesp.br}{cherem@unifesp.br}}}
+\title{\fontsize{50}{60}\selectfont \textcolor{YellowOrange}{Uma introdução ao \rmfamily\LaTeX}}
+\subtitle{\textcolor{Dandelion}{\addfontfeatures{Style=TitlingCaps} \huge UM SISTEMA DE PREPARAÇÃO DE TEXTOS}}
+%\extratitle{\phantom{XXX}\vspace{12cm} \raggedleft \Huge \emph{Uma Introdução ao} \LaTeX}
+\author{Youssef Cherem}
 \date{MMXIII}
+%\publishers{Editora Virtual Biblos, Ltda.}
 
 
-\dedication{Dedicado a todos os amantes da tipografia.}
+\dedication{\includegraphics[scale=0.2]{amdg}\\\fontspec{San Marco LT Std}{Ad maiorem Dei gloriam}}
 
 
 
@@ -115,13 +116,27 @@
 %\XeTeXcharclass `f 101
 %\XeTeXinterchartoks 100 101 = {\kern-0.4pt}
 
+%\renewcommand*{\titlepagestyle}{JT-Geschichte}
+
+\usepackage{pdfpages}
 
 \begin{document}
 
 \frenchspacing
 
+\frontmatter
 
 \newgeometry{top=3cm,left=3cm,right=3cm,bottom=3cm}
+\begin{titlepage}
+\includepdf{capa}
+\end{titlepage}
+
+
+\begin{titlepage}
+\phantom{XXX}
+\vspace{10cm} \raggedleft \Huge \emph{Uma Introdução ao} \LaTeX
+\end{titlepage}
+
 \maketitle
 
 \restoregeometry
@@ -142,6 +157,7 @@
 
 \listoftables
 
+\mainmatter
 \chapter{Introdução}
 
 \section{O que é TeX?}
@@ -163,11 +179,7 @@ Essa abordagem tem algumas desvantagens em comparação com programas visuais co
 
 Devemos ser muito claros: você usa o processador de texto que quiser. Se quiser escrever seus textos e entregá-los com o Word, ou OpenOffice, ou Pages da Apple, ou o InDesign, da Adobe. para o conteúdo do seu texto isso vai fazer pouca diferença. Mas se você quer uma aparência profissional, usa muitas figuras ou fórmulas matemáticas, está escrevendo uma tese um ou texto técnico ou acadêmico, o resultado final, com o mesmo nível de esforço, vai ser muito diferente. No começo o \LaTeX{} parece muito difícil, mas facilita e automatiza muito tarefas complexas, e a maioria dos comandos é bem intuitiva. Na verdade, ele não passa de um conjunto de macros para geração de texto. E, uma vez que você personaliza um modelo, você simplesmente ``joga" qualquer texto nele que ele sai com a aparência desejada. Com os outros programas, acontece o oposto: você tem mais liberdade, deve saber muito bem o que está fazendo. O \LaTeX{}, na verdade, faz o trabalho do diagramador ou designer gráfico para você.
 
-Na verdade o processo de trabalho (\textit{workflow}) é diferente em processadores de texto (Word e similares), ferramentas de publicação (Desktop Publishing) como InDesign, e um programa de diagramação como \LaTeX. Enquanto que nos dois primeiros a abordagem é \textit{visual}, e os comandos são feitos através de \textit{menus}, no \LaTeX{} a abordagem é \textit{textual}. (Existem, na verdade, \textit{editores de texto} para \LaTeX{} com menus (ver seção \ref{editor-de-textos}), mas o que esses menus fazem é auxiliar na inserção de comandos: um arquivo \texttt{.tex} é, na verdade, um arquivo de texto simples, com \textit{marcações lógicas}. A formatação só aparece no arquivo final (texttt{pdf}), pronto para impressão.)
-
-%Você pega um modelo, geralmente mal feito, ou faz um do jeito que você acha que vai ficar bom baseado na aparência da tela, e aí você tenta criar uma tabela de conteúdo, que vai ficar mais ou menos, justificar o texto, colocar índices de figuras, de tabelas, legendas nas tabelas e figuras, numerar as tabelas e figuras, numerar as equações (isso só tem jeito de fazer à mão no Word)\ldots{} e, quando chega a hora, colocar os cabeçalhos e rodapés com números de página ou correntes (refletindo o capítulo ou seção), cortar seções e começar numeração romana (antes do primeiro capítulo) e arábica (a partir do primeiro capítulo), inserir referências --- aí sim você vai sentir a diferença.
-
-%Por outro lado, eu não vou ser radical e dizer que você deve ou precisa de usar esta ferramenta. Provavelmente você não precisa; você não é físico, nem matemático, nem engenheiro; você não está escrevendo uma tese, você não é nerd, não vai perder tempo com firulas, e por aí vai. No Brasil quase nenhuma publicação acadêmica aceita esse formato. 
+Na verdade o processo de trabalho (\textit{workflow}) é diferente em processadores de texto (Word e similares), ferramentas de publicação (Desktop Publishing) como InDesign, e um programa de diagramação como \LaTeX. Enquanto que nos dois primeiros a abordagem é \textit{visual}, e os comandos são feitos através de \textit{menus}, no \LaTeX{} a abordagem é \textit{textual}. (Existem, na verdade, \textit{editores de texto} para \LaTeX{} com menus (ver seção \ref{editor-de-textos}), mas o que esses menus fazem é auxiliar na inserção de comandos: um arquivo \texttt{.tex} é, na verdade, um arquivo de texto simples, com \textit{marcações lógicas}. A formatação só aparece no arquivo final (\texttt{pdf}), pronto para impressão.)
 
 Contudo, você não precisa, necessariamente, usar esta ferramenta. Devo deixar claro que, \textit{no Brasil}, praticamente nenhuma publicação aceita esse formato. Mas temos que salientar que o resultado é profissional, para impressão: compare um livro bem produzido e um artigo acadêmico pobremente formatado no Word: o \LaTeX{} é a maneira mais fácil e barata de produzir textos que mais se aproximam de revistas e livros compostos com um profissional (muito bem) pago para cuidar da aparência do seu material. 
 
@@ -215,7 +227,7 @@ Bom gosto e tipografia perfeita são suprapessoais. [\ldots]
 Numa obra-prima tipográfica, a assinatura do artista e eliminada. O que alguns podem elogiar como estilos pessoais são, na realidade, pequenas e vazias peculiaridades, frequentemente danosas, que se disfarçam de inovações. [\ldots] Tipografia pessoal é tipografia deficiente. Só iniciantes e bobos insistirão em usá-la \parencite[p. 25--26]{tschichold2007forma}.
 \end{quote}
 
-Isso não quer dizer, obviamente, que qualquer coisa produzida em \LaTeX{} terá uma boa aparência. Quanto mais modificações forem feitas, maior será a probabilidade de erro -- e inversamente, se o autor utilizar as principais classes do \LaTeX{} e não mudar muita coisa, maior será a probabilidade de produzir um documento elegante. A tipografia, como descendente da caligrafia, valoriza a precisão, a proporção e a elegância. Ao produzir seus primeiros livros, Gutenberg procurou imitar os manuscritos medievais, tanto na composição dos tipos (\textit{textura quadrata}) quanto no layout da página (figs. \ref{fig:biblia-gutenberg}).  
+Isso não quer dizer, obviamente, que qualquer coisa produzida em \LaTeX{} terá uma boa aparência. Quanto mais modificações forem feitas, maior será a probabilidade de erro -- e inversamente, se o autor utilizar as principais classes do \LaTeX{} e não mudar muita coisa, maior será a probabilidade de produzir um documento elegante. A tipografia, como descendente da caligrafia, valoriza a precisão, a proporção e a elegância. Ao produzir seus primeiros livros, Gutenberg procurou imitar os manuscritos medievais, tanto na composição dos tipos (\textit{textura quadrata}) quanto no layout da página (figs. \ref{fig:biblia-gutenberg}). 
 
 %\begin{figure}
 %\begin{minipage}{0.5\linewidth}
@@ -1045,6 +1057,7 @@ Você também pode especificar o tipo de contador que quer: numerais romanos, em
 &
 \begin{minipage}{.5\textwidth}
 \begin{enumerate}
+
 \begin{enumerate}[label=\Roman*]
 \item Primeiro
 \item Segundo
@@ -1564,18 +1577,6 @@ No caso de layouts e páginas não ``convencionais", o usuário pode querer modi
 Podem ser implementadas com o pacote \texttt{pagenotes}:
 
 \begin{verbatim}
-\documentclass{scrbook}
-\usepackage{graphicx}
-\usepackage{polyglossia}
-\usepackage{fontspec}
-\defaultfontfeatures{Ligatures=TeX}
-\setmainlanguage{brazil}
-\setotherlanguages{english,french}
-\setmainfont[Numbers=OldStyle]{Bulmer MT Std}
-\setsansfont{Profile}
-\setmonofont[Scale=MatchLowercase]{Candara}
-\usepackage{hyperref}
-\usepackage[marginal]{footmisc}
 \usepackage[page]{pagenote} % opção "page" dá página onde aparece a nota
 \makepagenote
 \renewcommand*{\notesname}{Notas} % para mudar o nome de "Notes" para "Notas".
@@ -1621,7 +1622,6 @@ Again.\endnote{Second test.}
 \section{Cabeçalhos}
 Há duas maneiras ``fáceis'' de inserir cabeçalhos, quando necessário: o pacote \texttt{fancyhdr} e o pacote \texttt{scrpage2} (do pacote KOMA-Script{}). De qualquer forma, as classes \texttt{book} e \texttt{scrbook} inserem automaticamente os cabeçalhos, com o número no rodapé.
 
-Se você quiser inserir o número do lado direito no começo da página (uma prática usual por aqui), o jeito mais fácil é pôr \verb+\pagestyle{myheadings}+ depois de \verb+\begin{document}+ e \verb+\thispagestyle{myheadings}+ depois do começo de cada capítulo. %O pacote \texttt{abntex2} já faz tudo isso automaticamente.
 
 \section{Modo matemático}
 O \LaTeX{} é geralmente usado por matemáticos ou físicos ou pesquisadores que precisam de muitos símbolos e fórmulas. Mas podemos usar simplesmente porque ele permite um resultado superior sem muito esforço --- seja com puro texto, com muitas fórmulas ou muitas figuras. O público-alvo deste ``manual'' não é esse tipo de usuário, por um simples motivo: o redator (leia-se: eu) não é matemático, não usa fórmulas. Se você precisa de trabalhar com matemática, sugiro dar uma olhada em: \url{http://en.wikibooks.org/wiki/LaTeX/Mathematics} e/ou \url{http://mirrors.ctan.org/info/lshort/portuguese-BR/lshortBR.pdf}.
@@ -2667,11 +2667,12 @@ Se você quiser usar um estilo parecido com o dos livros de E. Tufte, as classes
 
 \printbibliography
 
+\backmatter
 
 \chapter*{}
 \phantom{}
 \vfill
-Este texto foi composto e adaptado (uma tradução livre com acréscimos) de: \url{http://en.wikibooks.org/wiki/LaTeX/}. O tipo usado foi \textit{Jannon Text Moderne}, uma recriação dos tipos de Jean Jannon do século \textsc{XVII}, para texto, e \textsf{Profile}, de Martin Wenzel (1999), para títulos. A classe utilizada foi \KOMAScript{}, de Frank Neukam, Markus Kohm \& Axel Kielhorn.
+O tipo usado foi \textit{Jannon Text Moderne}, uma recriação dos tipos de Jean Jannon do século \textsc{XVII}, para texto, e \textsf{Profile}, de Martin Wenzel (1999), para títulos. A classe utilizada foi \textsf{\KOMAScript{}}, de Frank Neukam, Markus Kohm \& Axel Kielhorn.
 
 \medskip
 
