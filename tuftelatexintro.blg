@@ -3,6 +3,7 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: tuftelatexintro.aux
 The style file: biblatex.bst
 A level-1 auxiliary file: texto-bibliografia.aux
+A level-1 auxiliary file: biblatex.aux
 A level-1 auxiliary file: abntex2-latexintro.aux
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -20,44 +21,44 @@ Database file #2: latex.bib
 Biblatex version: 1.7
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
-You've used 9 entries,
+You've used 13 entries,
             6019 wiz_defined-function locations,
-            1173 strings with 9381 characters,
-and the built_in function-call counts, 32335 in all, are:
-= -- 1448
-> -- 1459
-< -- 393
-+ -- 838
-- -- 730
-* -- 1924
-:= -- 2303
+            1204 strings with 10468 characters,
+and the built_in function-call counts, 54590 in all, are:
+= -- 2254
+> -- 3347
+< -- 622
++ -- 2363
+- -- 2182
+* -- 3031
+:= -- 4556
 add.period$ -- 0
-call.type$ -- 9
-change.case$ -- 245
-chr.to.int$ -- 82
-cite$ -- 16
-duplicate$ -- 3368
-empty$ -- 3082
-format.name$ -- 497
-if$ -- 7039
+call.type$ -- 13
+change.case$ -- 383
+chr.to.int$ -- 154
+cite$ -- 28
+duplicate$ -- 5326
+empty$ -- 4807
+format.name$ -- 741
+if$ -- 10884
 int.to.chr$ -- 0
-int.to.str$ -- 24
+int.to.str$ -- 44
 missing$ -- 0
-newline$ -- 237
-num.names$ -- 509
-pop$ -- 2602
+newline$ -- 368
+num.names$ -- 793
+pop$ -- 3861
 preamble$ -- 1
-purify$ -- 262
+purify$ -- 406
 quote$ -- 0
-skip$ -- 1908
+skip$ -- 2948
 stack$ -- 0
-substring$ -- 1171
-swap$ -- 1146
-text.length$ -- 249
-text.prefix$ -- 8
+substring$ -- 2005
+swap$ -- 1870
+text.length$ -- 388
+text.prefix$ -- 12
 top$ -- 1
-type$ -- 330
+type$ -- 482
 warning$ -- 0
-while$ -- 227
+while$ -- 366
 width$ -- 0
-write$ -- 227
+write$ -- 354

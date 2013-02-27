@@ -1,8 +1,8 @@
-This is XeTeX, Version 3.1415926-2.4-0.9998 (TeX Live 2012/W32TeX) (format=xelatex 2013.1.11)  24 FEB 2013 16:01
+This is XeTeX, Version 3.1415926-2.4-0.9998 (TeX Live 2012/W32TeX) (format=xelatex 2013.1.11)  27 FEB 2013 11:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**introducaolatex-final.tex
+**introducaolatex-final
 (./introducaolatex-final.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, ge
@@ -779,10 +779,8 @@ Type  H <return>  for immediate help.
                                                   
 l.2495 \@saveprimitive\leqno\@@leqno
                                     
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
+? s
+OK, entering \scrollmode...
 
 ! LaTeX Error: Unable to properly define \@@eqno; primitive \eqno no longer pri
 mitive.
@@ -4388,6 +4386,6 @@ Here is how much of TeX's memory you used:
  37459 multiletter control sequences out of 15000+200000
  22516 words of font info for 229 fonts, out of 3000000 for 9000
  1144 hyphenation exceptions out of 8191
- 48i,19n,59p,1261b,1431s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 48i,19n,59p,1257b,1431s stack positions out of 5000i,500n,10000p,200000b,50000s
 
 Output written on introducaolatex-final.pdf (101 pages).

@@ -89,6 +89,94 @@
   \field{year}{2012}
 \endentry
 
+\entry{kant:kpv}{inbook}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Kant}{K.}%
+     {Immanuel}{I.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{bookauthor}{1}{}{%
+    {{}%
+     {Kant}{K.}%
+     {Immanuel}{I.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Walter de Gruyter}%
+  }
+  \strng{namehash}{KI1}
+  \strng{fullhash}{KI1}
+  \field{shorthand}{KpV}
+  \field{label}{KpV}
+  \field{labelyear}{1968}
+  \field{extrayear}{1}
+  \field{sortinit}{K}
+  \field{booktitle}{Kritik der praktischen Vernunft. Kritik der Urtheilskraft}
+  \field{hyphenation}{german}
+  \field{maintitle}{Kants Werke. Akademie Textausgabe}
+  \field{pages}{1\bibrangedash 163}
+  \field{shorttitle}{Kritik der praktischen Vernunft}
+  \field{title}{Kritik der praktischen Vernunft}
+  \field{volume}{5}
+  \list{location}{1}{%
+    {Berlin}%
+  }
+  \field{annotation}{%
+  An edition of Kant's \emph{Collected Works}, volume five. This is an
+  \texttt{inbook} entry which explicitly refers to the \emph{Critique of
+  Practical Reason} only, not to the entire fifth volume. Note the
+  \texttt{author} and \texttt{bookauthor} fields in the database file. By
+  default, the \texttt{bookauthor} is omitted if the values of the
+  \texttt{author} and \texttt{bookauthor} fields are identical%
+  }
+  \field{year}{1968}
+\endentry
+
+\entry{kant:ku}{inbook}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Kant}{K.}%
+     {Immanuel}{I.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{bookauthor}{1}{}{%
+    {{}%
+     {Kant}{K.}%
+     {Immanuel}{I.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Walter de Gruyter}%
+  }
+  \strng{namehash}{KI1}
+  \strng{fullhash}{KI1}
+  \field{shorthand}{KU}
+  \field{label}{KU}
+  \field{labelyear}{1968}
+  \field{extrayear}{2}
+  \field{sortinit}{K}
+  \field{booktitle}{Kritik der praktischen Vernunft. Kritik der Urtheilskraft}
+  \field{hyphenation}{german}
+  \field{maintitle}{Kants Werke. Akademie Textausgabe}
+  \field{pages}{165\bibrangedash 485}
+  \field{title}{Kritik der Urtheilskraft}
+  \field{volume}{5}
+  \list{location}{1}{%
+    {Berlin}%
+  }
+  \field{annotation}{%
+  An edition of Kant's \emph{Collected Works}, volume five. This is an
+  \texttt{inbook} entry which explicitly refers to the \emph{Critique of
+  Judgment} only, not to the entire fifth volume%
+  }
+  \field{year}{1968}
+\endentry
+
 \entry{lamport94}{book}{}
   \name{author}{1}{}{%
     {{}%
@@ -234,7 +322,58 @@
   \field{year}{2011}
 \endentry
 
+\entry{tschichold2007forma}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Tschichold}{T.}%
+     {Jan}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Ateli{\^e} Editorial}%
+  }
+  \strng{namehash}{TJ1}
+  \strng{fullhash}{TJ1}
+  \field{labelyear}{2007}
+  \field{sortinit}{T}
+  \field{isbn}{9788574803616}
+  \field{series}{Artes do livro}
+  \field{title}{A forma do livro: ensaios sobre tipografia e est{\'e}tica do
+  livro}
+  \field{year}{2007}
+\endentry
+
+\entry{willberg2000}{book}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Willberg}{W.}%
+     {Hans~Peter}{H.~P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Forssman}{F.}%
+     {Friedrich}{F.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Verlag Hermann Schmidt}%
+  }
+  \strng{namehash}{WHPFF1}
+  \strng{fullhash}{WHPFF1}
+  \field{labelyear}{2000}
+  \field{sortinit}{W}
+  \field{title}{Erste Hilfe in Typografie}
+  \list{location}{1}{%
+    {Mainz}%
+  }
+  \field{year}{2000}
+\endentry
+
 \lossort
+  \key{kant:ku}
+  \key{kant:kpv}
 \endlossort
 
 \endinput

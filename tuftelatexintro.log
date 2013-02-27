@@ -1,8 +1,8 @@
-This is XeTeX, Version 3.1415926-2.4-0.9998 (TeX Live 2012/W32TeX) (format=xelatex 2013.1.11)  10 FEB 2013 15:07
+This is XeTeX, Version 3.1415926-2.4-0.9998 (TeX Live 2012/W32TeX) (format=xelatex 2013.1.11)  27 FEB 2013 11:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**tuftelatexintro.tex
+**tuftelatexintro
 (./tuftelatexintro.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, ge
@@ -58,6 +58,7 @@ Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 (c:/texlive/2012/texmf-dist/tex/latex/ifmtarg/ifmtarg.sty
 Package: ifmtarg 2009/09/02 v1.2a check for an empty argument
 ))
+Class tufte-book Info: Passing nobib to the `book' class..
 Class tufte-book Info: Loading the base class `book'.
 
 (c:/texlive/2012/texmf-dist/tex/latex/base/book.cls
@@ -232,8 +233,8 @@ Type  H <return>  for immediate help.
                                                   
 l.16   {}
          
-The bibliography requires the 'biblatex' package.
-
+? s
+OK, entering \scrollmode...
 )
 \c@@tufte@num@bibkeys=\count100
  (c:/texlive/2012/texmf-dist/tex/latex/sauerj/optparams.sty
@@ -737,60 +738,66 @@ LaTeX Info: Redefining \scshape on input line 1901.
 LaTeX Info: Redefining \upshape on input line 1905.
 
 (c:/texlive/2012/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
-\g_fontspec_family_Bulmer MT Std_int=\count188
+\g_fontspec_family_Jannon T Moderne Pro_int=\count188
 .................................................
 . fontspec info: "defining-font"
 . 
-. Font family 'BulmerMTStd(0)' created for font 'Bulmer MT Std' with options
-. [Ligatures={TeX},Numbers=OldStyle,BoldFont={Bulmer MT Std
-. Bold},BoldItalicFont={Bulmer MT Std Bold Italic}].
+. Font family 'JannonTModernePro(0)' created for font 'Jannon T Moderne Pro'
+. with options [Ligatures={TeX},].
 . 
 . This font family consists of the following shapes:
 . 
 . * 'normal' with NFSS spec.:
-. <->"Bulmer MT Std/ICU:script=latn;language=DFLT;mapping=tex-text;+onum;"
+. <->"Jannon T Moderne Pro/ICU:script=latn;language=DFLT;mapping=tex-text;"
 . 
 . * 'small caps' with NFSS spec.:
-. <->"Bulmer MT
-. Std/ICU:script=latn;language=DFLT;mapping=tex-text;+onum;+smcp;"
+. <->"Jannon T Moderne
+. Pro/ICU:script=latn;language=DFLT;mapping=tex-text;+smcp;"
 . 
 . * 'bold' with NFSS spec.:
-. <->"Bulmer MT Std
-. Bold/ICU:script=latn;language=DFLT;mapping=tex-text;+onum;"
+. <->"Jannon T Moderne Pro/B/ICU:script=latn;language=DFLT;mapping=tex-text;"
+. 
+. * 'bold small caps' with NFSS spec.:
+. <->"Jannon T Moderne
+. Pro/B/ICU:script=latn;language=DFLT;mapping=tex-text;+smcp;"
 . 
 . * 'italic' with NFSS spec.:
-. <->"Bulmer MT Std/I/ICU:script=latn;language=DFLT;mapping=tex-text;+onum;"
+. <->"Jannon T Moderne Pro/I/ICU:script=latn;language=DFLT;mapping=tex-text;"
+. 
+. * 'italic small caps' with NFSS spec.:
+. <->"Jannon T Moderne
+. Pro/I/ICU:script=latn;language=DFLT;mapping=tex-text;+smcp;"
 . 
 . * 'bold italic' with NFSS spec.:
-. <->"Bulmer MT Std Bold
-. Italic/ICU:script=latn;language=DFLT;mapping=tex-text;+onum;"
+. <->"Jannon T Moderne Pro/BI/ICU:script=latn;language=DFLT;mapping=tex-text;"
+. 
+. * 'bold italic small caps' with NFSS spec.:
+. <->"Jannon T Moderne
+. Pro/BI/ICU:script=latn;language=DFLT;mapping=tex-text;+smcp;"
 .................................................
+\g_fontspec_family_Profile_int=\count189
 .................................................
 . fontspec info: "defining-font"
 . 
-. Font family 'BulmerMTStd(1)' created for font 'Bulmer MT Std' with options
-. [Ligatures={TeX},BoldFont={Bulmer MT Std Bold},BoldItalicFont={Bulmer MT Std
-. Bold Italic}].
+. Font family 'Profile(0)' created for font 'Profile' with options
+. [Ligatures={TeX},BoldFont={Profile-Bold},BoldItalicFont={Profile-BoldItalic}]
+.
 . 
 . This font family consists of the following shapes:
 . 
 . * 'normal' with NFSS spec.:
-. <->"Bulmer MT Std/ICU:script=latn;language=DFLT;mapping=tex-text;"
-. 
-. * 'small caps' with NFSS spec.:
-. <->"Bulmer MT Std/ICU:script=latn;language=DFLT;mapping=tex-text;+smcp;"
+. <->"Profile/ICU:script=latn;language=DFLT;mapping=tex-text;"
 . 
 . * 'bold' with NFSS spec.:
-. <->"Bulmer MT Std Bold/ICU:script=latn;language=DFLT;mapping=tex-text;"
+. <->"Profile-Bold/ICU:script=latn;language=DFLT;mapping=tex-text;"
 . 
 . * 'italic' with NFSS spec.:
-. <->"Bulmer MT Std/I/ICU:script=latn;language=DFLT;mapping=tex-text;"
+. <->"Profile/I/ICU:script=latn;language=DFLT;mapping=tex-text;"
 . 
 . * 'bold italic' with NFSS spec.:
-. <->"Bulmer MT Std Bold
-. Italic/ICU:script=latn;language=DFLT;mapping=tex-text;"
+. <->"Profile-BoldItalic/ICU:script=latn;language=DFLT;mapping=tex-text;"
 .................................................
-\g_fontspec_family_Consolas_int=\count189
+\g_fontspec_family_Consolas_int=\count190
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -817,7 +824,7 @@ Package: polyglossia 2012/04/29 v1.2.1 Babel replacement for XeLaTeX
 
 (c:/texlive/2012/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2011/01/03 v2.1 e-TeX tools for LaTeX
-\etb@tempcnta=\count190
+\etb@tempcnta=\count191
 )
 (c:/texlive/2012/texmf-dist/tex/latex/makecmds/makecmds.sty
 Package: makecmds 2009/09/03 v1.0a extra command making commands
@@ -855,7 +862,7 @@ File: gloss-russian.ldf polyglossia: module for russian
 File: gloss-greek.ldf polyglossia: module for greek
 
 (c:/texlive/2012/texmf-dist/tex/xelatex/polyglossia/xgreek-fixes.def)
-\@attic@num=\count191
+\@attic@num=\count192
 )
 (c:/texlive/2012/texmf-dist/tex/xelatex/arabxetex/arabxetex.sty
 Package: arabxetex 2010/03/04 v1.1.4 ArabTeX-like interface for XeLaTeX
@@ -880,13 +887,13 @@ Package: amsbsy 1999/11/29 v1.2d
 (c:/texlive/2012/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count192
+\inf@bad=\count193
 LaTeX Info: Redefining \frac on input line 211.
-\uproot@=\count193
-\leftroot@=\count194
+\uproot@=\count194
+\leftroot@=\count195
 LaTeX Info: Redefining \overline on input line 307.
-\classnum@=\count195
-\DOTSCASE@=\count196
+\classnum@=\count196
+\DOTSCASE@=\count197
 LaTeX Info: Redefining \ldots on input line 379.
 LaTeX Info: Redefining \dots on input line 382.
 LaTeX Info: Redefining \cdots on input line 467.
@@ -895,16 +902,16 @@ LaTeX Info: Redefining \cdots on input line 467.
 \big@size=\dimen169
 LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
-\macc@depth=\count197
-\c@MaxMatrixCols=\count198
+\macc@depth=\count198
+\c@MaxMatrixCols=\count199
 \dotsspace@=\muskip10
-\c@parentequation=\count199
-\dspbrk@lvl=\count200
+\c@parentequation=\count200
+\dspbrk@lvl=\count201
 \tag@help=\toks24
-\row@=\count201
 Normal \count register pool exhausted, switching to extended pool.
-\column@=\count277
-\maxfields@=\count278
+\row@=\count277
+\column@=\count278
+\maxfields@=\count279
 \andhelp@=\toks25
 \eqnshift@=\dimen170
 \alignsep@=\dimen171
@@ -948,7 +955,7 @@ or  <return>  to continue without it.
 LaTeX Info: Redefining \[ on input line 2666.
 LaTeX Info: Redefining \] on input line 2667.
 ))
-\g_fontspec_family_Minion Pro_int=\count279
+\g_fontspec_family_Minion Pro_int=\count280
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -989,7 +996,7 @@ LaTeX Info: Redefining \] on input line 2667.
 . 
 . This font family consists of the following shapes:
 .................................................
-\g_fontspec_family_Adobe Arabic_int=\count280
+\g_fontspec_family_Adobe Arabic_int=\count281
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -1042,7 +1049,7 @@ Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 \TX@old@col=\dimen180
 \TX@target=\dimen181
 \TX@delta=\dimen182
-\TX@cols=\count281
+\TX@cols=\count282
 \TX@ftn=\toks29
 )
 (c:/texlive/2012/texmf-dist/tex/latex/booktabs/booktabs.sty
@@ -1057,12 +1064,12 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \cmidrulesep=\dimen190
 \cmidrulekern=\dimen191
 \defaultaddspace=\dimen192
-\@cmidla=\count282
-\@cmidlb=\count283
+\@cmidla=\count283
+\@cmidlb=\count284
 \@aboverulesep=\dimen193
 \@belowrulesep=\dimen194
-\@thisruleclass=\count284
-\@lastruleclass=\count285
+\@thisruleclass=\count285
+\@lastruleclass=\count286
 \@thisrulewidth=\dimen195
 )
 (c:/texlive/2012/texmf-dist/tex/generic/ulem/ulem.sty
@@ -1071,7 +1078,7 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \UL@skip=\skip96
 \UL@hook=\toks30
 \UL@height=\dimen196
-\UL@pe=\count286
+\UL@pe=\count287
 \UL@pixel=\dimen197
 \ULC@box=\box69
 Package: ulem 2012/05/18
@@ -1207,7 +1214,7 @@ Package: sidecap 2003/06/06 v1.6f SideCap Package (RN/HjG)
 \SC@tempdima=\dimen201
 Normal \dimen register pool exhausted, switching to extended pool.
 \SC@tempdimb=\dimen256
-\c@SC@C=\count287
+\c@SC@C=\count288
 \SC@BOX=\box72
 )
 (c:/texlive/2012/texmf-dist/tex/latex/enumitem/enumitem.sty
@@ -1217,9 +1224,9 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \enit@outerparindent=\dimen257
 \enit@toks=\toks41
 \enit@inbox=\box73
-\enitdp@description=\count288
+\enitdp@description=\count289
 )
-\g_fontspec_family_MS Mincho_int=\count289
+\g_fontspec_family_MS Mincho_int=\count290
 .................................................
 . fontspec info: "no-font-shape"
 . 
@@ -1246,7 +1253,7 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 . * 'normal' with NFSS spec.:
 . <->"MS Mincho/ICU:script=latn;language=DFLT;mapping=tex-text;"
 .................................................
-\g_fontspec_family_SimSun_int=\count290
+\g_fontspec_family_SimSun_int=\count291
 .................................................
 . fontspec info: "no-font-shape"
 . 
@@ -1278,7 +1285,7 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 . 
 . Font Batang does not contain any OpenType `Script' information.
 .................................................
-\g_fontspec_family_Batang_int=\count291
+\g_fontspec_family_Batang_int=\count292
 .................................................
 . fontspec info: "no-font-shape"
 . 
@@ -1369,11 +1376,11 @@ Package zref Info: New property: page on input line 761.
 (c:/texlive/2012/texmf-dist/tex/generic/oberdiek/atbegshi.sty
 Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
 )
-\c@abspage=\count292
+\c@abspage=\count293
 Package zref Info: New property: abspage on input line 62.
 )
 \mdf@templength=\skip114
-\c@mdf@globalstyle@cnt=\count293
+\c@mdf@globalstyle@cnt=\count294
 \mdf@skipabove@length=\skip115
 \mdf@skipbelow@length=\skip116
 \mdf@leftmargin@length=\skip117
@@ -1443,7 +1450,7 @@ Package zref Info: New property: abspage on input line 62.
 (c:/texlive/2012/texmf-dist/tex/latex/mdframed/md-frame-0.mdf
 File: md-frame-0.mdf 2012/04/08 v1.5: md-frame-0
 )
-\c@mdf@zref@counter=\count294
+\c@mdf@zref@counter=\count295
 Package zref Info: New property: mdf@pagevalue on input line 782.
 \mdf@horizontalspaceofbox=\skip164
 )
@@ -1452,13 +1459,13 @@ Package: ccicons 2012/05/22 v1.4 LaTeX support for Creative Commons icons
 )
 (c:/texlive/2012/texmf-dist/tex/latex/lettrine/lettrine.sty
 File: lettrine.sty 2007/08/08 v1.62 (Daniel Flipo)
-\c@DefaultLines=\count295
+\c@DefaultLines=\count296
 \DefaultFindent=\dimen262
 \DefaultNindent=\dimen263
 \DefaultSlope=\dimen264
 \L@lbox=\box78
 \L@tbox=\box79
-\c@L@lines=\count296
+\c@L@lines=\count297
 \L@Pindent=\dimen265
 \L@Findent=\dimen266
 \L@Nindent=\dimen267
@@ -1507,13 +1514,13 @@ Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
 Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
 )
 \@linkdim=\dimen274
-\Hy@linkcounter=\count297
-\Hy@pagecounter=\count298
+\Hy@linkcounter=\count298
+\Hy@pagecounter=\count299
 
 (c:/texlive/2012/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2012/05/13 v6.82q Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count299
+\Hy@SavedSpaceFactor=\count300
 
 (c:/texlive/2012/texmf-dist/tex/xelatex/xetexconfig/hyperref.cfg
 File: hyperref.cfg 2008/07/11 v1.2 hyperref configuration for XeLaTeX
@@ -1528,14 +1535,14 @@ Package hyperref Info: Plain pages OFF on input line 4077.
 Package hyperref Info: Backreferencing OFF on input line 4082.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4300.
-\c@Hy@tempcnt=\count300
+\c@Hy@tempcnt=\count301
 
 (c:/texlive/2012/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip11
 Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4653.
-\Fld@menulength=\count301
+\Fld@menulength=\count302
 \Field@Width=\dimen275
 \Fld@charsize=\dimen276
 Package hyperref Info: Hyper figures OFF on input line 5773.
@@ -1547,8 +1554,8 @@ Package hyperref Info: Link coloring with OCG OFF on input line 5798.
 Package hyperref Info: PDF/A mode OFF on input line 5803.
 LaTeX Info: Redefining \ref on input line 5843.
 LaTeX Info: Redefining \pageref on input line 5847.
-\Hy@abspage=\count302
-\c@Item=\count303
+\Hy@abspage=\count303
+\c@Item=\count304
 )
 
 Package hyperref Message: Driver (autodetected): hxetex.
@@ -1564,10 +1571,10 @@ Package: stringenc 2011/12/02 v1.10 Convert strings between diff. encodings (HO
 )
 )
 \pdfm@box=\box80
-\c@Hy@AnnotLevel=\count304
-\HyField@AnnotCount=\count305
-\Fld@listcount=\count306
-\c@bookmark@seq@number=\count307
+\c@Hy@AnnotLevel=\count305
+\HyField@AnnotCount=\count306
+\Fld@listcount=\count307
+\c@bookmark@seq@number=\count308
 
 (c:/texlive/2012/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
@@ -1580,60 +1587,50 @@ tly
 )
 \Hy@SectionHShift=\skip165
 )
-
-Package hyperref Warning: Option `hyperfootnotes' has already been used,
-(hyperref)                setting the option has no effect on input line 54.
-
-! Too many }'s.
-l.60 ...sspacing{\scshape\MakeTextLowercase{#1}}}}
-                                                  
-You've closed more groups than you opened.
-Such booboos are generally harmless, so keep going.
-
 (c:/texlive/2012/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2011/11/13 v1.7 programmable bibliographies
 
 (c:/texlive/2012/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count308
+\lrq@indent=\count309
 
 (c:/texlive/2012/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
-\c@listtotal=\count309
-\c@listcount=\count310
-\c@liststart=\count311
-\c@liststop=\count312
-\c@citecount=\count313
-\c@citetotal=\count314
-\c@multicitecount=\count315
-\c@multicitetotal=\count316
-\c@instcount=\count317
-\c@maxnames=\count318
-\c@minnames=\count319
-\c@maxitems=\count320
-\c@minitems=\count321
-\c@citecounter=\count322
-\c@savedcitecounter=\count323
-\c@uniquelist=\count324
-\c@uniquename=\count325
-\c@refsection=\count326
-\c@refsegment=\count327
-\c@maxextrayear=\count328
-\c@maxextraalpha=\count329
-\c@abbrvpenalty=\count330
-\c@highnamepenalty=\count331
-\c@lownamepenalty=\count332
-\c@maxparens=\count333
-\c@parenlevel=\count334
-\blx@tempcnta=\count335
-\blx@tempcntb=\count336
-\blx@tempcntc=\count337
-\blx@maxsection=\count338
-\blx@maxsegment=\count339
-\blx@notetype=\count340
-\blx@parenlevel@text=\count341
-\blx@parenlevel@foot=\count342
+\c@listtotal=\count310
+\c@listcount=\count311
+\c@liststart=\count312
+\c@liststop=\count313
+\c@citecount=\count314
+\c@citetotal=\count315
+\c@multicitecount=\count316
+\c@multicitetotal=\count317
+\c@instcount=\count318
+\c@maxnames=\count319
+\c@minnames=\count320
+\c@maxitems=\count321
+\c@minitems=\count322
+\c@citecounter=\count323
+\c@savedcitecounter=\count324
+\c@uniquelist=\count325
+\c@uniquename=\count326
+\c@refsection=\count327
+\c@refsegment=\count328
+\c@maxextrayear=\count329
+\c@maxextraalpha=\count330
+\c@abbrvpenalty=\count331
+\c@highnamepenalty=\count332
+\c@lownamepenalty=\count333
+\c@maxparens=\count334
+\c@parenlevel=\count335
+\blx@tempcnta=\count336
+\blx@tempcntb=\count337
+\blx@tempcntc=\count338
+\blx@maxsection=\count339
+\blx@maxsegment=\count340
+\blx@notetype=\count341
+\blx@parenlevel@text=\count342
+\blx@parenlevel@foot=\count343
 \labelnumberwidth=\skip166
 \labelalphawidth=\skip167
 \shorthandwidth=\skip168
@@ -1659,75 +1656,75 @@ or  <return>  to continue without it.
 
 \blx@auxin=\read1
 \blx@auxout=\write3
-\c@mincomprange=\count343
-\c@maxcomprange=\count344
-\c@mincompwidth=\count345
-\c@labelname=\count346
-\c@savedlabelname=\count347
-\c@author=\count348
-\c@savedauthor=\count349
-\c@shortauthor=\count350
-\c@savedshortauthor=\count351
-\c@editor=\count352
-\c@savededitor=\count353
-\c@editora=\count354
-\c@savededitora=\count355
-\c@editorb=\count356
-\c@savededitorb=\count357
-\c@editorc=\count358
-\c@savededitorc=\count359
-\c@shorteditor=\count360
-\c@savedshorteditor=\count361
-\c@bookauthor=\count362
-\c@savedbookauthor=\count363
-\c@translator=\count364
-\c@savedtranslator=\count365
-\c@annotator=\count366
-\c@savedannotator=\count367
-\c@commentator=\count368
-\c@savedcommentator=\count369
-\c@introduction=\count370
-\c@savedintroduction=\count371
-\c@foreword=\count372
-\c@savedforeword=\count373
-\c@afterword=\count374
-\c@savedafterword=\count375
-\c@holder=\count376
-\c@savedholder=\count377
-\c@namea=\count378
-\c@savednamea=\count379
-\c@nameb=\count380
-\c@savednameb=\count381
-\c@namec=\count382
-\c@savednamec=\count383
-\c@institution=\count384
-\c@savedinstitution=\count385
-\c@language=\count386
-\c@savedlanguage=\count387
-\c@location=\count388
-\c@savedlocation=\count389
-\c@organization=\count390
-\c@savedorganization=\count391
-\c@origlocation=\count392
-\c@savedoriglocation=\count393
-\c@origpublisher=\count394
-\c@savedorigpublisher=\count395
-\c@pageref=\count396
-\c@savedpageref=\count397
-\c@publisher=\count398
-\c@savedpublisher=\count399
-\c@lista=\count400
-\c@savedlista=\count401
-\c@listb=\count402
-\c@savedlistb=\count403
-\c@listc=\count404
-\c@savedlistc=\count405
-\c@listd=\count406
-\c@savedlistd=\count407
-\c@liste=\count408
-\c@savedliste=\count409
-\c@listf=\count410
-\c@savedlistf=\count411
+\c@mincomprange=\count344
+\c@maxcomprange=\count345
+\c@mincompwidth=\count346
+\c@labelname=\count347
+\c@savedlabelname=\count348
+\c@author=\count349
+\c@savedauthor=\count350
+\c@shortauthor=\count351
+\c@savedshortauthor=\count352
+\c@editor=\count353
+\c@savededitor=\count354
+\c@editora=\count355
+\c@savededitora=\count356
+\c@editorb=\count357
+\c@savededitorb=\count358
+\c@editorc=\count359
+\c@savededitorc=\count360
+\c@shorteditor=\count361
+\c@savedshorteditor=\count362
+\c@bookauthor=\count363
+\c@savedbookauthor=\count364
+\c@translator=\count365
+\c@savedtranslator=\count366
+\c@annotator=\count367
+\c@savedannotator=\count368
+\c@commentator=\count369
+\c@savedcommentator=\count370
+\c@introduction=\count371
+\c@savedintroduction=\count372
+\c@foreword=\count373
+\c@savedforeword=\count374
+\c@afterword=\count375
+\c@savedafterword=\count376
+\c@holder=\count377
+\c@savedholder=\count378
+\c@namea=\count379
+\c@savednamea=\count380
+\c@nameb=\count381
+\c@savednameb=\count382
+\c@namec=\count383
+\c@savednamec=\count384
+\c@institution=\count385
+\c@savedinstitution=\count386
+\c@language=\count387
+\c@savedlanguage=\count388
+\c@location=\count389
+\c@savedlocation=\count390
+\c@organization=\count391
+\c@savedorganization=\count392
+\c@origlocation=\count393
+\c@savedoriglocation=\count394
+\c@origpublisher=\count395
+\c@savedorigpublisher=\count396
+\c@pageref=\count397
+\c@savedpageref=\count398
+\c@publisher=\count399
+\c@savedpublisher=\count400
+\c@lista=\count401
+\c@savedlista=\count402
+\c@listb=\count403
+\c@savedlistb=\count404
+\c@listc=\count405
+\c@savedlistc=\count406
+\c@listd=\count407
+\c@savedlistd=\count408
+\c@liste=\count409
+\c@savedliste=\count410
+\c@listf=\count411
+\c@savedlistf=\count412
 
 ! LaTeX Error: Command \citename already defined.
                Or name \end... illegal, see p.192 of the manual.
@@ -1752,9 +1749,9 @@ Package biblatex Info: ... file 'biblatex.def' found.
 
 (c:/texlive/2012/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2011/11/13 v1.7 biblatex generic definitions
-\c@biburlnumpenalty=\count412
-\c@biburlucpenalty=\count413
-\c@biburllcpenalty=\count414
+\c@biburlnumpenalty=\count413
+\c@biburlucpenalty=\count414
+\c@biburllcpenalty=\count415
 
 
 ! LaTeX Error: Command \bibfont already defined.
@@ -1770,7 +1767,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-\c@smartand=\count415
+\c@smartand=\count416
 
 Package biblatex Warning: Redefining '\citeauthor'.
 
@@ -1790,175 +1787,6 @@ l.1683 ...d*{\Citeauthor}{\bibsentence\citeauthor}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
-
-)
-Package biblatex Info: Trying to load natbib compatibility...
-Package biblatex Info: ... file 'blx-natbib.def' found.
- (c:/texlive/2012/texmf-dist/tex/latex/biblatex/blx-natbib.def
-File: blx-natbib.def 2011/11/13 v1.7 biblatex natbib compatibility
-
-
-! LaTeX Error: Command \citet already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.13     {\textcite}}
-                     
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \citep already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.19     {\parencite}}
-                      
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \citealt already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.28      \cite}}
-                 
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \citealp already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.34     {\cite}}
-                 
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Package biblatex Warning: Redefining '\citeyearpar'.
-
-
-! LaTeX Error: Command \Citet already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.54 \newrobustcmd*{\Citet}{\bibsentence\citet}
-                                               
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \Citep already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.55 \newrobustcmd*{\Citep}{\bibsentence\citep}
-                                               
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \Citealt already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.56 ...robustcmd*{\Citealt}{\bibsentence\citealt}
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \Citealp already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.57 ...robustcmd*{\Citealp}{\bibsentence\citealp}
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \citefullauthor already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.58 \newrobustcmd*{\citefullauthor}{\citeauthor*}
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \citetext already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.60 \newrobustcmd*{\citetext}{\parentext}
-                                          
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \defcitealias already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.67   \csgdef{abx@alias@\detokenize{#1}}{#2}}
-                                              
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Package biblatex Warning: Redefining '\citetalias'.
-
-
-Package biblatex Warning: Redefining '\citepalias'.
 
 )
 Package biblatex Info: Trying to load bibliography style 'historian'...
@@ -1991,12 +1819,12 @@ File: biblatex.cfg
 ))
 (c:/texlive/2012/texmf-dist/tex/latex/csquotes/csquotes.sty
 Package: csquotes 2011/10/22 v5.1d context-sensitive quotations
-\csq@reset=\count416
-\csq@gtype=\count417
-\csq@glevel=\count418
-\csq@qlevel=\count419
-\csq@maxlvl=\count420
-\csq@tshold=\count421
+\csq@reset=\count417
+\csq@gtype=\count418
+\csq@glevel=\count419
+\csq@qlevel=\count420
+\csq@maxlvl=\count421
+\csq@tshold=\count422
 \csq@ltx@everypar=\toks42
 
 (c:/texlive/2012/texmf-dist/tex/latex/csquotes/csquotes.def
@@ -2008,9 +1836,46 @@ Package csquotes Info: ... configuration file loaded successfully.
 (c:/texlive/2012/texmf-dist/tex/latex/csquotes/csquotes.cfg
 File: csquotes.cfg 
 ))
+(c:/texlive/2012/texmf-dist/tex/latex/bbding/bbding.sty
+Package: bbding 1999/04/15 v1.01 Dingbats symbols
+
+
+! LaTeX Error: Command \Square already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.133 \newcommand{\Square}{\@chooseSymbol{'146}}
+                                                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+) (c:/texlive/2012/texmf-dist/tex/latex/hyphenat/hyphenat.sty
+Package: hyphenat 2009/09/02 v2.3c hyphenation utilities
+\langwohyphens=\language77
+LaTeX Info: Redefining \_ on input line 43.
+
+
+! LaTeX Error: Command \nohyphens already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.69 ...ohyphens}[1]{{\language\langwohyphens #1}}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+)
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 75.
+(hyperref)                removing `\\' on input line 87.
 
 (c:/texlive/2012/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
 File: se-ascii-print.def 2011/12/02 v1.10 stringenc: Printable ASCII characters
@@ -2024,7 +1889,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.80 \begin{document}
+l.92 \begin{document}
                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2037,7 +1902,7 @@ See the biblatex package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.80 \begin{document}
+l.92 \begin{document}
                      
 The 'natbib' package and biblatex are incompatible.
 
@@ -2064,7 +1929,11 @@ Package csquotes Warning: Using preliminary 'polyglossia' interface.
 
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'brazil'.
-(./tuftelatexintro.aux (./texto-bibliografia.aux)
+
+LaTeX Warning: Unused global option(s):
+    [nobib].
+
+(./tuftelatexintro.aux (./texto-bibliografia.aux) (./biblatex.aux)
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 
@@ -2086,39 +1955,39 @@ File: greek.lbx 2011/11/13 v1.7 biblatex localization
 (./abntex2-latexintro.aux))
 \openout1 = `tuftelatexintro.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 80.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 80.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 92.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 92.
  (c:/texlive/2012/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 80.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 80.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 92.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 92.
  (c:/texlive/2012/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
 
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 80.
+LaTeX Info: Redefining \selectfont on input line 92.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -2163,7 +2032,7 @@ See the bidi package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.80 \begin{document}
+l.92 \begin{document}
                      
 This error message was generated by an \errmessage
 command, so I can't give any explicit help.
@@ -2179,7 +2048,7 @@ See the bidi package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.80 \begin{document}
+l.92 \begin{document}
                      
 (That was another \errmessage.)
 
@@ -2192,7 +2061,7 @@ See the bidi package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.80 \begin{document}
+l.92 \begin{document}
                      
 (That was another \errmessage.)
 
@@ -2205,7 +2074,7 @@ See the bidi package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.80 \begin{document}
+l.92 \begin{document}
                      
 (That was another \errmessage.)
 
@@ -2218,7 +2087,7 @@ See the bidi package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.80 \begin{document}
+l.92 \begin{document}
                      
 (That was another \errmessage.)
 
@@ -2231,7 +2100,7 @@ See the bidi package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.80 \begin{document}
+l.92 \begin{document}
                      
 (That was another \errmessage.)
 
@@ -2244,7 +2113,7 @@ See the bidi package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.80 \begin{document}
+l.92 \begin{document}
                      
 (That was another \errmessage.)
 
@@ -2257,7 +2126,7 @@ See the bidi package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.80 \begin{document}
+l.92 \begin{document}
                      
 (That was another \errmessage.)
 
@@ -2270,7 +2139,7 @@ See the bidi package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.80 \begin{document}
+l.92 \begin{document}
                      
 (That was another \errmessage.)
 
@@ -2283,7 +2152,7 @@ See the bidi package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.80 \begin{document}
+l.92 \begin{document}
                      
 (That was another \errmessage.)
 
@@ -2296,7 +2165,7 @@ See the bidi package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.80 \begin{document}
+l.92 \begin{document}
                      
 (That was another \errmessage.)
 
@@ -2309,7 +2178,7 @@ See the bidi package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.80 \begin{document}
+l.92 \begin{document}
                      
 (That was another \errmessage.)
 
@@ -2322,7 +2191,7 @@ See the bidi package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.80 \begin{document}
+l.92 \begin{document}
                      
 (That was another \errmessage.)
 
@@ -2335,23 +2204,23 @@ See the bidi package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.80 \begin{document}
+l.92 \begin{document}
                      
 (That was another \errmessage.)
 
 \AtBeginShipoutBox=\box81
-Package hyperref Info: Link coloring OFF on input line 80.
+Package hyperref Info: Link coloring OFF on input line 92.
 (c:/texlive/2012/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
 
 (c:/texlive/2012/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count422
+\c@section@level=\count423
 )
-LaTeX Info: Redefining \ref on input line 80.
-LaTeX Info: Redefining \pageref on input line 80.
-LaTeX Info: Redefining \nameref on input line 80.
+LaTeX Info: Redefining \ref on input line 92.
+LaTeX Info: Redefining \pageref on input line 92.
+LaTeX Info: Redefining \nameref on input line 92.
 
 (./tuftelatexintro.out) (./tuftelatexintro.out)
 \@outlinefile=\write4
@@ -2371,8 +2240,8 @@ Package biblatex Warning: Data encoding is 'utf8'.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'tuftelatexintro.bbl' found.
 (./tuftelatexintro.bbl)
-Package biblatex Info: Reference section=0 on input line 80.
-Package biblatex Info: Reference segment=0 on input line 80.
+Package biblatex Info: Reference section=0 on input line 92.
+Package biblatex Info: Reference segment=0 on input line 92.
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: xetex
 * paper: a4paper
@@ -2405,38 +2274,40 @@ Package biblatex Info: Reference segment=0 on input line 80.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Calculating math sizes for size <70> on input line 95.
-LaTeX Font Info:    Try loading font information for U+zeur on input line 95.
+LaTeX Font Info:    Calculating math sizes for size <70> on input line 109.
+LaTeX Font Info:    Try loading font information for U+zeur on input line 109.
  (c:/texlive/2012/texmf-dist/tex/latex/eulervm/uzeur.fd
 File: uzeur.fd 2005/01/11 v4.0 (WaS)
 )
-LaTeX Font Info:    Try loading font information for U+zeus on input line 95.
+LaTeX Font Info:    Try loading font information for U+zeus on input line 109.
 (c:/texlive/2012/texmf-dist/tex/latex/eulervm/uzeus.fd
 File: uzeus.fd 2005/01/11 v4.0 (WaS)
 )
-LaTeX Font Info:    Try loading font information for U+zeuex on input line 95.
+LaTeX Font Info:    Try loading font information for U+zeuex on input line 109.
+
 
 (c:/texlive/2012/texmf-dist/tex/latex/eulervm/uzeuex.fd
 File: uzeuex.fd 2005/01/11 v4.0 (WaS)
 )
-LaTeX Font Info:    Try loading font information for U+wasy on input line 95.
+LaTeX Font Info:    Try loading font information for U+wasy on input line 109.
 
 (c:/texlive/2012/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
 )
 
 LaTeX Font Warning: Font shape `U/wasy/m/n' in size <70> not available
-(Font)              size <24.88> substituted on input line 95.
+(Font)              size <24.88> substituted on input line 109.
 
 
 LaTeX Font Warning: Font shape `U/wasy/m/n' in size <48.99979> not available
-(Font)              size <24.88> substituted on input line 95.
+(Font)              size <24.88> substituted on input line 109.
 
 
 LaTeX Font Warning: Font shape `U/wasy/m/n' in size <35> not available
-(Font)              size <24.88> substituted on input line 95.
+(Font)              size <24.88> substituted on input line 109.
 
 [1
+
 
 
 
@@ -2447,54 +2318,84 @@ LaTeX Font Warning: Font shape `U/wasy/m/n' in size <35> not available
 .................................................
 . fontspec info: "defining-font"
 . 
-. Font family 'BulmerMTStd(2)' created for font 'Bulmer MT Std' with options
-. [Ligatures={TeX},BoldFont={Bulmer MT Std Bold},BoldItalicFont={Bulmer MT Std
-. Bold Italic},LetterSpace=20.0].
+. Font family 'Profile(1)' created for font 'Profile' with options
+. [Ligatures={TeX},BoldFont={Profile-Bold},BoldItalicFont={Profile-BoldItalic},
+LetterSpace=20.0].
 . 
 . This font family consists of the following shapes:
 . 
 . * 'normal' with NFSS spec.:
-. <->"Bulmer MT
-. Std/ICU:script=latn;language=DFLT;mapping=tex-text;letterspace=20.0;"
 . 
-. * 'small caps' with NFSS spec.:
-. <->"Bulmer MT
-. Std/ICU:script=latn;language=DFLT;mapping=tex-text;letterspace=20.0;+smcp;"
+. <->"Profile/ICU:script=latn;language=DFLT;mapping=tex-text;letterspace=20.0;"
+
 . 
 . * 'bold' with NFSS spec.:
-. <->"Bulmer MT Std
-. Bold/ICU:script=latn;language=DFLT;mapping=tex-text;letterspace=20.0;"
+. 
+. <->"Profile-Bold/ICU:script=latn;language=DFLT;mapping=tex-text;letterspace=2
+0.0;"
 . 
 . * 'italic' with NFSS spec.:
-. <->"Bulmer MT
-. Std/I/ICU:script=latn;language=DFLT;mapping=tex-text;letterspace=20.0;"
+. 
+. <->"Profile/I/ICU:script=latn;language=DFLT;mapping=tex-text;letterspace=20.0
+;"
 . 
 . * 'bold italic' with NFSS spec.:
-. <->"Bulmer MT Std Bold
-. Italic/ICU:script=latn;language=DFLT;mapping=tex-text;letterspace=20.0;"
+. 
+. <->"Profile-BoldItalic/ICU:script=latn;language=DFLT;mapping=tex-text;letters
+pace=20.0;"
 .................................................
 .................................................
 . fontspec info: "defining-font"
 . 
-. Font family 'BulmerMTStd(2)' created for font 'Bulmer MT Std' with options
-. [Ligatures={TeX},BoldFont={Bulmer MT Std Bold},BoldItalicFont={Bulmer MT Std
-. Bold Italic},LetterSpace=20.0].
+. Font family 'Profile(1)' created for font 'Profile' with options
+. [Ligatures={TeX},BoldFont={Profile-Bold},BoldItalicFont={Profile-BoldItalic},
+LetterSpace=20.0].
 . 
 . This font family consists of the following shapes:
 .................................................
 .................................................
 . fontspec info: "defining-font"
 . 
-. Font family 'BulmerMTStd(2)' created for font 'Bulmer MT Std' with options
-. [Ligatures={TeX},BoldFont={Bulmer MT Std Bold},BoldItalicFont={Bulmer MT Std
-. Bold Italic},LetterSpace=20.0].
+. Font family 'Profile(1)' created for font 'Profile' with options
+. [Ligatures={TeX},BoldFont={Profile-Bold},BoldItalicFont={Profile-BoldItalic},
+LetterSpace=20.0].
 . 
 . This font family consists of the following shapes:
 .................................................
  [3] [4
 
 
-] [5] [6
+]
+File: amdg.png Graphic file (type QTm)
+ <use  "amdg.png" >
+\g_fontspec_family_San Marco LT Std_int=\count424
+.................................................
+. fontspec info: "no-font-shape"
+. 
+. Could not resolve font San Marco LT Std/B (it probably doesn't exist).
+.................................................
+.................................................
+. fontspec info: "no-font-shape"
+. 
+. Could not resolve font San Marco LT Std/I (it probably doesn't exist).
+.................................................
+.................................................
+. fontspec info: "no-font-shape"
+. 
+. Could not resolve font San Marco LT Std/BI (it probably doesn't exist).
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'SanMarcoLTStd(0)' created for font 'San Marco LT Std' with
+. options [Ligatures={TeX},].
+. 
+. This font family consists of the following shapes:
+. 
+. * 'normal' with NFSS spec.:
+. <->"San Marco LT Std/ICU:script=latn;language=DFLT;mapping=tex-text;"
+.................................................
+ [5] [6
 
 ] (./tuftelatexintro.toc)
 \tf@toc=\write5
@@ -2504,14 +2405,15 @@ LaTeX Font Warning: Font shape `U/wasy/m/n' in size <35> not available
 
 ] [8
 
-] (./tuftelatexintro.lof
+]
+(./tuftelatexintro.lof
 LaTeX Font Info:    Font shape `EU1/Consolas(0)/m/n' will be
-(Font)              scaled to size 8.00003pt on input line 17.
+(Font)              scaled to size 8.00003pt on input line 21.
 )
 \tf@lof=\write6
 \openout6 = `tuftelatexintro.lof'.
 
-[9] [10
+ [9] [10
 
 ] (./tuftelatexintro.lot)
 \tf@lot=\write7
@@ -2521,170 +2423,133 @@ LaTeX Font Info:    Font shape `EU1/Consolas(0)/m/n' will be
 
 ]
 Capítulo 1.
-[13]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [13
+
+]
 .................................................
 . fontspec info: "defining-font"
 . 
-. Font family 'BulmerMTStd(3)' created for font 'Bulmer MT Std' with options
-. [Ligatures={TeX},Numbers=OldStyle,BoldFont={Bulmer MT Std
-. Bold},BoldItalicFont={Bulmer MT Std Bold Italic},LetterSpace=5.0].
+. Font family 'JannonTModernePro(1)' created for font 'Jannon T Moderne Pro'
+. with options [Ligatures={TeX},,LetterSpace=5.0].
 . 
 . This font family consists of the following shapes:
 . 
 . * 'normal' with NFSS spec.:
-. <->"Bulmer MT
-. Std/ICU:script=latn;language=DFLT;mapping=tex-text;+onum;letterspace=5.0;"
+. <->"Jannon T Moderne
+. Pro/ICU:script=latn;language=DFLT;mapping=tex-text;letterspace=5.0;"
 . 
 . * 'small caps' with NFSS spec.:
-. <->"Bulmer MT
-. Std/ICU:script=latn;language=DFLT;mapping=tex-text;+onum;letterspace=5.0;+smc
-p;"
+. <->"Jannon T Moderne
+. Pro/ICU:script=latn;language=DFLT;mapping=tex-text;letterspace=5.0;+smcp;"
 . 
 . * 'bold' with NFSS spec.:
-. <->"Bulmer MT Std
-. Bold/ICU:script=latn;language=DFLT;mapping=tex-text;+onum;letterspace=5.0;"
+. <->"Jannon T Moderne
+. Pro/B/ICU:script=latn;language=DFLT;mapping=tex-text;letterspace=5.0;"
+. 
+. * 'bold small caps' with NFSS spec.:
+. <->"Jannon T Moderne
+. Pro/B/ICU:script=latn;language=DFLT;mapping=tex-text;letterspace=5.0;+smcp;"
 . 
 . * 'italic' with NFSS spec.:
-. <->"Bulmer MT
-. Std/I/ICU:script=latn;language=DFLT;mapping=tex-text;+onum;letterspace=5.0;"
+. <->"Jannon T Moderne
+. Pro/I/ICU:script=latn;language=DFLT;mapping=tex-text;letterspace=5.0;"
+. 
+. * 'italic small caps' with NFSS spec.:
+. <->"Jannon T Moderne
+. Pro/I/ICU:script=latn;language=DFLT;mapping=tex-text;letterspace=5.0;+smcp;"
 . 
 . * 'bold italic' with NFSS spec.:
-. <->"Bulmer MT Std Bold
-. Italic/ICU:script=latn;language=DFLT;mapping=tex-text;+onum;letterspace=5.0;"
+. <->"Jannon T Moderne
+. Pro/BI/ICU:script=latn;language=DFLT;mapping=tex-text;letterspace=5.0;"
+. 
+. * 'bold italic small caps' with NFSS spec.:
+. <->"Jannon T Moderne
+. Pro/BI/ICU:script=latn;language=DFLT;mapping=tex-text;letterspace=5.0;+smcp;"
 
 .................................................
- [14]
+
+[14]
+File: grafico-latex.png Graphic file (type QTm)
+ <use  "grafico-latex.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 192--192
+[]\EU1/JannonTModernePro(0)/m/n/10 Figura 1.1: []Uma comparação
+ []
+
 .................................................
 . fontspec info: "defining-font"
 . 
-. Font family 'BulmerMTStd(3)' created for font 'Bulmer MT Std' with options
-. [Ligatures={TeX},Numbers=OldStyle,BoldFont={Bulmer MT Std
-. Bold},BoldItalicFont={Bulmer MT Std Bold Italic},LetterSpace=5.0].
+. Font family 'JannonTModernePro(1)' created for font 'Jannon T Moderne Pro'
+. with options [Ligatures={TeX},,LetterSpace=5.0].
 . 
 . This font family consists of the following shapes:
 .................................................
- [15] [16
+[15]
+File: biblia-gutenberg.jpg Graphic file (type QTm)
+ <use  "biblia-gutenberg.jpg" >
+Underfull \hbox (badness 10000) in paragraph at lines 228--228
+[]\EU1/JannonTModernePro(0)/m/n/10 Figura 1.2: []Uma Bíblia im-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 228--228
+\EU1/JannonTModernePro(0)/m/n/10 pressa por Gutenberg. No-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 228--228
+\EU1/JannonTModernePro(0)/m/n/10 tar o texto em duas colu-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 228--228
+\EU1/JannonTModernePro(0)/m/n/10 nas e as margens. Fonte:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 228--228
+[]$[][][][] [] [] [] [][][] [] [][][][][][][][][][][][][][][] []$
+ []
+
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'JannonTModernePro(1)' created for font 'Jannon T Moderne Pro'
+. with options [Ligatures={TeX},,LetterSpace=5.0].
+. 
+. This font family consists of the following shapes:
+.................................................
+[16]
+
+LaTeX Warning: Marginpar on page 17 moved.
+
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'JannonTModernePro(1)' created for font 'Jannon T Moderne Pro'
+. with options [Ligatures={TeX},,LetterSpace=5.0].
+. 
+. This font family consists of the following shapes:
+.................................................
+[17] [18
 
 ]
 Capítulo 2.
-[17]
+[19]
 File: latexbasico.png Graphic file (type QTm)
  <use  "latexbasico.png" >
-Overfull \hbox (42.77847pt too wide) in paragraph at lines 280--281
-[]\EU1/BulmerMTStd(0)/m/n/10 No caso, tudo o que eu precisei de fazer foi rodar
- o comando []\EU1/Consolas(0)/m/n/10 pdflatex latexbasico.tex 
+Overfull \hbox (1.35522pt too wide) in paragraph at lines 340--341
+[]\EU1/Consolas(0)/m/n/10 pdflatex latexbasico.tex \EU1/JannonTModernePro(0)/m/
+n/10 na pasta onde deixei o arquivo []\EU1/Consolas(0)/m/n/10 latexbasico.tex 
  []
 
 .................................................
 . fontspec info: "defining-font"
 . 
-. Font family 'BulmerMTStd(3)' created for font 'Bulmer MT Std' with options
-. [Ligatures={TeX},Numbers=OldStyle,BoldFont={Bulmer MT Std
-. Bold},BoldItalicFont={Bulmer MT Std Bold Italic},LetterSpace=5.0].
-. 
-. This font family consists of the following shapes:
-.................................................
-[18]
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'BulmerMTStd(3)' created for font 'Bulmer MT Std' with options
-. [Ligatures={TeX},Numbers=OldStyle,BoldFont={Bulmer MT Std
-. Bold},BoldItalicFont={Bulmer MT Std Bold Italic},LetterSpace=5.0].
-. 
-. This font family consists of the following shapes:
-.................................................
- [19]
-Underfull \hbox (badness 10000) in paragraph at lines 407--407
-[]|\EU1/BulmerMTStd(0)/m/n/10 Tamanho da fonte principal do do-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 407--407
-\EU1/BulmerMTStd(0)/m/n/10 cumento. Geralmente o tamanho
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 407--407
-[]|\EU1/BulmerMTStd(0)/m/n/10 a4paper, letterpaper, a5paper, legal-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 407--407
-[]|\EU1/BulmerMTStd(0)/m/n/10 Tamanho do papel. Geralmente vem
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 407--407
-[]|\EU1/BulmerMTStd(0)/m/n/10 Especifica se vai ter ou não página
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 407--407
-\EU1/BulmerMTStd(0)/m/n/10 separada para o título. A classe ar-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 407--407
-\EU1/BulmerMTStd(0)/m/n/10 ticle não tem, por padrão; report
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 407--407
-\EU1/BulmerMTStd(0)/m/n/10 e book, têm. Se quiser mudar esse
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 407--407
-[]|\EU1/BulmerMTStd(0)/m/n/10 twoside=frente e verso, padrão em
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 407--407
-\EU1/BulmerMTStd(0)/m/n/10 livros; oneside=só frente, padrão em
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 407--407
-[]|\EU1/BulmerMTStd(0)/m/n/10 Começa novos capítulos com páginas
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 407--407
-\EU1/BulmerMTStd(0)/m/n/10 da direita (openright) ou qualquer
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 407--407
-\EU1/BulmerMTStd(0)/m/n/10 página (openany). Padrão para
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 407--407
-[]|\EU1/BulmerMTStd(0)/m/n/10 Esboço. Indica problemas de hi-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 407--407
-\EU1/BulmerMTStd(0)/m/n/10 fenização e justificação com um
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 407--407
-\EU1/BulmerMTStd(0)/m/n/10 pequeno quadrado na margem para
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 408--408
-[]\EU1/BulmerMTStd(0)/m/n/10 Tabela 2.1: []Principais opções das
- []
-
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'BulmerMTStd(3)' created for font 'Bulmer MT Std' with options
-. [Ligatures={TeX},Numbers=OldStyle,BoldFont={Bulmer MT Std
-. Bold},BoldItalicFont={Bulmer MT Std Bold Italic},LetterSpace=5.0].
+. Font family 'JannonTModernePro(1)' created for font 'Jannon T Moderne Pro'
+. with options [Ligatures={TeX},,LetterSpace=5.0].
 . 
 . This font family consists of the following shapes:
 .................................................
@@ -2692,60 +2557,165 @@ Underfull \hbox (badness 10000) in paragraph at lines 408--408
 .................................................
 . fontspec info: "defining-font"
 . 
-. Font family 'BulmerMTStd(3)' created for font 'Bulmer MT Std' with options
-. [Ligatures={TeX},Numbers=OldStyle,BoldFont={Bulmer MT Std
-. Bold},BoldItalicFont={Bulmer MT Std Bold Italic},LetterSpace=5.0].
+. Font family 'JannonTModernePro(1)' created for font 'Jannon T Moderne Pro'
+. with options [Ligatures={TeX},,LetterSpace=5.0].
 . 
 . This font family consists of the following shapes:
 .................................................
- [21] [22
+ [21]
+Underfull \hbox (badness 10000) in paragraph at lines 465--465
+[]|\EU1/JannonTModernePro(0)/m/n/10 Tamanho da fonte principal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 465--465
+\EU1/JannonTModernePro(0)/m/n/10 do documento. Geralmente o
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 465--465
+\EU1/JannonTModernePro(0)/m/n/10 tamanho padrão das classes é
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 465--465
+[]|\EU1/JannonTModernePro(0)/m/n/10 a4paper, letterpaper, a5paper,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 465--465
+[]|\EU1/JannonTModernePro(0)/m/n/10 Tamanho do papel. Geralmente
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 465--465
+\EU1/JannonTModernePro(0)/m/n/10 vem com A4, se não for especifi-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 465--465
+[]|\EU1/JannonTModernePro(0)/m/n/10 Especifica se vai ter ou não pá-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 465--465
+\EU1/JannonTModernePro(0)/m/n/10 gina separada para o título. A
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 465--465
+\EU1/JannonTModernePro(0)/m/n/10 classe article não tem, por pa-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 465--465
+\EU1/JannonTModernePro(0)/m/n/10 drão; report e book, têm. Se
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 465--465
+\EU1/JannonTModernePro(0)/m/n/10 quiser mudar esse comporta-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 465--465
+[]|\EU1/JannonTModernePro(0)/m/n/10 twoside=frente e verso, padrão
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 465--465
+\EU1/JannonTModernePro(0)/m/n/10 em livros; oneside=só frente,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 465--465
+[]|\EU1/JannonTModernePro(0)/m/n/10 Começa novos capítulos com
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 465--465
+\EU1/JannonTModernePro(0)/m/n/10 páginas da direita (openright)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 465--465
+\EU1/JannonTModernePro(0)/m/n/10 ou qualquer página (openany).
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 465--465
+[]|\EU1/JannonTModernePro(0)/m/n/10 Esboço. Indica problemas de hi-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 465--465
+\EU1/JannonTModernePro(0)/m/n/10 fenização e justificação com um
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 465--465
+\EU1/JannonTModernePro(0)/m/n/10 pequeno quadrado na margem
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+[]\EU1/JannonTModernePro(0)/m/n/10 Tabela 2.1: []Principais opções das
+ []
+
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'JannonTModernePro(1)' created for font 'Jannon T Moderne Pro'
+. with options [Ligatures={TeX},,LetterSpace=5.0].
+. 
+. This font family consists of the following shapes:
+.................................................
+[22]
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'JannonTModernePro(1)' created for font 'Jannon T Moderne Pro'
+. with options [Ligatures={TeX},,LetterSpace=5.0].
+. 
+. This font family consists of the following shapes:
+.................................................
+ [23] [24
 
 ]
 Capítulo 3.
 LaTeX Font Info:    Font shape `EU1/Consolas(0)/m/it' will be
-(Font)              scaled to size 9.60004pt on input line 438.
+(Font)              scaled to size 9.60004pt on input line 493.
 
-Overfull \hbox (12.24422pt too wide) in paragraph at lines 464--464
+Overfull \hbox (8.73079pt too wide) in paragraph at lines 508--509
+\EU1/JannonTModernePro(0)/m/n/10 O \EU1/JannonTModernePro(0)/m/it/10 preâmbulo
+ \EU1/JannonTModernePro(0)/m/n/10 é tudo entre o começo do arquivo-fonte até
+ []\EU1/Consolas(0)/m/n/10 \begin{document}\EU1/JannonTModernePro(0)/m/n/10 . 
+ []
+
+
+Overfull \hbox (12.24422pt too wide) in paragraph at lines 519--519
 []\EU1/Consolas(0)/m/n/10 % simple.tex - Um artigo simples para ilustrar a estr
 utura do documento.[] 
  []
 
-[23]
-Overfull \hbox (7.47072pt too wide) in paragraph at lines 469--470
-\EU1/Consolas(0)/m/n/10 enumitem \EU1/BulmerMTStd(0)/m/n/10 (ver página []38[]
-), devemos inserir no preâmbulo: []\EU1/Consolas(0)/m/n/10 \usepackage{enumite
-m}\EU1/BulmerMTStd(0)/m/n/10 .  
+[25]
+Overfull \hbox (15.17451pt too wide) in paragraph at lines 521--523
+\EU1/JannonTModernePro(0)/m/n/10 usadas (no caso, \EU1/Consolas(0)/m/n/10 brazi
+l \EU1/JannonTModernePro(0)/m/n/10 = português do Brasil). []\EU1/Consolas(0)/
+m/n/10 \usepackage[utf8]{inputenc} 
+ []
+
+
+Overfull \hbox (0.83305pt too wide) in paragraph at lines 521--523
+\EU1/JannonTModernePro(0)/m/n/10 indica uso de caracteres acentuados diretament
+e e []\EU1/Consolas(0)/m/n/10 \usepackage{mathptmx} 
  []
 
 .................................................
 . fontspec info: "defining-font"
 . 
-. Font family 'BulmerMTStd(3)' created for font 'Bulmer MT Std' with options
-. [Ligatures={TeX},Numbers=OldStyle,BoldFont={Bulmer MT Std
-. Bold},BoldItalicFont={Bulmer MT Std Bold Italic},LetterSpace=5.0].
-. 
-. This font family consists of the following shapes:
-.................................................
-[24]
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'BulmerMTStd(3)' created for font 'Bulmer MT Std' with options
-. [Ligatures={TeX},Numbers=OldStyle,BoldFont={Bulmer MT Std
-. Bold},BoldItalicFont={Bulmer MT Std Bold Italic},LetterSpace=5.0].
-. 
-. This font family consists of the following shapes:
-.................................................
- [25]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'BulmerMTStd(3)' created for font 'Bulmer MT Std' with options
-. [Ligatures={TeX},Numbers=OldStyle,BoldFont={Bulmer MT Std
-. Bold},BoldItalicFont={Bulmer MT Std Bold Italic},LetterSpace=5.0].
+. Font family 'JannonTModernePro(1)' created for font 'Jannon T Moderne Pro'
+. with options [Ligatures={TeX},,LetterSpace=5.0].
 . 
 . This font family consists of the following shapes:
 .................................................
@@ -2753,99 +2723,129 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 .................................................
 . fontspec info: "defining-font"
 . 
-. Font family 'BulmerMTStd(3)' created for font 'Bulmer MT Std' with options
-. [Ligatures={TeX},Numbers=OldStyle,BoldFont={Bulmer MT Std
-. Bold},BoldItalicFont={Bulmer MT Std Bold Italic},LetterSpace=5.0].
+. Font family 'JannonTModernePro(1)' created for font 'Jannon T Moderne Pro'
+. with options [Ligatures={TeX},,LetterSpace=5.0].
 . 
 . This font family consists of the following shapes:
 .................................................
  [27]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'JannonTModernePro(1)' created for font 'Jannon T Moderne Pro'
+. with options [Ligatures={TeX},,LetterSpace=5.0].
+. 
+. This font family consists of the following shapes:
+.................................................
+[28]
+Overfull \hbox (26.12552pt too wide) in paragraph at lines 704--705
+[]\EU1/JannonTModernePro(0)/m/n/10 Se você quiser que essa seção não numera
+da apareça no conteúdo/sumário, 
+ []
+
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'JannonTModernePro(1)' created for font 'Jannon T Moderne Pro'
+. with options [Ligatures={TeX},,LetterSpace=5.0].
+. 
+. This font family consists of the following shapes:
+.................................................
+[29]
 \openout2 = `texto-bibliografia.aux'.
 
- (./texto-bibliografia.tex [28
+ (./texto-bibliografia.tex [30
 
 
 ]
 Capítulo 4.
-[29]
+[31]
 Overfull \hbox (65.02567pt too wide) in paragraph at lines 62--62
 []\EU1/Consolas(0)/m/n/10 sistemas tipográficos como \TeX{} or \LaTeX{} \cite{
 lamport94} podem ser utilizados.[] 
  []
 
 
+Overfull \hbox (6.8984pt too wide) in paragraph at lines 73--75
+\EU1/JannonTModernePro(0)/m/n/10 bliografia sem citá-lo no texto, use o comand
+o \EU1/Consolas(0)/m/n/10 nocite\EU1/JannonTModernePro(0)/m/n/10 : []\EU1/Conso
+las(0)/m/n/10 \nocite{lamport94}\EU1/JannonTModernePro(0)/m/n/10 . 
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 96--96
-[]\EU1/BulmerMTStd(0)/m/n/10 Tabela 4.1: [] Tipos de citação usando
+[]\EU1/JannonTModernePro(0)/m/n/10 Tabela 4.1: [] Tipos de citação
  []
 
 .................................................
 . fontspec info: "defining-font"
 . 
-. Font family 'BulmerMTStd(3)' created for font 'Bulmer MT Std' with options
-. [Ligatures={TeX},Numbers=OldStyle,BoldFont={Bulmer MT Std
-. Bold},BoldItalicFont={Bulmer MT Std Bold Italic},LetterSpace=5.0].
+. Font family 'JannonTModernePro(1)' created for font 'Jannon T Moderne Pro'
+. with options [Ligatures={TeX},,LetterSpace=5.0].
 . 
 . This font family consists of the following shapes:
 .................................................
-[30]
-Overfull \hbox (100.2133pt too wide) in paragraph at lines 131--131
+[32]
+Overfull \hbox (100.2133pt too wide) in paragraph at lines 132--132
 []    \EU1/Consolas(0)/m/n/10 author = {Oetiket, Tobias. and Partl, Hubert. and
  Hyna, Irene. and Schlegl, Elisabeth.},[] 
  []
 
 
-Overfull \hbox (25.43951pt too wide) in paragraph at lines 131--131
+Overfull \hbox (25.43951pt too wide) in paragraph at lines 132--132
 []    \EU1/Consolas(0)/m/n/10 url = {http://www.ctan.org/tex-archive/info/lshor
 t/english/lshort.pdf},[] 
  []
 
 
-Overfull \hbox (192.58086pt too wide) in paragraph at lines 131--131
+Overfull \hbox (78.22104pt too wide) in paragraph at lines 132--132
 []    \EU1/Consolas(0)/m/n/10 author = {Mittelbach, Frank and Goossens, Michel 
-and Braams, Johannes and Carlisle, David and Rowley, Chris},[] 
+and Braams, Johannes and Carlisle,[] 
  []
 
 .................................................
 . fontspec info: "defining-font"
 . 
-. Font family 'BulmerMTStd(3)' created for font 'Bulmer MT Std' with options
-. [Ligatures={TeX},Numbers=OldStyle,BoldFont={Bulmer MT Std
-. Bold},BoldItalicFont={Bulmer MT Std Bold Italic},LetterSpace=5.0].
+. Font family 'JannonTModernePro(1)' created for font 'Jannon T Moderne Pro'
+. with options [Ligatures={TeX},,LetterSpace=5.0].
 . 
 . This font family consists of the following shapes:
 .................................................
-[31]
-Overfull \hbox (214.5731pt too wide) in paragraph at lines 167--167
+[33]
+Overfull \hbox (91.4164pt too wide) in paragraph at lines 169--169
 []  \EU1/Consolas(0)/m/n/10 title = ”Experimental examination of bacteriophag
-e latent-period evolution as a response to bacterial availability”,[] 
+e latent-period evolution as a response[] 
  []
 
 
-Overfull \hbox (34.2365pt too wide) in paragraph at lines 167--167
+Overfull \hbox (34.2365pt too wide) in paragraph at lines 169--169
 []  \EU1/Consolas(0)/m/n/10 title = ”Lysis and the interaction between free p
 hages and infected cells”,[] 
  []
 
 
-Overfull \hbox (100.2133pt too wide) in paragraph at lines 167--167
+Overfull \hbox (100.2133pt too wide) in paragraph at lines 169--169
 []  \EU1/Consolas(0)/m/n/10 editor = ”Karam, Jim D. Karam and Drake, John W. 
 and Kreuzer, Kenneth N. and Mosig, Gisela[] 
  []
 
 
-Overfull \hbox (135.40091pt too wide) in paragraph at lines 167--167
+Overfull \hbox (135.40091pt too wide) in paragraph at lines 169--169
 []            \EU1/Consolas(0)/m/n/10 and Hall, Dwight and Eiserling, Frederick
  A. and Black, Lindsay W. and Kutter, Elizabeth[] 
  []
 
 
-Overfull \hbox (12.2442pt too wide) in paragraph at lines 167--167
+Overfull \hbox (12.2442pt too wide) in paragraph at lines 169--169
 []            \EU1/Consolas(0)/m/n/10 and Carlson, Karin and Miller, Eric S. an
 d Spicer, Eleanor”,[] 
  []
 
 
-Overfull \hbox (21.04109pt too wide) in paragraph at lines 179--179
+Overfull \hbox (21.04109pt too wide) in paragraph at lines 181--181
 []      \EU1/Consolas(0)/m/n/10 url = ”http://www.fermentas.com/techinfo/nucl
 eicacids/maplambda.htm”[] 
  []
@@ -2853,167 +2853,361 @@ eicacids/maplambda.htm”[]
 .................................................
 . fontspec info: "defining-font"
 . 
-. Font family 'BulmerMTStd(3)' created for font 'Bulmer MT Std' with options
-. [Ligatures={TeX},Numbers=OldStyle,BoldFont={Bulmer MT Std
-. Bold},BoldItalicFont={Bulmer MT Std Bold Italic},LetterSpace=5.0].
+. Font family 'JannonTModernePro(1)' created for font 'Jannon T Moderne Pro'
+. with options [Ligatures={TeX},,LetterSpace=5.0].
 . 
 . This font family consists of the following shapes:
 .................................................
-[32]
-Overfull \hbox (30.7245pt too wide) in paragraph at lines 206--209
-$[][][][]$[]\EU1/BulmerMTStd(0)/m/n/10 . Para utilizar o estilo ABNT, insira no
- preâmbulo: []\EU1/Consolas(0)/m/n/10 \usepackage[num]{abntex2cite} 
- []
-
-
-Overfull \hbox (38.45998pt too wide) in paragraph at lines 206--209
-\EU1/BulmerMTStd(0)/m/n/10 autor-data). Com o uso desses pacotes não é precis
-o especificar []\EU1/Consolas(0)/m/n/10 \bibliographystyle{...}\EU1/BulmerMTStd
-(0)/m/n/10 . 
- []
-
-
-Overfull \hbox (0.52974pt too wide) in paragraph at lines 206--209
-\EU1/Consolas(0)/m/n/10 custom-bib\EU1/BulmerMTStd(0)/m/n/10 , também chamada 
-de \EU1/Consolas(0)/m/n/10 makebst \EU1/BulmerMTStd(0)/m/n/10 ([]$[][][][] [] [
-] [] [][][] [] [][][][] [] [][][] [] [][][][][][][][][][][][] []$ 
- []
-
+[34]
 File: ./abntex-bibliografia-figura.png Graphic file (type QTm)
-<use  "./abntex-bibliografia-figura.png" >
-Underfull \hbox (badness 10000) in paragraph at lines 220--220
-[]\EU1/BulmerMTStd(0)/m/n/10 Figura 4.1: []Exemplo de bibliografia
+ <use  "./abntex-bibliografia-figura.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 222--222
+[]\EU1/JannonTModernePro(0)/m/n/10 Figura 4.1: []Exemplo de biblio-
  []
 
 File: ./natbib-test-plainnat.png Graphic file (type QTm)
 <use  "./natbib-test-plainnat.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 245--245
+[]\EU1/JannonTModernePro(0)/m/n/10 Figura 4.2: []\EU1/Consolas(0)/m/n/10 natbib
+ \EU1/JannonTModernePro(0)/m/n/10 e estilo
+ []
+
 .................................................
 . fontspec info: "defining-font"
 . 
-. Font family 'BulmerMTStd(3)' created for font 'Bulmer MT Std' with options
-. [Ligatures={TeX},Numbers=OldStyle,BoldFont={Bulmer MT Std
-. Bold},BoldItalicFont={Bulmer MT Std Bold Italic},LetterSpace=5.0].
+. Font family 'JannonTModernePro(1)' created for font 'Jannon T Moderne Pro'
+. with options [Ligatures={TeX},,LetterSpace=5.0].
 . 
 . This font family consists of the following shapes:
 .................................................
- [33]
-Overfull \hbox (16.64267pt too wide) in paragraph at lines 279--279
+[35]
+Overfull \hbox (16.64267pt too wide) in paragraph at lines 281--281
 []\EU1/Consolas(0)/m/n/10 LaTeX Warning: Citation ‘lamport94’ on page 1 und
 efined on input line 21.[] 
  []
 
 File: ./biblatex-figura.png Graphic file (type QTm)
 <use  "./biblatex-figura.png" >
-Underfull \hbox (badness 10000) in paragraph at lines 291--291
-[]\EU1/BulmerMTStd(0)/m/n/10 Figura 4.3: []Exemplo de bibliografia
+Underfull \hbox (badness 10000) in paragraph at lines 293--293
+[]\EU1/JannonTModernePro(0)/m/n/10 Figura 4.3: []Exemplo de biblio-
  []
 
 
-Overfull \hbox (117.80707pt too wide) in paragraph at lines 311--311
+Overfull \hbox (117.80707pt too wide) in paragraph at lines 313--313
 []\EU1/Consolas(0)/m/n/10 \usepackage[style=historian,citestyle=authoryear,natb
 ib=true,doi=false,backend=bibtex]{biblatex}[] 
  []
+
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'JannonTModernePro(1)' created for font 'Jannon T Moderne Pro'
+. with options [Ligatures={TeX},,LetterSpace=5.0].
+. 
+. This font family consists of the following shapes:
+.................................................
+[36])
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'JannonTModernePro(1)' created for font 'Jannon T Moderne Pro'
+. with options [Ligatures={TeX},,LetterSpace=5.0].
+. 
+. This font family consists of the following shapes:
+.................................................
+ [37]
+\openout2 = `biblatex.aux'.
+
+ (./biblatex.tex
+Overfull \hbox (117.80707pt too wide) in paragraph at lines 22--22
+[]\EU1/Consolas(0)/m/n/10 \usepackage[style=historian,citestyle=authoryear,natb
+ib=true,doi=false,backend=bibtex]{biblatex}[] 
+ []
+
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'JannonTModernePro(1)' created for font 'Jannon T Moderne Pro'
+. with options [Ligatures={TeX},,LetterSpace=5.0].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'JannonTModernePro(1)' created for font 'Jannon T Moderne Pro'
+. with options [Ligatures={TeX},,LetterSpace=5.0].
+. 
+. This font family consists of the following shapes:
+.................................................
+[38
+
+
+]
+LaTeX Font Info:    Font shape `EU1/Consolas(0)/m/it' will be
+(Font)              scaled to size 8.76003pt on input line 37.
+
+
+! Class tufte-book Error: \subsubsection is undefined by this class.
+(tufte-book)              See Robert Bringhurst's _The Elements of 
+(tufte-book)              Typographic Style_, section 4.2.2. 
+(tufte-book)              \subsubsection was used.
+
+See the tufte-book class documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.39 \subsubsection
+                   *{\texttt{cite}}
+From Bringhurst's _The Elements of Typographic Style_, section 4.2.2: Use as 
+many levels of headings as you need, no more and no fewer. Also see the many 
+related threads on Ask E.T. at http://www.edwardtufte.com/.
+
+
+! Class tufte-book Error: \subsubsection is undefined by this class.
+(tufte-book)              See Robert Bringhurst's _The Elements of 
+(tufte-book)              Typographic Style_, section 4.2.2. 
+(tufte-book)              \subsubsection was used.
+
+See the tufte-book class documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.54 \subsubsection
+                   *{\texttt{parencite}}
+From Bringhurst's _The Elements of Typographic Style_, section 4.2.2: Use as 
+many levels of headings as you need, no more and no fewer. Also see the many 
+related threads on Ask E.T. at http://www.edwardtufte.com/.
+
+
+! Class tufte-book Error: \subsubsection is undefined by this class.
+(tufte-book)              See Robert Bringhurst's _The Elements of 
+(tufte-book)              Typographic Style_, section 4.2.2. 
+(tufte-book)              \subsubsection was used.
+
+See the tufte-book class documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.69 \subsubsection
+                   *{\texttt{parencite*}}
+From Bringhurst's _The Elements of Typographic Style_, section 4.2.2: Use as 
+many levels of headings as you need, no more and no fewer. Also see the many 
+related threads on Ask E.T. at http://www.edwardtufte.com/.
+
+
+! Class tufte-book Error: \subsubsection is undefined by this class.
+(tufte-book)              See Robert Bringhurst's _The Elements of 
+(tufte-book)              Typographic Style_, section 4.2.2. 
+(tufte-book)              \subsubsection was used.
+
+See the tufte-book class documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.78 \subsubsection
+                   *{\texttt{footcite}}
+From Bringhurst's _The Elements of Typographic Style_, section 4.2.2: Use as 
+many levels of headings as you need, no more and no fewer. Also see the many 
+related threads on Ask E.T. at http://www.edwardtufte.com/.
+
+
+LaTeX Warning: Marginpar on page 39 moved.
+
+
+! Class tufte-book Error: \subsubsection is undefined by this class.
+(tufte-book)              See Robert Bringhurst's _The Elements of 
+(tufte-book)              Typographic Style_, section 4.2.2. 
+(tufte-book)              \subsubsection was used.
+
+See the tufte-book class documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.88 \subsubsection
+                   *{\texttt{textcite}}
+From Bringhurst's _The Elements of Typographic Style_, section 4.2.2: Use as 
+many levels of headings as you need, no more and no fewer. Also see the many 
+related threads on Ask E.T. at http://www.edwardtufte.com/.
+
+
+Overfull \hbox (37.78448pt too wide) in paragraph at lines 91--98
+[][]  
+ []
+
+
+! Class tufte-book Error: \subsubsection is undefined by this class.
+(tufte-book)              See Robert Bringhurst's _The Elements of 
+(tufte-book)              Typographic Style_, section 4.2.2. 
+(tufte-book)              \subsubsection was used.
+
+See the tufte-book class documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.99 \subsubsection
+                   *{Citações múltiplas}
+From Bringhurst's _The Elements of Typographic Style_, section 4.2.2: Use as 
+many levels of headings as you need, no more and no fewer. Also see the many 
+related threads on Ask E.T. at http://www.edwardtufte.com/.
+
+
+! Class tufte-book Error: \subsubsection is undefined by this class.
+(tufte-book)              See Robert Bringhurst's _The Elements of 
+(tufte-book)              Typographic Style_, section 4.2.2. 
+(tufte-book)              \subsubsection was used.
+
+See the tufte-book class documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.102 \subsubsection
+                    *{Abreviações}
+From Bringhurst's _The Elements of Typographic Style_, section 4.2.2: Use as 
+many levels of headings as you need, no more and no fewer. Also see the many 
+related threads on Ask E.T. at http://www.edwardtufte.com/.
+
+LaTeX Font Info:    Font shape `EU1/Consolas(0)/m/n' will be
+(Font)              scaled to size 6.40002pt on input line 105.
+
+LaTeX Warning: Marginpar on page 39 moved.
+
+
+Overfull \hbox (21.04112pt too wide) in paragraph at lines 138--138
+[]  \EU1/Consolas(0)/m/n/10 booktitle = {Kritik der praktischen Vernunft. Kriti
+k der Urtheilskraft},[] 
+ []
+
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'JannonTModernePro(1)' created for font 'Jannon T Moderne Pro'
+. with options [Ligatures={TeX},,LetterSpace=5.0].
+. 
+. This font family consists of the following shapes:
+.................................................
+[39]
+Overfull \hbox (21.04112pt too wide) in paragraph at lines 138--138
+[]  \EU1/Consolas(0)/m/n/10 booktitle = {Kritik der praktischen Vernunft. Kriti
+k der Urtheilskraft},[] 
+ []
+
+
+LaTeX Warning: Marginpar on page 40 moved.
 
 )
 .................................................
 . fontspec info: "defining-font"
 . 
-. Font family 'BulmerMTStd(3)' created for font 'Bulmer MT Std' with options
-. [Ligatures={TeX},Numbers=OldStyle,BoldFont={Bulmer MT Std
-. Bold},BoldItalicFont={Bulmer MT Std Bold Italic},LetterSpace=5.0].
+. Font family 'JannonTModernePro(1)' created for font 'Jannon T Moderne Pro'
+. with options [Ligatures={TeX},,LetterSpace=5.0].
 . 
 . This font family consists of the following shapes:
 .................................................
- [34]
+ [40]
 Capítulo 5.
 
-Underfull \hbox (badness 10000) in paragraph at lines 725--726
-[]|\EU1/BulmerMTStd(0)/m/n/10 coluna com texto alinhado no topo, com largura es
-pecificada
+Overfull \hbox (6.45396pt too wide) in paragraph at lines 768--770
+\EU1/JannonTModernePro(0)/m/n/10 (h=here). Ela também pode ficar em baixo, no 
+fim da página (\EU1/Consolas(0)/m/n/10 b\EU1/JannonTModernePro(0)/m/n/10 =bott
+om) 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 726--727
-[]|\EU1/BulmerMTStd(0)/m/n/10 o mesmo acima, mas alinhado no meio da célula (r
-equer
+Underfull \hbox (badness 10000) in paragraph at lines 781--782
+[]|\EU1/JannonTModernePro(0)/m/n/10 coluna com texto alinhado no topo, com larg
+ura
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 727--728
-[]|\EU1/BulmerMTStd(0)/m/n/10 o mesmo acima, mas alinhado no fim da célula (re
-quer
+Underfull \hbox (badness 10000) in paragraph at lines 782--783
+[]|\EU1/JannonTModernePro(0)/m/n/10 o mesmo acima, mas alinhado no meio da cél
+ula
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 732--733
-[]|\EU1/BulmerMTStd(0)/m/n/10 começa nova linha (espaço adicional pode ser es
-pecificado
+Underfull \hbox (badness 10000) in paragraph at lines 783--784
+[]|\EU1/JannonTModernePro(0)/m/n/10 o mesmo acima, mas alinhado no fim da célu
+la (re-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 732--733
-\EU1/BulmerMTStd(0)/m/n/10 usando colchetes: por exemplo, []\EU1/Consolas(0)/m/
-n/10 [6pt] \EU1/BulmerMTStd(0)/m/n/10 especifica um espaço
+Underfull \hbox (badness 10000) in paragraph at lines 788--789
+[]|\EU1/JannonTModernePro(0)/m/n/10 começa nova linha (espaço adicional pode 
+ser es-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 734--735
-[]|\EU1/BulmerMTStd(0)/m/n/10 linha parcial horizontal começando na coluna \EU
-1/BulmerMTStd(0)/m/it/10 i \EU1/BulmerMTStd(0)/m/n/10 e terminando
+Underfull \hbox (badness 10000) in paragraph at lines 788--789
+\EU1/JannonTModernePro(0)/m/n/10 pecificado usando colchetes: por exemplo, []\E
+U1/Consolas(0)/m/n/10 [6pt]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 737--737
-[]\EU1/BulmerMTStd(0)/m/n/10 Tabela 5.2: []Comandos utilizados
+Underfull \hbox (badness 10000) in paragraph at lines 790--791
+[]|\EU1/JannonTModernePro(0)/m/n/10 linha parcial horizontal começando na colu
+na \EU1/JannonTModernePro(0)/m/it/10 i \EU1/JannonTModernePro(0)/m/n/10 e
  []
 
-LaTeX Font Info:    Font shape `EU1/Consolas(0)/m/n' will be
-(Font)              scaled to size 6.40002pt on input line 741.
 
-LaTeX Warning: Marginpar on page 35 moved.
+Underfull \hbox (badness 10000) in paragraph at lines 793--793
+[]\EU1/JannonTModernePro(0)/m/n/10 Tabela 5.2: []Comandos utilizados
+ []
 
-[35
+
+LaTeX Warning: Marginpar on page 41 moved.
+
+[41
 
 
 ]
 .................................................
 . fontspec info: "defining-font"
 . 
-. Font family 'BulmerMTStd(3)' created for font 'Bulmer MT Std' with options
-. [Ligatures={TeX},Numbers=OldStyle,BoldFont={Bulmer MT Std
-. Bold},BoldItalicFont={Bulmer MT Std Bold Italic},LetterSpace=5.0].
+. Font family 'JannonTModernePro(1)' created for font 'Jannon T Moderne Pro'
+. with options [Ligatures={TeX},,LetterSpace=5.0].
 . 
 . This font family consists of the following shapes:
 .................................................
- [36]
+ [42]
 Capítulo 6.
 
-Overfull \hbox (24.00002pt too wide) in paragraph at lines 780--798
+Overfull \hbox (36.00002pt too wide) in paragraph at lines 840--858
+[][]  
+ []
+
+LaTeX Font Info:    Try loading font information for U+ding on input line 871.
+(c:/texlive/2012/texmf-dist/tex/latex/bbding/uding.fd
+File: Uding.fd 1996/02/01 v1.0 BBding font definitions
+)
+Overfull \hbox (24.00002pt too wide) in paragraph at lines 903--921
 []  
  []
 
-
-Overfull \hbox (24.00002pt too wide) in paragraph at lines 802--820
-[]  
- []
-
-
-Overfull \hbox (24.00002pt too wide) in paragraph at lines 823--841
-[]  
- []
-
-
-Underfull \vbox (badness 2521) has occurred while \output is active []
-
- [37
+[43
 
 ]
-Overfull \hbox (24.00002pt too wide) in paragraph at lines 845--872
+Overfull \hbox (24.00002pt too wide) in paragraph at lines 924--942
 []  
  []
 
 
-Overfull \hbox (157.77596pt too wide) in paragraph at lines 879--910
+Overfull \hbox (24.00002pt too wide) in paragraph at lines 946--973
+[]  
+ []
+
+
+Overfull \hbox (10.52054pt too wide) in paragraph at lines 994--994
+[]  \EU1/Consolas(0)/m/n/10 \begin{enumerate}[label*=\arabic*.][] 
+ []
+
+
+Overfull \hbox (19.31744pt too wide) in paragraph at lines 994--994
+[]    \EU1/Consolas(0)/m/n/10 \begin{enumerate}[label*=\arabic*.][] 
+ []
+
+
+Overfull \hbox (36.00002pt too wide) in paragraph at lines 980--1011
 [][]  
  []
 
@@ -3024,181 +3218,283 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.937 \begin{enumerate}[label=\Roman*]
-                                      
+l.1039 \begin{enumerate}[label=\Roman*]
+                                       
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (36.00002pt too wide) in paragraph at lines 924--945
+Overfull \hbox (36.00002pt too wide) in paragraph at lines 1025--1047
 [][]  
  []
 
 .................................................
 . fontspec info: "defining-font"
 . 
-. Font family 'BulmerMTStd(3)' created for font 'Bulmer MT Std' with options
-. [Ligatures={TeX},Numbers=OldStyle,BoldFont={Bulmer MT Std
-. Bold},BoldItalicFont={Bulmer MT Std Bold Italic},LetterSpace=5.0].
-. 
-. This font family consists of the following shapes:
-.................................................
-[38]
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'BulmerMTStd(3)' created for font 'Bulmer MT Std' with options
-. [Ligatures={TeX},Numbers=OldStyle,BoldFont={Bulmer MT Std
-. Bold},BoldItalicFont={Bulmer MT Std Bold Italic},LetterSpace=5.0].
-. 
-. This font family consists of the following shapes:
-.................................................
- [39]
-Overfull \hbox (15.89703pt too wide) in paragraph at lines 1029--1030
-[]\EU1/BulmerMTStd(0)/m/n/10 Se você quiser que uma palavra não seja hifeniza
-da, use o comando []\EU1/Consolas(0)/m/n/10 \mbox{texto}\EU1/BulmerMTStd(0)/m/n
-/10 , 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1055--1056
-[]|\EU1/BulmerMTStd(0)/m/n/10 « Guillemets » [](aspas angulares, utilizadas n
-o portu-
- []
-
-
-Overfull \hbox (50.67844pt too wide) in paragraph at lines 1041--1059
-[][] 
- []
-
-
-LaTeX Warning: Marginpar on page 40 moved.
-
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'BulmerMTStd(3)' created for font 'Bulmer MT Std' with options
-. [Ligatures={TeX},Numbers=OldStyle,BoldFont={Bulmer MT Std
-. Bold},BoldItalicFont={Bulmer MT Std Bold Italic},LetterSpace=5.0].
-. 
-. This font family consists of the following shapes:
-.................................................
-[40]
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'BulmerMTStd(3)' created for font 'Bulmer MT Std' with options
-. [Ligatures={TeX},Numbers=OldStyle,BoldFont={Bulmer MT Std
-. Bold},BoldItalicFont={Bulmer MT Std Bold Italic},LetterSpace=5.0].
-. 
-. This font family consists of the following shapes:
-.................................................
-
-
-LaTeX Warning: Marginpar on page 41 moved.
-
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'BulmerMTStd(3)' created for font 'Bulmer MT Std' with options
-. [Ligatures={TeX},Numbers=OldStyle,BoldFont={Bulmer MT Std
-. Bold},BoldItalicFont={Bulmer MT Std Bold Italic},LetterSpace=5.0].
-. 
-. This font family consists of the following shapes:
-.................................................
-[41]
-LaTeX Info: Redefining \bond on input line 1200.
-LaTeX Info: Redefining \dbond on input line 1200.
-LaTeX Info: Redefining \tbond on input line 1200.
-
-Overfull \hbox (9.57144pt too wide) in paragraph at lines 1199--1202
-[][]  
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1274--1274
-[]\EU1/BulmerMTStd(0)/m/n/10 Tabela 6.5: []Signos astrológicos e do
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1293--1293
-[]\EU1/BulmerMTStd(0)/m/n/10 Tabela 6.6: []Alinhamento de parágra-
- []
-
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'BulmerMTStd(3)' created for font 'Bulmer MT Std' with options
-. [Ligatures={TeX},Numbers=OldStyle,BoldFont={Bulmer MT Std
-. Bold},BoldItalicFont={Bulmer MT Std Bold Italic},LetterSpace=5.0].
-. 
-. This font family consists of the following shapes:
-.................................................
-[42]
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'BulmerMTStd(3)' created for font 'Bulmer MT Std' with options
-. [Ligatures={TeX},Numbers=OldStyle,BoldFont={Bulmer MT Std
-. Bold},BoldItalicFont={Bulmer MT Std Bold Italic},LetterSpace=5.0].
-. 
-. This font family consists of the following shapes:
-.................................................
- [43]
-Overfull \hbox (0.11307pt too wide) in paragraph at lines 1317--1318
-[]\EU1/BulmerMTStd(0)/m/n/10 Para mudar o espaçamento entrelinhas, use o pacot
-e []\EU1/Consolas(0)/m/n/10 \usepackage{setspace}\EU1/BulmerMTStd(0)/m/n/10 . 
- []
-
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'BulmerMTStd(3)' created for font 'Bulmer MT Std' with options
-. [Ligatures={TeX},Numbers=OldStyle,BoldFont={Bulmer MT Std
-. Bold},BoldItalicFont={Bulmer MT Std Bold Italic},LetterSpace=5.0].
+. Font family 'JannonTModernePro(1)' created for font 'Jannon T Moderne Pro'
+. with options [Ligatures={TeX},,LetterSpace=5.0].
 . 
 . This font family consists of the following shapes:
 .................................................
 [44]
-
-LaTeX Warning: Marginpar on page 45 moved.
+Overfull \hbox (10.07686pt too wide) in paragraph at lines 1050--1051
+[]\EU1/JannonTModernePro(0)/m/n/10 As outras opções do pacote enumitem (para 
+[]\EU1/Consolas(0)/m/n/10 \begin{enumerate}[opções]\EU1/JannonTModernePro(0)/
+m/n/10 ) 
+ []
 
 .................................................
 . fontspec info: "defining-font"
 . 
-. Font family 'BulmerMTStd(3)' created for font 'Bulmer MT Std' with options
-. [Ligatures={TeX},Numbers=OldStyle,BoldFont={Bulmer MT Std
-. Bold},BoldItalicFont={Bulmer MT Std Bold Italic},LetterSpace=5.0].
+. Font family 'JannonTModernePro(1)' created for font 'Jannon T Moderne Pro'
+. with options [Ligatures={TeX},,LetterSpace=5.0].
 . 
 . This font family consists of the following shapes:
 .................................................
-[45] [46
+[45]
+Underfull \hbox (badness 10000) in paragraph at lines 1157--1158
+[]|\EU1/JannonTModernePro(0)/m/n/10 « Guillemets » [](aspas angulares, utiliz
+adas no
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1157--1158
+\EU1/JannonTModernePro(0)/m/n/10 português europeu, em francês e alemão, ent
+re
+ []
+
+
+Overfull \hbox (50.67844pt too wide) in paragraph at lines 1143--1161
+[][] 
+ []
+
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'JannonTModernePro(1)' created for font 'Jannon T Moderne Pro'
+. with options [Ligatures={TeX},,LetterSpace=5.0].
+. 
+. This font family consists of the following shapes:
+.................................................
+[46]
+
+LaTeX Warning: Marginpar on page 47 moved.
+
+\g_fontspec_family_Myriad Pro_int=\count425
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'MyriadPro(0)' created for font 'Myriad Pro' with options
+. [Ligatures={TeX},].
+. 
+. This font family consists of the following shapes:
+. 
+. * 'normal' with NFSS spec.:
+. <->"Myriad Pro/ICU:script=latn;language=DFLT;mapping=tex-text;"
+. 
+. * 'bold' with NFSS spec.:
+. <->"Myriad Pro/B/ICU:script=latn;language=DFLT;mapping=tex-text;"
+. 
+. * 'italic' with NFSS spec.:
+. <->"Myriad Pro/I/ICU:script=latn;language=DFLT;mapping=tex-text;"
+. 
+. * 'bold italic' with NFSS spec.:
+. <->"Myriad Pro/BI/ICU:script=latn;language=DFLT;mapping=tex-text;"
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'JannonTModernePro(1)' created for font 'Jannon T Moderne Pro'
+. with options [Ligatures={TeX},,LetterSpace=5.0].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'JannonTModernePro(1)' created for font 'Jannon T Moderne Pro'
+. with options [Ligatures={TeX},,LetterSpace=5.0].
+. 
+. This font family consists of the following shapes:
+.................................................
+[47]
+
+LaTeX Warning: Marginpar on page 48 moved.
+
+LaTeX Info: Redefining \bond on input line 1302.
+LaTeX Info: Redefining \dbond on input line 1302.
+LaTeX Info: Redefining \tbond on input line 1302.
+
+Overfull \hbox (25.19447pt too wide) in paragraph at lines 1301--1304
+[][]  
+ []
+
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'JannonTModernePro(1)' created for font 'Jannon T Moderne Pro'
+. with options [Ligatures={TeX},,LetterSpace=5.0].
+. 
+. This font family consists of the following shapes:
+.................................................
+[48]
+Underfull \hbox (badness 10000) in paragraph at lines 1377--1377
+[]\EU1/JannonTModernePro(0)/m/n/10 Tabela 6.5: []Signos astrológicos e
+ []
+
+
+Overfull \hbox (161.03627pt too wide) in paragraph at lines 1382--1386
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1386--1386
+[]\EU1/JannonTModernePro(0)/m/n/10 Tabela 6.6: []Cruzes do pacote
+ []
+
+
+Overfull \hbox (85.08604pt too wide) in paragraph at lines 1390--1409
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1410--1410
+[]\EU1/JannonTModernePro(0)/m/n/10 Tabela 6.7: []Estrelas, flores e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1430--1430
+[]\EU1/JannonTModernePro(0)/m/n/10 Tabela 6.8: []Alinhamento de
+ []
+
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'JannonTModernePro(1)' created for font 'Jannon T Moderne Pro'
+. with options [Ligatures={TeX},,LetterSpace=5.0].
+. 
+. This font family consists of the following shapes:
+.................................................
+[49]
+Overfull \hbox (25.57304pt too wide) in paragraph at lines 1454--1455
+[]\EU1/JannonTModernePro(0)/m/n/10 Para mudar o espaçamento entrelinhas, use o
+ pacote []\EU1/Consolas(0)/m/n/10 \usepackage{setspace}\EU1/JannonTModernePro(0
+)/m/n/10 . 
+ []
+
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'JannonTModernePro(1)' created for font 'Jannon T Moderne Pro'
+. with options [Ligatures={TeX},,LetterSpace=5.0].
+. 
+. This font family consists of the following shapes:
+.................................................
+[50]
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'JannonTModernePro(1)' created for font 'Jannon T Moderne Pro'
+. with options [Ligatures={TeX},,LetterSpace=5.0].
+. 
+. This font family consists of the following shapes:
+.................................................
+ [51]
+Overfull \hbox (3.44728pt too wide) in paragraph at lines 1538--1538
+[]\EU1/Consolas(0)/m/n/10 \usepackage{marginfix} % para problemas de notas no f
+im da página etc.[] 
+ []
+
+
+Overfull \hbox (236.56534pt too wide) in paragraph at lines 1542--1542
+[]\EU1/Consolas(0)/m/n/10 \usepackage[marginal]{footmisc} % opção ”marginal
+” coloca os números da nota de rodapé para fora da margem, à la Bringhurst
+[] 
+ []
+
+
+Overfull \hbox (95.81482pt too wide) in paragraph at lines 1552--1552
+[]\EU1/Consolas(0)/m/n/10 %\setlength{\textwidth}{15cm} %implementado pelo paco
+te geometry abaixo, por isso não ativo[] 
+ []
+
+
+Overfull \hbox (65.02567pt too wide) in paragraph at lines 1552--1552
+[]\EU1/Consolas(0)/m/n/10 \setlength{\marginparsep}{0.5cm} %tamanho da distânc
+ia entre notas de margem e texto[] 
+ []
+
+
+Overfull \hbox (109.0102pt too wide) in paragraph at lines 1552--1552
+[]\EU1/Consolas(0)/m/n/10 \usepackage[left=2cm,textwidth=14cm]{geometry} %taman
+ho do bloco de texto e da margem esquerda[] 
+ []
+
+
+Overfull \hbox (12.2442pt too wide) in paragraph at lines 1576--1576
+[]\EU1/Consolas(0)/m/n/10 \usepackage[page]{pagenote} % opção ”page” dá 
+página onde aparece a nota[] 
+ []
+
+
+Overfull \hbox (38.6349pt too wide) in paragraph at lines 1576--1576
+[]\EU1/Consolas(0)/m/n/10 \renewcommand*{\notesname}{Notas} % para mudar o nome
+ de ”Notes” para ”Notas”.[] 
+ []
+
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'JannonTModernePro(1)' created for font 'Jannon T Moderne Pro'
+. with options [Ligatures={TeX},,LetterSpace=5.0].
+. 
+. This font family consists of the following shapes:
+.................................................
+[52]
+Overfull \hbox (65.02565pt too wide) in paragraph at lines 1597--1597
+[]\EU1/Consolas(0)/m/n/10 \setcounter{endnote}{0} & % para recomeçar a numera�
+�ão das notas no próximo capítulo[] 
+ []
+
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'JannonTModernePro(1)' created for font 'Jannon T Moderne Pro'
+. with options [Ligatures={TeX},,LetterSpace=5.0].
+. 
+. This font family consists of the following shapes:
+.................................................
+[53] [54
 
 ]
 Capítulo 7.
 File: femmevaguecourbet.jpg Graphic file (type QTm)
 <use  "femmevaguecourbet.jpg" >
-Underfull \hbox (badness 10000) in paragraph at lines 1435--1435
-[]\EU1/BulmerMTStd(0)/m/n/10 Figura 7.1: []Gustave Courbet, \EU1/BulmerMTStd(0)
-/m/it/10 Femme
+Underfull \hbox (badness 10000) in paragraph at lines 1637--1637
+[]\EU1/JannonTModernePro(0)/m/n/10 Figura 7.1: []Gustave Courbet,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1435--1435
-\EU1/BulmerMTStd(0)/m/it/10 à la Vague\EU1/BulmerMTStd(0)/m/n/10 , óleo sobre
- tela, 1868.
+Underfull \hbox (badness 10000) in paragraph at lines 1637--1637
+\EU1/JannonTModernePro(0)/m/it/10 Femme à la Vague\EU1/JannonTModernePro(0)/m/
+n/10 , óleo sobre tela,
  []
 
 
-Overfull \hbox (51.83028pt too wide) in paragraph at lines 1447--1447
+Underfull \hbox (badness 10000) in paragraph at lines 1637--1637
+\EU1/JannonTModernePro(0)/m/n/10 1868. Metropolitan Museum of
+ []
+
+
+Overfull \hbox (51.83028pt too wide) in paragraph at lines 1649--1649
 []\EU1/Consolas(0)/m/n/10 \graphicspath{~/Pictures} %(geralmente é o diretóri
 o de imagens para Linux e Mac)[] 
  []
 
-[47]
+[55]
 File: corotavray.jpg Graphic file (type QTm)
  <use  "corotavray.jpg" >
-Overfull \hbox (83.96085pt too wide) in paragraph at lines 1465--1466
+Overfull \hbox (83.96085pt too wide) in paragraph at lines 1667--1668
 [][]  
  []
 
@@ -3208,17 +3504,16 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 .................................................
 . fontspec info: "defining-font"
 . 
-. Font family 'BulmerMTStd(3)' created for font 'Bulmer MT Std' with options
-. [Ligatures={TeX},Numbers=OldStyle,BoldFont={Bulmer MT Std
-. Bold},BoldItalicFont={Bulmer MT Std Bold Italic},LetterSpace=5.0].
+. Font family 'JannonTModernePro(1)' created for font 'Jannon T Moderne Pro'
+. with options [Ligatures={TeX},,LetterSpace=5.0].
 . 
 . This font family consists of the following shapes:
 .................................................
- [48]
+ [56]
 File: corotavray.jpg Graphic file (type QTm)
 
 <use  "corotavray.jpg" >
-Overfull \hbox (92.74838pt too wide) in paragraph at lines 1474--1475
+Overfull \hbox (92.74838pt too wide) in paragraph at lines 1676--1677
 [][]  
  []
 
@@ -3229,77 +3524,75 @@ Underfull \vbox (badness 5954) has occurred while \output is active []
 .................................................
 . fontspec info: "defining-font"
 . 
-. Font family 'BulmerMTStd(3)' created for font 'Bulmer MT Std' with options
-. [Ligatures={TeX},Numbers=OldStyle,BoldFont={Bulmer MT Std
-. Bold},BoldItalicFont={Bulmer MT Std Bold Italic},LetterSpace=5.0].
+. Font family 'JannonTModernePro(1)' created for font 'Jannon T Moderne Pro'
+. with options [Ligatures={TeX},,LetterSpace=5.0].
 . 
 . This font family consists of the following shapes:
 .................................................
- [49]
-Overfull \hbox (21.04112pt too wide) in paragraph at lines 1516--1516
+ [57]
+Overfull \hbox (21.04112pt too wide) in paragraph at lines 1718--1718
 []\EU1/Consolas(0)/m/n/10 \caption[\textit{Ville d’Avray} de Corot (ca. 1867)
 .]{Jean-Baptiste Corot.[] 
  []
 
 
-Overfull \hbox (21.04128pt too wide) in paragraph at lines 1516--1516
+Overfull \hbox (21.04128pt too wide) in paragraph at lines 1718--1718
 []\EU1/Consolas(0)/m/n/10 (\url{http://fr.wikipedia.org/wiki/Fichier:Corot.vill
 edavray.750pix.jpg})}[] 
  []
 
 File: corotavray.jpg Graphic file (type QTm)
 <use  "corotavray.jpg" >
-Underfull \hbox (badness 10000) in paragraph at lines 1524--1524
-[]\EU1/BulmerMTStd(0)/m/n/10 Figura 7.2: []Jean-Baptiste Co-
+Underfull \hbox (badness 10000) in paragraph at lines 1726--1726
+[]\EU1/JannonTModernePro(0)/m/n/10 Figura 7.2: []Jean-Baptiste Co-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1524--1524
-\EU1/BulmerMTStd(0)/m/n/10 rot. \EU1/BulmerMTStd(0)/m/it/10 Ville d’Avray \EU
-1/BulmerMTStd(0)/m/n/10 (ca. 1867).
+Underfull \hbox (badness 10000) in paragraph at lines 1726--1726
+\EU1/JannonTModernePro(0)/m/n/10 rot. \EU1/JannonTModernePro(0)/m/it/10 Ville d
+’Avray \EU1/JannonTModernePro(0)/m/n/10 (ca. 1867).
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1524--1524
-\EU1/BulmerMTStd(0)/m/n/10 Fonte: Wikipedia ([]$[][][][] [] [] [] [][] []$
+Underfull \hbox (badness 10000) in paragraph at lines 1726--1726
+\EU1/JannonTModernePro(0)/m/n/10 Fonte: Wikipedia ([]$[][][][] [] [] [] [][] []
+$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1524--1524
+Underfull \hbox (badness 10000) in paragraph at lines 1726--1726
 $[][][][][][][][][] [] [][][] [] [][][][] [] [][][][][][][] []$
  []
 
 .................................................
 . fontspec info: "defining-font"
 . 
-. Font family 'BulmerMTStd(3)' created for font 'Bulmer MT Std' with options
-. [Ligatures={TeX},Numbers=OldStyle,BoldFont={Bulmer MT Std
-. Bold},BoldItalicFont={Bulmer MT Std Bold Italic},LetterSpace=5.0].
+. Font family 'JannonTModernePro(1)' created for font 'Jannon T Moderne Pro'
+. with options [Ligatures={TeX},,LetterSpace=5.0].
 . 
 . This font family consists of the following shapes:
 .................................................
-[50]
+[58]
 File: moreau-apparition.jpg Graphic file (type QTm)
  <use  "moreau-apparition.jpg" >
-Underfull \hbox (badness 10000) in paragraph at lines 1553--1553
-[][]\EU1/BulmerMTStd(0)/m/n/10 : []|\EU1/BulmerMTStd(0)/m/it/10 L’apparition\
-EU1/BulmerMTStd(0)/m/n/10 , de
+Underfull \hbox (badness 10000) in paragraph at lines 1755--1755
+[][]\EU1/JannonTModernePro(0)/m/n/10 : []|\EU1/JannonTModernePro(0)/m/it/10 L�
+�apparition\EU1/JannonTModernePro(0)/m/n/10 , de
  []
 
 .................................................
 . fontspec info: "defining-font"
 . 
-. Font family 'BulmerMTStd(3)' created for font 'Bulmer MT Std' with options
-. [Ligatures={TeX},Numbers=OldStyle,BoldFont={Bulmer MT Std
-. Bold},BoldItalicFont={Bulmer MT Std Bold Italic},LetterSpace=5.0].
+. Font family 'JannonTModernePro(1)' created for font 'Jannon T Moderne Pro'
+. with options [Ligatures={TeX},,LetterSpace=5.0].
 . 
 . This font family consists of the following shapes:
 .................................................
-[51]
+[59]
 ! Illegal parameter number in definition of \Hy@tempa.
 <to be read again> 
                    S
-l.1571 ...ats,\_Figures\_and\_Captions#Subfloats}}
+l.1772 ...ats,\_Figures\_and\_Captions#Subfloats}}
                                                   
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
@@ -3308,7 +3601,7 @@ are all screwed up? I'm going to assume that you meant ##.
 ! Illegal parameter number in definition of \Hy@tempa.
 <to be read again> 
                    S
-l.1571 ...ats,\_Figures\_and\_Captions#Subfloats}}
+l.1772 ...ats,\_Figures\_and\_Captions#Subfloats}}
                                                   
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
@@ -3317,29 +3610,29 @@ are all screwed up? I'm going to assume that you meant ##.
 ! Illegal parameter number in definition of \Hy@gtemp.
 <to be read again> 
                    S
-l.1571 ...ats,\_Figures\_and\_Captions#Subfloats}}
+l.1772 ...ats,\_Figures\_and\_Captions#Subfloats}}
                                                   
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
 are all screwed up? I'm going to assume that you meant ##.
 
 
-LaTeX Warning: Marginpar on page 52 moved.
+LaTeX Warning: Marginpar on page 60 moved.
 
 
-Overfull \hbox (47.43188pt too wide) in paragraph at lines 1584--1584
+Overfull \hbox (47.43188pt too wide) in paragraph at lines 1785--1785
 []  \EU1/Consolas(0)/m/n/10 \subfloat[A gull]{\label{fig:gull}\includegraphics[
 width=0.3\textwidth]{gull}}[] 
  []
 
 
-Overfull \hbox (60.62729pt too wide) in paragraph at lines 1584--1584
+Overfull \hbox (60.62729pt too wide) in paragraph at lines 1785--1785
 []  \EU1/Consolas(0)/m/n/10 \subfloat[A tiger]{\label{fig:tiger}\includegraphic
 s[width=0.3\textwidth]{tiger}}[] 
  []
 
 
-Overfull \hbox (60.62729pt too wide) in paragraph at lines 1584--1584
+Overfull \hbox (60.62729pt too wide) in paragraph at lines 1785--1785
 []  \EU1/Consolas(0)/m/n/10 \subfloat[A mouse]{\label{fig:mouse}\includegraphic
 s[width=0.3\textwidth]{mouse}}[] 
  []
@@ -3349,118 +3642,697 @@ File: subfig.png Graphic file (type QTm)
 .................................................
 . fontspec info: "defining-font"
 . 
-. Font family 'BulmerMTStd(3)' created for font 'Bulmer MT Std' with options
-. [Ligatures={TeX},Numbers=OldStyle,BoldFont={Bulmer MT Std
-. Bold},BoldItalicFont={Bulmer MT Std Bold Italic},LetterSpace=5.0].
+. Font family 'JannonTModernePro(1)' created for font 'Jannon T Moderne Pro'
+. with options [Ligatures={TeX},,LetterSpace=5.0].
 . 
 . This font family consists of the following shapes:
 .................................................
- [52]
+ [60]
 .................................................
 . fontspec info: "defining-font"
 . 
-. Font family 'BulmerMTStd(3)' created for font 'Bulmer MT Std' with options
-. [Ligatures={TeX},Numbers=OldStyle,BoldFont={Bulmer MT Std
-. Bold},BoldItalicFont={Bulmer MT Std Bold Italic},LetterSpace=5.0].
+. Font family 'JannonTModernePro(1)' created for font 'Jannon T Moderne Pro'
+. with options [Ligatures={TeX},,LetterSpace=5.0].
 . 
 . This font family consists of the following shapes:
 .................................................
- [53] [54
+ [61] [62
 
 ]
 Capítulo 8.
-
-Overfull \hbox (12.89856pt too wide) in paragraph at lines 1652--1653
-[]\EU1/BulmerMTStd(0)/m/n/10 O primeiro refere-se à seção, o outro, à pági
-na. Assim, inserindo um []\EU1/Consolas(0)/m/n/10 \label{...} 
- []
-
-[55] [56
+[63] [64
 
 ]
 Capítulo 9.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1760--1760
-[]\EU1/BulmerMTStd(0)/m/n/10 Tabela 9.1: []As 68 cores da opção
+Underfull \hbox (badness 10000) in paragraph at lines 1961--1961
+[]\EU1/JannonTModernePro(0)/m/n/10 Tabela 9.1: []As 68 cores da opção
  []
 
-[57] [58
+[65] [66
 
 ]
 Capítulo 10.
-[59]
 
-LaTeX Warning: Marginpar on page 60 moved.
+Overfull \hbox (0.41377pt too wide) in paragraph at lines 1983--1984
+\EU1/JannonTModernePro(0)/m/n/10 quivo deve ser compilado com o comando \EU1/Co
+nsolas(0)/m/n/10 xelatex (nomedoarquivo.tex)\EU1/JannonTModernePro(0)/m/n/10 , 
+ 
+ []
+
+
+Package natbib Warning: Citation `bringhurst_elements_2013' on page 67 undefine
+d on input line 2015.
+
+
+Package natbib Warning: Citation `dodd_gutenberg_2006' on page 67 undefined on 
+input line 2015.
+
+
+Package natbib Warning: Citation `pohlen_letter_2011' on page 67 undefined on i
+nput line 2015.
+
+
+Package natbib Warning: Citation `lupton_thinking_2010' on page 67 undefined on
+ input line 2015.
+
+[67]
+
+LaTeX Warning: Marginpar on page 68 moved.
+
+
+Overfull \hbox (19.31744pt too wide) in paragraph at lines 2055--2055
+[]\EU1/Consolas(0)/m/n/10 {\addfontfeature{Color=lime}W}\kern-1ex[] 
+ []
+
+
+Overfull \hbox (32.51282pt too wide) in paragraph at lines 2055--2055
+[]\EU1/Consolas(0)/m/n/10 {\addfontfeature{Color=Peach}S}\kern-0.8ex[] 
+ []
+
+
+Overfull \hbox (45.70818pt too wide) in paragraph at lines 2055--2055
+[]\EU1/Consolas(0)/m/n/10 {\addfontfeature{Color=Mulberry}P}\kern-0.8ex[] 
+ []
+
+
+Overfull \hbox (19.31744pt too wide) in paragraph at lines 2055--2055
+[]\EU1/Consolas(0)/m/n/10 {\addfontfeature{Color=YellowGreen}R} %[] 
+ []
+
+\g_fontspec_family_Calluna_int=\count426
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'Calluna(0)' created for font 'Calluna' with options
+. [Ligatures={TeX},].
+. 
+. This font family consists of the following shapes:
+. 
+. * 'normal' with NFSS spec.:
+. <->"Calluna/ICU:script=latn;language=DFLT;mapping=tex-text;"
+. 
+. * 'small caps' with NFSS spec.:
+. <->"Calluna/ICU:script=latn;language=DFLT;mapping=tex-text;+smcp;"
+. 
+. * 'bold' with NFSS spec.:
+. <->"Calluna/B/ICU:script=latn;language=DFLT;mapping=tex-text;"
+. 
+. * 'bold small caps' with NFSS spec.:
+. <->"Calluna/B/ICU:script=latn;language=DFLT;mapping=tex-text;+smcp;"
+. 
+. * 'italic' with NFSS spec.:
+. <->"Calluna/I/ICU:script=latn;language=DFLT;mapping=tex-text;"
+. 
+. * 'italic small caps' with NFSS spec.:
+. <->"Calluna/I/ICU:script=latn;language=DFLT;mapping=tex-text;+smcp;"
+. 
+. * 'bold italic' with NFSS spec.:
+. <->"Calluna/BI/ICU:script=latn;language=DFLT;mapping=tex-text;"
+. 
+. * 'bold italic small caps' with NFSS spec.:
+. <->"Calluna/BI/ICU:script=latn;language=DFLT;mapping=tex-text;+smcp;"
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'Calluna(1)' created for font 'Calluna' with options
+. [Ligatures={TeX},,Color=lime].
+. 
+. This font family consists of the following shapes:
+. 
+. * 'normal' with NFSS spec.:
+. <->"Calluna/ICU:script=latn;language=DFLT;mapping=tex-text;color=BFFF00FF ;"
+. 
+. * 'small caps' with NFSS spec.:
+. 
+. <->"Calluna/ICU:script=latn;language=DFLT;mapping=tex-text;+smcp;color=BFFF00
+FF
+. ;"
+. 
+. * 'bold' with NFSS spec.:
+. <->"Calluna/B/ICU:script=latn;language=DFLT;mapping=tex-text;color=BFFF00FF
+. ;"
+. 
+. * 'bold small caps' with NFSS spec.:
+. 
+. <->"Calluna/B/ICU:script=latn;language=DFLT;mapping=tex-text;+smcp;color=BFFF
+00FF
+. ;"
+. 
+. * 'italic' with NFSS spec.:
+. <->"Calluna/I/ICU:script=latn;language=DFLT;mapping=tex-text;color=BFFF00FF
+. ;"
+. 
+. * 'italic small caps' with NFSS spec.:
+. 
+. <->"Calluna/I/ICU:script=latn;language=DFLT;mapping=tex-text;+smcp;color=BFFF
+00FF
+. ;"
+. 
+. * 'bold italic' with NFSS spec.:
+. 
+. <->"Calluna/BI/ICU:script=latn;language=DFLT;mapping=tex-text;color=BFFF00FF
+. ;"
+. 
+. * 'bold italic small caps' with NFSS spec.:
+. 
+. <->"Calluna/BI/ICU:script=latn;language=DFLT;mapping=tex-text;+smcp;color=BFF
+F00FF
+. ;"
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'Calluna(2)' created for font 'Calluna' with options
+. [Ligatures={TeX},,Color=Peach].
+. 
+. This font family consists of the following shapes:
+. 
+. * 'normal' with NFSS spec.:
+. <->"Calluna/ICU:script=latn;language=DFLT;mapping=tex-text;color=FF804DFF ;"
+. 
+. * 'small caps' with NFSS spec.:
+. 
+. <->"Calluna/ICU:script=latn;language=DFLT;mapping=tex-text;+smcp;color=FF804D
+FF
+. ;"
+. 
+. * 'bold' with NFSS spec.:
+. <->"Calluna/B/ICU:script=latn;language=DFLT;mapping=tex-text;color=FF804DFF
+. ;"
+. 
+. * 'bold small caps' with NFSS spec.:
+. 
+. <->"Calluna/B/ICU:script=latn;language=DFLT;mapping=tex-text;+smcp;color=FF80
+4DFF
+. ;"
+. 
+. * 'italic' with NFSS spec.:
+. <->"Calluna/I/ICU:script=latn;language=DFLT;mapping=tex-text;color=FF804DFF
+. ;"
+. 
+. * 'italic small caps' with NFSS spec.:
+. 
+. <->"Calluna/I/ICU:script=latn;language=DFLT;mapping=tex-text;+smcp;color=FF80
+4DFF
+. ;"
+. 
+. * 'bold italic' with NFSS spec.:
+. 
+. <->"Calluna/BI/ICU:script=latn;language=DFLT;mapping=tex-text;color=FF804DFF
+. ;"
+. 
+. * 'bold italic small caps' with NFSS spec.:
+. 
+. <->"Calluna/BI/ICU:script=latn;language=DFLT;mapping=tex-text;+smcp;color=FF8
+04DFF
+. ;"
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'Calluna(3)' created for font 'Calluna' with options
+. [Ligatures={TeX},,Color=Mulberry].
+. 
+. This font family consists of the following shapes:
+. 
+. * 'normal' with NFSS spec.:
+. <->"Calluna/ICU:script=latn;language=DFLT;mapping=tex-text;color=A314FAFF ;"
+. 
+. * 'small caps' with NFSS spec.:
+. 
+. <->"Calluna/ICU:script=latn;language=DFLT;mapping=tex-text;+smcp;color=A314FA
+FF
+. ;"
+. 
+. * 'bold' with NFSS spec.:
+. <->"Calluna/B/ICU:script=latn;language=DFLT;mapping=tex-text;color=A314FAFF
+. ;"
+. 
+. * 'bold small caps' with NFSS spec.:
+. 
+. <->"Calluna/B/ICU:script=latn;language=DFLT;mapping=tex-text;+smcp;color=A314
+FAFF
+. ;"
+. 
+. * 'italic' with NFSS spec.:
+. <->"Calluna/I/ICU:script=latn;language=DFLT;mapping=tex-text;color=A314FAFF
+. ;"
+. 
+. * 'italic small caps' with NFSS spec.:
+. 
+. <->"Calluna/I/ICU:script=latn;language=DFLT;mapping=tex-text;+smcp;color=A314
+FAFF
+. ;"
+. 
+. * 'bold italic' with NFSS spec.:
+. 
+. <->"Calluna/BI/ICU:script=latn;language=DFLT;mapping=tex-text;color=A314FAFF
+. ;"
+. 
+. * 'bold italic small caps' with NFSS spec.:
+. 
+. <->"Calluna/BI/ICU:script=latn;language=DFLT;mapping=tex-text;+smcp;color=A31
+4FAFF
+. ;"
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'Calluna(4)' created for font 'Calluna' with options
+. [Ligatures={TeX},,Color=YellowGreen].
+. 
+. This font family consists of the following shapes:
+. 
+. * 'normal' with NFSS spec.:
+. <->"Calluna/ICU:script=latn;language=DFLT;mapping=tex-text;color=9ACD32FF ;"
+. 
+. * 'small caps' with NFSS spec.:
+. 
+. <->"Calluna/ICU:script=latn;language=DFLT;mapping=tex-text;+smcp;color=9ACD32
+FF
+. ;"
+. 
+. * 'bold' with NFSS spec.:
+. <->"Calluna/B/ICU:script=latn;language=DFLT;mapping=tex-text;color=9ACD32FF
+. ;"
+. 
+. * 'bold small caps' with NFSS spec.:
+. 
+. <->"Calluna/B/ICU:script=latn;language=DFLT;mapping=tex-text;+smcp;color=9ACD
+32FF
+. ;"
+. 
+. * 'italic' with NFSS spec.:
+. <->"Calluna/I/ICU:script=latn;language=DFLT;mapping=tex-text;color=9ACD32FF
+. ;"
+. 
+. * 'italic small caps' with NFSS spec.:
+. 
+. <->"Calluna/I/ICU:script=latn;language=DFLT;mapping=tex-text;+smcp;color=9ACD
+32FF
+. ;"
+. 
+. * 'bold italic' with NFSS spec.:
+. 
+. <->"Calluna/BI/ICU:script=latn;language=DFLT;mapping=tex-text;color=9ACD32FF
+. ;"
+. 
+. * 'bold italic small caps' with NFSS spec.:
+. 
+. <->"Calluna/BI/ICU:script=latn;language=DFLT;mapping=tex-text;+smcp;color=9AC
+D32FF
+. ;"
+.................................................
+
+Overfull \hbox (2.9744pt too wide) in paragraph at lines 2041--2070
+[][]  
+ []
+
+\g_fontspec_family_Arno Pro_int=\count427
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'ArnoPro(0)' created for font 'Arno Pro' with options
+. [Ligatures={TeX},Color=BurntOrange].
+. 
+. This font family consists of the following shapes:
+. 
+. * 'normal' with NFSS spec.:
+. <->"Arno Pro/ICU:script=latn;language=DFLT;mapping=tex-text;color=FF7D00FF
+. ;"
+. 
+. * 'small caps' with NFSS spec.:
+. <->"Arno
+. Pro/ICU:script=latn;language=DFLT;mapping=tex-text;+smcp;color=FF7D00FF ;"
+. 
+. * 'bold' with NFSS spec.:
+. <->"Arno Pro/B/ICU:script=latn;language=DFLT;mapping=tex-text;color=FF7D00FF
+. ;"
+. 
+. * 'bold small caps' with NFSS spec.:
+. <->"Arno
+. Pro/B/ICU:script=latn;language=DFLT;mapping=tex-text;+smcp;color=FF7D00FF ;"
+. 
+. * 'italic' with NFSS spec.:
+. <->"Arno Pro/I/ICU:script=latn;language=DFLT;mapping=tex-text;color=FF7D00FF
+. ;"
+. 
+. * 'italic small caps' with NFSS spec.:
+. <->"Arno
+. Pro/I/ICU:script=latn;language=DFLT;mapping=tex-text;+smcp;color=FF7D00FF ;"
+. 
+. * 'bold italic' with NFSS spec.:
+. <->"Arno
+. Pro/BI/ICU:script=latn;language=DFLT;mapping=tex-text;color=FF7D00FF ;"
+. 
+. * 'bold italic small caps' with NFSS spec.:
+. <->"Arno
+. Pro/BI/ICU:script=latn;language=DFLT;mapping=tex-text;+smcp;color=FF7D00FF
+. ;"
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'JannonTModernePro(1)' created for font 'Jannon T Moderne Pro'
+. with options [Ligatures={TeX},,LetterSpace=5.0].
+. 
+. This font family consists of the following shapes:
+.................................................
+[68]
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'Calluna(5)' created for font 'Calluna' with options
+. [Ligatures={TeX},Ligatures=Discretionary].
+. 
+. This font family consists of the following shapes:
+. 
+. * 'normal' with NFSS spec.:
+. <->"Calluna/ICU:script=latn;language=DFLT;mapping=tex-text;+dlig;"
+. 
+. * 'small caps' with NFSS spec.:
+. <->"Calluna/ICU:script=latn;language=DFLT;mapping=tex-text;+dlig;+smcp;"
+. 
+. * 'bold' with NFSS spec.:
+. <->"Calluna/B/ICU:script=latn;language=DFLT;mapping=tex-text;+dlig;"
+. 
+. * 'bold small caps' with NFSS spec.:
+. <->"Calluna/B/ICU:script=latn;language=DFLT;mapping=tex-text;+dlig;+smcp;"
+. 
+. * 'italic' with NFSS spec.:
+. <->"Calluna/I/ICU:script=latn;language=DFLT;mapping=tex-text;+dlig;"
+. 
+. * 'italic small caps' with NFSS spec.:
+. <->"Calluna/I/ICU:script=latn;language=DFLT;mapping=tex-text;+dlig;+smcp;"
+. 
+. * 'bold italic' with NFSS spec.:
+. <->"Calluna/BI/ICU:script=latn;language=DFLT;mapping=tex-text;+dlig;"
+. 
+. * 'bold italic small caps' with NFSS spec.:
+. <->"Calluna/BI/ICU:script=latn;language=DFLT;mapping=tex-text;+dlig;+smcp;"
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'ArnoPro(1)' created for font 'Arno Pro' with options
+. [Ligatures={TeX},Style=Alternate].
+. 
+. This font family consists of the following shapes:
+. 
+. * 'normal' with NFSS spec.:
+. <->"Arno Pro/ICU:script=latn;language=DFLT;mapping=tex-text;+salt;"
+. 
+. * 'small caps' with NFSS spec.:
+. <->"Arno Pro/ICU:script=latn;language=DFLT;mapping=tex-text;+salt;+smcp;"
+. 
+. * 'bold' with NFSS spec.:
+. <->"Arno Pro/B/ICU:script=latn;language=DFLT;mapping=tex-text;+salt;"
+. 
+. * 'bold small caps' with NFSS spec.:
+. <->"Arno Pro/B/ICU:script=latn;language=DFLT;mapping=tex-text;+salt;+smcp;"
+. 
+. * 'italic' with NFSS spec.:
+. <->"Arno Pro/I/ICU:script=latn;language=DFLT;mapping=tex-text;+salt;"
+. 
+. * 'italic small caps' with NFSS spec.:
+. <->"Arno Pro/I/ICU:script=latn;language=DFLT;mapping=tex-text;+salt;+smcp;"
+. 
+. * 'bold italic' with NFSS spec.:
+. <->"Arno Pro/BI/ICU:script=latn;language=DFLT;mapping=tex-text;+salt;"
+. 
+. * 'bold italic small caps' with NFSS spec.:
+. <->"Arno Pro/BI/ICU:script=latn;language=DFLT;mapping=tex-text;+salt;+smcp;"
+.................................................
+
+*************************************************
+* fontspec warning: "icu-feature-not-exist-in-font"
+* 
+* OpenType feature 'Style=Swash' (+swsh) not available for font 'Arno Pro'
+* with script 'Latin' and language 'Default'.
+*************************************************
+*************************************************
+* fontspec warning: "icu-feature-not-exist-in-font"
+* 
+* OpenType feature 'Style=Swash' (+swsh) not available for font 'Arno Pro'
+* with script 'Latin' and language 'Default'.
+*************************************************
+*************************************************
+* fontspec warning: "icu-feature-not-exist-in-font"
+* 
+* OpenType feature 'Style=Swash' (+swsh) not available for font 'Arno Pro'
+* with script 'Latin' and language 'Default'.
+*************************************************
+*************************************************
+* fontspec warning: "icu-feature-not-exist-in-font"
+* 
+* OpenType feature 'Style=Swash' (+swsh) not available for font 'Arno Pro/B'
+* with script 'Latin' and language 'Default'.
+*************************************************
+*************************************************
+* fontspec warning: "icu-feature-not-exist-in-font"
+* 
+* OpenType feature 'Style=Swash' (+swsh) not available for font 'Arno Pro/B'
+* with script 'Latin' and language 'Default'.
+*************************************************
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'ArnoPro(2)' created for font 'Arno Pro' with options
+. [Ligatures={TeX},Style=Swash].
+. 
+. This font family consists of the following shapes:
+. 
+. * 'normal' with NFSS spec.:
+. <->"Arno Pro/ICU:script=latn;language=DFLT;mapping=tex-text;"
+. 
+. * 'small caps' with NFSS spec.:
+. <->"Arno Pro/ICU:script=latn;language=DFLT;mapping=tex-text;+smcp;"
+. 
+. * 'bold' with NFSS spec.:
+. <->"Arno Pro/B/ICU:script=latn;language=DFLT;mapping=tex-text;"
+. 
+. * 'bold small caps' with NFSS spec.:
+. <->"Arno Pro/B/ICU:script=latn;language=DFLT;mapping=tex-text;+smcp;"
+. 
+. * 'italic' with NFSS spec.:
+. <->"Arno Pro/I/ICU:script=latn;language=DFLT;mapping=tex-text;+swsh;"
+. 
+. * 'italic small caps' with NFSS spec.:
+. <->"Arno Pro/I/ICU:script=latn;language=DFLT;mapping=tex-text;+swsh;+smcp;"
+. 
+. * 'bold italic' with NFSS spec.:
+. <->"Arno Pro/BI/ICU:script=latn;language=DFLT;mapping=tex-text;+swsh;"
+. 
+. * 'bold italic small caps' with NFSS spec.:
+. <->"Arno Pro/BI/ICU:script=latn;language=DFLT;mapping=tex-text;+swsh;+smcp;"
+.................................................
+\g_fontspec_family_Sabon LT Std_int=\count428
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'SabonLTStd(0)' created for font 'Sabon LT Std' with options
+. [Ligatures={TeX},Numbers=OldStyle].
+. 
+. This font family consists of the following shapes:
+. 
+. * 'normal' with NFSS spec.:
+. <->"Sabon LT Std/ICU:script=latn;language=DFLT;mapping=tex-text;+onum;"
+. 
+. * 'small caps' with NFSS spec.:
+. <->"Sabon LT
+. Std/ICU:script=latn;language=DFLT;mapping=tex-text;+onum;+smcp;"
+. 
+. * 'bold' with NFSS spec.:
+. <->"Sabon LT Std/B/ICU:script=latn;language=DFLT;mapping=tex-text;+onum;"
+. 
+. * 'italic' with NFSS spec.:
+. <->"Sabon LT Std/I/ICU:script=latn;language=DFLT;mapping=tex-text;+onum;"
+. 
+. * 'bold italic' with NFSS spec.:
+. <->"Sabon LT Std/BI/ICU:script=latn;language=DFLT;mapping=tex-text;+onum;"
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'SabonLTStd(1)' created for font 'Sabon LT Std' with options
+. [Ligatures={TeX},Numbers=Lining].
+. 
+. This font family consists of the following shapes:
+. 
+. * 'normal' with NFSS spec.:
+. <->"Sabon LT Std/ICU:script=latn;language=DFLT;mapping=tex-text;+lnum;"
+. 
+. * 'small caps' with NFSS spec.:
+. <->"Sabon LT
+. Std/ICU:script=latn;language=DFLT;mapping=tex-text;+lnum;+smcp;"
+. 
+. * 'bold' with NFSS spec.:
+. <->"Sabon LT Std/B/ICU:script=latn;language=DFLT;mapping=tex-text;+lnum;"
+. 
+. * 'italic' with NFSS spec.:
+. <->"Sabon LT Std/I/ICU:script=latn;language=DFLT;mapping=tex-text;+lnum;"
+. 
+. * 'bold italic' with NFSS spec.:
+. <->"Sabon LT Std/BI/ICU:script=latn;language=DFLT;mapping=tex-text;+lnum;"
+.................................................
+
+Overfull \hbox (20.27356pt too wide) in paragraph at lines 2164--2168
+[][]  
+ []
+
+
+Overfull \hbox (28.11435pt too wide) in paragraph at lines 2182--2182
+[]\EU1/Consolas(0)/m/n/10 \fontspec[Contextuals=Swash]{Warnock Pro}[] 
+ []
+
+\g_fontspec_family_Warnock Pro_int=\count429
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'WarnockPro(0)' created for font 'Warnock Pro' with options
+. [Ligatures={TeX},].
+. 
+. This font family consists of the following shapes:
+. 
+. * 'normal' with NFSS spec.:
+. <->"Warnock Pro/ICU:script=latn;language=DFLT;mapping=tex-text;"
+. 
+. * 'small caps' with NFSS spec.:
+. <->"Warnock Pro/ICU:script=latn;language=DFLT;mapping=tex-text;+smcp;"
+. 
+. * 'bold' with NFSS spec.:
+. <->"Warnock Pro/B/ICU:script=latn;language=DFLT;mapping=tex-text;"
+. 
+. * 'bold small caps' with NFSS spec.:
+. <->"Warnock Pro/B/ICU:script=latn;language=DFLT;mapping=tex-text;+smcp;"
+. 
+. * 'italic' with NFSS spec.:
+. <->"Warnock Pro/I/ICU:script=latn;language=DFLT;mapping=tex-text;"
+. 
+. * 'italic small caps' with NFSS spec.:
+. <->"Warnock Pro/I/ICU:script=latn;language=DFLT;mapping=tex-text;+smcp;"
+. 
+. * 'bold italic' with NFSS spec.:
+. <->"Warnock Pro/BI/ICU:script=latn;language=DFLT;mapping=tex-text;"
+. 
+. * 'bold italic small caps' with NFSS spec.:
+. <->"Warnock Pro/BI/ICU:script=latn;language=DFLT;mapping=tex-text;+smcp;"
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'WarnockPro(1)' created for font 'Warnock Pro' with options
+. [Ligatures={TeX},Contextuals=Swash].
+. 
+. This font family consists of the following shapes:
+. 
+. * 'normal' with NFSS spec.:
+. <->"Warnock Pro/ICU:script=latn;language=DFLT;mapping=tex-text;+cswh;"
+. 
+. * 'small caps' with NFSS spec.:
+. <->"Warnock Pro/ICU:script=latn;language=DFLT;mapping=tex-text;+cswh;+smcp;"
+. 
+. * 'bold' with NFSS spec.:
+. <->"Warnock Pro/B/ICU:script=latn;language=DFLT;mapping=tex-text;+cswh;"
+. 
+. * 'bold small caps' with NFSS spec.:
+. <->"Warnock
+. Pro/B/ICU:script=latn;language=DFLT;mapping=tex-text;+cswh;+smcp;"
+. 
+. * 'italic' with NFSS spec.:
+. <->"Warnock Pro/I/ICU:script=latn;language=DFLT;mapping=tex-text;+cswh;"
+. 
+. * 'italic small caps' with NFSS spec.:
+. <->"Warnock
+. Pro/I/ICU:script=latn;language=DFLT;mapping=tex-text;+cswh;+smcp;"
+. 
+. * 'bold italic' with NFSS spec.:
+. <->"Warnock Pro/BI/ICU:script=latn;language=DFLT;mapping=tex-text;+cswh;"
+. 
+. * 'bold italic small caps' with NFSS spec.:
+. <->"Warnock
+. Pro/BI/ICU:script=latn;language=DFLT;mapping=tex-text;+cswh;+smcp;"
+.................................................
+
+Underfull \hbox (badness 10000) in paragraph at lines 2189--2190
+[]\EU1/WarnockPro(1)/m/it/10 With Contextual Swashes; cf. W
+ []
+
+
+Overfull \hbox (35.99998pt too wide) in paragraph at lines 2174--2193
+[][] 
+ []
 
 .................................................
 . fontspec info: "defining-font"
 . 
-. Font family 'BulmerMTStd(3)' created for font 'Bulmer MT Std' with options
-. [Ligatures={TeX},Numbers=OldStyle,BoldFont={Bulmer MT Std
-. Bold},BoldItalicFont={Bulmer MT Std Bold Italic},LetterSpace=5.0].
+. Font family 'JannonTModernePro(1)' created for font 'Jannon T Moderne Pro'
+. with options [Ligatures={TeX},,LetterSpace=5.0].
 . 
 . This font family consists of the following shapes:
 .................................................
-[60]
+[69] [70
+
+]
 Capítulo 11.
 
-LaTeX Warning: Marginpar on page 61 moved.
+LaTeX Warning: Marginpar on page 71 moved.
 
 
-Overfull \hbox (36.00002pt too wide) in paragraph at lines 1868--1883
+Overfull \hbox (36.00002pt too wide) in paragraph at lines 2249--2264
 [][]  
  []
 
-[61
+[71]
+Package mdframed Info: mdframed works in twoside mode on input line 2278.
 
-]
-Package mdframed Info: mdframed works in twoside mode on input line 1897.
-
-Underfull \hbox (badness 10000) in paragraph at lines 1903--1905
+Underfull \hbox (badness 10000) in paragraph at lines 2284--2286
 []\EU1/MinionPro(0)/m/n/10 Лев Николаевич Толстой (28 ав�
 �уста (9 сентября) 1828, Ясная
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1903--1905
+Underfull \hbox (badness 10000) in paragraph at lines 2284--2286
 \EU1/MinionPro(0)/m/n/10 Поляна, Тульская губерния, Ро�
 �сийская империя — 7 (20) нояб-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1903--1905
+Underfull \hbox (badness 10000) in paragraph at lines 2284--2286
 \EU1/MinionPro(0)/m/n/10 ря 1910, станция Астапово, Тамбо
 вская губерния, Российская
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1903--1905
+Underfull \hbox (badness 10000) in paragraph at lines 2284--2286
 \EU1/MinionPro(0)/m/n/10 империя), граф — один из наибо
 лее широко известных русских
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1903--1905
+Underfull \hbox (badness 10000) in paragraph at lines 2284--2286
 \EU1/MinionPro(0)/m/n/10 писателей и мыслителей. ([]$[][][]
 [] [] [] [] [][] [] [][][][][][][][][] [] [][][] [] [][][][] [] [][][][][][][] 
 [][]$
  []
 
-Package mdframed Info: mdframed works in twoside mode on input line 1910.
+Package mdframed Info: mdframed works in twoside mode on input line 2291.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1915--1918
+Underfull \hbox (badness 10000) in paragraph at lines 2296--2299
 []\EU1/MinionPro(0)/m/n/10 Ο Οδυσσέας Ελύτης (2 Νοεμβρίο
 υ 1911 - 18 Μαρτίου 1996), φι-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1915--1918
+Underfull \hbox (badness 10000) in paragraph at lines 2296--2299
 \EU1/MinionPro(0)/m/n/10 λολογικό ψευδώνυμο του Οδυσσ�
 �α Αλεπουδέλλη του Παναγιώτη,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1915--1918
+Underfull \hbox (badness 10000) in paragraph at lines 2296--2299
 \EU1/MinionPro(0)/m/n/10 ήταν ένας από τους σημαντικότ
 ερους Έλληνες ποιητές, μέλος της
  []
@@ -3493,249 +4365,472 @@ lif-novoc;"
 . Arabic/BI/ICU:script=arab;language=DFLT;mapping=tex-text;mapping=arabtex-fdf2
 alif-novoc;"
 .................................................
-
-Overfull \hbox (37.27539pt too wide) in paragraph at lines 1964--1964
-[]\EU1/BulmerMTStd(0)/m/n/8 http://tex.stackexchange.com/questions/45331/combin
-ing- 
- []
-
-
-LaTeX Warning: Marginpar on page 62 moved.
-
 .................................................
 . fontspec info: "defining-font"
 . 
-. Font family 'BulmerMTStd(3)' created for font 'Bulmer MT Std' with options
-. [Ligatures={TeX},Numbers=OldStyle,BoldFont={Bulmer MT Std
-. Bold},BoldItalicFont={Bulmer MT Std Bold Italic},LetterSpace=5.0].
+. Font family 'JannonTModernePro(1)' created for font 'Jannon T Moderne Pro'
+. with options [Ligatures={TeX},,LetterSpace=5.0].
 . 
 . This font family consists of the following shapes:
 .................................................
-[62]
-Overfull \hbox (25.43974pt too wide) in paragraph at lines 1980--1980
+[72]
+
+! LaTeX Error: Environment syriac undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2356 \begin{syriac}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Missing character: There is no ܩ in font Jannon T Moderne Pro/ICU:script=latn;
+language=DFLT;mapping=tex-text;!
+Missing character: There is no ܕ in font Jannon T Moderne Pro/ICU:script=latn;
+language=DFLT;mapping=tex-text;!
+Missing character: There is no ܝ in font Jannon T Moderne Pro/ICU:script=latn;
+language=DFLT;mapping=tex-text;!
+Missing character: There is no ܫ in font Jannon T Moderne Pro/ICU:script=latn;
+language=DFLT;mapping=tex-text;!
+Missing character: There is no ܐ in font Jannon T Moderne Pro/ICU:script=latn;
+language=DFLT;mapping=tex-text;!
+Missing character: There is no ܐ in font Jannon T Moderne Pro/ICU:script=latn;
+language=DFLT;mapping=tex-text;!
+Missing character: There is no ܠ in font Jannon T Moderne Pro/ICU:script=latn;
+language=DFLT;mapping=tex-text;!
+Missing character: There is no ܗ in font Jannon T Moderne Pro/ICU:script=latn;
+language=DFLT;mapping=tex-text;!
+Missing character: There is no ܐ in font Jannon T Moderne Pro/ICU:script=latn;
+language=DFLT;mapping=tex-text;!
+Missing character: There is no ، in font Jannon T Moderne Pro/ICU:script=latn;
+language=DFLT;mapping=tex-text;!
+Missing character: There is no ܩ in font Jannon T Moderne Pro/ICU:script=latn;
+language=DFLT;mapping=tex-text;!
+Missing character: There is no ܕ in font Jannon T Moderne Pro/ICU:script=latn;
+language=DFLT;mapping=tex-text;!
+Missing character: There is no ܝ in font Jannon T Moderne Pro/ICU:script=latn;
+language=DFLT;mapping=tex-text;!
+Missing character: There is no ܫ in font Jannon T Moderne Pro/ICU:script=latn;
+language=DFLT;mapping=tex-text;!
+Missing character: There is no ܐ in font Jannon T Moderne Pro/ICU:script=latn;
+language=DFLT;mapping=tex-text;!
+Missing character: There is no ܚ in font Jannon T Moderne Pro/ICU:script=latn;
+language=DFLT;mapping=tex-text;!
+Missing character: There is no ܝ in font Jannon T Moderne Pro/ICU:script=latn;
+language=DFLT;mapping=tex-text;!
+Missing character: There is no ܠ in font Jannon T Moderne Pro/ICU:script=latn;
+language=DFLT;mapping=tex-text;!
+Missing character: There is no ܬ in font Jannon T Moderne Pro/ICU:script=latn;
+language=DFLT;mapping=tex-text;!
+Missing character: There is no ܢ in font Jannon T Moderne Pro/ICU:script=latn;
+language=DFLT;mapping=tex-text;!
+Missing character: There is no ܐ in font Jannon T Moderne Pro/ICU:script=latn;
+language=DFLT;mapping=tex-text;!
+Missing character: There is no ، in font Jannon T Moderne Pro/ICU:script=latn;
+language=DFLT;mapping=tex-text;!
+Missing character: There is no ܩ in font Jannon T Moderne Pro/ICU:script=latn;
+language=DFLT;mapping=tex-text;!
+Missing character: There is no ܕ in font Jannon T Moderne Pro/ICU:script=latn;
+language=DFLT;mapping=tex-text;!
+Missing character: There is no ܝ in font Jannon T Moderne Pro/ICU:script=latn;
+language=DFLT;mapping=tex-text;!
+Missing character: There is no ܫ in font Jannon T Moderne Pro/ICU:script=latn;
+language=DFLT;mapping=tex-text;!
+Missing character: There is no ܐ in font Jannon T Moderne Pro/ICU:script=latn;
+language=DFLT;mapping=tex-text;!
+Missing character: There is no ܠ in font Jannon T Moderne Pro/ICU:script=latn;
+language=DFLT;mapping=tex-text;!
+Missing character: There is no ܐ in font Jannon T Moderne Pro/ICU:script=latn;
+language=DFLT;mapping=tex-text;!
+Missing character: There is no ܡ in font Jannon T Moderne Pro/ICU:script=latn;
+language=DFLT;mapping=tex-text;!
+Missing character: There is no ܝ in font Jannon T Moderne Pro/ICU:script=latn;
+language=DFLT;mapping=tex-text;!
+Missing character: There is no ܘ in font Jannon T Moderne Pro/ICU:script=latn;
+language=DFLT;mapping=tex-text;!
+Missing character: There is no ܬ in font Jannon T Moderne Pro/ICU:script=latn;
+language=DFLT;mapping=tex-text;!
+Missing character: There is no ܐ in font Jannon T Moderne Pro/ICU:script=latn;
+language=DFLT;mapping=tex-text;!
+Missing character: There is no ، in font Jannon T Moderne Pro/ICU:script=latn;
+language=DFLT;mapping=tex-text;!
+Missing character: There is no ܐ in font Jannon T Moderne Pro/ICU:script=latn;
+language=DFLT;mapping=tex-text;!
+Missing character: There is no ܬ in font Jannon T Moderne Pro/ICU:script=latn;
+language=DFLT;mapping=tex-text;!
+Missing character: There is no ܪ in font Jannon T Moderne Pro/ICU:script=latn;
+language=DFLT;mapping=tex-text;!
+Missing character: There is no ܚ in font Jannon T Moderne Pro/ICU:script=latn;
+language=DFLT;mapping=tex-text;!
+Missing character: There is no ܡ in font Jannon T Moderne Pro/ICU:script=latn;
+language=DFLT;mapping=tex-text;!
+Missing character: There is no ܥ in font Jannon T Moderne Pro/ICU:script=latn;
+language=DFLT;mapping=tex-text;!
+Missing character: There is no ܠ in font Jannon T Moderne Pro/ICU:script=latn;
+language=DFLT;mapping=tex-text;!
+Missing character: There is no ܝ in font Jannon T Moderne Pro/ICU:script=latn;
+language=DFLT;mapping=tex-text;!
+Missing character: There is no ܢ in font Jannon T Moderne Pro/ICU:script=latn;
+language=DFLT;mapping=tex-text;!
+
+! LaTeX Error: \begin{document} ended by \end{syriac}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2358 \end{syriac}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (49.43813pt too wide) in paragraph at lines 2363--2363
+$[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][]$[]  
+ []
+
+
+LaTeX Warning: Marginpar on page 73 moved.
+
+
+Overfull \hbox (25.43974pt too wide) in paragraph at lines 2386--2386
 []\EU1/Consolas(0)/m/n/10 \newcommand\Chinese{\renewcommand\CJKrmdefault{zhrm}\
 CJKnospace\normalfont}[] 
  []
 
 
-Overfull \hbox (29.83821pt too wide) in paragraph at lines 1980--1980
+Overfull \hbox (29.83821pt too wide) in paragraph at lines 2386--2386
 []\EU1/Consolas(0)/m/n/10 \newcommand\Japanese{\renewcommand\CJKrmdefault{jarm}
 \CJKnospace\normalfont}[] 
  []
 
 
-Overfull \hbox (12.24434pt too wide) in paragraph at lines 1980--1980
+Overfull \hbox (12.24434pt too wide) in paragraph at lines 2386--2386
 []\EU1/Consolas(0)/m/n/10 \newcommand\Korean{\renewcommand\CJKrmdefault{korm}\C
 JKspace\normalfont}[] 
  []
 
+Missing character: There is no お in font Consolas/ICU:script=latn;language=DF
+LT;mapping=tex-text;!
+Missing character: There is no は in font Consolas/ICU:script=latn;language=DF
+LT;mapping=tex-text;!
+Missing character: There is no よ in font Consolas/ICU:script=latn;language=DF
+LT;mapping=tex-text;!
+Missing character: There is no う in font Consolas/ICU:script=latn;language=DF
+LT;mapping=tex-text;!
+Missing character: There is no 早 in font Consolas/ICU:script=latn;language=DF
+LT;mapping=tex-text;!
+Missing character: There is no 安 in font Consolas/ICU:script=latn;language=DF
+LT;mapping=tex-text;!
+Missing character: There is no 안 in font Consolas/ICU:script=latn;language=DF
+LT;mapping=tex-text;!
+Missing character: There is no 녕 in font Consolas/ICU:script=latn;language=DF
+LT;mapping=tex-text;!
+Missing character: There is no 하 in font Consolas/ICU:script=latn;language=DF
+LT;mapping=tex-text;!
+Missing character: There is no 세 in font Consolas/ICU:script=latn;language=DF
+LT;mapping=tex-text;!
+Missing character: There is no 요 in font Consolas/ICU:script=latn;language=DF
+LT;mapping=tex-text;!
 
-Overfull \hbox (0.40558pt too wide) in paragraph at lines 1995--2004
+Overfull \hbox (29.83804pt too wide) in paragraph at lines 2386--2386
+[]\EU1/Consolas(0)/m/n/10 {\Korean 안녕하세요}   &  An-nyeong-ha-se-yo & �
+��Como vai?”/”Bom dia!” em coreano.[] 
+ []
+
+! Undefined control sequence.
+l.2393 {\Japanese
+                  おはよう}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no お in font Jannon T Moderne Pro/ICU:script=latn
+;language=DFLT;mapping=tex-text;!
+Missing character: There is no は in font Jannon T Moderne Pro/ICU:script=latn
+;language=DFLT;mapping=tex-text;!
+Missing character: There is no よ in font Jannon T Moderne Pro/ICU:script=latn
+;language=DFLT;mapping=tex-text;!
+Missing character: There is no う in font Jannon T Moderne Pro/ICU:script=latn
+;language=DFLT;mapping=tex-text;!
+! Undefined control sequence.
+l.2396 {\Chinese
+                 早安} & Zao an! & ``Bom dia!" em chinês\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 早 in font Jannon T Moderne Pro/ICU:script=latn
+;language=DFLT;mapping=tex-text;!
+Missing character: There is no 安 in font Jannon T Moderne Pro/ICU:script=latn
+;language=DFLT;mapping=tex-text;!
+! Undefined control sequence.
+l.2398 {\Korean
+                안녕하세요}   &  An-nyeong-ha-se-yo & ``Como vai?"/"Bom...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 안 in font Jannon T Moderne Pro/ICU:script=latn
+;language=DFLT;mapping=tex-text;!
+Missing character: There is no 녕 in font Jannon T Moderne Pro/ICU:script=latn
+;language=DFLT;mapping=tex-text;!
+Missing character: There is no 하 in font Jannon T Moderne Pro/ICU:script=latn
+;language=DFLT;mapping=tex-text;!
+Missing character: There is no 세 in font Jannon T Moderne Pro/ICU:script=latn
+;language=DFLT;mapping=tex-text;!
+Missing character: There is no 요 in font Jannon T Moderne Pro/ICU:script=latn
+;language=DFLT;mapping=tex-text;!
+
+Overfull \hbox (2.72552pt too wide) in paragraph at lines 2392--2401
  [] 
  []
 
 .................................................
 . fontspec info: "defining-font"
 . 
-. Font family 'BulmerMTStd(3)' created for font 'Bulmer MT Std' with options
-. [Ligatures={TeX},Numbers=OldStyle,BoldFont={Bulmer MT Std
-. Bold},BoldItalicFont={Bulmer MT Std Bold Italic},LetterSpace=5.0].
+. Font family 'JannonTModernePro(1)' created for font 'Jannon T Moderne Pro'
+. with options [Ligatures={TeX},,LetterSpace=5.0].
 . 
 . This font family consists of the following shapes:
 .................................................
-[63]
+[73]
 \openout2 = `abntex2-latexintro.aux'.
 
- (./abntex2-latexintro.tex [64
+ (./abntex2-latexintro.tex [74
 
 
 ]
 Capítulo 12.
-
-LaTeX Warning: Marginpar on page 65 moved.
-
-
-LaTeX Warning: Marginpar on page 65 moved.
-
-[65]
-
-LaTeX Warning: Marginpar on page 66 moved.
-
 .................................................
 . fontspec info: "defining-font"
 . 
-. Font family 'BulmerMTStd(3)' created for font 'Bulmer MT Std' with options
-. [Ligatures={TeX},Numbers=OldStyle,BoldFont={Bulmer MT Std
-. Bold},BoldItalicFont={Bulmer MT Std Bold Italic},LetterSpace=5.0].
+. Font family 'JannonTModernePro(1)' created for font 'Jannon T Moderne Pro'
+. with options [Ligatures={TeX},,LetterSpace=5.0].
 . 
 . This font family consists of the following shapes:
 .................................................
-[66]
-Overfull \hbox (47.43184pt too wide) in paragraph at lines 166--166
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'JannonTModernePro(1)' created for font 'Jannon T Moderne Pro'
+. with options [Ligatures={TeX},,LetterSpace=5.0].
+. 
+. This font family consists of the following shapes:
+.................................................
+
+LaTeX Warning: Marginpar on page 75 moved.
+
+
+Overfull \hbox (28.1423pt too wide) in paragraph at lines 24--26
+[]\EU1/JannonTModernePro(0)/m/n/10 as especificações de formatação de refer
+ências bibliográficas \EU1/Consolas(0)/m/n/10 abntex2-num.bst 
+ []
+
+
+Overfull \hbox (3.78271pt too wide) in paragraph at lines 83--84
+\EU1/JannonTModernePro(0)/m/n/10 L[]T[]X, ou então o compilador \EU1/Consolas(
+0)/m/n/10 xelatex\EU1/JannonTModernePro(0)/m/n/10 , fazendo uso do pacote \EU1/
+Consolas(0)/m/n/10 polyglossia 
+ []
+
+[75]
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'JannonTModernePro(1)' created for font 'Jannon T Moderne Pro'
+. with options [Ligatures={TeX},,LetterSpace=5.0].
+. 
+. This font family consists of the following shapes:
+.................................................
+ [76]
+Overfull \hbox (47.43184pt too wide) in paragraph at lines 164--164
 []\EU1/Consolas(0)/m/n/10 \preambulo{Modelo canônico de trabalho monográfico 
 acadêmico em conformidade com[] 
  []
 
+)
 .................................................
 . fontspec info: "defining-font"
 . 
-. Font family 'BulmerMTStd(3)' created for font 'Bulmer MT Std' with options
-. [Ligatures={TeX},Numbers=OldStyle,BoldFont={Bulmer MT Std
-. Bold},BoldItalicFont={Bulmer MT Std Bold Italic},LetterSpace=5.0].
+. Font family 'JannonTModernePro(1)' created for font 'Jannon T Moderne Pro'
+. with options [Ligatures={TeX},,LetterSpace=5.0].
 . 
 . This font family consists of the following shapes:
 .................................................
-[67])
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'BulmerMTStd(3)' created for font 'Bulmer MT Std' with options
-. [Ligatures={TeX},Numbers=OldStyle,BoldFont={Bulmer MT Std
-. Bold},BoldItalicFont={Bulmer MT Std Bold Italic},LetterSpace=5.0].
-. 
-. This font family consists of the following shapes:
-.................................................
- [68]
-Capítulo 13.
-[69
+ [77] [78
 
-
-] [70
-
-] [71] [72
 
 ]
-Overfull \hbox (72.98857pt too wide) in paragraph at lines 2069--2080
+Capítulo 13.
+! Undefined control sequence.
+l.2432 \addpart
+               {Apêndices}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[79] [80
+
+] [81] [82
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 2472--2472
+[]|[]\EU1/Consolas(0)/m/n/8 \begin{snugshade} Uma histó-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2473--2473
+[]|\EU1/JannonTModernePro(0)/m/n/8 Define a cor da borda e a cor do fundo.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2475--2475
+[]|\EU1/JannonTModernePro(0)/m/n/8 Uma caixa ao redor do texto do tamanho
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2476--2476
+[]|\EU1/JannonTModernePro(0)/m/n/8 Uma caixa ao redor do texto do tamanho
+ []
+
+
+Overfull \hbox (198.7996pt too wide) in paragraph at lines 2468--2479
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2069--2080
+Underfull \hbox (badness 10000) in paragraph at lines 2468--2479
  
  []
 
-Package mdframed Info: mdframed works in twoside mode on input line 2102.
+Package mdframed Info: mdframed works in twoside mode on input line 2493.
 
-Underfull \hbox (badness 10000) in paragraph at lines 2102--2102
-\EU1/BulmerMTStd(0)/m/n/8 I. Quo usque tandem abutere, Catilina,
+Underfull \hbox (badness 10000) in paragraph at lines 2494--2495
+\EU1/JannonTModernePro(0)/m/n/8 I. Quo usque tandem abutere, Catilina, patienti
+a nostra? quam diu etiam furor
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2102--2102
-\EU1/BulmerMTStd(0)/m/n/8 patientia nostra? quam diu etiam furor
+Underfull \hbox (badness 10000) in paragraph at lines 2494--2495
+\EU1/JannonTModernePro(0)/m/n/8 iste tuus nos eludet? quem ad finem sese effren
+ata iactabit audacia? Nihilne te noc-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2102--2102
-\EU1/BulmerMTStd(0)/m/n/8 iste tuus nos eludet? quem ad finem
+Underfull \hbox (badness 10000) in paragraph at lines 2494--2495
+\EU1/JannonTModernePro(0)/m/n/8 turnum praesidium Palati, nihil urbis vigiliae,
+ nihil timor populi, nihil concursus
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2102--2102
-\EU1/BulmerMTStd(0)/m/n/8 sese effrenata iactabit audacia? Nihilne
+Underfull \hbox (badness 10000) in paragraph at lines 2494--2495
+\EU1/JannonTModernePro(0)/m/n/8 bonorum omnium, nihil hic munitissimus habendi 
+senatus locus, nihil horum ora
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2102--2102
-\EU1/BulmerMTStd(0)/m/n/8 te nocturnum praesidium Palati, nihil
+Underfull \hbox (badness 10000) in paragraph at lines 2494--2495
+\EU1/JannonTModernePro(0)/m/n/8 voltusque moverunt? Patere tua consilia non sen
+tis, constrictam iam horum om-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2102--2102
-\EU1/BulmerMTStd(0)/m/n/8 urbis vigiliae, nihil timor populi, nihil
+Underfull \hbox (badness 10000) in paragraph at lines 2494--2495
+\EU1/JannonTModernePro(0)/m/n/8 nium scientia teneri coniurationem tuam non vid
+es? Quid proxima, quid superiore
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2102--2102
-\EU1/BulmerMTStd(0)/m/n/8 concursus bonorum omnium, nihil hic
+Underfull \hbox (badness 10000) in paragraph at lines 2494--2495
+\EU1/JannonTModernePro(0)/m/n/8 nocte egeris, ubi fueris, quos convocaveris, qu
+id consilii ceperis, quem nostrum
  []
 
+[83] [84
 
-Underfull \hbox (badness 10000) in paragraph at lines 2102--2102
-\EU1/BulmerMTStd(0)/m/n/8 munitissimus habendi senatus locus,
+] [85] [86
+
+]
+Overfull \hbox (2.23555pt too wide) in paragraph at lines 2514--2515
+\EU1/JannonTModernePro(0)/m/n/8 Se você quiser usar um estilo parecido com o d
+os livros de E. Tufte, as classes \EU1/Consolas(0)/m/n/8 tufte-handout 
  []
 
+[87] [88
 
-Underfull \hbox (badness 10000) in paragraph at lines 2102--2102
-\EU1/BulmerMTStd(0)/m/n/8 nihil horum ora voltusque moverunt?
- []
+]
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 2102--2102
-\EU1/BulmerMTStd(0)/m/n/8 Patere tua consilia non sentis, constric-
- []
+Package biblatex Warning: Bibliography string 'volumeof' undefined
+(biblatex)                at entry 'kant:ku' on input line 2642.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2102--2102
-\EU1/BulmerMTStd(0)/m/n/8 tam iam horum omnium scientia teneri
- []
+Package biblatex Warning: Bibliography string 'volumeof' undefined
+(biblatex)                at entry 'kant:kpv' on input line 2642.
+
+[89] [90
+
+]
+
+Package biblatex Warning: Bibliography string 'volumeof' undefined
+(biblatex)                at entry 'kant:kpv' on input line 2646.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2102--2102
-\EU1/BulmerMTStd(0)/m/n/8 coniurationem tuam non vides? Quid
- []
+Package biblatex Warning: Bibliography string 'volumeof' undefined
+(biblatex)                at entry 'kant:ku' on input line 2646.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 2102--2102
-\EU1/BulmerMTStd(0)/m/n/8 proxima, quid superiore nocte egeris,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2102--2102
-\EU1/BulmerMTStd(0)/m/n/8 ubi fueris, quos convocaveris, quid
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2102--2102
-\EU1/BulmerMTStd(0)/m/n/8 consilii ceperis, quem nostrum ignorare
- []
-
-Package mdframed Info: mdframed inside minipage 
- mdframed uses option nobreak mdframed on input line 2102.
-Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 2102.
-
-Overfull \hbox (6.0pt too wide) in paragraph at lines 2102--2102
-[]$[]$  
- []
-
-
-LaTeX Warning: Marginpar on page 73 moved.
-
-[73] [74
-
-] [75] [76
-
-] [77] [78
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'JannonTModernePro(1)' created for font 'Jannon T Moderne Pro'
+. with options [Ligatures={TeX},,LetterSpace=5.0].
+. 
+. This font family consists of the following shapes:
+.................................................
+[91] [92
 
 ]
 .................................................
 . fontspec info: "defining-font"
 . 
-. Font family 'BulmerMTStd(3)' created for font 'Bulmer MT Std' with options
-. [Ligatures={TeX},Numbers=OldStyle,BoldFont={Bulmer MT Std
-. Bold},BoldItalicFont={Bulmer MT Std Bold Italic},LetterSpace=5.0].
+. Font family 'JannonTModernePro(1)' created for font 'Jannon T Moderne Pro'
+. with options [Ligatures={TeX},,LetterSpace=5.0].
 . 
 . This font family consists of the following shapes:
 .................................................
- [79] [80
-
-]
 LaTeX Font Info:    Font shape `U/ccicons/m/n' will be
-(Font)              scaled to size 8.0pt on input line 2259.
+(Font)              scaled to size 8.0pt on input line 2657.
+
+
+Package natbib Warning: There were undefined citations.
 
 
 Package bibentry Warning: You have used \nobibliography* 
 (bibentry)                without a following \bibliography.
 (bibentry)                You may not be able to run BibTeX.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2264.
-[81]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 2264.
- (./tuftelatexintro.aux (./texto-bibliografia.aux)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2662.
+[93
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 2662.
+ (./tuftelatexintro.aux (./texto-bibliografia.aux) (./biblatex.aux)
 (./abntex2-latexintro.aux))
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 2264.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 2264.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 2662.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 2662.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -3746,12 +4841,12 @@ Package logreq Info: Writing requests to 'tuftelatexintro.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31922 strings out of 494004
- 592039 string characters out of 3153866
- 983434 words of memory out of 3000000
- 34500 multiletter control sequences out of 15000+200000
- 22743 words of font info for 174 fonts, out of 3000000 for 9000
+ 32668 strings out of 494004
+ 615329 string characters out of 3153866
+ 986684 words of memory out of 3000000
+ 35113 multiletter control sequences out of 15000+200000
+ 20226 words of font info for 216 fonts, out of 3000000 for 9000
  1144 hyphenation exceptions out of 8191
- 44i,19n,54p,1219b,1405s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 43i,19n,59p,1241b,1406s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on tuftelatexintro.pdf (81 pages).
+Output written on tuftelatexintro.pdf (93 pages).

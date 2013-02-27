@@ -1,10 +1,9 @@
-\documentclass[a4paper,nols,bidi,nohyper]{tufte-book}
+\documentclass[a4paper,nols,bidi,nohyper,nobib]{tufte-book}
 \usepackage{amssymb}
 \usepackage{fontspec}
 \defaultfontfeatures{Ligatures={TeX}}
-\setmainfont[Numbers=OldStyle,BoldFont={Bulmer MT Std Bold},BoldItalicFont={Bulmer MT Std Bold Italic}]{Bulmer MT Std}
-\setsansfont[BoldFont={Bulmer MT Std Bold},BoldItalicFont={Bulmer MT Std Bold Italic}]{Bulmer MT Std}
-%\addtokomafont{disposition}{\rmfamily \bfseries}
+\setmainfont{Jannon T Moderne Pro}
+\setsansfont[BoldFont={Profile-Bold},BoldItalicFont={Profile-BoldItalic}]{Profile}
 \setmonofont[Scale=0.8]{Consolas}
 \usepackage{polyglossia}
 \setmainlanguage{brazil}
@@ -51,20 +50,33 @@
 \usepackage{ccicons}
 \usepackage{lettrine}
 \usepackage[bookmarks,breaklinks]{hyperref}
-\hypersetup{hyperfootnotes=false}
+%\hypersetup{hyperfootnotes=false}
 %\usepackage[hyphens]{url}
 
 \renewcommand{\allcapsspacing}[1]{{\addfontfeature{LetterSpace=20.0}#1}}
 \renewcommand{\smallcapsspacing}[1]{{\addfontfeature{LetterSpace=5.0}#1}}
 \renewcommand{\textsc}[1]{\smallcapsspacing{\textsmallcaps{#1}}}
-\renewcommand{\smallcaps}[1]{\smallcapsspacing{\scshape\MakeTextLowercase{#1}}}}
+\renewcommand{\smallcaps}[1]{\smallcapsspacing{\scshape\MakeTextLowercase{#1}}}
 
 
-\usepackage[style=historian,citestyle=authoryear,natbib=true,doi=false,backend=bibtex]{biblatex}
+\usepackage[style=historian,citestyle=authoryear]{biblatex}
+
+%\ExecuteBibliographyOptions{citetracker=true}
+
+%\renewbibmacro*{cite:short}{% based on cite:short from verbose.cbx
+%  \printtext[bibhyperlink]{\printnames{labelname}}%
+%  \iffieldundef{shorttitle}
+%    {}
+%    {\setunit*{\nametitledelim}%
+%     \printfield[citetitle]{labeltitle}}}
+
+
 \usepackage{csquotes}
 \DefineBibliographyStrings{brazil}{namedash={---------}}
 \addbibresource{latex}
 
+\usepackage{bbding}
+\usepackage{hyphenat}
 
 % %Para fonte Kepler parênteses:
 %\XeTeXinterchartokenstate = 1
@@ -82,6 +94,8 @@
 %\maketitle
 
 \frenchspacing
+
+\frontmatter
 
 \newgeometry{top=3cm,left=3cm,right=3cm,bottom=3cm}
 
@@ -108,7 +122,10 @@ Editora Virtual Imhotep, Ltda.
 \thispagestyle{empty}
 \phantom{}
 \vfill
-{\large \emph{Dedicado a todos os amantes da tipografia.}}
+{
+\centering
+\includegraphics[scale=0.2]{amdg}\\\fontspec{San Marco LT Std}{Ad maiorem Dei gloriam}
+}
 \vfill
 \cleardoublepage
 
@@ -118,33 +135,31 @@ Editora Virtual Imhotep, Ltda.
 
 \listoftables
 
+\mainmatter
 \chapter{Introdução}
 
 \section{O que é TeX?}
 %\vspace{-2cm}
-\TeX (X ou chi pronunciado como o j espanhol ou k) é uma linguagem de mark-up e de programação de baixo nível criada por Donald Knuth para diagramar documentos com uma estética agradável e estruturalmente consistentes. O nome \TeX é a primeira sílaba das palavras gregas \textgreek{τεχνολογία} (``tecnologia''), e \textgreek{τέχνη} (\textit{techni}), ``arte''.
+\TeX{} (X ou chi pronunciado como o j espanhol ou k) é uma linguagem de mark-up e de programação de baixo nível criada por Donald Knuth para diagramar documentos com uma estética agradável e estruturalmente consistentes. O nome \TeX{} é a primeira sílaba das palavras gregas \textgreek{τεχνολογία} (``tecnologia''), e \textgreek{τέχνη} (\textit{techni}), ``arte''.
 	
 Quando Knuth começou a escrever o programa de diagramação (\textit{typesetting engine}) em 1977 para explorar o potencial dos equipamentos de impressão digital que estavam começando a se infiltrar na indústria da editoração gráfica na época, esperando especialmente reverter a tendência da deterioração da qualidade tipográfica afetava seus próprios livros e artigos.
 
-O TeX é uma linguagem de programação para diagramação de textos (typesetting). O controle fino que o TeX oferece o torna uma ferramenta muito poderosa, mas também muito difícil, consumindo muito tempo.  Mas TeX é extremamente estável, pode rodar em muitos tipos de computador, e é praticamente livre de bugs.
+O TeX é uma linguagem de programação para diagramação de textos (\textit{typesetting}). O controle fino que o \TeX oferece o torna uma ferramenta muito poderosa, mas também muito difícil, consumindo muito tempo.  Mas \TeX é extremamente estável, pode rodar em muitos tipos de computador, e é praticamente livre de bugs.
 
 Baseado em linguagem \TeX, na década de 1980 Leslie Lamport criou o conjunto de macros chamado \LaTeX, que poupa tempo, automatiza certas tarefas e reduz erros, especialmente para documentos que contenham fórmulas matemáticas.
 
 O \LaTeX{} é um software modular, composto de programas binários e conjuntos de macros chamados pacotes ou estilos, que podem ser utilizados, acrescentados e modificados. Alguns destes são empacotados com a maioria das distribuições do TeX/\LaTeX; outros podem ser encontrados no \textit{Comprehensive TeX Archive Network} (CTAN).
 
 Como o \LaTeX{} inclui um grupo de comandos TeX, o processamento de um documento \LaTeX{} é essencialmente programação. Você cria um arquivo de texto em marcação \LaTeX. O programa ``lê" este texto marcado para produzir o documento final.
-Essa abordagem tem algumas desvantagens em comparação com programas visuais como o OpenOffice/LibreOffice e o Microsoft Word©.
+Essa abordagem tem algumas desvantagens em comparação com programas visuais como o OpenOffice/Li\-bre\-Of-fice e o Microsoft Word.
 
-\section{Por que usar o \LaTeX?}
+\section{Por que usar o LaTeX?}
 
-Devemos ser muito claros: você usa o processador de texto que quiser. Se quiser escrever seus textos e entregá-los com o Word, ou OpenOffice, ou Pages da Apple, ou o InDesign, da Adobe, ou GoogleDocs, para o conteúdo do seu texto isso vai fazer pouca diferença. Mas se você quer uma aparência profissional, usa muitas figuras ou fórmulas matemáticas, está escrevendo uma tese um ou texto técnico ou acadêmico, o resultado final, com o mesmo nível de esforço, vai ser muito diferente. No começo o \LaTeX{} parece muito difícil, mas facilita e automatiza muito tarefas complexas, e a maioria dos comandos é bem intuitiva. Na verdade, ele não passa de um conjunto de macros para geração de texto. E, uma vez que você personaliza um modelo, você simplesmente ``joga" qualquer texto nele que ele sai com a aparência desejada. Com os outros programas, acontece o oposto: você tem mais liberdade, deve saber muito bem o que está fazendo. O \LaTeX{}, na verdade, faz o trabalho do diagramador ou designer gráfico para você.
+Devemos ser muito claros: você usa o processador de texto que quiser. Se quiser escrever seus textos e entregá-los com o Word, ou OpenOffice, ou Pages da Apple, ou o InDesign, da Adobe. para o conteúdo do seu texto isso vai fazer pouca diferença. Mas se você quer uma aparência profissional, usa muitas figuras ou fórmulas matemáticas, está escrevendo uma tese um ou texto técnico ou acadêmico, o resultado final, com o mesmo nível de esforço, vai ser muito diferente. No começo o \LaTeX{} parece muito difícil, mas facilita e automatiza muito tarefas complexas, e a maioria dos comandos é bem intuitiva. Na verdade, ele não passa de um conjunto de macros para geração de texto. E, uma vez que você personaliza um modelo, você simplesmente ``joga" qualquer texto nele que ele sai com a aparência desejada. Com os outros programas, acontece o oposto: você tem mais liberdade, deve saber muito bem o que está fazendo. O \LaTeX{}, na verdade, faz o trabalho do diagramador ou designer gráfico para você.
 
-%Você pega um modelo, geralmente mal feito, ou faz um do jeito que você acha que vai ficar bom baseado na aparência da tela, e aí você tenta criar uma tabela de conteúdo, que vai ficar mais ou menos, justificar o texto, colocar índices de figuras, de tabelas, legendas nas tabelas e figuras, numerar as tabelas e figuras, numerar as equações (isso só tem jeito de fazer à mão no Word)\ldots{} e, quando chega a hora, colocar os cabeçalhos e rodapés com números de página ou correntes (refletindo o capítulo ou seção), cortar seções e começar numeração romana (antes do primeiro capítulo) e arábica (a partir do primeiro capítulo), inserir referências --- aí sim você vai sentir a diferença.
+Na verdade o processo de trabalho (\textit{workflow}) é diferente em processadores de texto (Word e similares), ferramentas de publicação (Desktop Publishing) como InDesign, e um programa de diagramação como \LaTeX. Enquanto que nos dois primeiros a abordagem é \textit{visual}, e os comandos são feitos através de \textit{menus}, no \LaTeX{} a abordagem é \textit{textual}. (Existem, na verdade, \textit{editores de texto} para \LaTeX{} com menus (ver seção \ref{editor-de-textos}), mas o que esses menus fazem é auxiliar na inserção de comandos: um arquivo \texttt{.tex} é, na verdade, um arquivo de texto simples, com \textit{marcações lógicas}. A formatação só aparece no arquivo final (\texttt{pdf}), pronto para impressão.)
 
-%Por outro lado, eu não vou ser radical e dizer que você deve ou precisa de usar esta ferramenta. Provavelmente você não precisa; você não é físico, nem matemático, nem engenheiro; você não está escrevendo uma tese, você não é nerd, não vai perder tempo com firulas, e por aí vai. No Brasil quase nenhuma publicação acadêmica aceita esse formato. 
-
-Contudo, você não precisa, necessariamente, usar esta ferramenta. Devo deixar claro que, no Brasil, praticamente nenhuma publicação aceita esse formato. Mas temos que salientar que o resultado é profissional, para impressão: compare um livro bem produzido e um artigo acadêmico pobremente formatado no Word: o \LaTeX{} é a maneira mais fácil e barata de produzir textos que mais se aproximam de revistas e livros compostos com um profissional (muito bem) pago para cuidar da aparência do seu material. 
-
+Contudo, você não precisa, necessariamente, usar esta ferramenta. Devo deixar claro que, \textit{no Brasil}, praticamente nenhuma publicação aceita esse formato. Mas temos que salientar que o resultado é profissional, para impressão: compare um livro bem produzido e um artigo acadêmico pobremente formatado no Word: o \LaTeX{} é a maneira mais fácil e barata de produzir textos que mais se aproximam de revistas e livros compostos com um profissional (muito bem) pago para cuidar da aparência do seu material. 
 
 Porém, o \LaTeX{} tem alguns inconvenientes:
  
@@ -167,16 +182,60 @@ Por outro lado, há certas vantagens na abordagem \LaTeX:
 \item você é forçado a estruturar seus documentos corretamente.
 \end{itemize}
 
+Devido a suas características e seu modo de uso, a figura \ref{fig:grafico-latex} resume bem uma relação tempo/esforço de aprendizado e resultado final.
+
+\begin{figure}
+\centering
+\includegraphics[width=0.5\linewidth]{grafico-latex}
+\caption{Uma comparação entre Microsoft Word e Latex.}
+\label{fig:grafico-latex}
+\end{figure}
+
+Talvez um dos maiores inconvenientes do \LaTeX{} é que, como é um conjunto de \textit{macros} (ou seja, tudo o que você faz é como se tivesse um \textit{template}), a personalização é mais difícil. Mas isso só é inconveniente de um ponto de vista: \textit{você, autor de textos}, provavelmente não tem a formação de tipógrafo ou designer gráfico para fazer julgamentos estéticos e soluções visuais ousadas. Do manual das classes KOMA-Script{}:
+
+\begin{quote}
+A prática de fazer as coisas por si próprio já se difundiu amplamente há bastante tempo, mas os resultados são frequentemente duvidosos porque os tipógrafos leigos não veem o que está errado e não conseguem perceber o que é importante. Assim, fica-se acostumado a uma tipografia pobre e incorreta. [\ldots ] Ora, pode-se objetar que a tipografia depende do gosto. Se isso dissesse respeito somente a decoração, talvez deixássemos o argumento passar; entretanto, uma vez que a tipografia diz respeito principalmente à informação, erros podem não somente irritar, como também até causar danos \parencite{willberg2000}.
+\end{quote}
+
+E segundo Jan Tschichold:
 
 
-\section{Como o \LaTeX{} funciona}
+\begin{quote}
+Bom gosto e tipografia perfeita são suprapessoais. [\ldots] 
+Numa obra-prima tipográfica, a assinatura do artista é eliminada. O que alguns podem elogiar como estilos pessoais são, na realidade, pequenas e vazias peculiaridades, frequentemente danosas, que se disfarçam de inovações. [\ldots] Tipografia pessoal é tipografia deficiente. Só iniciantes e bobos insistirão em usá-la \parencite[p. 25--26]{tschichold2007forma}.
+\end{quote}
+
+Isso não quer dizer, obviamente, que qualquer coisa produzida em \LaTeX{} terá uma boa aparência. Quanto mais modificações forem feitas, maior será a probabilidade de erro -- e inversamente, se o autor utilizar as principais classes do \LaTeX{} e não mudar muita coisa, maior será a probabilidade de produzir um documento elegante. A tipografia, como descendente da caligrafia, valoriza a precisão, a proporção e a elegância. Ao produzir seus primeiros livros, Gutenberg procurou imitar os manuscritos medievais, tanto na composição dos tipos (\textit{textura quadrata}) quanto no layout da página (figs. \ref{fig:biblia-gutenberg}). 
+
+%\begin{figure}
+%\begin{minipage}{0.5\linewidth}
+%\centering
+%\includegraphics[width=0.4\linewidth]{biblia-gutenberg}
+%\caption[Uma Bíblia impressa por Gutenberg.]{Uma Bíblia impressa por Gutenberg. Notar o texto em duas colunas e as margens. Fonte: \url{http://www.designishistory.com/images/gutenberg/bible.jpg}.\label{fig:biblia-gutenberg}}
+%\end{minipage}%
+%\begin{minipage}{0.5\linewidth}
+%\centering
+%\includegraphics[width=0.4\linewidth]{biblia-textura-quadrata}
+%\caption[Prólogo de São Jerônimo ao Livro do Gênesis, da Bíblia Vulgata, século XIV.]{Prólogo de São Jerônimo ao Livro do Gênesis, da Bíblia Vulgata, século XIV. Manuscrito em \textit{textura quadrata}. Fonte: \url{http://library.randolphcollege.edu/special/images/verso_lg.jpg}\label{fig:biblia-textura-quadrata}}
+%\end{minipage}
+%\end{figure}
+
+
+\begin{figure}
+\centering
+\includegraphics[width=0.8\linewidth]{biblia-gutenberg}
+\caption[Uma Bíblia impressa por Gutenberg.]{Uma Bíblia impressa por Gutenberg. Notar o texto em duas colunas e as margens. Fonte: \url{http://www.designishistory.com/images/gutenberg/bible.jpg}.\label{fig:biblia-gutenberg}}
+\end{figure}
+
+
+\section{Como o LaTeX funciona}
  
  \begin{enumerate}
  \item  Você digita um texto \item faz as marcações necessárias (indicando título, capítulo, seções, ênfases etc.) \item  roda o programa para gerar o produto final (um texto diagramado em .pdf ou outros formatos menos usuais).
  \end{enumerate}
 
 
-Para isso, você precisa de, no mínimo, uma distribuição (uma versão do programa) e um editor de textos específico,  (para facilitar a digitação e compilação do texto), além de um leitor de pdfs (Acrobat Reader ou similares).
+Para isso, você precisa de, no mínimo, uma distribuição (uma versão do programa) e um editor de textos específico  (para facilitar a digitação e compilação do texto), além de um leitor de pdfs (Acrobat Reader ou similares).
 
 %\section{Outras distribuições \TeX}
 %Ao procurar informações sobre \LaTeX, você pode se deparar com nomes como  XeTeX, ConTeXt, LuaTeX e outros com o sufixo \TeX. Alguns são programas, outros, distribuições. Na verdade você não precisa de se preocupar com isso: basta apenas saber que o Xe\LaTeX{} é um programa que permite usar caracteres Unicode e possibilita uso de fontes comuns que você tem em seu computador (formatos .ttf e .otf).
@@ -192,11 +251,12 @@ Há dois tipos básicos de distribuição:
 \end{description}
 
 \section{Instalando um editor de textos}
-Há muitos por aí. Na verdade, você pode editar seus textos no Notepad ou até mesmo no Word ou no OpenOffice/LibreOffice.  Eu vou citar apenas alguns.
+\label{editor-de-textos}
+Um editor de textos não é imprescindível,\footnote{Na verdade, você pode editar seus textos no Notepad ou até mesmo no Word ou no OpenOffice/LibreOffice.} mas facilita muito a inserção de comandos e organização do conteúdo. Entre as opções mais populares:
 
 \begin{description}
 
-\item[Texworks] \url{http://www.tug.org/texworks/}.Vem com MiKTeX e com Texlive para Windows e Mac; no Linux tem que instalar separadamente. 
+\item[Texworks] \url{http://www.tug.org/texworks/}. Interface simples e básica. Vem com MiKTeX e com TexLive.
 
 \item [TexShop] (\url{http://pages.uoregon.edu/koch/texshop/}), para Mac, vem com MacTeX.
 
@@ -207,7 +267,7 @@ Há muitos por aí. Na verdade, você pode editar seus textos no Notepad ou até
 É um editor útil multiplataforma com seu próprio leitor de pdfs.
 
 \item  [TeXStudio] (\url{texstudio.sourceforge.net/})
-Muito semelhante ao TeXmaker, aceita também correção ortográfica (o mesmo dicionário do OpenOffice). Tem também uma grande quantidade de símbolos matemáticos e funções de autocompletar que agilizam a criação do texto.
+Muito semelhante ao TeXmaker, aceita também correção ortográfica (em sua última versão já vem com corretor de português instalado). Tem também uma grande quantidade de símbolos matemáticos e funções de autocompletar que agilizam a criação do texto.
 
 \end{description}
 
@@ -287,8 +347,8 @@ Os comandos em \LaTeX{} são sensíveis a maiúsculas e minúsculas, e têm um d
 \item Consistem de um \textbackslash{} e exatamente um caractere não alfabético.
 \end{itemize}
 
-\section{Ambientes \LaTeX}
-Os \textit{ambientes} têm um papel semelhante a comandos, mas geralmente afetam só uma parte específica do documento. 
+\section{Ambientes LaTeX}
+Os \textit{ambientes} têm um papel semelhante a comandos, mas geralmente afetam só uma parte específica do documento. Sua sintaxe é:
 
 \begin{verbatim}
 \begin{NOME DO AMBIENTE}
@@ -296,19 +356,17 @@ Texto a ser influenciado
 \end{NOME DO AMBIENTE}
 \end{verbatim}
 
-
 Entre \verb+\begin+ e \verb+\end+ você pode colocar outros comandos e outros ambientes. Tudo no \LaTeX{} pode ser expresso em termos de comandos e ambientes.
 
 
 \section{Caracteres especiais}
 \label{caracteres}
 
-Como a rigor não existe interface gráfica para um arquivo .tex (que é de texto simples), alguns caracteres são usados para os comandos:
+Vocês devem ter notado que alguns caracteres são usados para os comandos do \LaTeX:
 
 \begin{verbatim}
 # $ % ^ & _ { } ~ \
 \end{verbatim}
-
 
 O que fazer, então, quando quisermos que eles apareçam no texto? Geralmente colocamos uma barra à esquerda, ou outros comandos quando o caso é a própria barra à esquerda (que se usarmos duas, gera um novo parágrafo) ou o acento circunflexo:
 
@@ -386,7 +444,7 @@ Exemplo: um arquivo de entrada (input) pode começar com:
 
 Que significa: o documento é um artigo, com fonte básica de tamanho de 11 pontos (\texttt{11pt}), página frente e verso (\texttt{twoside}) e papel A4.
 
-Algumas outras classes são: \texttt{book} (livro), \texttt{report}, \texttt{abnt} (formato ABNT), \texttt{beamer} (para apresentações de slides). Outras opções podem ser vistas na tabela \ref{tab:classes}.
+Algumas outras classes são: \texttt{book} (livro), \texttt{report}, \texttt{abntex2} (formato ABNT), \texttt{beamer} (para apresentações de slides). Outras opções podem ser vistas na tabela \ref{tab:classes}.
 
 \begin{table}
 \caption{Principais opções das classes padrão do \LaTeX}
@@ -421,13 +479,10 @@ Ao escrever um documento, você vai perceber que provavelmente há algumas área
 \usepackage[opções]{pacote}
 \end{verbatim}
 
-em que ``opções'' são palavras chave que ativam características especiais do pacote e ``pacote" é o nome do pacote. A maioria das distribuições atuais vêm com muitos pacotes e classes, mas mesmo assim é possível instalá-los manualmente. O Miktex tem uma opção de instalar automaticamente pacotes que faltam (se estiverem disponíveis nos servidores), e o Texlive também tem uma função semelhante (ver os sites da seção \ref{distribuicoes} na página  \pageref{distribuicoes}). Uma maneira mais fácil é colocar estilos baixados da internet (com extensões .sty para pacotes e .cls para classes) na mesma pasta em que está o documento a ser processado, mas isso tem o inconveniente de que só documentos naquela mesma pasta poderão usar os estilos. Para instalar no sistema, quando estamos usando Texlive, podemos criar uma pasta chamada \texttt{texmf} no diretório do usuário \verb+~/[NOME DO USUÁRIO]+ no Linux ou \verb+C:\Users\[NOME DO USUÁRIO]+ no Windows. Então, vamos até essa pasta no prompt de comando e digitamos: \texttt{texhash texmf}. É assim que podemos instalar, com o Texlive, o estilo ABNT (ver a página do ABNTeX2 em: \url{http://code.google.com/p/abntex2/}.)
+em que ``opções'' são palavras chave que ativam características especiais do pacote e ``pacote" é o nome do pacote. A maioria das distribuições atuais vêm com muitos pacotes e classes, mas mesmo assim é possível instalá-los manualmente. O Miktex tem uma opção de instalar automaticamente pacotes que faltam (se estiverem disponíveis nos servidores), e o Texlive também tem uma função semelhante (ver os sites da seção \ref{distribuicoes} na página  \pageref{distribuicoes}). Uma maneira mais fácil é colocar estilos baixados da internet (com extensões .sty para pacotes e .cls para classes) na mesma pasta em que está o documento a ser processado, mas isso tem o inconveniente de que só documentos naquela mesma pasta poderão usar os estilos. Para instalar no sistema, quando estamos usando Texlive, podemos criar uma pasta chamada \texttt{texmf} no diretório do usuário \verb+~/[NOME DO USUÁRIO]+ no Linux ou \verb+C:\Users\[NOME DO USUÁRIO]+ no Windows. Então, vamos até essa pasta no prompt de comando e digitamos: \texttt{texhash texmf}. É assim que podemos instalar, com o Texlive, o estilo ABNT no Windows ou Linux.(Ver a página do ABNTeX2 em: \url{http://code.google.com/p/abntex2/}.)
 
-
-%\section{Instalação do ABNTex (classe ABNT)}
+% Primeiro baixe o estilo (\url{http://sourceforge.net/apps/mediawiki/abntex/index.php?title=Main_Page})(no Linux também temos a opção mais confortável de instalar automaticamente através da linha de comando--- \texttt{sudo apt-get install abntex}--- ou via gerenciador de pacotes) e extraia em qualquer lugar. Depois copie a pasta \texttt{texmf} para seu diretório de usuário (ver acima), abra um prompt de comando (\texttt{cmd} no Windows) e digite: \texttt{texhash texmf}. Se o sistema for MAC, copie o que está dentro da pasta texmf para /usr/local/texlive/texmf-local e rode o comando sudo texhash (pedirá senha). Para instalar o estilo ABNT com o Miktex no Windows a coisa é um pouco mais complicada: copie o \textit{conteúdo} da pasta \texttt{texmf} (as subpastas: bibtex\texttt{bibtex},\texttt{doc}, \texttt{makeindex}, \texttt{tex}) para a pasta de instalação do Miktex (geralmente em «Arquivos de programas»), depois vá em: Todos os programas, Miktex, Settings (Admin), na aba GENERAL, clique em REFRESH FNDB para atualizar o banco de dados.
 %
-%É assim que podemos instalar, com o Texlive, o estilo ABNT no MAC ou Windows ou Linux. Primeiro baixe o estilo (\url{http://sourceforge.net/apps/mediawiki/abntex/index.php?title=Main_Page})(no Linux também temos a opção mais confortável de instalar automaticamente através da linha de comando--- \texttt{sudo apt-get install abntex}--- ou via gerenciador de pacotes) e extraia em qualquer lugar. Depois copie a pasta \texttt{texmf} para seu diretório de usuário (ver acima), abra um prompt de comando (\texttt{cmd} no Windows) e digite: \texttt{texhash texmf}. Se o sistema for MAC, copie o que está dentro da pasta texmf para /usr/local/texlive/texmf-local e rode o comando sudo texhash (pedirá senha). Para instalar o estilo ABNT com o Miktex no Windows a coisa é um pouco mais complicada: copie o \textit{conteúdo} da pasta \texttt{texmf} (as subpastas: bibtex\texttt{bibtex},\texttt{doc}, \texttt{makeindex}, \texttt{tex}) para a pasta de instalação do Miktex (geralmente em «Arquivos de programas»), depois vá em: Todos os programas, Miktex, Settings (Admin), na aba GENERAL, clique em REFRESH FNDB para atualizar o banco de dados.
-
 
 \chapter{A estrutura do documento}
 
@@ -672,6 +727,7 @@ Todos os cabeçalhos numerados automaticamente vão para o sumário. Você não 
 Os comandos \verb+\listoffigures+ e \verb+\listoftables+ geram, respectivamente, uma lista das figuras e uma lista das tabelas.
 
 \include{texto-bibliografia}
+\include{biblatex}
 
 \chapter{Tabelas}
 É fácil criar tabelas simples em \LaTeX, mas tabelas mais complicadas podem ser difíceis. Mas você pode converter as tabelas do Excel ou OpenOffice com plugins:
@@ -770,11 +826,15 @@ Muitas dessas formatações são exigidas para diferenciar certos elementos do r
 
 \section{Listas}
 
-A formatação conveniente e predizível de listas é uma das muitas vantagens de usar \LaTeX. Muitos usuários de processadores de texto ficam frequentemente frustrados pelas tentativas desajeitadas do software de perceber quando o usuário quer que as listas comecem e terminem. Por outro lado, \LaTeX{} lhe dá muito mais estabilidade na geração de listas.
+A formatação conveniente e previsível de listas é uma das muitas vantagens de usar \LaTeX. Muitos usuários de processadores de texto ficam frequentemente frustrados pelas tentativas desajeitadas do software de perceber quando o usuário quer que as listas comecem e terminem. Por outro lado, \LaTeX{} lhe dá muito mais estabilidade na geração de listas.
 
 Há basicamente três tipos de listas: itens, enumeração e descrição.
 
 \subsection{Itemizar}
+
+Cite vários itens não progressivos com o ambiente \texttt{itemize}:
+
+\medskip
 
 
 \begin{tabular}{ll}
@@ -795,6 +855,47 @@ Há basicamente três tipos de listas: itens, enumeração e descrição.
 \item O terceiro item.
 \end{itemize}\end{minipage}\\
 \end{tabular}
+
+\medskip
+
+Por padrão, os itens são marcados com uma bola no primeiro nível. Isso pode ser modificado no preâmbulo com:
+
+
+
+\begin{verbatim}
+\def\labelitemi{\checkmark}
+\end{verbatim}
+
+Lembrando que \verb+\labelitemi+ é o primeiro nível; \verb+\labelitemii+, o segundo; e \verb+\labelitemiii+ o terceiro. 
+
+O item \verb+\checkmark+ pode ser modificado por qualquer símbolo, por exemplo, \verb+\textemdash+ (---), \verb+\P+ (\P), \verb+\EightStarTaper+: \EightStarTaper; \verb+\FourStarOpen+: \FourStarOpen (pacote \texttt{bbding})\ldots
+
+
+%Também é possível modificar o símbolo em apenas um ambiente itemize:
+%
+%
+%\begin{tabular}{ll}
+%\begin{minipage}{.5\textwidth}
+%\begin{verbatim}
+%\begin{itemize} 
+%\newcommand{\labelitemi}{\checkmark}
+%   \item Ein
+%   \item Zwei
+%   \item Drei
+%\end{itemize}
+%\end{verbatim}
+%\end{minipage}
+%&
+%\begin{minipage}{.5\textwidth}
+%\begin{itemize} 
+%\newcommand{\labelitemi}{\checkmark}
+%   \item Ein
+%   \item Zwei
+%   \item Drei
+%\end{itemize}
+%\end{itemize}\end{minipage}\\
+%\end{tabular}
+
 
 
 \subsection{Enumeração}
@@ -877,7 +978,7 @@ Você pode personalizar as listas com o pacote \texttt{enumitem}.\label{enumitem
 \medskip
 
 \begin{tabular}{ll}
-\begin{minipage}{.7\textwidth}
+\begin{minipage}{.5\textwidth}
 \begin{verbatim}
 \begin{enumerate}
   \item O primeiro item
@@ -893,7 +994,7 @@ Você pode personalizar as listas com o pacote \texttt{enumitem}.\label{enumitem
 \end{verbatim}
 \end{minipage}
 &
-\begin{minipage}{.7\textwidth}
+\begin{minipage}{.5\textwidth}
 \begin{enumerate}
   \item O primeiro item
   \begin{enumerate}[label*=\arabic*.]
@@ -934,6 +1035,7 @@ Você também pode especificar o tipo de contador que quer: numerais romanos, em
 &
 \begin{minipage}{.5\textwidth}
 \begin{enumerate}
+
 \begin{enumerate}[label=\Roman*]
 \item Primeiro
 \item Segundo
@@ -1117,7 +1219,8 @@ Isso também pode ser feito com os comandos \verb+\textit{}+ (``texto em itálic
 \section{Estilos de fonte}
 Os estilos de fonte e seus comandos são explicados na tabela \ref{estilosdefonte}.
 
-\begin{table}
+
+\begin{table*}
 \caption{Estilos de fonte}
 \label{estilosdefonte}
 \centering
@@ -1128,19 +1231,18 @@ Os estilos de fonte e seus comandos são explicados na tabela \ref{estilosdefont
 \verb+\textnormal{}+ & \verb+{\normalfont ... }+ & a fonte normal do documento\\
 \verb+\emph{...}+ & \verb+{\em}+ & \textit{ênfase} (geralmente itálico)\\
 \verb+\textrm{...}+ & \verb+{\rmfamily}+ & fonte romana/serifada\\
-\verb+\textsf{...}+ & \verb+{\sffamily}+ & \textsf{fonte sem serifas}\\
-\verb+\texttt{...}+ & \verb+{\ttfamily}+ & \texttt{fonte com largura fixa}\\
+\verb+\textsf{...}+ & \verb+{\sffamily}+ & {\fontspec{Myriad Pro}fonte sem serifas}\\
+\verb+\texttt{...}+ & \verb+{\ttfamily}+ & \texttt{fonte com largura fixa (monoespaçada)}\\
 \verb+\textit{...}+ & \verb+{\itshape}+ & \textit{itálico}\\
 \verb+\textbf{...}+ & \verb+{\bfseries}+ & \textbf{negrito}\\
 \verb+\textsc{...}+ & \verb+{\scshape}+ & \textsc{Versalete (Small Capitals)}\\
 \bottomrule
 \end{tabular}
-\end{table}
+\end{table*}
 
-\medskip
-
-O sublinhado pode ser feito com \verb+\underline{...}+, mas as palavras com sublinhado não se separam corretamente. Para resolver esse problema, insira \newline\verb+\usepackage[normalem]{ulem}+ no preâmbulo. Com o pacote \texttt{ulem}, você pode usar estes comandos: \verb+\uline{}+ (\uline{sublinhado}) para ênfase; \verb+\uwave{}+ para \uwave{ondulado} e \verb+\sout{...}+ para \sout{cortado}.\footnote{Você pode estar se perguntando: por que essa complicação para sublinhado? A resposta é simples: o sublinhado (assim como o negrito) não é uma prática tipográfica comum. Abra um livro e veja se há algum sublinhado ou negrito. O sublinhado (assim como outras coisas) era usado para ênfase em máquinas de datilografar, e passou para algumas regras de redação acadêmica por isso.}
-
+O sublinhado pode ser feito com \verb+\underline{...}+, mas as palavras com sublinhado não se separam corretamente. Para resolver esse problema, insira \newline\verb+\usepackage[normalem]{ulem}+ no preâmbulo. Com o pacote \texttt{ulem}, você pode usar estes comandos: \verb+\uline{}+ (\uline{sublinhado}) para ênfase; \verb+\uwave{}+ para \uwave{ondulado} e \verb+\sout{...}+ para \sout{cortado}.\footnote{Você pode estar se perguntando: por que essa complicação para sublinhado? A resposta é simples: o sublinhado (assim como o negrito) não é uma prática tipográfica comum. Abra um livro e veja se há algum sublinhado ou negrito. O sublinhado (assim como outras coisas) era usado para ênfase em máquinas de datilografar, e passou para algumas regras de redação acadêmica por isso.
+}
+1
 Um ambiente útil para gerar o texto exatamente como foi digitado (como códigos), é o ambiente \texttt{verbatim}:
 
 \begin{center}
@@ -1208,9 +1310,10 @@ O \LaTeX{} fornece uma imensa quantidade de símbolos, matemáticos ou não. Se 
 \usepackage[official]{eurosym}
 \usepackage{amssymb}
 \usepackage{wasysym}
+\usepackage{bbding}
 \end{verbatim}
 
-Vão suprir quase todas as suas necessidades (tabela \ref{simbolos}).
+Vão suprir muitas de suas necessidades (tabela \ref{simbolos}).
 
 \begin{table}
 \caption{Símbolos comuns}
@@ -1272,6 +1375,40 @@ Vão suprir quase todas as suas necessidades (tabela \ref{simbolos}).
 \bottomrule
 \end{tabular}
 \end{table}
+
+
+\begin{table}
+\caption{Cruzes do pacote \texttt{bbding} \label{tab:bbding-cruzes}}
+\begin{tabular}{lllll}
+\Cross{}\verb+\Cross+& \CrossOpenShadow{} \verb+\CrossOpenShadow+ & \PlusOutline{} \verb+\PlusOutline+ & \CrossBoldOutline{}  \verb+\CrossBoldOutline+ & \CrossOutline{} \verb+\CrossOutline+\\
+\PlusThinCenterOpen{} \verb+\PlusThinCenterOpen+ & \CrossClowerTips{} \verb+\CrossClowerTips+ & \Plus{} \verb+\Plus+ & \CrossMaltese{} \verb+\CrossMaltese+ & \PlusCenterOpen{} \verb+\PlusCenterOpen+\\
+\end{tabular}
+\end{table}
+
+\begin{table}
+\caption{Estrelas, flores e similares do pacote \texttt{bbding} \label{tab:bbding-estrelas-flores}}
+\begin{tabular}{lll}
+&&\\
+\Asterisk{} \verb+\Asterisk+& \FiveFlowerPetal{} \verb+\FiveFlowerPetal+& \JackStar{} \verb+\JackStar+\\
+ \AsteriskBold{} \verb+\AsteriskBold+& \FiveStar{} \verb+\FiveStar+ & \JackStarBold{} \verb+\JackStarBold+\\
+ \AsteriskCenterOpen{} \verb+\AsteriskCenterOpen+ & \FiveStarCenterOpen{} \verb+\FiveStarCenterOpen+ & \SixFlowerAlternate{} \verb+\SixFlowerAlternate+\\
+ \AsteriskRoundedEnds{} \verb+\AsteriskRoundedEnds+ & \FiveStarConvex{} \verb+\FiveStarConvex+& \SixFlowerAltPetal{} \verb+\SixFlowerAltPetal+\\
+ \AsteriskThin{} \verb+\AsteriskThin+& \FiveStarLines{} \verb+\FiveStarLines+& \SixFlowerOpenCenter{} \verb+\SixFlowerOpenCenter+\\
+\AsteriskThinCenterOpen{} \verb+\AsteriskThinCenterOpen+ & \FiveStarOpen{} \verb+\FiveStarOpen+ & \SixFlowerPetalDotted{} \verb+\SixFlowerPetalDotted+ \\
+ \DavidStar \verb+\DavidStar+ & \FiveStarOpenCircled{} \verb+\FiveStarOpenCircled+ & \SixFlowerPetalRemoved{} \verb+\SixFlowerPetalRemoved+\\
+ \DavidStarSolid{} \verb+\DavidStarSolid+& \FiveStarOpenDotted{} \verb+\FiveStarOpenDotted+ & \SixFlowerRemovedOpenPetal{} \verb+ \SixFlowerRemovedOpenPetal+\\
+ \EightAsterisk{} \verb+ \EightAsterisk+ & \FiveStarOutline{} \verb+\FiveStarOutline+& \SixStar{} \verb+\SixStar+\\
+ \EightFlowerPetal{} \verb+\EightFlowerPetal+& \FiveStarOutlineHeavy{} \verb+\FiveStarOutlineHeavy+ & \SixteenStarLight{} \verb+\SixteenStarLight+\\
+ \EightFlowerPetalRemoved{} \verb+\EightFlowerPetalRemoved+ & \FiveStarShadow{} \verb+\FiveStarShadow+ & \Snowflake{} \verb+\Snowflake+ \\
+ \EightStar{} \verb+\EightStar+ & \FourAsterisk{} \verb+\FourAsterisk+& \SnowflakeChevron{} \verb+\SnowflakeChevron+ \\
+ \EightStarBold{} \verb+ \EightStarBold+ & \FourClowerOpen{} \verb+\FourClowerOpen+ & \SnowflakeChevronBold{} \verb+\SnowflakeChevronBold+\\
+ \EightStarConvex{} \verb+\EightStarConvex+ & \FourClowerSolid{} \verb+\FourClowerSolid+ & \Sparkle \verb+\Sparkle+\\
+ \EightStarTaper \verb+\EightStarTaper+ & \FourStar{} \verb+\FourStar+ & \SparkleBold{} \verb+\SparkleBold+\\
+ \FiveFlowerOpen{} \verb+ \FiveFlowerOpen+ & \FourStarOpen{} \verb+\FourStarOpen+ & \TwelweStar{} \verb+\TwelweStar+ \\
+\end{tabular}
+
+\end{table}
+
 
 \section{Formatação de parágrafos}
 Os parágrafos em \LaTeX{} são geralmente justificados, mas se quiser em outro estilo, pode usar os ambientes/comandos:
@@ -1392,12 +1529,77 @@ Os ambientes para citação são:
 \end{description}
 
 \section{Notas de rodapé}
-São inseridas com o comando: \verb+\footnote{...}+.\footnote{Neste documento, todas as notas de rodapé são convertidas para notas na margem. Isso pode ser feito com as classes Tufte-\LaTeX{} ou o pacote \texttt{footmisc}.}
+São inseridas com o comando: \verb+\footnote{...}+. A formatação das notas de rodapé depende da classe utilizada. Podemos utilizar o pacote \texttt{footmisc} para várias opções de nota:
+
+
+\begin{verbatim}
+\usepackage[side,ragged]{footmisc} % para colocar notas na margem
+\usepackage{marginfix} % para problemas de notas no fim da página etc.
+\end{verbatim}
+
+\begin{verbatim}
+\usepackage[marginal]{footmisc} % opção "marginal" coloca os números da nota de rodapé para fora da margem, à la Bringhurst
+\end{verbatim}
+
+No caso de layouts e páginas não ``convencionais", o usuário pode querer modificar o tamanho do bloco de texto, da margem e do espaço entre notas de margem e texto:
+
+\begin{verbatim}
+\setlength{\marginparwidth}{4cm}% tamanho do parágrafo na margem
+%\setlength{\textwidth}{15cm} %implementado pelo pacote geometry abaixo, por isso não ativo
+\setlength{\marginparsep}{0.5cm} %tamanho da distância entre notas de margem e texto
+
+\usepackage[left=2cm,textwidth=14cm]{geometry} %tamanho do bloco de texto e da margem esquerda
+\end{verbatim}
+
+\section{Notas no final do texto}
+Podem ser implementadas com o pacote \texttt{pagenotes}:
+
+\begin{verbatim}
+\usepackage[page]{pagenote} % opção "page" dá página onde aparece a nota
+\makepagenote
+\renewcommand*{\notesname}{Notas} % para mudar o nome de "Notes" para "Notas".
+
+
+\begin{document}
+\chapter{Título do capítulo.}
+Uma nota.\pagenote{An end note.}
+Outra nota\pagenote{Another note.}
+
+\chapter{Outro capítulo}
+Uma nota.\pagenote{Nota do do outro capítulo.}
+Outra nota\pagenote{Nota do outro capítulo.}
+
+%\chapter{Notes}
+\printnotes %gera as notas
+\end{document}
+
+\end{verbatim}
+
+\section{Notas no final do capítulo}
+Podem ser implementadas com o pacote \texttt{endnotes}:
+
+\begin{verbatim}
+\documentclass{report}
+\usepackage{endnotes}
+\begin{document}
+
+\chapter{First}
+Testing.\endnote{First test.}
+\theendnotes %gera as notas
+
+\setcounter{endnote}{0} & % para recomeçar a numeração das notas no próximo capítulo
+
+\chapter{Next}
+Again.\endnote{Second test.}
+\theendnotes % gera as notas
+
+\end{document}
+\end{verbatim}
+
 
 \section{Cabeçalhos}
 Há duas maneiras ``fáceis'' de inserir cabeçalhos, quando necessário: o pacote \texttt{fancyhdr} e o pacote \texttt{scrpage2} (do pacote KOMA-Script{}). De qualquer forma, as classes \texttt{book} e \texttt{scrbook} inserem automaticamente os cabeçalhos, com o número no rodapé.
 
-Se você quiser inserir o número do lado direito no começo da página (uma prática usual por aqui), o jeito mais fácil é pôr \verb+\pagestyle{myheadings}+ depois de \verb+\begin{document}+ e \verb+\thispagestyle{myheadings}+ depois do começo de cada capítulo. %O pacote \texttt{abntex} já faz tudo isso automaticamente.
 
 \section{Modo matemático}
 O \LaTeX{} é geralmente usado por matemáticos ou físicos ou pesquisadores que precisam de muitos símbolos e fórmulas. Mas podemos usar simplesmente porque ele permite um resultado superior sem muito esforço --- seja com puro texto, com muitas fórmulas ou muitas figuras. O público-alvo deste ``manual'' não é esse tipo de usuário, por um simples motivo: o redator (leia-se: eu) não é matemático, não usa fórmulas. Se você precisa de trabalhar com matemática, sugiro dar uma olhada em: \url{http://en.wikibooks.org/wiki/LaTeX/Mathematics} e/ou \url{http://mirrors.ctan.org/info/lshort/portuguese-BR/lshortBR.pdf}.
@@ -1567,7 +1769,6 @@ Para inserir espaços entre as figuras, use um dos comandos:
 \item Espaço genérico: \verb+\hspace{Xcm}+;
 \item Espaço expandido/contraído automaticamente: \verb+\hfill+
 \end{itemize}
-
 Exemplo:\footnote{\url{http://en.wikibooks.org/wiki/LaTeX/Floats,\_Figures\_and\_Captions#Subfloats}}
 
 \begin{verbatim}
@@ -1785,8 +1986,8 @@ Para selecionar uma fonte que não é a padrão (Computer Modern), você precisa
  \begin{verbatim}
 \usepackage{fontspec}
 \defaultfontfeatures{Ligatures={TeX}}
-\setromanfont{Chaparral Pro}
-\setsansfont{Chaparral Pro}
+\setromanfont{Minion Pro}
+\setsansfont{Myriad Pro}
 \setmonofont[Scale=MatchLowercase]{Consolas}
  \end{verbatim}
  
@@ -1803,12 +2004,192 @@ faz com que conjuntos de caracteres LaTeX como \verb+---+ e \verb+``+ apareçam 
 Depois temos a definição da fonte serifada, sem serifa (geralmente usada para títulos) e  monoespaçada: 
 
 \begin{verbatim}
-\setromanfont{Chaparral Pro}
-\setsansfont{Chaparral Pro}
+\setromanfont{Minion Pro}
+\setsansfont{Myriad Pro}
 \setmonofont[Scale=MatchLowercase]{Consolas}
 \end{verbatim} 
 
-Claro que você pode (ou deve) substituir o nome das fontes pelas que mais preferir. Com o Adobe Acrobat Reader, vêm as fontes de graça: Minion Pro e Myriad Pro.\footnote{Para Linux, faça o download de: \url{http://www.adobe.com/support/downloads/detail.jsp?ftpID=4426}, extraia e instale. Para Windows, vá até a pasta onde instalou o Reader (Arquivos de Programas), procure as fontes e instale.} Outra fonte interessante é \href{http://scripts.sil.org/cms/scripts/page.php?site\_id=nrsi\&id=Gentium\_download}{Gentium}. 
+
+\section{Fontes gratuitas de qualidade}
+
+Escolher uma fonte para um trabalho pode ser complicado. Para alguma ajuda, consultar \citet{bringhurst_elements_2013}, \citet{dodd_gutenberg_2006}, \citet{pohlen_letter_2011} e \citet{lupton_thinking_2010}.
+
+Com poucas exceções, a maioria das fontes de qualidade são comerciais. Abaixo, uma pequena lista de fontes gratuitas.
+
+\begin{itemize}
+
+\item 
+Com o Adobe Acrobat Reader, vêm as fontes de graça: Minion Pro, de Robert Slimbach, e Myriad Pro, de Robert Slimbach and Carol Twombly.\footnote{Para Linux, faça o download de: \url{http://www.adobe.com/support/downloads/detail.jsp?ftpID=4426}, extraia e instale. Para Windows, vá até a pasta onde instalou o Reader (Arquivos de Programas), procure as fontes e instale.}
+
+\item Adobe Arabic, de Tim Holloway, entre outras, pode ser instaladas através do \href{ http://www.adobe.com/support/downloads/detail.jsp?ftpID=4885}{Adobe Reader X Font Pack}.
+
+\item 
+A fonte \href{http://scripts.sil.org/cms/scripts/page.php?item_id=Gentium_download}{Gentium}, de Victor Gaultney, é bem elegante e possui um grande número de caracteres, alfabetos grego e cirílico, além de inúmeros diacríticos.
+
+\item 
+A fonte \href{http://www.brill.com/promotions/brill-fonts-end-user-license-agreement}{Brill}, produzida por John Hudson, cobre mais de 5.000 caracteres, alfabetos grego e cirílico e muitos símbolos, servindo para textos acadêmicos.
+
+\item \href{http://code.google.com/p/evristika/downloads/list}{Heuristica}, extensão, feita Andrej Panov, da fonte Adobe Utopia, de Robert Slimbach.
+
+\end{itemize}
+
+
+\section{Opções avançadas do pacote \texttt{fontspec}}
+
+A cor pode ser especificada utilizando o pacote \texttt{xcolor} ou números hexadecimais (RGB):
+
+\begin{tabular}{cc}
+\begin{minipage}{.5\textwidth}
+\begin{verbatim}
+\fbox{
+{
+\fontsize{48}{48}
+\fontspec{Calluna}{
+{\addfontfeature{Color=lime}W}\kern-1ex
+{\addfontfeature{Color=Peach}S}\kern-0.8ex
+{\addfontfeature{Color=Mulberry}P}\kern-0.8ex
+{\addfontfeature{Color=YellowGreen}R} %
+}
+}
+}
+\end{verbatim}
+\end{minipage} &
+
+\fbox{
+{
+\fontsize{48}{48}
+\fontspec{Calluna}{
+{\addfontfeature{Color=lime}W}\kern-1ex
+{\addfontfeature{Color=Peach}S}\kern-0.8ex
+{\addfontfeature{Color=Mulberry}P}\kern-0.8ex
+{\addfontfeature{Color=YellowGreen}R} %
+}
+}
+}
+\end{tabular}
+
+\bigskip
+\bigskip
+
+
+\begin{tabular}{cc}
+\centering
+\verb+\fontspec[Color=BurntOrange]{Arno Pro}+ & \fontspec[Color=BurntOrange]{Arno Pro}{Arno Pro, \textit{laranja}.}
+\end{tabular}
+
+%{\fontsize{12}{12}
+%\fontspec{ArnoPro-Italic}
+%{\addfontfeature{Color=00FF0044, Scale=4, Alternate=1}Q}\kern-4ex
+%{\addfontfeature{Color=FF000033, Scale=8, Alternate=1}Q}\kern-8ex
+%{\addfontfeature{Color=0000FF22, Scale=16, Alternate=1}Q}\kern-16ex
+%}
+
+%A opacidade também pode ser ajustada (útil para títulos):
+%
+%
+%\begin{verbatim}
+%\fontspec[Color=red,Opacity=1.0]{Arno Pro}{D}
+%\fontspec[Color=red,Opacity=0.9]{Arno Pro}{e}
+%\fontspec[Color=red,Opacity=0.8]{Arno Pro}{s}
+%\fontspec[Color=red,Opacity=0.7]{Arno Pro}{a}
+%\fontspec[Color=red,Opacity=0.6]{Arno Pro}{p}
+%\fontspec[Color=red,Opacity=0.5]{Arno Pro}{a}
+%\fontspec[Color=red,Opacity=0.4]{Arno Pro}{r}
+%\fontspec[Color=red,Opacity=0.3]{Arno Pro}{e}
+%\fontspec[Color=red,Opacity=0.2{Arno Pro}{c}
+%\fontspec[Color=red,Opacity=0.1]{Arno Pro}{e...}
+%\end{verbatim}
+%
+%\begin{center}
+%\LARGE
+%\itshape
+%\fontspec[Color=red,Opacity=1.0]{Arno Pro}{D}
+%\fontspec[Color=red,Opacity=0.9]{Arno Pro}{e}
+%\fontspec[Color=red,Opacity=0.8]{Arno Pro}{s}
+%\fontspec[Color=red,Opacity=0.7]{Arno Pro}{a}
+%\fontspec[Color=red,Opacity=0.6]{Arno Pro}{p}
+%\fontspec[Color=red,Opacity=0.5]{Arno Pro}{a}
+%\fontspec[Color=red,Opacity=0.4]{Arno Pro}{r}
+%\fontspec[Color=red,Opacity=0.3]{Arno Pro}{e}
+%\fontspec[Color=red,Opacity=0.2]{Arno Pro}{c}
+%\fontspec[Color=red,Opacity=0.1]{Arno Pro}{e...}
+%\end{center}
+
+
+Também pode ser especificada a escala da fonte:
+
+\begin{verbatim}
+Scale = X 
+Scale = MatchLowercase
+Scale = MatchUppercase
+\end{verbatim}
+
+As ligaduras também podem ser definidas através das opções: \textenglish{\textit{Required, Common, Contextual, Rare/Dis\-cre\-tion\-ar\-y, Historic, TeX}}. As primeiras três são ativadas automaticamente (as usuais -- f + i = fi, f + f = ff etc.)
+
+\begin{center}
+\verb+\fontspec[Ligatures=Discretionary]{Calluna}+
+\medspace
+
+\begin{multicols}{4}
+\fontspec[Ligatures=Discretionary]{Calluna}{
+\item estudante 
+\item factual \item hipnotismo\item itinerário\item luck\item gim\item especial \item quando \item cb \item chamando \item cp \item esbarrar \item shampoo \item ski \item aspirar \item officio
+
+}
+
+\end{multicols}
+\end{center}
+
+\bigskip
+
+\begin{center}
+\verb+\fontspec[Style=Alternate]{Arno Pro}+
+
+\fontspec[Style=Alternate]{Arno Pro}{Q \qquad e
+\qquad t \qquad r \qquad m}
+\end{center}
+
+
+\begin{center}
+\verb+\fontspec[Style=Swash]{Arno Pro}+
+
+\fontspec[Style=Swash]{Arno Pro}{\itshape A \qquad M \qquad R \qquad T \qquad E}
+\end{center}
+
+Para números, as opções principais são \textit{Lining} e \textit{Oldstyle} (uma ou outra será ativada automaticamente, dependendo da fonte):
+
+\medskip
+
+
+\begin{tabular}{cc}
+\verb+\fontspec[Numbers=OldStyle]{Sabon LT Std}{0123456789}+ & \fontspec[Numbers=OldStyle]{Sabon LT Std}{0123456789}\\
+\verb+\fontspec[Numbers=Lining]{Sabon LT Std}{0123456789}+ & \fontspec[Numbers=Lining]{Sabon LT Std}{0123456789}
+\end{tabular}
+
+\bigskip
+
+A opção \textit{Contextuals} ativará formas especiais disponíveis em algumas fontes. 
+
+\bigskip
+\begin{tabular}{cc}
+
+\begin{minipage}{0.5\textwidth}
+\begin{verbatim}
+\fontspec{Warnock Pro} \itshape
+Without Contextual Swashes \\
+\fontspec[Contextuals=Swash]{Warnock Pro}
+With Contextual Swashes; cf. W C S
+\end{verbatim}
+\end{minipage}
+&
+\begin{minipage}{0.5\textwidth}
+\fontspec{Warnock Pro} \itshape
+Without Contextual Swashes \\
+\fontspec[Contextuals=Swash]{Warnock Pro}
+With Contextual Swashes; cf. W C S
+\end{minipage}
+\end{tabular}
+\bigskip
 
 \chapter{Idiomas}
 \label{idiomas}
@@ -1887,7 +2268,7 @@ Texto em inglês.
 
 \section{Alfabetos não latinos e escritas não ocidentais}
 
-Para textos em outros alfabetos ou sistemas de escrita, sem se preocupar com hifenização ou composição de documentos completos, é mais fácil definir a fonte, se a própria fonte que estiver usando não tiver os caracteres. Assim, se estiver escrevendo texto que contenha caracteres gregos, cirílicos etc., use em todo o documento uma fonte que já tenha todos esses caracteres. Então eu posso simplesmente escrever:
+Para textos em outros alfabetos ou sistemas de escrita, sem se preocupar com hifenização ou composição de documentos completos, é mais fácil definir a fonte, se a própria fonte que estiver usando não tiver os caracteres. Assim, se estiver escrevendo texto que contenha caracteres gregos, cirílicos etc., use em todo o documento uma fonte que já tenha todos esses caracteres.Então eu posso simplesmente escrever:
 
 \medskip
 
@@ -1961,7 +2342,25 @@ Para escritas não ocidentais também utilizamos o pacote \texttt{fontspe}c e/ou
 
 O pacote \texttt{arabxetex} usa automaticamente a fonte gratuita Scheherazade, mas, como no exemplo, pode ser especificada qualquer fonte com suporte a árabe/persa/urdu.
 
-Para escrever em chinês, japonês ou coreano, utilizamos o pacote \texttt{xeCJK} e o comando \verb+\setCJKmainfont{nome da fonte}+. Uma solu;áo para usar os três sistemas é:\footnote{A solução para um texto com os três sistemas (chinês, japonês e coreano) foi copiada de: \href{http://tex.stackexchange.com}{http://tex.stackexchange.com/questions/45331/combining-chinese-japanese-and-korean-text-with-xecjk}}
+Para siríaco, podemos definir:
+
+\begin{verbatim}
+\newfontfamily\syriacfont[Script=Syriac]{Serto Batnan} % no preâmbulo
+...
+\begin{syriac}
+(texto em siríaco)
+\end{syriac}
+
+\end{verbatim}
+
+\begin{syriac}
+ܩܕܝܫܐ ܐܠܗܐ، ܩܕܝܫܐ ܚܝܠܬܢܐ، ܩܕܝܫܐ ܠܐ ܡܝܘܬܐ، ܐܬܪܚܡܥܠܝܢ
+\end{syriac}
+
+\bigskip
+\bigskip
+
+Para escrever em chinês, japonês ou coreano, utilizamos o pacote \texttt{xeCJK}:\footnote{A solução para um texto com os três sistemas (chinês, japonês e coreano) foi copiada de: \url{http://tex.stackexchange.com/questions/45331/combining-chinese-japanese-and-korean-text-with-xecjk}}
 \label{japones}
 \medskip
 
@@ -1976,29 +2375,27 @@ Para escrever em chinês, japonês ou coreano, utilizamos o pacote \texttt{xeCJK
 \newcommand\Japanese{\renewcommand\CJKrmdefault{jarm}\CJKnospace\normalfont}
 \newcommand\Korean{\renewcommand\CJKrmdefault{korm}\CJKspace\normalfont}
 ...
+\begin{tabular}{ccc}
+{\Japanese おはよう}
+ & Ohayo! & ``Bom dia!" em japonês\\
 
+{\Chinese 早安} & Zǎo ān! & "Bom dia!" em chinês\\
+
+{\Korean 안녕하세요}   &  An-nyeong-ha-se-yo & "Como vai?"/"Bom dia!" em coreano.
+\end{tabular}
 \end{verbatim}
 
 \medskip
 
-Outra solução, para textos curtos, é definir a fonte de forma simples:
-
-\begin{verbatim}
-\newfontfamily{\japones}{MS Mincho}
-\newfontfamily{\chines}{SimSun}
-\newfontfamily{\coreano}{Batang}
-\end{verbatim}
-
-Colocando entre chaves para o texto definido: \verb+{\japones}+
 
 \begin{center}
 \begin{tabular}{ccc}
-{\japones おはよう}
+{\Japanese おはよう}
  & Ohayo! & ``Bom dia!" em japonês\\
 
-{\chines 早安} & Zao an! & ``Bom dia!" em chinês\\
+{\Chinese 早安} & Zao an! & ``Bom dia!" em chinês\\
 
-{\coreano 안녕하세요}   &  An-nyeong-ha-se-yo & ``Como vai?"/"Bom dia!" em coreano.
+{\Korean 안녕하세요}   &  An-nyeong-ha-se-yo & ``Como vai?"/"Bom dia!" em coreano.
 
 \end{tabular}
 
@@ -2014,7 +2411,9 @@ Se você for escrever textos em somente uma dessas línguas, é bem mais simples
 
 Mais informações podem ser obtidas com a documentação dos pacotes \texttt{fontspec} e \texttt{po\-ly\-glos\-sia}. 
 
+
 \include{abntex2-latexintro}
+
 
 \chapter{Outros recursos}
 
@@ -2030,7 +2429,7 @@ Para modelos de currículos, ver: \url{http://nitens.org/taraborelli/cvtex}.
 
 
 
-\appendix
+\addpart{Apêndices}
 
 \chapter*{Números de página na borda}
 \begin{verbatim}
@@ -2066,15 +2465,15 @@ Uso:
 \medskip
 
 \footnotesize{
-\begin{tabular}{p{6cm}p{6cm}}
-\verb+\definecolor{shadecolor}{Gray}{10.0}+ & Define a cor da sombra (fundo)\\
-\verb+\begin{framed} ... \end{framed}+ & \begin{framed}Bordas ao redor do texto\end{framed}\\
-\verb+\begin{shaded}... \end{shaded}+ & \begin{shaded} Texto com sombra de fundo \end{shaded}\\
-\verb+\begin{snugshade} ... \end{snugshade}+ &  \colorbox{Gray}{Texto com sombra de fundo mais justa.}\\
-\verb+\fcolorbox{Magenta}{Gray}{...}+ & \fcolorbox{Magenta}{Gray}{Define a cor da borda e a cor do fundo.} \\
-\verb+\colorbox{Gray}{...}+ & \colorbox{Gray}{Um sombreado só do tamanho do texto.}\\
-\verb+\framebox{...}+  & \framebox{Uma caixa ao redor do texto do tamanho do parágrafo.}\\
-\verb+\fbox{XXX}+  & \fbox{XXX}\\
+\begin{tabular}{p{6cm}p{5cm}p{5cm}}
+\verb+\definecolor{shadecolor}{Gray}{10.0}+ & Define a cor da sombra (fundo) &  \\
+\verb+\begin{framed} Uma história... \end{framed}+ & Bordas ao redor do texto & \begin{framed} Uma história... \end{framed}\\
+\verb+\begin{shaded} Uma história... \end{shaded}+ & Texto com sombra de fundo & \begin{shaded} Uma história... \end{shaded}\\
+\verb+\begin{snugshade} Uma história... \end{snugshade}+ & Texto com sombra de fundo mais justa. & \colorbox{Gray}{Uma história\ldots}\\
+\verb+\fcolorbox{Magenta}{Gray}{Uma história...}+ & Define a cor da borda e a cor do fundo. Necessário pacote \texttt{xcolor}.& \fcolorbox{Magenta}{Gray}{Uma história...} \\
+\verb+\colorbox{Gray}{Uma história…}+ & Um sombreado só do tamanho do texto. & \colorbox{Gray}{Uma história\ldots}\\
+\verb+\framebox{Uma história\ldots}+ & Uma caixa ao redor do texto do tamanho do parágrafo. & \framebox{Uma história\ldots}\\
+\verb+\fbox{Uma história\ldots}+ & Uma caixa ao redor do texto do tamanho do texto. & \fbox{Uma história\ldots}\\
 \end{tabular}
 }
 
@@ -2084,25 +2483,20 @@ O pacote \texttt{mdframed} é bom para fazer caixas coloridas com texto de mais 
 
 Exemplo:
 
+\vspace{-1em}
 \begin{verbatim}
 \begin{mdframed}[backgroundcolor=lightgray]
 ...
 \end{mdframed}
 \end{verbatim}
 
-\marginnote[-1.0cm]{
-
-\begin{minipage}{1.0\marginparwidth}
 \begin{mdframed}[backgroundcolor=lightgray]
 I. Quo usque tandem abutere, Catilina, patientia nostra? quam diu etiam furor iste tuus nos eludet? quem ad finem sese effrenata iactabit audacia? Nihilne te nocturnum praesidium Palati, nihil urbis vigiliae, nihil timor populi, nihil concursus bonorum omnium, nihil hic munitissimus habendi senatus locus, nihil horum ora voltusque moverunt? Patere tua consilia non sentis, constrictam iam horum omnium scientia teneri coniurationem tuam non vides? Quid proxima, quid superiore nocte egeris, ubi fueris, quos convocaveris, quid consilii ceperis, quem nostrum ignorare arbitraris? \hfill ---Cicero, \textit{Oratio in L. Catilinam Prima}.
 
 \end{mdframed}
-\end{minipage}
-
-}
 
 \chapter*{Uma entrada de capítulo elaborada}
-Estilo de capítulo “Veelo", da classe \texttt{memoir}.
+Estilo de capítulo “Veelo”, da classe \texttt{memoir}.
 
 \begin{verbatim}
 \usepackage{titlesec}
@@ -2115,7 +2509,7 @@ Estilo de capítulo “Veelo", da classe \texttt{memoir}.
 \end{verbatim}
 
 
-\chapter*{Usando Xe\LaTeX{} e as classes Tufte-\LaTeX{}}
+\chapter*{Usando XeLaTeX e as classes Tufte-LaTeX{}}
 
 Se você quiser usar um estilo parecido com o dos livros de E. Tufte, as classes \texttt{tufte-handout} (para artigos) e \texttt{tufte-book} (para livros) são uma opção interessante para sair da mesmice. Mas se quiser compilar com \texttt{xelatex} para usar as fontes do sistema, deve usar o código abaixo no preâmbulo para fazer os cabeçalhos das páginas funcionarem direito:
 
@@ -2245,21 +2639,25 @@ Se você quiser usar um estilo parecido com o dos livros de E. Tufte, as classes
 %Os exemplos foram retirados de: \url{http://tex.stackexchange.com/questions/35825/pretty-table-of-contents} e modificados.
 
 
+\printshorthands
+
 \nocite{*}
 
 \printbibliography
 
+\backmatter
+
 \chapter*{}
 \phantom{}
 \vfill
-Este texto foi composto e adaptado (uma tradução livre com acréscimos) de: \url{http://en.wikibooks.org/wiki/LaTeX/}. O tipo usado foi \textbf{Bulmer}, criado em 1792 por William Martin (1757–1830).. A classe utilizada foi \textit{Tufte-\LaTeX}.
+O tipo usado foi \textit{Jannon Text Moderne}, uma recriação dos tipos de Jean Jannon do século \textsc{xviii}, para texto, e \textsf{Profile}, de Martin Wenzel (1999), para títulos. A classe utilizada foi \emph{Tufte-LateX}.
 
 \medskip
 
 \ccbyncsa
 
 \medskip
-Os direitos desta obra são regidos pela licença \textbf{Creative Commons}. Sua distribuição e cópia é livre, desde que citada a fonte, e pode ser modificada, mas não utilizada para fins comerciais.  Ver: \url{http://creativecommons.org/licenses/by-nc-sa/3.0/br/}.
+Os direitos desta obra são regidos pela licença \textbf{Creative Commons}. Sua distribuição, cópia e modificação é livre, desde observadas as seguintes condições: a fonte deve ser citada; é proibida utilização para fins comerciais; obras derivadas deverão ser compartilhadas com a mesma licença. Ver: \url{http://creativecommons.org/licenses/by-nc-sa/3.0/deed.pt_BR}.
 
 \end{document}
 
