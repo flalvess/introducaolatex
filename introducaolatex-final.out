@@ -38,43 +38,45 @@
 \BOOKMARK [2][-]{subsection.6.1.3}{Descrição}{section.6.1}% 38
 \BOOKMARK [2][-]{subsection.6.1.4}{Listas\040aninhadas\040\(listas\040dentro\040de\040listas\)}{section.6.1}% 39
 \BOOKMARK [2][-]{subsection.6.1.5}{Listas em múltiplas colunas}{section.6.1}% 40
-\BOOKMARK [1][-]{section.6.2}{Hifenização}{chapter.6}% 41
-\BOOKMARK [1][-]{section.6.3}{Aspas}{chapter.6}% 42
-\BOOKMARK [1][-]{section.6.4}{Travessão, hífen, meia-risca}{chapter.6}% 43
-\BOOKMARK [1][-]{section.6.5}{Espaço entre palavras e frases}{chapter.6}% 44
-\BOOKMARK [1][-]{section.6.6}{Enfatizando\040texto}{chapter.6}% 45
-\BOOKMARK [1][-]{section.6.7}{Estilos\040de\040fonte}{chapter.6}% 46
-\BOOKMARK [1][-]{section.6.8}{Tamanho\040de\040fonte}{chapter.6}% 47
-\BOOKMARK [1][-]{section.6.9}{Sobrescrito\040e\040subscrito}{chapter.6}% 48
-\BOOKMARK [1][-]{section.6.10}{Símbolos}{chapter.6}% 49
-\BOOKMARK [1][-]{section.6.11}{Formatação de parágrafos}{chapter.6}% 50
-\BOOKMARK [1][-]{section.6.12}{Inserção de hiperlinks}{chapter.6}% 51
-\BOOKMARK [1][-]{section.6.13}{Citando\040textos}{chapter.6}% 52
-\BOOKMARK [1][-]{section.6.14}{Notas de rodapé}{chapter.6}% 53
-\BOOKMARK [1][-]{section.6.15}{Notas\040no\040final\040do\040texto}{chapter.6}% 54
-\BOOKMARK [1][-]{section.6.16}{Notas no final do capítulo}{chapter.6}% 55
-\BOOKMARK [1][-]{section.6.17}{Cabeçalhos}{chapter.6}% 56
-\BOOKMARK [1][-]{section.6.18}{Modo matemático}{chapter.6}% 57
-\BOOKMARK [0][-]{chapter.7}{Figuras}{}% 58
-\BOOKMARK [1][-]{section.7.1}{Incluindo\040imagens}{chapter.7}% 59
-\BOOKMARK [1][-]{section.7.2}{Onde\040guardar\040as\040imagens\040do\040seu\040texto}{chapter.7}% 60
-\BOOKMARK [1][-]{section.7.3}{Exemplos}{chapter.7}% 61
-\BOOKMARK [1][-]{section.7.4}{Imagens\040como\040figuras}{chapter.7}% 62
-\BOOKMARK [1][-]{section.7.5}{Rótulos ao lado da figura \(side captions\)}{chapter.7}% 63
-\BOOKMARK [1][-]{section.7.6}{Figuras\040dentro\040de\040figuras\040\(subfloats\)}{chapter.7}% 64
-\BOOKMARK [1][-]{section.7.7}{Figuras\040lado-a-lado}{chapter.7}% 65
-\BOOKMARK [1][-]{section.7.8}{Figuras com o tamanho da página em textos de duas colunas}{chapter.7}% 66
-\BOOKMARK [0][-]{chapter.8}{Referências}{}% 67
-\BOOKMARK [1][-]{section.8.1}{Referências cruzadas}{chapter.8}% 68
-\BOOKMARK [1][-]{section.8.2}{Hyperlinks}{chapter.8}% 69
-\BOOKMARK [0][-]{chapter.9}{Cores}{}% 70
-\BOOKMARK [0][-]{chapter.10}{Fontes}{}% 71
-\BOOKMARK [1][-]{section.10.1}{O\040pacote\040fontspec}{chapter.10}% 72
-\BOOKMARK [1][-]{section.10.2}{Fontes\040gratuitas\040de\040qualidade}{chapter.10}% 73
-\BOOKMARK [1][-]{section.10.3}{Opções avançadas do pacote fontspec}{chapter.10}% 74
-\BOOKMARK [0][-]{chapter.11}{Idiomas}{}% 75
-\BOOKMARK [1][-]{section.11.1}{Alfabetos não latinos e escritas não ocidentais}{chapter.11}% 76
-\BOOKMARK [0][-]{chapter.12}{Documentos técnicos e científicos brasileiros com abnTeX2}{}% 77
-\BOOKMARK [1][-]{section.12.1}{Macros\040de\040dados\040do\040trabalho}{chapter.12}% 78
-\BOOKMARK [0][-]{chapter.13}{Outros\040recursos}{}% 79
-\BOOKMARK [-1][-]{section*.11}{Apêndices}{}% 80
+\BOOKMARK [1][-]{section.6.2}{Textos\040em\040paralelo}{chapter.6}% 41
+\BOOKMARK [1][-]{section.6.3}{Números de linha}{chapter.6}% 42
+\BOOKMARK [1][-]{section.6.4}{Hifenização}{chapter.6}% 43
+\BOOKMARK [1][-]{section.6.5}{Aspas}{chapter.6}% 44
+\BOOKMARK [1][-]{section.6.6}{Travessão, hífen, meia-risca}{chapter.6}% 45
+\BOOKMARK [1][-]{section.6.7}{Espaço entre palavras e frases}{chapter.6}% 46
+\BOOKMARK [1][-]{section.6.8}{Enfatizando\040texto}{chapter.6}% 47
+\BOOKMARK [1][-]{section.6.9}{Estilos\040de\040fonte}{chapter.6}% 48
+\BOOKMARK [1][-]{section.6.10}{Tamanho\040de\040fonte}{chapter.6}% 49
+\BOOKMARK [1][-]{section.6.11}{Sobrescrito\040e\040subscrito}{chapter.6}% 50
+\BOOKMARK [1][-]{section.6.12}{Símbolos}{chapter.6}% 51
+\BOOKMARK [1][-]{section.6.13}{Formatação de parágrafos}{chapter.6}% 52
+\BOOKMARK [1][-]{section.6.14}{Inserção de hiperlinks}{chapter.6}% 53
+\BOOKMARK [1][-]{section.6.15}{Citando\040textos}{chapter.6}% 54
+\BOOKMARK [1][-]{section.6.16}{Notas de rodapé}{chapter.6}% 55
+\BOOKMARK [1][-]{section.6.17}{Notas\040no\040final\040do\040texto}{chapter.6}% 56
+\BOOKMARK [1][-]{section.6.18}{Notas no final do capítulo}{chapter.6}% 57
+\BOOKMARK [1][-]{section.6.19}{Cabeçalhos}{chapter.6}% 58
+\BOOKMARK [1][-]{section.6.20}{Modo matemático}{chapter.6}% 59
+\BOOKMARK [0][-]{chapter.7}{Figuras}{}% 60
+\BOOKMARK [1][-]{section.7.1}{Incluindo\040imagens}{chapter.7}% 61
+\BOOKMARK [1][-]{section.7.2}{Onde\040guardar\040as\040imagens\040do\040seu\040texto}{chapter.7}% 62
+\BOOKMARK [1][-]{section.7.3}{Exemplos}{chapter.7}% 63
+\BOOKMARK [1][-]{section.7.4}{Imagens\040como\040figuras}{chapter.7}% 64
+\BOOKMARK [1][-]{section.7.5}{Rótulos ao lado da figura \(side captions\)}{chapter.7}% 65
+\BOOKMARK [1][-]{section.7.6}{Figuras\040dentro\040de\040figuras\040\(subfloats\)}{chapter.7}% 66
+\BOOKMARK [1][-]{section.7.7}{Figuras\040lado-a-lado}{chapter.7}% 67
+\BOOKMARK [1][-]{section.7.8}{Figuras com o tamanho da página em textos de duas colunas}{chapter.7}% 68
+\BOOKMARK [0][-]{chapter.8}{Referências}{}% 69
+\BOOKMARK [1][-]{section.8.1}{Referências cruzadas}{chapter.8}% 70
+\BOOKMARK [1][-]{section.8.2}{Hyperlinks}{chapter.8}% 71
+\BOOKMARK [0][-]{chapter.9}{Cores}{}% 72
+\BOOKMARK [0][-]{chapter.10}{Fontes}{}% 73
+\BOOKMARK [1][-]{section.10.1}{O\040pacote\040fontspec}{chapter.10}% 74
+\BOOKMARK [1][-]{section.10.2}{Fontes\040gratuitas\040de\040qualidade}{chapter.10}% 75
+\BOOKMARK [1][-]{section.10.3}{Opções avançadas do pacote fontspec}{chapter.10}% 76
+\BOOKMARK [0][-]{chapter.11}{Idiomas}{}% 77
+\BOOKMARK [1][-]{section.11.1}{Alfabetos não latinos e escritas não ocidentais}{chapter.11}% 78
+\BOOKMARK [0][-]{chapter.12}{Documentos técnicos e científicos brasileiros com abnTeX2}{}% 79
+\BOOKMARK [1][-]{section.12.1}{Macros\040de\040dados\040do\040trabalho}{chapter.12}% 80
+\BOOKMARK [0][-]{chapter.13}{Outros\040recursos}{}% 81
+\BOOKMARK [-1][-]{section*.11}{Apêndices}{}% 82

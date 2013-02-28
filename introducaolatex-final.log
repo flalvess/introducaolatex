@@ -1,8 +1,8 @@
-This is XeTeX, Version 3.1415926-2.4-0.9998 (TeX Live 2012/W32TeX) (format=xelatex 2013.1.11)  27 FEB 2013 11:19
+This is XeTeX, Version 3.1415926-2.4-0.9998 (TeX Live 2012/W32TeX) (format=xelatex 2013.1.11)  28 FEB 2013 20:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**introducaolatex-final
+**introducaolatex-final.tex
 (./introducaolatex-final.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, ge
@@ -779,8 +779,10 @@ Type  H <return>  for immediate help.
                                                   
 l.2495 \@saveprimitive\leqno\@@leqno
                                     
-? s
-OK, entering \scrollmode...
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
 
 ! LaTeX Error: Unable to properly define \@@eqno; primitive \eqno no longer pri
 mitive.
@@ -1957,6 +1959,54 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
+) (c:/texlive/2012/texmf-dist/tex/latex/parallel/parallel.sty
+Package: parallel 2003/04/13, setting two texts parallel (me)
+
+`parallel': setting two texts parallel, (beta 4) 2003/04/13.
+\ParallelLWidth=\dimen274
+\ParallelRWidth=\dimen275
+\ParallelTextWidth=\dimen276
+\ParallelLeftMargin=\dimen277
+\ParallelUserMidSkip=\dimen278
+\ParallelMainMidSkip=\dimen279
+\ParallelLBox=\box78
+\ParallelRBox=\box79
+\ParallelBoxVar=\box80
+\ParallelLTok=\box81
+\ParallelRTok=\box82
+\ParallelBoolVar=\count423
+\ParallelBoolMid=\count424
+\ParallelWhichBox=\count425
+\ParallelMainMode=\count426
+\ParallelFNMode=\count427
+\ParallelLFNCounter=\count428
+\ParallelRFNCounter=\count429
+\ParallelMaxFN=\count430
+\ParallelFNNumMode=\count431
+)
+(c:/texlive/2012/texmf-dist/tex/latex/lineno/lineno.sty
+Package: lineno 2005/11/02 line numbers on paragraphs v4.41
+Invalid UTF-8 byte or sequence at line 296 replaced by U+FFFD.
+\linenopenalty=\count432
+\output=\toks42
+\linenoprevgraf=\count433
+\linenumbersep=\dimen280
+\linenumberwidth=\dimen281
+\c@linenumber=\count434
+\c@pagewiselinenumber=\count435
+\c@LN@truepage=\count436
+\c@internallinenumber=\count437
+\c@internallinenumbers=\count438
+\quotelinenumbersep=\dimen282
+\bframerule=\dimen283
+\bframesep=\dimen284
+\bframebox=\box83
+
+
+LaTeX Warning: Command \@parboxrestore  has changed.
+               Check if current package is valid.
+
+LaTeX Info: Redefining \\ on input line 3056.
 ) (c:/texlive/2012/texmf-dist/tex/latex/pdfpages/pdfpages.sty
 Package: pdfpages 2012/04/03 v0.4s Insert pages of external PDF documents (AM)
 
@@ -1966,10 +2016,10 @@ Package: eso-pic 2010/10/06 v2.0c eso-pic (RN)
 (c:/texlive/2012/texmf-dist/tex/latex/pdfpages/ppxetex.def
 File: ppxetex.def 2012/04/03 v0.4s Pdfpages driver for XeTeX (AM)
 )
-\AM@pagebox=\box78
-\AM@toc@title=\toks42
-\c@AM@survey=\count423
-\AM@templatesizebox=\box79
+\AM@pagebox=\box84
+\AM@toc@title=\toks43
+\c@AM@survey=\count439
+\AM@templatesizebox=\box85
 )
 
 ! LaTeX Error: Command \aemph already defined.
@@ -1979,7 +2029,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.125 \begin{document}
+l.128 \begin{document}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2010,6 +2060,7 @@ LaTeX Warning: Unused global option(s):
     [abstract].
 
 (./introducaolatex-final.aux (./texto-bibliografia.aux) (./biblatex.aux)
+(./parallel.aux) (./lineno.aux)
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 
@@ -2033,42 +2084,42 @@ Package biblatex Info: ... file 'syriac.lbx' not found.
 
 
 Package biblatex Warning: Language 'syriac' not supported.
-(biblatex)                Using fallback language 'brazil' on input line 228.
+(biblatex)                Using fallback language 'brazil' on input line 230.
 
 (./abntex2-latexintro.aux))
 \openout1 = `introducaolatex-final.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 125.
-LaTeX Font Info:    ... okay on input line 125.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 125.
-LaTeX Font Info:    ... okay on input line 125.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 125.
-LaTeX Font Info:    ... okay on input line 125.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 125.
-LaTeX Font Info:    ... okay on input line 125.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 125.
-LaTeX Font Info:    ... okay on input line 125.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 125.
-LaTeX Font Info:    ... okay on input line 125.
-LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 125.
-LaTeX Font Info:    ... okay on input line 125.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 125.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 125.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 128.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 128.
  (c:/texlive/2012/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 125.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 125.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 125.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 128.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 128.
 
  (c:/texlive/2012/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 125.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 125.
-LaTeX Font Info:    ... okay on input line 125.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 125.
-LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
 
 
 ! Package bidi Error: Oops! you have loaded package amsmath after bidi package.
@@ -2079,7 +2130,7 @@ See the bidi package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.125 \begin{document}
+l.128 \begin{document}
                       
 This error message was generated by an \errmessage
 command, so I can't give any explicit help.
@@ -2095,7 +2146,7 @@ See the bidi package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.125 \begin{document}
+l.128 \begin{document}
                       
 (That was another \errmessage.)
 
@@ -2108,7 +2159,7 @@ See the bidi package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.125 \begin{document}
+l.128 \begin{document}
                       
 (That was another \errmessage.)
 
@@ -2121,7 +2172,7 @@ See the bidi package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.125 \begin{document}
+l.128 \begin{document}
                       
 (That was another \errmessage.)
 
@@ -2134,7 +2185,7 @@ See the bidi package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.125 \begin{document}
+l.128 \begin{document}
                       
 (That was another \errmessage.)
 
@@ -2147,7 +2198,7 @@ See the bidi package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.125 \begin{document}
+l.128 \begin{document}
                       
 (That was another \errmessage.)
 
@@ -2160,7 +2211,7 @@ See the bidi package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.125 \begin{document}
+l.128 \begin{document}
                       
 (That was another \errmessage.)
 
@@ -2173,7 +2224,7 @@ See the bidi package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.125 \begin{document}
+l.128 \begin{document}
                       
 (That was another \errmessage.)
 
@@ -2186,7 +2237,7 @@ See the bidi package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.125 \begin{document}
+l.128 \begin{document}
                       
 (That was another \errmessage.)
 
@@ -2199,7 +2250,7 @@ See the bidi package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.125 \begin{document}
+l.128 \begin{document}
                       
 (That was another \errmessage.)
 
@@ -2210,43 +2261,43 @@ l.125 \begin{document}
 * 
 * Try to use \setCJKsansfont[...]{...} to define it.
 *************************************************
-Package tocstyle Info: prepare \l@part for redefinition on input line 125.
-Package tocstyle Info: prepare \l@chapter for redefinition on input line 125.
-Package tocstyle Info: prepare \l@section for redefinition on input line 125.
-LaTeX Font Info:    Try loading font information for U+zeur on input line 125.
+Package tocstyle Info: prepare \l@part for redefinition on input line 128.
+Package tocstyle Info: prepare \l@chapter for redefinition on input line 128.
+Package tocstyle Info: prepare \l@section for redefinition on input line 128.
+LaTeX Font Info:    Try loading font information for U+zeur on input line 128.
 (c:/texlive/2012/texmf-dist/tex/latex/eulervm/uzeur.fd
 File: uzeur.fd 2005/01/11 v4.0 (WaS)
 )
-LaTeX Font Info:    Try loading font information for U+zeus on input line 125.
+LaTeX Font Info:    Try loading font information for U+zeus on input line 128.
 
 (c:/texlive/2012/texmf-dist/tex/latex/eulervm/uzeus.fd
 File: uzeus.fd 2005/01/11 v4.0 (WaS)
 )
-LaTeX Font Info:    Try loading font information for U+zeuex on input line 125.
+LaTeX Font Info:    Try loading font information for U+zeuex on input line 128.
 
 
 (c:/texlive/2012/texmf-dist/tex/latex/eulervm/uzeuex.fd
 File: uzeuex.fd 2005/01/11 v4.0 (WaS)
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 125.
+LaTeX Font Info:    Try loading font information for U+msa on input line 128.
 
 (c:/texlive/2012/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 125.
+LaTeX Font Info:    Try loading font information for U+msb on input line 128.
 
 (c:/texlive/2012/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+wasy on input line 125.
+LaTeX Font Info:    Try loading font information for U+wasy on input line 128.
 
 (c:/texlive/2012/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
 )
-Package tocstyle Info: prepare \l@subsection for redefinition on input line 125
+Package tocstyle Info: prepare \l@subsection for redefinition on input line 128
 .
-Package tocstyle Info: prepare \l@table for redefinition on input line 125.
-Package tocstyle Info: prepare \l@figure for redefinition on input line 125.
+Package tocstyle Info: prepare \l@table for redefinition on input line 128.
+Package tocstyle Info: prepare \l@figure for redefinition on input line 128.
 
 
 Package tocstyle Warning: unexpected \@dottedtocline definition!
@@ -2267,7 +2318,7 @@ kip \fi \parindent #2\relax \@afterindenttrue \interlinepenalty \@M \leavevmode
  \null \nobreak \hskip -\if@RTL \rightskip \else \leftskip \fi {#4}\nobreak \le
 aders \hbox {$\m@th \mkern \@dotsep mu\hbox {.}\mkern \@dotsep mu$}\hfill \nobr
 eak \hb@xt@ \@pnumwidth {{\hfil \normalfont \normalcolor #5}}\par }\fi  on inpu
-t line 125.
+t line 128.
 (c:/texlive/2012/texmf-dist/tex/latex/ms/ragged2e.sty
 Package: ragged2e 2009/05/21 v2.1 ragged2e Package (MS)
 
@@ -2296,19 +2347,19 @@ LaTeX Info: Redefining \selectfont on input line 126.
 \RaggedRightParindent=\skip154
 \JustifyingParindent=\skip155
 )
-\AtBeginShipoutBox=\box80
-Package hyperref Info: Link coloring OFF on input line 125.
+\AtBeginShipoutBox=\box86
+Package hyperref Info: Link coloring OFF on input line 128.
  (c:/texlive/2012/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
 
 (c:/texlive/2012/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count424
+\c@section@level=\count440
 )
-LaTeX Info: Redefining \ref on input line 125.
-LaTeX Info: Redefining \pageref on input line 125.
-LaTeX Info: Redefining \nameref on input line 125.
+LaTeX Info: Redefining \ref on input line 128.
+LaTeX Info: Redefining \pageref on input line 128.
+LaTeX Info: Redefining \nameref on input line 128.
 
 (./introducaolatex-final.out) (./introducaolatex-final.out)
 \@outlinefile=\write4
@@ -2362,8 +2413,8 @@ Package biblatex Warning: Data encoding is 'utf8'.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'introducaolatex-final.bbl' found.
 (./introducaolatex-final.bbl)
-Package biblatex Info: Reference section=0 on input line 125.
-Package biblatex Info: Reference segment=0 on input line 125.
+Package biblatex Info: Reference section=0 on input line 128.
+Package biblatex Info: Reference segment=0 on input line 128.
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: xetex
 * paper: a4paper
@@ -2432,7 +2483,7 @@ Style=TitlingCaps].
 ]
 File: amdg.png Graphic file (type QTm)
  <use  "amdg.png" >
-\g_fontspec_family_San Marco LT Std_int=\count425
+\g_fontspec_family_San Marco LT Std_int=\count441
 .................................................
 . fontspec info: "no-font-shape"
 . 
@@ -2768,41 +2819,6 @@ text indent by \l@... (toc, 1):  25.18501pt
 number indent by parent (toc, 1):  14.59634pt
 text indent calculated (toc, 1): 25.07549pt
 number indent calculated (toc, 1): 14.59634pt
-number indent by \l@... (toc, 0):  0.0pt
-text indent by \l@... (toc, 0):  16.42499pt
-number indent by parent (toc, 0):  0.0pt
-text indent calculated (toc, 0): 14.59634pt
-number indent calculated (toc, 0): 0.0pt
-number indent by \l@... (toc, 1):  16.42499pt
-text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  14.59634pt
-text indent calculated (toc, 1): 25.07549pt
-number indent calculated (toc, 1): 14.59634pt
-number indent by \l@... (toc, 1):  16.42499pt
-text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  14.59634pt
-text indent calculated (toc, 1): 25.07549pt
-number indent calculated (toc, 1): 14.59634pt
-number indent by \l@... (toc, 1):  16.42499pt
-text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  14.59634pt
-text indent calculated (toc, 1): 25.07549pt
-number indent calculated (toc, 1): 14.59634pt
-number indent by \l@... (toc, 1):  16.42499pt
-text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  14.59634pt
-text indent calculated (toc, 1): 25.07549pt
-number indent calculated (toc, 1): 14.59634pt
-number indent by \l@... (toc, 1):  16.42499pt
-text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  14.59634pt
-text indent calculated (toc, 1): 25.07549pt
-number indent calculated (toc, 1): 14.59634pt
-number indent by \l@... (toc, 1):  16.42499pt
-text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  14.59634pt
-text indent calculated (toc, 1): 25.07549pt
-number indent calculated (toc, 1): 14.59634pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
 number indent by parent (toc, 1):  14.59634pt
@@ -2828,11 +2844,36 @@ text indent by \l@... (toc, 1):  25.18501pt
 number indent by parent (toc, 1):  14.59634pt
 text indent calculated (toc, 1): 25.07549pt
 number indent calculated (toc, 1): 14.59634pt
-number indent by \l@... (toc, 0):  0.0pt
-text indent by \l@... (toc, 0):  16.42499pt
-number indent by parent (toc, 0):  0.0pt
-text indent calculated (toc, 0): 14.59634pt
-number indent calculated (toc, 0): 0.0pt
+number indent by \l@... (toc, 1):  16.42499pt
+text indent by \l@... (toc, 1):  25.18501pt
+number indent by parent (toc, 1):  14.59634pt
+text indent calculated (toc, 1): 25.07549pt
+number indent calculated (toc, 1): 14.59634pt
+number indent by \l@... (toc, 1):  16.42499pt
+text indent by \l@... (toc, 1):  25.18501pt
+number indent by parent (toc, 1):  14.59634pt
+text indent calculated (toc, 1): 25.07549pt
+number indent calculated (toc, 1): 14.59634pt
+number indent by \l@... (toc, 1):  16.42499pt
+text indent by \l@... (toc, 1):  25.18501pt
+number indent by parent (toc, 1):  14.59634pt
+text indent calculated (toc, 1): 25.07549pt
+number indent calculated (toc, 1): 14.59634pt
+number indent by \l@... (toc, 1):  16.42499pt
+text indent by \l@... (toc, 1):  25.18501pt
+number indent by parent (toc, 1):  14.59634pt
+text indent calculated (toc, 1): 25.07549pt
+number indent calculated (toc, 1): 14.59634pt
+number indent by \l@... (toc, 1):  16.42499pt
+text indent by \l@... (toc, 1):  25.18501pt
+number indent by parent (toc, 1):  14.59634pt
+text indent calculated (toc, 1): 25.07549pt
+number indent calculated (toc, 1): 14.59634pt
+number indent by \l@... (toc, 1):  16.42499pt
+text indent by \l@... (toc, 1):  25.18501pt
+number indent by parent (toc, 1):  14.59634pt
+text indent calculated (toc, 1): 25.07549pt
+number indent calculated (toc, 1): 14.59634pt
 number indent by \l@... (toc, 0):  0.0pt
 text indent by \l@... (toc, 0):  16.42499pt
 number indent by parent (toc, 0):  0.0pt
@@ -2843,11 +2884,31 @@ text indent by \l@... (toc, 1):  25.18501pt
 number indent by parent (toc, 1):  14.59634pt
 text indent calculated (toc, 1): 25.07549pt
 number indent calculated (toc, 1): 14.59634pt
+number indent by \l@... (toc, 1):  16.42499pt
+text indent by \l@... (toc, 1):  25.18501pt
+number indent by parent (toc, 1):  14.59634pt
+text indent calculated (toc, 1): 25.07549pt
+number indent calculated (toc, 1): 14.59634pt
+number indent by \l@... (toc, 0):  0.0pt
+text indent by \l@... (toc, 0):  16.42499pt
+number indent by parent (toc, 0):  0.0pt
+text indent calculated (toc, 0): 14.59634pt
+number indent calculated (toc, 0): 0.0pt
 LaTeX Font Info:    Font shape `EU1/JannonTModernePro(0)/m/sl' in size <10.95> 
 not available
 (Font)              Font shape `EU1/JannonTModernePro(0)/m/it' tried instead on
  input line 153.
 [6]
+number indent by \l@... (toc, 0):  0.0pt
+text indent by \l@... (toc, 0):  16.42499pt
+number indent by parent (toc, 0):  0.0pt
+text indent calculated (toc, 0): 14.59634pt
+number indent calculated (toc, 0): 0.0pt
+number indent by \l@... (toc, 1):  16.42499pt
+text indent by \l@... (toc, 1):  25.18501pt
+number indent by parent (toc, 1):  14.59634pt
+text indent calculated (toc, 1): 25.07549pt
+number indent calculated (toc, 1): 14.59634pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
 number indent by parent (toc, 1):  14.59634pt
@@ -3032,7 +3093,7 @@ Capítulo 1.
 
 
 ]
-Overfull \hbox (3.68518pt too wide) in paragraph at lines 182--183
+Overfull \hbox (3.68518pt too wide) in paragraph at lines 185--186
 []\EU1/JannonTModernePro(0)/m/n/10.95 Na verdade o processo de trabalho (\EU1/J
 annonTModernePro(0)/m/it/10.95 workflow\EU1/JannonTModernePro(0)/m/n/10.95 ) é
  diferente em processadores de texto (Word
@@ -3042,7 +3103,7 @@ File: grafico-latex.png Graphic file (type QTm)
 <use  "grafico-latex.png" > [2] [3]
 File: biblia-gutenberg.jpg Graphic file (type QTm)
  <use  "biblia-gutenberg.jpg" >
-Overfull \hbox (0.43805pt too wide) in paragraph at lines 270--271
+Overfull \hbox (0.43805pt too wide) in paragraph at lines 273--274
 []\EU1/JannonTModernePro(0)/m/n/10.95 ([]$[][][][] [] [] [] [][][] [] [][][] []
  [][][] [] [][][][][][][][]$[]) para Linux, Mac ([]$[][][][] [] [] [] [][][] []
  [][][] [] [][][] [] [][][][][][]$[])
@@ -3056,28 +3117,28 @@ Capítulo 2.
 [7]
 File: latexbasico.png Graphic file (type QTm)
  <use  "latexbasico.png" > [8] [9]
-Overfull \hbox (7.35124pt too wide) in paragraph at lines 457--458
+Overfull \hbox (7.35124pt too wide) in paragraph at lines 460--461
 \EU1/JannonTModernePro(0)/m/n/10.95 cumento que o autor quer criar. Isso é esp
 ecificado usando o comando []\EU1/Consolas(0)/m/n/10.95 \documentclass{...}\EU1
 /JannonTModernePro(0)/m/n/10.95 . 
  []
 
 
-Underfull \hbox (badness 5893) in paragraph at lines 487--487
+Underfull \hbox (badness 5893) in paragraph at lines 490--490
 []|\EU1/JannonTModernePro(0)/m/n/10.95 Tamanho da fonte principal do docu-
  []
 
 
-Underfull \hbox (badness 3407) in paragraph at lines 487--487
+Underfull \hbox (badness 3407) in paragraph at lines 490--490
 \EU1/JannonTModernePro(0)/m/n/10.95 direita (openright) ou qualquer página
  []
 
 [10] [11] [12]
 Capítulo 3.
 LaTeX Font Info:    Font shape `EU1/Consolas(0)/bx/n' will be
-(Font)              scaled to size 12.9599pt on input line 515.
+(Font)              scaled to size 12.9599pt on input line 518.
 
-Overfull \hbox (70.79915pt too wide) in paragraph at lines 543--545
+Overfull \hbox (70.79915pt too wide) in paragraph at lines 546--548
 []\EU1/Consolas(0)/m/n/10.95 \usepackage[utf8]{inputenc} \EU1/JannonTModernePro
 (0)/m/n/10.95 indica uso de caracteres acentuados diretamente e []\EU1/Consolas
 (0)/m/n/10.95 \usepackage{mathptmx}
@@ -3229,13 +3290,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 105--105
 ) [28]
 Capítulo 5.
 
-Overfull \hbox (14.61047pt too wide) in paragraph at lines 755--757
+Overfull \hbox (14.61047pt too wide) in paragraph at lines 758--760
 \EU1/JannonTModernePro(0)/m/n/10.95 Mas você pode converter as tabelas do Exce
 l ou OpenOffice com plugins: []$[][][][] [] [] [] [][][][][][][][][][] []$
  []
 
 
-Overfull \hbox (28.29338pt too wide) in paragraph at lines 755--757
+Overfull \hbox (28.29338pt too wide) in paragraph at lines 758--760
 $[][][][][][][][][][][] [] [][][][]$[] \EU1/JannonTModernePro(0)/m/n/10.95 para
  OpenOffice/Libreoffice e []$[][][][] [] [] [] [][][] [] [][][][] [] [][][] [] 
 [][][][][][][][][][][][] [] [][][][][][][] []$
@@ -3246,7 +3307,7 @@ $[][][][][][][][][][][] [] [][][][]$[] \EU1/JannonTModernePro(0)/m/n/10.95 para
 
 
 ] [30]
-Overfull \hbox (10.55418pt too wide) in paragraph at lines 827--828
+Overfull \hbox (10.55418pt too wide) in paragraph at lines 830--831
 []\EU1/JannonTModernePro(0)/m/n/10.95 Se você preferir girar a tabela na verti
 cal, use o pacote \EU1/Consolas(0)/m/n/10.95 rotating \EU1/JannonTModernePro(0)
 /m/n/10.95 e o ambiente \EU1/Consolas(0)/m/n/10.95 sidewaystable\EU1/JannonTMod
@@ -3254,7 +3315,7 @@ ernePro(0)/m/n/10.95 :
  []
 
 
-Overfull \hbox (18.22098pt too wide) in paragraph at lines 840--841
+Overfull \hbox (18.22098pt too wide) in paragraph at lines 843--844
 []\EU1/JannonTModernePro(0)/m/n/10.95 Para exemplos mais elaborados (e que difi
 cilmente você utilizará), ver []$[][][][] [] [] [] [][] [] [][][][][][][][][]
  []$
@@ -3266,50 +3327,50 @@ cilmente você utilizará), ver []$[][][][] [] [] [] [][] [] [][][][][][][][][]
 ]
 Capítulo 6.
 
-Overfull \hbox (34.00002pt too wide) in paragraph at lines 862--880
+Overfull \hbox (34.00002pt too wide) in paragraph at lines 865--883
 [][] 
  []
 
 
-Overfull \hbox (13.00267pt too wide) in paragraph at lines 891--892
+Overfull \hbox (13.00267pt too wide) in paragraph at lines 894--895
 []\EU1/JannonTModernePro(0)/m/n/10.95 Lembrando que []\EU1/Consolas(0)/m/n/10.9
 5 \labelitemi \EU1/JannonTModernePro(0)/m/n/10.95 é o primeiro nível; []\EU1/
 Consolas(0)/m/n/10.95 \labelitemii\EU1/JannonTModernePro(0)/m/n/10.95 , o segun
 do; e []\EU1/Consolas(0)/m/n/10.95 \labelitemiii
  []
 
-LaTeX Font Info:    Try loading font information for U+ding on input line 893.
+LaTeX Font Info:    Try loading font information for U+ding on input line 896.
 (c:/texlive/2012/texmf-dist/tex/latex/bbding/uding.fd
 File: Uding.fd 1996/02/01 v1.0 BBding font definitions
 )
-Overfull \hbox (6.06465pt too wide) in paragraph at lines 893--894
+Overfull \hbox (6.06465pt too wide) in paragraph at lines 896--897
 []\EU1/JannonTModernePro(0)/m/n/10.95 O item []\EU1/Consolas(0)/m/n/10.95 \chec
 kmark \EU1/JannonTModernePro(0)/m/n/10.95 pode ser modificado por qualquer sím
 bolo, por exemplo, []\EU1/Consolas(0)/m/n/10.95 \textemdash
  []
 
 
-Overfull \hbox (34.00002pt too wide) in paragraph at lines 925--943
+Overfull \hbox (34.00002pt too wide) in paragraph at lines 928--946
 [][] 
  []
 
 [33]
-Overfull \hbox (34.00002pt too wide) in paragraph at lines 946--964
+Overfull \hbox (34.00002pt too wide) in paragraph at lines 949--967
 [][] 
  []
 
 
-Overfull \hbox (34.00002pt too wide) in paragraph at lines 968--995
+Overfull \hbox (34.00002pt too wide) in paragraph at lines 971--998
 [][] 
  []
 
 
-Overfull \hbox (34.00002pt too wide) in paragraph at lines 1002--1033
+Overfull \hbox (34.00002pt too wide) in paragraph at lines 1005--1036
 [][] 
  []
 
 
-Overfull \hbox (0.97298pt too wide) in paragraph at lines 1043--1044
+Overfull \hbox (0.97298pt too wide) in paragraph at lines 1046--1047
 []\EU1/JannonTModernePro(0)/m/n/10.95 Você também pode especificar o tipo de 
 contador que quer: numerais romanos, em maiús-
  []
@@ -3322,18 +3383,18 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1061 \begin{enumerate}[label=\Roman*]
+l.1064 \begin{enumerate}[label=\Roman*]
                                        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (34.00002pt too wide) in paragraph at lines 1047--1069
+Overfull \hbox (34.00002pt too wide) in paragraph at lines 1050--1072
 [][] 
  []
 
 
-Overfull \hbox (0.44429pt too wide) in paragraph at lines 1100--1101
+Overfull \hbox (0.44429pt too wide) in paragraph at lines 1103--1104
 []\EU1/JannonTModernePro(0)/m/n/10.95 No entanto, é bom ter cuidado para só u
 sar \EU1/JannonTModernePro(0)/m/it/10.95 um \EU1/JannonTModernePro(0)/m/n/10.95
  dos dois pacotes (\EU1/Consolas(0)/m/n/10.95 enumerate \EU1/JannonTModernePro(
@@ -3341,8 +3402,57 @@ sar \EU1/JannonTModernePro(0)/m/it/10.95 um \EU1/JannonTModernePro(0)/m/n/10.95
 n/10.95 ). 
  []
 
-[35] [36] [37]
-\g_fontspec_family_Myriad Pro_int=\count426
+[35] [36]
+\openout2 = `parallel.aux'.
+
+ (./parallel.tex
+Underfull \hbox (badness 10000) in paragraph at lines 61--62
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--76
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--79
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--93
+
+ []
+
+
+Overfull \vbox (17.26163pt too high) detected at line 97
+ []
+
+
+Overfull \vbox (17.26163pt too high) detected at line 97
+ []
+
+
+Overfull \vbox (18.11572pt too high) detected at line 97
+ []
+
+
+Overfull \vbox (18.11572pt too high) detected at line 97
+ []
+
+[37
+
+]) [38]
+\openout2 = `lineno.aux'.
+
+ (./lineno.tex) [39
+
+
+] [40
+
+]
+\g_fontspec_family_Myriad Pro_int=\count442
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -3363,72 +3473,73 @@ n/10.95 ).
 . * 'bold italic' with NFSS spec.:
 . <->"Myriad Pro/BI/ICU:script=latn;language=DFLT;mapping=tex-text;"
 .................................................
-
-Underfull \vbox (badness 1062) has occurred while \output is active []
-
- [38]
-Overfull \hbox (18.25845pt too wide) in paragraph at lines 1315--1316
+ [41]
+Overfull \hbox (18.25845pt too wide) in paragraph at lines 1322--1323
 []\EU1/JannonTModernePro(0)/m/n/10.95 Para escrever fórmulas químicas, é út
 il o pacote \EU1/Consolas(0)/m/n/10.95 mhchem \EU1/JannonTModernePro(0)/m/n/10.
 95 ([]$[][][][] [] [] [] [][][] [] [][][][] [] [][][] [] [][][][][][][][][][][]
 [] []$
  []
 
-LaTeX Info: Redefining \bond on input line 1324.
-LaTeX Info: Redefining \dbond on input line 1324.
-LaTeX Info: Redefining \tbond on input line 1324.
-[39]
-Overfull \hbox (133.30365pt too wide) in paragraph at lines 1404--1408
+[42]
+LaTeX Info: Redefining \bond on input line 1331.
+LaTeX Info: Redefining \dbond on input line 1331.
+LaTeX Info: Redefining \tbond on input line 1331.
+
+Overfull \hbox (133.30365pt too wide) in paragraph at lines 1411--1415
 [][] 
  []
 
 
-Overfull \hbox (48.20433pt too wide) in paragraph at lines 1412--1431
+Overfull \hbox (48.20433pt too wide) in paragraph at lines 1419--1438
 [][] 
  []
 
-[40] [41] [42] [43]
-Overfull \hbox (217.49117pt too wide) in paragraph at lines 1564--1564
+[43] [44] [45] [46]
+Overfull \hbox (217.49117pt too wide) in paragraph at lines 1571--1571
 []\EU1/Consolas(0)/m/n/10.95 \usepackage[marginal]{footmisc} % opção ”margi
 nal” coloca os números da nota de rodapé para fora da margem, à la Bringhu
 rst[] 
  []
 
 
-Overfull \hbox (58.55496pt too wide) in paragraph at lines 1574--1574
+Overfull \hbox (58.55496pt too wide) in paragraph at lines 1581--1581
 []\EU1/Consolas(0)/m/n/10.95 %\setlength{\textwidth}{15cm} %implementado pelo p
 acote geometry abaixo, por isso não ativo[] 
  []
 
 
-Overfull \hbox (20.62697pt too wide) in paragraph at lines 1574--1574
+Overfull \hbox (20.62697pt too wide) in paragraph at lines 1581--1581
 []\EU1/Consolas(0)/m/n/10.95 \setlength{\marginparsep}{0.5cm} %tamanho da dist�
 �ncia entre notas de margem e texto[] 
  []
 
 
-Overfull \hbox (74.80984pt too wide) in paragraph at lines 1574--1574
+Overfull \hbox (74.80984pt too wide) in paragraph at lines 1581--1581
 []\EU1/Consolas(0)/m/n/10.95 \usepackage[left=2cm,textwidth=14cm]{geometry} %ta
 manho do bloco de texto e da margem esquerda[] 
  []
 
-[44]
-Overfull \hbox (17.01482pt too wide) in paragraph at lines 1619--1619
+[47]
+Overfull \hbox (17.01482pt too wide) in paragraph at lines 1626--1626
 []\EU1/Consolas(0)/m/n/10.95 \setcounter{endnote}{0} & % para recomeçar a nume
 ração das notas no próximo capítulo[] 
  []
 
-
-Overfull \hbox (6.03131pt too wide) in paragraph at lines 1627--1628
+[48]
+Overfull \hbox (6.03131pt too wide) in paragraph at lines 1634--1635
 $[][][][][][][][][][][]$[] \EU1/JannonTModernePro(0)/m/n/10.95 e/ou []$[][][][]
  [] [] [] [][][][][][][] [] [][][][] [] [][][] [] [][][][] [] [][][][][][] [] [
 ][][][][][][][][][][][][][] [] [][][][][][][][] [] [][][]$[]. 
  []
 
-[45] [46]
+[49] [50
+
+
+]
 Capítulo 7.
 
-Overfull \hbox (2.61061pt too wide) in paragraph at lines 1633--1635
+Overfull \hbox (2.61061pt too wide) in paragraph at lines 1640--1642
 []\EU1/JannonTModernePro(0)/m/n/10.95 Para incluir imagens, usamos o pacote \EU
 1/Consolas(0)/m/n/10.95 graphicx \EU1/JannonTModernePro(0)/m/n/10.95 ([]\EU1/Co
 nsolas(0)/m/n/10.95 \usepackage{graphicx} \EU1/JannonTModernePro(0)/m/n/10.95 n
@@ -3437,34 +3548,31 @@ o preâmbulo).
 
 File: femmevaguecourbet.jpg Graphic file (type QTm)
 <use  "femmevaguecourbet.jpg" >
-Overfull \hbox (2.56607pt too wide) in paragraph at lines 1671--1671
+Overfull \hbox (2.56607pt too wide) in paragraph at lines 1678--1678
 []\EU1/Consolas(0)/m/n/10.95 \graphicspath{~/Pictures} %(geralmente é o diret�
 �rio de imagens para Linux e Mac)[] 
  []
 
-[47
-
-
-] [48]
+[51] [52]
 File: corotavray.jpg Graphic file (type QTm)
  <use  "corotavray.jpg" >
 File: corotavray.jpg Graphic file (type QTm)
  <use  "corotavray.jpg" >
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [49]
+ [53]
 File: corotavray.jpg Graphic file (type QTm)
 
-<use  "corotavray.jpg" > [50]
+<use  "corotavray.jpg" > [54]
 File: corotavray.jpg Graphic file (type QTm)
- <use  "corotavray.jpg" > [51]
+ <use  "corotavray.jpg" > [55]
 File: moreau-apparition.jpg Graphic file (type QTm)
 
 <use  "moreau-apparition.jpg" >
 ! Illegal parameter number in definition of \Hy@tempa.
 <to be read again> 
                    S
-l.1794 ...ats,\_Figures\_and\_Captions#Subfloats}}
+l.1801 ...ats,\_Figures\_and\_Captions#Subfloats}}
                                                   
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
@@ -3473,7 +3581,7 @@ are all screwed up? I'm going to assume that you meant ##.
 ! Illegal parameter number in definition of \Hy@tempa.
 <to be read again> 
                    S
-l.1794 ...ats,\_Figures\_and\_Captions#Subfloats}}
+l.1801 ...ats,\_Figures\_and\_Captions#Subfloats}}
                                                   
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
@@ -3482,62 +3590,62 @@ are all screwed up? I'm going to assume that you meant ##.
 ! Illegal parameter number in definition of \Hy@gtemp.
 <to be read again> 
                    S
-l.1794 ...ats,\_Figures\_and\_Captions#Subfloats}}
+l.1801 ...ats,\_Figures\_and\_Captions#Subfloats}}
                                                   
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
 are all screwed up? I'm going to assume that you meant ##.
 
-[52]
-Overfull \hbox (9.79022pt too wide) in paragraph at lines 1807--1807
+[56]
+Overfull \hbox (9.79022pt too wide) in paragraph at lines 1814--1814
 []  \EU1/Consolas(0)/m/n/10.95 \subfloat[A gull]{\label{fig:gull}\includegraphi
 cs[width=0.3\textwidth]{gull}}[] 
  []
 
 
-Overfull \hbox (26.04504pt too wide) in paragraph at lines 1807--1807
+Overfull \hbox (26.04504pt too wide) in paragraph at lines 1814--1814
 []  \EU1/Consolas(0)/m/n/10.95 \subfloat[A tiger]{\label{fig:tiger}\includegrap
 hics[width=0.3\textwidth]{tiger}}[] 
  []
 
 
-Overfull \hbox (26.04504pt too wide) in paragraph at lines 1807--1807
+Overfull \hbox (26.04504pt too wide) in paragraph at lines 1814--1814
 []  \EU1/Consolas(0)/m/n/10.95 \subfloat[A mouse]{\label{fig:mouse}\includegrap
 hics[width=0.3\textwidth]{mouse}}[] 
  []
 
 File: subfig.png Graphic file (type QTm)
-<use  "subfig.png" > [53] [54]
+<use  "subfig.png" > [57] [58]
 Capítulo 8.
-[55
+[59
 
 
-] [56
+] [60
 
 
 ]
 Capítulo 9.
-[57] [58
+[61] [62
 
 
 ]
 Capítulo 10.
-[59]
-Overfull \hbox (2.18605pt too wide) in paragraph at lines 2077--2077
+[63]
+Overfull \hbox (2.18605pt too wide) in paragraph at lines 2084--2084
 []\EU1/Consolas(0)/m/n/10.95 {\addfontfeature{Color=lime}W}\kern-1ex[] 
  []
 
 
-Overfull \hbox (18.44089pt too wide) in paragraph at lines 2077--2077
+Overfull \hbox (18.44089pt too wide) in paragraph at lines 2084--2084
 []\EU1/Consolas(0)/m/n/10.95 {\addfontfeature{Color=Peach}S}\kern-0.8ex[] 
  []
 
 
-Overfull \hbox (34.69571pt too wide) in paragraph at lines 2077--2077
+Overfull \hbox (34.69571pt too wide) in paragraph at lines 2084--2084
 []\EU1/Consolas(0)/m/n/10.95 {\addfontfeature{Color=Mulberry}P}\kern-0.8ex[] 
  []
 
-\g_fontspec_family_Calluna_int=\count427
+\g_fontspec_family_Calluna_int=\count443
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -3762,7 +3870,7 @@ FF
 F42FF
 . ;"
 .................................................
-\g_fontspec_family_Arno Pro_int=\count428
+\g_fontspec_family_Arno Pro_int=\count444
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -3804,7 +3912,7 @@ F42FF
 . Pro/BI/ICU:script=latn;language=DFLT;mapping=tex-text;+smcp;color=FF7D00FF
 . ;"
 .................................................
-[60]
+[64]
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -3932,7 +4040,7 @@ F42FF
 . * 'bold italic small caps' with NFSS spec.:
 . <->"Arno Pro/BI/ICU:script=latn;language=DFLT;mapping=tex-text;+swsh;+smcp;"
 .................................................
-\g_fontspec_family_Sabon LT Std_int=\count429
+\g_fontspec_family_Sabon LT Std_int=\count445
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -3982,11 +4090,11 @@ F42FF
 . <->"Sabon LT Std/BI/ICU:script=latn;language=DFLT;mapping=tex-text;+lnum;"
 .................................................
 
-Overfull \hbox (11.2165pt too wide) in paragraph at lines 2204--2204
+Overfull \hbox (11.2165pt too wide) in paragraph at lines 2211--2211
 []\EU1/Consolas(0)/m/n/10.95 \fontspec[Contextuals=Swash]{Warnock Pro}[] 
  []
 
-\g_fontspec_family_Warnock Pro_int=\count430
+\g_fontspec_family_Warnock Pro_int=\count446
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -4055,25 +4163,25 @@ Overfull \hbox (11.2165pt too wide) in paragraph at lines 2204--2204
 . Pro/BI/ICU:script=latn;language=DFLT;mapping=tex-text;+cswh;+smcp;"
 .................................................
 
-Overfull \hbox (33.99998pt too wide) in paragraph at lines 2196--2215
+Overfull \hbox (33.99998pt too wide) in paragraph at lines 2203--2222
 [][]
  []
 
-[61] [62
+[65] [66
 
 
 ]
 Capítulo 11.
 
-Overfull \hbox (34.00002pt too wide) in paragraph at lines 2271--2286
+Overfull \hbox (34.00002pt too wide) in paragraph at lines 2278--2293
 [][] 
  []
 
-[63]
-Package mdframed Info: mdframed works in twoside mode on input line 2300.
-Package mdframed Info: mdframed works in twoside mode on input line 2313.
+[67]
+Package mdframed Info: mdframed works in twoside mode on input line 2307.
+Package mdframed Info: mdframed works in twoside mode on input line 2320.
 
-Overfull \hbox (14.51219pt too wide) in paragraph at lines 2338--2339
+Overfull \hbox (14.51219pt too wide) in paragraph at lines 2345--2346
 []\EU1/JannonTModernePro(0)/m/n/10.95 Para escritas não ocidentais também uti
 lizamos o pacote \EU1/Consolas(0)/m/n/10.95 fontspe\EU1/JannonTModernePro(0)/m/
 n/10.95 c e/ou o pacote \EU1/Consolas(0)/m/n/10.95 polyglossia 
@@ -4107,7 +4215,7 @@ lif-novoc;"
 . Arabic/BI/ICU:script=arab;language=DFLT;mapping=tex-text;mapping=arabtex-fdf2
 alif-novoc;"
 .................................................
-[64]
+[68]
 Missing character: There is no お in font Consolas/ICU:script=latn;language=DF
 LT;mapping=tex-text;!
 Missing character: There is no は in font Consolas/ICU:script=latn;language=DF
@@ -4130,7 +4238,7 @@ Missing character: There is no 세 in font Consolas/ICU:script=latn;language=DF
 LT;mapping=tex-text;!
 Missing character: There is no 요 in font Consolas/ICU:script=latn;language=DF
 LT;mapping=tex-text;!
-\g_fontspec_family_MS Mincho_int=\count431
+\g_fontspec_family_MS Mincho_int=\count447
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -4158,7 +4266,7 @@ LT;mapping=tex-text;!
 . * 'sl/' with NFSS spec.:
 . <->"MS Mincho/ICU:script=latn;language=DFLT;mapping=tex-text;"
 .................................................
-\g_fontspec_family_SimSun_int=\count432
+\g_fontspec_family_SimSun_int=\count448
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -4191,7 +4299,7 @@ LT;mapping=tex-text;!
 . 
 . Font Batang does not contain any OpenType `Script' information.
 .................................................
-\g_fontspec_family_Batang_int=\count433
+\g_fontspec_family_Batang_int=\count449
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -4219,7 +4327,7 @@ LT;mapping=tex-text;!
 . * 'sl/' with NFSS spec.:
 . <->"Batang/ICU:mapping=tex-text;"
 .................................................
- [65] [66]
+ [69] [70]
 \openout2 = `abntex2-latexintro.aux'.
 
  (./abntex2-latexintro.tex
@@ -4232,11 +4340,11 @@ onTModernePro(0)/m/n/10.95 e \EU1/Consolas(0)/m/n/10.95 abntex2-alf.sty\EU1/Jan
 nonTModernePro(0)/m/n/10.95 . 
  []
 
-[67
+[71
 
 
 
-] [68]
+] [72]
 Overfull \hbox (0.76003pt too wide) in paragraph at lines 164--164
 []\EU1/Consolas(0)/m/n/10.95 \preambulo{Modelo canônico de trabalho monográfi
 co acadêmico em conformidade com[] 
@@ -4249,103 +4357,103 @@ Overfull \hbox (52.78697pt too wide) in paragraph at lines 166--168
 *}\EU1/JannonTModernePro(0)/m/n/10.95 ): 
  []
 
-) [69] [70
+) [73] [74
 
 
 
 ]
 Capítulo 13.
 
-Overfull \hbox (38.05312pt too wide) in paragraph at lines 2446--2448
+Overfull \hbox (38.05312pt too wide) in paragraph at lines 2453--2455
 []\EU1/JannonTModernePro(0)/m/n/10.95 Para exemplos de como funciona a tipograf
 ia no L[]T[]X, ver: []$[][][][] [] [] [] [][][][][][] [] [][][] [] [][][][][][]
 [][][][][] []$
  []
 
-[71] [72
+[75] [76
 
 
-] [73] [74] [75
-
-
-] [76
-
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 2492--2492
-[]|[]\EU1/Consolas(0)/m/n/9 \begin{framed} Uma histó-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2493--2493
-[]|[]\EU1/Consolas(0)/m/n/9 \begin{shaded} Uma histó-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2494--2494
-[]|[]\EU1/Consolas(0)/m/n/9 \begin{snugshade} Uma histó-
- []
-
-
-Underfull \hbox (badness 2521) in paragraph at lines 2494--2494
-[]|\EU1/JannonTModernePro(0)/m/n/9 Texto com sombra de fundo mais
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2495--2495
-[]|[]\EU1/Consolas(0)/m/n/9 \fcolorbox{Magenta}{Gray}{Uma histó-
- []
-
-
-Underfull \hbox (badness 1515) in paragraph at lines 2495--2495
-[]|\EU1/JannonTModernePro(0)/m/n/9 Define a cor da borda e a cor do
- []
-
-
-Underfull \hbox (badness 1082) in paragraph at lines 2496--2496
-[]|\EU1/JannonTModernePro(0)/m/n/9 Um sombreado só do tamanho do
- []
-
-
-Overfull \hbox (82.9904pt too wide) in paragraph at lines 2490--2501
-[][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2490--2501
-
- []
-
-Package mdframed Info: mdframed works in twoside mode on input line 2515.
-
-Package mdframed Warning: You got a bad break
-(mdframed)                you have to change it manually
-(mdframed)                by changing the text, the space
-(mdframed)                or something else on input line 2518.
-
-[77] [78] [79
+] [77] [78] [79
 
 
 ] [80
 
 
-] [81] [82
+]
+Underfull \hbox (badness 10000) in paragraph at lines 2499--2499
+[]|[]\EU1/Consolas(0)/m/n/9 \begin{framed} Uma histó-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+[]|[]\EU1/Consolas(0)/m/n/9 \begin{shaded} Uma histó-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2501--2501
+[]|[]\EU1/Consolas(0)/m/n/9 \begin{snugshade} Uma histó-
+ []
+
+
+Underfull \hbox (badness 2521) in paragraph at lines 2501--2501
+[]|\EU1/JannonTModernePro(0)/m/n/9 Texto com sombra de fundo mais
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2502--2502
+[]|[]\EU1/Consolas(0)/m/n/9 \fcolorbox{Magenta}{Gray}{Uma histó-
+ []
+
+
+Underfull \hbox (badness 1515) in paragraph at lines 2502--2502
+[]|\EU1/JannonTModernePro(0)/m/n/9 Define a cor da borda e a cor do
+ []
+
+
+Underfull \hbox (badness 1082) in paragraph at lines 2503--2503
+[]|\EU1/JannonTModernePro(0)/m/n/9 Um sombreado só do tamanho do
+ []
+
+
+Overfull \hbox (82.9904pt too wide) in paragraph at lines 2497--2508
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2497--2508
+
+ []
+
+Package mdframed Info: mdframed works in twoside mode on input line 2522.
+
+Package mdframed Warning: You got a bad break
+(mdframed)                you have to change it manually
+(mdframed)                by changing the text, the space
+(mdframed)                or something else on input line 2525.
+
+[81] [82] [83
+
+
+] [84
+
+
+] [85] [86
 
 
 ]
 
 Package biblatex Warning: Bibliography string 'volumeof' undefined
-(biblatex)                at entry 'kant:ku' on input line 2664.
+(biblatex)                at entry 'kant:ku' on input line 2671.
 
 
 Package biblatex Warning: Bibliography string 'volumeof' undefined
-(biblatex)                at entry 'kant:kpv' on input line 2664.
+(biblatex)                at entry 'kant:kpv' on input line 2671.
 
-[83] [84
+[87] [88
 
 
 ]
-Overfull \hbox (6.25449pt too wide) in paragraph at lines 2669--2669
+Overfull \hbox (6.25449pt too wide) in paragraph at lines 2676--2676
 []\EU1/JannonTModernePro(0)/m/n/10.95 Bringhurst, Robert. \EU1/JannonTModernePr
 o(0)/m/it/10.95 The Elements of Typographic Style: Version 4.0: 20th Anniversar
 y Edition\EU1/JannonTModernePro(0)/m/n/10.95 . Fourth
@@ -4353,39 +4461,39 @@ y Edition\EU1/JannonTModernePro(0)/m/n/10.95 . Fourth
 
 
 Package biblatex Warning: Bibliography string 'volumeof' undefined
-(biblatex)                at entry 'kant:kpv' on input line 2668.
+(biblatex)                at entry 'kant:kpv' on input line 2675.
 
 
 Package biblatex Warning: Bibliography string 'volumeof' undefined
-(biblatex)                at entry 'kant:ku' on input line 2668.
+(biblatex)                at entry 'kant:ku' on input line 2675.
 
-[85] [86
+[89] [90
 
 
 ]
 LaTeX Font Info:    Font shape `U/ccicons/m/n' will be
-(Font)              scaled to size 9.0pt on input line 2679.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2684.
- [87
+(Font)              scaled to size 9.0pt on input line 2686.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2691.
+ [91
 
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 2684.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 2691.
  (./introducaolatex-final.aux (./texto-bibliografia.aux)
-(./biblatex.aux) (./abntex2-latexintro.aux))
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 2684.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 2684.
+(./biblatex.aux) (./parallel.aux) (./lineno.aux) (./abntex2-latexintro.aux))
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 2691.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 2691.
 Package logreq Info: Writing requests to 'introducaolatex-final.run.xml'.
 \openout1 = `introducaolatex-final.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 34984 strings out of 494004
- 673491 string characters out of 3153866
- 1049084 words of memory out of 3000000
- 37459 multiletter control sequences out of 15000+200000
- 22516 words of font info for 229 fonts, out of 3000000 for 9000
+ 35272 strings out of 494004
+ 678010 string characters out of 3153866
+ 1060479 words of memory out of 3000000
+ 37727 multiletter control sequences out of 15000+200000
+ 22524 words of font info for 230 fonts, out of 3000000 for 9000
  1144 hyphenation exceptions out of 8191
- 48i,19n,59p,1257b,1431s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 48i,19n,59p,1261b,1433s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on introducaolatex-final.pdf (101 pages).
+Output written on introducaolatex-final.pdf (105 pages).

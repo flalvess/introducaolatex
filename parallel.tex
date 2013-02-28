@@ -1,0 +1,98 @@
+\section{Textos em paralelo}
+\label{paralelo}
+
+Às vezes é útil ter dois textos lado a lado, especialmente no caso de traduções ou comparações.
+O pacote \texttt{parallel} faz isso por você.
+Seu uso é bem simples:
+
+\begin{verbatim}
+\usepackage{parallel}
+...
+\begin{Parallel}{largura da coluna esquerda}{largura da coluna direita}
+\ParallelLText{texto da esquerda}
+\ParallelRText{texto da direita}
+\end{Parallel}
+\end{verbatim}
+
+Gerando duas colunas paralelas, com notas no final do ambiente \texttt{Paralell}.
+
+Ou, para mais de um parágrafo, e com mais opções:
+
+\begin{verbatim}
+\usepackage[<package_options>]{parallel}
+...
+\begin{Parallel}[<environment_options>]{<left-width>}{<right-width>}
+\ParallelLText{<left-text>}
+\ParallelRText{<right-text>}
+\ParallelPar
+\ParallelLText{<left-text>}
+...
+\renewcommand{\ParallelAtEnd}{<text>}
+\end{Parallel}
+\end{verbatim}
+
+\verb+\ParallelPar+ termina um parágrafo e começa outro, de modo que os parágrafos das duas colunas fiquem alinhados.
+Com \verb+\renewcommand{\ParallelAtEnd}{<text>}+, você pode colocar texto entre as colunas paralelas e as notas de rodapé. 
+
+\medskip
+
+As opções do \textit{pacote} (\textsf{package\_options} acima) são:
+
+\begin{description}
+\item[OldStyleNums] para números em estilo antigo;
+\item[RaiseNums] para números como \verb+\footnote+;
+\item[ItalicNums] para números de rodapé em itálico;
+\item[RomanNums] para números em algarismos romanos;
+\item[SeparatedFootnotes] para notas separadas por colunas.
+\end{description}
+
+\medskip
+
+As opções do ambiente (\textsf{environment\_options} acima) são:
+
+\begin{description}
+\item[c] -- padrão, texto em colunas; \item[v] -- linha vertical entre as colunas; \item[p] -- imprime em duas páginas
+\end{description}
+
+\bigskip
+
+\begin{Parallel}[c]{0.5\textwidth}{0.5\textwidth}
+\ParallelLText{%
+{\centering \bfseries PASADO EN CLARO}\\
+
+\medskip
+\noindent
+Oídos con el alma\\
+pasos mentales mas que sombras,\\
+sombras del pensamiento más que pasos,\\
+por el camino de ecos\\
+que la memoria inventa y borra:\\
+sin caminar caminan\\
+sobre este ahora, puente\\
+tendido entre una letra y otra.\\
+Como llovizna sobre brasas\\
+dentro de mí los pasos pasan\\
+hacia lugares que se vuelven aire.\\
+}
+\ParallelRText{%
+{\centering \bfseries A DRAFT OF SHADOWS}\\
+
+\medskip
+\noindent
+Heard by the soul, footsteps\\
+in the mind more than shadows,\\
+shadows of thought more than footsteps\\
+through the path of echoes\\
+that memory invents and erases:\\
+without walking they walk\\
+over this present, bridge\\
+slung from one letter to the next.\\
+Like drizzle on embers,\\
+footsteps within me step\\
+toward places that turn to air.\\
+}
+\renewcommand{\ParallelAtEnd}{\hfill\textit{Octavio Paz}
+}
+
+\end{Parallel}
+
