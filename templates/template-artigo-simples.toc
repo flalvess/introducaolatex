@@ -1,0 +1,6 @@
+\select@language {brazil}
+\contentsline {section}{\numberline {1}Coloque o título da seção}{1}{section.1}
+\contentsline {section}{\numberline {2}Coloque o título da seção}{2}{section.2}
+\contentsline {subsection}{\numberline {2.1}Subseção}{3}{subsection.2.1}
+\contentsline {section}{\numberline {3}Coloque o título da seção}{4}{section.3}
+\contentsline {section}{Bibliografia}{4}{section*.3}
