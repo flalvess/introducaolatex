@@ -4,6 +4,8 @@ The top-level auxiliary file: introducaolatex-final.aux
 The style file: biblatex.bst
 A level-1 auxiliary file: texto-bibliografia.aux
 A level-1 auxiliary file: biblatex.aux
+A level-1 auxiliary file: parallel.aux
+A level-1 auxiliary file: lineno.aux
 A level-1 auxiliary file: abntex2-latexintro.aux
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -23,7 +25,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 You've used 13 entries,
             6019 wiz_defined-function locations,
-            1204 strings with 10486 characters,
+            1206 strings with 10508 characters,
 and the built_in function-call counts, 54590 in all, are:
 = -- 2254
 > -- 3347

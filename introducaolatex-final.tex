@@ -90,7 +90,7 @@
 
 \usepackage[style=historian,citestyle=authoryear,natbib=true,doi=false,backend=bibtex]{biblatex}
 \usepackage{csquotes}
-\DefineBibliographyStrings{brazil}{namedash={---------}}
+\DefineBibliographyStrings{brazil}{namedash={---------},volumeof={de}} %para partes de livros de muitos volumes "Vol. 5 de" etc.
 \addbibresource{latex}
 
 
@@ -2550,122 +2550,122 @@ Se você quiser usar um estilo parecido com o dos livros de E. Tufte, as classes
 \end{verbatim}
 
 
-%\chapter{Um sumário diferente}
-%O código abaixo gera um sumário mais elaborado, com cores e números de página diferenciados. 
-%
-%\begin{verbatim}
-%\documentclass{book}
-%\usepackage{xcolor}
-%\usepackage{framed}
-%\usepackage{tikz}
-%\usepackage{titletoc}
-%\usepackage{etoolbox}
-%\usepackage{polyglossia}
-%\setmainlanguage{brazil}
-%\usepackage{fontspec}
-%\defaultfontfeatures{Ligatures={TeX}}
-%\setmainfont{New Caledonia LT Std}
-%\setsansfont{New Caledonia LT Std}
-%\setmonofont[Scale=MatchLowercase]{Menlo}
-%%\usepackage[bookmarks]{hyperref}
-%
-%% definition of some personal colors
-%\definecolor{myred}{RGB}{127,0,0}
-%\definecolor{myyellow}{RGB}{169,121,69}
-%
-%% command for the circle for the number of part entries
-%\newcommand\Circle[1]{\tikz[overlay,remember picture] 
-%  \node[draw,circle, text width=18pt,line width=1pt] {#1};}
-%
-%% patching of \tableofcontents to use sans serif font for the tile
-%\patchcmd{\tableofcontents}{\contentsname}{\sffamily\contentsname}{}{}
-%% patching of \@part to typeset the part number inside a framed box in its own line
-%% and to add color
-%\makeatletter
+\chapter{Um sumário diferente}
+O código abaixo gera um sumário mais elaborado, com cores e números de página diferenciados. 
+
+\begin{verbatim}
+\documentclass{book}
+\usepackage{xcolor}
+\usepackage{framed}
+\usepackage{tikz}
+\usepackage{titletoc}
+\usepackage{etoolbox}
+\usepackage{polyglossia}
+\setmainlanguage{brazil}
+\usepackage{fontspec}
+\defaultfontfeatures{Ligatures={TeX}}
+\setmainfont{New Caledonia LT Std}
+\setsansfont{New Caledonia LT Std}
+\setmonofont[Scale=MatchLowercase]{Menlo}
+%\usepackage[bookmarks]{hyperref}
+
+% definition of some personal colors
+\definecolor{myred}{RGB}{127,0,0}
+\definecolor{myyellow}{RGB}{169,121,69}
+
+% command for the circle for the number of part entries
+\newcommand\Circle[1]{\tikz[overlay,remember picture] 
+  \node[draw,circle, text width=18pt,line width=1pt] {#1};}
+
+% patching of \tableofcontents to use sans serif font for the tile
+\patchcmd{\tableofcontents}{\contentsname}{\sffamily\contentsname}{}{}
+% patching of \@part to typeset the part number inside a framed box in its own line
+% and to add color
+\makeatletter
+\patchcmd{\@part}
+  {\addcontentsline{toc}{part}{\thepart\hspace{1em}#1}}
+  {\addtocontents{toc}{\protect\addvspace{20pt}}
+    \addcontentsline{toc}{part}{\huge{\protect\color{myyellow}%
+      \setlength\fboxrule{2pt}\protect\Circle{%
+        \hfil\thepart\hfil%
+      }%
+    }\\[2ex]\color{myred}\sffamily#1}}{}{}
+
 %\patchcmd{\@part}
 %  {\addcontentsline{toc}{part}{\thepart\hspace{1em}#1}}
 %  {\addtocontents{toc}{\protect\addvspace{20pt}}
 %    \addcontentsline{toc}{part}{\huge{\protect\color{myyellow}%
-%      \setlength\fboxrule{2pt}\protect\Circle{%
+%      \setlength\fboxrule{2pt}\protect\fbox{\protect\parbox[c][1em][c]{1.5em}{%
 %        \hfil\thepart\hfil%
-%      }%
+%      }}%
 %    }\\[2ex]\color{myred}\sffamily#1}}{}{}
-%
-%%\patchcmd{\@part}
-%%  {\addcontentsline{toc}{part}{\thepart\hspace{1em}#1}}
-%%  {\addtocontents{toc}{\protect\addvspace{20pt}}
-%%    \addcontentsline{toc}{part}{\huge{\protect\color{myyellow}%
-%%      \setlength\fboxrule{2pt}\protect\fbox{\protect\parbox[c][1em][c]{1.5em}{%
-%%        \hfil\thepart\hfil%
-%%      }}%
-%%    }\\[2ex]\color{myred}\sffamily#1}}{}{}
-%\makeatother
-%
-%% this is the environment used to typeset the chapter entries in the ToC
-%% it is a modification of the leftbar environment of the framed package
-%\renewenvironment{leftbar}
-%  {\def\FrameCommand{\hspace{6em}%
-%    {\color{myyellow}\vrule width 2pt depth 6pt}\hspace{1em}}%
-%    \MakeFramed{\parshape 1 0cm \dimexpr\textwidth-6em\relax\FrameRestore}\vskip2pt%
-%  }
-% {\endMakeFramed}
-%
-%% using titletoc we redefine the ToC entries for parts, chapters, sections, and subsections
-%\titlecontents{part}
-%  [0em]{\centering}
-%  {\contentslabel}
-%  {}{}
-%\titlecontents{chapter}
-%  [0em]{\vspace*{2\baselineskip}}
-%  {\parbox{4.5em}{%
-%    \hfill\Huge\sffamily\bfseries\color{myred}\thecontentspage}%
-%   \vspace*{-2.3\baselineskip}\leftbar\textsc{\small\chaptername~\thecontentslabel}\\\sffamily}
-%  {}{\endleftbar}
-%\titlecontents{section}
-%  [8.4em]
-%  {\sffamily\contentslabel{3em}}{}{}
-%  {\hspace{0.5em}\nobreak\itshape\color{myred}\contentspage}
-%\titlecontents{subsection}
-%  [8.4em]
-%  {\sffamily\contentslabel{3em}}{}{}  
-%  {\hspace{0.5em}\nobreak\itshape\color{myred}\contentspage}
-%
-%
-%\begin{document}
-%
-%\tableofcontents
-%
-%\part{Designing with \LaTeX}
-%
-%\chapter{Beginning to learn design with \LaTeX}
-%\section{This is a test section}
-%\subsection{Long subsection title and some other text to span more than one line}
-%
-%\newpage\setcounter{page}{123}% just for the example
-%
-%\part{Designing with HTML}
-%
-%\chapter{Beginning to learn design with HTML and some other text to span more than one line in the ToC}
-%\section{This is a test section}
-%\subsection{Long subsection title and some other text to span more than one line}
-%
-%\end{document}
-%
-%\end{verbatim}
-%
-%
-%O código acima resulta na figura \ref{exemplo-sumario}.
-%
-%\begin{figure}
-%\centering
-%\includegraphics[width=0.8\textwidth]{sumario}
-%\caption{Um exemplo de sumário}
-%\label{exemplo-sumario}
-%\end{figure}
-%
-%
-%Naturalmente, também é possível mudar as cores no código.
-%Os exemplos foram retirados de: \url{http://tex.stackexchange.com/questions/35825/pretty-table-of-contents} e modificados.
+\makeatother
+
+% this is the environment used to typeset the chapter entries in the ToC
+% it is a modification of the leftbar environment of the framed package
+\renewenvironment{leftbar}
+  {\def\FrameCommand{\hspace{6em}%
+    {\color{myyellow}\vrule width 2pt depth 6pt}\hspace{1em}}%
+    \MakeFramed{\parshape 1 0cm \dimexpr\textwidth-6em\relax\FrameRestore}\vskip2pt%
+  }
+ {\endMakeFramed}
+
+% using titletoc we redefine the ToC entries for parts, chapters, sections, and subsections
+\titlecontents{part}
+  [0em]{\centering}
+  {\contentslabel}
+  {}{}
+\titlecontents{chapter}
+  [0em]{\vspace*{2\baselineskip}}
+  {\parbox{4.5em}{%
+    \hfill\Huge\sffamily\bfseries\color{myred}\thecontentspage}%
+   \vspace*{-2.3\baselineskip}\leftbar\textsc{\small\chaptername~\thecontentslabel}\\\sffamily}
+  {}{\endleftbar}
+\titlecontents{section}
+  [8.4em]
+  {\sffamily\contentslabel{3em}}{}{}
+  {\hspace{0.5em}\nobreak\itshape\color{myred}\contentspage}
+\titlecontents{subsection}
+  [8.4em]
+  {\sffamily\contentslabel{3em}}{}{}  
+  {\hspace{0.5em}\nobreak\itshape\color{myred}\contentspage}
+
+
+\begin{document}
+
+\tableofcontents
+
+\part{Designing with \LaTeX}
+
+\chapter{Beginning to learn design with \LaTeX}
+\section{This is a test section}
+\subsection{Long subsection title and some other text to span more than one line}
+
+\newpage\setcounter{page}{123}% just for the example
+
+\part{Designing with HTML}
+
+\chapter{Beginning to learn design with HTML and some other text to span more than one line in the ToC}
+\section{This is a test section}
+\subsection{Long subsection title and some other text to span more than one line}
+
+\end{document}
+
+\end{verbatim}
+
+
+O código acima resulta na figura \ref{exemplo-sumario}.
+
+\begin{figure}
+\centering
+\includegraphics[height=0.6\textheight]{sumario}
+\caption{Um exemplo de sumário}
+\label{exemplo-sumario}
+\end{figure}
+
+
+Naturalmente, também é possível mudar as cores no código.
+Os exemplos foram retirados de: \url{http://tex.stackexchange.com/questions/35825/pretty-table-of-contents} e modificados.
 
 
 \printshorthands
