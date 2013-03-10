@@ -60,107 +60,107 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {\relax 4.5}Como utilizar um arquivo \texttt {.bib} em seu documento \LaTeX }{23}{section.4.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {\relax 4.6}Utilizando o pacote \texttt {biblatex}}{26}{section.4.6}
+\contentsline {section}{\numberline {\relax 4.6}Utilizando o pacote \texttt {biblatex}}{27}{section.4.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {\relax 4.6.1}Citações utilizando \texttt {biblatex}}{27}{subsection.4.6.1}
+\contentsline {subsection}{\numberline {\relax 4.6.1}Citações utilizando \texttt {biblatex}}{28}{subsection.4.6.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Tabelas}{29}{chapter.5}
+\contentsline {chapter}{\numberline {5}Tabelas}{31}{chapter.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {\relax 5.1}Tabelas longas}{29}{section.5.1}
+\contentsline {section}{\numberline {\relax 5.1}Tabelas longas}{31}{section.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Formatação}{33}{chapter.6}
+\contentsline {chapter}{\numberline {6}Formatação}{35}{chapter.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {\relax 6.1}Listas}{33}{section.6.1}
+\contentsline {section}{\numberline {\relax 6.1}Listas}{35}{section.6.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {\relax 6.1.1}Itemizar}{33}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {\relax 6.1.1}Itemizar}{35}{subsection.6.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {\relax 6.1.2}Enumeração}{34}{subsection.6.1.2}
+\contentsline {subsection}{\numberline {\relax 6.1.2}Enumeração}{36}{subsection.6.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {\relax 6.1.3}Descrição}{34}{subsection.6.1.3}
+\contentsline {subsection}{\numberline {\relax 6.1.3}Descrição}{36}{subsection.6.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {\relax 6.1.4}Listas aninhadas (listas dentro de listas)}{34}{subsection.6.1.4}
+\contentsline {subsection}{\numberline {\relax 6.1.4}Listas aninhadas (listas dentro de listas)}{36}{subsection.6.1.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {\relax 6.1.5}Listas em múltiplas colunas}{35}{subsection.6.1.5}
+\contentsline {subsection}{\numberline {\relax 6.1.5}Listas em múltiplas colunas}{37}{subsection.6.1.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {\relax 6.2}Textos em paralelo}{37}{section.6.2}
+\contentsline {section}{\numberline {\relax 6.2}Textos em paralelo}{39}{section.6.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {\relax 6.3}Números de linha}{39}{section.6.3}
+\contentsline {section}{\numberline {\relax 6.3}Números de linha}{41}{section.6.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {\relax 6.4}Hifenização}{40}{section.6.4}
+\contentsline {section}{\numberline {\relax 6.4}Hifenização}{42}{section.6.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {\relax 6.5}Aspas}{40}{section.6.5}
+\contentsline {section}{\numberline {\relax 6.5}Aspas}{42}{section.6.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {\relax 6.6}Travessão, hífen, meia-risca}{41}{section.6.6}
+\contentsline {section}{\numberline {\relax 6.6}Travessão, hífen, meia-risca}{43}{section.6.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {\relax 6.7}Espaço entre palavras e frases}{41}{section.6.7}
+\contentsline {section}{\numberline {\relax 6.7}Espaço entre palavras e frases}{43}{section.6.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {\relax 6.8}Enfatizando texto}{41}{section.6.8}
+\contentsline {section}{\numberline {\relax 6.8}Enfatizando texto}{43}{section.6.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {\relax 6.9}Estilos de fonte}{41}{section.6.9}
+\contentsline {section}{\numberline {\relax 6.9}Estilos de fonte}{43}{section.6.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {\relax 6.10}Tamanho de fonte}{42}{section.6.10}
+\contentsline {section}{\numberline {\relax 6.10}Tamanho de fonte}{44}{section.6.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {\relax 6.11}Sobrescrito e subscrito}{42}{section.6.11}
+\contentsline {section}{\numberline {\relax 6.11}Sobrescrito e subscrito}{44}{section.6.11}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {\relax 6.12}Símbolos}{43}{section.6.12}
+\contentsline {section}{\numberline {\relax 6.12}Símbolos}{45}{section.6.12}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {\relax 6.13}Formatação de parágrafos}{43}{section.6.13}
+\contentsline {section}{\numberline {\relax 6.13}Formatação de parágrafos}{45}{section.6.13}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {\relax 6.14}Inserção de hiperlinks}{46}{section.6.14}
+\contentsline {section}{\numberline {\relax 6.14}Inserção de hiperlinks}{48}{section.6.14}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {\relax 6.15}Citando textos}{47}{section.6.15}
+\contentsline {section}{\numberline {\relax 6.15}Citando textos}{49}{section.6.15}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {\relax 6.16}Notas de rodapé}{47}{section.6.16}
+\contentsline {section}{\numberline {\relax 6.16}Notas de rodapé}{49}{section.6.16}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {\relax 6.17}Notas no final do texto}{48}{section.6.17}
+\contentsline {section}{\numberline {\relax 6.17}Notas no final do texto}{50}{section.6.17}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {\relax 6.18}Notas no final do capítulo}{48}{section.6.18}
+\contentsline {section}{\numberline {\relax 6.18}Notas no final do capítulo}{50}{section.6.18}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {\relax 6.19}Cabeçalhos}{49}{section.6.19}
+\contentsline {section}{\numberline {\relax 6.19}Cabeçalhos}{51}{section.6.19}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {\relax 6.20}Modo matemático}{49}{section.6.20}
+\contentsline {section}{\numberline {\relax 6.20}Modo matemático}{51}{section.6.20}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Figuras}{51}{chapter.7}
+\contentsline {chapter}{\numberline {7}Figuras}{53}{chapter.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {\relax 7.1}Incluindo imagens}{51}{section.7.1}
+\contentsline {section}{\numberline {\relax 7.1}Incluindo imagens}{53}{section.7.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {\relax 7.2}Onde guardar as imagens do seu texto}{51}{section.7.2}
+\contentsline {section}{\numberline {\relax 7.2}Onde guardar as imagens do seu texto}{53}{section.7.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {\relax 7.3}Exemplos}{53}{section.7.3}
+\contentsline {section}{\numberline {\relax 7.3}Exemplos}{55}{section.7.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {\relax 7.4}Imagens como figuras}{55}{section.7.4}
+\contentsline {section}{\numberline {\relax 7.4}Imagens como figuras}{57}{section.7.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {\relax 7.5}Rótulos ao lado da figura (side captions)}{55}{section.7.5}
+\contentsline {section}{\numberline {\relax 7.5}Rótulos ao lado da figura (side captions)}{57}{section.7.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {\relax 7.6}Figuras dentro de figuras (subfloats)}{56}{section.7.6}
+\contentsline {section}{\numberline {\relax 7.6}Figuras dentro de figuras (subfloats)}{58}{section.7.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {\relax 7.7}Figuras lado-a-lado}{57}{section.7.7}
+\contentsline {section}{\numberline {\relax 7.7}Figuras lado-a-lado}{59}{section.7.7}
 \defcounter {refsection}{0}\relax 
 \select@language {english}
 \defcounter {refsection}{0}\relax 
 \select@language {brazil}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {\relax 7.8}Figuras com o tamanho da página em textos de duas colunas}{58}{section.7.8}
+\contentsline {section}{\numberline {\relax 7.8}Figuras com o tamanho da página em textos de duas colunas}{60}{section.7.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}Referências}{59}{chapter.8}
+\contentsline {chapter}{\numberline {8}Referências}{61}{chapter.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {\relax 8.1}Referências cruzadas}{59}{section.8.1}
+\contentsline {section}{\numberline {\relax 8.1}Referências cruzadas}{61}{section.8.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {\relax 8.2}Hyperlinks}{59}{section.8.2}
+\contentsline {section}{\numberline {\relax 8.2}Hyperlinks}{61}{section.8.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {9}Cores}{61}{chapter.9}
+\contentsline {chapter}{\numberline {9}Cores}{63}{chapter.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {10}Fontes}{63}{chapter.10}
+\contentsline {chapter}{\numberline {10}Fontes}{65}{chapter.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {\relax 10.1}O pacote \texttt {fontspec}}{63}{section.10.1}
+\contentsline {section}{\numberline {\relax 10.1}O pacote \texttt {fontspec}}{65}{section.10.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {\relax 10.2}Fontes gratuitas de qualidade}{64}{section.10.2}
+\contentsline {section}{\numberline {\relax 10.2}Fontes gratuitas de qualidade}{66}{section.10.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {\relax 10.3}Opções avançadas do pacote \texttt {fontspec}}{64}{section.10.3}
+\contentsline {section}{\numberline {\relax 10.3}Opções avançadas do pacote \texttt {fontspec}}{66}{section.10.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {11}Idiomas}{67}{chapter.11}
+\contentsline {chapter}{\numberline {11}Idiomas}{69}{chapter.11}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {\relax 11.1}Alfabetos não latinos e escritas não ocidentais}{68}{section.11.1}
+\contentsline {section}{\numberline {\relax 11.1}Alfabetos não latinos e escritas não ocidentais}{70}{section.11.1}
 \defcounter {refsection}{0}\relax 
 \select@language {russian}
 \defcounter {refsection}{0}\relax 
@@ -174,12 +174,12 @@
 \defcounter {refsection}{0}\relax 
 \select@language {brazil}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {12}Documentos técnicos e científicos brasileiros com abnTeX2}{71}{chapter.12}
+\contentsline {chapter}{\numberline {12}Documentos técnicos e científicos brasileiros com abnTeX2}{73}{chapter.12}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {\relax 12.1}Macros de dados do trabalho}{72}{section.12.1}
+\contentsline {section}{\numberline {\relax 12.1}Macros de dados do trabalho}{74}{section.12.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {13}Outros recursos}{75}{chapter.13}
+\contentsline {chapter}{\numberline {13}Outros recursos}{77}{chapter.13}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{Apêndices}{77}{section*.11}
+\contentsline {part}{Apêndices}{79}{section*.11}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {14}Um sumário diferente}{87}{chapter.14}
+\contentsline {chapter}{\numberline {14}Um sumário diferente}{89}{chapter.14}

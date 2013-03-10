@@ -91,6 +91,10 @@
 \usepackage[style=historian,citestyle=authoryear,natbib=true,doi=false,backend=bibtex]{biblatex}
 \usepackage{csquotes}
 \DefineBibliographyStrings{brazil}{namedash={---------},volumeof={de}} %para partes de livros de muitos volumes "Vol. 5 de" etc.
+%\DefineBibliographyStrings{english}{%
+%backrefpage={cited on p\adddot},
+%backrefpages={cited on pp\adddot}
+%} % se opção do biblatex for backref=true, e a língua do documento
 \addbibresource{latex}
 
 
@@ -182,7 +186,7 @@ Essa abordagem tem algumas desvantagens em comparação com programas visuais co
 
 Devemos ser muito claros: você usa o processador de texto que quiser. Se quiser escrever seus textos e entregá-los com o Word, ou OpenOffice, ou Pages da Apple, ou o InDesign, da Adobe. para o conteúdo do seu texto isso vai fazer pouca diferença. Mas se você quer uma aparência profissional, usa muitas figuras ou fórmulas matemáticas, está escrevendo uma tese um ou texto técnico ou acadêmico, o resultado final, com o mesmo nível de esforço, vai ser muito diferente. No começo o \LaTeX{} parece muito difícil, mas facilita e automatiza muito tarefas complexas, e a maioria dos comandos é bem intuitiva. Na verdade, ele não passa de um conjunto de macros para geração de texto. E, uma vez que você personaliza um modelo, você simplesmente ``joga" qualquer texto nele que ele sai com a aparência desejada. Com os outros programas, acontece o oposto: você tem mais liberdade, deve saber muito bem o que está fazendo. O \LaTeX{}, na verdade, faz o trabalho do diagramador ou designer gráfico para você.
 
-Na verdade o processo de trabalho (\textit{workflow}) é diferente em processadores de texto (Word e similares), ferramentas de publicação (Desktop Publishing) como InDesign, e um programa de diagramação como \LaTeX. Enquanto que nos dois primeiros a abordagem é \textit{visual}, e os comandos são feitos através de \textit{menus}, no \LaTeX{} a abordagem é \textit{textual}. (Existem, na verdade, \textit{editores de texto} para \LaTeX{} com menus (ver seção \ref{editor-de-textos}), mas o que esses menus fazem é auxiliar na inserção de comandos: um arquivo \texttt{.tex} é, na verdade, um arquivo de texto simples, com \textit{marcações lógicas}. A formatação só aparece no arquivo final (\texttt{pdf}), pronto para impressão.)
+Na verdade o processo de trabalho (\textit{workflow}) é diferente em processadores de texto (Word e similares), ferramentas de publicação (Desktop Publishing) como InDesign, e um programa de diagramação como \LaTeX. Enquanto que nos dois primeiros a abordagem é \textit{visual}, e os comandos são feitos através de \textit{menus}, no \LaTeX{} a abordagem é \textit{textual}. (Existem, na verdade, \textit{editores de texto} para \LaTeX{} com menus (ver seção \ref{editor-de-textos}), mas o que esses menus fazem é auxiliar na inserção de comandos: um arquivo \texttt{.tex} é, na verdade, um arquivo de texto simples, com \textit{marcações lógicas}. A formatação só aparece no arquivo final (\texttt{pdf}), pronto para impressão).
 
 Contudo, você não precisa, necessariamente, usar esta ferramenta. Devo deixar claro que, \textit{no Brasil}, praticamente nenhuma publicação aceita esse formato. Mas temos que salientar que o resultado é profissional, para impressão: compare um livro bem produzido e um artigo acadêmico pobremente formatado no Word: o \LaTeX{} é a maneira mais fácil e barata de produzir textos que mais se aproximam de revistas e livros compostos com um profissional (muito bem) pago para cuidar da aparência do seu material. 
 
@@ -230,7 +234,7 @@ Bom gosto e tipografia perfeita são suprapessoais. [\ldots]
 Numa obra-prima tipográfica, a assinatura do artista é eliminada. O que alguns podem elogiar como estilos pessoais são, na realidade, pequenas e vazias peculiaridades, frequentemente danosas, que se disfarçam de inovações. [\ldots] Tipografia pessoal é tipografia deficiente. Só iniciantes e bobos insistirão em usá-la \parencite[p. 25--26]{tschichold2007forma}.
 \end{quote}
 
-Isso não quer dizer, obviamente, que qualquer coisa produzida em \LaTeX{} terá uma boa aparência. Quanto mais modificações forem feitas, maior será a probabilidade de erro -- e inversamente, se o autor utilizar as principais classes do \LaTeX{} e não mudar muita coisa, maior será a probabilidade de produzir um documento elegante. A tipografia, como descendente da caligrafia, valoriza a precisão, a proporção e a elegância. Ao produzir seus primeiros livros, Gutenberg procurou imitar os manuscritos medievais, tanto na composição dos tipos (\textit{textura quadrata}) quanto no layout da página (figs. \ref{fig:biblia-gutenberg}). 
+Isso não quer dizer, obviamente, que qualquer coisa produzida em \LaTeX{} terá uma boa aparência. Quanto mais modificações forem feitas, maior será a probabilidade de erro -- e inversamente, se o autor utilizar as principais classes do \LaTeX{} e não mudar muita coisa, maior será a probabilidade de produzir um documento elegante. A tipografia, como descendente da caligrafia, valoriza a precisão, a proporção e a elegância. Ao produzir seus primeiros livros, Gutenberg procurou imitar os manuscritos medievais, tanto na composição dos tipos (\textit{textura quadrata}) quanto no layout da página (fig. \ref{fig:biblia-gutenberg}). 
 
 %\begin{figure}
 %\begin{minipage}{0.5\linewidth}
@@ -544,7 +548,7 @@ O \textit{preâmbulo} é tudo entre o começo do arquivo-fonte até \verb+\begin
 \end{verbatim}
 
 A primeira linha, iniciada com \%, é um comentário (não vai aparecer no texto final). O comando \verb+\documentclass+ indica o tipo de documento que queremos produzir.
-O pacote \texttt{babel} serve para indicar as línguas usadas (no caso, \texttt{brazil} = português do Brasil).  \verb+\usepackage[utf8]{inputenc}+ indica uso de caracteres acentuados diretamente e \verb+\usepackage{mathptmx}+ indica o uso da fonte Times ao invés da fonte padrão do \LaTeX, que é a Computer Modern (trataremos as fontes na seção \ref{fontes} mais adiante).
+O pacote \texttt{babel} serve para indicar as línguas usadas (no caso, \texttt{brazil} = português do Brasil).  \verb+\usepackage[utf8]{inputenc}+ indica uso de caracteres acentuados diretamente e \newline \verb+\usepackage{mathptmx}+ indica o uso da fonte Times ao invés da fonte padrão do \LaTeX, que é a Computer Modern (trataremos as fontes na seção \ref{fontes} mais adiante).
 
 Todos os ``pacotes'' que serão tratados daqui em diante, devem ser inseridos no preâmbulo (isto é, antes de \verb+\begin{document}+). Assim, para usar o pacote \texttt{enumitem} (ver página \pageref{enumitem}), devemos inserir no preâmbulo: \verb+\usepackage{enumitem}+.
 
@@ -1407,10 +1411,14 @@ Vão suprir muitas de suas necessidades (tabela \ref{simbolos}).
 
 
 \begin{table}
-\caption{Cruzes do pacote \texttt{bbding} \label{tab:bbding-cruzes}}
-\begin{tabular}{lllll}
-\Cross{}\verb+\Cross+& \CrossOpenShadow{} \verb+\CrossOpenShadow+ & \PlusOutline{} \verb+\PlusOutline+ & \CrossBoldOutline{}  \verb+\CrossBoldOutline+ & \CrossOutline{} \verb+\CrossOutline+\\
-\PlusThinCenterOpen{} \verb+\PlusThinCenterOpen+ & \CrossClowerTips{} \verb+\CrossClowerTips+ & \Plus{} \verb+\Plus+ & \CrossMaltese{} \verb+\CrossMaltese+ & \PlusCenterOpen{} \verb+\PlusCenterOpen+\\
+\caption{Cruzes do pacote \texttt{bbding} 
+\label{tab:bbding-cruzes}}
+\begin{tabular}{lll}
+\toprule
+\Cross{}\verb+\Cross+& \CrossOpenShadow{} \verb+\CrossOpenShadow+ & \PlusOutline{} \verb+\PlusOutline+ \\ \CrossBoldOutline{}  \verb+\CrossBoldOutline+ & \CrossOutline{} \verb+\CrossOutline+& \PlusThinCenterOpen{} \verb+\PlusThinCenterOpen+ \\ 
+\CrossClowerTips{} \verb+\CrossClowerTips+ & \Plus{} \verb+\Plus+ & \CrossMaltese{} \verb+\CrossMaltese+ \\ 
+\PlusCenterOpen{} \verb+\PlusCenterOpen+\\
+\bottomrule
 \end{tabular}
 \end{table}
 
@@ -1567,7 +1575,8 @@ São inseridas com o comando: \verb+\footnote{...}+. A formatação das notas de
 \end{verbatim}
 
 \begin{verbatim}
-\usepackage[marginal]{footmisc} % opção "marginal" coloca os números da nota de rodapé para fora da margem, à la Bringhurst
+\usepackage[marginal]{footmisc} % opção "marginal" coloca os números da nota de 
+rodapé para fora da margem, à la Bringhurst
 \end{verbatim}
 
 No caso de layouts e páginas não ``convencionais", o usuário pode querer modificar o tamanho do bloco de texto, da margem e do espaço entre notas de margem e texto:
@@ -1616,7 +1625,7 @@ Podem ser implementadas com o pacote \texttt{endnotes}:
 Testing.\endnote{First test.}
 \theendnotes %gera as notas
 
-\setcounter{endnote}{0} & % para recomeçar a numeração das notas no próximo capítulo
+\setcounter{endnote}{0} % para recomeçar a numeração das notas no próximo capítulo
 
 \chapter{Next}
 Again.\endnote{Second test.}
@@ -2525,7 +2534,7 @@ I. Quo usque tandem abutere, Catilina, patientia nostra? quam diu etiam furor is
 \end{mdframed}
 
 \chapter*{Uma entrada de capítulo elaborada}
-Estilo de capítulo “Veelo”, da classe \texttt{memoir}.
+Estilo de capítulo ``Veelo", da classe \texttt{memoir}.
 
 \begin{verbatim}
 \usepackage{titlesec}
@@ -2553,6 +2562,7 @@ Se você quiser usar um estilo parecido com o dos livros de E. Tufte, as classes
 \chapter{Um sumário diferente}
 O código abaixo gera um sumário mais elaborado, com cores e números de página diferenciados. 
 
+\footnotesize{
 \begin{verbatim}
 \documentclass{book}
 \usepackage{xcolor}
@@ -2630,13 +2640,9 @@ O código abaixo gera um sumário mais elaborado, com cores e números de págin
   {\sffamily\contentslabel{3em}}{}{}  
   {\hspace{0.5em}\nobreak\itshape\color{myred}\contentspage}
 
-
 \begin{document}
-
 \tableofcontents
-
 \part{Designing with \LaTeX}
-
 \chapter{Beginning to learn design with \LaTeX}
 \section{This is a test section}
 \subsection{Long subsection title and some other text to span more than one line}
@@ -2644,7 +2650,6 @@ O código abaixo gera um sumário mais elaborado, com cores e números de págin
 \newpage\setcounter{page}{123}% just for the example
 
 \part{Designing with HTML}
-
 \chapter{Beginning to learn design with HTML and some other text to span more than one line in the ToC}
 \section{This is a test section}
 \subsection{Long subsection title and some other text to span more than one line}
@@ -2652,7 +2657,7 @@ O código abaixo gera um sumário mais elaborado, com cores e números de págin
 \end{document}
 
 \end{verbatim}
-
+}
 
 O código acima resulta na figura \ref{exemplo-sumario}.
 

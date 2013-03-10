@@ -57,8 +57,8 @@ Nesse caso, “999” é o número máximo de entradas bibliográficas a serem u
 
 
 \begin{verbatim}
-Em vez de editores visuais (WYSIWYG), 
-sistemas tipográficos como \TeX{} or \LaTeX{} \cite{lamport94} podem ser utilizados.
+Em vez de editores visuais (WYSIWYG), sistemas tipográficos 
+como \TeX{} or \LaTeX{} \cite{lamport94} podem ser utilizados.
 \end{verbatim}
 
 \begin{quote}
@@ -75,7 +75,7 @@ Para incluir um item na bibliografia sem citá-lo no texto, use o comando \textt
 
 \section{O pacote \texttt{natbib} para citações}
 \label{natbib}
-Para utilizar o sistema autor-data, podemos utilizar o pacote \texttt{harvard}, \texttt{natbib}, ou \texttt{abntex2cite}, entre outros.
+Para utilizar o sistema autor-data, podemos utilizar os pacotes \texttt{harvard}, \texttt{natbib}, ou \texttt{abn\-tex2\-ci\-te}, entre outros.
 O pacote \texttt{natbib} é o mais versátil de todos para citações, enquanto que os outros dois são sistemas completos de citação e estilos bibliográficos.
 
 As duas formas básicas de citação com \texttt{natbib} são: \verb+\citet{...}+, para citações dentro do texto (\textit{t}) e \verb+\citep{...}+, para citações dentro de parênteses (\textit{p}). Outros exemplos no quadro abaixo (retirados da documentação do pacote):
@@ -105,7 +105,8 @@ Abaixo um exemplo de um arquivo \texttt{.bib} (\texttt{latex.bib}). \label{latex
 
 \begin{verbatim}
 @manual{lshort,
-    author = {Oetiket, Tobias. and Partl, Hubert. and Hyna, Irene. and Schlegl, Elisabeth.},
+    author = {Oetiket, Tobias. and Partl, Hubert. and Hyna, Irene. 
+    and Schlegl, Elisabeth.},
     title = {The not-so-short introduction to Latex},
     url = {http://www.ctan.org/tex-archive/info/lshort/english/lshort.pdf},
     year = {2011}
@@ -120,8 +121,8 @@ Abaixo um exemplo de um arquivo \texttt{.bib} (\texttt{latex.bib}). \label{latex
 },
 
 @book{latexompanion,
-    author = {Mittelbach, Frank and Goossens, Michel and Braams, Johannes and Carlisle, 
-    David and Rowley, Chris},
+    author = {Mittelbach, Frank and Goossens, Michel 
+    and Braams, Johannes and Carlisle, David and Rowley, Chris},
     edition = {2},
     publisher = {Addison-Wesley Professional},
     series = {Tools and Techniques for Computer Typesetting},
@@ -134,7 +135,7 @@ Abaixo um exemplo de um arquivo \texttt{.bib} (\texttt{latex.bib}). \label{latex
 A primeira entrada -- \verb+@book+, \verb+@manual+ -- indica o tipo de referência. Os templates padrão são: \textit{article} (artigos); \textit{book} (livros); \textit{booklet} (livros, livretos etc., não publicados); \textit{conference} ou \textit{inproceedings} (publicações em conferências); \textit{proceedings} (anais completos de conferência); \textit{manual} (textos técnicos); \textit{masterthesis} (mestrado); \textit{phdthesis} (doutorado); \textit{misc} (tipo genérico de publicação); \textit{techreport} (relatório técnico); \textit{unpublished} (material não publicado).
 
 As entradas de autor, editor etc. podem ser inseridas entre chaves -- ${}$ -- ou entre aspas -- \verb+"..."+. 
-\textbf{Atenção}: arquivos \texttt{.bib} não aceitam caracteres acentuados (exceto se for usar \texttt{biblatex}, ver abaixo), que deverão ser inseridos com comandos apropriados do Latex (\verb+\`{a}+ para à; \verb+\c{c}+ para ç e assim por diante. Utilize o menu do seu editor Latex.)
+\textbf{Atenção}: arquivos \texttt{.bib} não aceitam caracteres acentuados (exceto se for usar \texttt{bib\-la\-tex}, ver abaixo), que deverão ser inseridos com comandos apropriados do Latex (\verb+\`{a}+ para à; \verb+\c{c}+ para ç e assim por diante. Utilize o menu do seu editor Latex.)
 
 Podem ocorrer problemas com a bibliografia em relação a maiúsculas (devido ao estilo bibliográfico utilizado), nesse caso use as chaves para a letra ou palavra:
 
@@ -142,14 +143,14 @@ Podem ocorrer problemas com a bibliografia em relação a maiúsculas (devido ao
 title = "The {LaTeX} Companion",
 \end{verbatim}
 
-A seguir alguns exemplos, retirados do excelente manual da Wikipedia: \url{http://en.wikibooks.org/wiki/LaTeX/Bibliography_Management}
+A seguir alguns exemplos, retirados do excelente manual da Wikipedia:\\ \url{http://en.wikibooks.org/wiki/LaTeX/Bibliography_Management}
 
 \begin{verbatim}
 @article{AbedonHymanThomas2003,
   author = "Abedon, S. T. and Hyman, P. and Thomas, C.",
   year = "2003",
-  title = "Experimental examination of bacteriophage latent-period evolution as a response 
-  to bacterial availability",
+  title = "Experimental examination of bacteriophage
+  latent-period evolution as a response to bacterial availability",
   journal = "Applied and Environmental Microbiology",
   volume = "69",
   pages = "7499--7506"
@@ -161,8 +162,8 @@ A seguir alguns exemplos, retirados do excelente manual da Wikipedia: \url{http:
   pages = "397--405",
   booktitle = "Molecular biology of bacteriophage T4",
   editor = "Karam, Jim D. Karam and Drake, John W. and Kreuzer, Kenneth N. and Mosig, Gisela
-            and Hall, Dwight and Eiserling, Frederick A. and Black, Lindsay W. and Kutter, Elizabeth
-            and Carlson, Karin and Miller, Eric S. and Spicer, Eleanor",
+  and Hall, Dwight and Eiserling, Frederick A. and Black, Lindsay W. and Kutter, 
+  Elizabeth and Carlson, Karin and Miller, Eric S. and Spicer, Eleanor",
   publisher = "ASM Press, Washington DC",
   year = "1994"
 }
@@ -295,7 +296,8 @@ Além do \texttt{bibtex}, também é possível utilizar o \texttt{biblatex}, cuj
 Código da figura \ref{fig:biblatex-figura}:
 
 \begin{verbatim}
-\usepackage[style=historian,citestyle=authoryear,natbib=true,doi=false,backend=bibtex]{biblatex}
+\usepackage[style=historian,citestyle=authoryear,natbib=true,
+doi=false,backend=bibtex]{biblatex}
 \usepackage{csquotes}
 \DefineBibliographyStrings{brazil}{namedash={---------}}
 \addbibresource{latex} %substitui o \bibliography{xxx} do bibtex
