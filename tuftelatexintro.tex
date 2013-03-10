@@ -72,7 +72,7 @@
 
 
 \usepackage{csquotes}
-\DefineBibliographyStrings{brazil}{namedash={---------}}
+\DefineBibliographyStrings{brazil}{namedash={---------},volumeof={de}}
 \addbibresource{latex}
 
 \usepackage{bbding}
@@ -1388,10 +1388,12 @@ Vão suprir muitas de suas necessidades (tabela \ref{simbolos}).
 
 
 \begin{table}
-\caption{Cruzes do pacote \texttt{bbding} \label{tab:bbding-cruzes}}
-\begin{tabular}{lllll}
-\Cross{}\verb+\Cross+& \CrossOpenShadow{} \verb+\CrossOpenShadow+ & \PlusOutline{} \verb+\PlusOutline+ & \CrossBoldOutline{}  \verb+\CrossBoldOutline+ & \CrossOutline{} \verb+\CrossOutline+\\
-\PlusThinCenterOpen{} \verb+\PlusThinCenterOpen+ & \CrossClowerTips{} \verb+\CrossClowerTips+ & \Plus{} \verb+\Plus+ & \CrossMaltese{} \verb+\CrossMaltese+ & \PlusCenterOpen{} \verb+\PlusCenterOpen+\\
+\caption{Cruzes do pacote \texttt{bbding} 
+\label{tab:bbding-cruzes}}
+\begin{tabular}{lll}
+\Cross{}\verb+\Cross+& \CrossOpenShadow{} \verb+\CrossOpenShadow+ & \PlusOutline{} \verb+\PlusOutline+ \\ \CrossBoldOutline{}  \verb+\CrossBoldOutline+ & \CrossOutline{} \verb+\CrossOutline+& \PlusThinCenterOpen{} \verb+\PlusThinCenterOpen+ \\ 
+\CrossClowerTips{} \verb+\CrossClowerTips+ & \Plus{} \verb+\Plus+ & \CrossMaltese{} \verb+\CrossMaltese+ \\ 
+\PlusCenterOpen{} \verb+\PlusCenterOpen+\\
 \end{tabular}
 \end{table}
 
@@ -2400,12 +2402,12 @@ Para escrever em chinês, japonês ou coreano, utilizamos o pacote \texttt{xeCJK
 
 \begin{center}
 \begin{tabular}{ccc}
-{\Japanese おはよう}
+{\japones おはよう}
  & Ohayo! & ``Bom dia!" em japonês\\
 
-{\Chinese 早安} & Zao an! & ``Bom dia!" em chinês\\
+{\chines 早安} & Zao an! & ``Bom dia!" em chinês\\
 
-{\Korean 안녕하세요}   &  An-nyeong-ha-se-yo & ``Como vai?"/"Bom dia!" em coreano.
+{\coreano 안녕하세요}   &  An-nyeong-ha-se-yo & ``Como vai?"/"Bom dia!" em coreano.
 
 \end{tabular}
 
