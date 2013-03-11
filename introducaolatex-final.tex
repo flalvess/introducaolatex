@@ -16,14 +16,15 @@
 \setmonofont[Scale=.9]{Consolas}
 \usepackage{polyglossia}
 \setmainlanguage{brazil}
-\setotherlanguages{french,english,german,russian,greek,syriac}
+\setotherlanguages{french,english,german,russian,greek,syriac,hebrew}
 \usepackage{arabxetex}
 %\newfontfamily\russianfont[Script=Cyrillic]{Minion Pro}
 %\newfontfamily\greekfont[Script=Greek]{Minion Pro} 
 \newfontfamily\greekfont{Minion Pro} 
 \newfontfamily\russianfont{Minion Pro}
-\newfontfamily\arabicfont[Script=Arabic]{Adobe Arabic}
+\newfontfamily\arabicfont[Script=Arabic,Numbers=Arabic]{Adobe Arabic}
 \newfontfamily\syriacfont[Script=Syriac]{Serto Batnan}
+\newfontfamily\hebrewfont[Script=Hebrew]{Adobe Hebrew}
 \usepackage[tocgraduated]{tocstyle}
 \usetocstyle{nopagecolumn}
 \usepackage{graphicx}
@@ -2397,6 +2398,29 @@ Para siríaco, podemos definir:
 
 \bigskip
 \bigskip
+
+Para hebraico:
+
+\begin{verbatim}
+\setotherlanguage{hebrew} % para o pacote polyglossia, ou \setmainlangauge{hebrew} se hebraico for a língua principal.
+\newfontfamily\hebrewfont[Script=Hebrew]{Adobe Hebrew}
+...
+
+\begin{hebrew} 
+...
+\end{hebrew}
+
+\end{verbatim}
+
+\begin{center}
+\begin{hebrew}
+העברית היא שפה המשתייכת לקבוצת הלשונות השמיות הצפון-מערביות, ומהווה את אחד הדיאלקטים של השפה הכנענית. שפה זו הייתה מדוברת החל מן האלף ה-2 לפנה"ס באזור הלבנט, שהיום נמצא בשטחן של לבנון, סוריה, ארץ ישראל וירדן. טקסטים מהתקופה הזו שהתגלו בירדן ובלבנון חושפים קרבה רבה בין השפה העברית לשפה הפיניקית והמואבית.
+\medskip
+
+
+Fonte: http://he.wikipedia.org/wiki/עברית
+\end{hebrew}
+\end{center}
 
 Para escrever em chinês, japonês ou coreano, utilizamos o pacote \texttt{xeCJK}:\footnote{A solução para um texto com os três sistemas (chinês, japonês e coreano) foi copiada de: \url{http://tex.stackexchange.com/questions/45331/combining-chinese-japanese-and-korean-text-with-xecjk}}
 \label{japones}

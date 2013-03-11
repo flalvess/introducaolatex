@@ -1,8 +1,8 @@
-This is XeTeX, Version 3.1415926-2.4-0.9998 (TeX Live 2012/W32TeX) (format=xelatex 2013.1.11)  10 MAR 2013 09:14
+This is XeTeX, Version 3.1415926-2.4-0.9998 (TeX Live 2012/W32TeX) (format=xelatex 2013.1.11)  11 MAR 2013 13:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**introducaolatex-final.tex
+**introducaolatex-final
 (./introducaolatex-final.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, ge
@@ -711,6 +711,30 @@ package loaded
 Package: arabicnumbers 2010/03/18 v0.2 Formatting of Arabic and Farsi digits an
 d of Arabic abjad numerals
 ))
+(c:/texlive/2012/texmf-dist/tex/xelatex/polyglossia/gloss-hebrew.ldf
+File: gloss-hebrew.ldf polyglossia: module for hebrew
+
+(c:/texlive/2012/texmf-dist/tex/xelatex/polyglossia/hebrewcal.sty
+Package: hebrewcal 2012/04/29 v2.5 Hebrew calendar for polyglossia (adapted fro
+m hebcal.sty in Babel)
+
+(c:/texlive/2012/texmf-dist/tex/xelatex/polyglossia/cal-util.def
+\c@tmpA=\count175
+\c@tmpB=\count176
+\c@tmpC=\count177
+\c@tmpD=\count178
+\c@tmpE=\count179
+\c@tmpF=\count180
+)
+\hebrewday=\count181
+\hebrewmonth=\count182
+\hebrewyear=\count183
+\@common=\count184
+)
+(c:/texlive/2012/texmf-dist/tex/xelatex/polyglossia/babel-hebrewalph.def
+File: babel-hebrewalph.def 2010/03/02 Babel definitions for Hebrew numerals
+ Adapted from hebrew.ldf (2005/03/30 v2.3h)
+))
 (c:/texlive/2012/texmf-dist/tex/xelatex/arabxetex/arabxetex.sty
 Package: arabxetex 2010/03/04 v1.1.4 ArabTeX-like interface for XeLaTeX
 
@@ -734,13 +758,13 @@ Package: amsbsy 1999/11/29 v1.2d
 (c:/texlive/2012/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count175
+\inf@bad=\count185
 LaTeX Info: Redefining \frac on input line 211.
-\uproot@=\count176
-\leftroot@=\count177
+\uproot@=\count186
+\leftroot@=\count187
 LaTeX Info: Redefining \overline on input line 307.
-\classnum@=\count178
-\DOTSCASE@=\count179
+\classnum@=\count188
+\DOTSCASE@=\count189
 LaTeX Info: Redefining \ldots on input line 379.
 LaTeX Info: Redefining \dots on input line 382.
 LaTeX Info: Redefining \cdots on input line 467.
@@ -749,15 +773,15 @@ LaTeX Info: Redefining \cdots on input line 467.
 \big@size=\dimen145
 LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
-\macc@depth=\count180
-\c@MaxMatrixCols=\count181
+\macc@depth=\count190
+\c@MaxMatrixCols=\count191
 \dotsspace@=\muskip10
-\c@parentequation=\count182
-\dspbrk@lvl=\count183
+\c@parentequation=\count192
+\dspbrk@lvl=\count193
 \tag@help=\toks22
-\row@=\count184
-\column@=\count185
-\maxfields@=\count186
+\row@=\count194
+\column@=\count195
+\maxfields@=\count196
 \andhelp@=\toks23
 \eqnshift@=\dimen146
 \alignsep@=\dimen147
@@ -799,7 +823,7 @@ or  <return>  to continue without it.
 LaTeX Info: Redefining \[ on input line 2666.
 LaTeX Info: Redefining \] on input line 2667.
 ))
-\g_fontspec_family_Minion Pro_int=\count187
+\g_fontspec_family_Minion Pro_int=\count197
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -840,12 +864,108 @@ LaTeX Info: Redefining \] on input line 2667.
 . 
 . This font family consists of the following shapes:
 .................................................
-\g_fontspec_family_Adobe Arabic_int=\count188
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!
+! LaTeX error: "keys/choice-unknown"
+! 
+! Choice 'Arabic' unknown for key 'fontspec/Numbers'.
+! 
+! See the LaTeX3 documentation for further information.
+! 
+! For immediate help type H <return>.
+!...............................................  
+                                                  
+l.25 ...cript=Arabic,Numbers=Arabic]{Adobe Arabic}
+                                                  
+|'''''''''''''''''''''''''''''''''''''''''''''''
+| The key 'fontspec/Numbers' takes a limited number of values.
+| The input given, 'Arabic', is not on the list accepted.
+|...............................................
+
+\g_fontspec_family_Adobe Arabic_int=\count198
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!
+! LaTeX error: "keys/choice-unknown"
+! 
+! Choice 'Arabic' unknown for key 'fontspec/Numbers'.
+! 
+! See the LaTeX3 documentation for further information.
+! 
+! For immediate help type H <return>.
+!...............................................  
+                                                  
+l.25 ...cript=Arabic,Numbers=Arabic]{Adobe Arabic}
+                                                  
+|'''''''''''''''''''''''''''''''''''''''''''''''
+| The key 'fontspec/Numbers' takes a limited number of values.
+| The input given, 'Arabic', is not on the list accepted.
+|...............................................
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!
+! LaTeX error: "keys/choice-unknown"
+! 
+! Choice 'Arabic' unknown for key 'fontspec/Numbers'.
+! 
+! See the LaTeX3 documentation for further information.
+! 
+! For immediate help type H <return>.
+!...............................................  
+                                                  
+l.25 ...cript=Arabic,Numbers=Arabic]{Adobe Arabic}
+                                                  
+|'''''''''''''''''''''''''''''''''''''''''''''''
+| The key 'fontspec/Numbers' takes a limited number of values.
+| The input given, 'Arabic', is not on the list accepted.
+|...............................................
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!
+! LaTeX error: "keys/choice-unknown"
+! 
+! Choice 'Arabic' unknown for key 'fontspec/Numbers'.
+! 
+! See the LaTeX3 documentation for further information.
+! 
+! For immediate help type H <return>.
+!...............................................  
+                                                  
+l.25 ...cript=Arabic,Numbers=Arabic]{Adobe Arabic}
+                                                  
+|'''''''''''''''''''''''''''''''''''''''''''''''
+| The key 'fontspec/Numbers' takes a limited number of values.
+| The input given, 'Arabic', is not on the list accepted.
+|...............................................
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!
+! LaTeX error: "keys/choice-unknown"
+! 
+! Choice 'Arabic' unknown for key 'fontspec/Numbers'.
+! 
+! See the LaTeX3 documentation for further information.
+! 
+! For immediate help type H <return>.
+!...............................................  
+                                                  
+l.25 ...cript=Arabic,Numbers=Arabic]{Adobe Arabic}
+                                                  
+|'''''''''''''''''''''''''''''''''''''''''''''''
+| The key 'fontspec/Numbers' takes a limited number of values.
+| The input given, 'Arabic', is not on the list accepted.
+|...............................................
+
 .................................................
 . fontspec info: "defining-font"
 . 
 . Font family 'AdobeArabic(0)' created for font 'Adobe Arabic' with options
-. [Ligatures={TeX},Script=Arabic].
+. [Ligatures={TeX},Script=Arabic,Numbers=Arabic].
 . 
 . This font family consists of the following shapes:
 . 
@@ -861,7 +981,7 @@ LaTeX Info: Redefining \] on input line 2667.
 . * 'bold italic' with NFSS spec.:
 . <->"Adobe Arabic/BI/ICU:script=arab;language=DFLT;mapping=tex-text;"
 .................................................
-\g_fontspec_family_Serto Batnan_int=\count189
+\g_fontspec_family_Serto Batnan_int=\count199
 .................................................
 . fontspec info: "no-font-shape"
 . 
@@ -884,7 +1004,28 @@ LaTeX Info: Redefining \] on input line 2667.
 . * 'bold italic' with NFSS spec.:
 . <->"Serto Batnan/BI/ICU:script=syrc;language=DFLT;mapping=tex-text;"
 .................................................
- (c:/texlive/2012/texmf-dist/tex/latex/koma-script/tocstyle.sty
+\g_fontspec_family_Adobe Hebrew_int=\count200
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'AdobeHebrew(0)' created for font 'Adobe Hebrew' with options
+. [Ligatures={TeX},Script=Hebrew].
+. 
+. This font family consists of the following shapes:
+. 
+. * 'normal' with NFSS spec.:
+. <->"Adobe Hebrew/ICU:script=hebr;language=DFLT;mapping=tex-text;"
+. 
+. * 'bold' with NFSS spec.:
+. <->"Adobe Hebrew/B/ICU:script=hebr;language=DFLT;mapping=tex-text;"
+. 
+. * 'italic' with NFSS spec.:
+. <->"Adobe Hebrew/I/ICU:script=hebr;language=DFLT;mapping=tex-text;"
+. 
+. * 'bold italic' with NFSS spec.:
+. <->"Adobe Hebrew/BI/ICU:script=hebr;language=DFLT;mapping=tex-text;"
+.................................................
+(c:/texlive/2012/texmf-dist/tex/latex/koma-script/tocstyle.sty
 Package: tocstyle 2009/11/09 v0.2d-alpha LaTeX2e KOMA-Script package (versatile
  toc styles)
 
@@ -896,7 +1037,7 @@ Package tocstyle Warning: THIS IS AN ALPHA VERSION!
 (tocstyle)                THERE IS NO SUPPORT, IF YOU USE THIS PACKAGE!
 (tocstyle)                Maybe it would be better, not to load this package.
 
-\tocstyle@indentstyle=\count190
+\tocstyle@indentstyle=\count201
 Package tocstyle Info: no tocstyle.cfg found on input line 838.
 )
 exclude: leaders
@@ -915,7 +1056,8 @@ exclude:
 Package: footmisc 2011/06/06 v5.5b a miscellany of footnote facilities
 \FN@temptoken=\toks26
 \footnotemargin=\dimen152
-\c@pp@next@reset=\count191
+Normal \count register pool exhausted, switching to extended pool.
+\c@pp@next@reset=\count277
 Package footmisc Info: Declaring symbol style bringhurst on input line 855.
 Package footmisc Info: Declaring symbol style chicago on input line 863.
 Package footmisc Info: Declaring symbol style wiley on input line 872.
@@ -957,7 +1099,7 @@ Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 \TX@old@col=\dimen157
 \TX@target=\dimen158
 \TX@delta=\dimen159
-\TX@cols=\count192
+\TX@cols=\count278
 \TX@ftn=\toks28
 )
 (c:/texlive/2012/texmf-dist/tex/latex/booktabs/booktabs.sty
@@ -972,12 +1114,12 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \cmidrulesep=\dimen167
 \cmidrulekern=\dimen168
 \defaultaddspace=\dimen169
-\@cmidla=\count193
-\@cmidlb=\count194
+\@cmidla=\count279
+\@cmidlb=\count280
 \@aboverulesep=\dimen170
 \@belowrulesep=\dimen171
-\@thisruleclass=\count195
-\@lastruleclass=\count196
+\@thisruleclass=\count281
+\@lastruleclass=\count282
 \@thisrulewidth=\dimen172
 )
 (c:/texlive/2012/texmf-dist/tex/generic/ulem/ulem.sty
@@ -986,7 +1128,7 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \UL@skip=\skip58
 \UL@hook=\toks29
 \UL@height=\dimen173
-\UL@pe=\count197
+\UL@pe=\count283
 \UL@pixel=\dimen174
 \ULC@box=\box40
 Package: ulem 2012/05/18
@@ -1000,15 +1142,15 @@ Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
 (c:/texlive/2012/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count198
-\calc@Bcount=\count199
+\calc@Acount=\count284
+\calc@Bcount=\count285
 \calc@Adimen=\dimen176
 \calc@Bdimen=\dimen177
 \calc@Askip=\skip59
 \calc@Bskip=\skip60
 LaTeX Info: Redefining \setlength on input line 76.
 LaTeX Info: Redefining \addtolength on input line 77.
-\calc@Ccount=\count200
+\calc@Ccount=\count286
 \calc@Cskip=\skip61
 )
 (c:/texlive/2012/texmf-dist/tex/latex/oberdiek/twoopt.sty
@@ -1133,15 +1275,14 @@ LaTeX Font Info:    Overwriting symbol font `wasy' in version `bold'
 )
 (c:/texlive/2012/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
-\c@tracingmulticols=\count201
+\c@tracingmulticols=\count287
 \mult@box=\box43
 \multicol@leftmargin=\dimen178
-Normal \count register pool exhausted, switching to extended pool.
-\c@unbalance=\count277
-\c@collectmore=\count278
-\doublecol@number=\count279
-\multicoltolerance=\count280
-\multicolpretolerance=\count281
+\c@unbalance=\count288
+\c@collectmore=\count289
+\doublecol@number=\count290
+\multicoltolerance=\count291
+\multicolpretolerance=\count292
 \full@width=\dimen179
 \page@free=\dimen180
 \premulticols=\dimen181
@@ -1171,14 +1312,14 @@ Normal \count register pool exhausted, switching to extended pool.
 \@tempa=\box64
 \@tempa=\box65
 \@tempa=\box66
-\c@columnbadness=\count282
-\c@finalcolumnbadness=\count283
+\c@columnbadness=\count293
+\c@finalcolumnbadness=\count294
 \last@try=\dimen183
 \multicolovershoot=\dimen184
 \multicolundershoot=\dimen185
 \mult@nat@firstbox=\box67
 \colbreak@box=\box68
-\multicol@sort@counter=\count284
+\multicol@sort@counter=\count295
 )
 (c:/texlive/2012/texmf-dist/tex/latex/sidecap/sidecap.sty
 Package: sidecap 2003/06/06 v1.6f SideCap Package (RN/HjG)
@@ -1186,7 +1327,7 @@ Package: sidecap 2003/06/06 v1.6f SideCap Package (RN/HjG)
 \SC@CAPWD=\dimen187
 \SC@tempdima=\dimen188
 \SC@tempdimb=\dimen189
-\c@SC@C=\count285
+\c@SC@C=\count296
 \SC@BOX=\box69
 )
 (c:/texlive/2012/texmf-dist/tex/latex/enumitem/enumitem.sty
@@ -1195,7 +1336,7 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \enit@outerparindent=\dimen190
 \enit@toks=\toks39
 \enit@inbox=\box70
-\enitdp@description=\count286
+\enitdp@description=\count297
 )
 (c:/texlive/2012/texmf-dist/tex/xelatex/xecjk/xeCJK.sty
 Package: xeCJK 2012/05/21 v3.0.6 package for typesetting CJK scripts with XeLaT
@@ -1352,7 +1493,7 @@ Variant \keys_set_known:nxN already defined; not changing it on line 1344
 . Defining document command \newCJKfontfamily with arg. spec. 'omO{}m' on line
 . 1788.
 .................................................
-\g_xeCJK_fontspec_int=\count287
+\g_xeCJK_fontspec_int=\count298
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -1450,7 +1591,7 @@ Variant \keys_set_known:nxN already defined; not changing it on line 1344
 . 
 . Defining document command \CJKsetecglue with arg. spec. 'm' on line 2073.
 .................................................
-\xeCJK_Others_class=\count288
+\xeCJK_Others_class=\count299
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -1512,13 +1653,13 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
 \@linkdim=\dimen193
-\Hy@linkcounter=\count289
-\Hy@pagecounter=\count290
+\Hy@linkcounter=\count300
+\Hy@pagecounter=\count301
 
 (c:/texlive/2012/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2012/05/13 v6.82q Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count291
+\Hy@SavedSpaceFactor=\count302
 
 (c:/texlive/2012/texmf-dist/tex/xelatex/xetexconfig/hyperref.cfg
 File: hyperref.cfg 2008/07/11 v1.2 hyperref configuration for XeLaTeX
@@ -1531,14 +1672,14 @@ Package hyperref Info: Plain pages OFF on input line 4077.
 Package hyperref Info: Backreferencing OFF on input line 4082.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4300.
-\c@Hy@tempcnt=\count292
+\c@Hy@tempcnt=\count303
 
 (c:/texlive/2012/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip11
 Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4653.
-\Fld@menulength=\count293
+\Fld@menulength=\count304
 \Field@Width=\dimen194
 \Fld@charsize=\dimen195
 Package hyperref Info: Hyper figures OFF on input line 5773.
@@ -1550,9 +1691,9 @@ Package hyperref Info: Link coloring with OCG OFF on input line 5798.
 Package hyperref Info: PDF/A mode OFF on input line 5803.
 LaTeX Info: Redefining \ref on input line 5843.
 LaTeX Info: Redefining \pageref on input line 5847.
-\Hy@abspage=\count294
-\c@Item=\count295
-\c@Hfootnote=\count296
+\Hy@abspage=\count305
+\c@Item=\count306
+\c@Hfootnote=\count307
 )
 
 Package hyperref Message: Driver (autodetected): hxetex.
@@ -1568,10 +1709,10 @@ Package: stringenc 2011/12/02 v1.10 Convert strings between diff. encodings (HO
 )
 )
 \pdfm@box=\box71
-\c@Hy@AnnotLevel=\count297
-\HyField@AnnotCount=\count298
-\Fld@listcount=\count299
-\c@bookmark@seq@number=\count300
+\c@Hy@AnnotLevel=\count308
+\HyField@AnnotCount=\count309
+\Fld@listcount=\count310
+\c@bookmark@seq@number=\count311
 
 (c:/texlive/2012/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
@@ -1628,11 +1769,11 @@ Package zref Info: New property list: main on input line 759.
 Package zref Info: New property: default on input line 760.
 Package zref Info: New property: page on input line 761.
 )
-\c@abspage=\count301
+\c@abspage=\count312
 Package zref Info: New property: abspage on input line 62.
 )
 \mdf@templength=\skip82
-\c@mdf@globalstyle@cnt=\count302
+\c@mdf@globalstyle@cnt=\count313
 \mdf@skipabove@length=\skip83
 \mdf@skipbelow@length=\skip84
 \mdf@leftmargin@length=\skip85
@@ -1702,15 +1843,15 @@ Package zref Info: New property: abspage on input line 62.
 (c:/texlive/2012/texmf-dist/tex/latex/mdframed/md-frame-0.mdf
 File: md-frame-0.mdf 2012/04/08 v1.5: md-frame-0
 )
-\c@mdf@zref@counter=\count303
+\c@mdf@zref@counter=\count314
 Package zref Info: New property: mdf@pagevalue on input line 782.
 \mdf@horizontalspaceofbox=\skip132
 )
 (c:/texlive/2012/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
-\Gm@cnth=\count304
-\Gm@cntv=\count305
-\c@Gm@tempcnt=\count306
+\Gm@cnth=\count315
+\Gm@cntv=\count316
+\c@Gm@tempcnt=\count317
 \Gm@bindingoffset=\dimen200
 \Gm@wd@mp=\dimen201
 Normal \dimen register pool exhausted, switching to extended pool.
@@ -1727,13 +1868,13 @@ Package: ccicons 2012/05/22 v1.4 LaTeX support for Creative Commons icons
 )
 (c:/texlive/2012/texmf-dist/tex/latex/lettrine/lettrine.sty
 File: lettrine.sty 2007/08/08 v1.62 (Daniel Flipo)
-\c@DefaultLines=\count307
+\c@DefaultLines=\count318
 \DefaultFindent=\dimen262
 \DefaultNindent=\dimen263
 \DefaultSlope=\dimen264
 \L@lbox=\box76
 \L@tbox=\box77
-\c@L@lines=\count308
+\c@L@lines=\count319
 \L@Pindent=\dimen265
 \L@Findent=\dimen266
 \L@Nindent=\dimen267
@@ -1751,45 +1892,45 @@ Package: biblatex 2011/11/13 v1.7 programmable bibliographies
 
 (c:/texlive/2012/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count309
+\lrq@indent=\count320
 
 (c:/texlive/2012/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
-\c@listtotal=\count310
-\c@listcount=\count311
-\c@liststart=\count312
-\c@liststop=\count313
-\c@citecount=\count314
-\c@citetotal=\count315
-\c@multicitecount=\count316
-\c@multicitetotal=\count317
-\c@instcount=\count318
-\c@maxnames=\count319
-\c@minnames=\count320
-\c@maxitems=\count321
-\c@minitems=\count322
-\c@citecounter=\count323
-\c@savedcitecounter=\count324
-\c@uniquelist=\count325
-\c@uniquename=\count326
-\c@refsection=\count327
-\c@refsegment=\count328
-\c@maxextrayear=\count329
-\c@maxextraalpha=\count330
-\c@abbrvpenalty=\count331
-\c@highnamepenalty=\count332
-\c@lownamepenalty=\count333
-\c@maxparens=\count334
-\c@parenlevel=\count335
-\blx@tempcnta=\count336
-\blx@tempcntb=\count337
-\blx@tempcntc=\count338
-\blx@maxsection=\count339
-\blx@maxsegment=\count340
-\blx@notetype=\count341
-\blx@parenlevel@text=\count342
-\blx@parenlevel@foot=\count343
+\c@listtotal=\count321
+\c@listcount=\count322
+\c@liststart=\count323
+\c@liststop=\count324
+\c@citecount=\count325
+\c@citetotal=\count326
+\c@multicitecount=\count327
+\c@multicitetotal=\count328
+\c@instcount=\count329
+\c@maxnames=\count330
+\c@minnames=\count331
+\c@maxitems=\count332
+\c@minitems=\count333
+\c@citecounter=\count334
+\c@savedcitecounter=\count335
+\c@uniquelist=\count336
+\c@uniquename=\count337
+\c@refsection=\count338
+\c@refsegment=\count339
+\c@maxextrayear=\count340
+\c@maxextraalpha=\count341
+\c@abbrvpenalty=\count342
+\c@highnamepenalty=\count343
+\c@lownamepenalty=\count344
+\c@maxparens=\count345
+\c@parenlevel=\count346
+\blx@tempcnta=\count347
+\blx@tempcntb=\count348
+\blx@tempcntc=\count349
+\blx@maxsection=\count350
+\blx@maxsegment=\count351
+\blx@notetype=\count352
+\blx@parenlevel@text=\count353
+\blx@parenlevel@foot=\count354
 \labelnumberwidth=\skip133
 \labelalphawidth=\skip134
 \shorthandwidth=\skip135
@@ -1801,75 +1942,75 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 \bibhang=\skip141
 \blx@auxin=\read1
 \blx@auxout=\write3
-\c@mincomprange=\count344
-\c@maxcomprange=\count345
-\c@mincompwidth=\count346
-\c@labelname=\count347
-\c@savedlabelname=\count348
-\c@author=\count349
-\c@savedauthor=\count350
-\c@shortauthor=\count351
-\c@savedshortauthor=\count352
-\c@editor=\count353
-\c@savededitor=\count354
-\c@editora=\count355
-\c@savededitora=\count356
-\c@editorb=\count357
-\c@savededitorb=\count358
-\c@editorc=\count359
-\c@savededitorc=\count360
-\c@shorteditor=\count361
-\c@savedshorteditor=\count362
-\c@bookauthor=\count363
-\c@savedbookauthor=\count364
-\c@translator=\count365
-\c@savedtranslator=\count366
-\c@annotator=\count367
-\c@savedannotator=\count368
-\c@commentator=\count369
-\c@savedcommentator=\count370
-\c@introduction=\count371
-\c@savedintroduction=\count372
-\c@foreword=\count373
-\c@savedforeword=\count374
-\c@afterword=\count375
-\c@savedafterword=\count376
-\c@holder=\count377
-\c@savedholder=\count378
-\c@namea=\count379
-\c@savednamea=\count380
-\c@nameb=\count381
-\c@savednameb=\count382
-\c@namec=\count383
-\c@savednamec=\count384
-\c@institution=\count385
-\c@savedinstitution=\count386
-\c@language=\count387
-\c@savedlanguage=\count388
-\c@location=\count389
-\c@savedlocation=\count390
-\c@organization=\count391
-\c@savedorganization=\count392
-\c@origlocation=\count393
-\c@savedoriglocation=\count394
-\c@origpublisher=\count395
-\c@savedorigpublisher=\count396
-\c@pageref=\count397
-\c@savedpageref=\count398
-\c@publisher=\count399
-\c@savedpublisher=\count400
-\c@lista=\count401
-\c@savedlista=\count402
-\c@listb=\count403
-\c@savedlistb=\count404
-\c@listc=\count405
-\c@savedlistc=\count406
-\c@listd=\count407
-\c@savedlistd=\count408
-\c@liste=\count409
-\c@savedliste=\count410
-\c@listf=\count411
-\c@savedlistf=\count412
+\c@mincomprange=\count355
+\c@maxcomprange=\count356
+\c@mincompwidth=\count357
+\c@labelname=\count358
+\c@savedlabelname=\count359
+\c@author=\count360
+\c@savedauthor=\count361
+\c@shortauthor=\count362
+\c@savedshortauthor=\count363
+\c@editor=\count364
+\c@savededitor=\count365
+\c@editora=\count366
+\c@savededitora=\count367
+\c@editorb=\count368
+\c@savededitorb=\count369
+\c@editorc=\count370
+\c@savededitorc=\count371
+\c@shorteditor=\count372
+\c@savedshorteditor=\count373
+\c@bookauthor=\count374
+\c@savedbookauthor=\count375
+\c@translator=\count376
+\c@savedtranslator=\count377
+\c@annotator=\count378
+\c@savedannotator=\count379
+\c@commentator=\count380
+\c@savedcommentator=\count381
+\c@introduction=\count382
+\c@savedintroduction=\count383
+\c@foreword=\count384
+\c@savedforeword=\count385
+\c@afterword=\count386
+\c@savedafterword=\count387
+\c@holder=\count388
+\c@savedholder=\count389
+\c@namea=\count390
+\c@savednamea=\count391
+\c@nameb=\count392
+\c@savednameb=\count393
+\c@namec=\count394
+\c@savednamec=\count395
+\c@institution=\count396
+\c@savedinstitution=\count397
+\c@language=\count398
+\c@savedlanguage=\count399
+\c@location=\count400
+\c@savedlocation=\count401
+\c@organization=\count402
+\c@savedorganization=\count403
+\c@origlocation=\count404
+\c@savedoriglocation=\count405
+\c@origpublisher=\count406
+\c@savedorigpublisher=\count407
+\c@pageref=\count408
+\c@savedpageref=\count409
+\c@publisher=\count410
+\c@savedpublisher=\count411
+\c@lista=\count412
+\c@savedlista=\count413
+\c@listb=\count414
+\c@savedlistb=\count415
+\c@listc=\count416
+\c@savedlistc=\count417
+\c@listd=\count418
+\c@savedlistd=\count419
+\c@liste=\count420
+\c@savedliste=\count421
+\c@listf=\count422
+\c@savedlistf=\count423
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
 
@@ -1881,10 +2022,10 @@ Package biblatex Info: ... file 'biblatex.def' found.
 
 (c:/texlive/2012/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2011/11/13 v1.7 biblatex generic definitions
-\c@biburlnumpenalty=\count413
-\c@biburlucpenalty=\count414
-\c@biburllcpenalty=\count415
-\c@smartand=\count416
+\c@biburlnumpenalty=\count424
+\c@biburlucpenalty=\count425
+\c@biburllcpenalty=\count426
+\c@smartand=\count427
 )
 Package biblatex Info: Trying to load natbib compatibility...
 Package biblatex Info: ... file 'blx-natbib.def' found.
@@ -1923,12 +2064,12 @@ File: biblatex.cfg
 ))
 (c:/texlive/2012/texmf-dist/tex/latex/csquotes/csquotes.sty
 Package: csquotes 2011/10/22 v5.1d context-sensitive quotations
-\csq@reset=\count417
-\csq@gtype=\count418
-\csq@glevel=\count419
-\csq@qlevel=\count420
-\csq@maxlvl=\count421
-\csq@tshold=\count422
+\csq@reset=\count428
+\csq@gtype=\count429
+\csq@glevel=\count430
+\csq@qlevel=\count431
+\csq@maxlvl=\count432
+\csq@tshold=\count433
 \csq@ltx@everypar=\toks41
 
 (c:/texlive/2012/texmf-dist/tex/latex/csquotes/csquotes.def
@@ -1972,29 +2113,29 @@ Package: parallel 2003/04/13, setting two texts parallel (me)
 \ParallelBoxVar=\box80
 \ParallelLTok=\box81
 \ParallelRTok=\box82
-\ParallelBoolVar=\count423
-\ParallelBoolMid=\count424
-\ParallelWhichBox=\count425
-\ParallelMainMode=\count426
-\ParallelFNMode=\count427
-\ParallelLFNCounter=\count428
-\ParallelRFNCounter=\count429
-\ParallelMaxFN=\count430
-\ParallelFNNumMode=\count431
+\ParallelBoolVar=\count434
+\ParallelBoolMid=\count435
+\ParallelWhichBox=\count436
+\ParallelMainMode=\count437
+\ParallelFNMode=\count438
+\ParallelLFNCounter=\count439
+\ParallelRFNCounter=\count440
+\ParallelMaxFN=\count441
+\ParallelFNNumMode=\count442
 )
 (c:/texlive/2012/texmf-dist/tex/latex/lineno/lineno.sty
 Package: lineno 2005/11/02 line numbers on paragraphs v4.41
 Invalid UTF-8 byte or sequence at line 296 replaced by U+FFFD.
-\linenopenalty=\count432
+\linenopenalty=\count443
 \output=\toks42
-\linenoprevgraf=\count433
+\linenoprevgraf=\count444
 \linenumbersep=\dimen280
 \linenumberwidth=\dimen281
-\c@linenumber=\count434
-\c@pagewiselinenumber=\count435
-\c@LN@truepage=\count436
-\c@internallinenumber=\count437
-\c@internallinenumbers=\count438
+\c@linenumber=\count445
+\c@pagewiselinenumber=\count446
+\c@LN@truepage=\count447
+\c@internallinenumber=\count448
+\c@internallinenumbers=\count449
 \quotelinenumbersep=\dimen282
 \bframerule=\dimen283
 \bframesep=\dimen284
@@ -2016,7 +2157,7 @@ File: ppxetex.def 2012/04/03 v0.4s Pdfpages driver for XeTeX (AM)
 )
 \AM@pagebox=\box84
 \AM@toc@title=\toks43
-\c@AM@survey=\count439
+\c@AM@survey=\count450
 \AM@templatesizebox=\box85
 )
 
@@ -2027,7 +2168,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.128 \begin{document}
+l.133 \begin{document}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2084,40 +2225,46 @@ Package biblatex Info: ... file 'syriac.lbx' not found.
 Package biblatex Warning: Language 'syriac' not supported.
 (biblatex)                Using fallback language 'brazil' on input line 230.
 
+Package biblatex Info: Trying to load language 'hebrew'...
+Package biblatex Info: ... file 'hebrew.lbx' not found.
+
+Package biblatex Warning: Language 'hebrew' not supported.
+(biblatex)                Using fallback language 'brazil' on input line 238.
+
 (./abntex2-latexintro.aux))
 \openout1 = `introducaolatex-final.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 128.
-LaTeX Font Info:    ... okay on input line 128.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 128.
-LaTeX Font Info:    ... okay on input line 128.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 128.
-LaTeX Font Info:    ... okay on input line 128.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 128.
-LaTeX Font Info:    ... okay on input line 128.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 128.
-LaTeX Font Info:    ... okay on input line 128.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 128.
-LaTeX Font Info:    ... okay on input line 128.
-LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 128.
-LaTeX Font Info:    ... okay on input line 128.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 128.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 128.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 133.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 133.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 133.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 133.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 133.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 133.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 133.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 133.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 133.
  (c:/texlive/2012/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 128.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 128.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 128.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 133.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 133.
 
  (c:/texlive/2012/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 128.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 128.
-LaTeX Font Info:    ... okay on input line 128.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 128.
-LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 133.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 133.
+LaTeX Font Info:    ... okay on input line 133.
 
 
 ! Package bidi Error: Oops! you have loaded package amsmath after bidi package.
@@ -2128,7 +2275,7 @@ See the bidi package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.128 \begin{document}
+l.133 \begin{document}
                       
 This error message was generated by an \errmessage
 command, so I can't give any explicit help.
@@ -2144,7 +2291,7 @@ See the bidi package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.128 \begin{document}
+l.133 \begin{document}
                       
 (That was another \errmessage.)
 
@@ -2157,7 +2304,7 @@ See the bidi package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.128 \begin{document}
+l.133 \begin{document}
                       
 (That was another \errmessage.)
 
@@ -2170,7 +2317,7 @@ See the bidi package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.128 \begin{document}
+l.133 \begin{document}
                       
 (That was another \errmessage.)
 
@@ -2183,7 +2330,7 @@ See the bidi package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.128 \begin{document}
+l.133 \begin{document}
                       
 (That was another \errmessage.)
 
@@ -2196,7 +2343,7 @@ See the bidi package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.128 \begin{document}
+l.133 \begin{document}
                       
 (That was another \errmessage.)
 
@@ -2209,7 +2356,7 @@ See the bidi package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.128 \begin{document}
+l.133 \begin{document}
                       
 (That was another \errmessage.)
 
@@ -2222,7 +2369,7 @@ See the bidi package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.128 \begin{document}
+l.133 \begin{document}
                       
 (That was another \errmessage.)
 
@@ -2235,7 +2382,7 @@ See the bidi package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.128 \begin{document}
+l.133 \begin{document}
                       
 (That was another \errmessage.)
 
@@ -2248,7 +2395,7 @@ See the bidi package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.128 \begin{document}
+l.133 \begin{document}
                       
 (That was another \errmessage.)
 
@@ -2259,43 +2406,43 @@ l.128 \begin{document}
 * 
 * Try to use \setCJKsansfont[...]{...} to define it.
 *************************************************
-Package tocstyle Info: prepare \l@part for redefinition on input line 128.
-Package tocstyle Info: prepare \l@chapter for redefinition on input line 128.
-Package tocstyle Info: prepare \l@section for redefinition on input line 128.
-LaTeX Font Info:    Try loading font information for U+zeur on input line 128.
+Package tocstyle Info: prepare \l@part for redefinition on input line 133.
+Package tocstyle Info: prepare \l@chapter for redefinition on input line 133.
+Package tocstyle Info: prepare \l@section for redefinition on input line 133.
+LaTeX Font Info:    Try loading font information for U+zeur on input line 133.
 (c:/texlive/2012/texmf-dist/tex/latex/eulervm/uzeur.fd
 File: uzeur.fd 2005/01/11 v4.0 (WaS)
 )
-LaTeX Font Info:    Try loading font information for U+zeus on input line 128.
+LaTeX Font Info:    Try loading font information for U+zeus on input line 133.
 
 (c:/texlive/2012/texmf-dist/tex/latex/eulervm/uzeus.fd
 File: uzeus.fd 2005/01/11 v4.0 (WaS)
 )
-LaTeX Font Info:    Try loading font information for U+zeuex on input line 128.
+LaTeX Font Info:    Try loading font information for U+zeuex on input line 133.
 
 
 (c:/texlive/2012/texmf-dist/tex/latex/eulervm/uzeuex.fd
 File: uzeuex.fd 2005/01/11 v4.0 (WaS)
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 128.
+LaTeX Font Info:    Try loading font information for U+msa on input line 133.
 
 (c:/texlive/2012/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 128.
+LaTeX Font Info:    Try loading font information for U+msb on input line 133.
 
 (c:/texlive/2012/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+wasy on input line 128.
+LaTeX Font Info:    Try loading font information for U+wasy on input line 133.
 
 (c:/texlive/2012/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
 )
-Package tocstyle Info: prepare \l@subsection for redefinition on input line 128
+Package tocstyle Info: prepare \l@subsection for redefinition on input line 133
 .
-Package tocstyle Info: prepare \l@table for redefinition on input line 128.
-Package tocstyle Info: prepare \l@figure for redefinition on input line 128.
+Package tocstyle Info: prepare \l@table for redefinition on input line 133.
+Package tocstyle Info: prepare \l@figure for redefinition on input line 133.
 
 
 Package tocstyle Warning: unexpected \@dottedtocline definition!
@@ -2316,7 +2463,7 @@ kip \fi \parindent #2\relax \@afterindenttrue \interlinepenalty \@M \leavevmode
  \null \nobreak \hskip -\if@RTL \rightskip \else \leftskip \fi {#4}\nobreak \le
 aders \hbox {$\m@th \mkern \@dotsep mu\hbox {.}\mkern \@dotsep mu$}\hfill \nobr
 eak \hb@xt@ \@pnumwidth {{\hfil \normalfont \normalcolor #5}}\par }\fi  on inpu
-t line 128.
+t line 133.
 (c:/texlive/2012/texmf-dist/tex/latex/ms/ragged2e.sty
 Package: ragged2e 2009/05/21 v2.1 ragged2e Package (MS)
 
@@ -2346,18 +2493,18 @@ LaTeX Info: Redefining \selectfont on input line 126.
 \JustifyingParindent=\skip155
 )
 \AtBeginShipoutBox=\box86
-Package hyperref Info: Link coloring OFF on input line 128.
+Package hyperref Info: Link coloring OFF on input line 133.
  (c:/texlive/2012/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
 
 (c:/texlive/2012/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count440
+\c@section@level=\count451
 )
-LaTeX Info: Redefining \ref on input line 128.
-LaTeX Info: Redefining \pageref on input line 128.
-LaTeX Info: Redefining \nameref on input line 128.
+LaTeX Info: Redefining \ref on input line 133.
+LaTeX Info: Redefining \pageref on input line 133.
+LaTeX Info: Redefining \nameref on input line 133.
 
 (./introducaolatex-final.out) (./introducaolatex-final.out)
 \@outlinefile=\write4
@@ -2411,8 +2558,8 @@ Package biblatex Warning: Data encoding is 'utf8'.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'introducaolatex-final.bbl' found.
 (./introducaolatex-final.bbl)
-Package biblatex Info: Reference section=0 on input line 128.
-Package biblatex Info: Reference segment=0 on input line 128.
+Package biblatex Info: Reference section=0 on input line 133.
+Package biblatex Info: Reference segment=0 on input line 133.
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: xetex
 * paper: a4paper
@@ -2481,7 +2628,7 @@ Style=TitlingCaps].
 ]
 File: amdg.png Graphic file (type QTm)
  <use  "amdg.png" >
-\g_fontspec_family_San Marco LT Std_int=\count441
+\g_fontspec_family_San Marco LT Std_int=\count452
 .................................................
 . fontspec info: "no-font-shape"
 . 
@@ -2628,7 +2775,7 @@ number indent by \l@... (toc, 2):  41.61002pt
 text indent by \l@... (toc, 2):  35.03995pt
 number indent by parent (toc, 2):  40.42738pt
 text indent calculated (toc, 2): 27.27644pt
-number indent calculated (toc, 2): 41.97133pt
+number indent calculated (toc, 2): 40.42738pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
 number indent by parent (toc, 1):  14.88104pt
@@ -2678,7 +2825,7 @@ number indent by \l@... (toc, 2):  41.61002pt
 text indent by \l@... (toc, 2):  35.03995pt
 number indent by parent (toc, 2):  40.42738pt
 text indent calculated (toc, 2): 27.27644pt
-number indent calculated (toc, 2): 41.97133pt
+number indent calculated (toc, 2): 40.42738pt
 number indent by \l@... (toc, 0):  0.0pt
 text indent by \l@... (toc, 0):  16.42499pt
 number indent by parent (toc, 0):  0.0pt
@@ -2711,27 +2858,27 @@ number indent by \l@... (toc, 2):  41.61002pt
 text indent by \l@... (toc, 2):  35.03995pt
 number indent by parent (toc, 2):  40.42738pt
 text indent calculated (toc, 2): 27.27644pt
-number indent calculated (toc, 2): 41.97133pt
+number indent calculated (toc, 2): 40.42738pt
 number indent by \l@... (toc, 2):  41.61002pt
 text indent by \l@... (toc, 2):  35.03995pt
 number indent by parent (toc, 2):  40.42738pt
 text indent calculated (toc, 2): 27.27644pt
-number indent calculated (toc, 2): 41.97133pt
+number indent calculated (toc, 2): 40.42738pt
 number indent by \l@... (toc, 2):  41.61002pt
 text indent by \l@... (toc, 2):  35.03995pt
 number indent by parent (toc, 2):  40.42738pt
 text indent calculated (toc, 2): 27.27644pt
-number indent calculated (toc, 2): 41.97133pt
+number indent calculated (toc, 2): 40.42738pt
 number indent by \l@... (toc, 2):  41.61002pt
 text indent by \l@... (toc, 2):  35.03995pt
 number indent by parent (toc, 2):  40.42738pt
 text indent calculated (toc, 2): 27.27644pt
-number indent calculated (toc, 2): 41.97133pt
+number indent calculated (toc, 2): 40.42738pt
 number indent by \l@... (toc, 2):  41.61002pt
 text indent by \l@... (toc, 2):  35.03995pt
 number indent by parent (toc, 2):  40.42738pt
 text indent calculated (toc, 2): 27.27644pt
-number indent calculated (toc, 2): 41.97133pt
+number indent calculated (toc, 2): 40.42738pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
 number indent by parent (toc, 1):  14.88104pt
@@ -3101,7 +3248,7 @@ Capítulo 1.
 
 
 ]
-Overfull \hbox (3.68518pt too wide) in paragraph at lines 185--186
+Overfull \hbox (3.68518pt too wide) in paragraph at lines 190--191
 []\EU1/JannonTModernePro(0)/m/n/10.95 Na verdade o processo de trabalho (\EU1/J
 annonTModernePro(0)/m/it/10.95 workflow\EU1/JannonTModernePro(0)/m/n/10.95 ) é
  diferente em processadores de texto (Word
@@ -3111,7 +3258,7 @@ File: grafico-latex.png Graphic file (type QTm)
 <use  "grafico-latex.png" > [2] [3]
 File: biblia-gutenberg.jpg Graphic file (type QTm)
  <use  "biblia-gutenberg.jpg" >
-Overfull \hbox (0.43805pt too wide) in paragraph at lines 273--274
+Overfull \hbox (0.43805pt too wide) in paragraph at lines 278--279
 []\EU1/JannonTModernePro(0)/m/n/10.95 ([]$[][][][] [] [] [] [][][] [] [][][] []
  [][][] [] [][][][][][][][]$[]) para Linux, Mac ([]$[][][][] [] [] [] [][][] []
  [][][] [] [][][] [] [][][][][][]$[])
@@ -3125,26 +3272,26 @@ Capítulo 2.
 [7]
 File: latexbasico.png Graphic file (type QTm)
  <use  "latexbasico.png" > [8] [9]
-Overfull \hbox (7.35124pt too wide) in paragraph at lines 460--461
+Overfull \hbox (7.35124pt too wide) in paragraph at lines 465--466
 \EU1/JannonTModernePro(0)/m/n/10.95 cumento que o autor quer criar. Isso é esp
 ecificado usando o comando []\EU1/Consolas(0)/m/n/10.95 \documentclass{...}\EU1
 /JannonTModernePro(0)/m/n/10.95 . 
  []
 
 
-Underfull \hbox (badness 5893) in paragraph at lines 490--490
+Underfull \hbox (badness 5893) in paragraph at lines 495--495
 []|\EU1/JannonTModernePro(0)/m/n/10.95 Tamanho da fonte principal do docu-
  []
 
 
-Underfull \hbox (badness 3407) in paragraph at lines 490--490
+Underfull \hbox (badness 3407) in paragraph at lines 495--495
 \EU1/JannonTModernePro(0)/m/n/10.95 direita (openright) ou qualquer página
  []
 
 [10] [11] [12]
 Capítulo 3.
 LaTeX Font Info:    Font shape `EU1/Consolas(0)/bx/n' will be
-(Font)              scaled to size 12.9599pt on input line 518.
+(Font)              scaled to size 12.9599pt on input line 523.
 [13
 
 
@@ -3226,13 +3373,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 106--106
 [29]) [30]
 Capítulo 5.
 
-Overfull \hbox (14.61047pt too wide) in paragraph at lines 758--760
+Overfull \hbox (14.61047pt too wide) in paragraph at lines 763--765
 \EU1/JannonTModernePro(0)/m/n/10.95 Mas você pode converter as tabelas do Exce
 l ou OpenOffice com plugins: []$[][][][] [] [] [] [][][][][][][][][][] []$
  []
 
 
-Overfull \hbox (28.29338pt too wide) in paragraph at lines 758--760
+Overfull \hbox (28.29338pt too wide) in paragraph at lines 763--765
 $[][][][][][][][][][][] [] [][][][]$[] \EU1/JannonTModernePro(0)/m/n/10.95 para
  OpenOffice/Libreoffice e []$[][][][] [] [] [] [][][] [] [][][][] [] [][][] [] 
 [][][][][][][][][][][][] [] [][][][][][][] []$
@@ -3243,7 +3390,7 @@ $[][][][][][][][][][][] [] [][][][]$[] \EU1/JannonTModernePro(0)/m/n/10.95 para
 
 
 ] [32]
-Overfull \hbox (10.55418pt too wide) in paragraph at lines 830--831
+Overfull \hbox (10.55418pt too wide) in paragraph at lines 835--836
 []\EU1/JannonTModernePro(0)/m/n/10.95 Se você preferir girar a tabela na verti
 cal, use o pacote \EU1/Consolas(0)/m/n/10.95 rotating \EU1/JannonTModernePro(0)
 /m/n/10.95 e o ambiente \EU1/Consolas(0)/m/n/10.95 sidewaystable\EU1/JannonTMod
@@ -3251,7 +3398,7 @@ ernePro(0)/m/n/10.95 :
  []
 
 
-Overfull \hbox (18.22098pt too wide) in paragraph at lines 843--844
+Overfull \hbox (18.22098pt too wide) in paragraph at lines 848--849
 []\EU1/JannonTModernePro(0)/m/n/10.95 Para exemplos mais elaborados (e que difi
 cilmente você utilizará), ver []$[][][][] [] [] [] [][] [] [][][][][][][][][]
  []$
@@ -3263,50 +3410,50 @@ cilmente você utilizará), ver []$[][][][] [] [] [] [][] [] [][][][][][][][][]
 ]
 Capítulo 6.
 
-Overfull \hbox (34.00002pt too wide) in paragraph at lines 865--883
+Overfull \hbox (34.00002pt too wide) in paragraph at lines 870--888
 [][] 
  []
 
 
-Overfull \hbox (13.00267pt too wide) in paragraph at lines 894--895
+Overfull \hbox (13.00267pt too wide) in paragraph at lines 899--900
 []\EU1/JannonTModernePro(0)/m/n/10.95 Lembrando que []\EU1/Consolas(0)/m/n/10.9
 5 \labelitemi \EU1/JannonTModernePro(0)/m/n/10.95 é o primeiro nível; []\EU1/
 Consolas(0)/m/n/10.95 \labelitemii\EU1/JannonTModernePro(0)/m/n/10.95 , o segun
 do; e []\EU1/Consolas(0)/m/n/10.95 \labelitemiii
  []
 
-LaTeX Font Info:    Try loading font information for U+ding on input line 896.
+LaTeX Font Info:    Try loading font information for U+ding on input line 901.
 (c:/texlive/2012/texmf-dist/tex/latex/bbding/uding.fd
 File: Uding.fd 1996/02/01 v1.0 BBding font definitions
 )
-Overfull \hbox (6.06465pt too wide) in paragraph at lines 896--897
+Overfull \hbox (6.06465pt too wide) in paragraph at lines 901--902
 []\EU1/JannonTModernePro(0)/m/n/10.95 O item []\EU1/Consolas(0)/m/n/10.95 \chec
 kmark \EU1/JannonTModernePro(0)/m/n/10.95 pode ser modificado por qualquer sím
 bolo, por exemplo, []\EU1/Consolas(0)/m/n/10.95 \textemdash
  []
 
 
-Overfull \hbox (34.00002pt too wide) in paragraph at lines 928--946
+Overfull \hbox (34.00002pt too wide) in paragraph at lines 933--951
 [][] 
  []
 
 [35]
-Overfull \hbox (34.00002pt too wide) in paragraph at lines 949--967
+Overfull \hbox (34.00002pt too wide) in paragraph at lines 954--972
 [][] 
  []
 
 
-Overfull \hbox (34.00002pt too wide) in paragraph at lines 971--998
+Overfull \hbox (34.00002pt too wide) in paragraph at lines 976--1003
 [][] 
  []
 
 
-Overfull \hbox (34.00002pt too wide) in paragraph at lines 1005--1036
+Overfull \hbox (34.00002pt too wide) in paragraph at lines 1010--1041
 [][] 
  []
 
 
-Overfull \hbox (0.97298pt too wide) in paragraph at lines 1046--1047
+Overfull \hbox (0.97298pt too wide) in paragraph at lines 1051--1052
 []\EU1/JannonTModernePro(0)/m/n/10.95 Você também pode especificar o tipo de 
 contador que quer: numerais romanos, em maiús-
  []
@@ -3319,18 +3466,18 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1064 \begin{enumerate}[label=\Roman*]
+l.1069 \begin{enumerate}[label=\Roman*]
                                        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (34.00002pt too wide) in paragraph at lines 1050--1072
+Overfull \hbox (34.00002pt too wide) in paragraph at lines 1055--1077
 [][] 
  []
 
 
-Overfull \hbox (0.44429pt too wide) in paragraph at lines 1103--1104
+Overfull \hbox (0.44429pt too wide) in paragraph at lines 1108--1109
 []\EU1/JannonTModernePro(0)/m/n/10.95 No entanto, é bom ter cuidado para só u
 sar \EU1/JannonTModernePro(0)/m/it/10.95 um \EU1/JannonTModernePro(0)/m/n/10.95
  dos dois pacotes (\EU1/Consolas(0)/m/n/10.95 enumerate \EU1/JannonTModernePro(
@@ -3388,7 +3535,7 @@ Overfull \vbox (18.11572pt too high) detected at line 97
 ] [42
 
 ]
-\g_fontspec_family_Myriad Pro_int=\count442
+\g_fontspec_family_Myriad Pro_int=\count453
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -3410,7 +3557,7 @@ Overfull \vbox (18.11572pt too high) detected at line 97
 . <->"Myriad Pro/BI/ICU:script=latn;language=DFLT;mapping=tex-text;"
 .................................................
  [43]
-Overfull \hbox (18.25845pt too wide) in paragraph at lines 1322--1323
+Overfull \hbox (18.25845pt too wide) in paragraph at lines 1327--1328
 []\EU1/JannonTModernePro(0)/m/n/10.95 Para escrever fórmulas químicas, é út
 il o pacote \EU1/Consolas(0)/m/n/10.95 mhchem \EU1/JannonTModernePro(0)/m/n/10.
 95 ([]$[][][][] [] [] [] [][][] [] [][][][] [] [][][] [] [][][][][][][][][][][]
@@ -3418,40 +3565,40 @@ il o pacote \EU1/Consolas(0)/m/n/10.95 mhchem \EU1/JannonTModernePro(0)/m/n/10.
  []
 
 [44]
-LaTeX Info: Redefining \bond on input line 1331.
-LaTeX Info: Redefining \dbond on input line 1331.
-LaTeX Info: Redefining \tbond on input line 1331.
+LaTeX Info: Redefining \bond on input line 1336.
+LaTeX Info: Redefining \dbond on input line 1336.
+LaTeX Info: Redefining \tbond on input line 1336.
 
-Overfull \hbox (48.20433pt too wide) in paragraph at lines 1423--1442
+Overfull \hbox (48.20433pt too wide) in paragraph at lines 1428--1447
 [][] 
  []
 
 [45] [46] [47] [48]
-Overfull \hbox (58.55496pt too wide) in paragraph at lines 1586--1586
+Overfull \hbox (58.55496pt too wide) in paragraph at lines 1591--1591
 []\EU1/Consolas(0)/m/n/10.95 %\setlength{\textwidth}{15cm} %implementado pelo p
 acote geometry abaixo, por isso não ativo[] 
  []
 
 
-Overfull \hbox (20.62697pt too wide) in paragraph at lines 1586--1586
+Overfull \hbox (20.62697pt too wide) in paragraph at lines 1591--1591
 []\EU1/Consolas(0)/m/n/10.95 \setlength{\marginparsep}{0.5cm} %tamanho da dist�
 �ncia entre notas de margem e texto[] 
  []
 
 
-Overfull \hbox (74.80984pt too wide) in paragraph at lines 1586--1586
+Overfull \hbox (74.80984pt too wide) in paragraph at lines 1591--1591
 []\EU1/Consolas(0)/m/n/10.95 \usepackage[left=2cm,textwidth=14cm]{geometry} %ta
 manho do bloco de texto e da margem esquerda[] 
  []
 
 [49]
-Overfull \hbox (7.98436pt too wide) in paragraph at lines 1631--1631
+Overfull \hbox (7.98436pt too wide) in paragraph at lines 1636--1636
 []\EU1/Consolas(0)/m/n/10.95 \setcounter{endnote}{0} % para recomeçar a numera
 ção das notas no próximo capítulo[] 
  []
 
 [50]
-Overfull \hbox (6.03131pt too wide) in paragraph at lines 1639--1640
+Overfull \hbox (6.03131pt too wide) in paragraph at lines 1644--1645
 $[][][][][][][][][][][]$[] \EU1/JannonTModernePro(0)/m/n/10.95 e/ou []$[][][][]
  [] [] [] [][][][][][][] [] [][][][] [] [][][] [] [][][][] [] [][][][][][] [] [
 ][][][][][][][][][][][][][] [] [][][][][][][][] [] [][][]$[]. 
@@ -3463,7 +3610,7 @@ $[][][][][][][][][][][]$[] \EU1/JannonTModernePro(0)/m/n/10.95 e/ou []$[][][][]
 ]
 Capítulo 7.
 
-Overfull \hbox (2.61061pt too wide) in paragraph at lines 1645--1647
+Overfull \hbox (2.61061pt too wide) in paragraph at lines 1650--1652
 []\EU1/JannonTModernePro(0)/m/n/10.95 Para incluir imagens, usamos o pacote \EU
 1/Consolas(0)/m/n/10.95 graphicx \EU1/JannonTModernePro(0)/m/n/10.95 ([]\EU1/Co
 nsolas(0)/m/n/10.95 \usepackage{graphicx} \EU1/JannonTModernePro(0)/m/n/10.95 n
@@ -3472,7 +3619,7 @@ o preâmbulo).
 
 File: femmevaguecourbet.jpg Graphic file (type QTm)
 <use  "femmevaguecourbet.jpg" >
-Overfull \hbox (2.56607pt too wide) in paragraph at lines 1683--1683
+Overfull \hbox (2.56607pt too wide) in paragraph at lines 1688--1688
 []\EU1/Consolas(0)/m/n/10.95 \graphicspath{~/Pictures} %(geralmente é o diret�
 �rio de imagens para Linux e Mac)[] 
  []
@@ -3496,7 +3643,7 @@ File: moreau-apparition.jpg Graphic file (type QTm)
 ! Illegal parameter number in definition of \Hy@tempa.
 <to be read again> 
                    S
-l.1806 ...ats,\_Figures\_and\_Captions#Subfloats}}
+l.1811 ...ats,\_Figures\_and\_Captions#Subfloats}}
                                                   
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
@@ -3505,7 +3652,7 @@ are all screwed up? I'm going to assume that you meant ##.
 ! Illegal parameter number in definition of \Hy@tempa.
 <to be read again> 
                    S
-l.1806 ...ats,\_Figures\_and\_Captions#Subfloats}}
+l.1811 ...ats,\_Figures\_and\_Captions#Subfloats}}
                                                   
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
@@ -3514,26 +3661,26 @@ are all screwed up? I'm going to assume that you meant ##.
 ! Illegal parameter number in definition of \Hy@gtemp.
 <to be read again> 
                    S
-l.1806 ...ats,\_Figures\_and\_Captions#Subfloats}}
+l.1811 ...ats,\_Figures\_and\_Captions#Subfloats}}
                                                   
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
 are all screwed up? I'm going to assume that you meant ##.
 
 [58]
-Overfull \hbox (9.79022pt too wide) in paragraph at lines 1819--1819
+Overfull \hbox (9.79022pt too wide) in paragraph at lines 1824--1824
 []  \EU1/Consolas(0)/m/n/10.95 \subfloat[A gull]{\label{fig:gull}\includegraphi
 cs[width=0.3\textwidth]{gull}}[] 
  []
 
 
-Overfull \hbox (26.04504pt too wide) in paragraph at lines 1819--1819
+Overfull \hbox (26.04504pt too wide) in paragraph at lines 1824--1824
 []  \EU1/Consolas(0)/m/n/10.95 \subfloat[A tiger]{\label{fig:tiger}\includegrap
 hics[width=0.3\textwidth]{tiger}}[] 
  []
 
 
-Overfull \hbox (26.04504pt too wide) in paragraph at lines 1819--1819
+Overfull \hbox (26.04504pt too wide) in paragraph at lines 1824--1824
 []  \EU1/Consolas(0)/m/n/10.95 \subfloat[A mouse]{\label{fig:mouse}\includegrap
 hics[width=0.3\textwidth]{mouse}}[] 
  []
@@ -3555,21 +3702,21 @@ Capítulo 9.
 ]
 Capítulo 10.
 [65]
-Overfull \hbox (2.18605pt too wide) in paragraph at lines 2089--2089
+Overfull \hbox (2.18605pt too wide) in paragraph at lines 2094--2094
 []\EU1/Consolas(0)/m/n/10.95 {\addfontfeature{Color=lime}W}\kern-1ex[] 
  []
 
 
-Overfull \hbox (18.44089pt too wide) in paragraph at lines 2089--2089
+Overfull \hbox (18.44089pt too wide) in paragraph at lines 2094--2094
 []\EU1/Consolas(0)/m/n/10.95 {\addfontfeature{Color=Peach}S}\kern-0.8ex[] 
  []
 
 
-Overfull \hbox (34.69571pt too wide) in paragraph at lines 2089--2089
+Overfull \hbox (34.69571pt too wide) in paragraph at lines 2094--2094
 []\EU1/Consolas(0)/m/n/10.95 {\addfontfeature{Color=Mulberry}P}\kern-0.8ex[] 
  []
 
-\g_fontspec_family_Calluna_int=\count443
+\g_fontspec_family_Calluna_int=\count454
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -3794,7 +3941,7 @@ FF
 F42FF
 . ;"
 .................................................
-\g_fontspec_family_Arno Pro_int=\count444
+\g_fontspec_family_Arno Pro_int=\count455
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -3964,7 +4111,7 @@ F42FF
 . * 'bold italic small caps' with NFSS spec.:
 . <->"Arno Pro/BI/ICU:script=latn;language=DFLT;mapping=tex-text;+swsh;+smcp;"
 .................................................
-\g_fontspec_family_Sabon LT Std_int=\count445
+\g_fontspec_family_Sabon LT Std_int=\count456
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -4014,11 +4161,11 @@ F42FF
 . <->"Sabon LT Std/BI/ICU:script=latn;language=DFLT;mapping=tex-text;+lnum;"
 .................................................
 
-Overfull \hbox (11.2165pt too wide) in paragraph at lines 2216--2216
+Overfull \hbox (11.2165pt too wide) in paragraph at lines 2221--2221
 []\EU1/Consolas(0)/m/n/10.95 \fontspec[Contextuals=Swash]{Warnock Pro}[] 
  []
 
-\g_fontspec_family_Warnock Pro_int=\count446
+\g_fontspec_family_Warnock Pro_int=\count457
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -4087,7 +4234,7 @@ Overfull \hbox (11.2165pt too wide) in paragraph at lines 2216--2216
 . Pro/BI/ICU:script=latn;language=DFLT;mapping=tex-text;+cswh;+smcp;"
 .................................................
 
-Overfull \hbox (33.99998pt too wide) in paragraph at lines 2208--2227
+Overfull \hbox (33.99998pt too wide) in paragraph at lines 2213--2232
 [][]
  []
 
@@ -4097,25 +4244,126 @@ Overfull \hbox (33.99998pt too wide) in paragraph at lines 2208--2227
 ]
 Capítulo 11.
 
-Overfull \hbox (34.00002pt too wide) in paragraph at lines 2283--2298
+Overfull \hbox (34.00002pt too wide) in paragraph at lines 2288--2303
 [][] 
  []
 
 [69]
-Package mdframed Info: mdframed works in twoside mode on input line 2312.
-Package mdframed Info: mdframed works in twoside mode on input line 2325.
+Package mdframed Info: mdframed works in twoside mode on input line 2317.
+Package mdframed Info: mdframed works in twoside mode on input line 2330.
 
-Overfull \hbox (14.51219pt too wide) in paragraph at lines 2350--2351
+Overfull \hbox (14.51219pt too wide) in paragraph at lines 2355--2356
 []\EU1/JannonTModernePro(0)/m/n/10.95 Para escritas não ocidentais também uti
 lizamos o pacote \EU1/Consolas(0)/m/n/10.95 fontspe\EU1/JannonTModernePro(0)/m/
 n/10.95 c e/ou o pacote \EU1/Consolas(0)/m/n/10.95 polyglossia 
  []
 
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!
+! LaTeX error: "keys/choice-unknown"
+! 
+! Choice 'Arabic' unknown for key 'fontspec/Numbers'.
+! 
+! See the LaTeX3 documentation for further information.
+! 
+! For immediate help type H <return>.
+!...............................................  
+                                                  
+l.2374  ا
+          لعربية أكثر لغات المجموعة السامية م�...
+
+|'''''''''''''''''''''''''''''''''''''''''''''''
+| The key 'fontspec/Numbers' takes a limited number of values.
+| The input given, 'Arabic', is not on the list accepted.
+|...............................................
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!
+! LaTeX error: "keys/choice-unknown"
+! 
+! Choice 'Arabic' unknown for key 'fontspec/Numbers'.
+! 
+! See the LaTeX3 documentation for further information.
+! 
+! For immediate help type H <return>.
+!...............................................  
+                                                  
+l.2374  ا
+          لعربية أكثر لغات المجموعة السامية م�...
+
+|'''''''''''''''''''''''''''''''''''''''''''''''
+| The key 'fontspec/Numbers' takes a limited number of values.
+| The input given, 'Arabic', is not on the list accepted.
+|...............................................
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!
+! LaTeX error: "keys/choice-unknown"
+! 
+! Choice 'Arabic' unknown for key 'fontspec/Numbers'.
+! 
+! See the LaTeX3 documentation for further information.
+! 
+! For immediate help type H <return>.
+!...............................................  
+                                                  
+l.2374  ا
+          لعربية أكثر لغات المجموعة السامية م�...
+
+|'''''''''''''''''''''''''''''''''''''''''''''''
+| The key 'fontspec/Numbers' takes a limited number of values.
+| The input given, 'Arabic', is not on the list accepted.
+|...............................................
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!
+! LaTeX error: "keys/choice-unknown"
+! 
+! Choice 'Arabic' unknown for key 'fontspec/Numbers'.
+! 
+! See the LaTeX3 documentation for further information.
+! 
+! For immediate help type H <return>.
+!...............................................  
+                                                  
+l.2374  ا
+          لعربية أكثر لغات المجموعة السامية م�...
+
+|'''''''''''''''''''''''''''''''''''''''''''''''
+| The key 'fontspec/Numbers' takes a limited number of values.
+| The input given, 'Arabic', is not on the list accepted.
+|...............................................
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!
+! LaTeX error: "keys/choice-unknown"
+! 
+! Choice 'Arabic' unknown for key 'fontspec/Numbers'.
+! 
+! See the LaTeX3 documentation for further information.
+! 
+! For immediate help type H <return>.
+!...............................................  
+                                                  
+l.2374  ا
+          لعربية أكثر لغات المجموعة السامية م�...
+
+|'''''''''''''''''''''''''''''''''''''''''''''''
+| The key 'fontspec/Numbers' takes a limited number of values.
+| The input given, 'Arabic', is not on the list accepted.
+|...............................................
+
 .................................................
 . fontspec info: "defining-font"
 . 
 . Font family 'AdobeArabic(1)' created for font 'Adobe Arabic' with options
-. [Ligatures={TeX},Script=Arabic,Mapping=arabtex-fdf2alif-novoc].
+. [Ligatures={TeX},Script=Arabic,Numbers=Arabic,Mapping=arabtex-fdf2alif-novoc]
+.
 . 
 . This font family consists of the following shapes:
 . 
@@ -4140,6 +4388,11 @@ lif-novoc;"
 alif-novoc;"
 .................................................
 [70]
+Overfull \hbox (197.62418pt too wide) in paragraph at lines 2413--2413
+[]\EU1/Consolas(0)/m/n/10.95 \setotherlanguage{hebrew} % para o pacote polyglos
+sia, ou \setmainlangauge{hebrew} se hebraico for a língua principal.[] 
+ []
+
 Missing character: There is no お in font Consolas/ICU:script=latn;language=DF
 LT;mapping=tex-text;!
 Missing character: There is no は in font Consolas/ICU:script=latn;language=DF
@@ -4148,6 +4401,7 @@ Missing character: There is no よ in font Consolas/ICU:script=latn;language=DF
 LT;mapping=tex-text;!
 Missing character: There is no う in font Consolas/ICU:script=latn;language=DF
 LT;mapping=tex-text;!
+[71]
 Missing character: There is no 早 in font Consolas/ICU:script=latn;language=DF
 LT;mapping=tex-text;!
 Missing character: There is no 安 in font Consolas/ICU:script=latn;language=DF
@@ -4162,7 +4416,7 @@ Missing character: There is no 세 in font Consolas/ICU:script=latn;language=DF
 LT;mapping=tex-text;!
 Missing character: There is no 요 in font Consolas/ICU:script=latn;language=DF
 LT;mapping=tex-text;!
-\g_fontspec_family_MS Mincho_int=\count447
+\g_fontspec_family_MS Mincho_int=\count458
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -4190,7 +4444,7 @@ LT;mapping=tex-text;!
 . * 'sl/' with NFSS spec.:
 . <->"MS Mincho/ICU:script=latn;language=DFLT;mapping=tex-text;"
 .................................................
-\g_fontspec_family_SimSun_int=\count448
+\g_fontspec_family_SimSun_int=\count459
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -4223,7 +4477,7 @@ LT;mapping=tex-text;!
 . 
 . Font Batang does not contain any OpenType `Script' information.
 .................................................
-\g_fontspec_family_Batang_int=\count449
+\g_fontspec_family_Batang_int=\count460
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -4251,7 +4505,7 @@ LT;mapping=tex-text;!
 . * 'sl/' with NFSS spec.:
 . <->"Batang/ICU:mapping=tex-text;"
 .................................................
- [71] [72]
+ [72]
 \openout2 = `abntex2-latexintro.aux'.
 
  (./abntex2-latexintro.tex
@@ -4288,7 +4542,7 @@ Overfull \hbox (52.78697pt too wide) in paragraph at lines 166--168
 ]
 Capítulo 13.
 
-Overfull \hbox (38.05312pt too wide) in paragraph at lines 2458--2460
+Overfull \hbox (38.05312pt too wide) in paragraph at lines 2486--2488
 []\EU1/JannonTModernePro(0)/m/n/10.95 Para exemplos de como funciona a tipograf
 ia no L[]T[]X, ver: []$[][][][] [] [] [] [][][][][][] [] [][][] [] [][][][][][]
 [][][][][] []$
@@ -4304,56 +4558,56 @@ ia no L[]T[]X, ver: []$[][][][] [] [] [] [][][][][][] [] [][][] [] [][][][][][]
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 2504--2504
+Underfull \hbox (badness 10000) in paragraph at lines 2532--2532
 []|[]\EU1/Consolas(0)/m/n/9 \begin{framed} Uma histó-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2505--2505
+Underfull \hbox (badness 10000) in paragraph at lines 2533--2533
 []|[]\EU1/Consolas(0)/m/n/9 \begin{shaded} Uma histó-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2506--2506
+Underfull \hbox (badness 10000) in paragraph at lines 2534--2534
 []|[]\EU1/Consolas(0)/m/n/9 \begin{snugshade} Uma histó-
  []
 
 
-Underfull \hbox (badness 2521) in paragraph at lines 2506--2506
+Underfull \hbox (badness 2521) in paragraph at lines 2534--2534
 []|\EU1/JannonTModernePro(0)/m/n/9 Texto com sombra de fundo mais
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2507--2507
+Underfull \hbox (badness 10000) in paragraph at lines 2535--2535
 []|[]\EU1/Consolas(0)/m/n/9 \fcolorbox{Magenta}{Gray}{Uma histó-
  []
 
 
-Underfull \hbox (badness 1515) in paragraph at lines 2507--2507
+Underfull \hbox (badness 1515) in paragraph at lines 2535--2535
 []|\EU1/JannonTModernePro(0)/m/n/9 Define a cor da borda e a cor do
  []
 
 
-Underfull \hbox (badness 1082) in paragraph at lines 2508--2508
+Underfull \hbox (badness 1082) in paragraph at lines 2536--2536
 []|\EU1/JannonTModernePro(0)/m/n/9 Um sombreado só do tamanho do
  []
 
 
-Overfull \hbox (82.9904pt too wide) in paragraph at lines 2502--2513
+Overfull \hbox (82.9904pt too wide) in paragraph at lines 2530--2541
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2502--2513
+Underfull \hbox (badness 10000) in paragraph at lines 2530--2541
 
  []
 
-Package mdframed Info: mdframed works in twoside mode on input line 2527.
+Package mdframed Info: mdframed works in twoside mode on input line 2555.
 
 Package mdframed Warning: You got a bad break
 (mdframed)                you have to change it manually
 (mdframed)                by changing the text, the space
-(mdframed)                or something else on input line 2530.
+(mdframed)                or something else on input line 2558.
 
 [83] [84] [85
 
@@ -4367,13 +4621,13 @@ Package mdframed Warning: You got a bad break
 ]
 Capítulo 14.
 [89]
-Overfull \hbox (0.36496pt too wide) in paragraph at lines 2655--2655
+Overfull \hbox (0.36496pt too wide) in paragraph at lines 2683--2683
 []   \EU1/Consolas(0)/m/n/9 \vspace*{-2.3\baselineskip}\leftbar\textsc{\small\c
 haptername~\thecontentslabel}\\\sffamily}[] 
  []
 
 
-Overfull \hbox (13.72508pt too wide) in paragraph at lines 2655--2655
+Overfull \hbox (13.72508pt too wide) in paragraph at lines 2683--2683
 []\EU1/Consolas(0)/m/n/9 \chapter{Beginning to learn design with HTML and some 
 other text to span more than one line in the ToC}[] 
  []
@@ -4386,7 +4640,7 @@ File: sumario.png Graphic file (type QTm)
 
 
 ]
-Overfull \hbox (6.25449pt too wide) in paragraph at lines 2677--2677
+Overfull \hbox (6.25449pt too wide) in paragraph at lines 2705--2705
 []\EU1/JannonTModernePro(0)/m/n/10.95 Bringhurst, Robert. \EU1/JannonTModernePr
 o(0)/m/it/10.95 The Elements of Typographic Style: Version 4.0: 20th Anniversar
 y Edition\EU1/JannonTModernePro(0)/m/n/10.95 . Fourth
@@ -4397,28 +4651,28 @@ y Edition\EU1/JannonTModernePro(0)/m/n/10.95 . Fourth
 
 ]
 LaTeX Font Info:    Font shape `U/ccicons/m/n' will be
-(Font)              scaled to size 9.0pt on input line 2687.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2692.
+(Font)              scaled to size 9.0pt on input line 2715.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2720.
  [97
 
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 2692.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 2720.
  (./introducaolatex-final.aux (./texto-bibliografia.aux)
 (./biblatex.aux) (./parallel.aux) (./lineno.aux) (./abntex2-latexintro.aux))
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 2692.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 2692.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 2720.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 2720.
 Package logreq Info: Writing requests to 'introducaolatex-final.run.xml'.
 \openout1 = `introducaolatex-final.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 35264 strings out of 494004
- 677664 string characters out of 3153866
- 1060654 words of memory out of 3000000
- 37718 multiletter control sequences out of 15000+200000
- 22524 words of font info for 230 fonts, out of 3000000 for 9000
+ 35515 strings out of 494004
+ 682955 string characters out of 3153866
+ 1067654 words of memory out of 3000000
+ 37942 multiletter control sequences out of 15000+200000
+ 22580 words of font info for 237 fonts, out of 3000000 for 9000
  1144 hyphenation exceptions out of 8191
- 48i,19n,59p,1261b,1435s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 48i,19n,59p,1257b,1435s stack positions out of 5000i,500n,10000p,200000b,50000s
 
 Output written on introducaolatex-final.pdf (111 pages).
