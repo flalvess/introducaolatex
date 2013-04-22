@@ -3,7 +3,7 @@
 %Exemplos dos estilos podem ser encontrados em:
 %\url{http://www.ctan.org/tex-archive/macros/latex/contrib/biblatex//doc/examples}.
 
-O pacote \texttt{biblatex} fornece um substituto tanto para o \texttt{natbib} quanto para o \texttt{bibtex}. Sua vantagem é a maior facilidade e versatilidade nas citações, e a capacidade de aceitar entradas em codificação \texttt{utf8}. Um arquivo \texttt{biblatex} é basicamente arquivo \texttt{.bib}. Ele pode ser processado com o comando \texttt{bibtex} (utilizando a opção \texttt{backend=bibtex}, que é padrão) ou com o comando \texttt{biber} utilizando \texttt{backend=biber} como opção. O \texttt{biblatex} inclui muitas opções, a abaixo apresentaremos somente algumas. (Para mais detalhes, ver a documentação do pacote.) A desvantagem do \texttt{biblatex} é que não há tantos estilos disponíveis quanto para \texttt{bibtex}. Para estilos disponíveis por padrão, ver: \url{http://www.ctan.org/tex-archive/macros/latex/exptl/biblatex-contrib}.
+O pacote \texttt{biblatex} fornece um substituto tanto para o \texttt{natbib} quanto para o \texttt{bibtex}. Sua vantagem é a maior facilidade e versatilidade nas citações, e a capacidade de aceitar entradas em codificação \texttt{utf8}. Um arquivo \texttt{biblatex} é basicamente arquivo \texttt{.bib}. Ele pode ser processado com o comando \texttt{bibtex} (utilizando a opção \texttt{backend=bibtex}) ou com o comando \texttt{biber} utilizando \texttt{backend=biber} como opção. O \texttt{biblatex} inclui muitas opções, a abaixo apresentaremos somente algumas. (Para mais detalhes, ver a documentação do pacote.) A desvantagem do \texttt{biblatex} é que não há tantos estilos disponíveis quanto para \texttt{bibtex}. Para estilos disponíveis por padrão, ver: \url{http://www.ctan.org/tex-archive/macros/latex/exptl/biblatex-contrib}.
 
 
 \begin{verbatim}
@@ -29,11 +29,75 @@ doi=false,backend=bibtex]{biblatex}
 \item[doi=false] Para retirar entrada \textsc{DOI} (Digital Object Identifier -- \url{http://en.wikipedia.org/wiki/Digital_object_identifier}).
 \item[backend=bibtex] Utiliza o \texttt{bibtex} para compilar.
 \item[csquotes] Útil para citações utilizando aspas em várias línguas, altamente recomendável para bom funcionamento do \texttt{biblatex}.
-\item[DefineBibliographyStrings\ldots] Por padrão, o nome do autor, quando repetido, é substituído no sistema autor-data por um travessão (---). Aqui temos o nome do idioma e o tamanho dessa linha para autores repetidos.
+\item[DefineBibliographyStrings\ldots] Por padrão, o nome do autor, quando repetido, é substituído no sistema autor-data por um travessão (---). Aqui temos o nome do idioma e o tamanho dessa linha para autores repetidos. Também existe a opção \texttt{dashed=false}, para repetir o nome do autor.
 \item[addbibresource] Aqui colocamos o arquivo \texttt{.bib} (a base de dados bibliográfica) a ser utilizada. (Note a diferença com \texttt{bibtex}, onde essa informação era dada no fim do documento.)
 \item[printbibliography] Para gerar a bibliografia (antes do fim do documento).
 \item[damedash=false] Não substituir o nome do autor repetido por uma linha/travessão.
 \end{description}
+
+Alternativemente, pode-se utilizar \texttt{backend=biber}. \textsf{Biber} é um substituto para \texttt{Bibtex}, e é o processador padrão para \textsf{Biblatex}. Quando compilar o documento, é só substituir o comando \verb+bibtex arquivo.tex+ por \verb+biber arquivo.tex+. Pode-se também configurar o seu editor de textos para usar \textsf{Biber}. Deve-se atentar para o fato de que o \textsf{Biber} \textit{exige que a extensão do arquivo \texttt{.bib} seja especificada:}
+
+\begin{verbatim}
+\addbibresource{latex.bib}
+\end{verbatim}
+
+\subsection{Separando bibliografias por parte do documento}
+
+Com \textsf{Biblatex} podemos separar facilmente as bibliografias segundo a parte do documento (capítulo, seção etc.), inserindo a parte/capítulo/seção no ambiente \verb+refsection+:
+
+
+\begin{verbatim}
+\begin{document}
+\maketitle
+\section{First}
+\begin{refsection}
+Citation section \thesection: \textcite{knuth1986texbook}
+\printbibliography %[heading=subbibliography]
+\end{refsection}
+\section{Second}
+\begin{refsection}
+Citation section \thesection: \textcite{knuth1977fast}.
+\printbibliography %[heading=subbibliography]
+\end{refsection}
+\end{document}
+
+\end{verbatim}
+
+\subsection{Bibliografia dividida}
+
+Pode ser necessário dividir a bibliografia por tipo, fonte etc. É possível subdividir por palavras-chave (keywords) no seu arquivo bib:\footnote{Exemplos adaptador de: \url{http://texblog.org/2012/10/22/multiple-bibliographies-with-biblatex/}}
+
+
+\begin{verbatim}
+@article{texblog2012,
+  keywords = {own}, % palavra-chave para bibliografia dividida
+  title={My fancy publication},
+  author={Texblog, T},
+  journal={TUGboat},
+  volume={33},
+  number={3},
+  pages={1001--1002},
+  year={2012},
+}
+
+\end{verbatim}
+E criar  referências segundo as palavras-chave:
+
+\begin{verbatim}
+\printbibliography[keyword=own,title={Minhas publicações}]
+\printbibliography[notkeyword=own,title={Publicações Gerais}]]
+\end{verbatim}
+
+Podemos também dividir por tipo de bibliografia:
+
+\begin{verbatim}
+\printbibliography[title={Livros},type=book]
+\printbibliography[title={Artigos},type=article]
+\printbibliography[title={Outras referências}, nottype=article, nottype=book]
+\printbibliography[title={Sites consultados},type=online]
+\end{verbatim}
+
+O \textit{tipo} é a entrada Bibtex, como, por exemplo, \verb+@book+ para livros etc. As entradas para sites são: \verb+@online+ ou \verb+@electronic+.
 
 \subsection{Citações utilizando \texttt{biblatex}}
 
