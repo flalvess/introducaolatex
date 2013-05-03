@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.4-0.9998 (TeX Live 2012/W32TeX) (format=xelatex 2013.3.31)  22 APR 2013 17:20
+This is XeTeX, Version 3.1415926-2.4-0.9998 (TeX Live 2012/W32TeX) (format=xelatex 2013.3.31)  2 MAY 2013 19:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -816,8 +816,10 @@ Type  H <return>  for immediate help.
                                                   
 l.2494 \@saveprimitive\leqno\@@leqno
                                     
-? s
-OK, entering \scrollmode...
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
 
 ! LaTeX Error: Unable to properly define \@@eqno; primitive \eqno no longer pri
 mitive.
@@ -881,32 +883,6 @@ LaTeX Info: Redefining \] on input line 2666.
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !
-! fontspec error: "font-not-found"
-! 
-! The font "Adobe Arabic" cannot be found.
-! 
-! See the fontspec documentation for further information.
-! 
-! For immediate help type H <return>.
-!...............................................  
-                                                  
-l.25 ...cript=Arabic,Numbers=Arabic]{Adobe Arabic}
-                                                  
-|'''''''''''''''''''''''''''''''''''''''''''''''
-| A font might not be found for many reasons.
-| Check the spelling, where the font is installed etc. etc.
-| 
-| When in doubt, ask someone for help!
-|...............................................
-
-*************************************************
-* fontspec warning: "script-not-exist"
-* 
-* Font 'Adobe Arabic' does not contain script 'Arabic'.
-*************************************************
-
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!
 ! LaTeX error: "kernel/key-choice-unknown"
 ! 
 ! \msg text > LaTeX/kernel/key-choice-unknown {fontspec/Numbers}{Arabic}{}{}
@@ -924,27 +900,6 @@ l.25 ...cript=Arabic,Numbers=Arabic]{Adobe Arabic}
 |...............................................
 
 \g_fontspec_family_Adobe Arabic_int=\count156
-
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!
-! fontspec error: "font-not-found"
-! 
-! The font "Adobe Arabic" cannot be found.
-! 
-! See the fontspec documentation for further information.
-! 
-! For immediate help type H <return>.
-!...............................................  
-                                                  
-l.25 ...cript=Arabic,Numbers=Arabic]{Adobe Arabic}
-                                                  
-|'''''''''''''''''''''''''''''''''''''''''''''''
-| A font might not be found for many reasons.
-| Check the spelling, where the font is installed etc. etc.
-| 
-| When in doubt, ask someone for help!
-|...............................................
-
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !
@@ -969,16 +924,44 @@ l.25 ...cript=Arabic,Numbers=Arabic]{Adobe Arabic}
 . 
 . Could not resolve font Adobe Arabic/B (it probably doesn't exist).
 .................................................
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font Adobe Arabic/I (it probably doesn't exist).
-.................................................
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font Adobe Arabic/BI (it probably doesn't exist).
-.................................................
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!
+! LaTeX error: "kernel/key-choice-unknown"
+! 
+! \msg text > LaTeX/kernel/key-choice-unknown {fontspec/Numbers}{Arabic}{}{}
+! 
+! See the LaTeX3 documentation for further information.
+! 
+! For immediate help type H <return>.
+!...............................................  
+                                                  
+l.25 ...cript=Arabic,Numbers=Arabic]{Adobe Arabic}
+                                                  
+|'''''''''''''''''''''''''''''''''''''''''''''''
+| \msg extra text > LaTeX/kernel/key-choice-unknown
+| {fontspec/Numbers}{Arabic}{}{}
+|...............................................
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!
+! LaTeX error: "kernel/key-choice-unknown"
+! 
+! \msg text > LaTeX/kernel/key-choice-unknown {fontspec/Numbers}{Arabic}{}{}
+! 
+! See the LaTeX3 documentation for further information.
+! 
+! For immediate help type H <return>.
+!...............................................  
+                                                  
+l.25 ...cript=Arabic,Numbers=Arabic]{Adobe Arabic}
+                                                  
+|'''''''''''''''''''''''''''''''''''''''''''''''
+| \msg extra text > LaTeX/kernel/key-choice-unknown
+| {fontspec/Numbers}{Arabic}{}{}
+|...............................................
+
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -988,70 +971,19 @@ l.25 ...cript=Arabic,Numbers=Arabic]{Adobe Arabic}
 . This font family consists of the following shapes:
 . 
 . * 'normal' with NFSS spec.:
-. <->"Adobe Arabic/ICU:mapping=tex-text;"
-.................................................
-
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!
-! fontspec error: "font-not-found"
-! 
-! The font "Serto Batnan" cannot be found.
-! 
-! See the fontspec documentation for further information.
-! 
-! For immediate help type H <return>.
-!...............................................  
-                                                  
-l.26 ...ly\syriacfont[Script=Syriac]{Serto Batnan}
-                                                  
-|'''''''''''''''''''''''''''''''''''''''''''''''
-| A font might not be found for many reasons.
-| Check the spelling, where the font is installed etc. etc.
-| 
-| When in doubt, ask someone for help!
-|...............................................
-
-*************************************************
-* fontspec warning: "script-not-exist"
-* 
-* Font 'Serto Batnan' does not contain script 'Syriac'.
-*************************************************
-\g_fontspec_family_Serto Batnan_int=\count157
-
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!
-! fontspec error: "font-not-found"
-! 
-! The font "Serto Batnan" cannot be found.
-! 
-! See the fontspec documentation for further information.
-! 
-! For immediate help type H <return>.
-!...............................................  
-                                                  
-l.26 ...ly\syriacfont[Script=Syriac]{Serto Batnan}
-                                                  
-|'''''''''''''''''''''''''''''''''''''''''''''''
-| A font might not be found for many reasons.
-| Check the spelling, where the font is installed etc. etc.
-| 
-| When in doubt, ask someone for help!
-|...............................................
-
-.................................................
-. fontspec info: "no-font-shape"
+. <->"Adobe Arabic/ICU:script=arab;language=DFLT;mapping=tex-text;"
 . 
-. Could not resolve font Serto Batnan/B (it probably doesn't exist).
+. * 'italic' with NFSS spec.:
+. <->"Adobe Arabic/I/ICU:script=arab;language=DFLT;mapping=tex-text;"
+. 
+. * 'bold italic' with NFSS spec.:
+. <->"Adobe Arabic/BI/ICU:script=arab;language=DFLT;mapping=tex-text;"
 .................................................
+\g_fontspec_family_Serto Batnan_int=\count157
 .................................................
 . fontspec info: "no-font-shape"
 . 
 . Could not resolve font Serto Batnan/I (it probably doesn't exist).
-.................................................
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font Serto Batnan/BI (it probably doesn't exist).
 .................................................
 .................................................
 . fontspec info: "defining-font"
@@ -1062,71 +994,15 @@ l.26 ...ly\syriacfont[Script=Syriac]{Serto Batnan}
 . This font family consists of the following shapes:
 . 
 . * 'normal' with NFSS spec.:
-. <->"Serto Batnan/ICU:mapping=tex-text;"
+. <->"Serto Batnan/ICU:script=syrc;language=DFLT;mapping=tex-text;"
+. 
+. * 'bold' with NFSS spec.:
+. <->"Serto Batnan/B/ICU:script=syrc;language=DFLT;mapping=tex-text;"
+. 
+. * 'bold italic' with NFSS spec.:
+. <->"Serto Batnan/BI/ICU:script=syrc;language=DFLT;mapping=tex-text;"
 .................................................
-
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!
-! fontspec error: "font-not-found"
-! 
-! The font "Adobe Hebrew" cannot be found.
-! 
-! See the fontspec documentation for further information.
-! 
-! For immediate help type H <return>.
-!...............................................  
-                                                  
-l.27 ...ly\hebrewfont[Script=Hebrew]{Adobe Hebrew}
-                                                  
-|'''''''''''''''''''''''''''''''''''''''''''''''
-| A font might not be found for many reasons.
-| Check the spelling, where the font is installed etc. etc.
-| 
-| When in doubt, ask someone for help!
-|...............................................
-
-*************************************************
-* fontspec warning: "script-not-exist"
-* 
-* Font 'Adobe Hebrew' does not contain script 'Hebrew'.
-*************************************************
 \g_fontspec_family_Adobe Hebrew_int=\count158
-
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!
-! fontspec error: "font-not-found"
-! 
-! The font "Adobe Hebrew" cannot be found.
-! 
-! See the fontspec documentation for further information.
-! 
-! For immediate help type H <return>.
-!...............................................  
-                                                  
-l.27 ...ly\hebrewfont[Script=Hebrew]{Adobe Hebrew}
-                                                  
-|'''''''''''''''''''''''''''''''''''''''''''''''
-| A font might not be found for many reasons.
-| Check the spelling, where the font is installed etc. etc.
-| 
-| When in doubt, ask someone for help!
-|...............................................
-
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font Adobe Hebrew/B (it probably doesn't exist).
-.................................................
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font Adobe Hebrew/I (it probably doesn't exist).
-.................................................
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font Adobe Hebrew/BI (it probably doesn't exist).
-.................................................
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -1136,7 +1012,16 @@ l.27 ...ly\hebrewfont[Script=Hebrew]{Adobe Hebrew}
 . This font family consists of the following shapes:
 . 
 . * 'normal' with NFSS spec.:
-. <->"Adobe Hebrew/ICU:mapping=tex-text;"
+. <->"Adobe Hebrew/ICU:script=hebr;language=DFLT;mapping=tex-text;"
+. 
+. * 'bold' with NFSS spec.:
+. <->"Adobe Hebrew/B/ICU:script=hebr;language=DFLT;mapping=tex-text;"
+. 
+. * 'italic' with NFSS spec.:
+. <->"Adobe Hebrew/I/ICU:script=hebr;language=DFLT;mapping=tex-text;"
+. 
+. * 'bold italic' with NFSS spec.:
+. <->"Adobe Hebrew/BI/ICU:script=hebr;language=DFLT;mapping=tex-text;"
 .................................................
 (c:/texlive/2012/texmf-dist/tex/latex/koma-script/tocstyle.sty
 Package: tocstyle 2009/11/09 v0.2d-alpha LaTeX2e KOMA-Script package (versatile
@@ -2323,7 +2208,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.133 \begin{document}
+l.134 \begin{document}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2454,70 +2339,46 @@ Package biblatex Info: ... file 'syriac.lbx' not found.
 Package biblatex Warning: Language 'syriac' not supported.
 (biblatex)                Using fallback language 'brazil' on input line 231.
 
-! Font EU1/SertoBatnan(0)/m/n/10="Serto Batnan/ICU:mapping=tex-text;" at 10.0pt
- not loadable: Metric (TFM) file or installed font not found.
-<to be read again> 
-                   relax 
-l.231 \select@language {syriac}
-                               
-I wasn't able to read the size data for this font,
-so I will ignore the font specification.
-[Wizards can fix TFM files using TFtoPL/PLtoTF.]
-You might try inserting a different font spec;
-e.g., type `I\font<same font id>=<substitute font name>'.
-
 Package biblatex Info: Trying to load language 'hebrew'...
 Package biblatex Info: ... file 'hebrew.lbx' not found.
 
 Package biblatex Warning: Language 'hebrew' not supported.
 (biblatex)                Using fallback language 'brazil' on input line 239.
 
-! Font EU1/AdobeHebrew(0)/m/n/10="Adobe Hebrew/ICU:mapping=tex-text;" at 10.0pt
- not loadable: Metric (TFM) file or installed font not found.
-<to be read again> 
-                   relax 
-l.239 \select@language {hebrew}
-                               
-I wasn't able to read the size data for this font,
-so I will ignore the font specification.
-[Wizards can fix TFM files using TFtoPL/PLtoTF.]
-You might try inserting a different font spec;
-e.g., type `I\font<same font id>=<substitute font name>'.
-
 (./abntex2-latexintro.aux))
 \openout1 = `introducaolatex-final.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 133.
-LaTeX Font Info:    ... okay on input line 133.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 133.
-LaTeX Font Info:    ... okay on input line 133.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 133.
-LaTeX Font Info:    ... okay on input line 133.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 133.
-LaTeX Font Info:    ... okay on input line 133.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 133.
-LaTeX Font Info:    ... okay on input line 133.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 133.
-LaTeX Font Info:    ... okay on input line 133.
-LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 133.
-LaTeX Font Info:    ... okay on input line 133.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 133.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 133.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 134.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 134.
  (c:/texlive/2012/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 133.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 133.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 133.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 134.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 134.
 
  (c:/texlive/2012/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 133.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 133.
-LaTeX Font Info:    ... okay on input line 133.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 133.
-LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
 \AtBeginShipoutBox=\box97
 
 
@@ -2529,7 +2390,7 @@ See the bidi package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.133 \begin{document}
+l.134 \begin{document}
                       
 This error message was generated by an \errmessage
 command, so I can't give any explicit help.
@@ -2545,7 +2406,7 @@ See the bidi package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.133 \begin{document}
+l.134 \begin{document}
                       
 (That was another \errmessage.)
 
@@ -2558,7 +2419,7 @@ See the bidi package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.133 \begin{document}
+l.134 \begin{document}
                       
 (That was another \errmessage.)
 
@@ -2571,7 +2432,7 @@ See the bidi package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.133 \begin{document}
+l.134 \begin{document}
                       
 (That was another \errmessage.)
 
@@ -2584,7 +2445,7 @@ See the bidi package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.133 \begin{document}
+l.134 \begin{document}
                       
 (That was another \errmessage.)
 
@@ -2597,7 +2458,7 @@ See the bidi package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.133 \begin{document}
+l.134 \begin{document}
                       
 (That was another \errmessage.)
 
@@ -2610,7 +2471,7 @@ See the bidi package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.133 \begin{document}
+l.134 \begin{document}
                       
 (That was another \errmessage.)
 
@@ -2623,7 +2484,7 @@ See the bidi package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.133 \begin{document}
+l.134 \begin{document}
                       
 (That was another \errmessage.)
 
@@ -2636,7 +2497,7 @@ See the bidi package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.133 \begin{document}
+l.134 \begin{document}
                       
 (That was another \errmessage.)
 
@@ -2649,14 +2510,14 @@ See the bidi package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.133 \begin{document}
+l.134 \begin{document}
                       
 (That was another \errmessage.)
 
 ! Undefined control sequence.
 \set@color ->\special {color push \current@color 
                                                  }\aftergroup \reset@color 
-l.133 \begin{document}
+l.134 \begin{document}
                       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2671,11 +2532,11 @@ and I'll forget about whatever was undefined.
 * 
 * Try to use `\setCJKsansfont[...]{...}' to define it.
 *************************************************
-Package tocstyle Info: prepare \l@part for redefinition on input line 133.
+Package tocstyle Info: prepare \l@part for redefinition on input line 134.
 ! Undefined control sequence.
 \set@color ->\special {color push \current@color 
                                                  }\aftergroup \reset@color 
-l.133 \begin{document}
+l.134 \begin{document}
                       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2683,34 +2544,34 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-Package tocstyle Info: prepare \l@chapter for redefinition on input line 133.
-Package tocstyle Info: prepare \l@section for redefinition on input line 133.
-LaTeX Font Info:    Try loading font information for U+zeur on input line 133.
+Package tocstyle Info: prepare \l@chapter for redefinition on input line 134.
+Package tocstyle Info: prepare \l@section for redefinition on input line 134.
+LaTeX Font Info:    Try loading font information for U+zeur on input line 134.
 (c:/texlive/2012/texmf-dist/tex/latex/eulervm/uzeur.fd
 File: uzeur.fd 2005/01/11 v4.0 (WaS)
 )
-LaTeX Font Info:    Try loading font information for U+zeus on input line 133.
+LaTeX Font Info:    Try loading font information for U+zeus on input line 134.
 
 (c:/texlive/2012/texmf-dist/tex/latex/eulervm/uzeus.fd
 File: uzeus.fd 2005/01/11 v4.0 (WaS)
 )
-LaTeX Font Info:    Try loading font information for U+zeuex on input line 133.
+LaTeX Font Info:    Try loading font information for U+zeuex on input line 134.
 
 
 (c:/texlive/2012/texmf-dist/tex/latex/eulervm/uzeuex.fd
 File: uzeuex.fd 2005/01/11 v4.0 (WaS)
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 133.
+LaTeX Font Info:    Try loading font information for U+msa on input line 134.
 
 (c:/texlive/2012/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 133.
+LaTeX Font Info:    Try loading font information for U+msb on input line 134.
 
 (c:/texlive/2012/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+wasy on input line 133.
+LaTeX Font Info:    Try loading font information for U+wasy on input line 134.
 
 (c:/texlive/2012/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
@@ -2718,7 +2579,7 @@ File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
 ! Undefined control sequence.
 \set@color ->\special {color push \current@color 
                                                  }\aftergroup \reset@color 
-l.133 \begin{document}
+l.134 \begin{document}
                       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2726,12 +2587,12 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-Package tocstyle Info: prepare \l@subsection for redefinition on input line 133
+Package tocstyle Info: prepare \l@subsection for redefinition on input line 134
 .
 ! Undefined control sequence.
 \set@color ->\special {color push \current@color 
                                                  }\aftergroup \reset@color 
-l.133 \begin{document}
+l.134 \begin{document}
                       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2739,11 +2600,11 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-Package tocstyle Info: prepare \l@table for redefinition on input line 133.
+Package tocstyle Info: prepare \l@table for redefinition on input line 134.
 ! Undefined control sequence.
 \set@color ->\special {color push \current@color 
                                                  }\aftergroup \reset@color 
-l.133 \begin{document}
+l.134 \begin{document}
                       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2751,11 +2612,11 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-Package tocstyle Info: prepare \l@figure for redefinition on input line 133.
+Package tocstyle Info: prepare \l@figure for redefinition on input line 134.
 ! Undefined control sequence.
 \set@color ->\special {color push \current@color 
                                                  }\aftergroup \reset@color 
-l.133 \begin{document}
+l.134 \begin{document}
                       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2782,7 +2643,7 @@ kip \fi \parindent #2\relax \@afterindenttrue \interlinepenalty \@M \leavevmode
  \null \nobreak \hskip -\if@RTL \rightskip \else \leftskip \fi {#4}\nobreak \le
 aders \hbox {$\m@th \mkern \@dotsep mu\hbox {.}\mkern \@dotsep mu$}\hfill \nobr
 eak \hb@xt@ \@pnumwidth {{\hfil \normalfont \normalcolor #5}}\par }\fi  on inpu
-t line 133.
+t line 134.
 (c:/texlive/2012/texmf-dist/tex/latex/ms/ragged2e.sty
 Package: ragged2e 2009/05/21 v2.1 ragged2e Package (MS)
 
@@ -2811,7 +2672,7 @@ LaTeX Info: Redefining \selectfont on input line 126.
 \RaggedRightParindent=\skip173
 \JustifyingParindent=\skip174
 )
-Package hyperref Info: Link coloring OFF on input line 133.
+Package hyperref Info: Link coloring OFF on input line 134.
  (c:/texlive/2012/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -2820,9 +2681,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count419
 )
-LaTeX Info: Redefining \ref on input line 133.
-LaTeX Info: Redefining \pageref on input line 133.
-LaTeX Info: Redefining \nameref on input line 133.
+LaTeX Info: Redefining \ref on input line 134.
+LaTeX Info: Redefining \pageref on input line 134.
+LaTeX Info: Redefining \nameref on input line 134.
 
 (./introducaolatex-final.out) (./introducaolatex-final.out)
 \@outlinefile=\write4
@@ -2880,8 +2741,8 @@ sion.
 
 Package biblatex Info: ... file 'introducaolatex-final.bbl' found.
 (./introducaolatex-final.bbl)
-Package biblatex Info: Reference section=0 on input line 133.
-Package biblatex Info: Reference segment=0 on input line 133.
+Package biblatex Info: Reference section=0 on input line 134.
+Package biblatex Info: Reference segment=0 on input line 134.
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: xetex
 * paper: a4paper
@@ -3096,7 +2957,7 @@ number indent calculated (toc, 1): 14.88104pt
 number indent by \l@... (toc, 2):  41.61002pt
 text indent by \l@... (toc, 2):  35.03995pt
 number indent by parent (toc, 2):  40.42738pt
-text indent calculated (toc, 2): 27.27644pt
+text indent calculated (toc, 2): 27.83488pt
 number indent calculated (toc, 2): 40.42738pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
@@ -3146,7 +3007,17 @@ number indent calculated (toc, 1): 14.88104pt
 number indent by \l@... (toc, 2):  41.61002pt
 text indent by \l@... (toc, 2):  35.03995pt
 number indent by parent (toc, 2):  40.42738pt
-text indent calculated (toc, 2): 27.27644pt
+text indent calculated (toc, 2): 27.83488pt
+number indent calculated (toc, 2): 40.42738pt
+number indent by \l@... (toc, 2):  41.61002pt
+text indent by \l@... (toc, 2):  35.03995pt
+number indent by parent (toc, 2):  40.42738pt
+text indent calculated (toc, 2): 27.83488pt
+number indent calculated (toc, 2): 40.42738pt
+number indent by \l@... (toc, 2):  41.61002pt
+text indent by \l@... (toc, 2):  35.03995pt
+number indent by parent (toc, 2):  40.42738pt
+text indent calculated (toc, 2): 27.83488pt
 number indent calculated (toc, 2): 40.42738pt
 number indent by \l@... (toc, 0):  0.0pt
 text indent by \l@... (toc, 0):  16.42499pt
@@ -3158,10 +3029,7 @@ text indent by \l@... (toc, 1):  25.18501pt
 number indent by parent (toc, 1):  14.88104pt
 text indent calculated (toc, 1): 25.54634pt
 number indent calculated (toc, 1): 14.88104pt
-
-Underfull \vbox (badness 3354) has occurred while \output is active []
-
- [5
+[5
 
 
 
@@ -3179,27 +3047,27 @@ number indent calculated (toc, 1): 14.88104pt
 number indent by \l@... (toc, 2):  41.61002pt
 text indent by \l@... (toc, 2):  35.03995pt
 number indent by parent (toc, 2):  40.42738pt
-text indent calculated (toc, 2): 27.27644pt
+text indent calculated (toc, 2): 27.83488pt
 number indent calculated (toc, 2): 40.42738pt
 number indent by \l@... (toc, 2):  41.61002pt
 text indent by \l@... (toc, 2):  35.03995pt
 number indent by parent (toc, 2):  40.42738pt
-text indent calculated (toc, 2): 27.27644pt
+text indent calculated (toc, 2): 27.83488pt
 number indent calculated (toc, 2): 40.42738pt
 number indent by \l@... (toc, 2):  41.61002pt
 text indent by \l@... (toc, 2):  35.03995pt
 number indent by parent (toc, 2):  40.42738pt
-text indent calculated (toc, 2): 27.27644pt
+text indent calculated (toc, 2): 27.83488pt
 number indent calculated (toc, 2): 40.42738pt
 number indent by \l@... (toc, 2):  41.61002pt
 text indent by \l@... (toc, 2):  35.03995pt
 number indent by parent (toc, 2):  40.42738pt
-text indent calculated (toc, 2): 27.27644pt
+text indent calculated (toc, 2): 27.83488pt
 number indent calculated (toc, 2): 40.42738pt
 number indent by \l@... (toc, 2):  41.61002pt
 text indent by \l@... (toc, 2):  35.03995pt
 number indent by parent (toc, 2):  40.42738pt
-text indent calculated (toc, 2): 27.27644pt
+text indent calculated (toc, 2): 27.83488pt
 number indent calculated (toc, 2): 40.42738pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
@@ -3364,7 +3232,7 @@ number indent calculated (toc, 0): 0.0pt
 LaTeX Font Info:    Font shape `EU1/JannonTModernePro(0)/m/sl' in size <10.95> 
 not available
 (Font)              Font shape `EU1/JannonTModernePro(0)/m/it' tried instead on
- input line 153.
+ input line 157.
 [6]
 number indent by \l@... (toc, 0):  0.0pt
 text indent by \l@... (toc, 0):  16.42499pt
@@ -3396,30 +3264,6 @@ text indent by \l@... (toc, 1):  25.18501pt
 number indent by parent (toc, 1):  14.88104pt
 text indent calculated (toc, 1): 25.54634pt
 number indent calculated (toc, 1): 14.88104pt
-! Font EU1/SertoBatnan(0)/m/n/10.95="Serto Batnan/ICU:mapping=tex-text;" at 10.
-95pt not loadable: Metric (TFM) file or installed font not found.
-<to be read again> 
-                   relax 
-l.173 \select@language {syriac}
-                               
-I wasn't able to read the size data for this font,
-so I will ignore the font specification.
-[Wizards can fix TFM files using TFtoPL/PLtoTF.]
-You might try inserting a different font spec;
-e.g., type `I\font<same font id>=<substitute font name>'.
-
-! Font EU1/AdobeHebrew(0)/m/n/10.95="Adobe Hebrew/ICU:mapping=tex-text;" at 10.
-95pt not loadable: Metric (TFM) file or installed font not found.
-<to be read again> 
-                   relax 
-l.177 \select@language {hebrew}
-                               
-I wasn't able to read the size data for this font,
-so I will ignore the font specification.
-[Wizards can fix TFM files using TFtoPL/PLtoTF.]
-You might try inserting a different font spec;
-e.g., type `I\font<same font id>=<substitute font name>'.
-
 number indent by \l@... (toc, 0):  0.0pt
 text indent by \l@... (toc, 0):  16.42499pt
 number indent by parent (toc, 0):  0.0pt
@@ -3594,7 +3438,7 @@ Capítulo 1.
 
 
 ]
-Overfull \hbox (3.68503pt too wide) in paragraph at lines 190--191
+Overfull \hbox (3.68503pt too wide) in paragraph at lines 191--192
 []\EU1/JannonTModernePro(0)/m/n/10.95 Na verdade o processo de trabalho (\EU1/J
 annonTModernePro(0)/m/it/10.95 workflow\EU1/JannonTModernePro(0)/m/n/10.95 ) é
  diferente em processadores de texto (Word
@@ -3604,7 +3448,7 @@ File: grafico-latex.png Graphic file (type QTm)
 <use  "grafico-latex.png" > [2] [3]
 File: biblia-gutenberg.jpg Graphic file (type QTm)
  <use  "biblia-gutenberg.jpg" >
-Overfull \hbox (0.4379pt too wide) in paragraph at lines 278--279
+Overfull \hbox (0.4379pt too wide) in paragraph at lines 279--280
 []\EU1/JannonTModernePro(0)/m/n/10.95 ([]$[][][][] [] [] [] [][][] [] [][][] []
  [][][] [] [][][][][][][][]$[]) para Linux, Mac ([]$[][][][] [] [] [] [][][] []
  [][][] [] [][][] [] [][][][][][]$[])
@@ -3618,26 +3462,26 @@ Capítulo 2.
 [7]
 File: latexbasico.png Graphic file (type QTm)
  <use  "latexbasico.png" > [8] [9]
-Overfull \hbox (7.35124pt too wide) in paragraph at lines 465--466
+Overfull \hbox (7.35124pt too wide) in paragraph at lines 466--467
 \EU1/JannonTModernePro(0)/m/n/10.95 cumento que o autor quer criar. Isso é esp
 ecificado usando o comando []\EU1/Consolas(0)/m/n/10.95 \documentclass{...}\EU1
 /JannonTModernePro(0)/m/n/10.95 . 
  []
 
 
-Underfull \hbox (badness 5893) in paragraph at lines 495--495
+Underfull \hbox (badness 5893) in paragraph at lines 496--496
 []|\EU1/JannonTModernePro(0)/m/n/10.95 Tamanho da fonte principal do docu-
  []
 
 
-Underfull \hbox (badness 3407) in paragraph at lines 495--495
+Underfull \hbox (badness 3407) in paragraph at lines 496--496
 \EU1/JannonTModernePro(0)/m/n/10.95 direita (openright) ou qualquer página
  []
 
 [10] [11] [12]
 Capítulo 3.
 LaTeX Font Info:    Font shape `EU1/Consolas(0)/bx/n' will be
-(Font)              scaled to size 12.9599pt on input line 523.
+(Font)              scaled to size 12.9599pt on input line 524.
 [13
 
 
@@ -3730,20 +3574,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 170--170
 ]
 Capítulo 5.
 
-Overfull \hbox (14.61047pt too wide) in paragraph at lines 763--765
+Overfull \hbox (14.61047pt too wide) in paragraph at lines 764--766
 \EU1/JannonTModernePro(0)/m/n/10.95 Mas você pode converter as tabelas do Exce
 l ou OpenOffice com plugins: []$[][][][] [] [] [] [][][][][][][][][][] []$
  []
 
 
-Overfull \hbox (28.29338pt too wide) in paragraph at lines 763--765
+Overfull \hbox (28.29338pt too wide) in paragraph at lines 764--766
 $[][][][][][][][][][][] [] [][][][]$[] \EU1/JannonTModernePro(0)/m/n/10.95 para
  OpenOffice/Libreoffice e []$[][][][] [] [] [] [][][] [] [][][][] [] [][][] [] 
 [][][][][][][][][][][][] [] [][][][][][][] []$
  []
 
 [33] [34]
-Overfull \hbox (10.55418pt too wide) in paragraph at lines 835--836
+Overfull \hbox (10.55418pt too wide) in paragraph at lines 836--837
 []\EU1/JannonTModernePro(0)/m/n/10.95 Se você preferir girar a tabela na verti
 cal, use o pacote \EU1/Consolas(0)/m/n/10.95 rotating \EU1/JannonTModernePro(0)
 /m/n/10.95 e o ambiente \EU1/Consolas(0)/m/n/10.95 sidewaystable\EU1/JannonTMod
@@ -3751,7 +3595,7 @@ ernePro(0)/m/n/10.95 :
  []
 
 
-Overfull \hbox (18.22098pt too wide) in paragraph at lines 848--849
+Overfull \hbox (18.22098pt too wide) in paragraph at lines 849--850
 []\EU1/JannonTModernePro(0)/m/n/10.95 Para exemplos mais elaborados (e que difi
 cilmente você utilizará), ver []$[][][][] [] [] [] [][] [] [][][][][][][][][]
  []$
@@ -3763,50 +3607,50 @@ cilmente você utilizará), ver []$[][][][] [] [] [] [][] [] [][][][][][][][][]
 ]
 Capítulo 6.
 
-Overfull \hbox (34.00002pt too wide) in paragraph at lines 870--888
+Overfull \hbox (34.00002pt too wide) in paragraph at lines 871--889
 [][] 
  []
 
 
-Overfull \hbox (13.00252pt too wide) in paragraph at lines 899--900
+Overfull \hbox (13.00252pt too wide) in paragraph at lines 900--901
 []\EU1/JannonTModernePro(0)/m/n/10.95 Lembrando que []\EU1/Consolas(0)/m/n/10.9
 5 \labelitemi \EU1/JannonTModernePro(0)/m/n/10.95 é o primeiro nível; []\EU1/
 Consolas(0)/m/n/10.95 \labelitemii\EU1/JannonTModernePro(0)/m/n/10.95 , o segun
 do; e []\EU1/Consolas(0)/m/n/10.95 \labelitemiii
  []
 
-LaTeX Font Info:    Try loading font information for U+ding on input line 901.
+LaTeX Font Info:    Try loading font information for U+ding on input line 902.
 (c:/texlive/2012/texmf-dist/tex/latex/bbding/uding.fd
 File: Uding.fd 1996/02/01 v1.0 BBding font definitions
 )
-Overfull \hbox (6.0645pt too wide) in paragraph at lines 901--902
+Overfull \hbox (6.0645pt too wide) in paragraph at lines 902--903
 []\EU1/JannonTModernePro(0)/m/n/10.95 O item []\EU1/Consolas(0)/m/n/10.95 \chec
 kmark \EU1/JannonTModernePro(0)/m/n/10.95 pode ser modificado por qualquer sím
 bolo, por exemplo, []\EU1/Consolas(0)/m/n/10.95 \textemdash
  []
 
 
-Overfull \hbox (34.00002pt too wide) in paragraph at lines 933--951
+Overfull \hbox (34.00002pt too wide) in paragraph at lines 934--952
 [][] 
  []
 
 [37]
-Overfull \hbox (34.00002pt too wide) in paragraph at lines 954--972
+Overfull \hbox (34.00002pt too wide) in paragraph at lines 955--973
 [][] 
  []
 
 
-Overfull \hbox (34.00002pt too wide) in paragraph at lines 976--1003
+Overfull \hbox (34.00002pt too wide) in paragraph at lines 977--1004
 [][] 
  []
 
 
-Overfull \hbox (34.00002pt too wide) in paragraph at lines 1010--1041
+Overfull \hbox (34.00002pt too wide) in paragraph at lines 1011--1042
 [][] 
  []
 
 
-Overfull \hbox (0.97298pt too wide) in paragraph at lines 1051--1052
+Overfull \hbox (0.97298pt too wide) in paragraph at lines 1052--1053
 []\EU1/JannonTModernePro(0)/m/n/10.95 Você também pode especificar o tipo de 
 contador que quer: numerais romanos, em maiús-
  []
@@ -3819,18 +3663,18 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1069 \begin{enumerate}[label=\Roman*]
+l.1070 \begin{enumerate}[label=\Roman*]
                                        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (34.00002pt too wide) in paragraph at lines 1055--1077
+Overfull \hbox (34.00002pt too wide) in paragraph at lines 1056--1078
 [][] 
  []
 
 
-Overfull \hbox (0.44429pt too wide) in paragraph at lines 1108--1109
+Overfull \hbox (0.44429pt too wide) in paragraph at lines 1109--1110
 []\EU1/JannonTModernePro(0)/m/n/10.95 No entanto, é bom ter cuidado para só u
 sar \EU1/JannonTModernePro(0)/m/it/10.95 um \EU1/JannonTModernePro(0)/m/n/10.95
  dos dois pacotes (\EU1/Consolas(0)/m/n/10.95 enumerate \EU1/JannonTModernePro(
@@ -3910,7 +3754,7 @@ Overfull \vbox (18.11572pt too high) detected at line 97
 . <->"Myriad Pro/BI/ICU:script=latn;language=DFLT;mapping=tex-text;"
 .................................................
  [45]
-Overfull \hbox (18.25845pt too wide) in paragraph at lines 1327--1328
+Overfull \hbox (18.25845pt too wide) in paragraph at lines 1328--1329
 []\EU1/JannonTModernePro(0)/m/n/10.95 Para escrever fórmulas químicas, é út
 il o pacote \EU1/Consolas(0)/m/n/10.95 mhchem \EU1/JannonTModernePro(0)/m/n/10.
 95 ([]$[][][][] [] [] [] [][][] [] [][][][] [] [][][] [] [][][][][][][][][][][]
@@ -3918,40 +3762,40 @@ il o pacote \EU1/Consolas(0)/m/n/10.95 mhchem \EU1/JannonTModernePro(0)/m/n/10.
  []
 
 [46]
-LaTeX Info: Redefining \bond on input line 1336.
-LaTeX Info: Redefining \dbond on input line 1336.
-LaTeX Info: Redefining \tbond on input line 1336.
+LaTeX Info: Redefining \bond on input line 1337.
+LaTeX Info: Redefining \dbond on input line 1337.
+LaTeX Info: Redefining \tbond on input line 1337.
 
-Overfull \hbox (48.20433pt too wide) in paragraph at lines 1428--1447
+Overfull \hbox (48.20433pt too wide) in paragraph at lines 1429--1448
 [][] 
  []
 
 [47] [48] [49] [50]
-Overfull \hbox (58.55496pt too wide) in paragraph at lines 1591--1591
+Overfull \hbox (58.55496pt too wide) in paragraph at lines 1592--1592
 []\EU1/Consolas(0)/m/n/10.95 %\setlength{\textwidth}{15cm} %implementado pelo p
 acote geometry abaixo, por isso não ativo[]  
  []
 
 
-Overfull \hbox (20.62697pt too wide) in paragraph at lines 1591--1591
+Overfull \hbox (20.62697pt too wide) in paragraph at lines 1592--1592
 []\EU1/Consolas(0)/m/n/10.95 \setlength{\marginparsep}{0.5cm} %tamanho da dist�
 �ncia entre notas de margem e texto[]  
  []
 
 
-Overfull \hbox (74.80984pt too wide) in paragraph at lines 1591--1591
+Overfull \hbox (74.80984pt too wide) in paragraph at lines 1592--1592
 []\EU1/Consolas(0)/m/n/10.95 \usepackage[left=2cm,textwidth=14cm]{geometry} %ta
 manho do bloco de texto e da margem esquerda[]  
  []
 
 [51]
-Overfull \hbox (7.98436pt too wide) in paragraph at lines 1636--1636
+Overfull \hbox (7.98436pt too wide) in paragraph at lines 1637--1637
 []\EU1/Consolas(0)/m/n/10.95 \setcounter{endnote}{0} % para recomeçar a numera
 ção das notas no próximo capítulo[]  
  []
 
 [52]
-Overfull \hbox (6.03131pt too wide) in paragraph at lines 1644--1645
+Overfull \hbox (6.03131pt too wide) in paragraph at lines 1645--1646
 $[][][][][][][][][][][]$[] \EU1/JannonTModernePro(0)/m/n/10.95 e/ou []$[][][][]
  [] [] [] [][][][][][][] [] [][][][] [] [][][] [] [][][][] [] [][][][][][] [] [
 ][][][][][][][][][][][][][] [] [][][][][][][][] [] [][][]$[]. 
@@ -3963,7 +3807,7 @@ $[][][][][][][][][][][]$[] \EU1/JannonTModernePro(0)/m/n/10.95 e/ou []$[][][][]
 ]
 Capítulo 7.
 
-Overfull \hbox (2.61046pt too wide) in paragraph at lines 1650--1652
+Overfull \hbox (2.61046pt too wide) in paragraph at lines 1655--1657
 []\EU1/JannonTModernePro(0)/m/n/10.95 Para incluir imagens, usamos o pacote \EU
 1/Consolas(0)/m/n/10.95 graphicx \EU1/JannonTModernePro(0)/m/n/10.95 ([]\EU1/Co
 nsolas(0)/m/n/10.95 \usepackage{graphicx} \EU1/JannonTModernePro(0)/m/n/10.95 n
@@ -3972,7 +3816,7 @@ o preâmbulo).
 
 File: femmevaguecourbet.jpg Graphic file (type QTm)
 <use  "femmevaguecourbet.jpg" >
-Overfull \hbox (2.56607pt too wide) in paragraph at lines 1688--1688
+Overfull \hbox (2.56607pt too wide) in paragraph at lines 1693--1693
 []\EU1/Consolas(0)/m/n/10.95 \graphicspath{~/Pictures} %(geralmente é o diret�
 �rio de imagens para Linux e Mac)[]  
  []
@@ -3996,7 +3840,7 @@ File: moreau-apparition.jpg Graphic file (type QTm)
 ! Illegal parameter number in definition of \Hy@tempa.
 <to be read again> 
                    S
-l.1811 ...ats,\_Figures\_and\_Captions#Subfloats}}
+l.1816 ...ats,\_Figures\_and\_Captions#Subfloats}}
                                                   
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
@@ -4005,7 +3849,7 @@ are all screwed up? I'm going to assume that you meant ##.
 ! Illegal parameter number in definition of \Hy@tempa.
 <to be read again> 
                    S
-l.1811 ...ats,\_Figures\_and\_Captions#Subfloats}}
+l.1816 ...ats,\_Figures\_and\_Captions#Subfloats}}
                                                   
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
@@ -4014,26 +3858,26 @@ are all screwed up? I'm going to assume that you meant ##.
 ! Illegal parameter number in definition of \Hy@gtemp.
 <to be read again> 
                    S
-l.1811 ...ats,\_Figures\_and\_Captions#Subfloats}}
+l.1816 ...ats,\_Figures\_and\_Captions#Subfloats}}
                                                   
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
 are all screwed up? I'm going to assume that you meant ##.
 
 [60]
-Overfull \hbox (9.79022pt too wide) in paragraph at lines 1824--1824
+Overfull \hbox (9.79022pt too wide) in paragraph at lines 1829--1829
 []  \EU1/Consolas(0)/m/n/10.95 \subfloat[A gull]{\label{fig:gull}\includegraphi
 cs[width=0.3\textwidth]{gull}}[]  
  []
 
 
-Overfull \hbox (26.04504pt too wide) in paragraph at lines 1824--1824
+Overfull \hbox (26.04504pt too wide) in paragraph at lines 1829--1829
 []  \EU1/Consolas(0)/m/n/10.95 \subfloat[A tiger]{\label{fig:tiger}\includegrap
 hics[width=0.3\textwidth]{tiger}}[]  
  []
 
 
-Overfull \hbox (26.04504pt too wide) in paragraph at lines 1824--1824
+Overfull \hbox (26.04504pt too wide) in paragraph at lines 1829--1829
 []  \EU1/Consolas(0)/m/n/10.95 \subfloat[A mouse]{\label{fig:mouse}\includegrap
 hics[width=0.3\textwidth]{mouse}}[]  
  []
@@ -4055,17 +3899,17 @@ Capítulo 9.
 ]
 Capítulo 10.
 [67]
-Overfull \hbox (2.18605pt too wide) in paragraph at lines 2094--2094
+Overfull \hbox (2.18605pt too wide) in paragraph at lines 2099--2099
 []\EU1/Consolas(0)/m/n/10.95 {\addfontfeature{Color=lime}W}\kern-1ex[]  
  []
 
 
-Overfull \hbox (18.44089pt too wide) in paragraph at lines 2094--2094
+Overfull \hbox (18.44089pt too wide) in paragraph at lines 2099--2099
 []\EU1/Consolas(0)/m/n/10.95 {\addfontfeature{Color=Peach}S}\kern-0.8ex[]  
  []
 
 
-Overfull \hbox (34.69571pt too wide) in paragraph at lines 2094--2094
+Overfull \hbox (34.69571pt too wide) in paragraph at lines 2099--2099
 []\EU1/Consolas(0)/m/n/10.95 {\addfontfeature{Color=Mulberry}P}\kern-0.8ex[]  
  []
 
@@ -4514,73 +4358,11 @@ F42FF
 . <->"Sabon LT Std/BI/ICU:script=latn;language=DFLT;mapping=tex-text;+lnum;"
 .................................................
 
-Overfull \hbox (11.2165pt too wide) in paragraph at lines 2221--2221
+Overfull \hbox (11.2165pt too wide) in paragraph at lines 2226--2226
 []\EU1/Consolas(0)/m/n/10.95 \fontspec[Contextuals=Swash]{Warnock Pro}[]  
  []
 
-
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!
-! fontspec error: "font-not-found"
-! 
-! The font "Warnock Pro" cannot be found.
-! 
-! See the fontspec documentation for further information.
-! 
-! For immediate help type H <return>.
-!...............................................  
-                                                  
-l.2225 \fontspec{Warnock Pro}
-                              \itshape
-|'''''''''''''''''''''''''''''''''''''''''''''''
-| A font might not be found for many reasons.
-| Check the spelling, where the font is installed etc. etc.
-| 
-| When in doubt, ask someone for help!
-|...............................................
-
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font Warnock Pro does not contain any OpenType `Script' information.
-.................................................
 \g_fontspec_family_Warnock Pro_int=\count425
-
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!
-! fontspec error: "font-not-found"
-! 
-! The font "Warnock Pro" cannot be found.
-! 
-! See the fontspec documentation for further information.
-! 
-! For immediate help type H <return>.
-!...............................................  
-                                                  
-l.2225 \fontspec{Warnock Pro}
-                              \itshape
-|'''''''''''''''''''''''''''''''''''''''''''''''
-| A font might not be found for many reasons.
-| Check the spelling, where the font is installed etc. etc.
-| 
-| When in doubt, ask someone for help!
-|...............................................
-
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font Warnock Pro/B (it probably doesn't exist).
-.................................................
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font Warnock Pro/I (it probably doesn't exist).
-.................................................
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font Warnock Pro/BI (it probably doesn't exist).
-.................................................
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -4590,134 +4372,66 @@ l.2225 \fontspec{Warnock Pro}
 . This font family consists of the following shapes:
 . 
 . * 'normal' with NFSS spec.:
-. <->"Warnock Pro:mapping=tex-text;"
-.................................................
-! Font EU1/WarnockPro(0)/m/n/10.95="Warnock Pro:mapping=tex-text;" at 10.95pt n
-ot loadable: Metric (TFM) file or installed font not found.
-<to be read again> 
-                   relax 
-l.2225 \fontspec{Warnock Pro}
-                              \itshape
-I wasn't able to read the size data for this font,
-so I will ignore the font specification.
-[Wizards can fix TFM files using TFtoPL/PLtoTF.]
-You might try inserting a different font spec;
-e.g., type `I\font<same font id>=<substitute font name>'.
-
-
-LaTeX Font Warning: Font shape `EU1/WarnockPro(0)/m/it' undefined
-(Font)              using `EU1/WarnockPro(0)/m/n' instead on input line 2225.
-
-Missing character: There is no W in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no C in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no x in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no S in font nullfont!
-Missing character: There is no w in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no s in font nullfont!
-
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!
-! fontspec error: "font-not-found"
-! 
-! The font "Warnock Pro" cannot be found.
-! 
-! See the fontspec documentation for further information.
-! 
-! For immediate help type H <return>.
-!...............................................  
-                                                  
-l.2227 \fontspec[Contextuals=Swash]{Warnock Pro}
-                                                
-|'''''''''''''''''''''''''''''''''''''''''''''''
-| A font might not be found for many reasons.
-| Check the spelling, where the font is installed etc. etc.
-| 
-| When in doubt, ask someone for help!
-|...............................................
-
-.................................................
-. fontspec info: "no-scripts"
+. <->"Warnock Pro/ICU:script=latn;language=DFLT;mapping=tex-text;"
 . 
-. Font Warnock Pro does not contain any OpenType `Script' information.
+. * 'small caps' with NFSS spec.:
+. <->"Warnock Pro/ICU:script=latn;language=DFLT;mapping=tex-text;+smcp;"
+. 
+. * 'bold' with NFSS spec.:
+. <->"Warnock Pro/B/ICU:script=latn;language=DFLT;mapping=tex-text;"
+. 
+. * 'bold small caps' with NFSS spec.:
+. <->"Warnock Pro/B/ICU:script=latn;language=DFLT;mapping=tex-text;+smcp;"
+. 
+. * 'italic' with NFSS spec.:
+. <->"Warnock Pro/I/ICU:script=latn;language=DFLT;mapping=tex-text;"
+. 
+. * 'italic small caps' with NFSS spec.:
+. <->"Warnock Pro/I/ICU:script=latn;language=DFLT;mapping=tex-text;+smcp;"
+. 
+. * 'bold italic' with NFSS spec.:
+. <->"Warnock Pro/BI/ICU:script=latn;language=DFLT;mapping=tex-text;"
+. 
+. * 'bold italic small caps' with NFSS spec.:
+. <->"Warnock Pro/BI/ICU:script=latn;language=DFLT;mapping=tex-text;+smcp;"
 .................................................
 .................................................
 . fontspec info: "defining-font"
 . 
-. Font family 'WarnockPro(0)' created for font 'Warnock Pro' with options
+. Font family 'WarnockPro(1)' created for font 'Warnock Pro' with options
 . [Ligatures={TeX},Contextuals=Swash].
 . 
 . This font family consists of the following shapes:
+. 
+. * 'normal' with NFSS spec.:
+. <->"Warnock Pro/ICU:script=latn;language=DFLT;mapping=tex-text;+cswh;"
+. 
+. * 'small caps' with NFSS spec.:
+. <->"Warnock Pro/ICU:script=latn;language=DFLT;mapping=tex-text;+cswh;+smcp;"
+. 
+. * 'bold' with NFSS spec.:
+. <->"Warnock Pro/B/ICU:script=latn;language=DFLT;mapping=tex-text;+cswh;"
+. 
+. * 'bold small caps' with NFSS spec.:
+. <->"Warnock
+. Pro/B/ICU:script=latn;language=DFLT;mapping=tex-text;+cswh;+smcp;"
+. 
+. * 'italic' with NFSS spec.:
+. <->"Warnock Pro/I/ICU:script=latn;language=DFLT;mapping=tex-text;+cswh;"
+. 
+. * 'italic small caps' with NFSS spec.:
+. <->"Warnock
+. Pro/I/ICU:script=latn;language=DFLT;mapping=tex-text;+cswh;+smcp;"
+. 
+. * 'bold italic' with NFSS spec.:
+. <->"Warnock Pro/BI/ICU:script=latn;language=DFLT;mapping=tex-text;+cswh;"
+. 
+. * 'bold italic small caps' with NFSS spec.:
+. <->"Warnock
+. Pro/BI/ICU:script=latn;language=DFLT;mapping=tex-text;+cswh;+smcp;"
 .................................................
-! Font EU1/WarnockPro(0)/m/it/10.95="Warnock Pro:mapping=tex-text;" at 10.95pt 
-not loadable: Metric (TFM) file or installed font not found.
-<to be read again> 
-                   relax 
-l.2227 \fontspec[Contextuals=Swash]{Warnock Pro}
-                                                
-I wasn't able to read the size data for this font,
-so I will ignore the font specification.
-[Wizards can fix TFM files using TFtoPL/PLtoTF.]
-You might try inserting a different font spec;
-e.g., type `I\font<same font id>=<substitute font name>'.
 
-Missing character: There is no W in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no C in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no x in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no S in font nullfont!
-Missing character: There is no w in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no f in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no W in font nullfont!
-Missing character: There is no C in font nullfont!
-Missing character: There is no S in font nullfont!
-
-Underfull \hbox (badness 10000) in paragraph at lines 2226--2229
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2226--2229
-
- []
-
-
-Overfull \hbox (33.99998pt too wide) in paragraph at lines 2213--2232
+Overfull \hbox (33.99998pt too wide) in paragraph at lines 2218--2237
 [][]
  []
 
@@ -4727,66 +4441,27 @@ Overfull \hbox (33.99998pt too wide) in paragraph at lines 2213--2232
 ]
 Capítulo 11.
 
-Overfull \hbox (34.00002pt too wide) in paragraph at lines 2288--2303
+Overfull \hbox (34.00002pt too wide) in paragraph at lines 2293--2308
 [][] 
  []
 
 [71]
-Package mdframed Info: mdframed works in twoside mode on input line 2317.
+Package mdframed Info: mdframed works in twoside mode on input line 2322.
 
-Overfull \hbox (8.76622pt too wide) in paragraph at lines 2323--2325
+Overfull \hbox (8.76622pt too wide) in paragraph at lines 2328--2330
 \EU1/MinionPro(0)/m/n/10.95 писателей и мыслителей. ([]$[][
 ][][] [] [] [] [][] [] [][][][][][][][][] [] [][][] [] [][][][] [] [][][][][][]
 [] [][] [][][][] [] [][][][][][][][][][]$[])
  []
 
-Package mdframed Info: mdframed works in twoside mode on input line 2330.
+Package mdframed Info: mdframed works in twoside mode on input line 2335.
 
-Overfull \hbox (14.51219pt too wide) in paragraph at lines 2355--2356
+Overfull \hbox (14.51219pt too wide) in paragraph at lines 2360--2361
 []\EU1/JannonTModernePro(0)/m/n/10.95 Para escritas não ocidentais também uti
 lizamos o pacote \EU1/Consolas(0)/m/n/10.95 fontspe\EU1/JannonTModernePro(0)/m/
 n/10.95 c e/ou o pacote \EU1/Consolas(0)/m/n/10.95 polyglossia 
  []
 
-! Font EU1/AdobeArabic(0)/m/n/10.95="Adobe Arabic/ICU:mapping=tex-text;" at 10.
-95pt not loadable: Metric (TFM) file or installed font not found.
-<to be read again> 
-                   relax 
-l.2374  ا
-          لعربية أكثر لغات المجموعة السامية م�...
-I wasn't able to read the size data for this font,
-so I will ignore the font specification.
-[Wizards can fix TFM files using TFtoPL/PLtoTF.]
-You might try inserting a different font spec;
-e.g., type `I\font<same font id>=<substitute font name>'.
-
-
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!
-! fontspec error: "font-not-found"
-! 
-! The font "Adobe Arabic" cannot be found.
-! 
-! See the fontspec documentation for further information.
-! 
-! For immediate help type H <return>.
-!...............................................  
-                                                  
-l.2374  ا
-          لعربية أكثر لغات المجموعة السامية م�...
-
-|'''''''''''''''''''''''''''''''''''''''''''''''
-| A font might not be found for many reasons.
-| Check the spelling, where the font is installed etc. etc.
-| 
-| When in doubt, ask someone for help!
-|...............................................
-
-*************************************************
-* fontspec warning: "script-not-exist"
-* 
-* Font 'Adobe Arabic' does not contain script 'Arabic'.
-*************************************************
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !
@@ -4799,7 +4474,7 @@ l.2374  ا
 ! For immediate help type H <return>.
 !...............................................  
                                                   
-l.2374  ا
+l.2379  ا
           لعربية أكثر لغات المجموعة السامية م�...
 
 |'''''''''''''''''''''''''''''''''''''''''''''''
@@ -4810,28 +4485,6 @@ l.2374  ا
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !
-! fontspec error: "font-not-found"
-! 
-! The font "Adobe Arabic" cannot be found.
-! 
-! See the fontspec documentation for further information.
-! 
-! For immediate help type H <return>.
-!...............................................  
-                                                  
-l.2374  ا
-          لعربية أكثر لغات المجموعة السامية م�...
-
-|'''''''''''''''''''''''''''''''''''''''''''''''
-| A font might not be found for many reasons.
-| Check the spelling, where the font is installed etc. etc.
-| 
-| When in doubt, ask someone for help!
-|...............................................
-
-
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!
 ! LaTeX error: "kernel/key-choice-unknown"
 ! 
 ! \msg text > LaTeX/kernel/key-choice-unknown {fontspec/Numbers}{Arabic}{}{}
@@ -4841,7 +4494,7 @@ l.2374  ا
 ! For immediate help type H <return>.
 !...............................................  
                                                   
-l.2374  ا
+l.2379  ا
           لعربية أكثر لغات المجموعة السامية م�...
 
 |'''''''''''''''''''''''''''''''''''''''''''''''
@@ -4854,16 +4507,46 @@ l.2374  ا
 . 
 . Could not resolve font Adobe Arabic/B (it probably doesn't exist).
 .................................................
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font Adobe Arabic/I (it probably doesn't exist).
-.................................................
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font Adobe Arabic/BI (it probably doesn't exist).
-.................................................
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!
+! LaTeX error: "kernel/key-choice-unknown"
+! 
+! \msg text > LaTeX/kernel/key-choice-unknown {fontspec/Numbers}{Arabic}{}{}
+! 
+! See the LaTeX3 documentation for further information.
+! 
+! For immediate help type H <return>.
+!...............................................  
+                                                  
+l.2379  ا
+          لعربية أكثر لغات المجموعة السامية م�...
+
+|'''''''''''''''''''''''''''''''''''''''''''''''
+| \msg extra text > LaTeX/kernel/key-choice-unknown
+| {fontspec/Numbers}{Arabic}{}{}
+|...............................................
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!
+! LaTeX error: "kernel/key-choice-unknown"
+! 
+! \msg text > LaTeX/kernel/key-choice-unknown {fontspec/Numbers}{Arabic}{}{}
+! 
+! See the LaTeX3 documentation for further information.
+! 
+! For immediate help type H <return>.
+!...............................................  
+                                                  
+l.2379  ا
+          لعربية أكثر لغات المجموعة السامية م�...
+
+|'''''''''''''''''''''''''''''''''''''''''''''''
+| \msg extra text > LaTeX/kernel/key-choice-unknown
+| {fontspec/Numbers}{Arabic}{}{}
+|...............................................
+
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -4874,404 +4557,26 @@ l.2374  ا
 . This font family consists of the following shapes:
 . 
 . * 'normal' with NFSS spec.:
-. <->"Adobe Arabic/ICU:mapping=tex-text;mapping=arabtex-fdf2alif-novoc;"
+. <->"Adobe
+. Arabic/ICU:script=arab;language=DFLT;mapping=tex-text;mapping=arabtex-fdf2ali
+f-novoc;"
+. 
+. * 'italic' with NFSS spec.:
+. <->"Adobe
+. Arabic/I/ICU:script=arab;language=DFLT;mapping=tex-text;mapping=arabtex-fdf2a
+lif-novoc;"
+. 
+. * 'bold italic' with NFSS spec.:
+. <->"Adobe
+. Arabic/BI/ICU:script=arab;language=DFLT;mapping=tex-text;mapping=arabtex-fdf2
+alif-novoc;"
 .................................................
-! Font EU1/AdobeArabic(1)/m/n/10.95="Adobe Arabic/ICU:mapping=tex-text;mapping=
-arabtex-fdf2alif-novoc;" at 10.95pt not loadable: Metric (TFM) file or installe
-d font not found.
-<to be read again> 
-                   relax 
-l.2374  ا
-          لعربية أكثر لغات المجموعة السامية م�...
-I wasn't able to read the size data for this font,
-so I will ignore the font specification.
-[Wizards can fix TFM files using TFtoPL/PLtoTF.]
-You might try inserting a different font spec;
-e.g., type `I\font<same font id>=<substitute font name>'.
-
-Missing character: There is no ا in font nullfont!
-Missing character: There is no ل in font nullfont!
-Missing character: There is no ع in font nullfont!
-Missing character: There is no ر in font nullfont!
-Missing character: There is no ب in font nullfont!
-Missing character: There is no ي in font nullfont!
-Missing character: There is no ة in font nullfont!
-Missing character: There is no أ in font nullfont!
-Missing character: There is no ك in font nullfont!
-Missing character: There is no ث in font nullfont!
-Missing character: There is no ر in font nullfont!
-Missing character: There is no ل in font nullfont!
-Missing character: There is no غ in font nullfont!
-Missing character: There is no ا in font nullfont!
-Missing character: There is no ت in font nullfont!
-Missing character: There is no ا in font nullfont!
-Missing character: There is no ل in font nullfont!
-Missing character: There is no م in font nullfont!
-Missing character: There is no ج in font nullfont!
-Missing character: There is no م in font nullfont!
-Missing character: There is no و in font nullfont!
-Missing character: There is no ع in font nullfont!
-Missing character: There is no ة in font nullfont!
-Missing character: There is no ا in font nullfont!
-Missing character: There is no ل in font nullfont!
-Missing character: There is no س in font nullfont!
-Missing character: There is no ا in font nullfont!
-Missing character: There is no م in font nullfont!
-Missing character: There is no ي in font nullfont!
-Missing character: There is no ة in font nullfont!
-Missing character: There is no م in font nullfont!
-Missing character: There is no ت in font nullfont!
-Missing character: There is no ح in font nullfont!
-Missing character: There is no د in font nullfont!
-Missing character: There is no ث in font nullfont!
-Missing character: There is no ي in font nullfont!
-Missing character: There is no ن in font nullfont!
 [72]
-Missing character: There is no ܩ in font nullfont!
-Missing character: There is no ܕ in font nullfont!
-Missing character: There is no ܝ in font nullfont!
-Missing character: There is no ܫ in font nullfont!
-Missing character: There is no ܐ in font nullfont!
-Missing character: There is no ܐ in font nullfont!
-Missing character: There is no ܠ in font nullfont!
-Missing character: There is no ܗ in font nullfont!
-Missing character: There is no ܐ in font nullfont!
-Missing character: There is no ، in font nullfont!
-Missing character: There is no ܩ in font nullfont!
-Missing character: There is no ܕ in font nullfont!
-Missing character: There is no ܝ in font nullfont!
-Missing character: There is no ܫ in font nullfont!
-Missing character: There is no ܐ in font nullfont!
-Missing character: There is no ܚ in font nullfont!
-Missing character: There is no ܝ in font nullfont!
-Missing character: There is no ܠ in font nullfont!
-Missing character: There is no ܬ in font nullfont!
-Missing character: There is no ܢ in font nullfont!
-Missing character: There is no ܐ in font nullfont!
-Missing character: There is no ، in font nullfont!
-Missing character: There is no ܩ in font nullfont!
-Missing character: There is no ܕ in font nullfont!
-Missing character: There is no ܝ in font nullfont!
-Missing character: There is no ܫ in font nullfont!
-Missing character: There is no ܐ in font nullfont!
-Missing character: There is no ܠ in font nullfont!
-Missing character: There is no ܐ in font nullfont!
-Missing character: There is no ܡ in font nullfont!
-Missing character: There is no ܝ in font nullfont!
-Missing character: There is no ܘ in font nullfont!
-Missing character: There is no ܬ in font nullfont!
-Missing character: There is no ܐ in font nullfont!
-Missing character: There is no ، in font nullfont!
-Missing character: There is no ܐ in font nullfont!
-Missing character: There is no ܬ in font nullfont!
-Missing character: There is no ܪ in font nullfont!
-Missing character: There is no ܚ in font nullfont!
-Missing character: There is no ܡ in font nullfont!
-Missing character: There is no ܥ in font nullfont!
-Missing character: There is no ܠ in font nullfont!
-Missing character: There is no ܝ in font nullfont!
-Missing character: There is no ܢ in font nullfont!
-
-Overfull \hbox (197.62418pt too wide) in paragraph at lines 2413--2413
+Overfull \hbox (197.62418pt too wide) in paragraph at lines 2418--2418
 []\EU1/Consolas(0)/m/n/10.95 \setotherlanguage{hebrew} % para o pacote polyglos
 sia, ou \setmainlangauge{hebrew} se hebraico for a língua principal.[]  
  []
 
-Missing character: There is no ה in font nullfont!
-Missing character: There is no ע in font nullfont!
-Missing character: There is no ב in font nullfont!
-Missing character: There is no ר in font nullfont!
-Missing character: There is no י in font nullfont!
-Missing character: There is no ת in font nullfont!
-Missing character: There is no ה in font nullfont!
-Missing character: There is no י in font nullfont!
-Missing character: There is no א in font nullfont!
-Missing character: There is no ש in font nullfont!
-Missing character: There is no פ in font nullfont!
-Missing character: There is no ה in font nullfont!
-Missing character: There is no ה in font nullfont!
-Missing character: There is no מ in font nullfont!
-Missing character: There is no ש in font nullfont!
-Missing character: There is no ת in font nullfont!
-Missing character: There is no י in font nullfont!
-Missing character: There is no י in font nullfont!
-Missing character: There is no כ in font nullfont!
-Missing character: There is no ת in font nullfont!
-Missing character: There is no ל in font nullfont!
-Missing character: There is no ק in font nullfont!
-Missing character: There is no ב in font nullfont!
-Missing character: There is no ו in font nullfont!
-Missing character: There is no צ in font nullfont!
-Missing character: There is no ת in font nullfont!
-Missing character: There is no ה in font nullfont!
-Missing character: There is no ל in font nullfont!
-Missing character: There is no ש in font nullfont!
-Missing character: There is no ו in font nullfont!
-Missing character: There is no נ in font nullfont!
-Missing character: There is no ו in font nullfont!
-Missing character: There is no ת in font nullfont!
-Missing character: There is no ה in font nullfont!
-Missing character: There is no ש in font nullfont!
-Missing character: There is no מ in font nullfont!
-Missing character: There is no י in font nullfont!
-Missing character: There is no ו in font nullfont!
-Missing character: There is no ת in font nullfont!
-Missing character: There is no ה in font nullfont!
-Missing character: There is no צ in font nullfont!
-Missing character: There is no פ in font nullfont!
-Missing character: There is no ו in font nullfont!
-Missing character: There is no ן in font nullfont!
-Missing character: There is no - in font nullfont!
-Missing character: There is no מ in font nullfont!
-Missing character: There is no ע in font nullfont!
-Missing character: There is no ר in font nullfont!
-Missing character: There is no ב in font nullfont!
-Missing character: There is no י in font nullfont!
-Missing character: There is no ו in font nullfont!
-Missing character: There is no ת in font nullfont!
-Missing character: There is no , in font nullfont!
-Missing character: There is no ו in font nullfont!
-Missing character: There is no מ in font nullfont!
-Missing character: There is no ה in font nullfont!
-Missing character: There is no ו in font nullfont!
-Missing character: There is no ו in font nullfont!
-Missing character: There is no ה in font nullfont!
-Missing character: There is no א in font nullfont!
-Missing character: There is no ת in font nullfont!
-Missing character: There is no א in font nullfont!
-Missing character: There is no ח in font nullfont!
-Missing character: There is no ד in font nullfont!
-Missing character: There is no ה in font nullfont!
-Missing character: There is no ד in font nullfont!
-Missing character: There is no י in font nullfont!
-Missing character: There is no א in font nullfont!
-Missing character: There is no ל in font nullfont!
-Missing character: There is no ק in font nullfont!
-Missing character: There is no ט in font nullfont!
-Missing character: There is no י in font nullfont!
-Missing character: There is no ם in font nullfont!
-Missing character: There is no ש in font nullfont!
-Missing character: There is no ל in font nullfont!
-Missing character: There is no ה in font nullfont!
-Missing character: There is no ש in font nullfont!
-Missing character: There is no פ in font nullfont!
-Missing character: There is no ה in font nullfont!
-Missing character: There is no ה in font nullfont!
-Missing character: There is no כ in font nullfont!
-Missing character: There is no נ in font nullfont!
-Missing character: There is no ע in font nullfont!
-Missing character: There is no נ in font nullfont!
-Missing character: There is no י in font nullfont!
-Missing character: There is no ת in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no ש in font nullfont!
-Missing character: There is no פ in font nullfont!
-Missing character: There is no ה in font nullfont!
-Missing character: There is no ז in font nullfont!
-Missing character: There is no ו in font nullfont!
-Missing character: There is no ה in font nullfont!
-Missing character: There is no י in font nullfont!
-Missing character: There is no י in font nullfont!
-Missing character: There is no ת in font nullfont!
-Missing character: There is no ה in font nullfont!
-Missing character: There is no מ in font nullfont!
-Missing character: There is no ד in font nullfont!
-Missing character: There is no ו in font nullfont!
-Missing character: There is no ב in font nullfont!
-Missing character: There is no ר in font nullfont!
-Missing character: There is no ת in font nullfont!
-Missing character: There is no ה in font nullfont!
-Missing character: There is no ח in font nullfont!
-Missing character: There is no ל in font nullfont!
-Missing character: There is no מ in font nullfont!
-Missing character: There is no ן in font nullfont!
-Missing character: There is no ה in font nullfont!
-Missing character: There is no א in font nullfont!
-Missing character: There is no ל in font nullfont!
-Missing character: There is no ף in font nullfont!
-Missing character: There is no ה in font nullfont!
-Missing character: There is no - in font nullfont!
-Missing character: There is no 2 in font nullfont!
-Missing character: There is no ל in font nullfont!
-Missing character: There is no פ in font nullfont!
-Missing character: There is no נ in font nullfont!
-Missing character: There is no ה in font nullfont!
-Missing character: There is no " in font nullfont!
-Missing character: There is no ס in font nullfont!
-Missing character: There is no ב in font nullfont!
-Missing character: There is no א in font nullfont!
-Missing character: There is no ז in font nullfont!
-Missing character: There is no ו in font nullfont!
-Missing character: There is no ר in font nullfont!
-Missing character: There is no ה in font nullfont!
-Missing character: There is no ל in font nullfont!
-Missing character: There is no ב in font nullfont!
-Missing character: There is no נ in font nullfont!
-Missing character: There is no ט in font nullfont!
-Missing character: There is no , in font nullfont!
-Missing character: There is no ש in font nullfont!
-Missing character: There is no ה in font nullfont!
-Missing character: There is no י in font nullfont!
-Missing character: There is no ו in font nullfont!
-Missing character: There is no ם in font nullfont!
-Missing character: There is no נ in font nullfont!
-Missing character: There is no מ in font nullfont!
-Missing character: There is no צ in font nullfont!
-Missing character: There is no א in font nullfont!
-Missing character: There is no ב in font nullfont!
-Missing character: There is no ש in font nullfont!
-Missing character: There is no ט in font nullfont!
-Missing character: There is no ח in font nullfont!
-Missing character: There is no ן in font nullfont!
-Missing character: There is no ש in font nullfont!
-Missing character: There is no ל in font nullfont!
-Missing character: There is no ל in font nullfont!
-Missing character: There is no ב in font nullfont!
-Missing character: There is no נ in font nullfont!
-Missing character: There is no ו in font nullfont!
-Missing character: There is no ן in font nullfont!
-Missing character: There is no , in font nullfont!
-Missing character: There is no ס in font nullfont!
-Missing character: There is no ו in font nullfont!
-Missing character: There is no ר in font nullfont!
-Missing character: There is no י in font nullfont!
-Missing character: There is no ה in font nullfont!
-Missing character: There is no , in font nullfont!
-Missing character: There is no א in font nullfont!
-Missing character: There is no ר in font nullfont!
-Missing character: There is no ץ in font nullfont!
-Missing character: There is no י in font nullfont!
-Missing character: There is no ש in font nullfont!
-Missing character: There is no ר in font nullfont!
-Missing character: There is no א in font nullfont!
-Missing character: There is no ל in font nullfont!
-Missing character: There is no ו in font nullfont!
-Missing character: There is no י in font nullfont!
-Missing character: There is no ר in font nullfont!
-Missing character: There is no ד in font nullfont!
-Missing character: There is no ן in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no ט in font nullfont!
-Missing character: There is no ק in font nullfont!
-Missing character: There is no ס in font nullfont!
-Missing character: There is no ט in font nullfont!
-Missing character: There is no י in font nullfont!
-Missing character: There is no ם in font nullfont!
-Missing character: There is no מ in font nullfont!
-Missing character: There is no ה in font nullfont!
-Missing character: There is no ת in font nullfont!
-Missing character: There is no ק in font nullfont!
-Missing character: There is no ו in font nullfont!
-Missing character: There is no פ in font nullfont!
-Missing character: There is no ה in font nullfont!
-Missing character: There is no ה in font nullfont!
-Missing character: There is no ז in font nullfont!
-Missing character: There is no ו in font nullfont!
-Missing character: There is no ש in font nullfont!
-Missing character: There is no ה in font nullfont!
-Missing character: There is no ת in font nullfont!
-Missing character: There is no ג in font nullfont!
-Missing character: There is no ל in font nullfont!
-Missing character: There is no ו in font nullfont!
-Missing character: There is no ב in font nullfont!
-Missing character: There is no י in font nullfont!
-Missing character: There is no ר in font nullfont!
-Missing character: There is no ד in font nullfont!
-Missing character: There is no ן in font nullfont!
-Missing character: There is no ו in font nullfont!
-Missing character: There is no ב in font nullfont!
-Missing character: There is no ל in font nullfont!
-Missing character: There is no ב in font nullfont!
-Missing character: There is no נ in font nullfont!
-Missing character: There is no ו in font nullfont!
-Missing character: There is no ן in font nullfont!
-Missing character: There is no ח in font nullfont!
-Missing character: There is no ו in font nullfont!
-Missing character: There is no ש in font nullfont!
-Missing character: There is no פ in font nullfont!
-Missing character: There is no י in font nullfont!
-Missing character: There is no ם in font nullfont!
-Missing character: There is no ק in font nullfont!
-Missing character: There is no ר in font nullfont!
-Missing character: There is no ב in font nullfont!
-Missing character: There is no ה in font nullfont!
-Missing character: There is no ר in font nullfont!
-Missing character: There is no ב in font nullfont!
-Missing character: There is no ה in font nullfont!
-Missing character: There is no ב in font nullfont!
-Missing character: There is no י in font nullfont!
-Missing character: There is no ן in font nullfont!
-Missing character: There is no ה in font nullfont!
-Missing character: There is no ש in font nullfont!
-Missing character: There is no פ in font nullfont!
-Missing character: There is no ה in font nullfont!
-Missing character: There is no ה in font nullfont!
-Missing character: There is no ע in font nullfont!
-Missing character: There is no ב in font nullfont!
-Missing character: There is no ר in font nullfont!
-Missing character: There is no י in font nullfont!
-Missing character: There is no ת in font nullfont!
-Missing character: There is no ל in font nullfont!
-Missing character: There is no ש in font nullfont!
-Missing character: There is no פ in font nullfont!
-Missing character: There is no ה in font nullfont!
-Missing character: There is no ה in font nullfont!
-Missing character: There is no פ in font nullfont!
-Missing character: There is no י in font nullfont!
-Missing character: There is no נ in font nullfont!
-Missing character: There is no י in font nullfont!
-Missing character: There is no ק in font nullfont!
-Missing character: There is no י in font nullfont!
-Missing character: There is no ת in font nullfont!
-Missing character: There is no ו in font nullfont!
-Missing character: There is no ה in font nullfont!
-Missing character: There is no מ in font nullfont!
-Missing character: There is no ו in font nullfont!
-Missing character: There is no א in font nullfont!
-Missing character: There is no ב in font nullfont!
-Missing character: There is no י in font nullfont!
-Missing character: There is no ת in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no : in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no : in font nullfont!
-Missing character: There is no / in font nullfont!
-Missing character: There is no / in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no w in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no k in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no / in font nullfont!
-Missing character: There is no w in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no k in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no / in font nullfont!
-Missing character: There is no ע in font nullfont!
-Missing character: There is no ב in font nullfont!
-Missing character: There is no ר in font nullfont!
-Missing character: There is no י in font nullfont!
-Missing character: There is no ת in font nullfont!
 [73]
 Missing character: There is no 안 in font SimSun/ICU:script=hani;language=DFLT
 ;mapping=tex-text;!
@@ -5330,7 +4635,7 @@ Overfull \hbox (52.78697pt too wide) in paragraph at lines 166--168
 ]
 Capítulo 13.
 
-Overfull \hbox (38.05312pt too wide) in paragraph at lines 2486--2488
+Overfull \hbox (38.05312pt too wide) in paragraph at lines 2491--2493
 []\EU1/JannonTModernePro(0)/m/n/10.95 Para exemplos de como funciona a tipograf
 ia no L[]T[]X, ver: []$[][][][] [] [] [] [][][][][][] [] [][][] [] [][][][][][]
 [][][][][] []$
@@ -5346,57 +4651,57 @@ ia no L[]T[]X, ver: []$[][][][] [] [] [] [][][][][][] [] [][][] [] [][][][][][]
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 2532--2532
+Underfull \hbox (badness 10000) in paragraph at lines 2537--2537
 []|[]\EU1/Consolas(0)/m/n/9 \begin{framed} Uma histó-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2533--2533
+Underfull \hbox (badness 10000) in paragraph at lines 2538--2538
 []|[]\EU1/Consolas(0)/m/n/9 \begin{shaded} Uma histó-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2534--2534
+Underfull \hbox (badness 10000) in paragraph at lines 2539--2539
 []|[]\EU1/Consolas(0)/m/n/9 \begin{snugshade} Uma histó-
  []
 
 
-Underfull \hbox (badness 2521) in paragraph at lines 2534--2534
+Underfull \hbox (badness 2521) in paragraph at lines 2539--2539
 []|\EU1/JannonTModernePro(0)/m/n/9 Texto com sombra de fundo mais
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2535--2535
+Underfull \hbox (badness 10000) in paragraph at lines 2540--2540
 []|[]\EU1/Consolas(0)/m/n/9 \fcolorbox{Magenta}{Gray}{Uma histó-
  []
 
 
-Underfull \hbox (badness 1515) in paragraph at lines 2535--2535
+Underfull \hbox (badness 1515) in paragraph at lines 2540--2540
 []|\EU1/JannonTModernePro(0)/m/n/9 Define a cor da borda e a cor do
  []
 
 
-Underfull \hbox (badness 1082) in paragraph at lines 2536--2536
+Underfull \hbox (badness 1082) in paragraph at lines 2541--2541
 []|\EU1/JannonTModernePro(0)/m/n/9 Um sombreado só do tamanho do
  []
 
 
-Overfull \hbox (82.9904pt too wide) in paragraph at lines 2530--2541
+Overfull \hbox (82.9904pt too wide) in paragraph at lines 2535--2546
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2530--2541
+Underfull \hbox (badness 10000) in paragraph at lines 2535--2546
 
  []
 
-Package mdframed Info: mdframed works in twoside mode on input line 2555.
+Package mdframed Info: mdframed works in twoside mode on input line 2560.
 
 Package mdframed Warning: You got a bad break
 (mdframed)                because the last box will be empty
 (mdframed)                you have to change it manually
 (mdframed)                by changing the text, the space
-(mdframed)                or something else on input line 2558.
+(mdframed)                or something else on input line 2563.
 
 [85] [86] [87
 
@@ -5410,13 +4715,13 @@ Package mdframed Warning: You got a bad break
 ]
 Capítulo 14.
 [91]
-Overfull \hbox (0.36496pt too wide) in paragraph at lines 2683--2683
+Overfull \hbox (0.36496pt too wide) in paragraph at lines 2688--2688
 []   \EU1/Consolas(0)/m/n/9 \vspace*{-2.3\baselineskip}\leftbar\textsc{\small\c
 haptername~\thecontentslabel}\\\sffamily}[]  
  []
 
 
-Overfull \hbox (13.72508pt too wide) in paragraph at lines 2683--2683
+Overfull \hbox (13.72508pt too wide) in paragraph at lines 2688--2688
 []\EU1/Consolas(0)/m/n/9 \chapter{Beginning to learn design with HTML and some 
 other text to span more than one line in the ToC}[]  
  []
@@ -5429,7 +4734,7 @@ File: sumario.png Graphic file (type QTm)
 
 
 ]
-Overfull \hbox (6.25398pt too wide) in paragraph at lines 2705--2705
+Overfull \hbox (6.25398pt too wide) in paragraph at lines 2710--2710
 []\EU1/JannonTModernePro(0)/m/n/10.95 Bringhurst, Robert. \EU1/JannonTModernePr
 o(0)/m/it/10.95 The Elements of Typographic Style: Version 4.0: 20th Anniversar
 y Edition\EU1/JannonTModernePro(0)/m/n/10.95 . Fourth
@@ -5440,59 +4745,27 @@ y Edition\EU1/JannonTModernePro(0)/m/n/10.95 . Fourth
 
 ]
 LaTeX Font Info:    Font shape `U/ccicons/m/n' will be
-(Font)              scaled to size 9.0pt on input line 2715.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2720.
+(Font)              scaled to size 9.0pt on input line 2720.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2725.
  [99
 
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 2720.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 2725.
  (./introducaolatex-final.aux (./texto-bibliografia.aux)
-(./biblatex.aux) (./parallel.aux) (./lineno.aux)
-! Font EU1/SertoBatnan(0)/m/n/9="Serto Batnan/ICU:mapping=tex-text;" at 9.0pt n
-ot loadable: Metric (TFM) file or installed font not found.
-<to be read again> 
-                   relax 
-l.231 \select@language {syriac}
-                               
-I wasn't able to read the size data for this font,
-so I will ignore the font specification.
-[Wizards can fix TFM files using TFtoPL/PLtoTF.]
-You might try inserting a different font spec;
-e.g., type `I\font<same font id>=<substitute font name>'.
-
-! Font EU1/AdobeHebrew(0)/m/n/9="Adobe Hebrew/ICU:mapping=tex-text;" at 9.0pt n
-ot loadable: Metric (TFM) file or installed font not found.
-<to be read again> 
-                   relax 
-l.239 \select@language {hebrew}
-                               
-I wasn't able to read the size data for this font,
-so I will ignore the font specification.
-[Wizards can fix TFM files using TFtoPL/PLtoTF.]
-You might try inserting a different font spec;
-e.g., type `I\font<same font id>=<substitute font name>'.
-
-(./abntex2-latexintro.aux))
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 2720.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 2720.
-
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
+(./biblatex.aux) (./parallel.aux) (./lineno.aux) (./abntex2-latexintro.aux))
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 2725.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 2725.
 Package logreq Info: Writing requests to 'introducaolatex-final.run.xml'.
 \openout1 = `introducaolatex-final.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 38730 strings out of 493994
- 745074 string characters out of 3153359
- 1139109 words of memory out of 3000000
- 41164 multiletter control sequences out of 15000+200000
- 22652 words of font info for 202 fonts, out of 3000000 for 9000
+ 38843 strings out of 493994
+ 749864 string characters out of 3153359
+ 1139385 words of memory out of 3000000
+ 41245 multiletter control sequences out of 15000+200000
+ 22860 words of font info for 228 fonts, out of 3000000 for 9000
  1144 hyphenation exceptions out of 8191
  62i,19n,59p,1261b,1543s stack positions out of 5000i,500n,10000p,200000b,50000s
 

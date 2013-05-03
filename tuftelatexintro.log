@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.4-0.9998 (TeX Live 2012/W32TeX) (format=xelatex 2013.3.31)  22 APR 2013 17:35
+This is XeTeX, Version 3.1415926-2.4-0.9998 (TeX Live 2012/W32TeX) (format=xelatex 2013.3.31)  30 APR 2013 18:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -277,21 +277,9 @@ LaTeX Info: Redefining \cite on input line 694.
 (c:/texlive/2012/texmf-dist/tex/latex/natbib/bibentry.sty
 Package: bibentry 2007/10/30 1.5 (PWD)
 )
-(./tuftelatexintro.bbl
-
-! LaTeX Error: Missing 'biblatex' package.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.16   {}
-         
-? s
-OK, entering \scrollmode...
-)
+No file tuftelatexintro.bbl.
 \c@@tufte@num@bibkeys=\count102
- (c:/texlive/2012/texmf-dist/tex/latex/sauerj/optparams.sty
+(c:/texlive/2012/texmf-dist/tex/latex/sauerj/optparams.sty
 Package: optparams 2004/08/14 v0.9 multiple optional parameters in macros
 )
 \@tufte@sidenote@vertical@offset=\skip71
@@ -1017,69 +1005,11 @@ LaTeX Info: Redefining \] on input line 2666.
 . 
 . This font family consists of the following shapes:
 .................................................
-
-
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!
-! fontspec error: "font-not-found"
-! 
-! The font "Adobe Arabic" cannot be found.
-! 
-! See the fontspec documentation for further information.
-! 
-! For immediate help type H <return>.
-!...............................................  
-                                                  
-l.16 ...ly\arabicfont[Script=Arabic]{Adobe Arabic}
-                                                  
-|'''''''''''''''''''''''''''''''''''''''''''''''
-| A font might not be found for many reasons.
-| Check the spelling, where the font is installed etc. etc.
-| 
-| When in doubt, ask someone for help!
-|...............................................
-
-*************************************************
-* fontspec warning: "script-not-exist"
-* 
-* Font 'Adobe Arabic' does not contain script 'Arabic'.
-*************************************************
 \g_fontspec_family_Adobe Arabic_int=\count164
-
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!
-! fontspec error: "font-not-found"
-! 
-! The font "Adobe Arabic" cannot be found.
-! 
-! See the fontspec documentation for further information.
-! 
-! For immediate help type H <return>.
-!...............................................  
-                                                  
-l.16 ...ly\arabicfont[Script=Arabic]{Adobe Arabic}
-                                                  
-|'''''''''''''''''''''''''''''''''''''''''''''''
-| A font might not be found for many reasons.
-| Check the spelling, where the font is installed etc. etc.
-| 
-| When in doubt, ask someone for help!
-|...............................................
-
 .................................................
 . fontspec info: "no-font-shape"
 . 
 . Could not resolve font Adobe Arabic/B (it probably doesn't exist).
-.................................................
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font Adobe Arabic/I (it probably doesn't exist).
-.................................................
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font Adobe Arabic/BI (it probably doesn't exist).
 .................................................
 .................................................
 . fontspec info: "defining-font"
@@ -1090,70 +1020,19 @@ l.16 ...ly\arabicfont[Script=Arabic]{Adobe Arabic}
 . This font family consists of the following shapes:
 . 
 . * 'normal' with NFSS spec.:
-. <->"Adobe Arabic/ICU:mapping=tex-text;"
-.................................................
-
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!
-! fontspec error: "font-not-found"
-! 
-! The font "Serto Batnan" cannot be found.
-! 
-! See the fontspec documentation for further information.
-! 
-! For immediate help type H <return>.
-!...............................................  
-                                                  
-l.17 ...ly\syriacfont[Script=Syriac]{Serto Batnan}
-                                                  
-|'''''''''''''''''''''''''''''''''''''''''''''''
-| A font might not be found for many reasons.
-| Check the spelling, where the font is installed etc. etc.
-| 
-| When in doubt, ask someone for help!
-|...............................................
-
-*************************************************
-* fontspec warning: "script-not-exist"
-* 
-* Font 'Serto Batnan' does not contain script 'Syriac'.
-*************************************************
-\g_fontspec_family_Serto Batnan_int=\count165
-
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!
-! fontspec error: "font-not-found"
-! 
-! The font "Serto Batnan" cannot be found.
-! 
-! See the fontspec documentation for further information.
-! 
-! For immediate help type H <return>.
-!...............................................  
-                                                  
-l.17 ...ly\syriacfont[Script=Syriac]{Serto Batnan}
-                                                  
-|'''''''''''''''''''''''''''''''''''''''''''''''
-| A font might not be found for many reasons.
-| Check the spelling, where the font is installed etc. etc.
-| 
-| When in doubt, ask someone for help!
-|...............................................
-
-.................................................
-. fontspec info: "no-font-shape"
+. <->"Adobe Arabic/ICU:script=arab;language=DFLT;mapping=tex-text;"
 . 
-. Could not resolve font Serto Batnan/B (it probably doesn't exist).
+. * 'italic' with NFSS spec.:
+. <->"Adobe Arabic/I/ICU:script=arab;language=DFLT;mapping=tex-text;"
+. 
+. * 'bold italic' with NFSS spec.:
+. <->"Adobe Arabic/BI/ICU:script=arab;language=DFLT;mapping=tex-text;"
 .................................................
+\g_fontspec_family_Serto Batnan_int=\count165
 .................................................
 . fontspec info: "no-font-shape"
 . 
 . Could not resolve font Serto Batnan/I (it probably doesn't exist).
-.................................................
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font Serto Batnan/BI (it probably doesn't exist).
 .................................................
 .................................................
 . fontspec info: "defining-font"
@@ -1164,71 +1043,15 @@ l.17 ...ly\syriacfont[Script=Syriac]{Serto Batnan}
 . This font family consists of the following shapes:
 . 
 . * 'normal' with NFSS spec.:
-. <->"Serto Batnan/ICU:mapping=tex-text;"
+. <->"Serto Batnan/ICU:script=syrc;language=DFLT;mapping=tex-text;"
+. 
+. * 'bold' with NFSS spec.:
+. <->"Serto Batnan/B/ICU:script=syrc;language=DFLT;mapping=tex-text;"
+. 
+. * 'bold italic' with NFSS spec.:
+. <->"Serto Batnan/BI/ICU:script=syrc;language=DFLT;mapping=tex-text;"
 .................................................
-
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!
-! fontspec error: "font-not-found"
-! 
-! The font "Adobe Hebrew" cannot be found.
-! 
-! See the fontspec documentation for further information.
-! 
-! For immediate help type H <return>.
-!...............................................  
-                                                  
-l.18 ...ly\hebrewfont[Script=Hebrew]{Adobe Hebrew}
-                                                  
-|'''''''''''''''''''''''''''''''''''''''''''''''
-| A font might not be found for many reasons.
-| Check the spelling, where the font is installed etc. etc.
-| 
-| When in doubt, ask someone for help!
-|...............................................
-
-*************************************************
-* fontspec warning: "script-not-exist"
-* 
-* Font 'Adobe Hebrew' does not contain script 'Hebrew'.
-*************************************************
 \g_fontspec_family_Adobe Hebrew_int=\count166
-
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!
-! fontspec error: "font-not-found"
-! 
-! The font "Adobe Hebrew" cannot be found.
-! 
-! See the fontspec documentation for further information.
-! 
-! For immediate help type H <return>.
-!...............................................  
-                                                  
-l.18 ...ly\hebrewfont[Script=Hebrew]{Adobe Hebrew}
-                                                  
-|'''''''''''''''''''''''''''''''''''''''''''''''
-| A font might not be found for many reasons.
-| Check the spelling, where the font is installed etc. etc.
-| 
-| When in doubt, ask someone for help!
-|...............................................
-
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font Adobe Hebrew/B (it probably doesn't exist).
-.................................................
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font Adobe Hebrew/I (it probably doesn't exist).
-.................................................
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font Adobe Hebrew/BI (it probably doesn't exist).
-.................................................
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -1238,9 +1061,18 @@ l.18 ...ly\hebrewfont[Script=Hebrew]{Adobe Hebrew}
 . This font family consists of the following shapes:
 . 
 . * 'normal' with NFSS spec.:
-. <->"Adobe Hebrew/ICU:mapping=tex-text;"
+. <->"Adobe Hebrew/ICU:script=hebr;language=DFLT;mapping=tex-text;"
+. 
+. * 'bold' with NFSS spec.:
+. <->"Adobe Hebrew/B/ICU:script=hebr;language=DFLT;mapping=tex-text;"
+. 
+. * 'italic' with NFSS spec.:
+. <->"Adobe Hebrew/I/ICU:script=hebr;language=DFLT;mapping=tex-text;"
+. 
+. * 'bold italic' with NFSS spec.:
+. <->"Adobe Hebrew/BI/ICU:script=hebr;language=DFLT;mapping=tex-text;"
 .................................................
-(c:/texlive/2012/texmf-dist/tex/latex/eulervm/eulervm.sty
+ (c:/texlive/2012/texmf-dist/tex/latex/eulervm/eulervm.sty
 Package: eulervm 2005/01/11 v4.0 (WaS)
 
 
@@ -2500,362 +2332,11 @@ Package biblatex Info: Automatic encoding selection.
 \openout3 = `tuftelatexintro.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'tuftelatexintro.bbl' not found.
 
-
-Package biblatex Warning: File 'tuftelatexintro.bbl' is wrong format version - 
-expected 2.1.
-
-Package biblatex Info: ... file 'tuftelatexintro.bbl' found.
-(./tuftelatexintro.bbl
-! Undefined control sequence.
-<argument> ...c@refsection @entry@\blx@slist@name 
-                                                  
-l.42 \endentry
-              
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...c@refsection @entry@\blx@slist@name 
-                                                  
-l.42 \endentry
-              
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...c@refsection @entry@\blx@slist@name 
-                                                  
-l.67 \endentry
-              
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...c@refsection @entry@\blx@slist@name 
-                                                  
-l.67 \endentry
-              
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...c@refsection @entry@\blx@slist@name 
-                                                  
-l.90 \endentry
-              
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...c@refsection @entry@\blx@slist@name 
-                                                  
-l.90 \endentry
-              
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...c@refsection @entry@\blx@slist@name 
-                                                  
-l.136 \endentry
-               
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...c@refsection @entry@\blx@slist@name 
-                                                  
-l.136 \endentry
-               
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...c@refsection @entry@\blx@slist@name 
-                                                  
-l.178 \endentry
-               
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...c@refsection @entry@\blx@slist@name 
-                                                  
-l.178 \endentry
-               
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...c@refsection @entry@\blx@slist@name 
-                                                  
-l.198 \endentry
-               
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...c@refsection @entry@\blx@slist@name 
-                                                  
-l.198 \endentry
-               
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...c@refsection @entry@\blx@slist@name 
-                                                  
-l.222 \endentry
-               
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...c@refsection @entry@\blx@slist@name 
-                                                  
-l.222 \endentry
-               
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...c@refsection @entry@\blx@slist@name 
-                                                  
-l.263 \endentry
-               
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...c@refsection @entry@\blx@slist@name 
-                                                  
-l.263 \endentry
-               
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...c@refsection @entry@\blx@slist@name 
-                                                  
-l.297 \endentry
-               
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...c@refsection @entry@\blx@slist@name 
-                                                  
-l.297 \endentry
-               
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...c@refsection @entry@\blx@slist@name 
-                                                  
-l.323 \endentry
-               
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...c@refsection @entry@\blx@slist@name 
-                                                  
-l.323 \endentry
-               
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...c@refsection @entry@\blx@slist@name 
-                                                  
-l.345 \endentry
-               
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...c@refsection @entry@\blx@slist@name 
-                                                  
-l.345 \endentry
-               
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...c@refsection @entry@\blx@slist@name 
-                                                  
-l.372 \endentry
-               
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...c@refsection @entry@\blx@slist@name 
-                                                  
-l.372 \endentry
-               
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.374 \lossort
-              
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.375   \key
-            {kant:ku}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.376   \key
-            {kant:kpv}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.377 \endlossort
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-)
+No file tuftelatexintro.bbl.
 Package biblatex Info: Reference section=0 on input line 97.
 Package biblatex Info: Reference segment=0 on input line 97.
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'JannonTModernePro(1)' created for font 'Jannon T Moderne Pro'
-. with options [Ligatures={TeX},,LetterSpace=5.0].
-. 
-. This font family consists of the following shapes:
-. 
-. * 'normal' with NFSS spec.:
-. <->"Jannon T Moderne
-. Pro/ICU:script=latn;language=DFLT;mapping=tex-text;letterspace=5.0;"
-. 
-. * 'small caps' with NFSS spec.:
-. <->"Jannon T Moderne
-. Pro/ICU:script=latn;language=DFLT;mapping=tex-text;letterspace=5.0;+smcp;"
-. 
-. * 'bold' with NFSS spec.:
-. <->"Jannon T Moderne
-. Pro/B/ICU:script=latn;language=DFLT;mapping=tex-text;letterspace=5.0;"
-. 
-. * 'bold small caps' with NFSS spec.:
-. <->"Jannon T Moderne
-. Pro/B/ICU:script=latn;language=DFLT;mapping=tex-text;letterspace=5.0;+smcp;"
-. 
-. * 'italic' with NFSS spec.:
-. <->"Jannon T Moderne
-. Pro/I/ICU:script=latn;language=DFLT;mapping=tex-text;letterspace=5.0;"
-. 
-. * 'italic small caps' with NFSS spec.:
-. <->"Jannon T Moderne
-. Pro/I/ICU:script=latn;language=DFLT;mapping=tex-text;letterspace=5.0;+smcp;"
-. 
-. * 'bold italic' with NFSS spec.:
-. <->"Jannon T Moderne
-. Pro/BI/ICU:script=latn;language=DFLT;mapping=tex-text;letterspace=5.0;"
-. 
-. * 'bold italic small caps' with NFSS spec.:
-. <->"Jannon T Moderne
-. Pro/BI/ICU:script=latn;language=DFLT;mapping=tex-text;letterspace=5.0;+smcp;"
-
-.................................................
- [1
-
-] [2
-
-]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: xetex
 * paper: a4paper
@@ -2890,7 +2371,7 @@ Package biblatex Info: Reference segment=0 on input line 97.
 
 LaTeX Font Info:    Calculating math sizes for size <70> on input line 114.
 LaTeX Font Info:    Try loading font information for U+zeur on input line 114.
- (c:/texlive/2012/texmf-dist/tex/latex/eulervm/uzeur.fd
+(c:/texlive/2012/texmf-dist/tex/latex/eulervm/uzeur.fd
 File: uzeur.fd 2005/01/11 v4.0 (WaS)
 )
 LaTeX Font Info:    Try loading font information for U+zeus on input line 114.
@@ -2922,6 +2403,8 @@ LaTeX Font Warning: Font shape `U/wasy/m/n' in size <35> not available
 (Font)              size <24.88> substituted on input line 114.
 
 [1
+
+
 
 
 ] [2
@@ -3049,6 +2532,39 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 . with options [Ligatures={TeX},,LetterSpace=5.0].
 . 
 . This font family consists of the following shapes:
+. 
+. * 'normal' with NFSS spec.:
+. <->"Jannon T Moderne
+. Pro/ICU:script=latn;language=DFLT;mapping=tex-text;letterspace=5.0;"
+. 
+. * 'small caps' with NFSS spec.:
+. <->"Jannon T Moderne
+. Pro/ICU:script=latn;language=DFLT;mapping=tex-text;letterspace=5.0;+smcp;"
+. 
+. * 'bold' with NFSS spec.:
+. <->"Jannon T Moderne
+. Pro/B/ICU:script=latn;language=DFLT;mapping=tex-text;letterspace=5.0;"
+. 
+. * 'bold small caps' with NFSS spec.:
+. <->"Jannon T Moderne
+. Pro/B/ICU:script=latn;language=DFLT;mapping=tex-text;letterspace=5.0;+smcp;"
+. 
+. * 'italic' with NFSS spec.:
+. <->"Jannon T Moderne
+. Pro/I/ICU:script=latn;language=DFLT;mapping=tex-text;letterspace=5.0;"
+. 
+. * 'italic small caps' with NFSS spec.:
+. <->"Jannon T Moderne
+. Pro/I/ICU:script=latn;language=DFLT;mapping=tex-text;letterspace=5.0;+smcp;"
+. 
+. * 'bold italic' with NFSS spec.:
+. <->"Jannon T Moderne
+. Pro/BI/ICU:script=latn;language=DFLT;mapping=tex-text;letterspace=5.0;"
+. 
+. * 'bold italic small caps' with NFSS spec.:
+. <->"Jannon T Moderne
+. Pro/BI/ICU:script=latn;language=DFLT;mapping=tex-text;letterspace=5.0;+smcp;"
+
 .................................................
 
 [14]
@@ -3057,6 +2573,13 @@ File: grafico-latex.png Graphic file (type QTm)
 Underfull \hbox (badness 10000) in paragraph at lines 201--201
 []\EU1/JannonTModernePro(0)/m/n/10 Figura 1.1: []Uma comparação
  []
+
+
+LaTeX Warning: Citation 'willberg2000' on page 15 undefined on input line 206.
+
+
+LaTeX Warning: Citation 'tschichold2007forma' on page 15 undefined on input lin
+e 214.
 
 .................................................
 . fontspec info: "defining-font"
@@ -3343,6 +2866,10 @@ da apareça no conteúdo/sumário,
 ]
 Capítulo 4.
 [31]
+
+LaTeX Warning: Citation 'lamport94' on page 32 undefined on input line 65.
+
+
 Overfull \hbox (6.8984pt too wide) in paragraph at lines 73--75
 \EU1/JannonTModernePro(0)/m/n/10 bliografia sem citá-lo no texto, use o comand
 o \EU1/Consolas(0)/m/n/10 nocite\EU1/JannonTModernePro(0)/m/n/10 : []\EU1/Conso
@@ -3551,6 +3078,18 @@ many levels of headings as you need, no more and no fewer. Also see the many
 related threads on Ask E.T. at http://www.edwardtufte.com/.
 
 
+LaTeX Warning: Citation 'lamport94' on page 40 undefined on input line 125.
+
+
+LaTeX Warning: Citation 'lamport94' on page 40 undefined on input line 127.
+
+
+LaTeX Warning: Citation 'lamport94' on page 40 undefined on input line 129.
+
+
+LaTeX Warning: Citation 'lamport94' on page 40 undefined on input line 131.
+
+
 ! Class tufte-book Error: \subsubsection is undefined by this class.
 (tufte-book)              See Robert Bringhurst's _The Elements of 
 (tufte-book)              Typographic Style_, section 4.2.2. 
@@ -3567,6 +3106,9 @@ many levels of headings as you need, no more and no fewer. Also see the many
 related threads on Ask E.T. at http://www.edwardtufte.com/.
 
 
+LaTeX Warning: Citation 'lamport94' on page 40 undefined on input line 140.
+
+
 ! Class tufte-book Error: \subsubsection is undefined by this class.
 (tufte-book)              See Robert Bringhurst's _The Elements of 
 (tufte-book)              Typographic Style_, section 4.2.2. 
@@ -3581,6 +3123,9 @@ l.143 \subsubsection
 From Bringhurst's _The Elements of Typographic Style_, section 4.2.2: Use as 
 many levels of headings as you need, no more and no fewer. Also see the many 
 related threads on Ask E.T. at http://www.edwardtufte.com/.
+
+
+LaTeX Warning: Citation 'lamport94' on page 40 undefined on input line 149.
 
 
 LaTeX Warning: Marginpar on page 40 moved.
@@ -3600,6 +3145,19 @@ l.153 \subsubsection
 From Bringhurst's _The Elements of Typographic Style_, section 4.2.2: Use as 
 many levels of headings as you need, no more and no fewer. Also see the many 
 related threads on Ask E.T. at http://www.edwardtufte.com/.
+
+
+LaTeX Warning: Citation 'pohlen_letter_2011' on page 40 undefined on input line
+ 158.
+
+
+LaTeX Warning: Citation 'pohlen_letter_2011' on page 40 undefined on input line
+ 160.
+
+
+Overfull \hbox (16.2345pt too wide) in paragraph at lines 156--163
+[][]  
+ []
 
 
 ! Class tufte-book Error: \subsubsection is undefined by this class.
@@ -3655,6 +3213,12 @@ Overfull \hbox (21.04112pt too wide) in paragraph at lines 203--203
 []  \EU1/Consolas(0)/m/n/10 booktitle = {Kritik der praktischen Vernunft. Kriti
 k der Urtheilskraft},[] 
  []
+
+
+LaTeX Warning: Citation 'kant:kpv' undefined on input line 211.
+
+
+LaTeX Warning: Citation 'kant:ku' undefined on input line 211.
 
 
 LaTeX Warning: Marginpar on page 41 moved.
@@ -4820,69 +4384,7 @@ Overfull \hbox (28.11435pt too wide) in paragraph at lines 2196--2196
 []\EU1/Consolas(0)/m/n/10 \fontspec[Contextuals=Swash]{Warnock Pro}[] 
  []
 
-
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!
-! fontspec error: "font-not-found"
-! 
-! The font "Warnock Pro" cannot be found.
-! 
-! See the fontspec documentation for further information.
-! 
-! For immediate help type H <return>.
-!...............................................  
-                                                  
-l.2200 \fontspec{Warnock Pro}
-                              \itshape
-|'''''''''''''''''''''''''''''''''''''''''''''''
-| A font might not be found for many reasons.
-| Check the spelling, where the font is installed etc. etc.
-| 
-| When in doubt, ask someone for help!
-|...............................................
-
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font Warnock Pro does not contain any OpenType `Script' information.
-.................................................
 \g_fontspec_family_Warnock Pro_int=\count413
-
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!
-! fontspec error: "font-not-found"
-! 
-! The font "Warnock Pro" cannot be found.
-! 
-! See the fontspec documentation for further information.
-! 
-! For immediate help type H <return>.
-!...............................................  
-                                                  
-l.2200 \fontspec{Warnock Pro}
-                              \itshape
-|'''''''''''''''''''''''''''''''''''''''''''''''
-| A font might not be found for many reasons.
-| Check the spelling, where the font is installed etc. etc.
-| 
-| When in doubt, ask someone for help!
-|...............................................
-
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font Warnock Pro/B (it probably doesn't exist).
-.................................................
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font Warnock Pro/I (it probably doesn't exist).
-.................................................
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font Warnock Pro/BI (it probably doesn't exist).
-.................................................
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -4892,122 +4394,69 @@ l.2200 \fontspec{Warnock Pro}
 . This font family consists of the following shapes:
 . 
 . * 'normal' with NFSS spec.:
-. <->"Warnock Pro:mapping=tex-text;"
-.................................................
-! Font EU1/WarnockPro(0)/m/n/10="Warnock Pro:mapping=tex-text;" at 10.0pt not l
-oadable: Metric (TFM) file or installed font not found.
-<to be read again> 
-                   relax 
-l.2200 \fontspec{Warnock Pro}
-                              \itshape
-I wasn't able to read the size data for this font,
-so I will ignore the font specification.
-[Wizards can fix TFM files using TFtoPL/PLtoTF.]
-You might try inserting a different font spec;
-e.g., type `I\font<same font id>=<substitute font name>'.
-
-
-LaTeX Font Warning: Font shape `EU1/WarnockPro(0)/m/it' undefined
-(Font)              using `EU1/WarnockPro(0)/m/n' instead on input line 2200.
-
-Missing character: There is no W in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no C in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no x in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no S in font nullfont!
-Missing character: There is no w in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no s in font nullfont!
-
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!
-! fontspec error: "font-not-found"
-! 
-! The font "Warnock Pro" cannot be found.
-! 
-! See the fontspec documentation for further information.
-! 
-! For immediate help type H <return>.
-!...............................................  
-                                                  
-l.2202 \fontspec[Contextuals=Swash]{Warnock Pro}
-                                                
-|'''''''''''''''''''''''''''''''''''''''''''''''
-| A font might not be found for many reasons.
-| Check the spelling, where the font is installed etc. etc.
-| 
-| When in doubt, ask someone for help!
-|...............................................
-
-.................................................
-. fontspec info: "no-scripts"
+. <->"Warnock Pro/ICU:script=latn;language=DFLT;mapping=tex-text;"
 . 
-. Font Warnock Pro does not contain any OpenType `Script' information.
+. * 'small caps' with NFSS spec.:
+. <->"Warnock Pro/ICU:script=latn;language=DFLT;mapping=tex-text;+smcp;"
+. 
+. * 'bold' with NFSS spec.:
+. <->"Warnock Pro/B/ICU:script=latn;language=DFLT;mapping=tex-text;"
+. 
+. * 'bold small caps' with NFSS spec.:
+. <->"Warnock Pro/B/ICU:script=latn;language=DFLT;mapping=tex-text;+smcp;"
+. 
+. * 'italic' with NFSS spec.:
+. <->"Warnock Pro/I/ICU:script=latn;language=DFLT;mapping=tex-text;"
+. 
+. * 'italic small caps' with NFSS spec.:
+. <->"Warnock Pro/I/ICU:script=latn;language=DFLT;mapping=tex-text;+smcp;"
+. 
+. * 'bold italic' with NFSS spec.:
+. <->"Warnock Pro/BI/ICU:script=latn;language=DFLT;mapping=tex-text;"
+. 
+. * 'bold italic small caps' with NFSS spec.:
+. <->"Warnock Pro/BI/ICU:script=latn;language=DFLT;mapping=tex-text;+smcp;"
 .................................................
 .................................................
 . fontspec info: "defining-font"
 . 
-. Font family 'WarnockPro(0)' created for font 'Warnock Pro' with options
+. Font family 'WarnockPro(1)' created for font 'Warnock Pro' with options
 . [Ligatures={TeX},Contextuals=Swash].
 . 
 . This font family consists of the following shapes:
+. 
+. * 'normal' with NFSS spec.:
+. <->"Warnock Pro/ICU:script=latn;language=DFLT;mapping=tex-text;+cswh;"
+. 
+. * 'small caps' with NFSS spec.:
+. <->"Warnock Pro/ICU:script=latn;language=DFLT;mapping=tex-text;+cswh;+smcp;"
+. 
+. * 'bold' with NFSS spec.:
+. <->"Warnock Pro/B/ICU:script=latn;language=DFLT;mapping=tex-text;+cswh;"
+. 
+. * 'bold small caps' with NFSS spec.:
+. <->"Warnock
+. Pro/B/ICU:script=latn;language=DFLT;mapping=tex-text;+cswh;+smcp;"
+. 
+. * 'italic' with NFSS spec.:
+. <->"Warnock Pro/I/ICU:script=latn;language=DFLT;mapping=tex-text;+cswh;"
+. 
+. * 'italic small caps' with NFSS spec.:
+. <->"Warnock
+. Pro/I/ICU:script=latn;language=DFLT;mapping=tex-text;+cswh;+smcp;"
+. 
+. * 'bold italic' with NFSS spec.:
+. <->"Warnock Pro/BI/ICU:script=latn;language=DFLT;mapping=tex-text;+cswh;"
+. 
+. * 'bold italic small caps' with NFSS spec.:
+. <->"Warnock
+. Pro/BI/ICU:script=latn;language=DFLT;mapping=tex-text;+cswh;+smcp;"
 .................................................
-! Font EU1/WarnockPro(0)/m/it/10="Warnock Pro:mapping=tex-text;" at 10.0pt not 
-loadable: Metric (TFM) file or installed font not found.
-<to be read again> 
-                   relax 
-l.2202 \fontspec[Contextuals=Swash]{Warnock Pro}
-                                                
-I wasn't able to read the size data for this font,
-so I will ignore the font specification.
-[Wizards can fix TFM files using TFtoPL/PLtoTF.]
-You might try inserting a different font spec;
-e.g., type `I\font<same font id>=<substitute font name>'.
 
-Missing character: There is no W in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no C in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no x in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no S in font nullfont!
-Missing character: There is no w in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no f in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no W in font nullfont!
-Missing character: There is no C in font nullfont!
-Missing character: There is no S in font nullfont!
+Underfull \hbox (badness 10000) in paragraph at lines 2203--2204
+[]\EU1/WarnockPro(1)/m/it/10 With Contextual Swashes; cf. W
+ []
+
 
 Overfull \hbox (35.99998pt too wide) in paragraph at lines 2188--2207
 [][] 
@@ -5078,81 +4527,10 @@ Overfull \hbox (7.83556pt too wide) in paragraph at lines 2310--2313
 �νες ποιητές, μέλος της λογοτεχνικής γε-
  []
 
-! Font EU1/AdobeArabic(0)/m/n/10="Adobe Arabic/ICU:mapping=tex-text;" at 10.0pt
- not loadable: Metric (TFM) file or installed font not found.
-<to be read again> 
-                   relax 
-l.2349  ا
-          لعربية أكثر لغات المجموعة السامية م�...
-I wasn't able to read the size data for this font,
-so I will ignore the font specification.
-[Wizards can fix TFM files using TFtoPL/PLtoTF.]
-You might try inserting a different font spec;
-e.g., type `I\font<same font id>=<substitute font name>'.
-
-
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!
-! fontspec error: "font-not-found"
-! 
-! The font "Adobe Arabic" cannot be found.
-! 
-! See the fontspec documentation for further information.
-! 
-! For immediate help type H <return>.
-!...............................................  
-                                                  
-l.2349  ا
-          لعربية أكثر لغات المجموعة السامية م�...
-
-|'''''''''''''''''''''''''''''''''''''''''''''''
-| A font might not be found for many reasons.
-| Check the spelling, where the font is installed etc. etc.
-| 
-| When in doubt, ask someone for help!
-|...............................................
-
-*************************************************
-* fontspec warning: "script-not-exist"
-* 
-* Font 'Adobe Arabic' does not contain script 'Arabic'.
-*************************************************
-
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!
-! fontspec error: "font-not-found"
-! 
-! The font "Adobe Arabic" cannot be found.
-! 
-! See the fontspec documentation for further information.
-! 
-! For immediate help type H <return>.
-!...............................................  
-                                                  
-l.2349  ا
-          لعربية أكثر لغات المجموعة السامية م�...
-
-|'''''''''''''''''''''''''''''''''''''''''''''''
-| A font might not be found for many reasons.
-| Check the spelling, where the font is installed etc. etc.
-| 
-| When in doubt, ask someone for help!
-|...............................................
-
 .................................................
 . fontspec info: "no-font-shape"
 . 
 . Could not resolve font Adobe Arabic/B (it probably doesn't exist).
-.................................................
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font Adobe Arabic/I (it probably doesn't exist).
-.................................................
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font Adobe Arabic/BI (it probably doesn't exist).
 .................................................
 .................................................
 . fontspec info: "defining-font"
@@ -5163,58 +4541,20 @@ l.2349  ا
 . This font family consists of the following shapes:
 . 
 . * 'normal' with NFSS spec.:
-. <->"Adobe Arabic/ICU:mapping=tex-text;mapping=arabtex-fdf2alif-novoc;"
+. <->"Adobe
+. Arabic/ICU:script=arab;language=DFLT;mapping=tex-text;mapping=arabtex-fdf2ali
+f-novoc;"
+. 
+. * 'italic' with NFSS spec.:
+. <->"Adobe
+. Arabic/I/ICU:script=arab;language=DFLT;mapping=tex-text;mapping=arabtex-fdf2a
+lif-novoc;"
+. 
+. * 'bold italic' with NFSS spec.:
+. <->"Adobe
+. Arabic/BI/ICU:script=arab;language=DFLT;mapping=tex-text;mapping=arabtex-fdf2
+alif-novoc;"
 .................................................
-! Font EU1/AdobeArabic(1)/m/n/10="Adobe Arabic/ICU:mapping=tex-text;mapping=ara
-btex-fdf2alif-novoc;" at 10.0pt not loadable: Metric (TFM) file or installed fo
-nt not found.
-<to be read again> 
-                   relax 
-l.2349  ا
-          لعربية أكثر لغات المجموعة السامية م�...
-I wasn't able to read the size data for this font,
-so I will ignore the font specification.
-[Wizards can fix TFM files using TFtoPL/PLtoTF.]
-You might try inserting a different font spec;
-e.g., type `I\font<same font id>=<substitute font name>'.
-
-Missing character: There is no ا in font nullfont!
-Missing character: There is no ل in font nullfont!
-Missing character: There is no ع in font nullfont!
-Missing character: There is no ر in font nullfont!
-Missing character: There is no ب in font nullfont!
-Missing character: There is no ي in font nullfont!
-Missing character: There is no ة in font nullfont!
-Missing character: There is no أ in font nullfont!
-Missing character: There is no ك in font nullfont!
-Missing character: There is no ث in font nullfont!
-Missing character: There is no ر in font nullfont!
-Missing character: There is no ل in font nullfont!
-Missing character: There is no غ in font nullfont!
-Missing character: There is no ا in font nullfont!
-Missing character: There is no ت in font nullfont!
-Missing character: There is no ا in font nullfont!
-Missing character: There is no ل in font nullfont!
-Missing character: There is no م in font nullfont!
-Missing character: There is no ج in font nullfont!
-Missing character: There is no م in font nullfont!
-Missing character: There is no و in font nullfont!
-Missing character: There is no ع in font nullfont!
-Missing character: There is no ة in font nullfont!
-Missing character: There is no ا in font nullfont!
-Missing character: There is no ل in font nullfont!
-Missing character: There is no س in font nullfont!
-Missing character: There is no ا in font nullfont!
-Missing character: There is no م in font nullfont!
-Missing character: There is no ي in font nullfont!
-Missing character: There is no ة in font nullfont!
-Missing character: There is no م in font nullfont!
-Missing character: There is no ت in font nullfont!
-Missing character: There is no ح in font nullfont!
-Missing character: There is no د in font nullfont!
-Missing character: There is no ث in font nullfont!
-Missing character: There is no ي in font nullfont!
-Missing character: There is no ن in font nullfont!
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -6146,9 +5486,6 @@ LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 45.12pt have occurred.
 
 
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
-
 LaTeX Warning: There were undefined references.
 
 
@@ -6161,12 +5498,12 @@ Package logreq Info: Writing requests to 'tuftelatexintro.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 35827 strings out of 493994
- 670686 string characters out of 3153359
- 1132770 words of memory out of 3000000
- 38243 multiletter control sequences out of 15000+200000
- 20506 words of font info for 207 fonts, out of 3000000 for 9000
+ 35907 strings out of 493994
+ 674510 string characters out of 3153359
+ 1132934 words of memory out of 3000000
+ 38303 multiletter control sequences out of 15000+200000
+ 20658 words of font info for 226 fonts, out of 3000000 for 9000
  1144 hyphenation exceptions out of 8191
- 52i,19n,57p,1245b,1491s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 52i,19n,59p,1245b,1491s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on tuftelatexintro.pdf (97 pages).
+Output written on tuftelatexintro.pdf (95 pages).

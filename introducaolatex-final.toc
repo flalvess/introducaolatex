@@ -122,7 +122,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {\relax 6.19}Cabeçalhos}{53}{section.6.19}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {\relax 6.20}Modo matemático}{53}{section.6.20}
+\contentsline {section}{\numberline {\relax 6.20}Matemática}{53}{section.6.20}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {7}Figuras}{55}{chapter.7}
 \defcounter {refsection}{0}\relax 
