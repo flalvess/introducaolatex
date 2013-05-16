@@ -1,0 +1,104 @@
+\documentclass{article}
+\usepackage[dvipsnames,table]{xcolor}
+\usepackage{tabu}
+\usepackage{booktabs}
+\usepackage{polyglossia}
+\setmainlanguage{brazil}
+\usepackage{makecell,interfaces-makecell} %para repetição de tabelas...
+
+\begin{document}
+
+
+\section{O pacote \textsf{tabu}}
+\label{sec:tabu}
+
+O pacote \textsf{tabu} oferece as funcionalidades dos pacotes \textsf{booktabs}, \textsf{tabularx} e \textsf{longtable}, além de outras melhorias. O ambiente a ser utilizado é \texttt{tabu} ou \texttt{longtabu}. Também podemos definir a largura total da tabela (\verb+{tabu} to DIMENSÃO+), bem como o quanto as células da tabela devem ser esticadas (\verb+{tabu} spread XX+), sendo que ``XX'' representa a dimensão em pontos (pt), polegadas (in) ou centímetros (cm), ou então uma dimensão dependente, como \verb+\linewidth+. As linhas verticais no ambiente \texttt{tabu} podem ser modificadas em largura ou cor: \verb+|[largura,cor]+. Colunas ajustáveis (\texttt{X}, como do pacote \textsf{tabularx}), podem ser especificadas com um coeficiente (por exemplo, 2.5x a largura das outras colunas): \verb+X[coeficiente,alinhamento,tipo]+, em que \textit{coeficiente} é um valor positivo ou negativo\footnote{No caso de coeficientes negativos, o valor é computado com o tamanho absoluto e depois a largura é reduzida ao tamanho natural da coluna se possível.}, alinhamento é \textit{r} (right), \textit{c} (center), \textit{l} (left) ou \textit{j} (justified) e \textit{tipo} é \textit{p} (padrão), \textit{m} (middle) ou \textit{b} (bottom). As linhas horizontais podem ser definidas com o comando \verb+\everyrow{código}+, em que \textit{código} pode ser \verb+\hrule+, por exemplo. %Outra facilidade é poder empregar notas de rodapé em tabelas. %nota: footnotes não funcionam
+
+Também podemos especificar a cor das linhas de separação: \verb+\taburulecolor{cor da linha}+ ou \verb+\taburulecolor|cor entre linhas duplas|{cor da linha}+
+
+As cores das linhas podem ser especificadas com: \verb+\taburowcolors [pula] X{primeira .. última}+, em que \textit{pula} é o número de linhas a serem puladas antes de começarem as cores, \textit{X} é o número de gradações de cor, e \textit{primeira,última} são a primeira e a última cor a serem usadas nessa gradação.
+
+Exemplos:
+
+\begin{verbatim}
+\usepackage[table]{xcolor} %no preâmbulo
+...
+
+	\taburowcolors 11{green!25 .. yellow!80}
+	\begin{table}
+	\centering
+	\caption{Uma tabela com cores}
+		\begin{tabu} to 0.5\linewidth{X[-1]X[c,m]}
+		\toprule
+%	\everyrow{\midrule}
+	Teste & Teste\\ Teste & Teste\\ Teste & Teste\\
+	Teste & Teste\\	Teste & Teste\\
+	Teste & Teste grande para ver se as palavras caberão nesta célula colorida\\
+	Teste & Teste\\	Teste & Teste\\ Teste & Teste\\
+	\everyrow{}
+	Teste & Teste\\
+	\bottomrule
+	\end{tabu}
+	
+	\end{table}
+	
+
+
+\end{verbatim}
+
+	\taburowcolors 11{green!25 .. yellow!80}
+	\begin{table}
+	\centering
+	\caption{Uma tabela com cores}
+		\begin{tabu} to 0.5\linewidth{X[-1]X[c,m]}
+		\toprule
+	\everyrow{\midrule}
+	Teste & Teste\\
+		Teste & Teste\\
+			Teste & Teste\\
+				Teste & Teste\\
+					Teste & Teste\\
+						Teste & Teste grande para ver se as palavras caberão nesta célula colorida\\
+							Teste & Teste\\
+								Teste & Teste\\
+									Teste & Teste\\
+							\everyrow{}
+										Teste & Teste\\
+	\bottomrule
+	\end{tabu}
+	
+	\end{table}
+	
+	\taburowcolors{}
+		\taburowcolors 5{BurntOrange .. SpringGreen} 
+
+	\begin{tabu} to 0.8\textwidth {lX[c,m]}
+	\toprule
+		Teste & Teste
+		\everyrow{\midrule}
+		\\ Teste & Teste\\ Teste & Teste\\
+		Teste & Teste\\	Teste & Teste\\
+	Teste & Teste grande para ver se as palavras caberão nesta célula colorida.\\
+	Teste & Teste\\	Teste & Teste\\ Teste & Teste\\
+		\everyrow{}
+		Teste & Teste\\
+		\bottomrule
+	\end{tabu}
+	
+	\vspace{24pt}
+	
+	\taburowcolors 11{green!25 .. yellow!80}
+	\begin{tabu}{X[-1]X}
+	%\everyrow{\midrule}
+	\repeatcell 2{
+	rows=10,
+	text/col1=Teste,
+	text/col2={Row number
+	       \row$=$\thetaburow},
+	}
+	\end{tabu}
+	
+	\end{document}
+
+
+\end{document}

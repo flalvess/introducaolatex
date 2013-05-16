@@ -86,7 +86,7 @@
       <file>introducaolatex-final-blx.bib</file>
     </requires>
     <requires type="editable">
-      <file>latex</file>
+      <file>latex.bib</file>
     </requires>
     <requires type="static">
       <file>biblatex.bst</file>

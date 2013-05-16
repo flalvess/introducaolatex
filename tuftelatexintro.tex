@@ -61,7 +61,7 @@
 \renewcommand{\smallcaps}[1]{\smallcapsspacing{\scshape\MakeTextLowercase{#1}}}
 
 
-\usepackage[style=historian,citestyle=authoryear]{biblatex}
+\usepackage[style=authoryear,dashed=false,backend=bibtex,doi=false,isbn=false,natbib=true]{biblatex}
 
 %\ExecuteBibliographyOptions{citetracker=true}
 
@@ -71,15 +71,18 @@
 %    {}
 %    {\setunit*{\nametitledelim}%
 %     \printfield[citetitle]{labeltitle}}}
-
+%
+%\AtEveryBibitem{\clearfield{month}} --> para limpar o mês da bibliografia, se necessário.
+%\AtEveryCitekey{\clearfield{month}}
 
 \usepackage{csquotes}
-\DefineBibliographyStrings{brazil}{namedash={---------},volumeof={de}}
-\addbibresource{latex}
+\DefineBibliographyStrings{brazil}{namedash={---------},volumeof={de},url={Disponível em: }}
+\addbibresource{latex.bib}
 
 \usepackage{bbding}
 \usepackage{parallel}
 \usepackage{lineno}
+\usepackage{tabu}
 
 \usepackage{hyphenat}
 
@@ -2466,7 +2469,7 @@ Para modelos de currículos, ver: \url{http://nitens.org/taraborelli/cvtex}.
 
 
 
-\addpart{Apêndices}
+\part{Apêndices}
 
 \chapter*{Números de página na borda}
 \begin{verbatim}

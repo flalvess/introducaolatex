@@ -1,0 +1,375 @@
+% $ biblatex auxiliary file $
+% $ biblatex version 2.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\entry{bringhurst_elements_2013}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Bringhurst}{B.}%
+     {Robert}{R.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{2}{%
+    {Hartley}%
+    {Marks Publishers}%
+  }
+  \strng{namehash}{BR1}
+  \strng{fullhash}{BR1}
+  \field{labelyear}{2013}
+  \field{sortinit}{B}
+  \field{edition}{Fourth Edition}
+  \field{isbn}{0881792128}
+  \field{shorttitle}{The Elements of Typographic Style}
+  \field{title}{The Elements of Typographic Style: Version 4.0: 20th
+  Anniversary Edition}
+  \field{year}{2013}
+\endentry
+
+\entry{dodd_gutenberg_2006}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Dodd}{D.}%
+     {Robin}{R.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{2}{%
+    {Hartley}%
+    {Marks Publishers}%
+  }
+  \strng{namehash}{DR1}
+  \strng{fullhash}{DR1}
+  \field{labelyear}{2006}
+  \field{sortinit}{D}
+  \field{edition}{1}
+  \field{isbn}{0881792101}
+  \field{shorttitle}{From Gutenberg to {OpenType}}
+  \field{title}{From Gutenberg to {OpenType:} An Illustrated History of Type
+  from the Earliest Letterforms to the Latest Digital Fonts}
+  \field{year}{2006}
+\endentry
+
+\entry{dongen_latex_2012}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Dongen}{D.}%
+     {Marc R. C.~Van}{M.~R. C.~V.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Springer-Verlag}%
+  }
+  \strng{namehash}{DMRCV1}
+  \strng{fullhash}{DMRCV1}
+  \field{labelyear}{2012}
+  \field{sortinit}{D}
+  \field{title}{Latex and Friends}
+  \list{location}{2}{%
+    {Berlin}%
+    {Heidelberg}%
+  }
+  \field{year}{2012}
+\endentry
+
+\entry{kant:kpv}{inbook}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Kant}{K.}%
+     {Immanuel}{I.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{bookauthor}{1}{}{%
+    {{}%
+     {Kant}{K.}%
+     {Immanuel}{I.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Walter de Gruyter}%
+  }
+  \strng{namehash}{KI1}
+  \strng{fullhash}{KI1}
+  \field{shorthand}{KpV}
+  \field{label}{KpV}
+  \field{labelyear}{1968}
+  \field{extrayear}{1}
+  \field{sortinit}{K}
+  \field{booktitle}{Kritik der praktischen Vernunft. Kritik der Urtheilskraft}
+  \field{hyphenation}{german}
+  \field{maintitle}{Kants Werke. Akademie Textausgabe}
+  \field{pages}{1\bibrangedash 163}
+  \field{shorttitle}{Kritik der praktischen Vernunft}
+  \field{title}{Kritik der praktischen Vernunft}
+  \field{volume}{5}
+  \list{location}{1}{%
+    {Berlin}%
+  }
+  \field{annotation}{%
+  An edition of Kant's \emph{Collected Works}, volume five. This is an
+  \texttt{inbook} entry which explicitly refers to the \emph{Critique of
+  Practical Reason} only, not to the entire fifth volume. Note the
+  \texttt{author} and \texttt{bookauthor} fields in the database file. By
+  default, the \texttt{bookauthor} is omitted if the values of the
+  \texttt{author} and \texttt{bookauthor} fields are identical%
+  }
+  \field{year}{1968}
+\endentry
+
+\entry{kant:ku}{inbook}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Kant}{K.}%
+     {Immanuel}{I.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{bookauthor}{1}{}{%
+    {{}%
+     {Kant}{K.}%
+     {Immanuel}{I.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Walter de Gruyter}%
+  }
+  \strng{namehash}{KI1}
+  \strng{fullhash}{KI1}
+  \field{shorthand}{KU}
+  \field{label}{KU}
+  \field{labelyear}{1968}
+  \field{extrayear}{2}
+  \field{sortinit}{K}
+  \field{booktitle}{Kritik der praktischen Vernunft. Kritik der Urtheilskraft}
+  \field{hyphenation}{german}
+  \field{maintitle}{Kants Werke. Akademie Textausgabe}
+  \field{pages}{165\bibrangedash 485}
+  \field{title}{Kritik der Urtheilskraft}
+  \field{volume}{5}
+  \list{location}{1}{%
+    {Berlin}%
+  }
+  \field{annotation}{%
+  An edition of Kant's \emph{Collected Works}, volume five. This is an
+  \texttt{inbook} entry which explicitly refers to the \emph{Critique of
+  Judgment} only, not to the entire fifth volume%
+  }
+  \field{year}{1968}
+\endentry
+
+\entry{lamport94}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Lamport}{L.}%
+     {Leslie}{L.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Addison Wesley}%
+  }
+  \strng{namehash}{LL1}
+  \strng{fullhash}{LL1}
+  \field{labelyear}{1994}
+  \field{sortinit}{L}
+  \field{edition}{2}
+  \field{title}{\LaTeX: A Document Preparation System}
+  \field{year}{1994}
+\endentry
+
+\entry{lupton_thinking_2010}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Lupton}{L.}%
+     {Ellen}{E.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Princeton Architectural Press}%
+  }
+  \strng{namehash}{LE1}
+  \strng{fullhash}{LE1}
+  \field{labelyear}{2010}
+  \field{sortinit}{L}
+  \field{edition}{2 Rev Exp}
+  \field{isbn}{1568989695}
+  \field{shorttitle}{Thinking with Type, 2nd revised and expanded edition}
+  \field{title}{Thinking with Type, 2nd revised and expanded edition: A
+  Critical Guide for Designers, Writers, Editors, \& Students}
+  \field{year}{2010}
+\endentry
+
+\entry{latexompanion}{book}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Mittelbach}{M.}%
+     {Frank}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Goossens}{G.}%
+     {Michel}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Braams}{B.}%
+     {Johannes}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Carlisle}{C.}%
+     {David}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Rowley}{R.}%
+     {Chris}{C.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Addison-Wesley Professional}%
+  }
+  \strng{namehash}{MF+1}
+  \strng{fullhash}{MFGMBJCDRC1}
+  \field{labelyear}{2004}
+  \field{sortinit}{M}
+  \field{edition}{2}
+  \field{series}{Tools and Techniques for Computer Typesetting}
+  \field{title}{The \LaTeX{} Companion}
+  \field{year}{2004}
+\endentry
+
+\entry{lshort}{manual}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Oetiket}{O.}%
+     {Tobias}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Partl}{P.}%
+     {Hubert}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hyna}{H.}%
+     {Irene}{I.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Schlegl}{S.}%
+     {Elisabeth}{E.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{OT+1}
+  \strng{fullhash}{OTPHHISE1}
+  \field{labelyear}{2011}
+  \field{sortinit}{O}
+  \field{title}{The not-so-short introduction to Latex}
+  \verb{url}
+  \verb http://www.ctan.org/tex-archive/info/lshort/english/lshort.pdf
+  \endverb
+  \field{year}{2011}
+\endentry
+
+\entry{pohlen_letter_2011}{book}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Pohlen}{P.}%
+     {Joep}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Setola}{S.}%
+     {Geert}{G.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Taschen}%
+  }
+  \strng{namehash}{PJSG1}
+  \strng{fullhash}{PJSG1}
+  \field{labelyear}{2011}
+  \field{sortinit}{P}
+  \field{isbn}{3836525097}
+  \field{title}{Letter Fountain}
+  \field{year}{2011}
+\endentry
+
+\entry{tschichold2007forma}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Tschichold}{T.}%
+     {Jan}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Ateli{\^e} Editorial}%
+  }
+  \strng{namehash}{TJ1}
+  \strng{fullhash}{TJ1}
+  \field{labelyear}{2007}
+  \field{sortinit}{T}
+  \field{isbn}{9788574803616}
+  \field{series}{Artes do livro}
+  \field{title}{A forma do livro: ensaios sobre tipografia e est{\'e}tica do
+  livro}
+  \field{year}{2007}
+\endentry
+
+\entry{willberg2000}{book}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Willberg}{W.}%
+     {Hans~Peter}{H.~P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Forssman}{F.}%
+     {Friedrich}{F.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Verlag Hermann Schmidt}%
+  }
+  \strng{namehash}{WHPFF1}
+  \strng{fullhash}{WHPFF1}
+  \field{labelyear}{2000}
+  \field{sortinit}{W}
+  \field{title}{Erste Hilfe in Typografie}
+  \list{location}{1}{%
+    {Mainz}%
+  }
+  \field{year}{2000}
+\endentry
+
+\lossort
+  \key{kant:ku}
+  \key{kant:kpv}
+\endlossort
+
+\endinput

@@ -32,7 +32,7 @@ doi=false,backend=bibtex]{biblatex}
 \item[DefineBibliographyStrings\ldots] Por padrão, o nome do autor, quando repetido, é substituído no sistema autor-data por um travessão (---). Aqui temos o nome do idioma e o tamanho dessa linha para autores repetidos. Também existe a opção \texttt{dashed=false}, para repetir o nome do autor.
 \item[addbibresource] Aqui colocamos o arquivo \texttt{.bib} (a base de dados bibliográfica) a ser utilizada. (Note a diferença com \texttt{bibtex}, onde essa informação era dada no fim do documento.)
 \item[printbibliography] Para gerar a bibliografia (antes do fim do documento).
-\item[damedash=false] Não substituir o nome do autor repetido por uma linha/travessão.
+\item[namedash=false] Não substituir o nome do autor repetido por uma linha/travessão. Esta opção não funciona com estilo \textit{historian}.
 \end{description}
 
 Alternativemente, pode-se utilizar \texttt{backend=biber}. \textsf{Biber} é um substituto para \texttt{Bibtex}, e é o processador padrão para \textsf{Biblatex}. Quando compilar o documento, é só substituir o comando \verb+bibtex arquivo.tex+ por \verb+biber arquivo.tex+. Pode-se também configurar o seu editor de textos para usar \textsf{Biber}. Deve-se atentar para o fato de que o \textsf{Biber} \textit{exige que a extensão do arquivo \texttt{.bib} seja especificada:}
@@ -40,6 +40,15 @@ Alternativemente, pode-se utilizar \texttt{backend=biber}. \textsf{Biber} é um 
 \begin{verbatim}
 \addbibresource{latex.bib}
 \end{verbatim}
+
+\begin{center}
+\begin{minipage}{.5\textwidth}
+\begin{mdframed}[backgroundcolor=lightgray,frametitle=Atenção!,frametitlefont=\bfseries\sffamily,frametitlealignment=\center]
+\centering O pacote \textsf{Natbib} só funciona com \textsf{bibtex}!
+\end{mdframed}
+\end{minipage}
+\end{center}
+
 
 \subsection{Separando bibliografias por parte do documento}
 
@@ -65,7 +74,7 @@ Citation section \thesection: \textcite{knuth1977fast}.
 
 \subsection{Bibliografia dividida}
 
-Pode ser necessário dividir a bibliografia por tipo, fonte etc. É possível subdividir por palavras-chave (keywords) no seu arquivo bib:\footnote{Exemplos adaptador de: \url{http://texblog.org/2012/10/22/multiple-bibliographies-with-biblatex/}}
+Pode ser necessário dividir a bibliografia por tipo, fonte etc. É possível subdividir por palavras-chave (keywords) no seu arquivo bib:\footnote{Exemplos adaptados de: \url{http://texblog.org/2012/10/22/multiple-bibliographies-with-biblatex/}}
 
 
 \begin{verbatim}

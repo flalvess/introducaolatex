@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.4-0.9998 (TeX Live 2012/W32TeX) (format=xelatex 2013.3.31)  2 MAY 2013 19:51
+This is XeTeX, Version 3.1415926-2.4-0.9998 (TeX Live 2012/W32TeX) (format=xelatex 2013.3.31)  15 MAY 2013 21:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -919,11 +919,25 @@ l.25 ...cript=Arabic,Numbers=Arabic]{Adobe Arabic}
 | {fontspec/Numbers}{Arabic}{}{}
 |...............................................
 
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font Adobe Arabic/B (it probably doesn't exist).
-.................................................
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!
+! LaTeX error: "kernel/key-choice-unknown"
+! 
+! \msg text > LaTeX/kernel/key-choice-unknown {fontspec/Numbers}{Arabic}{}{}
+! 
+! See the LaTeX3 documentation for further information.
+! 
+! For immediate help type H <return>.
+!...............................................  
+                                                  
+l.25 ...cript=Arabic,Numbers=Arabic]{Adobe Arabic}
+                                                  
+|'''''''''''''''''''''''''''''''''''''''''''''''
+| \msg extra text > LaTeX/kernel/key-choice-unknown
+| {fontspec/Numbers}{Arabic}{}{}
+|...............................................
+
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !
@@ -972,6 +986,9 @@ l.25 ...cript=Arabic,Numbers=Arabic]{Adobe Arabic}
 . 
 . * 'normal' with NFSS spec.:
 . <->"Adobe Arabic/ICU:script=arab;language=DFLT;mapping=tex-text;"
+. 
+. * 'bold' with NFSS spec.:
+. <->"Adobe Arabic/B/ICU:script=arab;language=DFLT;mapping=tex-text;"
 . 
 . * 'italic' with NFSS spec.:
 . <->"Adobe Arabic/I/ICU:script=arab;language=DFLT;mapping=tex-text;"
@@ -2186,7 +2203,40 @@ LaTeX Warning: Command \@parboxrestore  has changed.
                Check if current package is valid.
 
 LaTeX Info: Redefining \\ on input line 3056.
-) (c:/texlive/2012/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+) (c:/texlive/2012/texmf-dist/tex/latex/tabu/tabu.sty
+Package: tabu 2011/02/26 v2.8 - flexible LaTeX tabulars (FC)
+
+(c:/texlive/2012/texmf-dist/tex/latex/varwidth/varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box92
+\sift@deathcycles=\count416
+\@vwid@loff=\dimen298
+\@vwid@roff=\dimen299
+)
+\c@taburow=\count417
+\tabu@nbcols=\count418
+\tabu@cnt=\count419
+\tabu@Xcol=\count420
+\tabu@alloc=\count421
+\tabu@nested=\count422
+\tabu@target=\dimen300
+\tabu@spreadtarget=\dimen301
+\tabu@naturalX=\dimen302
+\tabucolX=\dimen303
+\tabu@Xsum=\dimen304
+\extrarowdepth=\dimen305
+\abovetabulinesep=\dimen306
+\belowtabulinesep=\dimen307
+\tabustrutrule=\dimen308
+\tabu@thebody=\toks44
+\tabu@footnotes=\toks45
+\tabu@box=\box93
+\tabu@arstrutbox=\box94
+\tabu@hleads=\box95
+\tabu@vleads=\box96
+\tabu@cellskip=\skip160
+)
+(c:/texlive/2012/texmf-dist/tex/latex/pdfpages/pdfpages.sty
 Package: pdfpages 2012/08/31 v0.4t Insert pages of external PDF documents (AM)
 
 (c:/texlive/2012/texmf-dist/tex/latex/eso-pic/eso-pic.sty
@@ -2195,10 +2245,10 @@ Package: eso-pic 2010/10/06 v2.0c eso-pic (RN)
 (c:/texlive/2012/texmf-dist/tex/latex/pdfpages/ppxetex.def
 File: ppxetex.def 2012/08/31 v0.4t Pdfpages driver for XeTeX (AM)
 )
-\AM@pagebox=\box92
-\AM@toc@title=\toks44
-\c@AM@survey=\count416
-\AM@templatesizebox=\box93
+\AM@pagebox=\box97
+\AM@toc@title=\toks46
+\c@AM@survey=\count423
+\AM@templatesizebox=\box98
 )
 
 ! LaTeX Error: Command \aemph already defined.
@@ -2208,7 +2258,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.134 \begin{document}
+l.136 \begin{document}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2221,7 +2271,7 @@ or  <return>  to continue without it.
 * 
 * Try to use `\setCJKmainfont[...]{...}' to define it.
 *************************************************
-\g_fontspec_family_SimSun_int=\count417
+\g_fontspec_family_SimSun_int=\count424
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -2254,19 +2304,19 @@ Package: xeCJKfntef 2013/01/11 v3.1.2 xeCJK patch file for ulem/CJKfntef
 
 (c:/texlive/2012/texmf-dist/tex/latex/cjk/texinput/CJKfntef.sty
 Package: CJKfntef 2012/05/07 4.8.3
-\CJK@fntefSkip=\skip160
-\CJK@nest=\count418
-\CJK@fntefDimen=\dimen298
-\CJK@underdotBox=\box94
-\CJK@ULbox=\box95
-\CJK@underanyskip=\dimen299
+\CJK@fntefSkip=\skip161
+\CJK@nest=\count425
+\CJK@fntefDimen=\dimen309
+\CJK@underdotBox=\box99
+\CJK@ULbox=\box100
+\CJK@underanyskip=\dimen310
 )
 *************************************************
 * LaTeX warning: "xparse/redefine-command"
 * 
 * Redefining document command \CJKunderdot with arg. spec. 'm' on line 329.
 *************************************************
-\g__xeCJK_under_symbol_box=\box96
+\g__xeCJK_under_symbol_box=\box101
 *************************************************
 * LaTeX warning: "xparse/redefine-command"
 * 
@@ -2279,7 +2329,7 @@ Package: CJKfntef 2012/05/07 4.8.3
 * Redefining document environment 'CJKfilltwosides' with arg. spec. 'm' on
 * line 377.
 *************************************************
-\l__xeCJK_fill_width_dim=\dimen300
+\l__xeCJK_fill_width_dim=\dimen311
 )
 Package biblatex Info: Trying to load language 'brazil'...
 Package biblatex Info: ... file 'brazil.lbx' found.
@@ -2337,49 +2387,49 @@ Package biblatex Info: ... file 'syriac.lbx' not found.
 
 
 Package biblatex Warning: Language 'syriac' not supported.
-(biblatex)                Using fallback language 'brazil' on input line 231.
+(biblatex)                Using fallback language 'brazil' on input line 232.
 
 Package biblatex Info: Trying to load language 'hebrew'...
 Package biblatex Info: ... file 'hebrew.lbx' not found.
 
 Package biblatex Warning: Language 'hebrew' not supported.
-(biblatex)                Using fallback language 'brazil' on input line 239.
+(biblatex)                Using fallback language 'brazil' on input line 240.
 
 (./abntex2-latexintro.aux))
 \openout1 = `introducaolatex-final.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 134.
-LaTeX Font Info:    ... okay on input line 134.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 134.
-LaTeX Font Info:    ... okay on input line 134.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 134.
-LaTeX Font Info:    ... okay on input line 134.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 134.
-LaTeX Font Info:    ... okay on input line 134.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 134.
-LaTeX Font Info:    ... okay on input line 134.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 134.
-LaTeX Font Info:    ... okay on input line 134.
-LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 134.
-LaTeX Font Info:    ... okay on input line 134.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 134.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 134.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 136.
+LaTeX Font Info:    ... okay on input line 136.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 136.
+LaTeX Font Info:    ... okay on input line 136.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 136.
+LaTeX Font Info:    ... okay on input line 136.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 136.
+LaTeX Font Info:    ... okay on input line 136.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 136.
+LaTeX Font Info:    ... okay on input line 136.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 136.
+LaTeX Font Info:    ... okay on input line 136.
+LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 136.
+LaTeX Font Info:    ... okay on input line 136.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 136.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 136.
  (c:/texlive/2012/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 134.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 134.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 134.
+LaTeX Font Info:    ... okay on input line 136.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 136.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 136.
 
  (c:/texlive/2012/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 134.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 134.
-LaTeX Font Info:    ... okay on input line 134.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 134.
-LaTeX Font Info:    ... okay on input line 134.
-\AtBeginShipoutBox=\box97
+LaTeX Font Info:    ... okay on input line 136.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 136.
+LaTeX Font Info:    ... okay on input line 136.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 136.
+LaTeX Font Info:    ... okay on input line 136.
+\AtBeginShipoutBox=\box102
 
 
 ! Package bidi Error: Oops! you have loaded package amsmath after bidi package.
@@ -2390,7 +2440,7 @@ See the bidi package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.134 \begin{document}
+l.136 \begin{document}
                       
 This error message was generated by an \errmessage
 command, so I can't give any explicit help.
@@ -2406,7 +2456,7 @@ See the bidi package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.134 \begin{document}
+l.136 \begin{document}
                       
 (That was another \errmessage.)
 
@@ -2419,7 +2469,7 @@ See the bidi package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.134 \begin{document}
+l.136 \begin{document}
                       
 (That was another \errmessage.)
 
@@ -2432,7 +2482,7 @@ See the bidi package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.134 \begin{document}
+l.136 \begin{document}
                       
 (That was another \errmessage.)
 
@@ -2445,7 +2495,7 @@ See the bidi package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.134 \begin{document}
+l.136 \begin{document}
                       
 (That was another \errmessage.)
 
@@ -2458,7 +2508,7 @@ See the bidi package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.134 \begin{document}
+l.136 \begin{document}
                       
 (That was another \errmessage.)
 
@@ -2471,7 +2521,7 @@ See the bidi package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.134 \begin{document}
+l.136 \begin{document}
                       
 (That was another \errmessage.)
 
@@ -2484,7 +2534,7 @@ See the bidi package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.134 \begin{document}
+l.136 \begin{document}
                       
 (That was another \errmessage.)
 
@@ -2497,7 +2547,7 @@ See the bidi package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.134 \begin{document}
+l.136 \begin{document}
                       
 (That was another \errmessage.)
 
@@ -2510,14 +2560,14 @@ See the bidi package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.134 \begin{document}
+l.136 \begin{document}
                       
 (That was another \errmessage.)
 
 ! Undefined control sequence.
 \set@color ->\special {color push \current@color 
                                                  }\aftergroup \reset@color 
-l.134 \begin{document}
+l.136 \begin{document}
                       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2532,11 +2582,11 @@ and I'll forget about whatever was undefined.
 * 
 * Try to use `\setCJKsansfont[...]{...}' to define it.
 *************************************************
-Package tocstyle Info: prepare \l@part for redefinition on input line 134.
+Package tocstyle Info: prepare \l@part for redefinition on input line 136.
 ! Undefined control sequence.
 \set@color ->\special {color push \current@color 
                                                  }\aftergroup \reset@color 
-l.134 \begin{document}
+l.136 \begin{document}
                       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2544,34 +2594,34 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-Package tocstyle Info: prepare \l@chapter for redefinition on input line 134.
-Package tocstyle Info: prepare \l@section for redefinition on input line 134.
-LaTeX Font Info:    Try loading font information for U+zeur on input line 134.
+Package tocstyle Info: prepare \l@chapter for redefinition on input line 136.
+Package tocstyle Info: prepare \l@section for redefinition on input line 136.
+LaTeX Font Info:    Try loading font information for U+zeur on input line 136.
 (c:/texlive/2012/texmf-dist/tex/latex/eulervm/uzeur.fd
 File: uzeur.fd 2005/01/11 v4.0 (WaS)
 )
-LaTeX Font Info:    Try loading font information for U+zeus on input line 134.
+LaTeX Font Info:    Try loading font information for U+zeus on input line 136.
 
 (c:/texlive/2012/texmf-dist/tex/latex/eulervm/uzeus.fd
 File: uzeus.fd 2005/01/11 v4.0 (WaS)
 )
-LaTeX Font Info:    Try loading font information for U+zeuex on input line 134.
+LaTeX Font Info:    Try loading font information for U+zeuex on input line 136.
 
 
 (c:/texlive/2012/texmf-dist/tex/latex/eulervm/uzeuex.fd
 File: uzeuex.fd 2005/01/11 v4.0 (WaS)
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 134.
+LaTeX Font Info:    Try loading font information for U+msa on input line 136.
 
 (c:/texlive/2012/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 134.
+LaTeX Font Info:    Try loading font information for U+msb on input line 136.
 
 (c:/texlive/2012/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+wasy on input line 134.
+LaTeX Font Info:    Try loading font information for U+wasy on input line 136.
 
 (c:/texlive/2012/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
@@ -2579,7 +2629,7 @@ File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
 ! Undefined control sequence.
 \set@color ->\special {color push \current@color 
                                                  }\aftergroup \reset@color 
-l.134 \begin{document}
+l.136 \begin{document}
                       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2587,12 +2637,12 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-Package tocstyle Info: prepare \l@subsection for redefinition on input line 134
+Package tocstyle Info: prepare \l@subsection for redefinition on input line 136
 .
 ! Undefined control sequence.
 \set@color ->\special {color push \current@color 
                                                  }\aftergroup \reset@color 
-l.134 \begin{document}
+l.136 \begin{document}
                       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2600,11 +2650,11 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-Package tocstyle Info: prepare \l@table for redefinition on input line 134.
+Package tocstyle Info: prepare \l@table for redefinition on input line 136.
 ! Undefined control sequence.
 \set@color ->\special {color push \current@color 
                                                  }\aftergroup \reset@color 
-l.134 \begin{document}
+l.136 \begin{document}
                       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2612,11 +2662,11 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-Package tocstyle Info: prepare \l@figure for redefinition on input line 134.
+Package tocstyle Info: prepare \l@figure for redefinition on input line 136.
 ! Undefined control sequence.
 \set@color ->\special {color push \current@color 
                                                  }\aftergroup \reset@color 
-l.134 \begin{document}
+l.136 \begin{document}
                       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2643,7 +2693,7 @@ kip \fi \parindent #2\relax \@afterindenttrue \interlinepenalty \@M \leavevmode
  \null \nobreak \hskip -\if@RTL \rightskip \else \leftskip \fi {#4}\nobreak \le
 aders \hbox {$\m@th \mkern \@dotsep mu\hbox {.}\mkern \@dotsep mu$}\hfill \nobr
 eak \hb@xt@ \@pnumwidth {{\hfil \normalfont \normalcolor #5}}\par }\fi  on inpu
-t line 134.
+t line 136.
 (c:/texlive/2012/texmf-dist/tex/latex/ms/ragged2e.sty
 Package: ragged2e 2009/05/21 v2.1 ragged2e Package (MS)
 
@@ -2657,33 +2707,33 @@ LaTeX Warning: Command \selectfont   has changed.
 
 LaTeX Info: Redefining \selectfont on input line 126.
 )
-\CenteringLeftskip=\skip161
-\RaggedLeftLeftskip=\skip162
-\RaggedRightLeftskip=\skip163
-\CenteringRightskip=\skip164
-\RaggedLeftRightskip=\skip165
-\RaggedRightRightskip=\skip166
-\CenteringParfillskip=\skip167
-\RaggedLeftParfillskip=\skip168
-\RaggedRightParfillskip=\skip169
-\JustifyingParfillskip=\skip170
-\CenteringParindent=\skip171
-\RaggedLeftParindent=\skip172
-\RaggedRightParindent=\skip173
-\JustifyingParindent=\skip174
+\CenteringLeftskip=\skip162
+\RaggedLeftLeftskip=\skip163
+\RaggedRightLeftskip=\skip164
+\CenteringRightskip=\skip165
+\RaggedLeftRightskip=\skip166
+\RaggedRightRightskip=\skip167
+\CenteringParfillskip=\skip168
+\RaggedLeftParfillskip=\skip169
+\RaggedRightParfillskip=\skip170
+\JustifyingParfillskip=\skip171
+\CenteringParindent=\skip172
+\RaggedLeftParindent=\skip173
+\RaggedRightParindent=\skip174
+\JustifyingParindent=\skip175
 )
-Package hyperref Info: Link coloring OFF on input line 134.
+Package hyperref Info: Link coloring OFF on input line 136.
  (c:/texlive/2012/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
 (c:/texlive/2012/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count419
+\c@section@level=\count426
 )
-LaTeX Info: Redefining \ref on input line 134.
-LaTeX Info: Redefining \pageref on input line 134.
-LaTeX Info: Redefining \nameref on input line 134.
+LaTeX Info: Redefining \ref on input line 136.
+LaTeX Info: Redefining \pageref on input line 136.
+LaTeX Info: Redefining \nameref on input line 136.
 
 (./introducaolatex-final.out) (./introducaolatex-final.out)
 \@outlinefile=\write4
@@ -2735,14 +2785,10 @@ Package biblatex Warning: Data encoding is 'utf8'.
 \openout3 = `introducaolatex-final-blx.bib'.
 
 Package biblatex Info: Trying to load bibliographic data...
-
-Package biblatex Warning: File 'introducaolatex-final.bbl' created by wrong ver
-sion.
-
 Package biblatex Info: ... file 'introducaolatex-final.bbl' found.
 (./introducaolatex-final.bbl)
-Package biblatex Info: Reference section=0 on input line 134.
-Package biblatex Info: Reference segment=0 on input line 134.
+Package biblatex Info: Reference section=0 on input line 136.
+Package biblatex Info: Reference segment=0 on input line 136.
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: xetex
 * paper: a4paper
@@ -2811,7 +2857,7 @@ Style=TitlingCaps].
 ]
 File: amdg.png Graphic file (type QTm)
  <use  "amdg.png" >
-\g_fontspec_family_San Marco LT Std_int=\count420
+\g_fontspec_family_San Marco LT Std_int=\count427
 .................................................
 . fontspec info: "no-font-shape"
 . 
@@ -2848,83 +2894,83 @@ File: amdg.png Graphic file (type QTm)
 number indent by \l@... (toc, 0):  0.0pt
 text indent by \l@... (toc, 0):  16.42499pt
 number indent by parent (toc, 0):  0.0pt
-text indent calculated (toc, 0): 14.88104pt
+text indent calculated (toc, 0): 14.59634pt
 number indent calculated (toc, 0): 0.0pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  14.88104pt
+number indent by parent (toc, 1):  14.59634pt
 text indent calculated (toc, 1): 25.54634pt
-number indent calculated (toc, 1): 14.88104pt
+number indent calculated (toc, 1): 14.59634pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  14.88104pt
+number indent by parent (toc, 1):  14.59634pt
 text indent calculated (toc, 1): 25.54634pt
-number indent calculated (toc, 1): 14.88104pt
+number indent calculated (toc, 1): 14.59634pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  14.88104pt
+number indent by parent (toc, 1):  14.59634pt
 text indent calculated (toc, 1): 25.54634pt
-number indent calculated (toc, 1): 14.88104pt
+number indent calculated (toc, 1): 14.59634pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  14.88104pt
+number indent by parent (toc, 1):  14.59634pt
 text indent calculated (toc, 1): 25.54634pt
-number indent calculated (toc, 1): 14.88104pt
+number indent calculated (toc, 1): 14.59634pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  14.88104pt
+number indent by parent (toc, 1):  14.59634pt
 text indent calculated (toc, 1): 25.54634pt
-number indent calculated (toc, 1): 14.88104pt
+number indent calculated (toc, 1): 14.59634pt
 number indent by \l@... (toc, 0):  0.0pt
 text indent by \l@... (toc, 0):  16.42499pt
 number indent by parent (toc, 0):  0.0pt
-text indent calculated (toc, 0): 14.88104pt
+text indent calculated (toc, 0): 14.59634pt
 number indent calculated (toc, 0): 0.0pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  14.88104pt
+number indent by parent (toc, 1):  14.59634pt
 text indent calculated (toc, 1): 25.54634pt
-number indent calculated (toc, 1): 14.88104pt
+number indent calculated (toc, 1): 14.59634pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  14.88104pt
+number indent by parent (toc, 1):  14.59634pt
 text indent calculated (toc, 1): 25.54634pt
-number indent calculated (toc, 1): 14.88104pt
+number indent calculated (toc, 1): 14.59634pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  14.88104pt
+number indent by parent (toc, 1):  14.59634pt
 text indent calculated (toc, 1): 25.54634pt
-number indent calculated (toc, 1): 14.88104pt
+number indent calculated (toc, 1): 14.59634pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  14.88104pt
+number indent by parent (toc, 1):  14.59634pt
 text indent calculated (toc, 1): 25.54634pt
-number indent calculated (toc, 1): 14.88104pt
+number indent calculated (toc, 1): 14.59634pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  14.88104pt
+number indent by parent (toc, 1):  14.59634pt
 text indent calculated (toc, 1): 25.54634pt
-number indent calculated (toc, 1): 14.88104pt
+number indent calculated (toc, 1): 14.59634pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  14.88104pt
+number indent by parent (toc, 1):  14.59634pt
 text indent calculated (toc, 1): 25.54634pt
-number indent calculated (toc, 1): 14.88104pt
+number indent calculated (toc, 1): 14.59634pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  14.88104pt
+number indent by parent (toc, 1):  14.59634pt
 text indent calculated (toc, 1): 25.54634pt
-number indent calculated (toc, 1): 14.88104pt
+number indent calculated (toc, 1): 14.59634pt
 number indent by \l@... (toc, 0):  0.0pt
 text indent by \l@... (toc, 0):  16.42499pt
 number indent by parent (toc, 0):  0.0pt
-text indent calculated (toc, 0): 14.88104pt
+text indent calculated (toc, 0): 14.59634pt
 number indent calculated (toc, 0): 0.0pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  14.88104pt
+number indent by parent (toc, 1):  14.59634pt
 text indent calculated (toc, 1): 25.54634pt
-number indent calculated (toc, 1): 14.88104pt
+number indent calculated (toc, 1): 14.59634pt
 *************************************************
 * xeCJK warning: "CJKfamily-Unknown"
 * 
@@ -2936,99 +2982,99 @@ LaTeX Font Info:    Font shape `EU1/Consolas(0)/m/n' will be
 (Font)              scaled to size 9.85492pt on input line 35.
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  14.88104pt
+number indent by parent (toc, 1):  14.59634pt
 text indent calculated (toc, 1): 25.54634pt
-number indent calculated (toc, 1): 14.88104pt
+number indent calculated (toc, 1): 14.59634pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  14.88104pt
+number indent by parent (toc, 1):  14.59634pt
 text indent calculated (toc, 1): 25.54634pt
-number indent calculated (toc, 1): 14.88104pt
+number indent calculated (toc, 1): 14.59634pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  14.88104pt
+number indent by parent (toc, 1):  14.59634pt
 text indent calculated (toc, 1): 25.54634pt
-number indent calculated (toc, 1): 14.88104pt
+number indent calculated (toc, 1): 14.59634pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  14.88104pt
+number indent by parent (toc, 1):  14.59634pt
 text indent calculated (toc, 1): 25.54634pt
-number indent calculated (toc, 1): 14.88104pt
+number indent calculated (toc, 1): 14.59634pt
 number indent by \l@... (toc, 2):  41.61002pt
 text indent by \l@... (toc, 2):  35.03995pt
-number indent by parent (toc, 2):  40.42738pt
+number indent by parent (toc, 2):  40.14268pt
 text indent calculated (toc, 2): 27.83488pt
-number indent calculated (toc, 2): 40.42738pt
+number indent calculated (toc, 2): 40.14268pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  14.88104pt
+number indent by parent (toc, 1):  14.59634pt
 text indent calculated (toc, 1): 25.54634pt
-number indent calculated (toc, 1): 14.88104pt
+number indent calculated (toc, 1): 14.59634pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  14.88104pt
+number indent by parent (toc, 1):  14.59634pt
 text indent calculated (toc, 1): 25.54634pt
-number indent calculated (toc, 1): 14.88104pt
+number indent calculated (toc, 1): 14.59634pt
 number indent by \l@... (toc, 0):  0.0pt
 text indent by \l@... (toc, 0):  16.42499pt
 number indent by parent (toc, 0):  0.0pt
-text indent calculated (toc, 0): 14.88104pt
+text indent calculated (toc, 0): 14.59634pt
 number indent calculated (toc, 0): 0.0pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  14.88104pt
+number indent by parent (toc, 1):  14.59634pt
 text indent calculated (toc, 1): 25.54634pt
-number indent calculated (toc, 1): 14.88104pt
+number indent calculated (toc, 1): 14.59634pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  14.88104pt
+number indent by parent (toc, 1):  14.59634pt
 text indent calculated (toc, 1): 25.54634pt
-number indent calculated (toc, 1): 14.88104pt
+number indent calculated (toc, 1): 14.59634pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  14.88104pt
+number indent by parent (toc, 1):  14.59634pt
 text indent calculated (toc, 1): 25.54634pt
-number indent calculated (toc, 1): 14.88104pt
+number indent calculated (toc, 1): 14.59634pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  14.88104pt
+number indent by parent (toc, 1):  14.59634pt
 text indent calculated (toc, 1): 25.54634pt
-number indent calculated (toc, 1): 14.88104pt
+number indent calculated (toc, 1): 14.59634pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  14.88104pt
+number indent by parent (toc, 1):  14.59634pt
 text indent calculated (toc, 1): 25.54634pt
-number indent calculated (toc, 1): 14.88104pt
+number indent calculated (toc, 1): 14.59634pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  14.88104pt
+number indent by parent (toc, 1):  14.59634pt
 text indent calculated (toc, 1): 25.54634pt
-number indent calculated (toc, 1): 14.88104pt
+number indent calculated (toc, 1): 14.59634pt
 number indent by \l@... (toc, 2):  41.61002pt
 text indent by \l@... (toc, 2):  35.03995pt
-number indent by parent (toc, 2):  40.42738pt
+number indent by parent (toc, 2):  40.14268pt
 text indent calculated (toc, 2): 27.83488pt
-number indent calculated (toc, 2): 40.42738pt
+number indent calculated (toc, 2): 40.14268pt
 number indent by \l@... (toc, 2):  41.61002pt
 text indent by \l@... (toc, 2):  35.03995pt
-number indent by parent (toc, 2):  40.42738pt
+number indent by parent (toc, 2):  40.14268pt
 text indent calculated (toc, 2): 27.83488pt
-number indent calculated (toc, 2): 40.42738pt
+number indent calculated (toc, 2): 40.14268pt
 number indent by \l@... (toc, 2):  41.61002pt
 text indent by \l@... (toc, 2):  35.03995pt
-number indent by parent (toc, 2):  40.42738pt
+number indent by parent (toc, 2):  40.14268pt
 text indent calculated (toc, 2): 27.83488pt
-number indent calculated (toc, 2): 40.42738pt
+number indent calculated (toc, 2): 40.14268pt
 number indent by \l@... (toc, 0):  0.0pt
 text indent by \l@... (toc, 0):  16.42499pt
 number indent by parent (toc, 0):  0.0pt
-text indent calculated (toc, 0): 14.88104pt
+text indent calculated (toc, 0): 14.59634pt
 number indent calculated (toc, 0): 0.0pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  14.88104pt
+number indent by parent (toc, 1):  14.59634pt
 text indent calculated (toc, 1): 25.54634pt
-number indent calculated (toc, 1): 14.88104pt
+number indent calculated (toc, 1): 14.59634pt
 [5
 
 
@@ -3037,197 +3083,197 @@ number indent calculated (toc, 1): 14.88104pt
 number indent by \l@... (toc, 0):  0.0pt
 text indent by \l@... (toc, 0):  16.42499pt
 number indent by parent (toc, 0):  0.0pt
-text indent calculated (toc, 0): 14.88104pt
+text indent calculated (toc, 0): 14.59634pt
 number indent calculated (toc, 0): 0.0pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  14.88104pt
+number indent by parent (toc, 1):  14.59634pt
 text indent calculated (toc, 1): 25.54634pt
-number indent calculated (toc, 1): 14.88104pt
+number indent calculated (toc, 1): 14.59634pt
 number indent by \l@... (toc, 2):  41.61002pt
 text indent by \l@... (toc, 2):  35.03995pt
-number indent by parent (toc, 2):  40.42738pt
+number indent by parent (toc, 2):  40.14268pt
 text indent calculated (toc, 2): 27.83488pt
-number indent calculated (toc, 2): 40.42738pt
+number indent calculated (toc, 2): 40.14268pt
 number indent by \l@... (toc, 2):  41.61002pt
 text indent by \l@... (toc, 2):  35.03995pt
-number indent by parent (toc, 2):  40.42738pt
+number indent by parent (toc, 2):  40.14268pt
 text indent calculated (toc, 2): 27.83488pt
-number indent calculated (toc, 2): 40.42738pt
+number indent calculated (toc, 2): 40.14268pt
 number indent by \l@... (toc, 2):  41.61002pt
 text indent by \l@... (toc, 2):  35.03995pt
-number indent by parent (toc, 2):  40.42738pt
+number indent by parent (toc, 2):  40.14268pt
 text indent calculated (toc, 2): 27.83488pt
-number indent calculated (toc, 2): 40.42738pt
+number indent calculated (toc, 2): 40.14268pt
 number indent by \l@... (toc, 2):  41.61002pt
 text indent by \l@... (toc, 2):  35.03995pt
-number indent by parent (toc, 2):  40.42738pt
+number indent by parent (toc, 2):  40.14268pt
 text indent calculated (toc, 2): 27.83488pt
-number indent calculated (toc, 2): 40.42738pt
+number indent calculated (toc, 2): 40.14268pt
 number indent by \l@... (toc, 2):  41.61002pt
 text indent by \l@... (toc, 2):  35.03995pt
-number indent by parent (toc, 2):  40.42738pt
+number indent by parent (toc, 2):  40.14268pt
 text indent calculated (toc, 2): 27.83488pt
-number indent calculated (toc, 2): 40.42738pt
+number indent calculated (toc, 2): 40.14268pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  14.88104pt
+number indent by parent (toc, 1):  14.59634pt
 text indent calculated (toc, 1): 25.54634pt
-number indent calculated (toc, 1): 14.88104pt
+number indent calculated (toc, 1): 14.59634pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  14.88104pt
+number indent by parent (toc, 1):  14.59634pt
 text indent calculated (toc, 1): 25.54634pt
-number indent calculated (toc, 1): 14.88104pt
+number indent calculated (toc, 1): 14.59634pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  14.88104pt
+number indent by parent (toc, 1):  14.59634pt
 text indent calculated (toc, 1): 25.54634pt
-number indent calculated (toc, 1): 14.88104pt
+number indent calculated (toc, 1): 14.59634pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  14.88104pt
+number indent by parent (toc, 1):  14.59634pt
 text indent calculated (toc, 1): 25.54634pt
-number indent calculated (toc, 1): 14.88104pt
+number indent calculated (toc, 1): 14.59634pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  14.88104pt
+number indent by parent (toc, 1):  14.59634pt
 text indent calculated (toc, 1): 25.54634pt
-number indent calculated (toc, 1): 14.88104pt
+number indent calculated (toc, 1): 14.59634pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  14.88104pt
+number indent by parent (toc, 1):  14.59634pt
 text indent calculated (toc, 1): 25.54634pt
-number indent calculated (toc, 1): 14.88104pt
+number indent calculated (toc, 1): 14.59634pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  14.88104pt
+number indent by parent (toc, 1):  14.59634pt
 text indent calculated (toc, 1): 25.54634pt
-number indent calculated (toc, 1): 14.88104pt
+number indent calculated (toc, 1): 14.59634pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  14.88104pt
+number indent by parent (toc, 1):  14.59634pt
 text indent calculated (toc, 1): 25.54634pt
-number indent calculated (toc, 1): 14.88104pt
+number indent calculated (toc, 1): 14.59634pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  14.88104pt
+number indent by parent (toc, 1):  14.59634pt
 text indent calculated (toc, 1): 25.54634pt
-number indent calculated (toc, 1): 14.88104pt
+number indent calculated (toc, 1): 14.59634pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  14.88104pt
+number indent by parent (toc, 1):  14.59634pt
 text indent calculated (toc, 1): 25.54634pt
-number indent calculated (toc, 1): 14.88104pt
+number indent calculated (toc, 1): 14.59634pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  14.88104pt
+number indent by parent (toc, 1):  14.59634pt
 text indent calculated (toc, 1): 25.54634pt
-number indent calculated (toc, 1): 14.88104pt
+number indent calculated (toc, 1): 14.59634pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  14.88104pt
+number indent by parent (toc, 1):  14.59634pt
 text indent calculated (toc, 1): 25.54634pt
-number indent calculated (toc, 1): 14.88104pt
+number indent calculated (toc, 1): 14.59634pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  14.88104pt
+number indent by parent (toc, 1):  14.59634pt
 text indent calculated (toc, 1): 25.54634pt
-number indent calculated (toc, 1): 14.88104pt
+number indent calculated (toc, 1): 14.59634pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  14.88104pt
+number indent by parent (toc, 1):  14.59634pt
 text indent calculated (toc, 1): 25.54634pt
-number indent calculated (toc, 1): 14.88104pt
+number indent calculated (toc, 1): 14.59634pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  14.88104pt
+number indent by parent (toc, 1):  14.59634pt
 text indent calculated (toc, 1): 25.54634pt
-number indent calculated (toc, 1): 14.88104pt
+number indent calculated (toc, 1): 14.59634pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  14.88104pt
+number indent by parent (toc, 1):  14.59634pt
 text indent calculated (toc, 1): 25.54634pt
-number indent calculated (toc, 1): 14.88104pt
+number indent calculated (toc, 1): 14.59634pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  14.88104pt
+number indent by parent (toc, 1):  14.59634pt
 text indent calculated (toc, 1): 25.54634pt
-number indent calculated (toc, 1): 14.88104pt
+number indent calculated (toc, 1): 14.59634pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  14.88104pt
+number indent by parent (toc, 1):  14.59634pt
 text indent calculated (toc, 1): 25.54634pt
-number indent calculated (toc, 1): 14.88104pt
+number indent calculated (toc, 1): 14.59634pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  14.88104pt
+number indent by parent (toc, 1):  14.59634pt
 text indent calculated (toc, 1): 25.54634pt
-number indent calculated (toc, 1): 14.88104pt
+number indent calculated (toc, 1): 14.59634pt
 number indent by \l@... (toc, 0):  0.0pt
 text indent by \l@... (toc, 0):  16.42499pt
 number indent by parent (toc, 0):  0.0pt
-text indent calculated (toc, 0): 14.88104pt
+text indent calculated (toc, 0): 14.59634pt
 number indent calculated (toc, 0): 0.0pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  14.88104pt
+number indent by parent (toc, 1):  14.59634pt
 text indent calculated (toc, 1): 25.54634pt
-number indent calculated (toc, 1): 14.88104pt
+number indent calculated (toc, 1): 14.59634pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  14.88104pt
+number indent by parent (toc, 1):  14.59634pt
 text indent calculated (toc, 1): 25.54634pt
-number indent calculated (toc, 1): 14.88104pt
+number indent calculated (toc, 1): 14.59634pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  14.88104pt
+number indent by parent (toc, 1):  14.59634pt
 text indent calculated (toc, 1): 25.54634pt
-number indent calculated (toc, 1): 14.88104pt
+number indent calculated (toc, 1): 14.59634pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  14.88104pt
+number indent by parent (toc, 1):  14.59634pt
 text indent calculated (toc, 1): 25.54634pt
-number indent calculated (toc, 1): 14.88104pt
+number indent calculated (toc, 1): 14.59634pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  14.88104pt
+number indent by parent (toc, 1):  14.59634pt
 text indent calculated (toc, 1): 25.54634pt
-number indent calculated (toc, 1): 14.88104pt
+number indent calculated (toc, 1): 14.59634pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  14.88104pt
+number indent by parent (toc, 1):  14.59634pt
 text indent calculated (toc, 1): 25.54634pt
-number indent calculated (toc, 1): 14.88104pt
+number indent calculated (toc, 1): 14.59634pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  14.88104pt
+number indent by parent (toc, 1):  14.59634pt
 text indent calculated (toc, 1): 25.54634pt
-number indent calculated (toc, 1): 14.88104pt
+number indent calculated (toc, 1): 14.59634pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  14.88104pt
+number indent by parent (toc, 1):  14.59634pt
 text indent calculated (toc, 1): 25.54634pt
-number indent calculated (toc, 1): 14.88104pt
+number indent calculated (toc, 1): 14.59634pt
 number indent by \l@... (toc, 0):  0.0pt
 text indent by \l@... (toc, 0):  16.42499pt
 number indent by parent (toc, 0):  0.0pt
-text indent calculated (toc, 0): 14.88104pt
+text indent calculated (toc, 0): 14.59634pt
 number indent calculated (toc, 0): 0.0pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  14.88104pt
+number indent by parent (toc, 1):  14.59634pt
 text indent calculated (toc, 1): 25.54634pt
-number indent calculated (toc, 1): 14.88104pt
+number indent calculated (toc, 1): 14.59634pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  14.88104pt
+number indent by parent (toc, 1):  14.59634pt
 text indent calculated (toc, 1): 25.54634pt
-number indent calculated (toc, 1): 14.88104pt
+number indent calculated (toc, 1): 14.59634pt
 number indent by \l@... (toc, 0):  0.0pt
 text indent by \l@... (toc, 0):  16.42499pt
 number indent by parent (toc, 0):  0.0pt
-text indent calculated (toc, 0): 14.88104pt
+text indent calculated (toc, 0): 14.59634pt
 number indent calculated (toc, 0): 0.0pt
 LaTeX Font Info:    Font shape `EU1/JannonTModernePro(0)/m/sl' in size <10.95> 
 not available
@@ -3237,58 +3283,53 @@ not available
 number indent by \l@... (toc, 0):  0.0pt
 text indent by \l@... (toc, 0):  16.42499pt
 number indent by parent (toc, 0):  0.0pt
-text indent calculated (toc, 0): 14.88104pt
+text indent calculated (toc, 0): 14.59634pt
 number indent calculated (toc, 0): 0.0pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  14.88104pt
+number indent by parent (toc, 1):  14.59634pt
 text indent calculated (toc, 1): 25.54634pt
-number indent calculated (toc, 1): 14.88104pt
+number indent calculated (toc, 1): 14.59634pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  14.88104pt
+number indent by parent (toc, 1):  14.59634pt
 text indent calculated (toc, 1): 25.54634pt
-number indent calculated (toc, 1): 14.88104pt
+number indent calculated (toc, 1): 14.59634pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  14.88104pt
+number indent by parent (toc, 1):  14.59634pt
 text indent calculated (toc, 1): 25.54634pt
-number indent calculated (toc, 1): 14.88104pt
+number indent calculated (toc, 1): 14.59634pt
 number indent by \l@... (toc, 0):  0.0pt
 text indent by \l@... (toc, 0):  16.42499pt
 number indent by parent (toc, 0):  0.0pt
-text indent calculated (toc, 0): 14.88104pt
+text indent calculated (toc, 0): 14.59634pt
 number indent calculated (toc, 0): 0.0pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  14.88104pt
+number indent by parent (toc, 1):  14.59634pt
 text indent calculated (toc, 1): 25.54634pt
-number indent calculated (toc, 1): 14.88104pt
+number indent calculated (toc, 1): 14.59634pt
 number indent by \l@... (toc, 0):  0.0pt
 text indent by \l@... (toc, 0):  16.42499pt
 number indent by parent (toc, 0):  0.0pt
-text indent calculated (toc, 0): 14.88104pt
+text indent calculated (toc, 0): 14.59634pt
 number indent calculated (toc, 0): 0.0pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  14.88104pt
+number indent by parent (toc, 1):  14.59634pt
 text indent calculated (toc, 1): 25.54634pt
-number indent calculated (toc, 1): 14.88104pt
+number indent calculated (toc, 1): 14.59634pt
 number indent by \l@... (toc, 0):  0.0pt
 text indent by \l@... (toc, 0):  16.42499pt
 number indent by parent (toc, 0):  0.0pt
-text indent calculated (toc, 0): 14.88104pt
+text indent calculated (toc, 0): 14.59634pt
 number indent calculated (toc, 0): 0.0pt
 number indent by \l@... (toc, -1):  0.0pt
 text indent by \l@... (toc, -1):  21.9pt
 number indent by parent (toc, -1):  0.0pt
 text indent calculated (toc, -1): 21.9pt
 number indent calculated (toc, -1): 0.0pt
-number indent by \l@... (toc, 0):  0.0pt
-text indent by \l@... (toc, 0):  16.42499pt
-number indent by parent (toc, 0):  0.0pt
-text indent calculated (toc, 0): 14.88104pt
-number indent calculated (toc, 0): 0.0pt
 )
 \tf@toc=\write5
 \openout5 = `introducaolatex-final.toc'.
@@ -3300,52 +3341,52 @@ number indent calculated (toc, 0): 0.0pt
 number indent by \l@... (lof, 1):  16.42499pt
 text indent by \l@... (lof, 1):  25.18501pt
 number indent by parent (lof, 1):  16.42499pt
-text indent calculated (lof, 1): 22.84169pt
+text indent calculated (lof, 1): 22.51318pt
 number indent calculated (lof, 1): 16.42499pt
 number indent by \l@... (lof, 1):  16.42499pt
 text indent by \l@... (lof, 1):  25.18501pt
 number indent by parent (lof, 1):  16.42499pt
-text indent calculated (lof, 1): 22.84169pt
+text indent calculated (lof, 1): 22.51318pt
 number indent calculated (lof, 1): 16.42499pt
 number indent by \l@... (lof, 1):  16.42499pt
 text indent by \l@... (lof, 1):  25.18501pt
 number indent by parent (lof, 1):  16.42499pt
-text indent calculated (lof, 1): 22.84169pt
+text indent calculated (lof, 1): 22.51318pt
 number indent calculated (lof, 1): 16.42499pt
 number indent by \l@... (lof, 1):  16.42499pt
 text indent by \l@... (lof, 1):  25.18501pt
 number indent by parent (lof, 1):  16.42499pt
-text indent calculated (lof, 1): 22.84169pt
+text indent calculated (lof, 1): 22.51318pt
 number indent calculated (lof, 1): 16.42499pt
 number indent by \l@... (lof, 1):  16.42499pt
 text indent by \l@... (lof, 1):  25.18501pt
 number indent by parent (lof, 1):  16.42499pt
-text indent calculated (lof, 1): 22.84169pt
+text indent calculated (lof, 1): 22.51318pt
 number indent calculated (lof, 1): 16.42499pt
 number indent by \l@... (lof, 1):  16.42499pt
 text indent by \l@... (lof, 1):  25.18501pt
 number indent by parent (lof, 1):  16.42499pt
-text indent calculated (lof, 1): 22.84169pt
+text indent calculated (lof, 1): 22.51318pt
 number indent calculated (lof, 1): 16.42499pt
 number indent by \l@... (lof, 1):  16.42499pt
 text indent by \l@... (lof, 1):  25.18501pt
 number indent by parent (lof, 1):  16.42499pt
-text indent calculated (lof, 1): 22.84169pt
+text indent calculated (lof, 1): 22.51318pt
 number indent calculated (lof, 1): 16.42499pt
 number indent by \l@... (lof, 1):  16.42499pt
 text indent by \l@... (lof, 1):  25.18501pt
 number indent by parent (lof, 1):  16.42499pt
-text indent calculated (lof, 1): 22.84169pt
+text indent calculated (lof, 1): 22.51318pt
 number indent calculated (lof, 1): 16.42499pt
 number indent by \l@... (lof, 1):  16.42499pt
 text indent by \l@... (lof, 1):  25.18501pt
 number indent by parent (lof, 1):  16.42499pt
-text indent calculated (lof, 1): 22.84169pt
+text indent calculated (lof, 1): 22.51318pt
 number indent calculated (lof, 1): 16.42499pt
 number indent by \l@... (lof, 1):  16.42499pt
 text indent by \l@... (lof, 1):  25.18501pt
 number indent by parent (lof, 1):  16.42499pt
-text indent calculated (lof, 1): 22.84169pt
+text indent calculated (lof, 1): 22.51318pt
 number indent calculated (lof, 1): 16.42499pt
 )
 \tf@lof=\write6
@@ -3438,7 +3479,7 @@ Capítulo 1.
 
 
 ]
-Overfull \hbox (3.68503pt too wide) in paragraph at lines 191--192
+Overfull \hbox (3.68503pt too wide) in paragraph at lines 193--194
 []\EU1/JannonTModernePro(0)/m/n/10.95 Na verdade o processo de trabalho (\EU1/J
 annonTModernePro(0)/m/it/10.95 workflow\EU1/JannonTModernePro(0)/m/n/10.95 ) é
  diferente em processadores de texto (Word
@@ -3448,7 +3489,7 @@ File: grafico-latex.png Graphic file (type QTm)
 <use  "grafico-latex.png" > [2] [3]
 File: biblia-gutenberg.jpg Graphic file (type QTm)
  <use  "biblia-gutenberg.jpg" >
-Overfull \hbox (0.4379pt too wide) in paragraph at lines 279--280
+Overfull \hbox (0.4379pt too wide) in paragraph at lines 281--282
 []\EU1/JannonTModernePro(0)/m/n/10.95 ([]$[][][][] [] [] [] [][][] [] [][][] []
  [][][] [] [][][][][][][][]$[]) para Linux, Mac ([]$[][][][] [] [] [] [][][] []
  [][][] [] [][][] [] [][][][][][]$[])
@@ -3462,26 +3503,26 @@ Capítulo 2.
 [7]
 File: latexbasico.png Graphic file (type QTm)
  <use  "latexbasico.png" > [8] [9]
-Overfull \hbox (7.35124pt too wide) in paragraph at lines 466--467
+Overfull \hbox (7.35124pt too wide) in paragraph at lines 468--469
 \EU1/JannonTModernePro(0)/m/n/10.95 cumento que o autor quer criar. Isso é esp
 ecificado usando o comando []\EU1/Consolas(0)/m/n/10.95 \documentclass{...}\EU1
 /JannonTModernePro(0)/m/n/10.95 . 
  []
 
 
-Underfull \hbox (badness 5893) in paragraph at lines 496--496
+Underfull \hbox (badness 5893) in paragraph at lines 498--498
 []|\EU1/JannonTModernePro(0)/m/n/10.95 Tamanho da fonte principal do docu-
  []
 
 
-Underfull \hbox (badness 3407) in paragraph at lines 496--496
+Underfull \hbox (badness 3407) in paragraph at lines 498--498
 \EU1/JannonTModernePro(0)/m/n/10.95 direita (openright) ou qualquer página
  []
 
 [10] [11] [12]
 Capítulo 3.
 LaTeX Font Info:    Font shape `EU1/Consolas(0)/bx/n' will be
-(Font)              scaled to size 12.9599pt on input line 524.
+(Font)              scaled to size 12.9599pt on input line 526.
 [13
 
 
@@ -3540,28 +3581,31 @@ s básicos são \EU1/Consolas(0)/m/n/10.95 citestyle=authoryear
 
 
 ]
+Package mdframed Info: mdframed works in twoside mode on input line 46.
+Package mdframed Info: mdframed inside a box 
+ mdframed uses option nobreak mdframed on input line 48.
 LaTeX Font Info:    Font shape `EU1/Consolas(0)/m/n' will be
-(Font)              scaled to size 8.09995pt on input line 68.
+(Font)              scaled to size 8.09995pt on input line 77.
  [28]
 LaTeX Font Info:    Font shape `EU1/Consolas(0)/bx/n' will be
-(Font)              scaled to size 10.79993pt on input line 102.
+(Font)              scaled to size 10.79993pt on input line 111.
 LaTeX Font Info:    Font shape `EU1/Consolas(0)/bx/n' will be
-(Font)              scaled to size 9.85492pt on input line 104.
+(Font)              scaled to size 9.85492pt on input line 113.
 
-Overfull \hbox (21.76494pt too wide) in paragraph at lines 135--136
+Overfull \hbox (21.76494pt too wide) in paragraph at lines 144--145
 []\EU1/JannonTModernePro(0)/m/n/10.95 Coloca somente o ano da em parênteses. P
 ode ser utilizado em conjunção com []\EU1/Consolas(0)/m/n/10.95 \citeauthor{}
 \EU1/JannonTModernePro(0)/m/n/10.95 . 
  []
 
-
-Overfull \hbox (2.80821pt too wide) in paragraph at lines 144--145
+[29]
+Overfull \hbox (2.80821pt too wide) in paragraph at lines 153--154
 []\EU1/JannonTModernePro(0)/m/n/10.95 Coloca as referências como notas de roda
 pé. Aceita as opções exemplificadas acima. Exem-
  []
 
-[29]
-Underfull \hbox (badness 10000) in paragraph at lines 170--170
+
+Underfull \hbox (badness 10000) in paragraph at lines 179--179
 [][][]\EU1/JannonTModernePro(0)/m/n/9 Exemplos retirados do arquivo: []$[][][][
 ] [] [] [] [][][][][][] [] [][][] [] [][] [] [][][][] [] [][][][][][] [] [][][]
 [][] [] [][][][][][][] [] [][][][][][][][] [] [][][] []$
@@ -3574,20 +3618,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 170--170
 ]
 Capítulo 5.
 
-Overfull \hbox (14.61047pt too wide) in paragraph at lines 764--766
+Overfull \hbox (14.61047pt too wide) in paragraph at lines 766--768
 \EU1/JannonTModernePro(0)/m/n/10.95 Mas você pode converter as tabelas do Exce
 l ou OpenOffice com plugins: []$[][][][] [] [] [] [][][][][][][][][][] []$
  []
 
 
-Overfull \hbox (28.29338pt too wide) in paragraph at lines 764--766
+Overfull \hbox (28.29338pt too wide) in paragraph at lines 766--768
 $[][][][][][][][][][][] [] [][][][]$[] \EU1/JannonTModernePro(0)/m/n/10.95 para
  OpenOffice/Libreoffice e []$[][][][] [] [] [] [][][] [] [][][][] [] [][][] [] 
 [][][][][][][][][][][][] [] [][][][][][][] []$
  []
 
 [33] [34]
-Overfull \hbox (10.55418pt too wide) in paragraph at lines 836--837
+Overfull \hbox (10.55418pt too wide) in paragraph at lines 838--839
 []\EU1/JannonTModernePro(0)/m/n/10.95 Se você preferir girar a tabela na verti
 cal, use o pacote \EU1/Consolas(0)/m/n/10.95 rotating \EU1/JannonTModernePro(0)
 /m/n/10.95 e o ambiente \EU1/Consolas(0)/m/n/10.95 sidewaystable\EU1/JannonTMod
@@ -3595,7 +3639,7 @@ ernePro(0)/m/n/10.95 :
  []
 
 
-Overfull \hbox (18.22098pt too wide) in paragraph at lines 849--850
+Overfull \hbox (18.22098pt too wide) in paragraph at lines 851--852
 []\EU1/JannonTModernePro(0)/m/n/10.95 Para exemplos mais elaborados (e que difi
 cilmente você utilizará), ver []$[][][][] [] [] [] [][] [] [][][][][][][][][]
  []$
@@ -3607,50 +3651,50 @@ cilmente você utilizará), ver []$[][][][] [] [] [] [][] [] [][][][][][][][][]
 ]
 Capítulo 6.
 
-Overfull \hbox (34.00002pt too wide) in paragraph at lines 871--889
+Overfull \hbox (34.00002pt too wide) in paragraph at lines 873--891
 [][] 
  []
 
 
-Overfull \hbox (13.00252pt too wide) in paragraph at lines 900--901
+Overfull \hbox (13.00252pt too wide) in paragraph at lines 902--903
 []\EU1/JannonTModernePro(0)/m/n/10.95 Lembrando que []\EU1/Consolas(0)/m/n/10.9
 5 \labelitemi \EU1/JannonTModernePro(0)/m/n/10.95 é o primeiro nível; []\EU1/
 Consolas(0)/m/n/10.95 \labelitemii\EU1/JannonTModernePro(0)/m/n/10.95 , o segun
 do; e []\EU1/Consolas(0)/m/n/10.95 \labelitemiii
  []
 
-LaTeX Font Info:    Try loading font information for U+ding on input line 902.
+LaTeX Font Info:    Try loading font information for U+ding on input line 904.
 (c:/texlive/2012/texmf-dist/tex/latex/bbding/uding.fd
 File: Uding.fd 1996/02/01 v1.0 BBding font definitions
 )
-Overfull \hbox (6.0645pt too wide) in paragraph at lines 902--903
+Overfull \hbox (6.0645pt too wide) in paragraph at lines 904--905
 []\EU1/JannonTModernePro(0)/m/n/10.95 O item []\EU1/Consolas(0)/m/n/10.95 \chec
 kmark \EU1/JannonTModernePro(0)/m/n/10.95 pode ser modificado por qualquer sím
 bolo, por exemplo, []\EU1/Consolas(0)/m/n/10.95 \textemdash
  []
 
 
-Overfull \hbox (34.00002pt too wide) in paragraph at lines 934--952
+Overfull \hbox (34.00002pt too wide) in paragraph at lines 936--954
 [][] 
  []
 
 [37]
-Overfull \hbox (34.00002pt too wide) in paragraph at lines 955--973
+Overfull \hbox (34.00002pt too wide) in paragraph at lines 957--975
 [][] 
  []
 
 
-Overfull \hbox (34.00002pt too wide) in paragraph at lines 977--1004
+Overfull \hbox (34.00002pt too wide) in paragraph at lines 979--1006
 [][] 
  []
 
 
-Overfull \hbox (34.00002pt too wide) in paragraph at lines 1011--1042
+Overfull \hbox (34.00002pt too wide) in paragraph at lines 1013--1044
 [][] 
  []
 
 
-Overfull \hbox (0.97298pt too wide) in paragraph at lines 1052--1053
+Overfull \hbox (0.97298pt too wide) in paragraph at lines 1054--1055
 []\EU1/JannonTModernePro(0)/m/n/10.95 Você também pode especificar o tipo de 
 contador que quer: numerais romanos, em maiús-
  []
@@ -3663,18 +3707,18 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1070 \begin{enumerate}[label=\Roman*]
+l.1072 \begin{enumerate}[label=\Roman*]
                                        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (34.00002pt too wide) in paragraph at lines 1056--1078
+Overfull \hbox (34.00002pt too wide) in paragraph at lines 1058--1080
 [][] 
  []
 
 
-Overfull \hbox (0.44429pt too wide) in paragraph at lines 1109--1110
+Overfull \hbox (0.44429pt too wide) in paragraph at lines 1111--1112
 []\EU1/JannonTModernePro(0)/m/n/10.95 No entanto, é bom ter cuidado para só u
 sar \EU1/JannonTModernePro(0)/m/it/10.95 um \EU1/JannonTModernePro(0)/m/n/10.95
  dos dois pacotes (\EU1/Consolas(0)/m/n/10.95 enumerate \EU1/JannonTModernePro(
@@ -3732,7 +3776,7 @@ Overfull \vbox (18.11572pt too high) detected at line 97
 ] [44
 
 ]
-\g_fontspec_family_Myriad Pro_int=\count421
+\g_fontspec_family_Myriad Pro_int=\count428
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -3754,7 +3798,7 @@ Overfull \vbox (18.11572pt too high) detected at line 97
 . <->"Myriad Pro/BI/ICU:script=latn;language=DFLT;mapping=tex-text;"
 .................................................
  [45]
-Overfull \hbox (18.25845pt too wide) in paragraph at lines 1328--1329
+Overfull \hbox (18.25845pt too wide) in paragraph at lines 1330--1331
 []\EU1/JannonTModernePro(0)/m/n/10.95 Para escrever fórmulas químicas, é út
 il o pacote \EU1/Consolas(0)/m/n/10.95 mhchem \EU1/JannonTModernePro(0)/m/n/10.
 95 ([]$[][][][] [] [] [] [][][] [] [][][][] [] [][][] [] [][][][][][][][][][][]
@@ -3762,40 +3806,40 @@ il o pacote \EU1/Consolas(0)/m/n/10.95 mhchem \EU1/JannonTModernePro(0)/m/n/10.
  []
 
 [46]
-LaTeX Info: Redefining \bond on input line 1337.
-LaTeX Info: Redefining \dbond on input line 1337.
-LaTeX Info: Redefining \tbond on input line 1337.
+LaTeX Info: Redefining \bond on input line 1339.
+LaTeX Info: Redefining \dbond on input line 1339.
+LaTeX Info: Redefining \tbond on input line 1339.
 
-Overfull \hbox (48.20433pt too wide) in paragraph at lines 1429--1448
+Overfull \hbox (48.20433pt too wide) in paragraph at lines 1431--1450
 [][] 
  []
 
 [47] [48] [49] [50]
-Overfull \hbox (58.55496pt too wide) in paragraph at lines 1592--1592
+Overfull \hbox (58.55496pt too wide) in paragraph at lines 1594--1594
 []\EU1/Consolas(0)/m/n/10.95 %\setlength{\textwidth}{15cm} %implementado pelo p
 acote geometry abaixo, por isso não ativo[]  
  []
 
 
-Overfull \hbox (20.62697pt too wide) in paragraph at lines 1592--1592
+Overfull \hbox (20.62697pt too wide) in paragraph at lines 1594--1594
 []\EU1/Consolas(0)/m/n/10.95 \setlength{\marginparsep}{0.5cm} %tamanho da dist�
 �ncia entre notas de margem e texto[]  
  []
 
 
-Overfull \hbox (74.80984pt too wide) in paragraph at lines 1592--1592
+Overfull \hbox (74.80984pt too wide) in paragraph at lines 1594--1594
 []\EU1/Consolas(0)/m/n/10.95 \usepackage[left=2cm,textwidth=14cm]{geometry} %ta
 manho do bloco de texto e da margem esquerda[]  
  []
 
 [51]
-Overfull \hbox (7.98436pt too wide) in paragraph at lines 1637--1637
+Overfull \hbox (7.98436pt too wide) in paragraph at lines 1639--1639
 []\EU1/Consolas(0)/m/n/10.95 \setcounter{endnote}{0} % para recomeçar a numera
 ção das notas no próximo capítulo[]  
  []
 
 [52]
-Overfull \hbox (6.03131pt too wide) in paragraph at lines 1645--1646
+Overfull \hbox (6.03131pt too wide) in paragraph at lines 1647--1648
 $[][][][][][][][][][][]$[] \EU1/JannonTModernePro(0)/m/n/10.95 e/ou []$[][][][]
  [] [] [] [][][][][][][] [] [][][][] [] [][][] [] [][][][] [] [][][][][][] [] [
 ][][][][][][][][][][][][][] [] [][][][][][][][] [] [][][]$[]. 
@@ -3807,7 +3851,7 @@ $[][][][][][][][][][][]$[] \EU1/JannonTModernePro(0)/m/n/10.95 e/ou []$[][][][]
 ]
 Capítulo 7.
 
-Overfull \hbox (2.61046pt too wide) in paragraph at lines 1655--1657
+Overfull \hbox (2.61046pt too wide) in paragraph at lines 1657--1659
 []\EU1/JannonTModernePro(0)/m/n/10.95 Para incluir imagens, usamos o pacote \EU
 1/Consolas(0)/m/n/10.95 graphicx \EU1/JannonTModernePro(0)/m/n/10.95 ([]\EU1/Co
 nsolas(0)/m/n/10.95 \usepackage{graphicx} \EU1/JannonTModernePro(0)/m/n/10.95 n
@@ -3816,7 +3860,7 @@ o preâmbulo).
 
 File: femmevaguecourbet.jpg Graphic file (type QTm)
 <use  "femmevaguecourbet.jpg" >
-Overfull \hbox (2.56607pt too wide) in paragraph at lines 1693--1693
+Overfull \hbox (2.56607pt too wide) in paragraph at lines 1695--1695
 []\EU1/Consolas(0)/m/n/10.95 \graphicspath{~/Pictures} %(geralmente é o diret�
 �rio de imagens para Linux e Mac)[]  
  []
@@ -3840,7 +3884,7 @@ File: moreau-apparition.jpg Graphic file (type QTm)
 ! Illegal parameter number in definition of \Hy@tempa.
 <to be read again> 
                    S
-l.1816 ...ats,\_Figures\_and\_Captions#Subfloats}}
+l.1818 ...ats,\_Figures\_and\_Captions#Subfloats}}
                                                   
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
@@ -3849,7 +3893,7 @@ are all screwed up? I'm going to assume that you meant ##.
 ! Illegal parameter number in definition of \Hy@tempa.
 <to be read again> 
                    S
-l.1816 ...ats,\_Figures\_and\_Captions#Subfloats}}
+l.1818 ...ats,\_Figures\_and\_Captions#Subfloats}}
                                                   
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
@@ -3858,26 +3902,26 @@ are all screwed up? I'm going to assume that you meant ##.
 ! Illegal parameter number in definition of \Hy@gtemp.
 <to be read again> 
                    S
-l.1816 ...ats,\_Figures\_and\_Captions#Subfloats}}
+l.1818 ...ats,\_Figures\_and\_Captions#Subfloats}}
                                                   
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
 are all screwed up? I'm going to assume that you meant ##.
 
 [60]
-Overfull \hbox (9.79022pt too wide) in paragraph at lines 1829--1829
+Overfull \hbox (9.79022pt too wide) in paragraph at lines 1831--1831
 []  \EU1/Consolas(0)/m/n/10.95 \subfloat[A gull]{\label{fig:gull}\includegraphi
 cs[width=0.3\textwidth]{gull}}[]  
  []
 
 
-Overfull \hbox (26.04504pt too wide) in paragraph at lines 1829--1829
+Overfull \hbox (26.04504pt too wide) in paragraph at lines 1831--1831
 []  \EU1/Consolas(0)/m/n/10.95 \subfloat[A tiger]{\label{fig:tiger}\includegrap
 hics[width=0.3\textwidth]{tiger}}[]  
  []
 
 
-Overfull \hbox (26.04504pt too wide) in paragraph at lines 1829--1829
+Overfull \hbox (26.04504pt too wide) in paragraph at lines 1831--1831
 []  \EU1/Consolas(0)/m/n/10.95 \subfloat[A mouse]{\label{fig:mouse}\includegrap
 hics[width=0.3\textwidth]{mouse}}[]  
  []
@@ -3899,21 +3943,21 @@ Capítulo 9.
 ]
 Capítulo 10.
 [67]
-Overfull \hbox (2.18605pt too wide) in paragraph at lines 2099--2099
+Overfull \hbox (2.18605pt too wide) in paragraph at lines 2101--2101
 []\EU1/Consolas(0)/m/n/10.95 {\addfontfeature{Color=lime}W}\kern-1ex[]  
  []
 
 
-Overfull \hbox (18.44089pt too wide) in paragraph at lines 2099--2099
+Overfull \hbox (18.44089pt too wide) in paragraph at lines 2101--2101
 []\EU1/Consolas(0)/m/n/10.95 {\addfontfeature{Color=Peach}S}\kern-0.8ex[]  
  []
 
 
-Overfull \hbox (34.69571pt too wide) in paragraph at lines 2099--2099
+Overfull \hbox (34.69571pt too wide) in paragraph at lines 2101--2101
 []\EU1/Consolas(0)/m/n/10.95 {\addfontfeature{Color=Mulberry}P}\kern-0.8ex[]  
  []
 
-\g_fontspec_family_Calluna_int=\count422
+\g_fontspec_family_Calluna_int=\count429
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -4138,7 +4182,7 @@ FF
 F42FF
 . ;"
 .................................................
-\g_fontspec_family_Arno Pro_int=\count423
+\g_fontspec_family_Arno Pro_int=\count430
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -4308,7 +4352,7 @@ F42FF
 . * 'bold italic small caps' with NFSS spec.:
 . <->"Arno Pro/BI/ICU:script=latn;language=DFLT;mapping=tex-text;+swsh;+smcp;"
 .................................................
-\g_fontspec_family_Sabon LT Std_int=\count424
+\g_fontspec_family_Sabon LT Std_int=\count431
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -4358,11 +4402,11 @@ F42FF
 . <->"Sabon LT Std/BI/ICU:script=latn;language=DFLT;mapping=tex-text;+lnum;"
 .................................................
 
-Overfull \hbox (11.2165pt too wide) in paragraph at lines 2226--2226
+Overfull \hbox (11.2165pt too wide) in paragraph at lines 2228--2228
 []\EU1/Consolas(0)/m/n/10.95 \fontspec[Contextuals=Swash]{Warnock Pro}[]  
  []
 
-\g_fontspec_family_Warnock Pro_int=\count425
+\g_fontspec_family_Warnock Pro_int=\count432
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -4431,7 +4475,7 @@ Overfull \hbox (11.2165pt too wide) in paragraph at lines 2226--2226
 . Pro/BI/ICU:script=latn;language=DFLT;mapping=tex-text;+cswh;+smcp;"
 .................................................
 
-Overfull \hbox (33.99998pt too wide) in paragraph at lines 2218--2237
+Overfull \hbox (33.99998pt too wide) in paragraph at lines 2220--2239
 [][]
  []
 
@@ -4441,22 +4485,22 @@ Overfull \hbox (33.99998pt too wide) in paragraph at lines 2218--2237
 ]
 Capítulo 11.
 
-Overfull \hbox (34.00002pt too wide) in paragraph at lines 2293--2308
+Overfull \hbox (34.00002pt too wide) in paragraph at lines 2295--2310
 [][] 
  []
 
 [71]
-Package mdframed Info: mdframed works in twoside mode on input line 2322.
+Package mdframed Info: mdframed works in twoside mode on input line 2324.
 
-Overfull \hbox (8.76622pt too wide) in paragraph at lines 2328--2330
+Overfull \hbox (8.76622pt too wide) in paragraph at lines 2330--2332
 \EU1/MinionPro(0)/m/n/10.95 писателей и мыслителей. ([]$[][
 ][][] [] [] [] [][] [] [][][][][][][][][] [] [][][] [] [][][][] [] [][][][][][]
 [] [][] [][][][] [] [][][][][][][][][][]$[])
  []
 
-Package mdframed Info: mdframed works in twoside mode on input line 2335.
+Package mdframed Info: mdframed works in twoside mode on input line 2337.
 
-Overfull \hbox (14.51219pt too wide) in paragraph at lines 2360--2361
+Overfull \hbox (14.51219pt too wide) in paragraph at lines 2362--2363
 []\EU1/JannonTModernePro(0)/m/n/10.95 Para escritas não ocidentais também uti
 lizamos o pacote \EU1/Consolas(0)/m/n/10.95 fontspe\EU1/JannonTModernePro(0)/m/
 n/10.95 c e/ou o pacote \EU1/Consolas(0)/m/n/10.95 polyglossia 
@@ -4474,7 +4518,7 @@ n/10.95 c e/ou o pacote \EU1/Consolas(0)/m/n/10.95 polyglossia
 ! For immediate help type H <return>.
 !...............................................  
                                                   
-l.2379  ا
+l.2381  ا
           لعربية أكثر لغات المجموعة السامية م�...
 
 |'''''''''''''''''''''''''''''''''''''''''''''''
@@ -4494,32 +4538,7 @@ l.2379  ا
 ! For immediate help type H <return>.
 !...............................................  
                                                   
-l.2379  ا
-          لعربية أكثر لغات المجموعة السامية م�...
-
-|'''''''''''''''''''''''''''''''''''''''''''''''
-| \msg extra text > LaTeX/kernel/key-choice-unknown
-| {fontspec/Numbers}{Arabic}{}{}
-|...............................................
-
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font Adobe Arabic/B (it probably doesn't exist).
-.................................................
-
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!
-! LaTeX error: "kernel/key-choice-unknown"
-! 
-! \msg text > LaTeX/kernel/key-choice-unknown {fontspec/Numbers}{Arabic}{}{}
-! 
-! See the LaTeX3 documentation for further information.
-! 
-! For immediate help type H <return>.
-!...............................................  
-                                                  
-l.2379  ا
+l.2381  ا
           لعربية أكثر لغات المجموعة السامية م�...
 
 |'''''''''''''''''''''''''''''''''''''''''''''''
@@ -4539,7 +4558,47 @@ l.2379  ا
 ! For immediate help type H <return>.
 !...............................................  
                                                   
-l.2379  ا
+l.2381  ا
+          لعربية أكثر لغات المجموعة السامية م�...
+
+|'''''''''''''''''''''''''''''''''''''''''''''''
+| \msg extra text > LaTeX/kernel/key-choice-unknown
+| {fontspec/Numbers}{Arabic}{}{}
+|...............................................
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!
+! LaTeX error: "kernel/key-choice-unknown"
+! 
+! \msg text > LaTeX/kernel/key-choice-unknown {fontspec/Numbers}{Arabic}{}{}
+! 
+! See the LaTeX3 documentation for further information.
+! 
+! For immediate help type H <return>.
+!...............................................  
+                                                  
+l.2381  ا
+          لعربية أكثر لغات المجموعة السامية م�...
+
+|'''''''''''''''''''''''''''''''''''''''''''''''
+| \msg extra text > LaTeX/kernel/key-choice-unknown
+| {fontspec/Numbers}{Arabic}{}{}
+|...............................................
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!
+! LaTeX error: "kernel/key-choice-unknown"
+! 
+! \msg text > LaTeX/kernel/key-choice-unknown {fontspec/Numbers}{Arabic}{}{}
+! 
+! See the LaTeX3 documentation for further information.
+! 
+! For immediate help type H <return>.
+!...............................................  
+                                                  
+l.2381  ا
           لعربية أكثر لغات المجموعة السامية م�...
 
 |'''''''''''''''''''''''''''''''''''''''''''''''
@@ -4561,6 +4620,11 @@ l.2379  ا
 . Arabic/ICU:script=arab;language=DFLT;mapping=tex-text;mapping=arabtex-fdf2ali
 f-novoc;"
 . 
+. * 'bold' with NFSS spec.:
+. <->"Adobe
+. Arabic/B/ICU:script=arab;language=DFLT;mapping=tex-text;mapping=arabtex-fdf2a
+lif-novoc;"
+. 
 . * 'italic' with NFSS spec.:
 . <->"Adobe
 . Arabic/I/ICU:script=arab;language=DFLT;mapping=tex-text;mapping=arabtex-fdf2a
@@ -4572,7 +4636,7 @@ lif-novoc;"
 alif-novoc;"
 .................................................
 [72]
-Overfull \hbox (197.62418pt too wide) in paragraph at lines 2418--2418
+Overfull \hbox (197.62418pt too wide) in paragraph at lines 2420--2420
 []\EU1/Consolas(0)/m/n/10.95 \setotherlanguage{hebrew} % para o pacote polyglos
 sia, ou \setmainlangauge{hebrew} se hebraico for a língua principal.[]  
  []
@@ -4635,7 +4699,7 @@ Overfull \hbox (52.78697pt too wide) in paragraph at lines 166--168
 ]
 Capítulo 13.
 
-Overfull \hbox (38.05312pt too wide) in paragraph at lines 2491--2493
+Overfull \hbox (38.05312pt too wide) in paragraph at lines 2493--2495
 []\EU1/JannonTModernePro(0)/m/n/10.95 Para exemplos de como funciona a tipograf
 ia no L[]T[]X, ver: []$[][][][] [] [] [] [][][][][][] [] [][][] [] [][][][][][]
 [][][][][] []$
@@ -4651,57 +4715,57 @@ ia no L[]T[]X, ver: []$[][][][] [] [] [] [][][][][][] [] [][][] [] [][][][][][]
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 2537--2537
+Underfull \hbox (badness 10000) in paragraph at lines 2539--2539
 []|[]\EU1/Consolas(0)/m/n/9 \begin{framed} Uma histó-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2538--2538
+Underfull \hbox (badness 10000) in paragraph at lines 2540--2540
 []|[]\EU1/Consolas(0)/m/n/9 \begin{shaded} Uma histó-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2539--2539
+Underfull \hbox (badness 10000) in paragraph at lines 2541--2541
 []|[]\EU1/Consolas(0)/m/n/9 \begin{snugshade} Uma histó-
  []
 
 
-Underfull \hbox (badness 2521) in paragraph at lines 2539--2539
+Underfull \hbox (badness 2521) in paragraph at lines 2541--2541
 []|\EU1/JannonTModernePro(0)/m/n/9 Texto com sombra de fundo mais
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2540--2540
+Underfull \hbox (badness 10000) in paragraph at lines 2542--2542
 []|[]\EU1/Consolas(0)/m/n/9 \fcolorbox{Magenta}{Gray}{Uma histó-
  []
 
 
-Underfull \hbox (badness 1515) in paragraph at lines 2540--2540
+Underfull \hbox (badness 1515) in paragraph at lines 2542--2542
 []|\EU1/JannonTModernePro(0)/m/n/9 Define a cor da borda e a cor do
  []
 
 
-Underfull \hbox (badness 1082) in paragraph at lines 2541--2541
+Underfull \hbox (badness 1082) in paragraph at lines 2543--2543
 []|\EU1/JannonTModernePro(0)/m/n/9 Um sombreado só do tamanho do
  []
 
 
-Overfull \hbox (82.9904pt too wide) in paragraph at lines 2535--2546
+Overfull \hbox (82.9904pt too wide) in paragraph at lines 2537--2548
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2535--2546
+Underfull \hbox (badness 10000) in paragraph at lines 2537--2548
 
  []
 
-Package mdframed Info: mdframed works in twoside mode on input line 2560.
+Package mdframed Info: mdframed works in twoside mode on input line 2562.
 
 Package mdframed Warning: You got a bad break
 (mdframed)                because the last box will be empty
 (mdframed)                you have to change it manually
 (mdframed)                by changing the text, the space
-(mdframed)                or something else on input line 2563.
+(mdframed)                or something else on input line 2565.
 
 [85] [86] [87
 
@@ -4712,16 +4776,14 @@ Package mdframed Warning: You got a bad break
 ] [89] [90
 
 
-]
-Capítulo 14.
-[91]
-Overfull \hbox (0.36496pt too wide) in paragraph at lines 2688--2688
+] [91]
+Overfull \hbox (0.36496pt too wide) in paragraph at lines 2690--2690
 []   \EU1/Consolas(0)/m/n/9 \vspace*{-2.3\baselineskip}\leftbar\textsc{\small\c
 haptername~\thecontentslabel}\\\sffamily}[]  
  []
 
 
-Overfull \hbox (13.72508pt too wide) in paragraph at lines 2688--2688
+Overfull \hbox (13.72508pt too wide) in paragraph at lines 2690--2690
 []\EU1/Consolas(0)/m/n/9 \chapter{Beginning to learn design with HTML and some 
 other text to span more than one line in the ToC}[]  
  []
@@ -4734,7 +4796,7 @@ File: sumario.png Graphic file (type QTm)
 
 
 ]
-Overfull \hbox (6.25398pt too wide) in paragraph at lines 2710--2710
+Overfull \hbox (6.25398pt too wide) in paragraph at lines 2712--2712
 []\EU1/JannonTModernePro(0)/m/n/10.95 Bringhurst, Robert. \EU1/JannonTModernePr
 o(0)/m/it/10.95 The Elements of Typographic Style: Version 4.0: 20th Anniversar
 y Edition\EU1/JannonTModernePro(0)/m/n/10.95 . Fourth
@@ -4745,28 +4807,32 @@ y Edition\EU1/JannonTModernePro(0)/m/n/10.95 . Fourth
 
 ]
 LaTeX Font Info:    Font shape `U/ccicons/m/n' will be
-(Font)              scaled to size 9.0pt on input line 2720.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2725.
+(Font)              scaled to size 9.0pt on input line 2722.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2727.
  [99
 
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 2725.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 2727.
  (./introducaolatex-final.aux (./texto-bibliografia.aux)
 (./biblatex.aux) (./parallel.aux) (./lineno.aux) (./abntex2-latexintro.aux))
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 2725.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 2725.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 2727.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 2727.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package logreq Info: Writing requests to 'introducaolatex-final.run.xml'.
 \openout1 = `introducaolatex-final.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 38843 strings out of 493994
- 749864 string characters out of 3153359
- 1139385 words of memory out of 3000000
- 41245 multiletter control sequences out of 15000+200000
- 22860 words of font info for 228 fonts, out of 3000000 for 9000
+ 39570 strings out of 493994
+ 760511 string characters out of 3153359
+ 1154408 words of memory out of 3000000
+ 41960 multiletter control sequences out of 15000+200000
+ 22892 words of font info for 232 fonts, out of 3000000 for 9000
  1144 hyphenation exceptions out of 8191
- 62i,19n,59p,1261b,1543s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,19n,66p,1261b,1543s stack positions out of 5000i,500n,10000p,200000b,50000s
 
 Output written on introducaolatex-final.pdf (113 pages).

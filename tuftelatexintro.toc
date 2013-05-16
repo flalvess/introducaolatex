@@ -179,4 +179,6 @@
 \contentsline {section}{\numberline {12.1}Macros de dados do trabalho}{82}{section.12.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {13}Outros recursos}{85}{chapter.13}
+\defcounter {refsection}{0}\relax 
+\contentsline {part}{I\hspace {1em}Apêndices}{87}{part.1}
 \contentsfinish 

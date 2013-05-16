@@ -189,5 +189,3 @@
 \contentsline {chapter}{\numberline {13}Outros recursos}{79}{chapter.13}
 \defcounter {refsection}{0}\relax 
 \contentsline {part}{Apêndices}{81}{section*.11}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {14}Um sumário diferente}{91}{chapter.14}

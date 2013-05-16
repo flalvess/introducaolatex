@@ -90,20 +90,22 @@
 %\setcapindent{0pt}
 %\usepackage{mathtools} % só utilizar se inserir matemática (substitui amsmath)
 
-\usepackage[style=historian,citestyle=authoryear,natbib=true,doi=false,backend=bibtex]{biblatex}
+\usepackage[style=historian,citestyle=authoryear,natbib=true,doi=false,backend=bibtex,dashed=false]{biblatex} %dashed=false nao funciona com style=historian
 \usepackage{csquotes}
-\DefineBibliographyStrings{brazil}{namedash={---------},volumeof={de}} %para partes de livros de muitos volumes "Vol. 5 de" etc.
+\DefineBibliographyStrings{brazil}{namedash={---------},volumeof={de},url={Disponível em: }} %para partes de livros de muitos volumes "Vol. 5 de" etc.
 %\DefineBibliographyStrings{english}{%
 %backrefpage={cited on p\adddot},
 %backrefpages={cited on pp\adddot}
 %} % se opção do biblatex for backref=true, e a língua do documento
-\addbibresource{latex}
+\addbibresource{latex.bib}
 
+%url={Disponível em: }
 
 \usepackage{bbding}
 
 \usepackage{parallel}
 \usepackage{lineno}
+\usepackage{tabu}
 
 %\usepackage[hyphens]{url}
 %\usepackage[titletoc]{appendix}
@@ -2588,7 +2590,7 @@ Se você quiser usar um estilo parecido com o dos livros de E. Tufte, as classes
 \end{verbatim}
 
 
-\chapter{Um sumário diferente}
+\chapter*{Um sumário diferente}
 O código abaixo gera um sumário mais elaborado, com cores e números de página diferenciados. 
 
 \footnotesize{
