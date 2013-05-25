@@ -1,3 +1,25 @@
+\documentclass{scrartcl}
+\usepackage{euler}
+\usepackage{fontspec}
+\defaultfontfeatures{Ligatures={TeX}}
+\setmainfont{Jannon T Moderne Pro}
+\setsansfont[BoldFont={Profile-Bold},BoldItalicFont={Profile-BoldItalic}]{Profile}
+\setmonofont[Scale=0.8]{Consolas}
+\usepackage{polyglossia}
+\setmainlanguage{brazil}
+\usepackage{mathtools}
+\usepackage{hyperref}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{xspace}
+\usepackage{amssymb}
+
+
+
+\begin{document}
+
+\title{Matemática em {\fontfamily{lmr}\selectfont\LaTeX}}
+\maketitle
+\date{}
 
 Um dos motivos que levou D. Knuth a desenvolver o \TeX{} foi poder dar ao usuário, e não somente ao tipógrafo profissional, a capacidade de construir fórmulas e matemáticas com aparência profissional. Enquanto que  o \LaTeX, por si só, dá conta fórmulas matemáticas comuns, par fórmulas mais complicadas e outros recursos podemos utilizar um dos dois pacotes: \textsf{amsmath} ou \textsf{mathtools}. (O pacote \textsf{mathtools} estende as funcionalidades do \textsf{amsmath}.)
 
@@ -99,22 +121,23 @@ Para especificar limites acima e abaixo de uma integral:
 \end{tabular}
 
 
-Delimitadores -- parênteses, colchetes, chaves etc.:
+Delimitadores -- parênteses, colchetes, chaves etc. (pacote \textsf{amssymb}):
 
+\bigskip
 
-\begin{tabular}{cc}
-\begin{minipage}{0.4\textwidth}
+\begin{tabular}{cl}
+\begin{minipage}{0.5\textwidth}
 \begin{verbatim}
 ( a ), [ b ], \{ c \}, | d |, \| e \|,
 \langle f \rangle, \lfloor g \rfloor,
 \lceil h \rceil, \ulcorner i \urcorner
 \end{verbatim}
 \end{minipage} & 
-\begin{minipage}{0.4\textwidth}
+\begin{minipage}{0.3\textwidth}
 \begin{displaymath}
 ( a ), [ b ], \{ c \}, | d |, \| e \|,
 \langle f \rangle, \lfloor g \rfloor,
-\lceil h \rceil, \ulcorner i \urcorner
+\lceil h \rceil, \ulcorner i \urcorner 
 \end{displaymath}
  \end{minipage}
 \end{tabular}
@@ -125,53 +148,64 @@ Delimitadores -- parênteses, colchetes, chaves etc.:
 Uma das praticidades do \LaTeX{} é que ele formata automaticamente o tamanho dos elementos e símbolos matemáticos, seja no texto ou destacado, de forma que o usuário não precisa de se preocupar com o tamanho do parêntese, da raiz etc. Para fórmulas com elementos de vários tamanhos, pode ser útil utilizar os comandos \verb+\left+ e \verb+\right+ para formatar o tamanho dos delimitadores (ver acima). 
 
 
+\begin{center}
 \begin{tabular}{cc}
-\begin{minipage}{0.4\textwidth}
+\begin{minipage}{0.3\textwidth}
 \begin{verbatim}
 \left(\frac{x^2}{y^3}\right)
 \end{verbatim}
 \end{minipage}
 &
-\begin{minipage}{0.4\textwidth}
+\begin{minipage}{0.3\textwidth}
 \begin{displaymath}
 \left(\frac{x^2}{y^3}\right)
 \end{displaymath}
 \end{minipage}
 \end{tabular}
+\end{center}
 
-\bigskip
+\medskip
 
 Matrizes podem ser inseridas, à maneira de tabelas (utilizando \& e \verb+\\+), com o ambiente\ldots{} \texttt{matrix}:
 
-\bigskip
+\medskip
 
+\begin{center}
 \begin{tabular}{cc}
-\begin{minipage}{0.4\textwidth}
+\begin{minipage}{0.2\textwidth}
 \begin{verbatim}
-\begin{matrix}
+\[ \begin{matrix}
   a & b & c \\
   d & e & f \\
   g & h & i
- \end{matrix}
+ \end{matrix} \]
 \end{verbatim}
-\end{minipage}
-&
- \begin{minipage}{0.4\textwidth}
- \begin{matrix}
+\end{minipage} &%
+ \begin{minipage}{0.2\textwidth}
+\[  \begin{matrix}
    a & b & c \\
    d & e & f \\
    g & h & i
-  \end{matrix}
+  \end{matrix} \]
   \end{minipage}
 \end{tabular}
+\end{center}
+
+\medskip
+
+\begin{center}
+\fcolorbox{black}{lightgray}{Não se esqueça que o ambiente \texttt{matrix} deve ser posto em modo matemático.}
+\end{center}
 
 \bigskip
 
 Para especificar o alinhamento da matriz, utilize a versão com * (pacote \textsf{mathtools}):
 
+\begin{center}
+\begin{tabular}{cc}
+\begin{minipage}{0.3\textwidth}
 \begin{verbatim}
-
-\begin{matrix}
+\[ \begin{matrix}
   -1 & 3 \\
   2 & -4
  \end{matrix}
@@ -179,20 +213,24 @@ Para especificar o alinhamento da matriz, utilize a versão com * (pacote \texts
  \begin{matrix*}[r]
   -1 & 3 \\
   2 & -4
- \end{matrix*}
+ \end{matrix*} \]
 \end{verbatim}
-
-
-\begin{matrix}
+\end{minipage} &
+\begin{minipage}{0.4\textwidth}
+\[ \begin{matrix}
   -1 & 3 \\
-  2 & -4
+  2 & -4\\
  \end{matrix}
  =
  \begin{matrix*}[r]
   -1 & 3 \\
-  2 & -4
- \end{matrix*}
- 
+  2 & -4\\
+ \end{matrix*} \]
+\end{minipage}
+\end{tabular} 
+\end{center}
+
+\bigskip
 
  O ambiente \texttt{cases} (pacote \textsf{amsmath}) permite escrever funções parte a parte:
  
@@ -211,25 +249,32 @@ Para especificar o alinhamento da matriz, utilize a versão com * (pacote \texts
 \end{minipage}
 &
 \begin{minipage}{0.4\textwidth}
-\begin{minipage}{0.4\textwidth}
+\[
+ u(x) =
+  \begin{cases}
+   \exp{x} & \text{if } x \geq 0 \\
+   1       & \text{if } x < 0
+  \end{cases}
+\]
 \end{minipage}
  \end{tabular}
  
  Ou então listas subdivididas com chaves (notar \verb+\text{}+ para texto dentro do modo matemático):
  
+\begin{center}
   \begin{tabular}{cc}
- \begin{minipage}{0.4\textwidth}
+ \begin{minipage}{0.3\textwidth}
 \begin{verbatim}
  $$
- \text{Maomé}
+ \text{Pai}
  \begin{dcases}
- \text{Abu Bakr}\\
- \text{Umar}\\
- \text{Uthman}\\
- \text{Ali}
+ \text{Filho A}\\
+ \text{Filho B}\\
+ \text{Filho C}\\
+ \text{Filho D}
     \begin{dcases}
-    \text{Hassan}\\
-    \text{Hussein}\\
+    \text{Neto A}\\
+    \text{Neto B}\\
     \end{dcases}
  \end{dcases}
  $$
@@ -237,21 +282,72 @@ Para especificar o alinhamento da matriz, utilize a versão com * (pacote \texts
 \end{minipage}
 &
 
-\begin{minipage}{0.4\textwidth}
+\begin{minipage}{0.3\textwidth}
  $$
- \text{Maomé}
+ \text{Pai}
  \begin{dcases}
- \text{Abu Bakr}\\
- \text{Umar}\\
- \text{Uthman}\\
- \text{Ali}
+ \text{Filho A}\\
+ \text{Filho B}\\
+ \text{Filho C}\\
+ \text{Filho D}
     \begin{dcases}
-    \text{Hassan}\\
-    \text{Hussein}\\
+    \text{Neto A}\\
+    \text{Neto B}\\
     \end{dcases}
  \end{dcases}
  $$
 \end{minipage}
  \end{tabular}
+\end{center}
  
+% If the purpose is to make comments on particular parts of an equation, the \overbrace and \underbrace commands may be more useful, however they have a different syntax (and can be aligned with the \vphantom command):
+% \[
+%  z = \overbrace{
+%    \underbrace{x}_\text{real} +
+%    \underbrace{iy}_\text{imaginary}
+%   }^\text{complex number}
+% \]
  
+% 
+% The \xleftarrow and \xrightarrow commands[1] produce arrows which extend to the length of the text. Yet again, the syntax is different: the optional argument (using [ & ]) specifies the subscript, and the mandatory argument (using { & }) specifies the superscript (this can be left empty).
+% \[
+%  A \xleftarrow{\text{this way}} B
+%   \xrightarrow[\text{or that way}]{} C
+% \]
+% 
+% 
+% For more extensible arrows, you must use mathtools package:
+% \[
+%  a \xleftrightarrow[under]{over} b\\
+% %
+%  A \xLeftarrow[under]{over} B\\
+% %
+%  B \xRightarrow[under]{over} C\\
+% %
+%  C \xLeftrightarrow[under]{over} D\\
+% %
+%  D \xhookleftarrow[under]{over} E\\
+% %
+%  E \xhookrightarrow[under]{over} F\\
+% %
+%  F \xmapsto[under]{over} G\\
+% \]
+% 
+% and for harpoons:
+% \[
+%  H \xrightharpoondown[under]{over} I\\
+% %
+%  I \xrightharpoonup[under]{over} J\\
+% %
+%  J \xleftharpoondown[under]{over} K\\
+% %
+%  K \xleftharpoonup[under]{over} L\\
+% %
+%  L \xrightleftharpoons[under]{over} M\\
+% %
+%  M \xleftrightharpoons[under]{over} N
+% \]
+
+
+% fazer align!
+ \end{document}
