@@ -1,0 +1,30 @@
+\section{Índices}
+
+A criação de índices é bastante simples. Inclua 
+no preâmbulo:
+
+
+\begin{verbatim}
+\usepackage{makeidx}
+\makeindex
+\end{verbatim}
+
+e cite usando:
+
+\begin{verbatim}
+\index{nome}
+\end{verbatim}
+
+Para mostrar o índice, inclua:
+
+\begin{verbatim}
+\printindex
+\end{verbatim}
+
+antes do fim do seu documento. O índice é processado por um outro comando, \verb+makeindex+: \verb+makeindex arquivo.tex+.
+
+Também é possível inserir subentradas, separando o nível superior do inferior com uma exclamação. Por exemplo, para inserir uma entrada ``aves'': \verb+\index{Aves}+ e uma subentrada ``canários'': \verb+\index{Aves!Canários}+. 
+
+Também é possível fazer uma referência a outra entrada: \verb+\index{Canários|see {Aves}}+, que aparecerá como: ``Canários, \textit{veja} Aves''; ou \verb+\index{Canários|seealso {Aves}}+, que aparecerá como: ``Canários, \textit{veja também} Aves'';
+
+Para formatar uma entrada do índice, deve-se seguir o formato: \verb+\index{Aves@\textbf{Aves}}+, ou \verb+\index{Aves@\textit{Aves}}.

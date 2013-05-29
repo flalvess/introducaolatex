@@ -738,6 +738,29 @@ Todos os cabeçalhos numerados automaticamente vão para o sumário. Você não 
 
 Os comandos \verb+\listoffigures+ e \verb+\listoftables+ geram, respectivamente, uma lista das figuras e uma lista das tabelas.
 
+Se você quiser criar sua própria lista de elementos não alinhados com o texto (\textit{floats}), separados de figuras e tabelas (por exemplo, uma ``Lista de Esculturas''), você pode usar o pacote \texttt{trivfloat}:
+
+\begin{verbatim}
+\usepackage{trivfloat}
+\trivfloat{esculturas} % cria nova lista com nome: ``esculturas''
+...
+
+\begin{document}
+\renewcommand{\listesculturaname}{Lista de Esculturas} % muda o nome da lista
+            %notar: ``escultura'', no sing.)
+
+\listofesculturas % gera a lista de esculturas
+
+\begin{escultura}
+\centering
+\includegraphics{escultura-romana}
+\caption{Escultura de Júlio César.}
+\end{escultura}
+\end{verbatim}
+
+
+\include{indices}
+
 \include{texto-bibliografia}
 \include{biblatex}
 

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.4-0.9998 (TeX Live 2012/W32TeX) (format=xelatex 2013.3.31)  15 MAY 2013 21:35
+This is XeTeX, Version 3.1415926-2.4-0.9998 (TeX Live 2012/W32TeX) (format=xelatex 2013.3.31)  29 MAY 2013 12:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2363,11 +2363,11 @@ LaTeX Warning: Unused global option(s):
 * 
 * Try to use `\setCJKmainfont[...]{...}' to define it.
 *************************************************
-(./texto-bibliografia.aux) (./biblatex.aux) (./parallel.aux) (./lineno.aux)
+(./indices.aux) (./texto-bibliografia.aux) (./biblatex.aux) (./parallel.aux)
+(./lineno.aux)
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
-
-(c:/texlive/2012/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+ (c:/texlive/2012/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 File: english.lbx 2013/01/10 v2.5 biblatex localization (PK/JW/AB)
 )
 Package biblatex Info: Trying to load language 'russian'...
@@ -3015,6 +3015,11 @@ text indent by \l@... (toc, 1):  25.18501pt
 number indent by parent (toc, 1):  14.59634pt
 text indent calculated (toc, 1): 25.54634pt
 number indent calculated (toc, 1): 14.59634pt
+number indent by \l@... (toc, 1):  16.42499pt
+text indent by \l@... (toc, 1):  25.18501pt
+number indent by parent (toc, 1):  14.59634pt
+text indent calculated (toc, 1): 25.54634pt
+number indent calculated (toc, 1): 14.59634pt
 number indent by \l@... (toc, 0):  0.0pt
 text indent by \l@... (toc, 0):  16.42499pt
 number indent by parent (toc, 0):  0.0pt
@@ -3065,16 +3070,6 @@ text indent by \l@... (toc, 2):  35.03995pt
 number indent by parent (toc, 2):  40.14268pt
 text indent calculated (toc, 2): 27.83488pt
 number indent calculated (toc, 2): 40.14268pt
-number indent by \l@... (toc, 0):  0.0pt
-text indent by \l@... (toc, 0):  16.42499pt
-number indent by parent (toc, 0):  0.0pt
-text indent calculated (toc, 0): 14.59634pt
-number indent calculated (toc, 0): 0.0pt
-number indent by \l@... (toc, 1):  16.42499pt
-text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  14.59634pt
-text indent calculated (toc, 1): 25.54634pt
-number indent calculated (toc, 1): 14.59634pt
 [5
 
 
@@ -3090,6 +3085,16 @@ text indent by \l@... (toc, 1):  25.18501pt
 number indent by parent (toc, 1):  14.59634pt
 text indent calculated (toc, 1): 25.54634pt
 number indent calculated (toc, 1): 14.59634pt
+number indent by \l@... (toc, 0):  0.0pt
+text indent by \l@... (toc, 0):  16.42499pt
+number indent by parent (toc, 0):  0.0pt
+text indent calculated (toc, 0): 14.59634pt
+number indent calculated (toc, 0): 0.0pt
+number indent by \l@... (toc, 1):  16.42499pt
+text indent by \l@... (toc, 1):  25.18501pt
+number indent by parent (toc, 1):  14.59634pt
+text indent calculated (toc, 1): 25.54634pt
+number indent calculated (toc, 1): 14.59634pt
 number indent by \l@... (toc, 2):  41.61002pt
 text indent by \l@... (toc, 2):  35.03995pt
 number indent by parent (toc, 2):  40.14268pt
@@ -3270,16 +3275,16 @@ text indent by \l@... (toc, 1):  25.18501pt
 number indent by parent (toc, 1):  14.59634pt
 text indent calculated (toc, 1): 25.54634pt
 number indent calculated (toc, 1): 14.59634pt
-number indent by \l@... (toc, 0):  0.0pt
-text indent by \l@... (toc, 0):  16.42499pt
-number indent by parent (toc, 0):  0.0pt
-text indent calculated (toc, 0): 14.59634pt
-number indent calculated (toc, 0): 0.0pt
 LaTeX Font Info:    Font shape `EU1/JannonTModernePro(0)/m/sl' in size <10.95> 
 not available
 (Font)              Font shape `EU1/JannonTModernePro(0)/m/it' tried instead on
  input line 157.
 [6]
+number indent by \l@... (toc, 0):  0.0pt
+text indent by \l@... (toc, 0):  16.42499pt
+number indent by parent (toc, 0):  0.0pt
+text indent calculated (toc, 0): 14.59634pt
+number indent calculated (toc, 0): 0.0pt
 number indent by \l@... (toc, 0):  0.0pt
 text indent by \l@... (toc, 0):  16.42499pt
 number indent by parent (toc, 0):  0.0pt
@@ -3527,41 +3532,73 @@ LaTeX Font Info:    Font shape `EU1/Consolas(0)/bx/n' will be
 
 
 ] [14] [15] [16] [17] [18]
-\openout2 = `texto-bibliografia.aux'.
+\openout2 = `indices.aux'.
 
- (./texto-bibliografia.tex
-Capítulo 4.
+ (./indices.tex
+Overfull \hbox (4.92058pt too wide) in paragraph at lines 24--25
+[]\EU1/JannonTModernePro(0)/m/n/10.95 antes do fim do seu documento. O índice 
+é processado por um outro comando, []\EU1/Consolas(0)/m/n/10.95 makeindex\EU1/
+JannonTModernePro(0)/m/n/10.95 :
+ []
+
+
+! LaTeX Error: \verb ended by end of line.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.30 ...s}}+, ou \verb+\index{Aves@\textit{Aves}}.
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+)
+Overfull \hbox (21.09148pt too wide) in paragraph at lines 30--782
+[]\EU1/JannonTModernePro(0)/m/n/10.95 Para formatar uma entrada do índice, dev
+e-se seguir o formato: []\EU1/Consolas(0)/m/n/10.95 \index{Aves@\textbf{Aves}}\
+EU1/JannonTModernePro(0)/m/n/10.95 ,
+ []
+
 [19
 
+]
+\openout2 = `texto-bibliografia.aux'.
+
+ (./texto-bibliografia.tex [20
 
 
-] [20]
+
+
+]
+Capítulo 4.
+[21] [22]
 LaTeX Font Info:    Font shape `EU1/Consolas(0)/m/sl' in size <10.95> not avail
 able
 (Font)              Font shape `EU1/Consolas(0)/m/it' tried instead on input li
 ne 133.
 LaTeX Font Info:    Font shape `EU1/Consolas(0)/m/it' will be
 (Font)              scaled to size 9.85492pt on input line 133.
- [21]
+ [23]
 Overfull \hbox (47.71834pt too wide) in paragraph at lines 170--170
 []  \EU1/Consolas(0)/m/n/10.95 editor = ”Karam, Jim D. Karam and Drake, John 
 W. and Kreuzer, Kenneth N. and Mosig, Gisela[]  
  []
 
-[22]
+[24]
 File: ./abntex-bibliografia-figura.png Graphic file (type QTm)
  <use  "./abntex-bibliografia-figura.png" >
 LaTeX Font Info:    Font shape `EU1/JannonTModernePro(0)/m/sl' in size <8> not 
 available
 (Font)              Font shape `EU1/JannonTModernePro(0)/m/it' tried instead on
  input line 238.
- [23]
+ [25]
 File: ./natbib-test-plainnat.png Graphic file (type QTm)
 
-<use  "./natbib-test-plainnat.png" > [24]
+<use  "./natbib-test-plainnat.png" > [26]
 File: ./biblatex-figura.png Graphic file (type QTm)
  <use  "./biblatex-figura.png" >
-[25]) [26]
+[27]) [28]
 \openout2 = `biblatex.aux'.
 
  (./biblatex.tex
@@ -3577,7 +3614,7 @@ Overfull \hbox (12.1444pt too wide) in paragraph at lines 27--28
 s básicos são \EU1/Consolas(0)/m/n/10.95 citestyle=authoryear
  []
 
-[27
+[29
 
 
 ]
@@ -3586,7 +3623,7 @@ Package mdframed Info: mdframed inside a box
  mdframed uses option nobreak mdframed on input line 48.
 LaTeX Font Info:    Font shape `EU1/Consolas(0)/m/n' will be
 (Font)              scaled to size 8.09995pt on input line 77.
- [28]
+ [30]
 LaTeX Font Info:    Font shape `EU1/Consolas(0)/bx/n' will be
 (Font)              scaled to size 10.79993pt on input line 111.
 LaTeX Font Info:    Font shape `EU1/Consolas(0)/bx/n' will be
@@ -3598,7 +3635,7 @@ ode ser utilizado em conjunção com []\EU1/Consolas(0)/m/n/10.95 \citeauthor{}
 \EU1/JannonTModernePro(0)/m/n/10.95 . 
  []
 
-[29]
+[31]
 Overfull \hbox (2.80821pt too wide) in paragraph at lines 153--154
 []\EU1/JannonTModernePro(0)/m/n/10.95 Coloca as referências como notas de roda
 pé. Aceita as opções exemplificadas acima. Exem-
@@ -3611,27 +3648,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 179--179
 [][] [] [][][][][][][] [] [][][][][][][][] [] [][][] []$
  []
 
-[30]) [31] [32
+[32]) [33] [34
 
 
 
 ]
 Capítulo 5.
 
-Overfull \hbox (14.61047pt too wide) in paragraph at lines 766--768
+Overfull \hbox (14.61047pt too wide) in paragraph at lines 788--790
 \EU1/JannonTModernePro(0)/m/n/10.95 Mas você pode converter as tabelas do Exce
 l ou OpenOffice com plugins: []$[][][][] [] [] [] [][][][][][][][][][] []$
  []
 
 
-Overfull \hbox (28.29338pt too wide) in paragraph at lines 766--768
+Overfull \hbox (28.29338pt too wide) in paragraph at lines 788--790
 $[][][][][][][][][][][] [] [][][][]$[] \EU1/JannonTModernePro(0)/m/n/10.95 para
  OpenOffice/Libreoffice e []$[][][][] [] [] [] [][][] [] [][][][] [] [][][] [] 
 [][][][][][][][][][][][] [] [][][][][][][] []$
  []
 
-[33] [34]
-Overfull \hbox (10.55418pt too wide) in paragraph at lines 838--839
+[35] [36]
+Overfull \hbox (10.55418pt too wide) in paragraph at lines 860--861
 []\EU1/JannonTModernePro(0)/m/n/10.95 Se você preferir girar a tabela na verti
 cal, use o pacote \EU1/Consolas(0)/m/n/10.95 rotating \EU1/JannonTModernePro(0)
 /m/n/10.95 e o ambiente \EU1/Consolas(0)/m/n/10.95 sidewaystable\EU1/JannonTMod
@@ -3639,67 +3676,67 @@ ernePro(0)/m/n/10.95 :
  []
 
 
-Overfull \hbox (18.22098pt too wide) in paragraph at lines 851--852
+Overfull \hbox (18.22098pt too wide) in paragraph at lines 873--874
 []\EU1/JannonTModernePro(0)/m/n/10.95 Para exemplos mais elaborados (e que difi
 cilmente você utilizará), ver []$[][][][] [] [] [] [][] [] [][][][][][][][][]
  []$
  []
 
-[35] [36
+[37] [38
 
 
 ]
 Capítulo 6.
 
-Overfull \hbox (34.00002pt too wide) in paragraph at lines 873--891
+Overfull \hbox (34.00002pt too wide) in paragraph at lines 895--913
 [][] 
  []
 
 
-Overfull \hbox (13.00252pt too wide) in paragraph at lines 902--903
+Overfull \hbox (13.00252pt too wide) in paragraph at lines 924--925
 []\EU1/JannonTModernePro(0)/m/n/10.95 Lembrando que []\EU1/Consolas(0)/m/n/10.9
 5 \labelitemi \EU1/JannonTModernePro(0)/m/n/10.95 é o primeiro nível; []\EU1/
 Consolas(0)/m/n/10.95 \labelitemii\EU1/JannonTModernePro(0)/m/n/10.95 , o segun
 do; e []\EU1/Consolas(0)/m/n/10.95 \labelitemiii
  []
 
-LaTeX Font Info:    Try loading font information for U+ding on input line 904.
+LaTeX Font Info:    Try loading font information for U+ding on input line 926.
 (c:/texlive/2012/texmf-dist/tex/latex/bbding/uding.fd
 File: Uding.fd 1996/02/01 v1.0 BBding font definitions
 )
-Overfull \hbox (6.0645pt too wide) in paragraph at lines 904--905
+Overfull \hbox (6.0645pt too wide) in paragraph at lines 926--927
 []\EU1/JannonTModernePro(0)/m/n/10.95 O item []\EU1/Consolas(0)/m/n/10.95 \chec
 kmark \EU1/JannonTModernePro(0)/m/n/10.95 pode ser modificado por qualquer sím
 bolo, por exemplo, []\EU1/Consolas(0)/m/n/10.95 \textemdash
  []
 
 
-Overfull \hbox (34.00002pt too wide) in paragraph at lines 936--954
+Overfull \hbox (34.00002pt too wide) in paragraph at lines 958--976
 [][] 
  []
 
-[37]
-Overfull \hbox (34.00002pt too wide) in paragraph at lines 957--975
-[][] 
- []
-
-
-Overfull \hbox (34.00002pt too wide) in paragraph at lines 979--1006
+[39]
+Overfull \hbox (34.00002pt too wide) in paragraph at lines 979--997
 [][] 
  []
 
 
-Overfull \hbox (34.00002pt too wide) in paragraph at lines 1013--1044
+Overfull \hbox (34.00002pt too wide) in paragraph at lines 1001--1028
 [][] 
  []
 
 
-Overfull \hbox (0.97298pt too wide) in paragraph at lines 1054--1055
+Overfull \hbox (34.00002pt too wide) in paragraph at lines 1035--1066
+[][] 
+ []
+
+
+Overfull \hbox (0.97298pt too wide) in paragraph at lines 1076--1077
 []\EU1/JannonTModernePro(0)/m/n/10.95 Você também pode especificar o tipo de 
 contador que quer: numerais romanos, em maiús-
  []
 
-[38]
+[40]
 
 ! LaTeX Error: Something's wrong--perhaps a missing \item.
 
@@ -3707,18 +3744,18 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1072 \begin{enumerate}[label=\Roman*]
+l.1094 \begin{enumerate}[label=\Roman*]
                                        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (34.00002pt too wide) in paragraph at lines 1058--1080
+Overfull \hbox (34.00002pt too wide) in paragraph at lines 1080--1102
 [][] 
  []
 
 
-Overfull \hbox (0.44429pt too wide) in paragraph at lines 1111--1112
+Overfull \hbox (0.44429pt too wide) in paragraph at lines 1133--1134
 []\EU1/JannonTModernePro(0)/m/n/10.95 No entanto, é bom ter cuidado para só u
 sar \EU1/JannonTModernePro(0)/m/it/10.95 um \EU1/JannonTModernePro(0)/m/n/10.95
  dos dois pacotes (\EU1/Consolas(0)/m/n/10.95 enumerate \EU1/JannonTModernePro(
@@ -3726,7 +3763,7 @@ sar \EU1/JannonTModernePro(0)/m/it/10.95 um \EU1/JannonTModernePro(0)/m/n/10.95
 n/10.95 ). 
  []
 
-[39] [40]
+[41] [42]
 \openout2 = `parallel.aux'.
 
  (./parallel.tex
@@ -3765,15 +3802,15 @@ Overfull \vbox (18.11572pt too high) detected at line 97
 Overfull \vbox (18.11572pt too high) detected at line 97
  []
 
-[41
+[43
 
-]) [42]
+]) [44]
 \openout2 = `lineno.aux'.
 
- (./lineno.tex) [43
+ (./lineno.tex) [45
 
 
-] [44
+] [46
 
 ]
 \g_fontspec_family_Myriad Pro_int=\count428
@@ -3797,61 +3834,61 @@ Overfull \vbox (18.11572pt too high) detected at line 97
 . * 'bold italic' with NFSS spec.:
 . <->"Myriad Pro/BI/ICU:script=latn;language=DFLT;mapping=tex-text;"
 .................................................
- [45]
-Overfull \hbox (18.25845pt too wide) in paragraph at lines 1330--1331
+ [47]
+Overfull \hbox (18.25845pt too wide) in paragraph at lines 1352--1353
 []\EU1/JannonTModernePro(0)/m/n/10.95 Para escrever fórmulas químicas, é út
 il o pacote \EU1/Consolas(0)/m/n/10.95 mhchem \EU1/JannonTModernePro(0)/m/n/10.
 95 ([]$[][][][] [] [] [] [][][] [] [][][][] [] [][][] [] [][][][][][][][][][][]
 [] []$
  []
 
-[46]
-LaTeX Info: Redefining \bond on input line 1339.
-LaTeX Info: Redefining \dbond on input line 1339.
-LaTeX Info: Redefining \tbond on input line 1339.
+[48]
+LaTeX Info: Redefining \bond on input line 1361.
+LaTeX Info: Redefining \dbond on input line 1361.
+LaTeX Info: Redefining \tbond on input line 1361.
 
-Overfull \hbox (48.20433pt too wide) in paragraph at lines 1431--1450
+Overfull \hbox (48.20433pt too wide) in paragraph at lines 1453--1472
 [][] 
  []
 
-[47] [48] [49] [50]
-Overfull \hbox (58.55496pt too wide) in paragraph at lines 1594--1594
+[49] [50] [51] [52]
+Overfull \hbox (58.55496pt too wide) in paragraph at lines 1616--1616
 []\EU1/Consolas(0)/m/n/10.95 %\setlength{\textwidth}{15cm} %implementado pelo p
 acote geometry abaixo, por isso não ativo[]  
  []
 
 
-Overfull \hbox (20.62697pt too wide) in paragraph at lines 1594--1594
+Overfull \hbox (20.62697pt too wide) in paragraph at lines 1616--1616
 []\EU1/Consolas(0)/m/n/10.95 \setlength{\marginparsep}{0.5cm} %tamanho da dist�
 �ncia entre notas de margem e texto[]  
  []
 
 
-Overfull \hbox (74.80984pt too wide) in paragraph at lines 1594--1594
+Overfull \hbox (74.80984pt too wide) in paragraph at lines 1616--1616
 []\EU1/Consolas(0)/m/n/10.95 \usepackage[left=2cm,textwidth=14cm]{geometry} %ta
 manho do bloco de texto e da margem esquerda[]  
  []
 
-[51]
-Overfull \hbox (7.98436pt too wide) in paragraph at lines 1639--1639
+[53]
+Overfull \hbox (7.98436pt too wide) in paragraph at lines 1661--1661
 []\EU1/Consolas(0)/m/n/10.95 \setcounter{endnote}{0} % para recomeçar a numera
 ção das notas no próximo capítulo[]  
  []
 
-[52]
-Overfull \hbox (6.03131pt too wide) in paragraph at lines 1647--1648
+[54]
+Overfull \hbox (6.03131pt too wide) in paragraph at lines 1669--1670
 $[][][][][][][][][][][]$[] \EU1/JannonTModernePro(0)/m/n/10.95 e/ou []$[][][][]
  [] [] [] [][][][][][][] [] [][][][] [] [][][] [] [][][][] [] [][][][][][] [] [
 ][][][][][][][][][][][][][] [] [][][][][][][][] [] [][][]$[]. 
  []
 
-[53] [54
+[55] [56
 
 
 ]
 Capítulo 7.
 
-Overfull \hbox (2.61046pt too wide) in paragraph at lines 1657--1659
+Overfull \hbox (2.61046pt too wide) in paragraph at lines 1679--1681
 []\EU1/JannonTModernePro(0)/m/n/10.95 Para incluir imagens, usamos o pacote \EU
 1/Consolas(0)/m/n/10.95 graphicx \EU1/JannonTModernePro(0)/m/n/10.95 ([]\EU1/Co
 nsolas(0)/m/n/10.95 \usepackage{graphicx} \EU1/JannonTModernePro(0)/m/n/10.95 n
@@ -3860,31 +3897,31 @@ o preâmbulo).
 
 File: femmevaguecourbet.jpg Graphic file (type QTm)
 <use  "femmevaguecourbet.jpg" >
-Overfull \hbox (2.56607pt too wide) in paragraph at lines 1695--1695
+Overfull \hbox (2.56607pt too wide) in paragraph at lines 1717--1717
 []\EU1/Consolas(0)/m/n/10.95 \graphicspath{~/Pictures} %(geralmente é o diret�
 �rio de imagens para Linux e Mac)[]  
  []
 
-[55] [56]
+[57] [58]
 File: corotavray.jpg Graphic file (type QTm)
  <use  "corotavray.jpg" >
 File: corotavray.jpg Graphic file (type QTm)
  <use  "corotavray.jpg" >
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [57]
+ [59]
 File: corotavray.jpg Graphic file (type QTm)
 
-<use  "corotavray.jpg" > [58]
+<use  "corotavray.jpg" > [60]
 File: corotavray.jpg Graphic file (type QTm)
- <use  "corotavray.jpg" > [59]
+ <use  "corotavray.jpg" > [61]
 File: moreau-apparition.jpg Graphic file (type QTm)
 
 <use  "moreau-apparition.jpg" >
 ! Illegal parameter number in definition of \Hy@tempa.
 <to be read again> 
                    S
-l.1818 ...ats,\_Figures\_and\_Captions#Subfloats}}
+l.1840 ...ats,\_Figures\_and\_Captions#Subfloats}}
                                                   
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
@@ -3893,7 +3930,7 @@ are all screwed up? I'm going to assume that you meant ##.
 ! Illegal parameter number in definition of \Hy@tempa.
 <to be read again> 
                    S
-l.1818 ...ats,\_Figures\_and\_Captions#Subfloats}}
+l.1840 ...ats,\_Figures\_and\_Captions#Subfloats}}
                                                   
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
@@ -3902,58 +3939,58 @@ are all screwed up? I'm going to assume that you meant ##.
 ! Illegal parameter number in definition of \Hy@gtemp.
 <to be read again> 
                    S
-l.1818 ...ats,\_Figures\_and\_Captions#Subfloats}}
+l.1840 ...ats,\_Figures\_and\_Captions#Subfloats}}
                                                   
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
 are all screwed up? I'm going to assume that you meant ##.
 
-[60]
-Overfull \hbox (9.79022pt too wide) in paragraph at lines 1831--1831
+[62]
+Overfull \hbox (9.79022pt too wide) in paragraph at lines 1853--1853
 []  \EU1/Consolas(0)/m/n/10.95 \subfloat[A gull]{\label{fig:gull}\includegraphi
 cs[width=0.3\textwidth]{gull}}[]  
  []
 
 
-Overfull \hbox (26.04504pt too wide) in paragraph at lines 1831--1831
+Overfull \hbox (26.04504pt too wide) in paragraph at lines 1853--1853
 []  \EU1/Consolas(0)/m/n/10.95 \subfloat[A tiger]{\label{fig:tiger}\includegrap
 hics[width=0.3\textwidth]{tiger}}[]  
  []
 
 
-Overfull \hbox (26.04504pt too wide) in paragraph at lines 1831--1831
+Overfull \hbox (26.04504pt too wide) in paragraph at lines 1853--1853
 []  \EU1/Consolas(0)/m/n/10.95 \subfloat[A mouse]{\label{fig:mouse}\includegrap
 hics[width=0.3\textwidth]{mouse}}[]  
  []
 
 File: subfig.png Graphic file (type QTm)
-<use  "subfig.png" > [61] [62]
+<use  "subfig.png" > [63] [64]
 Capítulo 8.
-[63
+[65
 
 
-] [64
+] [66
 
 
 ]
 Capítulo 9.
-[65] [66
+[67] [68
 
 
 ]
 Capítulo 10.
-[67]
-Overfull \hbox (2.18605pt too wide) in paragraph at lines 2101--2101
+[69]
+Overfull \hbox (2.18605pt too wide) in paragraph at lines 2123--2123
 []\EU1/Consolas(0)/m/n/10.95 {\addfontfeature{Color=lime}W}\kern-1ex[]  
  []
 
 
-Overfull \hbox (18.44089pt too wide) in paragraph at lines 2101--2101
+Overfull \hbox (18.44089pt too wide) in paragraph at lines 2123--2123
 []\EU1/Consolas(0)/m/n/10.95 {\addfontfeature{Color=Peach}S}\kern-0.8ex[]  
  []
 
 
-Overfull \hbox (34.69571pt too wide) in paragraph at lines 2101--2101
+Overfull \hbox (34.69571pt too wide) in paragraph at lines 2123--2123
 []\EU1/Consolas(0)/m/n/10.95 {\addfontfeature{Color=Mulberry}P}\kern-0.8ex[]  
  []
 
@@ -4224,7 +4261,7 @@ F42FF
 . Pro/BI/ICU:script=latn;language=DFLT;mapping=tex-text;+smcp;color=FF7D00FF
 . ;"
 .................................................
-[68]
+[70]
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -4402,7 +4439,7 @@ F42FF
 . <->"Sabon LT Std/BI/ICU:script=latn;language=DFLT;mapping=tex-text;+lnum;"
 .................................................
 
-Overfull \hbox (11.2165pt too wide) in paragraph at lines 2228--2228
+Overfull \hbox (11.2165pt too wide) in paragraph at lines 2250--2250
 []\EU1/Consolas(0)/m/n/10.95 \fontspec[Contextuals=Swash]{Warnock Pro}[]  
  []
 
@@ -4475,32 +4512,32 @@ Overfull \hbox (11.2165pt too wide) in paragraph at lines 2228--2228
 . Pro/BI/ICU:script=latn;language=DFLT;mapping=tex-text;+cswh;+smcp;"
 .................................................
 
-Overfull \hbox (33.99998pt too wide) in paragraph at lines 2220--2239
+Overfull \hbox (33.99998pt too wide) in paragraph at lines 2242--2261
 [][]
  []
 
-[69] [70
+[71] [72
 
 
 ]
 Capítulo 11.
 
-Overfull \hbox (34.00002pt too wide) in paragraph at lines 2295--2310
+Overfull \hbox (34.00002pt too wide) in paragraph at lines 2317--2332
 [][] 
  []
 
-[71]
-Package mdframed Info: mdframed works in twoside mode on input line 2324.
+[73]
+Package mdframed Info: mdframed works in twoside mode on input line 2346.
 
-Overfull \hbox (8.76622pt too wide) in paragraph at lines 2330--2332
+Overfull \hbox (8.76622pt too wide) in paragraph at lines 2352--2354
 \EU1/MinionPro(0)/m/n/10.95 писателей и мыслителей. ([]$[][
 ][][] [] [] [] [][] [] [][][][][][][][][] [] [][][] [] [][][][] [] [][][][][][]
 [] [][] [][][][] [] [][][][][][][][][][]$[])
  []
 
-Package mdframed Info: mdframed works in twoside mode on input line 2337.
+Package mdframed Info: mdframed works in twoside mode on input line 2359.
 
-Overfull \hbox (14.51219pt too wide) in paragraph at lines 2362--2363
+Overfull \hbox (14.51219pt too wide) in paragraph at lines 2384--2385
 []\EU1/JannonTModernePro(0)/m/n/10.95 Para escritas não ocidentais também uti
 lizamos o pacote \EU1/Consolas(0)/m/n/10.95 fontspe\EU1/JannonTModernePro(0)/m/
 n/10.95 c e/ou o pacote \EU1/Consolas(0)/m/n/10.95 polyglossia 
@@ -4518,7 +4555,7 @@ n/10.95 c e/ou o pacote \EU1/Consolas(0)/m/n/10.95 polyglossia
 ! For immediate help type H <return>.
 !...............................................  
                                                   
-l.2381  ا
+l.2403  ا
           لعربية أكثر لغات المجموعة السامية م�...
 
 |'''''''''''''''''''''''''''''''''''''''''''''''
@@ -4538,7 +4575,7 @@ l.2381  ا
 ! For immediate help type H <return>.
 !...............................................  
                                                   
-l.2381  ا
+l.2403  ا
           لعربية أكثر لغات المجموعة السامية م�...
 
 |'''''''''''''''''''''''''''''''''''''''''''''''
@@ -4558,7 +4595,7 @@ l.2381  ا
 ! For immediate help type H <return>.
 !...............................................  
                                                   
-l.2381  ا
+l.2403  ا
           لعربية أكثر لغات المجموعة السامية م�...
 
 |'''''''''''''''''''''''''''''''''''''''''''''''
@@ -4578,7 +4615,7 @@ l.2381  ا
 ! For immediate help type H <return>.
 !...............................................  
                                                   
-l.2381  ا
+l.2403  ا
           لعربية أكثر لغات المجموعة السامية م�...
 
 |'''''''''''''''''''''''''''''''''''''''''''''''
@@ -4598,7 +4635,7 @@ l.2381  ا
 ! For immediate help type H <return>.
 !...............................................  
                                                   
-l.2381  ا
+l.2403  ا
           لعربية أكثر لغات المجموعة السامية م�...
 
 |'''''''''''''''''''''''''''''''''''''''''''''''
@@ -4635,13 +4672,13 @@ lif-novoc;"
 . Arabic/BI/ICU:script=arab;language=DFLT;mapping=tex-text;mapping=arabtex-fdf2
 alif-novoc;"
 .................................................
-[72]
-Overfull \hbox (197.62418pt too wide) in paragraph at lines 2420--2420
+[74]
+Overfull \hbox (197.62418pt too wide) in paragraph at lines 2442--2442
 []\EU1/Consolas(0)/m/n/10.95 \setotherlanguage{hebrew} % para o pacote polyglos
 sia, ou \setmainlangauge{hebrew} se hebraico for a língua principal.[]  
  []
 
-[73]
+[75]
 Missing character: There is no 안 in font SimSun/ICU:script=hani;language=DFLT
 ;mapping=tex-text;!
 Missing character: There is no 녕 in font SimSun/ICU:script=hani;language=DFLT
@@ -4662,7 +4699,7 @@ Missing character: There is no 세 in font SimSun/ICU:script=hani;language=DFLT
 ;mapping=tex-text;!
 Missing character: There is no 요 in font SimSun/ICU:script=hani;language=DFLT
 ;mapping=tex-text;!
- [74]
+ [76]
 \openout2 = `abntex2-latexintro.aux'.
 
  (./abntex2-latexintro.tex
@@ -4675,11 +4712,11 @@ onTModernePro(0)/m/n/10.95 e \EU1/Consolas(0)/m/n/10.95 abntex2-alf.sty\EU1/Jan
 nonTModernePro(0)/m/n/10.95 . 
  []
 
-[75
+[77
 
 
 
-] [76]
+] [78]
 Overfull \hbox (0.76003pt too wide) in paragraph at lines 164--164
 []\EU1/Consolas(0)/m/n/10.95 \preambulo{Modelo canônico de trabalho monográfi
 co acadêmico em conformidade com[]  
@@ -4692,147 +4729,144 @@ Overfull \hbox (52.78697pt too wide) in paragraph at lines 166--168
 *}\EU1/JannonTModernePro(0)/m/n/10.95 ): 
  []
 
-) [77] [78
+) [79] [80
 
 
 
 ]
 Capítulo 13.
 
-Overfull \hbox (38.05312pt too wide) in paragraph at lines 2493--2495
+Overfull \hbox (38.05312pt too wide) in paragraph at lines 2515--2517
 []\EU1/JannonTModernePro(0)/m/n/10.95 Para exemplos de como funciona a tipograf
 ia no L[]T[]X, ver: []$[][][][] [] [] [] [][][][][][] [] [][][] [] [][][][][][]
 [][][][][] []$
  []
 
-[79] [80
+[81] [82
 
 
-] [81] [82] [83
+] [83] [84] [85
 
 
-] [84
+] [86
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 2539--2539
+Underfull \hbox (badness 10000) in paragraph at lines 2561--2561
 []|[]\EU1/Consolas(0)/m/n/9 \begin{framed} Uma histó-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2540--2540
+Underfull \hbox (badness 10000) in paragraph at lines 2562--2562
 []|[]\EU1/Consolas(0)/m/n/9 \begin{shaded} Uma histó-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2541--2541
+Underfull \hbox (badness 10000) in paragraph at lines 2563--2563
 []|[]\EU1/Consolas(0)/m/n/9 \begin{snugshade} Uma histó-
  []
 
 
-Underfull \hbox (badness 2521) in paragraph at lines 2541--2541
+Underfull \hbox (badness 2521) in paragraph at lines 2563--2563
 []|\EU1/JannonTModernePro(0)/m/n/9 Texto com sombra de fundo mais
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2542--2542
+Underfull \hbox (badness 10000) in paragraph at lines 2564--2564
 []|[]\EU1/Consolas(0)/m/n/9 \fcolorbox{Magenta}{Gray}{Uma histó-
  []
 
 
-Underfull \hbox (badness 1515) in paragraph at lines 2542--2542
+Underfull \hbox (badness 1515) in paragraph at lines 2564--2564
 []|\EU1/JannonTModernePro(0)/m/n/9 Define a cor da borda e a cor do
  []
 
 
-Underfull \hbox (badness 1082) in paragraph at lines 2543--2543
+Underfull \hbox (badness 1082) in paragraph at lines 2565--2565
 []|\EU1/JannonTModernePro(0)/m/n/9 Um sombreado só do tamanho do
  []
 
 
-Overfull \hbox (82.9904pt too wide) in paragraph at lines 2537--2548
+Overfull \hbox (82.9904pt too wide) in paragraph at lines 2559--2570
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2537--2548
+Underfull \hbox (badness 10000) in paragraph at lines 2559--2570
 
  []
 
-Package mdframed Info: mdframed works in twoside mode on input line 2562.
+Package mdframed Info: mdframed works in twoside mode on input line 2584.
 
 Package mdframed Warning: You got a bad break
 (mdframed)                because the last box will be empty
 (mdframed)                you have to change it manually
 (mdframed)                by changing the text, the space
-(mdframed)                or something else on input line 2565.
+(mdframed)                or something else on input line 2587.
 
-[85] [86] [87
-
-
-] [88
+[87] [88] [89
 
 
-] [89] [90
+] [90
 
 
-] [91]
-Overfull \hbox (0.36496pt too wide) in paragraph at lines 2690--2690
+] [91] [92
+
+
+] [93]
+Overfull \hbox (0.36496pt too wide) in paragraph at lines 2712--2712
 []   \EU1/Consolas(0)/m/n/9 \vspace*{-2.3\baselineskip}\leftbar\textsc{\small\c
 haptername~\thecontentslabel}\\\sffamily}[]  
  []
 
 
-Overfull \hbox (13.72508pt too wide) in paragraph at lines 2690--2690
+Overfull \hbox (13.72508pt too wide) in paragraph at lines 2712--2712
 []\EU1/Consolas(0)/m/n/9 \chapter{Beginning to learn design with HTML and some 
 other text to span more than one line in the ToC}[]  
  []
 
 File: sumario.png Graphic file (type QTm)
-<use  "sumario.png" > [92] [93] [94
+<use  "sumario.png" > [94] [95] [96
 
 
-] [95] [96
+] [97] [98
 
 
 ]
-Overfull \hbox (6.25398pt too wide) in paragraph at lines 2712--2712
+Overfull \hbox (6.25398pt too wide) in paragraph at lines 2734--2734
 []\EU1/JannonTModernePro(0)/m/n/10.95 Bringhurst, Robert. \EU1/JannonTModernePr
 o(0)/m/it/10.95 The Elements of Typographic Style: Version 4.0: 20th Anniversar
 y Edition\EU1/JannonTModernePro(0)/m/n/10.95 . Fourth
  []
 
-[97] [98
+[99] [100
 
 
 ]
 LaTeX Font Info:    Font shape `U/ccicons/m/n' will be
-(Font)              scaled to size 9.0pt on input line 2722.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2727.
- [99
+(Font)              scaled to size 9.0pt on input line 2744.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2749.
+ [101
 
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 2727.
- (./introducaolatex-final.aux (./texto-bibliografia.aux)
-(./biblatex.aux) (./parallel.aux) (./lineno.aux) (./abntex2-latexintro.aux))
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 2727.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 2727.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 2749.
+ (./introducaolatex-final.aux (./indices.aux)
+(./texto-bibliografia.aux) (./biblatex.aux) (./parallel.aux) (./lineno.aux)
+(./abntex2-latexintro.aux))
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 2749.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 2749.
 Package logreq Info: Writing requests to 'introducaolatex-final.run.xml'.
 \openout1 = `introducaolatex-final.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 39570 strings out of 493994
- 760511 string characters out of 3153359
- 1154408 words of memory out of 3000000
- 41960 multiletter control sequences out of 15000+200000
+ 39581 strings out of 493994
+ 760655 string characters out of 3153359
+ 1156869 words of memory out of 3000000
+ 41964 multiletter control sequences out of 15000+200000
  22892 words of font info for 232 fonts, out of 3000000 for 9000
  1144 hyphenation exceptions out of 8191
- 62i,19n,66p,1261b,1543s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,19n,66p,1261b,1544s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on introducaolatex-final.pdf (113 pages).
+Output written on introducaolatex-final.pdf (115 pages).

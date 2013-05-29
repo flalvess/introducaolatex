@@ -12,6 +12,11 @@
 \usepackage[dvipsnames]{xcolor}
 \usepackage{xspace}
 \usepackage{amssymb}
+\usepackage{mdframed}
+\usepackage{makeidx}
+\makeindex
+%\usepackage{showidx}
+\usepackage{hyperref}
 
 
 
@@ -23,7 +28,7 @@
 
 Um dos motivos que levou D. Knuth a desenvolver o \TeX{} foi poder dar ao usuário, e não somente ao tipógrafo profissional, a capacidade de construir fórmulas e matemáticas com aparência profissional. Enquanto que  o \LaTeX, por si só, dá conta fórmulas matemáticas comuns, par fórmulas mais complicadas e outros recursos podemos utilizar um dos dois pacotes: \textsf{amsmath} ou \textsf{mathtools}. (O pacote \textsf{mathtools} estende as funcionalidades do \textsf{amsmath}.)
 
-Elementos matemáticos podem ser inseridos de duas formas: no texto (\textit{inline}) ou destacado do texto (\textit{display}). Para inserir elementos matemáticos (equações etc.) juntamente com o texto, o modo mais fácil para alterar para o ``modo matemático'' é utilizar cifrões: \verb+$ a^2 - \sqrt{2} $+ = $ a^2 - \sqrt{2} $. Para elementos destacados do texto, pode-se utilizar o ambiente \texttt{displaymath} (\verb+\begin{displaymath}...\end{displaymath}+) ou o ``atalho'' -- para \LaTeX{}, \verb+\[...\]+, para \TeX{} \verb+$$...$$+. Utilizar este último é desencorajado, pois podem resultar problemas, particularmente com as macros do AMS-\LaTeX. Para inserir uma equação numerada, pode-se empregar o ambiente \texttt{equation}:
+Elementos matemáticos podem ser inseridos de duas formas: no texto (\textit{inline}) ou destacado do texto (\textit{display}). Para inserir elementos matemáticos (equações etc.) juntamente com o texto, o modo mais fácil para alterar para o ``modo matemático'' é utilizar cifrões: \verb+$ a^2 - \sqrt{2} $+ = $ a^2 - \sqrt{2} $.\index{\verb+$...$+} Para elementos destacados do texto, pode-se utilizar o ambiente \texttt{displaymath} (\verb+\begin{displaymath}...\end{displaymath}+)\index{\texttt{displaymath}} ou o ``atalho'' -- para \LaTeX{}, \verb+\[...\]+,\index{\verb+\[...\]+} para \TeX{} \verb+$$...$$+.\index{\verb+$$...$$+} Utilizar este último é desencorajado, pois podem resultar problemas, particularmente com as macros do AMS-\LaTeX. Para inserir uma equação numerada, pode-se empregar o ambiente \texttt{equation}:\index{\texttt{equation}}\index{Equações numeradas}
 
 \begin{verbatim}
 \begin{equation}
@@ -37,11 +42,11 @@ x = \dfrac{-b \pm \sqrt{b^2 - 4ac}}{2a}
 \end{equation}
 
 
-Em modo matemático, insere-se sobrescritos com o acento circunflexo (\verb+^+) e subscritos com ``underline'' (\verb+_+)
+Em modo matemático, insere-se sobrescritos \index{Sobrescrito} com o acento circunflexo (\verb+^+) e subscritos \index{Subscrito} com ``underline'' (\verb+_+)
 
 Bons editores fornecem uma enorme quantidade de símbolos, e a maioria dos símbolos mais comuns tem um nome em inglês facilmente memorizável. Para a maior lista possível, vide \textit{The Comprehensive \LaTeX{} symbols list}, de Scott Pakin (\verb+texdoc symbols+ no prompt de comando ou, \textit{inter alia}, \url{http://www.las.ic.unicamp.br/pub/ctan/info/symbols/comprehensive/symbols-a4.pdf}). 
 
-Por exemplo, \verb+\sqrt+ = \textit{square root}; \verb+\binom+ = binomial, \verb+\frac{num}{den}+ = \textit{fração, numerador e denominador}; \verb+\dfrac+ = \textit{display fraction}. Os comandos do \textsf{amsmath} \verb+\over+ (``sobre'') e \verb+\choose+ (``escolher'') equivalem, respectivamente, a frações e binômios:
+Por exemplo, \verb+\sqrt+\index{\verb+\sqrt+} = \textit{square root}; \verb+\binom+ \index{ \verb+\binom+}= binomial, \verb+\frac{num}{den}+ = \textit{fração, numerador e denominador}; \verb+\dfrac+ = \textit{display fraction}. Os comandos do \textsf{amsmath} \verb+\over+ (``sobre'') e \verb+\choose+ (``escolher'') equivalem, respectivamente, a frações e binômios:
 
 
 
@@ -67,7 +72,7 @@ Por exemplo, \verb+\sqrt+ = \textit{square root}; \verb+\binom+ = binomial, \ver
 
 \[ \sqrt[n]{1+x+x^2+x^3+\ldots} \]
 
-Equações contínuas podem ser inseridas com o comando \verb+\cfrac+:
+Equações contínuas\index{Equações contínuas} podem ser inseridas com o comando \verb+\cfrac+:\index{\verb+\cfrac+}
 
 \begin{verbatim}
 
@@ -88,7 +93,7 @@ Equações contínuas podem ser inseridas com o comando \verb+\cfrac+:
 \bigskip
 
 
-Somas e integrais podem ser inseridas com \verb+\sum+ e \verb+\int+:
+Somas e integrais \index{Somas e integrais} podem ser inseridas com \verb+\sum+ \index{\verb+\sum+} e \verb+\int+:\index{\verb+\int+}
 
 \begin{tabular}{cc}
 \begin{minipage}{0.4\textwidth}
@@ -98,8 +103,7 @@ Somas e integrais podem ser inseridas com \verb+\sum+ e \verb+\int+:
 
 \bigskip
 
-É possível escrever partes que não estejam em itálico com o comando \verb+\mathrm{}+:
-
+É possível escrever partes que não estejam em itálico com o comando \verb+\mathrm{}+\index{\verb+\mathrm{}+}:
 
 
 \begin{tabular}{cc}
@@ -110,8 +114,7 @@ Somas e integrais podem ser inseridas com \verb+\sum+ e \verb+\int+:
 
 \bigskip
 
-Para especificar limites acima e abaixo de uma integral:
-
+Para especificar limites\index{Limites} acima e abaixo de uma integral:
 
 
 \begin{tabular}{cc}
@@ -121,7 +124,7 @@ Para especificar limites acima e abaixo de uma integral:
 \end{tabular}
 
 
-Delimitadores -- parênteses, colchetes, chaves etc. (pacote \textsf{amssymb}):
+Delimitadores -- parênteses, colchetes, chaves etc. (pacote \textsf{amssymb}):\index{Delimitadores}
 
 \bigskip
 
@@ -145,7 +148,7 @@ Delimitadores -- parênteses, colchetes, chaves etc. (pacote \textsf{amssymb}):
 \bigskip
 
 
-Uma das praticidades do \LaTeX{} é que ele formata automaticamente o tamanho dos elementos e símbolos matemáticos, seja no texto ou destacado, de forma que o usuário não precisa de se preocupar com o tamanho do parêntese, da raiz etc. Para fórmulas com elementos de vários tamanhos, pode ser útil utilizar os comandos \verb+\left+ e \verb+\right+ para formatar o tamanho dos delimitadores (ver acima). 
+Uma das praticidades do \LaTeX{} é que ele formata automaticamente o tamanho dos elementos e símbolos matemáticos, seja no texto ou destacado, de forma que o usuário não precisa de se preocupar com o tamanho do parêntese, da raiz etc. Para fórmulas com elementos de vários tamanhos, pode ser útil utilizar os comandos \verb+\left+ \index{\verb+\left+}e \verb+\right+\index{\verb+\right+} para formatar o tamanho dos delimitadores (ver acima). 
 
 
 \begin{center}
@@ -166,7 +169,7 @@ Uma das praticidades do \LaTeX{} é que ele formata automaticamente o tamanho do
 
 \medskip
 
-Matrizes podem ser inseridas, à maneira de tabelas (utilizando \& e \verb+\\+), com o ambiente\ldots{} \texttt{matrix}:
+Matrizes \index{Matrizes} podem ser inseridas, à maneira de tabelas (utilizando \& e \verb+\\+), com o ambiente\ldots{} \texttt{matrix}:\index{\texttt{matrix}}
 
 \medskip
 
@@ -192,6 +195,7 @@ Matrizes podem ser inseridas, à maneira de tabelas (utilizando \& e \verb+\\+),
 \end{center}
 
 \medskip
+
 
 \begin{center}
 \fcolorbox{black}{lightgray}{Não se esqueça que o ambiente \texttt{matrix} deve ser posto em modo matemático.}
@@ -232,7 +236,7 @@ Para especificar o alinhamento da matriz, utilize a versão com * (pacote \texts
 
 \bigskip
 
- O ambiente \texttt{cases} (pacote \textsf{amsmath}) permite escrever funções parte a parte:
+ O ambiente \texttt{cases}\index{\texttt{cases}} (pacote \textsf{amsmath}) permite escrever funções parte a parte:
  
  \begin{tabular}{cc}
 \begin{minipage}{0.4\textwidth}
@@ -259,7 +263,7 @@ Para especificar o alinhamento da matriz, utilize a versão com * (pacote \texts
 \end{minipage}
  \end{tabular}
  
- Ou então listas subdivididas com chaves (notar \verb+\text{}+ para texto dentro do modo matemático):
+ Ou então listas subdivididas com chaves (notar \verb+\text{}+ para texto dentro do modo matemático):\index{\texttt{dcases}}
  
 \begin{center}
   \begin{tabular}{cc}
@@ -350,4 +354,30 @@ Para especificar o alinhamento da matriz, utilize a versão com * (pacote \texts
 
 
 % fazer align!
+
+Para a elaboração de equações ou fórmulas complexas, sugiro que a melhor forma a fazer é, depois de escrita a equação à mão numa folha, inserir os elementos na seguinte ordem: primeiro as partes maiores, depois os numeradores e depois os denominadores. Essa ordem é a mesma ordem de leitura dos elementos. É aconselhável também separar cada conjunto de elementos por linha de código, facilitando sua visualização. Um exemplo do livro \textit{Math into \LaTeX}, de George Grätzer (p. 22):
+
+\[
+\sum_{i = 1}^{ \left[ \frac{n}{2} \right] }
+\binom{ x_{i, i + 1}^{i^{2}} }
+{ \left[ \frac{i + 3}{3} \right] }
+\frac{ \sqrt{ \mu(i)^{ \frac{3}{2}} (i^{2} - 1) } }
+{ \sqrt[3]{\rho(i) - 2} + \sqrt[3]{\rho(i) - 1} }
+\]
+
+
+\begin{verbatim}
+\[
+\sum_{i = 1}^{ \left[ \frac{n}{2} \right] }
+\binom{ x_{i, i + 1}^{i^{2}} }
+{ \left[ \frac{i + 3}{3} \right] }
+\frac{ \sqrt{ \mu(i)^{ \frac{3}{2}} (i^{2} - 1) } }
+{ \sqrt[3]{\rho(i) - 2} + \sqrt[3]{\rho(i) - 1} }
+\]
+\end{verbatim}
+
+
+
+\printindex
+
  \end{document}

@@ -1,0 +1,46 @@
+\begin{theindex}
+
+  \item \texttt{cases}, \hyperpage{3}
+  \item \texttt{dcases}, \hyperpage{4}
+  \item \texttt{displaymath}, \hyperpage{1}
+  \item \texttt{equation}, \hyperpage{1}
+  \item \texttt{matrix}, \hyperpage{3}
+  \item \verb+$$...$$+, \hyperpage{1}
+  \item \verb+$...$+, \hyperpage{1}
+  \item \verb+\[...\]+, \hyperpage{1}
+  \item \verb+\cfrac+, \hyperpage{2}
+  \item \verb+\int+, \hyperpage{2}
+  \item \verb+\left+, \hyperpage{3}
+  \item \verb+\mathrm{}+, \hyperpage{2}
+  \item \verb+\right+, \hyperpage{3}
+  \item \verb+\sqrt+, \hyperpage{1}
+  \item \verb+\sum+, \hyperpage{2}
+
+  \indexspace
+
+  \item  \verb+\binom+, \hyperpage{1}
+
+  \indexspace
+
+  \item Delimitadores, \hyperpage{3}
+
+  \indexspace
+
+  \item Equações contínuas, \hyperpage{2}
+  \item Equações numeradas, \hyperpage{1}
+
+  \indexspace
+
+  \item Limites, \hyperpage{2}
+
+  \indexspace
+
+  \item Matrizes, \hyperpage{3}
+
+  \indexspace
+
+  \item Sobrescrito, \hyperpage{1}
+  \item Somas e integrais, \hyperpage{2}
+  \item Subscrito, \hyperpage{1}
+
+\end{theindex}

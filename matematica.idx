@@ -1,0 +1,24 @@
+\indexentry{\verb+$...$+|hyperpage}{1}
+\indexentry{\texttt{displaymath}|hyperpage}{1}
+\indexentry{\verb+\[...\]+|hyperpage}{1}
+\indexentry{\verb+$$...$$+|hyperpage}{1}
+\indexentry{\texttt{equation}|hyperpage}{1}
+\indexentry{Equações numeradas|hyperpage}{1}
+\indexentry{Sobrescrito|hyperpage}{1}
+\indexentry{Subscrito|hyperpage}{1}
+\indexentry{\verb+\sqrt+|hyperpage}{1}
+\indexentry{ \verb+\binom+|hyperpage}{1}
+\indexentry{Equações contínuas|hyperpage}{2}
+\indexentry{\verb+\cfrac+|hyperpage}{2}
+\indexentry{Somas e integrais|hyperpage}{2}
+\indexentry{\verb+\sum+|hyperpage}{2}
+\indexentry{\verb+\int+|hyperpage}{2}
+\indexentry{\verb+\mathrm{}+|hyperpage}{2}
+\indexentry{Limites|hyperpage}{2}
+\indexentry{Delimitadores|hyperpage}{3}
+\indexentry{\verb+\left+|hyperpage}{3}
+\indexentry{\verb+\right+|hyperpage}{3}
+\indexentry{Matrizes|hyperpage}{3}
+\indexentry{\texttt{matrix}|hyperpage}{3}
+\indexentry{\texttt{cases}|hyperpage}{3}
+\indexentry{\texttt{dcases}|hyperpage}{4}
